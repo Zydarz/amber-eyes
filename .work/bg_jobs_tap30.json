@@ -210,11 +210,39 @@
     "prompt": "Dark room illuminated solely by forensic ultraviolet blue light, glowing luminescent latent spatter patterns revealed on wall baseboard."
   },
   {
+    "name": "t30_a1_x01_wall_hasty_fresh_paint_cleaning_traces",
+    "act": 1,
+    "sentences": "1.03#14,1.03#15",
+    "desc": "Bức tường căn hộ mới sơn vội và dụng cụ lau rửa còn ướt.",
+    "prompt": "Freshly painted patch on an apartment wall with uneven rushed brushstrokes, a bucket and a mop left on a damp tiled floor under a cold bare bulb, harsh sterile atmosphere, no writing anywhere."
+  },
+  {
+    "name": "t30_a1_x02_uv_lamp_beam_on_white_wall",
+    "act": 1,
+    "sentences": "1.03#16,1.03#17",
+    "desc": "Chùm đèn cực tím quét dọc tường trắng và khe cửa.",
+    "prompt": "Ultraviolet forensic lamp beam sweeping across a bare white apartment wall and door frame, faint violet glowing patterns in abstract form, investigator seen only as a silhouette from behind, cold laboratory mood."
+  },
+  {
     "name": "t30_a1_31_panicked_neighbors_whispering",
     "act": 1,
     "sentences": "1.04#1",
     "desc": "Ánh mắt bàng hoàng của các cư dân chung cư nhìn qua khe cửa hé mở: Nỗi sợ hãi tột độ bao trùm cả tòa nhà G4.",
     "prompt": "Shadowy figures of concerned apartment neighbors whispering behind partly opened doorway, heavy dramatic shadows."
+  },
+  {
+    "name": "t30_a1_x03_stained_ceiling_panel_stairwell_hanoi",
+    "act": 1,
+    "sentences": "1.04#2,1.04#3",
+    "desc": "Trần cầu thang chung cư Hà Nội với tấm trần ố vàng lặng lẽ.",
+    "prompt": "Stained ceiling panel above a dim stairwell landing in a Hanoi apartment tower, a single weak bulb, peeling paint, uneasy stillness, no signage or lettering."
+  },
+  {
+    "name": "t30_a1_x04_locked_apartment_doors_corridor_night",
+    "act": 1,
+    "sentences": "1.04#4,1.04#5",
+    "desc": "Hành lang chung cư đêm, các cửa nhà khóa chặt, thang máy đóng.",
+    "prompt": "Long night corridor of a Hanoi apartment tower with every door shut and chained, an elevator with closed doors at the end, pale light, nobody present, tense silence."
   },
   {
     "name": "t30_a1_32_intellectual_halo_effect_concept",
@@ -236,6 +264,48 @@
     "sentences": "1.05#3",
     "desc": "Chiếc gương nứt vỡ phản chiếu bóng đen không có khuôn mặt: Cơ chế tâm lý tẩy xóa nhận dạng nạn nhân để tự ru ngủ lương tri.",
     "prompt": "Cracked vintage mirror reflecting a faceless shadowy silhouette in dark room, psychological dread and fragmentation."
+  },
+  {
+    "name": "t30_a1_x05_porcelain_smile_mask_on_tidy_desk",
+    "act": 1,
+    "sentences": "1.05#4",
+    "desc": "Chiếc mặt nạ sứ đặt cạnh bàn học ngăn nắp: vẻ ngoài hoàn hảo.",
+    "prompt": "A clean white porcelain smiling mask resting on a tidy student desk beside neatly stacked books, dark shadow gathering behind it, soft cold light, no text on the books."
+  },
+  {
+    "name": "t30_a1_x06_bystanders_walking_past_closed_door",
+    "act": 1,
+    "sentences": "1.05#5,1.05#6",
+    "desc": "Những bóng người đi ngang cánh cửa đóng mà không ai ngoái nhìn.",
+    "prompt": "Silhouettes of residents walking past a closed apartment door in a long corridor, none looking at it, cold flat lighting, indifference and distance, faces hidden."
+  },
+  {
+    "name": "t30_a1_x07_high_rise_windows_curtains_drawn_gap",
+    "act": 1,
+    "sentences": "1.05#7,1.05#8",
+    "desc": "Khối nhà cao tầng với những ô cửa sáng đèn nhưng rèm kín.",
+    "prompt": "Dense high-rise apartment block facade at night, rows of lit windows with curtains drawn, wide dark gaps between them, lonely urban isolation, no signage."
+  },
+  {
+    "name": "t30_a1_x08_faceless_wooden_mannequin_dark_table",
+    "act": 1,
+    "sentences": "1.05#9,1.05#10",
+    "desc": "Hình nộm gỗ không mặt dưới một luồng sáng đơn độc.",
+    "prompt": "Smooth faceless wooden mannequin torso with a blank featureless head on a dark table under one stark spotlight, concept of erased identity, deep shadows."
+  },
+  {
+    "name": "t30_a1_x09_identification_lab_blank_cards_silhouette",
+    "act": 1,
+    "sentences": "1.05#11,1.05#12",
+    "desc": "Bàn phòng thí nghiệm nhận dạng với những thẻ trống và bóng một điều tra viên.",
+    "prompt": "Forensic identification laboratory table with completely blank index cards and a closed folder with no writing, a lone investigator silhouette standing back to the viewer, cold light."
+  },
+  {
+    "name": "t30_a1_x10_photograph_face_down_empty_chair",
+    "act": 1,
+    "sentences": "1.05#13,1.05#14",
+    "desc": "Khung ảnh úp mặt trên tủ, chiếc ghế trống trong phòng tối.",
+    "prompt": "A framed photograph lying face down on a dresser in a dim bedroom, an empty chair beside it, soft shadows and heavy stillness, no people."
   },
   {
     "name": "t30_a2_01_nguyen_duc_nghia_polite_exterior",
@@ -290,8 +360,8 @@
     "name": "t30_a2_08_reunion_invitation_deceit",
     "act": 2,
     "sentences": "2.02#8",
-    "desc": "Lời hẹn gặp bạn cũ qua tin nhắn ngọt ngào: Chiếc bẫy tâm lý giăng sẵn cho người yêu thời sinh viên.",
-    "prompt": "Retro phone screen displaying friendly reunion text message, soft deceptive lighting, lingering sense of foreboding."
+    "desc": "Chiếc điện thoại cũ trên bàn, màn hình tối, ánh sáng nhịp nhẹ báo tin.",
+    "prompt": "Retro mobile phone resting on a table with a dark screen and a soft pulse of light, deceptive friendly mood, lingering sense of foreboding, nothing readable on the screen."
   },
   {
     "name": "t30_a2_09_nostalgic_college_romance_memories",
@@ -306,6 +376,34 @@
     "sentences": "2.02#10",
     "desc": "Bóng đen đứng nhìn qua rèm cửa sổ căn hộ 1101 chờ đợi nạn nhân đến: Sự tính toán lạnh lùng không còn nhân tính.",
     "prompt": "Silhouette standing behind sheer window curtains overlooking city street below, holding hidden intentions in dark room."
+  },
+  {
+    "name": "t30_a2_x01_friend_visit_warm_hallway_old_bicycles",
+    "act": 2,
+    "sentences": "2.02#11,2.02#12",
+    "desc": "Cánh cửa mở ra hành lang ấm áp, hai chiếc xe đạp cũ thời sinh viên.",
+    "prompt": "Warm hallway light spilling from a half-open apartment door in a Hanoi tower, two old university bicycles leaning in the stairwell, a visitor's silhouette from behind, nostalgic soft glow."
+  },
+  {
+    "name": "t30_a2_x02_debt_desk_slips_calculator_key",
+    "act": 2,
+    "sentences": "2.02#13,2.02#14",
+    "desc": "Bàn lộn xộn với tờ giấy trống, máy tính bỏ túi và chìa khóa xe máy.",
+    "prompt": "Cluttered young man's desk with scattered completely blank paper slips, a calculator and a motorbike key under a dim lamp, calculating and anxious mood, no writing."
+  },
+  {
+    "name": "t30_a2_x03_empty_living_room_curtains_drawn",
+    "act": 2,
+    "sentences": "2.02#15,2.02#16",
+    "desc": "Phòng khách trống, rèm kéo kín, bóng dài nơi ngưỡng cửa.",
+    "prompt": "Empty apartment living room with curtains drawn and a chair pushed neatly in, a long shadow across the doorway, quiet and ominous, nobody present."
+  },
+  {
+    "name": "t30_a2_x04_scooter_key_and_closed_laptop",
+    "act": 2,
+    "sentences": "2.02#17,2.02#18",
+    "desc": "Chìa khóa xe tay ga bên chiếc laptop đóng, kỷ vật mờ phía sau.",
+    "prompt": "Silver scooter key beside a closed laptop on a bare table, a faded student-era keepsake blurred in the background, cold light, nothing readable."
   },
   {
     "name": "t30_a2_11_apartment_1101_interior_trap",
@@ -346,8 +444,8 @@
     "name": "t30_a2_16_pawn_shop_district_dang_dung",
     "act": 2,
     "sentences": "2.03#6",
-    "desc": "Phố Đặng Dung nổi tiếng với các tiệm cầm đồ sáng đèn neon trong đêm: Nơi kẻ thủ ác mang tài sản cướp được đi thế chấp.",
-    "prompt": "Narrow Hanoi street at night lined with neon pawn shop signs reflecting on wet asphalt, gritty noir urban underground."
+    "desc": "Con phố nhỏ Hà Nội về đêm, ánh neon phản chiếu trên nhựa đường ướt.",
+    "prompt": "Narrow Hanoi street at night with soft neon glow reflecting on wet asphalt, shopfronts shuttered, no signs or lettering visible, gritty noir urban underground."
   },
   {
     "name": "t30_a2_17_pawning_stolen_scooter_and_laptop",
@@ -367,8 +465,8 @@
     "name": "t30_a2_19_fake_alibi_texting_victim_phone",
     "act": 2,
     "sentences": "2.03#9",
-    "desc": "Ngón tay bấm tin nhắn trên chiếc điện thoại của nạn nhân gửi cho gia đình: Tạo dựng chứng cứ ngoại phạm giả đầy toan tính.",
-    "prompt": "Extreme close-up of fingers typing deceptive text messages on mobile phone keypad, illuminating cold face in darkness."
+    "desc": "Những ngón tay trên bàn phím điện thoại trong bóng tối, ánh màn hình lạnh.",
+    "prompt": "Extreme close-up of fingers over a mobile phone keypad in darkness, cold screen glow on the hands, nothing readable on the screen, deceptive calm."
   },
   {
     "name": "t30_a2_20_deliberate_chain_of_actions",
@@ -376,6 +474,34 @@
     "sentences": "2.03#10",
     "desc": "Chuỗi hành động bài bản từ dọn dẹp, cầm đồ đến gửi tin nhắn: Bác bỏ hoàn toàn luận điệu ghen tuông bộc phát.",
     "prompt": "Flow of forensic evidence tags connected by red string on detective corkboard, timeline of calculated premeditated steps."
+  },
+  {
+    "name": "t30_a2_x05_bucket_rags_beside_closed_apartment_door",
+    "act": 2,
+    "sentences": "2.03#11",
+    "desc": "Xô và giẻ lau đặt cạnh cánh cửa căn hộ đóng.",
+    "prompt": "Bucket and rags beside a closed apartment door on a damp floor under a harsh overhead bulb, a long cleanup implied, no people."
+  },
+  {
+    "name": "t30_a2_x06_pawn_shop_street_dusk_scooter_parked",
+    "act": 2,
+    "sentences": "2.03#12",
+    "desc": "Tiệm cầm đồ trên phố nhỏ lúc chạng vạng, chiếc xe máy đỗ ngoài.",
+    "prompt": "Narrow Hanoi street pawn shop exterior at dusk with shutters half open and a scooter parked outside, warm dull lights, no signage or lettering at all."
+  },
+  {
+    "name": "t30_a2_x07_smartphone_dark_screen_glow_deceptive",
+    "act": 2,
+    "sentences": "2.03#13,2.03#14",
+    "desc": "Điện thoại nằm trên bàn tối, ánh báo nhẹ: sự yên tĩnh giả tạo.",
+    "prompt": "A smartphone lying on a dark table with a dark screen and a faint notification glow, deceptive calm, shallow focus, nothing readable on screen."
+  },
+  {
+    "name": "t30_a2_x08_scooter_keys_folded_bills_counter",
+    "act": 2,
+    "sentences": "2.03#15,2.03#16",
+    "desc": "Chìa khóa xe và xấp tiền gấp đặt trên quầy, bóng bàn tay người bán.",
+    "prompt": "Scooter keys and a small bundle of folded bills on a shop counter, shadowed hands of a clerk, cold light, no text or numerals."
   },
   {
     "name": "t30_a2_21_compartmentalized_mind_concept",
@@ -469,6 +595,27 @@
     "prompt": "Spectacles resting folded on black satin cloth, subtle ray of amber light cutting across lenses, quiet dramatic closing."
   },
   {
+    "name": "t30_a2_x09_porcelain_mask_on_strings_puppeteer",
+    "act": 2,
+    "sentences": "2.04#14,2.04#15",
+    "desc": "Chiếc mặt nạ sứ treo trên dây mảnh, bóng bàn tay điều khiển.",
+    "prompt": "A fragile porcelain mask held up by thin strings in a dark room, shadowy puppeteer hands above, manipulation concept, faces hidden."
+  },
+  {
+    "name": "t30_a2_x10_womens_sandals_at_doorway_warm_lamp",
+    "act": 2,
+    "sentences": "2.04#16,2.04#17",
+    "desc": "Đôi dép nữ đặt ngay ngắn trước cửa, đèn ấm bên trong.",
+    "prompt": "Pair of women's sandals placed neatly by an apartment entrance, warm lamp inside, unsettling calm, no people."
+  },
+  {
+    "name": "t30_a2_x11_tidy_jacket_silhouette_hollow_doorway",
+    "act": 2,
+    "sentences": "2.04#18,2.04#19",
+    "desc": "Bóng người áo gọn gàng ở ngưỡng cửa, phía sau là khoảng tối rỗng.",
+    "prompt": "Silhouette of a figure in a tidy student jacket standing in a doorway with a hollow dark interior behind, elegant but empty, face hidden."
+  },
+  {
     "name": "t30_a3_01_manhunt_thai_nguyen_night_raid",
     "act": 3,
     "sentences": "3.02#1",
@@ -525,6 +672,34 @@
     "prompt": "Dramatic side lighting capturing subtle bead of sweat on suspect's temple, micro-expressions of cracking composure."
   },
   {
+    "name": "t30_a3_x01_thai_nguyen_village_road_dusk_distant_walker",
+    "act": 3,
+    "sentences": "3.02#9,3.02#10",
+    "desc": "Con đường làng Thái Nguyên lúc chiều tối, một bóng người đi xa.",
+    "prompt": "Rural Thai Nguyen village road at dusk, tiled-roof house, a lone distant silhouette walking, hills in haze, quiet and tense."
+  },
+  {
+    "name": "t30_a3_x02_detectives_wall_map_pins_blank",
+    "act": 3,
+    "sentences": "3.02#11",
+    "desc": "Bóng các trinh sát trước tấm bản đồ ghim trống.",
+    "prompt": "Silhouettes of detectives studying a large wall map with pins and strings in a police office at night, map completely blank with no labels or writing, cold light."
+  },
+  {
+    "name": "t30_a3_x03_handcuffs_streetlamp_night_road",
+    "act": 3,
+    "sentences": "3.02#12,3.02#13",
+    "desc": "Chiếc còng số tám dưới ánh đèn đường, ánh pha xe và bóng cảnh sát.",
+    "prompt": "Close-up of metal handcuffs on a night road under a single streetlamp, headlight glow and silhouettes of officers, the illusion of a perfect crime ending."
+  },
+  {
+    "name": "t30_a3_x04_porcelain_mask_shattering_stone_floor",
+    "act": 3,
+    "sentences": "3.02#14",
+    "desc": "Chiếc mặt nạ sứ vỡ tan trên nền đá.",
+    "prompt": "A porcelain student mask shattering on a stone floor, fragments suspended in slow motion against dark background, dramatic noir light."
+  },
+  {
     "name": "t30_a3_09_veteran_detectives_tactical_strategy",
     "act": 3,
     "sentences": "3.03#1",
@@ -542,8 +717,8 @@
     "name": "t30_a3_11_micro_blood_spatter_behind_bookshelf",
     "act": 3,
     "sentences": "3.03#3",
-    "desc": "Ảnh chụp chứng cứ kỹ thuật hình sự: Vết máu siêu vi ẩn sâu sau giá sách căn hộ 1101 được đặt lên bàn thẩm vấn.",
-    "prompt": "Forensic photo of microscopic blood spatter behind wooden bookshelf being slid across wooden interrogation table."
+    "desc": "Tủ sách kéo ra khỏi tường lộ vết nhạt dưới đèn cực tím.",
+    "prompt": "Forensic photograph of a wooden bookshelf slid away from a wall exposing faint pale marks under ultraviolet light on bare plaster, cold laboratory mood, nothing readable."
   },
   {
     "name": "t30_a3_12_pawn_receipt_and_witness_statement",
@@ -579,6 +754,34 @@
     "sentences": "3.03#8",
     "desc": "Sự ngạo mạn của cựu sinh viên Ngoại thương cúi đầu trước bản lĩnh và kinh nghiệm của cảnh sát hình sự Thủ đô.",
     "prompt": "Suspect lowering his head, glasses sliding down nose bridge, dark shadows engulfing his hunched posture."
+  },
+  {
+    "name": "t30_a3_x05_hanoi_police_hq_gate_night_guards_silhouette",
+    "act": 3,
+    "sentences": "3.03#9,3.03#10",
+    "desc": "Cổng trụ sở công an về đêm, bóng lính gác.",
+    "prompt": "Wrought-iron gate of a police headquarters compound in Hanoi at night, guards' silhouettes, wet pavement, no signage or lettering."
+  },
+  {
+    "name": "t30_a3_x06_steel_table_chair_pushed_back_hanging_lamp",
+    "act": 3,
+    "sentences": "3.03#11,3.03#12",
+    "desc": "Bàn thép và hai chiếc ghế dưới đèn treo, một ghế đẩy lùi.",
+    "prompt": "Bare interrogation room with a steel table and two chairs under a hanging lamp, one chair pushed back, harsh shadows, nobody visible."
+  },
+  {
+    "name": "t30_a3_x07_bowed_silhouette_at_table_officers_standing",
+    "act": 3,
+    "sentences": "3.03#13,3.03#14",
+    "desc": "Bóng người cúi đầu ở bàn, các điều tra viên đứng quanh.",
+    "prompt": "Silhouette of a man bowed forward with head lowered at a table, officers standing around as dark shapes, heavy door behind, faces hidden."
+  },
+  {
+    "name": "t30_a3_x08_blank_sheets_pen_across_paper",
+    "act": 3,
+    "sentences": "3.03#15,3.03#16",
+    "desc": "Những tờ giấy trắng trải trên bàn, chiếc bút nằm ngang.",
+    "prompt": "Several completely blank white sheets spread on a desk with a pen lying across them, cold lamp light, completely blank and unmarked with no writing at all."
   },
   {
     "name": "t30_a3_17_full_confession_handwritten_statement",
@@ -635,6 +838,20 @@
     "sentences": "3.04#8",
     "desc": "Hồ sơ chuyên án dày cộm được đóng dấu hoàn tất: Chuỗi chứng cứ khép kín không còn một kẽ hở pháp lý.",
     "prompt": "Thick red leather case binder stamped with gold official seals, neatly bound evidence exhibits and autopsy reports."
+  },
+  {
+    "name": "t30_a3_x09_compressed_spring_on_dark_table",
+    "act": 3,
+    "sentences": "3.04#9,3.04#10",
+    "desc": "Chiếc lò xo bị nén trên bàn tối, sắp bật ra.",
+    "prompt": "A tightly compressed metal spring on a dark table about to release, dramatic raking light, cognitive tension concept."
+  },
+  {
+    "name": "t30_a3_x10_long_corridor_door_open_pale_morning",
+    "act": 3,
+    "sentences": "3.04#11,3.04#12",
+    "desc": "Hành lang dài, ở cuối cánh cửa mở ra ánh sáng nhạt.",
+    "prompt": "Long dark corridor with a distant door open onto pale morning light, a far silhouette walking slowly toward it, a long and painful road."
   },
   {
     "name": "t30_a3_25_crime_scene_reconstruction_security",
@@ -714,6 +931,20 @@
     "prompt": "Prosecutor in formal uniform standing at podium reading official indictment papers, microphone catching every word in silent room."
   },
   {
+    "name": "t30_a4_x01_tv_camera_aimed_at_empty_chair",
+    "act": 4,
+    "sentences": "4.02#5,4.02#6",
+    "desc": "Máy quay truyền hình hướng vào chiếc ghế trống trong phòng xử.",
+    "prompt": "A television camera on a tripod aimed at an empty witness chair in a courtroom, tally light off, cold diffuse light, no people."
+  },
+  {
+    "name": "t30_a4_x02_courtroom_bench_flowers_glasses_resting",
+    "act": 4,
+    "sentences": "4.02#7,4.02#8",
+    "desc": "Băng ghế phòng xử: bông cúc trắng và cặp kính cận đặt cạnh.",
+    "prompt": "Black-framed empty picture stand with a white chrysanthemum on a courtroom bench, a pair of wire-rimmed glasses resting beside it, heavy silence, no faces."
+  },
+  {
     "name": "t30_a4_05_hoang_thi_yen_trembling_in_dock",
     "act": 4,
     "sentences": "4.03#1",
@@ -728,6 +959,27 @@
     "prompt": "Defendant turning slightly to look towards crying co-defendant, whispering words of apology across wooden barrier in soft spotlight."
   },
   {
+    "name": "t30_a4_x03_two_elderly_silhouettes_opposite_bench_ends",
+    "act": 4,
+    "sentences": "4.03#3,4.03#4",
+    "desc": "Hai bóng người già ngồi hai đầu băng ghế, khoảng cách rộng.",
+    "prompt": "Two elderly men's silhouettes seated at opposite ends of a long courtroom bench with backs to the viewer, a wide gap between them, faces hidden."
+  },
+  {
+    "name": "t30_a4_x04_two_aged_silhouettes_facing_across_aisle",
+    "act": 4,
+    "sentences": "4.03#5,4.03#6",
+    "desc": "Hai bóng người cao tuổi đối diện nhau qua lối đi phòng xử.",
+    "prompt": "Two aged silhouettes facing each other across a courtroom aisle, faces hidden, soft cold light, profound grief."
+  },
+  {
+    "name": "t30_a4_x05_lone_silhouette_witness_stand_empty_benches",
+    "act": 4,
+    "sentences": "4.03#7",
+    "desc": "Một bóng người lẻ loi ở bục, hàng ghế trống phía sau.",
+    "prompt": "Lone silhouette with lowered head at a witness stand in a courtroom, rows of empty benches behind, faces hidden."
+  },
+  {
     "name": "t30_a4_07_trauma_of_betrayed_trust_n2",
     "act": 4,
     "sentences": "4.04#1",
@@ -740,6 +992,20 @@
     "sentences": "4.04#2",
     "desc": "Bản án pháp luật và bản án lương tâm: Nỗi ám ảnh dai dẳng theo suốt cuộc đời người bạn gái ngây thơ.",
     "prompt": "Close-up of tear-stained court document and twisted handkerchief, symbolic weight of lifelong psychological scar."
+  },
+  {
+    "name": "t30_a4_x06_apartment_door_peephole_quiet_dread",
+    "act": 4,
+    "sentences": "4.04#3,4.04#4",
+    "desc": "Cánh cửa căn hộ nhìn từ hành lang, bóng ai đó gõ cửa.",
+    "prompt": "Apartment door seen from a hallway with a faint shadow of someone knocking and a peephole glint, quiet dread, no people visible."
+  },
+  {
+    "name": "t30_a4_x07_woman_head_in_hands_single_chair_lamp",
+    "act": 4,
+    "sentences": "4.04#5",
+    "desc": "Bóng người phụ nữ ôm đầu bên chiếc ghế và ngọn đèn đơn độc.",
+    "prompt": "A woman's silhouette sitting with head in hands on a single chair beside a lone lamp in a dark room, face hidden, deep regret."
   },
   {
     "name": "t30_a4_09_dissecting_nature_of_remorse",
@@ -784,6 +1050,13 @@
     "prompt": "Panel of judges standing at elevated bench under state emblem, reading formal verdict with solemn moral authority."
   },
   {
+    "name": "t30_a4_x08_mirror_two_shadows_kneeling_defiant",
+    "act": 4,
+    "sentences": "4.05#7,4.05#8",
+    "desc": "Tấm gương nứt phản chiếu hai bóng của một người: quỳ gối và ngạo mạn.",
+    "prompt": "Fractured mirror reflecting two different shadows of one figure, one kneeling and one standing defiant, faces hidden, noir concept."
+  },
+  {
     "name": "t30_a4_15_first_instance_death_sentence_verdict",
     "act": 4,
     "sentences": "4.06#1",
@@ -824,6 +1097,13 @@
     "sentences": "4.06#6",
     "desc": "Vòng hoa tang trắng cô độc trước ngôi nhà nhỏ ở Hải Phòng: Nỗi xót xa vô bờ cho một người cha kiệt quệ vì bi kịch gia đình.",
     "prompt": "White funeral wreath resting beside modest wooden doorway, quiet rain falling in misty Hai Phong alleyway."
+  },
+  {
+    "name": "t30_a4_x09_empty_armchair_family_altar_incense_smoke",
+    "act": 4,
+    "sentences": "4.06#7",
+    "desc": "Chiếc ghế trống cạnh bàn thờ gia đình, khói hương mờ.",
+    "prompt": "Empty armchair beside a family altar with incense smoke curling in a dim traditional Vietnamese house interior, no people, no photographs."
   },
   {
     "name": "t30_a4_21_death_row_solitary_confinement_cell",
@@ -896,6 +1176,13 @@
     "prompt": "Single wax candle flickering gently on dark wooden table against deep shadows, dramatic noir warm amber closing."
   },
   {
+    "name": "t30_a4_x10_calm_silhouettes_upright_courtroom_bench",
+    "act": 4,
+    "sentences": "4.07#11,4.07#12",
+    "desc": "Hàng bóng người ngồi thẳng, bình tĩnh trên băng ghế phòng xử.",
+    "prompt": "Row of calm silhouettes seated upright with hands folded on a courtroom bench, steady dignified light, faces hidden."
+  },
+  {
     "name": "t30_a5_01_supreme_court_appeal_dismissal",
     "act": 5,
     "sentences": "5.02#1",
@@ -938,6 +1225,13 @@
     "prompt": "White hearse vehicle driving quietly through morning mist down empty tree-lined highway away from prison facility."
   },
   {
+    "name": "t30_a5_x01_hands_holding_white_lotus_still_water",
+    "act": 5,
+    "sentences": "5.02#7",
+    "desc": "Đôi bàn tay nâng bông sen trắng trên mặt nước tĩnh.",
+    "prompt": "Hands holding a single white lotus above still dark water, soft light, no faces, gentle compassion."
+  },
+  {
     "name": "t30_a5_07_cops_discipline_and_dedication",
     "act": 5,
     "sentences": "5.03#1",
@@ -950,6 +1244,27 @@
     "sentences": "5.03#2",
     "desc": "Cán cân pháp luật và biểu tượng an ninh nhân dân vững chắc: Mỗi chuyên án thành công củng cố niềm tin của xã hội.",
     "prompt": "Grand bronze emblem of justice and public security illuminated by warm architectural lighting on courthouse facade."
+  },
+  {
+    "name": "t30_a5_x02_magnifying_glass_dust_grains_cold_beam",
+    "act": 5,
+    "sentences": "5.03#3,5.03#4",
+    "desc": "Kính lúp trên bàn trống, hạt bụi li ti trong chùm sáng lạnh.",
+    "prompt": "Forensic magnifying glass over a bare table with microscopic grains of dust catching a cold beam, nothing readable, scientific and quiet."
+  },
+  {
+    "name": "t30_a5_x03_balanced_scales_window_morning_light",
+    "act": 5,
+    "sentences": "5.03#5,5.03#6",
+    "desc": "Cán cân công lý thăng bằng, ánh sáng sớm qua cửa sổ.",
+    "prompt": "Scales of justice perfectly balanced on a dark desk with morning light entering through a window, calm and resolute."
+  },
+  {
+    "name": "t30_a5_x04_brick_wall_amber_light_each_brick",
+    "act": 5,
+    "sentences": "5.03#7",
+    "desc": "Bức tường gạch đang xây, mỗi viên bắt ánh hổ phách.",
+    "prompt": "Brick wall under construction with each brick catching warm amber light, symbolic of trust being built, no markings."
   },
   {
     "name": "t30_a5_09_g4_apartment_peaceful_rhythm_restored",
@@ -980,6 +1295,13 @@
     "prompt": "Thin wisp of fragrant incense smoke rising before a serene ancestral shrine, lotus flowers and quiet spiritual reverence."
   },
   {
+    "name": "t30_a5_x05_incense_sticks_white_chrysanthemums_altar",
+    "act": 5,
+    "sentences": "5.04#5",
+    "desc": "Nén hương cháy và hoa cúc trắng trên bàn thờ yên tĩnh.",
+    "prompt": "Incense sticks burning in a bowl beside white chrysanthemums on a quiet altar in warm dim light, no photograph, no text."
+  },
+  {
     "name": "t30_a5_13_survival_rule_1_intellectual_halo_trap",
     "act": 5,
     "sentences": "5.05#1",
@@ -990,8 +1312,8 @@
     "name": "t30_a5_14_survival_rule_2_perils_of_familiarity",
     "act": 5,
     "sentences": "5.05#2",
-    "desc": "Nguyên tắc cảnh báo đỏ 2: Cẩn trọng trước cạm bẫy của sự quen thuộc; không gặp gỡ người bất ổn tại không gian kín.",
-    "prompt": "Graphic novel motif: A private closed door with warning sign, avoiding isolated private spaces with unstable debtors."
+    "desc": "Cánh cửa riêng đóng kín, mảnh thẻ đỏ trơn treo ở tay nắm.",
+    "prompt": "Graphic novel motif: a private closed door with a plain blank red tag hanging on the handle, avoiding isolated private spaces, no writing."
   },
   {
     "name": "t30_a5_15_survival_rule_3_trusting_gut_instinct",
@@ -1041,6 +1363,27 @@
     "sentences": "5.05#9",
     "desc": "Ánh sáng ấm áp lan tỏa xoa dịu những vết thương lòng: Cái ác bị tiêu trừ, phẩm giá con người tỏa sáng rực rỡ.",
     "prompt": "Warm golden sunrise radiating over Hanoi cityscape, soothing historical wounds, peaceful and profound emotional resolution."
+  },
+  {
+    "name": "t30_a5_x06_open_cage_door_bird_flying_out",
+    "act": 5,
+    "sentences": "5.05#10",
+    "desc": "Cửa lồng sắt mở, chú chim bay ra trong nắng sớm.",
+    "prompt": "Open iron cage door in morning sunlight with a small bird flying out, release from resentment, hopeful light."
+  },
+  {
+    "name": "t30_a5_x07_white_flowers_blank_envelope_altar_step",
+    "act": 5,
+    "sentences": "5.05#11,5.05#12",
+    "desc": "Hoa trắng và phong thư trơn đặt trên bậc bàn thờ gỗ.",
+    "prompt": "White flowers and a sealed unmarked envelope resting on a dark wooden altar step, completely blank and unmarked with no writing at all, solemn light."
+  },
+  {
+    "name": "t30_a5_x08_dawn_over_still_lake_faint_ripple",
+    "act": 5,
+    "sentences": "5.05#13",
+    "desc": "Bình minh trên mặt hồ tĩnh, gợn sóng nhẹ.",
+    "prompt": "Dawn light over a still lake with a faint ripple, healing calm, no people, no text."
   },
   {
     "name": "t30_a5_22_amber_eyes_dossier_closing_desk",

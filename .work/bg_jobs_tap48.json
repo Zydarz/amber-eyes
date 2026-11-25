@@ -1,1066 +1,947 @@
 [
   {
-    "name": "t48_a1_01_luxury_mansion",
+    "name": "t48_a1_01_dunedin_dark_family_house_windows",
     "act": 1,
-    "sentences": "1.01#1",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Vào những năm đầu thập niên hai nghìn, khu phố Brooklin ở phía nam thành phố São Paulo là ...",
-    "prompt": "Cinematic establishing wide shot of Brooklin, Sao Paulo, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "sentences": "1.02#1,1.02#2",
+    "desc": "Căn nhà gia đình Bain chìm trong đêm, những ô cửa tối ẩn chứa rạn nứt vô hình, thành phố Dunedin ở phía xa.",
+    "prompt": "Cinematic establishing shot of a two-storey suburban family house in Dunedin, New Zealand at night in 1994, dark curtained windows, hills and harbour lights far behind."
   },
   {
-    "name": "t48_a1_02_cravinhos_brothers",
-    "act": 1,
-    "sentences": "1.01#2",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Phía sau những hàng rào an ninh kiên cố và những khuôn viên rợp bóng cây xanh là nơi sinh ...",
-    "prompt": "Cinematic establishing wide shot of Brooklin, Sao Paulo, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t48_a1_03_fake_grief",
-    "act": 1,
-    "sentences": "1.01#3",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Người ta luôn tin rằng mức độ an ninh tối tân và sự giàu có tột bậc có thể dựng nên một bứ...",
-    "prompt": "Cinematic establishing wide shot of Brooklin, Sao Paulo, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t48_a1_04_iron_bar",
-    "act": 1,
-    "sentences": "1.02#1",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Người dân xung quanh nhìn vào gia đình von Richthofen với sự ngưỡng mộ và kính trọng sâu s...",
-    "prompt": "Cinematic establishing wide shot of Brooklin, Sao Paulo, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t48_a1_05_luxury_mansion",
-    "act": 1,
-    "sentences": "1.02#2",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Người cha là một kỹ sư tài ba gốc Đức nắm giữ vị trí then chốt trong dự án đường cao tốc t...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
-  },
-  {
-    "name": "t48_a1_06_cravinhos_brothers",
+    "name": "t48_a1_02_every_street_winter_dawn_house",
     "act": 1,
     "sentences": "1.02#3",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Họ sống trong một dinh thự lộng lẫy có hồ bơi xanh ngắt và thư viện gia đình chứa hàng ngà...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Ngôi nhà ở đường Every, khu Andersons Bay, trong rạng sáng mùa đông.",
+    "prompt": "Wide shot of a modest hillside house on a quiet street in Andersons Bay, Dunedin, New Zealand, 1994, freezing winter dawn mist, bare garden, one pale light on upstairs."
   },
   {
-    "name": "t48_a1_07_fake_grief",
+    "name": "t48_a1_03_hallway_telephone_lone_silhouette",
     "act": 1,
-    "sentences": "1.03#1",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Thế nhưng, chính sự hào nhoáng bề ngoài ấy đã dệt nên một “Hiệu ứng Hào quang” hoàn hảo là...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#4,1.02#5",
+    "desc": "Bóng người một mình bên chiếc điện thoại trong hành lang tối, David Bain, người duy nhất sống sót.",
+    "prompt": "Dim hallway of a 1990s New Zealand home with a wall telephone, a lone silhouette standing beside it with faces lost completely in shadow, cold dawn glow through a door glass."
   },
   {
-    "name": "t48_a1_08_iron_bar",
+    "name": "t48_a1_04_dunedin_harbour_city_stunned",
     "act": 1,
-    "sentences": "1.03#2",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Người ta mải mê nhìn vào địa vị xã hội mà không hề nhận ra những rạn nứt khốc liệt đang âm...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#6,1.02#7",
+    "desc": "Thành phố Dunedin ven biển rúng động, tâm điểm dư luận khắp thế giới.",
+    "prompt": "Wide view of Dunedin, New Zealand harbour town at grey winter dawn, steep streets, church spires, heavy low clouds, heavy stillness over rooftops."
   },
   {
-    "name": "t48_a1_09_luxury_mansion",
+    "name": "t48_a1_05_press_vans_cordon_tape_crowd",
     "act": 1,
-    "sentences": "1.03#3",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Niềm tin mặc định rằng tội ác ghê tởm chỉ nảy sinh từ những khu ổ chuột tối tăm đã tạo nên...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#8,1.02#9",
+    "desc": "Xe của báo chí và dải phong toả, đám đông bóng người lặng ngắt.",
+    "prompt": "Winter morning on a suburban street in 1994 New Zealand, television vans with satellite dishes and police cordon tape, small crowd of silhouettes watching from a distance."
   },
   {
-    "name": "t48_a1_10_cravinhos_brothers",
+    "name": "t48_a1_06_empty_dining_room_closed_door",
     "act": 1,
-    "sentences": "1.04#1",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Con gái đầu lòng của họ, Suzane von Richthofen, mười tám tuổi, là một nữ sinh luật thông m...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#10",
+    "desc": "Phòng ăn trống của gia đình, cánh cửa đóng kín.",
+    "prompt": "Empty family dining room in a 1990s house, a long wooden table, chairs pushed in, closed door in the back, thin cold window light."
   },
   {
-    "name": "t48_a1_11_fake_grief",
+    "name": "t48_a1_07_winter_neighbourhood_suspicion_street",
     "act": 1,
-    "sentences": "1.04#2",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Cô ta có thể nói lưu loát ba thứ tiếng, chơi đàn dương cầm thành thạo và luôn xuất hiện vớ...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#11,1.02#12",
+    "desc": "Khu phố mùa đông ngột ngạt nghi hoặc, ai cũng đóng cửa.",
+    "prompt": "Cold grey suburban street in Dunedin, closed curtains in every window, bare trees, a few distant silhouettes standing apart, oppressive mood."
   },
   {
-    "name": "t48_a1_12_iron_bar",
+    "name": "t48_a1_08_emergency_dispatch_room_1990s",
+    "act": 1,
+    "sentences": "1.04#1,1.04#2",
+    "desc": "Phòng tiếp nhận cuộc gọi khẩn cấp thập niên chín mươi, bóng điều phối viên.",
+    "prompt": "1990s New Zealand emergency call centre at dawn, silhouetted operator at a desk with a beige push-button phone and dim lamps, faces lost completely in shadow."
+  },
+  {
+    "name": "t48_a1_09_patrol_car_arrives_cold_dawn",
     "act": 1,
     "sentences": "1.04#3",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Trong mắt thầy cô và bè bạn, Suzane là hình mẫu lý tưởng của một tiểu thư khuê các có tươn...",
-    "prompt": "Atmospheric street scene in Brooklin, Sao Paulo, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Xe tuần tra đầu tiên đến nơi trong sương lạnh.",
+    "prompt": "Police patrol car with headlights on stopping before a hillside house in freezing dawn mist, Dunedin 1994, breath of cold in the air, silhouette of an officer at the gate."
   },
   {
-    "name": "t48_a1_13_luxury_mansion",
+    "name": "t48_a1_10_empty_armchair_wooden_staircase",
     "act": 1,
-    "sentences": "1.05#1",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Khi Suzane bước vào mối quan hệ tình cảm với Daniel Cravinhos, một thanh niên đam mê tốc đ...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#4,1.04#5",
+    "desc": "Chiếc ghế bành trống và cầu thang gỗ im lìm trong căn nhà.",
+    "prompt": "Interior of a 1990s family living room, an empty worn armchair beside a wooden staircase, grey light from curtains, utterly still, nobody present."
   },
   {
-    "name": "t48_a1_14_cravinhos_brothers",
+    "name": "t48_a1_11_investigators_doorway_question",
     "act": 1,
-    "sentences": "1.05#2",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Mâu thuẫn bùng nổ khi cha mẹ cô kiên quyết cấm đoán mối quan hệ này để bảo vệ tương lai củ...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#6",
+    "desc": "Các điều tra viên bóng đen đứng ở ngưỡng cửa cân nhắc giả thuyết.",
+    "prompt": "Two investigator silhouettes in dark coats standing at a front doorway debating, faces lost completely in shadow, pale dawn behind them, New Zealand 1994."
   },
   {
-    "name": "t48_a1_15_fake_grief",
+    "name": "t48_a1_12_cordoned_rooms_forensic_lamps",
     "act": 1,
-    "sentences": "1.05#3",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Thay vì tìm kiếm sự đồng thuận hay kiên nhẫn đối thoại, sự cấm đoán của cha mẹ lại kích ho...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#7,1.04#8",
+    "desc": "Căn phòng phong toả, kỹ thuật viên pháp y bóng đen cùng đèn soi.",
+    "prompt": "Forensic technicians as dark silhouettes working with bright portable lamps inside a cordoned house, wooden stairs with scattered small brass casings, hazy beams of light."
   },
   {
-    "name": "t48_a1_16_iron_bar",
+    "name": "t48_a1_13_unmade_beds_cold_light",
     "act": 1,
-    "sentences": "1.06#1",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Ý tưởng tiêu diệt tận gốc rào cản sinh học bắt đầu được hình thành và nung nấu qua từng ng...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#9,1.04#10",
+    "desc": "Những chiếc giường trống chưa kịp dọn, ánh sáng lạnh.",
+    "prompt": "Two empty bedrooms with unmade beds and rumpled quilts, heavy curtains half open, cold bluish dawn light, no people, quiet sadness."
   },
   {
-    "name": "t48_a1_17_luxury_mansion",
+    "name": "t48_a1_14_ballistics_reconstruction_strings_room",
     "act": 1,
-    "sentences": "1.06#2",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Suzane không hành động đơn độc; cô ta bắt đầu dùng sự quyến rũ và những hứa hẹn vật chất đ...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#11,1.04#12",
+    "desc": "Dựng lại hiện trường trong căn phòng trống bằng sợi dây đo.",
+    "prompt": "Empty room in a house where thin string lines cross to reconstruct trajectories, investigator silhouette far in the corner, grey light, faces lost completely in shadow."
   },
   {
-    "name": "t48_a1_18_cravinhos_brothers",
+    "name": "t48_a1_15_police_cordon_church_spire",
+    "act": 1,
+    "sentences": "1.05#1,1.05#2",
+    "desc": "Dây phong toả trên phố, tháp nhà thờ phía xa.",
+    "prompt": "Police tape across a Dunedin street with a church spire in the grey distance, parked police cars, wet road, silent standstill."
+  },
+  {
+    "name": "t48_a1_16_empty_primary_school_playground",
+    "act": 1,
+    "sentences": "1.05#3,1.05#4",
+    "desc": "Sân trường tiểu học vắng lặng buổi sáng mùa đông.",
+    "prompt": "Empty primary school playground in Dunedin at winter morning, swings and bare wooden benches, low mist, nobody present, melancholic."
+  },
+  {
+    "name": "t48_a1_17_shuttered_lane_dusk_peering",
+    "act": 1,
+    "sentences": "1.05#5,1.05#6",
+    "desc": "Con ngõ lúc chạng vạng, cửa sổ khép, bóng người hé nhìn.",
+    "prompt": "Quiet suburban lane at dusk, shuttered windows, a couple of silhouettes peering from behind curtains, faces lost completely in shadow, uneasy atmosphere."
+  },
+  {
+    "name": "t48_a1_18_neighbours_corner_huddle",
+    "act": 1,
+    "sentences": "1.05#7,1.05#8",
+    "desc": "Hàng xóm tụ lại thành nhóm bóng đen ở góc đường.",
+    "prompt": "Small groups of silhouettes huddled at a street corner in winter dusk, streetlamp haze, cold breath, faces hidden in shadow."
+  },
+  {
+    "name": "t48_a1_19_locked_doors_empty_winter_street",
+    "act": 1,
+    "sentences": "1.05#9,1.05#10",
+    "desc": "Những cánh cửa khoá chặt, phố vắng, lời thì thầm.",
+    "prompt": "Empty winter street with locked front doors and dim porch lights, drifting fog, one distant silhouette walking away, uneasy quiet."
+  },
+  {
+    "name": "t48_a1_20_family_home_divided_lit_windows",
+    "act": 1,
+    "sentences": "1.06#1,1.06#2",
+    "desc": "Các ô cửa sáng đèn riêng rẽ, mỗi người một thế giới.",
+    "prompt": "Night view of a house where each lit window glows separately, thin dark walls between them, a feeling of isolation, Dunedin 1994."
+  },
+  {
+    "name": "t48_a1_21_garden_caravan_night_lit_window",
     "act": 1,
     "sentences": "1.06#3",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Đêm ngày 31 tháng 10 năm 2002, cánh cửa dinh thự Brooklin đã được chính tay cô con gái cưn...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "desc": "Chiếc xe lưu động ở góc vườn, cửa sổ sáng nhỏ.",
+    "prompt": "Small old caravan parked at the edge of a dark suburban garden, one tiny lit window, frosty grass, Dunedin night 1994."
   },
   {
-    "name": "t48_a1_19_fake_grief",
+    "name": "t48_a1_22_austere_bare_hallway_plain_room",
     "act": 1,
-    "sentences": "1.07#1",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Hãy hình dung cảm giác của chúng tôi khi còi báo động xé toạc màn đêm tĩnh mịch của khu ph...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#4,1.06#5",
+    "desc": "Không gian nghiêm khắc, hành lang trống, căn phòng tĩnh lặng.",
+    "prompt": "Austere bare hallway and small plain room with a single chair and a plain wooden shelf, completely blank and unmarked walls, dim lamp, severe mood."
   },
   {
-    "name": "t48_a1_20_iron_bar",
+    "name": "t48_a1_23_closed_bedroom_doors_kitchen_table",
     "act": 1,
-    "sentences": "1.07#2",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Cả đời sống ở khu phố này, chúng tôi chưa từng thấy một vụ trộm đột nhập nào có thể vượt q...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#6,1.06#7",
+    "desc": "Các cánh cửa phòng đóng kín quanh bàn bếp lạnh lẽo.",
+    "prompt": "Narrow upstairs landing with several closed bedroom doors, and a kitchen table below with completely blank and unmarked slips of paper on it, no writing at all, dim lamp."
   },
   {
-    "name": "t48_a1_21_luxury_mansion",
+    "name": "t48_a1_24_two_chairs_far_apart_long_room",
     "act": 1,
-    "sentences": "1.07#3",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Hình ảnh cô bé Suzane run rẩy trong chiếc áo khoác đen giữa sân nhà khiến tất cả những ngư...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#8,1.06#9",
+    "desc": "Hai chiếc ghế đặt xa nhau trong căn phòng dài, khoảng cách im lặng.",
+    "prompt": "Long dim room with two empty chairs set at opposite ends, a pale window between them, unspoken distance, muted tones."
   },
   {
-    "name": "t48_a1_22_cravinhos_brothers",
+    "name": "t48_a1_25_cracked_window_shadows_gathering",
     "act": 1,
-    "sentences": "1.08#1",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Không một ai trong chúng tôi có thể tưởng tượng được rằng chính đứa trẻ ngây thơ ấy lại là...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#10",
+    "desc": "Cửa sổ nứt, bóng tối tích tụ.",
+    "prompt": "Close view of a cracked window pane with shadows pooling in a dim room, cold light bleeding through the fracture."
   },
   {
-    "name": "t48_a1_23_fake_grief",
+    "name": "t48_a1_26_dark_stairwell_basement_pressure",
     "act": 1,
-    "sentences": "1.08#2",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Khi các nhân viên y tế và cảnh sát có mặt tại hiện trường, căn phòng ngủ trên tầng hai của...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#11,1.06#12",
+    "desc": "Cầu thang tối xuống tầng dưới như chiếc lồng áp lực.",
+    "prompt": "Dark stairwell going down into a shadowed basement of a family house, a single bulb glowing weakly, heavy sense of pressure."
   },
   {
-    "name": "t48_a1_24_iron_bar",
-    "act": 1,
-    "sentences": "1.08#3",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Bên ngoài phòng khách, Suzane ngồi ôm lấy đứa em trai mười lăm tuổi, liên tục khóc lóc và ...",
-    "prompt": "Forensic high-contrast tabletop still life in Brooklin, Sao Paulo, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
-  },
-  {
-    "name": "t48_a1_25_luxury_mansion",
-    "act": 1,
-    "sentences": "1.09#1",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Kịch bản về những kẻ đột nhập tống tiền được dựng lên một cách hoàn hảo nhằm đánh lừa sự c...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_26_cravinhos_brothers",
-    "act": 1,
-    "sentences": "1.09#2",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Thế nhưng, cái ác dù có khoác lên mình chiếc áo choàng ngụy trang tinh vi đến đâu cũng khô...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_27_fake_grief",
-    "act": 1,
-    "sentences": "1.09#3",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Một ngôi biệt thự kiên cố có tường rào điện tử và chó canh gác nhưng hệ thống báo động lại...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_28_iron_bar",
-    "act": 1,
-    "sentences": "1.10#1",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Các cánh cửa sổ và ổ khóa cổng chính không hề có bất kỳ dấu vết cạy phá hay dùng vũ lực nà...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_29_luxury_mansion",
-    "act": 1,
-    "sentences": "1.10#2",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Đặc biệt, trong khi nhiều đồ vật quý giá và các thiết bị điện tử đắt tiền vẫn còn nguyên v...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_30_cravinhos_brothers",
-    "act": 1,
-    "sentences": "1.10#3",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Chiếc chìa khóa của vụ án chắc chắn phải nằm ở một người có quyền tiếp cận tuyệt đối và am...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_31_fake_grief",
-    "act": 1,
-    "sentences": "1.11#1",
-    "desc": "Hồi 1 Tập 48 (fake_grief): Và ánh mắt bình thản đến lạnh lùng ẩn sau những giọt nước mắt của cô con gái lớn đã lập tứ...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_32_iron_bar",
-    "act": 1,
-    "sentences": "1.11#2",
-    "desc": "Hồi 1 Tập 48 (iron_bar): Một cuộc đấu trí nghẹt thở giữa các điều tra viên dày dạn kinh nghiệm và cô nữ sinh luật m...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_33_luxury_mansion",
-    "act": 1,
-    "sentences": "1.11#3",
-    "desc": "Hồi 1 Tập 48 (luxury_mansion): Dư chấn của vụ án này không chỉ làm rung chuyển nền tư pháp Brazil mà còn thức tỉnh toàn b...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a1_34_cravinhos_brothers",
-    "act": 1,
-    "sentences": "1.12#1",
-    "desc": "Hồi 1 Tập 48 (cravinhos_brothers): Hành trình giải mã chiếc mặt nạ ngây thơ của kẻ thủ ác chính thức mở ra những trang hồ sơ ...",
-    "prompt": "Dramatic action still in Brooklin, Sao Paulo, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t48_a2_01_luxury_mansion",
+    "name": "t48_a2_01_cluttered_house_interior_chaos",
     "act": 2,
-    "sentences": "2.01#1",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Sau khi cánh cửa định mệnh khép lại, một chuỗi hành vi bất thường đến rợn người đã diễn ra...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#1,2.02#2",
+    "desc": "Ngôi nhà hỗn loạn đồ đạc chất đống, không phải tổ ấm.",
+    "prompt": "Cluttered interior of an old New Zealand family house in the 1990s, stacked boxes and mismatched furniture, peeling paint, dusty light."
   },
   {
-    "name": "t48_a2_02_cravinhos_brothers",
+    "name": "t48_a2_02_silhouette_garden_looking_old_house",
     "act": 2,
-    "sentences": "2.01#2",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Rời khỏi hiện trường đẫm máu, Suzane và Daniel không hề tỏ ra hoảng loạn hay tìm nơi ẩn ná...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#3,2.02#4",
+    "desc": "Bóng chàng trai ngoài vườn ngước nhìn ngôi nhà cũ lúc chạng vạng.",
+    "prompt": "Silhouette of a young man in a garden at dusk looking up at a worn old house, faces lost completely in shadow, wild grass and cold sky."
   },
   {
-    "name": "t48_a2_03_fake_grief",
+    "name": "t48_a2_03_empty_plot_fantasy_new_dawn",
     "act": 2,
-    "sentences": "2.01#3",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Họ gọi đồ ăn, thư giãn và bình thản thanh toán hóa đơn như thể vừa trải qua một buổi hẹn h...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#5",
+    "desc": "Mảnh đất trống sáng rực lên trong ảo tưởng tái sinh.",
+    "prompt": "Surreal bright empty building plot with a clean new horizon and a lone silhouette standing at its edge, faces lost completely in shadow, pale golden light against dark surrounding house shadows."
   },
   {
-    "name": "t48_a2_04_iron_bar",
+    "name": "t48_a2_04_opera_stage_empty_spotlight",
     "act": 2,
-    "sentences": "2.02#1",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Rạng sáng hôm đó, Suzane mới đến quán cà phê internet để đón cậu em trai Andreas đang ngây...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#6,2.02#7",
+    "desc": "Sân khấu opera trống dưới vệt đèn sân khấu.",
+    "prompt": "Empty opera stage with velvet curtains and a single spotlight, rows of unoccupied seats fading into darkness, theatre in Dunedin."
   },
   {
-    "name": "t48_a2_05_luxury_mansion",
+    "name": "t48_a2_05_cyclist_silhouette_steep_dunedin_hill",
     "act": 2,
-    "sentences": "2.02#2",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Qua quá trình giám sát di biến động sau vụ án, các trinh sát đã phát hiện ra những mảnh gh...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#8,2.02#9",
+    "desc": "Bóng người đạp xe lên con dốc Dunedin lúc tinh mơ với túi vải.",
+    "prompt": "Silhouette of a cyclist with a canvas bag climbing a steep Dunedin street at pre-dawn, streetlights and fog, faces lost completely in shadow."
   },
   {
-    "name": "t48_a2_06_cravinhos_brothers",
+    "name": "t48_a2_06_fork_in_dawn_road_two_paths",
     "act": 2,
-    "sentences": "2.02#3",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Cô ta trò chuyện vui vẻ với Daniel qua điện thoại và thảo luận về việc phân chia số tiền m...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#10",
+    "desc": "Ngã rẽ đường sáng sớm, hai lối đi khác nhau.",
+    "prompt": "Hilltop road forking into two paths in dim dawn light over Dunedin, empty asphalt, low fog, one direction brighter than the other."
   },
   {
-    "name": "t48_a2_07_fake_grief",
+    "name": "t48_a2_07_theatre_half_house_half_split_scene",
     "act": 2,
-    "sentences": "2.03#1",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Đến ngày 3 tháng 11, đúng ngày diễn ra đám tang của hai nạn nhân, cũng chính là ngày sinh ...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#11,2.02#12",
+    "desc": "Cảnh chia đôi: nhà hát thanh lịch và ngôi nhà tối.",
+    "prompt": "Split composition, left half an elegant lit theatre auditorium, right half a dark shuttered family house, silhouette standing at the dividing line, faces lost completely in shadow."
   },
   {
-    "name": "t48_a2_08_iron_bar",
+    "name": "t48_a2_08_dark_room_blank_notebook_lamp",
     "act": 2,
-    "sentences": "2.03#2",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Cô ta mặc chiếc váy đen, run rẩy tựa vào vai đứa em trai mười lăm tuổi, đôi mắt đẫm lệ và ...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#13",
+    "desc": "Căn phòng tối với cuốn sổ trống và ngọn đèn bàn.",
+    "prompt": "Dark small room with a desk lamp over a notebook that is completely blank and unmarked with no writing at all, deep shadows."
   },
   {
-    "name": "t48_a2_09_luxury_mansion",
+    "name": "t48_a2_09_theatre_mask_dressing_table",
     "act": 2,
-    "sentences": "2.03#3",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Hành động thổi nến sinh nhật và mở tiệc chúc mừng chỉ vài giờ sau khi hạ huyệt cha mẹ là m...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.03#1,2.03#2",
+    "desc": "Mặt nạ sân khấu trên bàn trang điểm, bộ lễ phục treo bên cạnh.",
+    "prompt": "Dressing table in a theatre backstage with a plain blank theatre mask, formal black suit hanging beside it, warm bulbs dimmed, deep shadows."
   },
   {
-    "name": "t48_a2_10_cravinhos_brothers",
+    "name": "t48_a2_10_oppressive_kitchen_window_silhouette",
     "act": 2,
-    "sentences": "2.04#1",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Không có một người con bình thường nào có thể chuyển đổi trạng thái cảm xúc từ đau đớn cùn...",
-    "prompt": "Psychological chiaroscuro composition in Brooklin, Sao Paulo, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.03#3,2.03#4",
+    "desc": "Căn bếp ngột ngạt, bóng chàng trai bên cửa sổ.",
+    "prompt": "Dim cramped kitchen of a 1990s house, young man silhouette by a window with faces lost completely in shadow, clutter, heavy atmosphere."
   },
   {
-    "name": "t48_a2_11_fake_grief",
+    "name": "t48_a2_11_photo_frames_face_down_shelf",
     "act": 2,
-    "sentences": "2.04#2",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Bản chất của Suzane von Richthofen là một sự kết hợp nguy hiểm giữa trí thông minh học thu...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.03#5,2.03#6",
+    "desc": "Khung ảnh gia đình úp xuống trên giá, sự đồng cảm bị tắt.",
+    "prompt": "Wooden shelf with family photo frames turned face down, dust and dim lamp light, no people shown, cold emptiness."
   },
   {
-    "name": "t48_a2_12_iron_bar",
+    "name": "t48_a2_12_hilltop_night_city_lights_freedom",
     "act": 2,
-    "sentences": "2.04#3",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Cô ta được nuôi dưỡng trong môi trường giáo dục tinh hoa nhưng lại phát triển một nhân các...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.03#7,2.03#8",
+    "desc": "Bóng người trên đồi nhìn xuống ánh đèn thành phố, khát khao tự do.",
+    "prompt": "Silhouette on a Dunedin hilltop at night looking at city and harbour lights below, faces lost completely in shadow, wind-blown grass, vast sky."
   },
   {
-    "name": "t48_a2_13_luxury_mansion",
+    "name": "t48_a2_13_corridor_two_doors_light_dark",
     "act": 2,
-    "sentences": "2.05#1",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Khi cha mẹ trở thành vật cản ngăn cô ta đến với sự buông thả và khối tài sản kếch xù, họ l...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.03#9,2.03#10",
+    "desc": "Hành lang hẹp giữa hai cánh cửa, một sáng một tối.",
+    "prompt": "Narrow corridor with two doors at the end, one glowing warm, the other swallowed in darkness, ambiguity and duality."
   },
   {
-    "name": "t48_a2_14_cravinhos_brothers",
+    "name": "t48_a2_14_shadow_climbing_wall_dark_glass",
     "act": 2,
-    "sentences": "2.05#2",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Dưới góc độ tâm lý học tội phạm, hiện tượng này được giải thích bằng cơ chế “Chia ngăn tâm...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.03#11,2.03#12",
+    "desc": "Bóng đen nhân đôi trên tường và mặt kính tối.",
+    "prompt": "Dark glass pane reflecting a silhouette while a larger shadow of the same figure looms on the wall behind, faces lost completely in shadow, moody noir."
   },
   {
-    "name": "t48_a2_15_fake_grief",
+    "name": "t48_a2_15_kitchen_counter_objects_dim_light",
+    "act": 2,
+    "sentences": "2.03#13,2.03#14",
+    "desc": "Vật dụng trên mặt bếp dưới ánh đèn mờ, những toan tính ngầm.",
+    "prompt": "Kitchen counter in dim light with a few household objects, a single key and a coin, rest completely blank and unmarked, deep shadows."
+  },
+  {
+    "name": "t48_a2_16_forensic_lab_evidence_bags_lamp",
+    "act": 2,
+    "sentences": "2.05#1,2.05#2",
+    "desc": "Phòng thí nghiệm pháp y, túi chứng cứ trống dưới đèn sáng.",
+    "prompt": "Forensic laboratory bench with sealed unmarked evidence bags under a bright lamp, dark surroundings, New Zealand police lab, 1994."
+  },
+  {
+    "name": "t48_a2_17_locked_wooden_cabinet_closet",
     "act": 2,
     "sentences": "2.05#3",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Cơ chế chia ngăn cho phép kẻ thủ ác tách biệt hoàn toàn hành vi tàn bạo với đời sống cảm x...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Tủ gỗ khoá trong góc phòng.",
+    "prompt": "Locked tall wooden cabinet in a bedroom closet corner, dim light, quiet menace without any object shown."
   },
   {
-    "name": "t48_a2_16_iron_bar",
+    "name": "t48_a2_18_boys_bedroom_disarranged_empty",
     "act": 2,
-    "sentences": "2.06#1",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Não bộ của cô ta đã tự động phong tỏa toàn bộ các thụ thể đồng cảm, biến bi kịch của đấng ...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#4,2.05#5",
+    "desc": "Phòng ngủ cậu bé trống, chăn gối xô lệch trong ánh bình minh lạnh.",
+    "prompt": "Empty teenage boy's bedroom, bedding disarranged, bare walls, cold blue dawn light through a curtain, no people."
   },
   {
-    "name": "t48_a2_17_luxury_mansion",
+    "name": "t48_a2_19_spectacles_missing_lens_open_drawer",
     "act": 2,
-    "sentences": "2.06#2",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Sự phân ly này không phải là dấu hiệu của bệnh tâm thần mất năng lực nhận thức, mà là biểu...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#6,2.05#7",
+    "desc": "Cặp kính thiếu một tròng và ngăn kéo mở.",
+    "prompt": "Close shot of old spectacles missing one lens lying near an open bedroom drawer, wooden floor, small beam of light."
   },
   {
-    "name": "t48_a2_18_cravinhos_brothers",
+    "name": "t48_a2_20_plain_white_gloves_under_bed",
     "act": 2,
-    "sentences": "2.06#3",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Cô ta nhận thức rất rõ điều mình làm là sai trái trước pháp luật, nhưng hệ thống đạo đức n...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#8",
+    "desc": "Đôi găng tay trắng nằm dưới gầm giường.",
+    "prompt": "Pair of plain clean white gloves lying under a bed frame in dim light, dust on the floor, subtle suspense."
   },
   {
-    "name": "t48_a2_19_fake_grief",
+    "name": "t48_a2_21_washing_machine_dim_kitchen_clothes",
     "act": 2,
-    "sentences": "2.07#1",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Màn kịch đau khổ tại đám tang là một sự mô phỏng cảm xúc có chủ đích nhằm thu hút sự thươn...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#9,2.05#10",
+    "desc": "Máy giặt hoạt động trong bếp tối, quần áo ướt.",
+    "prompt": "Running washing machine in a dim 1990s kitchen with wet clothes visible through the round door, grey morning light, nobody present."
   },
   {
-    "name": "t48_a2_20_iron_bar",
+    "name": "t48_a2_22_investigators_silhouettes_doorway_dawn",
     "act": 2,
-    "sentences": "2.07#2",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Những kẻ mang nhân cách này học cách sao chép các phản ứng cảm xúc của người bình thường đ...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#11",
+    "desc": "Điều tra viên bóng đen ở cửa nhà lúc bình minh, nghi vấn về lời khai.",
+    "prompt": "Silhouettes of investigators standing at the front door of a house at dawn, faces lost completely in shadow, doubt hanging in the cold air, Dunedin 1994."
   },
   {
-    "name": "t48_a2_21_luxury_mansion",
+    "name": "t48_a2_23_lone_survivor_silhouette_stepping_out_house",
     "act": 2,
-    "sentences": "2.07#3",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Đó chính là cái bẫy tâm lý mà những kẻ ái kỷ tự giăng ra cho chính mình....",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#12,2.05#13",
+    "desc": "Bóng người duy nhất bước ra khỏi ngôi nhà trong ánh sáng lạnh.",
+    "prompt": "Single silhouette stepping out of a front door into cold dawn light, faces lost completely in shadow, investigators far behind on the lawn, misty Dunedin street."
   },
   {
-    "name": "t48_a2_22_cravinhos_brothers",
+    "name": "t48_a2_24_funeral_flowers_church_steps",
     "act": 2,
-    "sentences": "2.08#1",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Daniel và Cristian Cravinhos bắt đầu cảm nhận được sức nặng nghẹt thở của tội ác đang đè n...",
-    "prompt": "Desolate nocturnal scene in Brooklin, Sao Paulo, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#1,2.06#2",
+    "desc": "Hoa tưởng niệm đặt trên bậc thềm nhà thờ, ô đen từ xa.",
+    "prompt": "Flowers laid in rows on stone church steps, a few silhouettes with black umbrellas far away, grey drizzle, Dunedin 1994."
   },
   {
-    "name": "t48_a2_23_fake_grief",
+    "name": "t48_a2_25_choir_silhouettes_uneasy_cold",
     "act": 2,
-    "sentences": "2.08#2",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Sự kích động và hưng phấn ban đầu nhanh chóng bị thay thế bởi nỗi sợ hãi bị bại lộ và sự c...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.06#3,2.06#4",
+    "desc": "Bóng người trong dàn nhạc và hàng xóm thấp thỏm giữa trời lạnh.",
+    "prompt": "Silhouettes of orchestra members and neighbours standing outside a hall in cold dusk, uneasy shifting postures, faces lost completely in shadow."
   },
   {
-    "name": "t48_a2_24_iron_bar",
+    "name": "t48_a2_26_church_pews_five_wreaths_lone_figure",
     "act": 2,
-    "sentences": "2.08#3",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Mắt xích yếu nhất trong chuỗi liên kết tội phạm này chính là người anh trai Cristian Cravi...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.06#5,2.06#6",
+    "desc": "Hàng ghế nhà thờ và năm vòng hoa, bóng chàng trai lặng lẽ.",
+    "prompt": "Interior of a stone church, empty pews and five wreaths set in a row in front of the altar, a lone young man silhouette in the front pew, faces lost completely in shadow."
   },
   {
-    "name": "t48_a2_25_luxury_mansion",
+    "name": "t48_a2_27_friends_apart_gap_silhouettes",
     "act": 2,
-    "sentences": "2.09#1",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Chỉ vài ngày sau vụ án, Cristian đã đến một đại lý xe máy và mua một chiếc mô tô phân khối...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.06#7,2.06#8",
+    "desc": "Bạn bè đứng xa nhau, khoảng cách vô hình.",
+    "prompt": "Group of silhouettes standing apart on a church lawn leaving a visible gap around one figure, faces lost completely in shadow, pale overcast light."
   },
   {
-    "name": "t48_a2_26_cravinhos_brothers",
+    "name": "t48_a2_28_parish_hall_whispers_university_corridor",
     "act": 2,
-    "sentences": "2.09#2",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Điều đáng ngờ là anh ta đã thanh toán toàn bộ giao dịch bằng những xấp tiền đô-la Mỹ mệnh ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.06#9,2.06#10",
+    "desc": "Lời xì xầm lan trong hội trường giáo xứ và hành lang đại học.",
+    "prompt": "Silhouettes whispering in a parish hall doorway and a university corridor beyond, faces lost completely in shadow, dim yellow light, tension."
   },
   {
-    "name": "t48_a2_27_fake_grief",
+    "name": "t48_a2_29_golden_halo_spotlight_singer_silhouette",
     "act": 2,
-    "sentences": "2.09#3",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Chúng tôi đã bí mật thu thập số seri của các tờ tiền và tiến hành đối chiếu với lời khai t...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#1,2.07#2",
+    "desc": "Vầng sáng ấm quanh bóng ca sĩ trên sân khấu, hiệu ứng hào quang.",
+    "prompt": "Singer silhouette at a microphone stand on a stage bathed in a soft golden halo of light, faces lost completely in shadow, dark audience area."
   },
   {
-    "name": "t48_a2_28_iron_bar",
+    "name": "t48_a2_30_applauding_audience_silhouettes_stage",
     "act": 2,
-    "sentences": "2.10#1",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Mảnh ghép then chốt cuối cùng đã xuất hiện, trực tiếp nối liền kẻ tiêu tiền với hiện trườn...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#3,2.07#4",
+    "desc": "Khán giả bóng đen vỗ tay, lời ngợi khen củng cố niềm tin.",
+    "prompt": "Rows of applauding audience silhouettes facing a lit stage, warm glow on figures, faces lost completely in shadow, theatrical depth."
   },
   {
-    "name": "t48_a2_29_luxury_mansion",
+    "name": "t48_a2_31_backstage_mirror_masks_row",
     "act": 2,
-    "sentences": "2.10#2",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Những kẻ từng tin rằng mình đã thực hiện một kế hoạch hoàn hảo không hề hay biết rằng từng...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#5,2.07#6",
+    "desc": "Hậu trường với gương và hàng mặt nạ sân khấu.",
+    "prompt": "Backstage mirror framed with bulbs and a row of plain blank theatre masks hanging on the wall, deep shadows, uneasy mood."
   },
   {
-    "name": "t48_a2_30_cravinhos_brothers",
+    "name": "t48_a2_32_detective_table_magnifier_blank_files",
     "act": 2,
-    "sentences": "2.10#3",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Chiếc mặt nạ hào nhoáng chuẩn bị đối mặt với phép thử khắc nghiệt nhất của sự thật....",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#7",
+    "desc": "Bàn làm việc điều tra viên, kính lúp trên hồ sơ trống.",
+    "prompt": "Detective's desk under a lamp with a magnifying glass over completely blank and unmarked folders, no writing at all, dark office."
   },
   {
-    "name": "t48_a2_31_fake_grief",
+    "name": "t48_a2_33_overconfident_silhouette_walks_bright_street",
     "act": 2,
-    "sentences": "2.11#1",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Khi sự thật bắt đầu lộ diện, mối quan hệ đồng phạm dựa trên sự thao túng và lòng tham sẽ n...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#8,2.07#9",
+    "desc": "Bóng người tự tin bước đi, tin mọi toan tính đều hoàn hảo.",
+    "prompt": "Silhouette walking confidently along a bright street, long shadow trailing behind, faces lost completely in shadow, narrowing police spotlights in distance."
   },
   {
-    "name": "t48_a2_32_iron_bar",
-    "act": 2,
-    "sentences": "2.11#2",
-    "desc": "Hồi 2 Tập 48 (iron_bar): Trong thế giới của kẻ ái kỷ, không có chỗ cho tình yêu chân chính hay sự hy sinh vì người ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t48_a2_33_luxury_mansion",
-    "act": 2,
-    "sentences": "2.11#3",
-    "desc": "Hồi 2 Tập 48 (luxury_mansion): Sự sụp đổ tâm lý của nhóm đồng phạm là một quy luật tất yếu khi họ bị đặt vào không gian t...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t48_a2_34_cravinhos_brothers",
-    "act": 2,
-    "sentences": "2.12#1",
-    "desc": "Hồi 2 Tập 48 (cravinhos_brothers): Mỗi kẻ sẽ phải tự đối diện với bóng ma tội ác mà mình đã gây ra trong sự cô độc tuyệt đối....",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t48_a2_35_fake_grief",
-    "act": 2,
-    "sentences": "2.12#2",
-    "desc": "Hồi 2 Tập 48 (fake_grief): Cuộc chiến cân não giữa ánh sáng công lý và bóng tối của sự dối trá chuẩn bị bước vào giai...",
-    "prompt": "Intimate forensic interior of vehicle or room in Brooklin, Sao Paulo, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t48_a3_01_luxury_mansion",
-    "act": 3,
-    "sentences": "3.01#1",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Bốn bức tường cách âm của phòng thẩm vấn Sở Homicide São Paulo trở thành nơi chứng kiến sự...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t48_a3_02_cravinhos_brothers",
-    "act": 3,
-    "sentences": "3.01#2",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Cả ba nghi can bị cách ly hoàn toàn ở ba căn phòng độc lập để ngăn chặn mọi sự thông đồng ...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t48_a3_03_fake_grief",
-    "act": 3,
-    "sentences": "3.01#3",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Họ chọn cách đánh đòn phủ đầu vào mắt xích hoang mang và dễ bị lung lay nhất trong nhóm: C...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t48_a3_04_iron_bar",
+    "name": "t48_a3_01_police_station_dawn_arrival_1994",
     "act": 3,
     "sentences": "3.02#1",
-    "desc": "Hồi 3 Tập 48 (iron_bar): Trước mặt Cristian không phải là những lời đe dọa thô bạo, mà là xấp hóa đơn mua chiếc xe ...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "desc": "Đồn cảnh sát lúc bình minh, xe chở nghi phạm đến.",
+    "prompt": "Dunedin central police station exterior at dawn in June 1994, a car arriving, officers as silhouettes at the entrance, faces lost completely in shadow."
   },
   {
-    "name": "t48_a3_05_luxury_mansion",
+    "name": "t48_a3_02_interrogation_room_steel_table_lamp",
     "act": 3,
-    "sentences": "3.02#2",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Từng câu hỏi logic của các điều tra viên như những nhát búa giáng mạnh vào bức tường phòng...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#2,3.02#3",
+    "desc": "Phòng thẩm vấn với bàn thép, hai ghế và một ngọn đèn.",
+    "prompt": "Bare interrogation room with a steel table, two chairs and a single hanging lamp, one-way mirror on the wall, soundproof walls."
   },
   {
-    "name": "t48_a3_06_cravinhos_brothers",
+    "name": "t48_a3_03_young_man_seated_head_lowered_folder",
     "act": 3,
-    "sentences": "3.02#3",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Sau nhiều giờ căng thẳng tột độ, Cristian gục đầu xuống bàn và bắt đầu bật khóc nức nở....",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#4,3.02#5",
+    "desc": "Bóng chàng trai ngồi cúi đầu, bàn có hồ sơ trống.",
+    "prompt": "Silhouette of a young man seated head lowered at a table with a completely blank and unmarked folder, faces lost completely in shadow, harsh lamp above."
   },
   {
-    "name": "t48_a3_07_fake_grief",
+    "name": "t48_a3_04_two_detectives_facing_silhouettes",
     "act": 3,
-    "sentences": "3.03#1",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Anh ta thừa nhận rằng chính cô ta đã vẽ sơ đồ ngôi nhà, chỉ dẫn cách tắt hệ thống báo động...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#6,3.02#7",
+    "desc": "Hai điều tra viên bóng đen đối diện nhau trên bàn.",
+    "prompt": "Two detectives as silhouettes sitting across a table from a third figure, mind-game tension, faces lost completely in shadow, haze in lamp light."
   },
   {
-    "name": "t48_a3_08_iron_bar",
+    "name": "t48_a3_05_blank_folders_spread_on_table",
     "act": 3,
-    "sentences": "3.03#2",
-    "desc": "Hồi 3 Tập 48 (iron_bar): Nhìn thấy người anh trai đã nhận tội và biết rằng toàn bộ chứng cứ tài chính đã bị bóc trầ...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#8,3.02#9",
+    "desc": "Các tập hồ sơ trống trải trên mặt bàn.",
+    "prompt": "Top-down view of several completely blank and unmarked folders spread on a metal interrogation table under a lamp, no writing at all."
   },
   {
-    "name": "t48_a3_09_luxury_mansion",
+    "name": "t48_a3_06_police_corridor_night_door_closing",
     "act": 3,
-    "sentences": "3.03#3",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Tình yêu mù quáng và ảo tưởng về một tương lai giàu sang bên cạnh cô tiểu thư lập tức tan ...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#10,3.02#11",
+    "desc": "Hành lang đồn cảnh sát về đêm, cửa đang đóng lại.",
+    "prompt": "Long police station corridor at night, flickering fluorescent tube, a door slowly closing at the end, a silhouette behind glass."
   },
   {
-    "name": "t48_a3_10_cravinhos_brothers",
+    "name": "t48_a3_07_bicycle_leaning_gate_dawn",
     "act": 3,
-    "sentences": "3.04#1",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Hai gọng kìm đã khép lại vững chắc; giờ là lúc chúng tôi bước vào căn phòng của kẻ chủ mưu...",
-    "prompt": "Late-night police command center in Brooklin, Sao Paulo, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.04#1,3.04#2",
+    "desc": "Chiếc xe đạp tựa cổng nhà lúc bình minh, mốc thời gian buổi sáng.",
+    "prompt": "Bicycle leaning against a garden gate of a hillside house at dawn, long shadows, misty street, Dunedin 1994."
   },
   {
-    "name": "t48_a3_11_fake_grief",
-    "act": 3,
-    "sentences": "3.04#2",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Khác với sự hoảng loạn của hai anh em nhà Cravinhos, Suzane vẫn giữ một phong thái vô cùng...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
-  },
-  {
-    "name": "t48_a3_12_iron_bar",
+    "name": "t48_a3_08_clasped_hands_steel_table_closeup",
     "act": 3,
     "sentences": "3.04#3",
-    "desc": "Hồi 3 Tập 48 (iron_bar): Thậm chí cô ta còn sử dụng các thuật ngữ pháp lý đã được học trên giảng đường đại học để c...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Đôi bàn tay đan chặt trên mặt bàn thép.",
+    "prompt": "Close shot of two hands clasped tightly on a steel table, harsh lamp light, deep shadows."
   },
   {
-    "name": "t48_a3_13_luxury_mansion",
+    "name": "t48_a3_09_spectacles_on_table_silence",
     "act": 3,
-    "sentences": "3.05#1",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Một sự ngạo mạn trí thức đáng kinh ngạc từ một cô gái vừa tròn mười chín tuổi đang đứng tr...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.04#4,3.04#5",
+    "desc": "Cặp kính thiếu một tròng đặt trên bàn, căn phòng lặng đi.",
+    "prompt": "Spectacles missing one lens placed on an interrogation table beside a blank report folder, heavy silence, hard light."
   },
   {
-    "name": "t48_a3_14_cravinhos_brothers",
+    "name": "t48_a3_10_landline_phone_dark_hallway_head_bowed",
     "act": 3,
-    "sentences": "3.05#2",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Khi đối diện với cáo buộc, kẻ thủ ác không hề nhận lỗi mà lập tức chối bỏ mọi sự liên quan...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.04#6,3.04#7",
+    "desc": "Điện thoại bàn trong hành lang tối, bóng người cúi đầu.",
+    "prompt": "Wall-mounted phone in a dark hallway, a silhouette with head bowed on the floor beside it, faces lost completely in shadow, time stretching quietly."
   },
   {
-    "name": "t48_a3_15_fake_grief",
+    "name": "t48_a3_11_chessboard_midgame_interrogation_table",
     "act": 3,
-    "sentences": "3.05#3",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Đến khi các bằng chứng không thể bác bỏ được đưa ra, cô ta lập tức đóng vai một nạn nhân y...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.04#8,3.04#9",
+    "desc": "Bàn cờ dang dở giữa bàn thẩm vấn, chiếc bẫy logic.",
+    "prompt": "Chessboard mid-game on an interrogation table, two shadowed silhouettes leaning in from either side, faces lost completely in shadow."
   },
   {
-    "name": "t48_a3_16_iron_bar",
+    "name": "t48_a3_12_suspect_turning_away_door_ajar",
     "act": 3,
-    "sentences": "3.06#1",
-    "desc": "Hồi 3 Tập 48 (iron_bar): Cô ta tuyên bố rằng mình hành động vì bị Daniel thao túng tâm lý, bị đe dọa tính mạng và b...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.04#10,3.04#11",
+    "desc": "Bóng nghi phạm quay đi, cửa phòng hé mở.",
+    "prompt": "Silhouette turning away toward a door ajar in a narrow police room, faces lost completely in shadow, corridor light spilling in."
   },
   {
-    "name": "t48_a3_17_luxury_mansion",
+    "name": "t48_a3_13_suspect_staring_bare_tabletop",
     "act": 3,
-    "sentences": "3.06#2",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Sự hối hận của cô ta lúc này không bắt nguồn từ nỗi đau mất cha mẹ hay sự cắn rứt của lươn...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.04#12,3.04#13",
+    "desc": "Bóng người nhìn xuống mặt bàn trống, im lặng tuyệt đối.",
+    "prompt": "Silhouette seated staring down at a completely bare metal tabletop, faces lost completely in shadow, single lamp, deep stillness."
   },
   {
-    "name": "t48_a3_18_cravinhos_brothers",
+    "name": "t48_a3_14_psychologist_behind_one_way_glass",
     "act": 3,
-    "sentences": "3.06#3",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Đó chỉ là sự hoảng loạn của bản ngã khi nhận ra chiếc mặt nạ ngây thơ đã bị xé toạc và bản...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#1,3.05#2",
+    "desc": "Bóng chuyên gia quan sát qua tấm kính một chiều.",
+    "prompt": "Silhouette of a woman psychologist observing an interrogation through a one-way mirror, faces lost completely in shadow, cold blue light."
   },
   {
-    "name": "t48_a3_19_fake_grief",
+    "name": "t48_a3_15_beige_computer_dark_screen_study",
     "act": 3,
-    "sentences": "3.07#1",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Nó chỉ là một công cụ phòng vệ tâm lý nhằm mục đích giảm nhẹ hình phạt và tìm kiếm sự khoa...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#3,3.05#4",
+    "desc": "Chiếc máy tính thập niên chín mươi màu be với màn hình tối trong phòng làm việc.",
+    "prompt": "Beige 1990s desktop computer with a dark blank screen in a dim home study, silhouette far in the doorway, faces lost completely in shadow."
   },
   {
-    "name": "t48_a3_20_iron_bar",
+    "name": "t48_a3_16_cracked_theatre_mask_plaster",
     "act": 3,
-    "sentences": "3.07#2",
-    "desc": "Hồi 3 Tập 48 (iron_bar): Khi biên bản lời khai chi tiết của Daniel và Cristian cùng các bằng chứng khoa học được đặ...",
-    "prompt": "Sterile police interrogation room in Brooklin, Sao Paulo, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#5,3.05#6",
+    "desc": "Mặt nạ sân khấu nứt dần, lớp ngụy trang rạn.",
+    "prompt": "Plain blank theatre mask with fine cracks spreading across it, resting on a dark surface under a small lamp."
   },
   {
-    "name": "t48_a3_21_luxury_mansion",
+    "name": "t48_a3_17_silhouette_retreat_corner_silence",
     "act": 3,
-    "sentences": "3.07#3",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Màu da cô ta tái nhợt, những ngón tay đan chặt vào nhau bắt đầu run rẩy mất kiểm soát và á...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.05#7,3.05#8",
+    "desc": "Bóng người thu mình vào góc phòng im lặng.",
+    "prompt": "Silhouette retreating into a corner of a bare room, knees drawn in, faces lost completely in shadow, thin light from a high window."
   },
   {
-    "name": "t48_a3_22_cravinhos_brothers",
+    "name": "t48_a3_18_cold_stone_courthouse_corridor",
     "act": 3,
-    "sentences": "3.08#1",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Những giọt nước mắt lăn dài chỉ là sự cay đắng của một kẻ toan tính bị bắt quả tang ngay t...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.05#9,3.05#10",
+    "desc": "Hành lang đá lạnh của toà án, bước chân vắng.",
+    "prompt": "Cold stone courthouse corridor with arched windows, long empty bench, a distant silhouette walking, faces lost completely in shadow."
   },
   {
-    "name": "t48_a3_23_fake_grief",
+    "name": "t48_a3_19_empty_courtroom_dock_gallery",
     "act": 3,
-    "sentences": "3.08#2",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Lời thú tội của Suzane von Richthofen chính thức được ghi nhận trong sự bàng hoàng tột cùn...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.05#11,3.05#12",
+    "desc": "Ghế bị cáo và khán phòng trống của phòng xử án.",
+    "prompt": "Empty New Zealand courtroom with the dock and public gallery bare, dusty beams of light from high windows."
   },
   {
-    "name": "t48_a3_24_iron_bar",
+    "name": "t48_a3_20_closed_case_folders_dark_desk",
     "act": 3,
-    "sentences": "3.08#3",
-    "desc": "Hồi 3 Tập 48 (iron_bar): Tin tức về vụ bắt giữ ba nghi can nhanh chóng lan truyền và tạo nên một cơn địa chấn truyề...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.05#13,3.05#14",
+    "desc": "Những hồ sơ khép lại trên bàn tối.",
+    "prompt": "Stack of closed completely blank and unmarked case folders on a dark desk, a lamp and cold shadows, no writing at all."
   },
   {
-    "name": "t48_a3_25_luxury_mansion",
+    "name": "t48_a3_21_violet_uv_lamp_hallway_floor",
     "act": 3,
-    "sentences": "3.09#1",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Hàng ngàn người dân đã vây kín trụ sở cảnh sát, phẫn nộ đòi trừng trị thích đáng kẻ nghịch...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.06#1,3.06#2",
+    "desc": "Hành lang tối dưới ánh đèn tia cực tím, kỹ thuật viên bóng đen.",
+    "prompt": "Dark hallway lit by a violet ultraviolet lamp sweeping the wooden floor, forensic technician silhouette, faces lost completely in shadow, pale glow."
   },
   {
-    "name": "t48_a3_26_cravinhos_brothers",
+    "name": "t48_a3_22_faint_glowing_footprints_wood_floor",
     "act": 3,
-    "sentences": "3.09#2",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Trong khi hai anh em nhà Cravinhos bộc lộ sự suy sụp vì mặc cảm tội lỗi và sợ hãi, Suzane ...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.06#3,3.06#4",
+    "desc": "Dấu chân tất mờ phát sáng xanh tím trên sàn gỗ.",
+    "prompt": "Faint pale blue-violet glowing sock-shaped prints trailing along a wooden floor, otherwise empty dark room."
   },
   {
-    "name": "t48_a3_27_fake_grief",
+    "name": "t48_a3_23_dark_sweater_lab_ballistic_strings",
     "act": 3,
-    "sentences": "3.09#3",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Cô ta không chấp nhận thất bại của bản thân, mà coi sự đổ vỡ này là do sự yếu kém và ngu x...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.06#5,3.06#6",
+    "desc": "Chiếc áo len sẫm treo trong phòng thí nghiệm, dây đo quỹ đạo trong phòng trống.",
+    "prompt": "Dark knitted sweater hanging under bright lamp in a forensic lab, thin strings crossing an empty room behind, cold light."
   },
   {
-    "name": "t48_a3_28_iron_bar",
+    "name": "t48_a3_24_living_room_computer_glow_early_morning",
     "act": 3,
-    "sentences": "3.10#1",
-    "desc": "Hồi 3 Tập 48 (iron_bar): Sự phản bội lẫn nhau giữa những kẻ đồng lõa là một quy luật tâm lý tất yếu khi bức tường d...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.06#7,3.06#8",
+    "desc": "Máy tính phòng khách phát sáng yếu lúc sáng sớm.",
+    "prompt": "Dim living room with a 1990s computer glowing faintly with a blank screen, curtains drawn, grey dawn at the edges."
   },
   {
-    "name": "t48_a3_29_luxury_mansion",
+    "name": "t48_a3_25_empty_study_chair_desk",
     "act": 3,
-    "sentences": "3.10#2",
-    "desc": "Hồi 3 Tập 48 (luxury_mansion): Mỗi kẻ đều cố gắng biến mình thành con cừu non ngây thơ bị kẻ kia lừa gạt và dẫn dắt vào c...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.06#9,3.06#10",
+    "desc": "Chiếc ghế trống trước bàn làm việc yên ắng.",
+    "prompt": "Empty chair before a small study desk with a dead computer monitor, dim lamp, nobody present, heavy atmosphere."
   },
   {
-    "name": "t48_a3_30_cravinhos_brothers",
+    "name": "t48_a3_26_forensic_lab_dawn_closed_files",
     "act": 3,
-    "sentences": "3.10#3",
-    "desc": "Hồi 3 Tập 48 (cravinhos_brothers): Đó là bản chất chân thực nhất của cái ác khi bị dồn vào chân tường: hèn nhát, vị kỷ và trơ...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.06#11",
+    "desc": "Phòng pháp y lúc bình minh, hồ sơ đã khép.",
+    "prompt": "Forensic laboratory at dawn with closed blank folders on a bench and instruments in rows, pale light over the room."
   },
   {
-    "name": "t48_a3_31_fake_grief",
-    "act": 3,
-    "sentences": "3.11#1",
-    "desc": "Hồi 3 Tập 48 (fake_grief): Thế nhưng, bi kịch không hề khép lại sau cánh cửa nhà tù, mà bắt đầu gặm nhấm cuộc đời của...",
-    "prompt": "Forensic laboratory scene in Brooklin, Sao Paulo, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t48_a4_01_luxury_mansion",
-    "act": 4,
-    "sentences": "4.01#1",
-    "desc": "Hồi 4 Tập 48 (luxury_mansion): Bốn năm sau đêm định mệnh tại Brooklin, vào tháng 7 năm 2006, phiên tòa xét xử Suzane von ...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t48_a4_02_cravinhos_brothers",
-    "act": 4,
-    "sentences": "4.01#2",
-    "desc": "Hồi 4 Tập 48 (cravinhos_brothers): Đây được coi là một trong những phiên tòa thế kỷ thu hút sự quan tâm theo dõi của hàng tri...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t48_a4_03_fake_grief",
-    "act": 4,
-    "sentences": "4.01#3",
-    "desc": "Hồi 4 Tập 48 (fake_grief): Nhưng vượt lên trên cuộc chiến pháp lý gay gắt, một câu hỏi tâm lý học sâu sắc đã được đặt...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t48_a4_04_iron_bar",
+    "name": "t48_a4_01_dunedin_high_court_exterior_1995",
     "act": 4,
     "sentences": "4.02#1",
-    "desc": "Hồi 4 Tập 48 (iron_bar): Tại phiên tòa, chiến lược bào chữa của các bị cáo đã bộc lộ rõ sự rạn nứt không thể hàn gắ...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Toà án Tối cao Dunedin năm một chín chín lăm.",
+    "prompt": "Stone neoclassical High Court building in Dunedin, New Zealand, May 1995, overcast sky, steps leading to heavy doors."
   },
   {
-    "name": "t48_a4_05_luxury_mansion",
+    "name": "t48_a4_02_jury_box_empty_wooden_courtroom",
     "act": 4,
-    "sentences": "4.02#2",
-    "desc": "Hồi 4 Tập 48 (luxury_mansion): Họ cho rằng cô gái trẻ mười tám tuổi ngây thơ đã bị Daniel Cravinhos thao túng bằng ma túy...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#2,4.02#3",
+    "desc": "Ghế bồi thẩm đoàn trống trong phòng xử án gỗ.",
+    "prompt": "Empty wooden jury box and judge's bench in a 1995 New Zealand courtroom, dust-lit stillness, no people."
   },
   {
-    "name": "t48_a4_06_cravinhos_brothers",
+    "name": "t48_a4_03_prison_gate_heavy_door_dusk",
     "act": 4,
-    "sentences": "4.02#3",
-    "desc": "Hồi 4 Tập 48 (cravinhos_brothers): Ngược lại, Daniel và Cristian khẳng định chắc nịch rằng chính Suzane là kẻ chủ mưu duy nhấ...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#4,4.02#5",
+    "desc": "Cánh cổng nhà tù nặng nề lúc chạng vạng.",
+    "prompt": "Heavy steel prison gate and high walls at dusk, a single silhouette far behind bars, faces lost completely in shadow, cold sodium light."
   },
   {
-    "name": "t48_a4_07_fake_grief",
+    "name": "t48_a4_04_crowd_split_courthouse_steps",
     "act": 4,
-    "sentences": "4.03#1",
-    "desc": "Hồi 4 Tập 48 (fake_grief): Trước bồi thẩm đoàn, Daniel đã không kìm được những giọt nước mắt nghẹn ngào khi đối diện ...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#6,4.02#7",
+    "desc": "Đám đông bóng người chia hai phe trên bậc toà án.",
+    "prompt": "Two groups of silhouettes on opposing sides of courthouse steps, a gap between them, faces lost completely in shadow, grey light."
   },
   {
-    "name": "t48_a4_08_iron_bar",
+    "name": "t48_a4_05_newsroom_desk_blank_papers_night",
     "act": 4,
-    "sentences": "4.03#2",
-    "desc": "Hồi 4 Tập 48 (iron_bar): Cuộc chiến tại tòa đã bóc trần sự thật rằng sự liên minh giữa những kẻ bất hảo chỉ tồn tại...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#8,4.02#9",
+    "desc": "Bàn toà soạn đêm với chồng giấy trắng.",
+    "prompt": "Dim 1990s newsroom desk at night with stacks of completely blank and unmarked papers and a desk lamp, silhouette far in the back, faces lost completely in shadow."
   },
   {
-    "name": "t48_a4_09_luxury_mansion",
+    "name": "t48_a4_06_government_corridors_scales_dark",
     "act": 4,
-    "sentences": "4.03#3",
-    "desc": "Hồi 4 Tập 48 (luxury_mansion): Thế nhưng, nạn nhân đau đớn nhất trong toàn bộ tấn thảm kịch này không ai khác chính là An...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#10,4.02#11",
+    "desc": "Hành lang cơ quan tư pháp với chiếc cân công lý trong bóng tối.",
+    "prompt": "Government corridor with a brass scales of justice on a console table, long shadows, empty."
   },
   {
-    "name": "t48_a4_10_cravinhos_brothers",
+    "name": "t48_a4_07_prosecution_lectern_empty_lamp",
     "act": 4,
-    "sentences": "4.04#1",
-    "desc": "Hồi 4 Tập 48 (cravinhos_brothers): Chỉ trong một đêm, cậu thiếu niên đã mất đi cả cha lẫn mẹ trong một vụ sát hại kinh hoàng ...",
-    "prompt": "Historic courtroom interior in Brooklin, Sao Paulo, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.04#1,4.04#2",
+    "desc": "Bục công tố trống dưới ngọn đèn.",
+    "prompt": "Empty prosecution lectern in a courtroom with a single lamp, rows of wood benches behind, formal stillness."
   },
   {
-    "name": "t48_a4_11_fake_grief",
+    "name": "t48_a4_08_microscope_forensic_samples_lab",
     "act": 4,
-    "sentences": "4.04#2",
-    "desc": "Hồi 4 Tập 48 (fake_grief): Sau thảm kịch, Andreas rơi vào tình trạng đóng băng tâm lý và hoàn toàn thu mình lại khỏi ...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#3,4.04#4",
+    "desc": "Kính hiển vi và mẫu vật pháp y trong phòng thí nghiệm.",
+    "prompt": "Forensic lab bench with a microscope and sealed unmarked sample containers, bright lamp, dark room edges."
   },
   {
-    "name": "t48_a4_12_iron_bar",
+    "name": "t48_a4_09_evidence_table_courtroom_prosecutor_silhouette",
     "act": 4,
-    "sentences": "4.04#3",
-    "desc": "Hồi 4 Tập 48 (iron_bar): Tôi biết rằng dù có phải ngồi tù bao nhiêu năm hay chịu đựng bất kỳ sự trừng phạt nào, tội...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#5,4.04#6",
+    "desc": "Bóng công tố viên bên bàn chứng cứ trong phòng xử án.",
+    "prompt": "Silhouette of a prosecutor beside an evidence table in a courtroom, faces lost completely in shadow, sealed unmarked bags under soft light."
   },
   {
-    "name": "t48_a4_13_luxury_mansion",
+    "name": "t48_a4_10_jurors_silhouettes_courtroom_wide",
+    "act": 4,
+    "sentences": "4.04#7,4.04#8",
+    "desc": "Bồi thẩm đoàn bóng đen trong phòng xử án rộng.",
+    "prompt": "Wide courtroom with jurors as silhouettes in two rows, faces lost completely in shadow, tall windows leaking pale daylight."
+  },
+  {
+    "name": "t48_a4_11_prison_cell_corridor_heavy_gate",
+    "act": 4,
+    "sentences": "4.04#9,4.04#10",
+    "desc": "Hành lang phòng giam với cổng sắt nặng.",
+    "prompt": "Dim prison cell corridor with a heavy iron gate at the end, long perspective, cold light, nobody visible."
+  },
+  {
+    "name": "t48_a4_12_prison_fence_dusk_waiting_silhouette",
     "act": 4,
     "sentences": "4.05#1",
-    "desc": "Hồi 4 Tập 48 (luxury_mansion): Nhưng điều cắn rứt lương tâm tôi lớn nhất cho đến tận ngày hôm nay chính là Andreas, đứa e...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "desc": "Bóng người đứng chờ ngoài hàng rào nhà tù lúc chạng vạng.",
+    "prompt": "Silhouette standing outside a prison perimeter fence at dusk, faces lost completely in shadow, wind and rolling hills behind."
   },
   {
-    "name": "t48_a4_14_cravinhos_brothers",
+    "name": "t48_a4_13_empty_rugby_stadium_goalposts_dusk",
     "act": 4,
-    "sentences": "4.05#2",
-    "desc": "Hồi 4 Tập 48 (cravinhos_brothers): Tôi đã cướp đi cha mẹ của cậu ấy, cướp đi mái ấm bình yên và hủy hoại toàn bộ tuổi thơ của...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#2,4.05#3",
+    "desc": "Sân bóng bầu dục trống lúc chiều muộn, cột gôn lặng im.",
+    "prompt": "Empty rugby stadium in New Zealand at dusk with goalposts silhouetted against a purple sky, stands bare."
   },
   {
-    "name": "t48_a4_15_fake_grief",
+    "name": "t48_a4_14_man_poring_over_blank_case_files_lamp",
     "act": 4,
-    "sentences": "4.05#3",
-    "desc": "Hồi 4 Tập 48 (fake_grief): Tôi chỉ có một khao khát duy nhất là một ngày nào đó được quỳ trước mặt Andreas, nhìn thẳn...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#4,4.05#5",
+    "desc": "Bóng người miệt mài bên chồng hồ sơ trống dưới ánh đèn đêm.",
+    "prompt": "Silhouette of a man poring over thick completely blank and unmarked case files late at night, faces lost completely in shadow, desk lamp, quiet room."
   },
   {
-    "name": "t48_a4_16_iron_bar",
+    "name": "t48_a4_15_rural_road_car_new_zealand_dawn",
     "act": 4,
-    "sentences": "4.06#1",
-    "desc": "Hồi 4 Tập 48 (iron_bar): Tôi biết cậu ấy có quyền căm hận tôi suốt đời, và sự căm hận đó là hoàn toàn chính đáng đố...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#6",
+    "desc": "Chiếc xe chạy trên đường quê New Zealand lúc bình minh.",
+    "prompt": "Lone car driving on a rural New Zealand road at dawn, green hills, low mist, long road ahead."
   },
   {
-    "name": "t48_a4_17_luxury_mansion",
+    "name": "t48_a4_16_plain_bound_books_dim_bookshop",
     "act": 4,
-    "sentences": "4.06#2",
-    "desc": "Hồi 4 Tập 48 (luxury_mansion): Sau khi mãn hạn tù một phần và chuyển sang chế độ bán mở, anh ta đã viết một bức tâm thư c...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#7,4.05#8",
+    "desc": "Những cuốn sách bìa trơn trong hiệu sách mờ.",
+    "prompt": "Shelves of plain bound books with completely blank unmarked spines in a dim bookshop, a silhouette browsing far away, faces lost completely in shadow."
   },
   {
-    "name": "t48_a4_18_cravinhos_brothers",
+    "name": "t48_a4_17_former_athlete_silhouette_prison_gate_judges_chamber",
     "act": 4,
-    "sentences": "4.06#3",
-    "desc": "Hồi 4 Tập 48 (cravinhos_brothers): Trong thư, anh ta không hề biện minh cho hành vi tàn bạo của mình mà thừa nhận Andreas chí...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#9,4.05#10",
+    "desc": "Bóng người cựu danh thủ trước cổng tù, phòng thẩm phán trống.",
+    "prompt": "Split composition, left a silhouette of a broad-shouldered man before a prison gate, right an empty judges' chamber with a heavy desk, faces lost completely in shadow."
   },
   {
-    "name": "t48_a4_19_fake_grief",
+    "name": "t48_a4_18_courtroom_split_light_two_sides",
     "act": 4,
-    "sentences": "4.07#1",
-    "desc": "Hồi 4 Tập 48 (fake_grief): Trong khi Daniel tìm kiếm sự chuộc lỗi trong im lặng, Suzane lại liên tục xuất hiện trên t...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#1,4.06#2",
+    "desc": "Phòng xử án chia đôi hai luồng sáng đối nghịch.",
+    "prompt": "Courtroom divided by two opposing beams of light, two empty tables facing each other, rows of benches between, dust in the beams."
   },
   {
-    "name": "t48_a4_20_iron_bar",
+    "name": "t48_a4_19_study_desk_chair_turned_away",
     "act": 4,
-    "sentences": "4.07#2",
-    "desc": "Hồi 4 Tập 48 (iron_bar): Ông vạch trần chiếc mặt nạ hối hận của Suzane, chỉ rõ rằng cô ta chưa bao giờ thực sự ăn n...",
-    "prompt": "Emotional witness stand perspective in Brooklin, Sao Paulo, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#3,4.06#4",
+    "desc": "Bàn học trống và chiếc ghế xoay đi, ngọn đèn mờ.",
+    "prompt": "Empty study desk with a chair turned away and a dim lamp, shelves in shadow, quiet suggestion of hidden burdens."
   },
   {
-    "name": "t48_a4_21_luxury_mansion",
+    "name": "t48_a4_20_maze_of_corridors_cognitive",
+    "act": 4,
+    "sentences": "4.06#5,4.06#6",
+    "desc": "Mê cung hành lang, ma trận nhận thức không lối ra.",
+    "prompt": "Maze of identical dim corridors lit by single bulbs, a lone silhouette small in the middle, faces lost completely in shadow."
+  },
+  {
+    "name": "t48_a4_21_scales_of_justice_court_bench_balanced",
+    "act": 4,
+    "sentences": "4.06#7,4.06#8",
+    "desc": "Cán cân công lý đặt thăng bằng trên bàn xử.",
+    "prompt": "Brass scales of justice balanced on a dark court bench, soft light across the pans, empty courtroom behind."
+  },
+  {
+    "name": "t48_a4_22_law_books_blank_spines_chamber",
+    "act": 4,
+    "sentences": "4.06#9,4.06#10",
+    "desc": "Giá sách luật gáy trơn trong phòng thẩm phán.",
+    "prompt": "Judicial chamber with shelves of leather law books, completely blank unmarked spines, a warm lamp and a heavy desk."
+  },
+  {
+    "name": "t48_a4_23_london_government_building_overcast_2007",
+    "act": 4,
+    "sentences": "4.07#1,4.07#2",
+    "desc": "Toà nhà chính phủ London dưới trời u ám.",
+    "prompt": "Grand historic government building in London, England in 2007, overcast sky, wet street, silhouettes of officials passing at a distance, faces lost completely in shadow."
+  },
+  {
+    "name": "t48_a4_24_prison_release_gate_morning_silhouette",
     "act": 4,
     "sentences": "4.07#3",
-    "desc": "Hồi 4 Tập 48 (luxury_mansion): Màn kịch đau khổ ấy chỉ là một chiến thuật pháp lý được tính toán nhằm xoa dịu cơn giận dữ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Bóng người bước ra từ cổng nhà tù buổi sáng.",
+    "prompt": "Silhouette stepping out of a prison pedestrian gate into morning light, faces lost completely in shadow, wet ground, tall wall behind."
   },
   {
-    "name": "t48_a4_22_cravinhos_brothers",
+    "name": "t48_a4_25_christchurch_high_court_exterior_2009",
     "act": 4,
-    "sentences": "4.08#1",
-    "desc": "Hồi 4 Tập 48 (cravinhos_brothers): Để hiểu rõ câu hỏi tại sao kẻ phạm tội lại hối hận, chúng ta cần phân biệt ba cơ chế tâm l...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.07#4,4.07#5",
+    "desc": "Toà án Christchurch năm hai nghìn không trăm lẻ chín.",
+    "prompt": "Christchurch High Court exterior, New Zealand, March 2009, grey stone, autumn trees, silhouettes entering the doors from a distance."
   },
   {
-    "name": "t48_a4_23_fake_grief",
+    "name": "t48_a4_26_courtroom_applause_crowd_silhouettes",
     "act": 4,
-    "sentences": "4.08#2",
-    "desc": "Hồi 4 Tập 48 (fake_grief): Biểu hiện rõ nhất của Suzane là trong cuộc phỏng vấn truyền hình năm 2015, cô ta tuyên bố ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.07#6,4.07#7",
+    "desc": "Đám đông bóng đen vỗ tay trong phòng xử án.",
+    "prompt": "Crowd silhouettes applauding inside a courtroom, hands raised, warm light from tall windows, faces lost completely in shadow."
   },
   {
-    "name": "t48_a4_24_iron_bar",
+    "name": "t48_a4_27_law_book_dim_street_crowd_split",
     "act": 4,
-    "sentences": "4.08#3",
-    "desc": "Hồi 4 Tập 48 (iron_bar): Cơ chế thứ hai là “Phản tỉnh vì sợ hãi và xấu hổ”. Khi ảo tưởng toàn năng sụp đổ trước vàn...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.07#8,4.07#9",
+    "desc": "Cuốn sách luật và đám đông bị chia rẽ trên phố tối.",
+    "prompt": "Split composition, a heavy law book open and blank on a table on the left, a crowd of silhouettes divided on a dim street on the right, faces lost completely in shadow."
   },
   {
-    "name": "t48_a4_25_luxury_mansion",
+    "name": "t48_a4_28_empty_house_plot_dawn_fog",
     "act": 4,
-    "sentences": "4.09#1",
-    "desc": "Hồi 4 Tập 48 (luxury_mansion): Và cơ chế thứ ba là “Ăn năn đạo đức chân thực”. Đây là trạng thái khi nhận thức con người ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.07#10,4.07#11",
+    "desc": "Mảnh đất trống buổi bình minh sương mù, câu hỏi chưa lời đáp.",
+    "prompt": "Empty suburban plot with only a bare concrete foundation and grass at dawn fog in Dunedin, hills in the distance, silent."
   },
   {
-    "name": "t48_a4_26_cravinhos_brothers",
-    "act": 4,
-    "sentences": "4.09#2",
-    "desc": "Hồi 4 Tập 48 (cravinhos_brothers): Sự khác biệt giữa hối hận chân thực và tự thương hại chính là thước đo chính xác nhất để p...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
-  },
-  {
-    "name": "t48_a4_27_fake_grief",
-    "act": 4,
-    "sentences": "4.09#3",
-    "desc": "Hồi 4 Tập 48 (fake_grief): Suzane von Richthofen và Daniel Cravinhos bị tuyên phạt ba mươi chín năm và sáu tháng tù g...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
-  },
-  {
-    "name": "t48_a4_28_iron_bar",
-    "act": 4,
-    "sentences": "4.10#1",
-    "desc": "Hồi 4 Tập 48 (iron_bar): Công lý đã được thực thi một cách nghiêm minh, nhưng những dư chấn tâm lý và xã hội của nó...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Brooklin, Sao Paulo, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
-  },
-  {
-    "name": "t48_a5_01_luxury_mansion",
-    "act": 5,
-    "sentences": "5.01#1",
-    "desc": "Hồi 5 Tập 48 (luxury_mansion): Hồ sơ vụ án Suzane von Richthofen khép lại sau những cánh cổng sắt kiên cố của nhà tù Trem...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
-  },
-  {
-    "name": "t48_a5_02_cravinhos_brothers",
-    "act": 5,
-    "sentences": "5.01#2",
-    "desc": "Hồi 5 Tập 48 (cravinhos_brothers): Thế nhưng, suốt hơn hai thập kỷ qua, câu chuyện về nghịch tử dinh thự Brooklin vẫn luôn là...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
-  },
-  {
-    "name": "t48_a5_03_fake_grief",
-    "act": 5,
-    "sentences": "5.01#3",
-    "desc": "Hồi 5 Tập 48 (fake_grief): Vụ án đã đập tan ảo tưởng ngây thơ của xã hội rằng tri thức học thuật và sự bảo bọc vật ch...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
-  },
-  {
-    "name": "t48_a5_04_iron_bar",
+    "name": "t48_a5_01_silhouette_courthouse_steps_daylight",
     "act": 5,
     "sentences": "5.02#1",
-    "desc": "Hồi 5 Tập 48 (iron_bar): Phía sau vẻ hào nhoáng của những dinh thự xa hoa luôn có thể ẩn chứa những mầm mống tha hó...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Bóng người bước xuống bậc toà án ra ánh ban ngày.",
+    "prompt": "Silhouette walking down courthouse steps into pale daylight, faces lost completely in shadow, pillars behind, quiet gravity."
   },
   {
-    "name": "t48_a5_05_luxury_mansion",
+    "name": "t48_a5_02_international_judges_bench_scales",
     "act": 5,
-    "sentences": "5.02#2",
-    "desc": "Hồi 5 Tập 48 (luxury_mansion): Nhưng vượt lên trên sự phán xét dành cho kẻ thủ ác, điều khiến chúng ta trăn trở sâu sắc n...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#2,5.02#3",
+    "desc": "Ghế thẩm phán quốc tế và cán cân trên bàn.",
+    "prompt": "Long dark judges' bench with scales and empty high-backed chairs, distant tall windows, formal atmosphere."
   },
   {
-    "name": "t48_a5_06_cravinhos_brothers",
+    "name": "t48_a5_03_empty_dining_table_five_chairs",
     "act": 5,
-    "sentences": "5.02#3",
-    "desc": "Hồi 5 Tập 48 (cravinhos_brothers): Cuộc đời của Andreas von Richthofen là một minh chứng đau xót cho thấy sang chấn phản bội ...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#4,5.02#5",
+    "desc": "Bàn ăn trống với năm chiếc ghế, một gia đình biến mất.",
+    "prompt": "Family dining table with five empty chairs, dust in grey window light, absence and silence, 1990s New Zealand home."
   },
   {
-    "name": "t48_a5_07_fake_grief",
+    "name": "t48_a5_04_bare_foundation_demolished_house_lot",
+    "act": 5,
+    "sentences": "5.02#6",
+    "desc": "Nền nhà bị san phẳng, cỏ mọc.",
+    "prompt": "Bare concrete foundation of a demolished house, patches of grass, Dunedin hills beyond, quiet overcast."
+  },
+  {
+    "name": "t48_a5_05_survivors_apart_bench_seaside",
+    "act": 5,
+    "sentences": "5.02#7,5.02#8",
+    "desc": "Bóng người sống sót ngồi xa nhau trên ghế bên biển.",
+    "prompt": "Two silhouettes sitting apart on a seaside bench in Dunedin at dusk, faces lost completely in shadow, gap between them, gentle waves."
+  },
+  {
+    "name": "t48_a5_06_courthouse_door_closing_candle",
+    "act": 5,
+    "sentences": "5.02#9,5.02#10",
+    "desc": "Cánh cửa toà án khép lại, ngọn nến lương tâm.",
+    "prompt": "Courthouse side door closing with a single candle flame in a stone alcove nearby, long shadows, quiet conscience."
+  },
+  {
+    "name": "t48_a5_07_dawn_light_courtroom_window",
+    "act": 5,
+    "sentences": "5.02#11,5.02#12",
+    "desc": "Ánh bình minh qua cửa sổ phòng xử án.",
+    "prompt": "Pale dawn light shining through a tall courtroom window onto empty wooden benches, dust floating in the beam."
+  },
+  {
+    "name": "t48_a5_08_three_closed_doors_corridor_warning",
     "act": 5,
     "sentences": "5.03#1",
-    "desc": "Hồi 5 Tập 48 (fake_grief): Dù xuất sắc vượt qua nỗi đau để lấy bằng Tiến sĩ Hóa học tại trường đại học danh tiếng, tâ...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Ba cánh cửa khép lại trong hành lang, ba bài học.",
+    "prompt": "Long corridor with three closed doors lit by a faint red warning glow, otherwise dark, ominous calm."
   },
   {
-    "name": "t48_a5_08_iron_bar",
+    "name": "t48_a5_09_family_silhouettes_sitting_apart_one_room",
     "act": 5,
-    "sentences": "5.03#2",
-    "desc": "Hồi 5 Tập 48 (iron_bar): Năm 2017, hình ảnh Andreas xuất hiện trong tình trạng hoảng loạn tâm thần trên đường phố S...",
-    "prompt": "Solemn penal execution facility at dawn in Brooklin, Sao Paulo, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#2,5.03#3",
+    "desc": "Bóng người trong gia đình ngồi tách biệt trong cùng một phòng.",
+    "prompt": "Living room with three silhouettes sitting apart facing different directions, faces lost completely in shadow, a dim lamp, emotional distance."
   },
   {
-    "name": "t48_a5_09_luxury_mansion",
+    "name": "t48_a5_10_warm_open_window_kitchen_light",
     "act": 5,
-    "sentences": "5.03#3",
-    "desc": "Hồi 5 Tập 48 (luxury_mansion): Nó nhắc nhở chúng ta rằng, sự trợ giúp tâm lý kịp thời và sự bảo bọc của cộng đồng đối với...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.03#4",
+    "desc": "Cửa sổ ấm áp mở ra, kênh giao tiếp lành mạnh.",
+    "prompt": "Warm lit kitchen window glowing amber at dusk with steam rising from an empty table, welcoming mood."
   },
   {
-    "name": "t48_a5_10_cravinhos_brothers",
+    "name": "t48_a5_11_figure_hunched_alone_window_night",
+    "act": 5,
+    "sentences": "5.03#5,5.03#6",
+    "desc": "Bóng người co ro một mình bên cửa sổ đêm.",
+    "prompt": "Silhouette hunched alone beside a night window, faces lost completely in shadow, faint city glow, silence and weight."
+  },
+  {
+    "name": "t48_a5_12_counsellor_office_warm_lamp",
+    "act": 5,
+    "sentences": "5.03#7",
+    "desc": "Văn phòng chuyên gia tâm lý với ngọn đèn ấm.",
+    "prompt": "Counsellor's office with an empty armchair and a warm lamp, bookshelves with blank spines, calm and safe."
+  },
+  {
+    "name": "t48_a5_13_forensic_lab_microscope_objectivity",
+    "act": 5,
+    "sentences": "5.03#8,5.03#9",
+    "desc": "Phòng thí nghiệm với kính hiển vi, tính khách quan khoa học.",
+    "prompt": "Clean forensic laboratory with a microscope on a bench and soft cool light, instruments neatly set, objective atmosphere."
+  },
+  {
+    "name": "t48_a5_14_theatre_mask_set_down_guardian_light",
+    "act": 5,
+    "sentences": "5.03#10,5.03#11",
+    "desc": "Mặt nạ sân khấu đặt xuống bên ngọn đèn, trực giác an toàn.",
+    "prompt": "Plain blank theatre mask set down beside a small lantern on a wooden table, soft warm light, dark room."
+  },
+  {
+    "name": "t48_a5_15_warm_house_vs_cracked_fence",
+    "act": 5,
+    "sentences": "5.03#12,5.03#13",
+    "desc": "Ngôi nhà sáng ấm cạnh hàng rào nứt, mái ấm mong manh.",
+    "prompt": "Warm glowing house behind a cracked wooden garden fence at dusk, silhouette outside the gate, faces lost completely in shadow, cold blue sky."
+  },
+  {
+    "name": "t48_a5_16_family_silhouettes_together_lamp_living_room",
+    "act": 5,
+    "sentences": "5.03#14,5.03#15",
+    "desc": "Bóng cả gia đình bên nhau dưới ánh đèn phòng khách.",
+    "prompt": "Silhouettes of a family sitting together in a lamp-lit living room, faces lost completely in shadow, warm glow, closeness."
+  },
+  {
+    "name": "t48_a5_17_open_front_door_dawn_hope",
+    "act": 5,
+    "sentences": "5.03#16",
+    "desc": "Cửa nhà mở ra ánh bình minh nhẹ.",
+    "prompt": "Open front door of a suburban house letting in soft golden dawn light across the hallway floor, hopeful quiet."
+  },
+  {
+    "name": "t48_a5_18_archive_shelf_closing_file",
     "act": 5,
     "sentences": "5.04#1",
-    "desc": "Hồi 5 Tập 48 (cravinhos_brothers): Chúng ta không được phép lãng quên những nạn nhân câm lặng đang phải gánh chịu hậu quả nặn...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "desc": "Giá lưu trữ, hồ sơ được khép lại.",
+    "prompt": "Dark archive shelf with a completely blank and unmarked folder being pushed into its slot by a silhouette hand, cold light."
   },
   {
-    "name": "t48_a5_11_fake_grief",
+    "name": "t48_a5_19_dunedin_sunrise_harbour_thirty_years",
     "act": 5,
-    "sentences": "5.04#2",
-    "desc": "Hồi 5 Tập 48 (fake_grief): Từ góc độ điều tra và thực thi pháp luật, hồ sơ Richthofen đã để lại những bài học nghiệp ...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#2,5.04#3",
+    "desc": "Bình minh trên cảng Dunedin, ba mươi năm sau.",
+    "prompt": "Sunrise over Dunedin harbour and hills, gentle gold on clouds, calm water, a reflective mood."
   },
   {
-    "name": "t48_a5_12_iron_bar",
+    "name": "t48_a5_20_warm_house_window_dusk_cherish",
     "act": 5,
-    "sentences": "5.04#3",
-    "desc": "Hồi 5 Tập 48 (iron_bar): Nó dạy chúng tôi không bao giờ được phép để Hiệu ứng Hào quang làm lung lay các nguyên tắc...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#4",
+    "desc": "Cửa sổ ngôi nhà ấm áp lúc hoàng hôn.",
+    "prompt": "Warm lit house window at dusk with a quiet street outside, glowing amber curtain, tender mood."
   },
   {
-    "name": "t48_a5_13_luxury_mansion",
+    "name": "t48_a5_21_studio_microphone_warm_lamp_closing",
     "act": 5,
-    "sentences": "5.05#1",
-    "desc": "Hồi 5 Tập 48 (luxury_mansion): Tội ác ngụy trang dù có tinh vi đến đâu cũng luôn để lại những dấu vết tâm lý không thể xó...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#5",
+    "desc": "Phòng thu với micro và ánh đèn ấm, lời cảm ơn.",
+    "prompt": "Quiet radio studio at night with a vintage microphone and a warm lamp, acoustic panels with no writing, empty chair."
   },
   {
-    "name": "t48_a5_14_cravinhos_brothers",
+    "name": "t48_a5_22_amber_tiger_eyes_closed_file_end_card",
     "act": 5,
-    "sentences": "5.05#2",
-    "desc": "Hồi 5 Tập 48 (cravinhos_brothers): Sự phối hợp chặt chẽ giữa khoa học hình sự và phân tích tâm lý học tội phạm chính là chìa ...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
-  },
-  {
-    "name": "t48_a5_15_fake_grief",
-    "act": 5,
-    "sentences": "5.05#3",
-    "desc": "Hồi 5 Tập 48 (fake_grief): Từ tấn thảm kịch kinh hoàng mang tên Suzane von Richthofen, các chuyên gia tâm lý học hành...",
-    "prompt": "Serene panoramic wide landscape of Brooklin, Sao Paulo, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t48_a5_16_iron_bar",
-    "act": 5,
-    "sentences": "5.06#1",
-    "desc": "Hồi 5 Tập 48 (iron_bar): Thứ nhất, nhận diện sớm những mầm mống của thói ái kỷ bệnh lý và sự thiếu hụt lòng trắc ẩn...",
-    "prompt": "Serene panoramic wide landscape of Brooklin, Sao Paulo, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t48_a5_17_luxury_mansion",
-    "act": 5,
-    "sentences": "5.06#2",
-    "desc": "Hồi 5 Tập 48 (luxury_mansion): Vật chất xa hoa hay sự nuông chiều thái quá không bao giờ có thể thay thế được việc rèn lu...",
-    "prompt": "Serene panoramic wide landscape of Brooklin, Sao Paulo, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t48_a5_18_cravinhos_brothers",
-    "act": 5,
-    "sentences": "5.06#3",
-    "desc": "Hồi 5 Tập 48 (cravinhos_brothers): Thứ hai, đặc biệt cảnh giác trước hiện tượng thao túng tâm lý và sự chia ngăn nhận thức tr...",
-    "prompt": "Serene panoramic wide landscape of Brooklin, Sao Paulo, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t48_a5_19_fake_grief",
-    "act": 5,
-    "sentences": "5.07#1",
-    "desc": "Hồi 5 Tập 48 (fake_grief): Đừng bao giờ đánh đồng sự kiểm soát độc hại và những toan tính ích kỷ với tình yêu chân ch...",
-    "prompt": "Serene panoramic wide landscape of Brooklin, Sao Paulo, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t48_a5_20_iron_bar",
-    "act": 5,
-    "sentences": "5.07#2",
-    "desc": "Hồi 5 Tập 48 (iron_bar): Thứ ba, thiết lập các kênh đối thoại cởi mở và xây dựng hệ thống cảnh báo sớm trong gia đì...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t48_a5_21_luxury_mansion",
-    "act": 5,
-    "sentences": "5.07#3",
-    "desc": "Hồi 5 Tập 48 (luxury_mansion): Hãy dũng cảm đối diện với những rạn nứt tâm lý và tìm kiếm sự hỗ trợ chuyên môn kịp thời t...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t48_a5_22_cravinhos_brothers",
-    "act": 5,
-    "sentences": "5.08#1",
-    "desc": "Hồi 5 Tập 48 (cravinhos_brothers): Hành trình giải mã tâm lý tội phạm cùng Amber Eyes không nhằm khơi gợi sự sợ hãi, mà để th...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t48_a5_23_fake_grief",
-    "act": 5,
-    "sentences": "5.08#2",
-    "desc": "Hồi 5 Tập 48 (fake_grief): Xin hãy luôn trân trọng tình thân, giữ gìn sự tỉnh thức trước mọi cám dỗ và lắng nghe tiến...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t48_a5_24_iron_bar",
-    "act": 5,
-    "sentences": "5.08#3",
-    "desc": "Hồi 5 Tập 48 (iron_bar): Cảm ơn quý vị khán giả đã luôn đồng hành cùng kênh trong từng tập hồ sơ chuyên sâu....",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.04#6",
+    "desc": "Đôi mắt hổ phách trong bóng tối trên tập hồ sơ khép lại, thẻ kết.",
+    "prompt": "Closed completely blank and unmarked case file on a dark table with a pair of glowing amber tiger eyes in the darkness behind it, no writing at all."
   }
 ]

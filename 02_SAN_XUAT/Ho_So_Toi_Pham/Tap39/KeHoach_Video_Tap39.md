@@ -1,7 +1,7 @@
 # HỒ SƠ SẢN XUẤT TẬP 39 · "LAO VINH CHI & PHÁP TỬ ANH" (PHẦN B)
 
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).
-**Kịch bản gốc:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap39/kichban_tap62_22112026.md`
+**Kịch bản gốc:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap39/kichban_tap39_22112026.md`
 **Thành phẩm xuất bản:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap39/xuat_ban/`
 
 ## B1. Thông tin tập
@@ -25,7 +25,8 @@
 
 ## B3. Trạng thái các bước kỹ thuật (Checklist)
 
-- [x] Kịch bản Tiếng Việt (`01_KICH_BAN/Ho_So_Toi_Pham/Tap39/kichban_tap62_22112026.md`)
+- [x] Kịch bản Tiếng Việt (`01_KICH_BAN/Ho_So_Toi_Pham/Tap39/kichban_tap39_22112026.md`) — Đã duyệt chính tả & 240 câu chuẩn
+- [x] Phụ lục A Bảng câu thoại (`02_SAN_XUAT/Ho_So_Toi_Pham/Tap39/PhuLucA_BangCau_Tap39.md`) — 240/240 câu
 - [ ] Kịch bản Tiếng Anh (`01_KICH_BAN/Ho_So_Toi_Pham/Tap39_EN/`)
 - [ ] Kịch bản Tiếng Nhật (`01_KICH_BAN/Ho_So_Toi_Pham/Tap39_JA/`)
 - [ ] Kịch bản Tiếng Hàn (`01_KICH_BAN/Ho_So_Toi_Pham/Tap39_KO/`)

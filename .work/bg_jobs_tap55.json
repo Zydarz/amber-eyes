@@ -1,1024 +1,1353 @@
 [
   {
-    "name": "t55_a1_01_weimar_alleys",
+    "name": "t55_a1_01_weimar_germany_bleak_city_1929",
     "act": 1,
-    "sentences": "1.01#1",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Vào cuối thập niên 1920, nước Đức dưới thời Cộng hòa Weimar đang phải oằn mình gánh chịu n...",
-    "prompt": "Cinematic establishing wide shot of Dusseldorf, Germany, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "sentences": "1.02#1,1.02#2",
+    "desc": "Toàn cảnh thành phố Đức cuối thập niên 1920 dưới bóng khủng hoảng và thất nghiệp.",
+    "prompt": "Wide establishing shot of a gloomy German city street in 1929 Weimar Republic, soot-darkened tenements, idle men in worn coats standing in a grey drizzle, heavy overcast sky."
   },
   {
-    "name": "t55_a1_02_rhine_riverbank",
+    "name": "t55_a1_02_dusseldorf_rhine_industrial_dusk",
     "act": 1,
-    "sentences": "1.01#2",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Cuộc khủng hoảng kinh tế tàn khốc, nạn thất nghiệp tràn lan và sự sụp đổ của các giá trị t...",
-    "prompt": "Cinematic establishing wide shot of Dusseldorf, Germany, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "sentences": "1.02#3,1.02#4",
+    "desc": "Hoàng hôn trên bờ sông Rhine ở Düsseldorf với ống khói công nghiệp và công nhân tan ca.",
+    "prompt": "Dusk over the industrial riverfront of Düsseldorf, Germany, 1929, factory chimneys smoking beside the Rhine, tiny silhouettes of workers trudging home along the quay."
   },
   {
-    "name": "t55_a1_03_psychoanalysis",
+    "name": "t55_a1_03_unseen_predator_fog_lamplight",
     "act": 1,
-    "sentences": "1.01#3",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Con người thời bấy giờ sống trong một trạng thái bất an hiện sinh sâu sắc, nơi niềm tin gi...",
-    "prompt": "Cinematic establishing wide shot of Dusseldorf, Germany, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "sentences": "1.02#5",
+    "desc": "Một bóng ma vô hình lởn vởn trong sương dưới ngọn đèn đường.",
+    "prompt": "A lone faceless silhouette barely visible at the edge of a gas-lamp halo in thick fog on a cobbled German street, 1929, ominous stillness."
   },
   {
-    "name": "t55_a1_04_karl_berg",
+    "name": "t55_a1_04_empty_park_bench_after_work",
     "act": 1,
-    "sentences": "1.02#1",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Thế nhưng, chính trong bối cảnh xã hội suy kiệt và mong manh ấy, một bóng ma vô hình đã xu...",
-    "prompt": "Cinematic establishing wide shot of Dusseldorf, Germany, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "sentences": "1.02#6,1.02#7",
+    "desc": "Công viên vắng lặng sau giờ tan tầm, xích đu và ghế dài bỏ trống.",
+    "prompt": "Deserted German city park at twilight in 1929, an empty swing and bare benches under bare trees, long shadows across gravel paths, a forgotten child's hat on the ground."
   },
   {
-    "name": "t55_a1_05_weimar_alleys",
+    "name": "t55_a1_05_random_evil_dark_alley_crossroads",
     "act": 1,
-    "sentences": "1.02#2",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Những góc phố tối tăm, những công viên vắng lặng sau giờ tan tầm bỗng chốc trở thành nơi r...",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#8,1.02#9",
+    "desc": "Ngõ hẻm ngã tư tối tăm, ngẫu nhiên, không quy luật.",
+    "prompt": "Narrow cobbled alley crossroads at night in a 1920s German town, four dark passages leading away in different directions, a single flickering lamp, no figures visible."
   },
   {
-    "name": "t55_a1_06_rhine_riverbank",
+    "name": "t55_a1_06_neighbors_suspicion_fog_street",
     "act": 1,
-    "sentences": "1.02#3",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Cái ác giáng xuống hoàn toàn ngẫu nhiên, không để lại bất kỳ quy luật tư lợi hay thù oán c...",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#10",
+    "desc": "Hai bóng người đi ngược chiều trong sương mù nhìn nhau đề phòng.",
+    "prompt": "Two distant dark silhouettes passing each other on a fog-filled street in 1929 Düsseldorf, both keeping to opposite pavements, wary posture, mist swallowing their faces."
   },
   {
-    "name": "t55_a1_07_psychoanalysis",
+    "name": "t55_a1_07_city_in_panic_shuttered_street",
     "act": 1,
-    "sentences": "1.03#1",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Chính sự bất định tàn nhẫn ấy đã tạo nên một “Điểm mù xã hội” vô cùng nguy hiểm....",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#11",
+    "desc": "Phố xá tê liệt, cửa chớp đóng kín trong cơn hoảng loạn tập thể.",
+    "prompt": "Street of a German city in 1929 with every window shuttered and every door closed in midday, an abandoned handcart, an eerie paralysis of daily life."
   },
   {
-    "name": "t55_a1_08_karl_berg",
+    "name": "t55_a1_08_dark_chapter_begins_closed_file_desk",
     "act": 1,
-    "sentences": "1.03#2",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Người dân thành phố bắt đầu nhìn nhau bằng ánh mắt nghi kỵ tột cùng, tin rằng bất kỳ người...",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#12",
+    "desc": "Bàn làm việc với chiếc hồ sơ dày khép lại dưới ngọn đèn xanh.",
+    "prompt": "Detective's heavy oak desk under a green banker's lamp, a thick closed case folder completely blank and unmarked with no writing at all, drifting cigarette smoke, 1929 Germany."
   },
   {
-    "name": "t55_a1_09_weimar_alleys",
-    "act": 1,
-    "sentences": "1.03#3",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Một trong những hồ sơ đen tối và ám ảnh nhất của lịch sử tư pháp thế giới đã bắt đầu giữa ...",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
-  },
-  {
-    "name": "t55_a1_10_rhine_riverbank",
+    "name": "t55_a1_09_year_1929_rhineland_dark_year",
     "act": 1,
     "sentences": "1.04#1",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Năm 1929 được ghi nhận là một năm đen tối bậc nhất của cư dân vùng Rhineland....",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Vùng Rhineland năm 1929 chìm trong đêm, mái nhà và tháp chuông dưới trăng thấp.",
+    "prompt": "Wide view of Rhineland town rooftops at night in 1929, chimneys and church spire under a low moon, scattered windows barred with shutters, oppressive silence."
   },
   {
-    "name": "t55_a1_11_psychoanalysis",
+    "name": "t55_a1_10_police_station_stalemate_dim_room",
     "act": 1,
     "sentences": "1.04#2",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Người ta đóng chặt mọi then cài cửa sổ ngay khi hoàng hôn vừa buông xuống, các bậc phụ huy...",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Phòng đồn cảnh sát tối mờ, bàn đầy hồ sơ không lời giải.",
+    "prompt": "Dimly lit 1920s German police precinct office after hours, empty desks piled with blank unmarked folders, a cold coffee cup, rain on tall windows, sense of deadlock."
   },
   {
-    "name": "t55_a1_12_karl_berg",
+    "name": "t55_a1_11_parents_bolting_windows_dusk",
     "act": 1,
     "sentences": "1.04#3",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Báo chí thời bấy giờ liên tục giật những dòng tít rùng rợn, gọi kẻ giấu mặt là “Quái vật D...",
-    "prompt": "Atmospheric street scene in Dusseldorf, Germany, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Bóng người kéo then cài cửa sổ khi hoàng hôn buông.",
+    "prompt": "Interior silhouette of a woman from behind latching a heavy window shutter at dusk in a modest 1929 German apartment, last orange light slipping through the gap."
   },
   {
-    "name": "t55_a1_13_weimar_alleys",
+    "name": "t55_a1_12_newsstand_kiosk_swept_bare",
     "act": 1,
-    "sentences": "1.05#1",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Bất kỳ ai có biểu hiện kỳ lạ, bất kỳ người hàng xóm nào ít nói hay đi về muộn đều có thể b...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#4",
+    "desc": "Sạp báo bên đường trống trơn, cửa chớp khép một nửa.",
+    "prompt": "Street kiosk in 1929 Düsseldorf with completely empty racks and half-lowered shutters, wet cobblestones, faint lamp glow, no people."
   },
   {
-    "name": "t55_a1_14_rhine_riverbank",
+    "name": "t55_a1_13_mountain_of_anonymous_letters",
     "act": 1,
-    "sentences": "1.05#2",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Sự sợ hãi đã biến những con người hiền lành thành những kẻ cực đoan, sẵn sàng tấn công chí...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#5,1.04#6",
+    "desc": "Núi thư tố cáo chất đống trên bàn làm việc của cảnh sát.",
+    "prompt": "Towering heaps of plain sealed envelopes and folded sheets, all completely blank and unmarked with no writing at all, spilling across a police office table lit by a single lamp, 1930 Germany."
   },
   {
-    "name": "t55_a1_15_psychoanalysis",
+    "name": "t55_a1_14_vigilante_mob_torches_alley",
     "act": 1,
-    "sentences": "1.05#3",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Bầu không khí căng thẳng ấy khiến ngay cả những tiếng động nhỏ nhất trong đêm khuya cũng c...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#7",
+    "desc": "Đám đông giận dữ cầm đuốc trong ngõ tối, chỉ còn là bóng đen.",
+    "prompt": "Distant crowd of silhouetted townsfolk with torches and lanterns gathering in a narrow German street at night in 1929, faces lost in darkness, flickering orange light on brick walls."
   },
   {
-    "name": "t55_a1_16_karl_berg",
+    "name": "t55_a1_15_fear_turns_neighbors_into_extremists",
+    "act": 1,
+    "sentences": "1.04#8",
+    "desc": "Hàng xóm đứng đối đầu nhau trong sân khu nhà dưới ánh đèn.",
+    "prompt": "Silhouetted townsmen confronting one another across a lamplit courtyard of a 1920s German tenement, tense postures, long shadows, shuttered windows above."
+  },
+  {
+    "name": "t55_a1_16_night_noise_sudden_alarm_tenement",
+    "act": 1,
+    "sentences": "1.04#9",
+    "desc": "Tòa nhà tối om, một ô cửa sổ sáng bừng giữa đêm vì tiếng động nhỏ.",
+    "prompt": "Dark apartment block at night in 1929 Germany, a single window suddenly lit yellow while all others stay black, an empty courtyard below with a swaying laundry line."
+  },
+  {
+    "name": "t55_a1_17_empty_cafe_cinema_closed_town",
+    "act": 1,
+    "sentences": "1.04#10",
+    "desc": "Quán cà phê và rạp chiếu phim vắng bóng người, cửa hàng ổ khóa cháy hàng.",
+    "prompt": "Deserted 1929 German cafe with stacked chairs, a darkened cinema entrance beside it, and a hardware shop window crowded with padlocks and chains, rain-slick pavement."
+  },
+  {
+    "name": "t55_a1_18_police_files_obsolete_methods",
     "act": 1,
     "sentences": "1.06#1",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Hồ sơ lưu trữ của lực lượng Cảnh sát Hình sự cho thấy sự bất lực hoàn toàn của phương pháp...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "desc": "Phòng hồ sơ cũ kỹ, ngăn kéo tủ đầy giấy trắng của phương pháp điều tra lỗi thời.",
+    "prompt": "Old-fashioned 1920s police records room, tall wooden cabinets with open drawers of completely blank unmarked papers, a detective silhouette from behind, dusty light shafts."
   },
   {
-    "name": "t55_a1_17_weimar_alleys",
+    "name": "t55_a1_19_interrogation_room_hundreds_detained",
     "act": 1,
     "sentences": "1.06#2",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Cảnh sát địa phương đã thẩm vấn hàng nghìn người vô tội, bắt giữ hàng trăm nghi can không ...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "desc": "Phòng thẩm vấn trống với chiếc ghế đơn độc dưới đèn trần.",
+    "prompt": "Bare interrogation room in a 1929 German police station, one wooden chair under a hanging bulb, scuffed concrete floor, heavy door ajar, empty and stark."
   },
   {
-    "name": "t55_a1_18_rhine_riverbank",
+    "name": "t55_a1_20_fatal_mistake_wrong_hunt_board",
     "act": 1,
-    "sentences": "1.06#3",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Nhưng đó lại chính là sai lầm chết người của bộ máy hành pháp....",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#3,1.06#4",
+    "desc": "Bảng điều tra với những chiếc ghim chỉ sai hướng trên bàn thám tử.",
+    "prompt": "Detective's table with a board of scattered pins all pointing in wrong directions, magnifying glass and pipe, 1929 Germany, moody low-key light, no lettering anywhere."
   },
   {
-    "name": "t55_a1_19_psychoanalysis",
+    "name": "t55_a1_21_cold_calculation_crime_scene_aftermath",
+    "act": 1,
+    "sentences": "1.06#5,1.06#6",
+    "desc": "Con hẻm sau sự việc, hàng rào phong tỏa không để lại dấu vết rõ ràng.",
+    "prompt": "Quiet cordoned-off back alley in 1929 Düsseldorf after an incident, rope barrier and lantern, wet cobbles scrubbed clean, a single abandoned hat, no people present."
+  },
+  {
+    "name": "t55_a1_22_fragmented_district_precinct_map",
+    "act": 1,
+    "sentences": "1.06#7",
+    "desc": "Tấm bản đồ phân mảnh các khu vực trải trên bàn.",
+    "prompt": "Large hand-drawn city district map of Düsseldorf spread over a table with colored pins and string, completely free of lettering, a desk lamp's pool of light, 1929."
+  },
+  {
+    "name": "t55_a1_23_reports_shelved_dusty_archive_shelf",
+    "act": 1,
+    "sentences": "1.06#8",
+    "desc": "Những báo cáo bị xếp xó trong kệ lưu trữ phủ bụi.",
+    "prompt": "Dusty archive shelves of tied folders at a 1920s German police station, all spines completely blank and unmarked with no writing at all, a ladder, one lone bulb."
+  },
+  {
+    "name": "t55_a1_24_berlin_train_arrives_at_dusseldorf",
+    "act": 1,
+    "sentences": "1.06#9",
+    "desc": "Đoàn tàu hơi nước từ Berlin tiến vào ga lúc bình minh sương mù.",
+    "prompt": "Steam locomotive arriving at a grand German railway station in 1929 at dawn, billowing steam in the glass-roofed hall, a lone figure in a long coat as a silhouette on the platform."
+  },
+  {
+    "name": "t55_a1_25_local_force_confronting_new_crime_type",
+    "act": 1,
+    "sentences": "1.06#10",
+    "desc": "Các sĩ quan địa phương đứng bên cửa sổ trong bế tắc.",
+    "prompt": "Three silhouetted uniformed officers standing by a rain-streaked window in a Düsseldorf police headquarters in 1929, backs to the viewer, heavy atmosphere of uncertainty."
+  },
+  {
+    "name": "t55_a1_26_strategic_mind_chessboard_lamp",
+    "act": 1,
+    "sentences": "1.06#11",
+    "desc": "Bàn cờ vua dở dang trong phòng làm việc tối, biểu tượng bộ óc chiến lược.",
+    "prompt": "Chessboard mid-game on a dark wooden desk lit by a single lamp, a silhouetted man leaning in the dim background, 1920s study, symbolic of strategy."
+  },
+  {
+    "name": "t55_a1_27_ernst_gennat_silhouette_berlin_office",
     "act": 1,
     "sentences": "1.07#1",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Hiện trường các vụ án cho thấy một sự tính toán lạnh lùng đến rợn gáy, kẻ gây án biết cách...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "desc": "Bóng dáng một thám tử to lớn bên cửa sổ văn phòng Berlin.",
+    "prompt": "Heavy-set silhouetted detective standing at a tall office window in 1920s Berlin police headquarters, face completely in shadow, cigar smoke curling, city lights beyond."
   },
   {
-    "name": "t55_a1_20_karl_berg",
+    "name": "t55_a1_28_new_thinking_mind_maze_of_rooms",
     "act": 1,
-    "sentences": "1.07#2",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Sự phân mảnh thông tin giữa các đồn cảnh sát khu vực càng khiến việc xâu chuỗi các manh mố...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#2,1.07#3",
+    "desc": "Biểu tượng: đầu người bóng đen chứa mê cung nhiều căn phòng, một cửa sáng nhẹ.",
+    "prompt": "Symbolic noir concept: a faceless silhouetted head in profile filled with a maze of small dark rooms and doors, one door faintly lit, abstract psychological metaphor, 1920s mood."
   },
   {
-    "name": "t55_a1_21_weimar_alleys",
+    "name": "t55_a1_29_mobile_investigation_center_card_boxes",
     "act": 1,
-    "sentences": "1.07#3",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Nhiều báo cáo ban đầu bị xếp xó vì điều tra viên lầm tưởng đó chỉ là những vụ ẩu đả say xỉ...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#4",
+    "desc": "Trung tâm điều tra cơ động với các hộp thẻ phân loại bằng gỗ.",
+    "prompt": "Makeshift investigation center in a 1929 police room, long wooden filing boxes of index cards all completely blank and unmarked with no writing at all, hanging lamp, silhouette of an officer sorting."
   },
   {
-    "name": "t55_a1_22_rhine_riverbank",
+    "name": "t55_a1_30_mordauto_vehicle_parked_wet_street",
+    "act": 1,
+    "sentences": "1.07#5",
+    "desc": "Xe điều tra lưu động đỗ trên phố ướt mưa ban đêm.",
+    "prompt": "Boxy early-1930s German police laboratory car parked on a wet cobbled Düsseldorf street at night, rear doors open with warm light spilling out, no markings or lettering on the vehicle."
+  },
+  {
+    "name": "t55_a1_31_gennat_reviewing_tips_late_night",
+    "act": 1,
+    "sentences": "1.07#6",
+    "desc": "Bóng thám tử ngồi hàng giờ bên chồng giấy trắng dưới đèn.",
+    "prompt": "Silhouetted detective seated alone late at night sorting through a mound of completely blank folded sheets under a lamp, stacked cups, a darkened office, 1929 Germany."
+  },
+  {
+    "name": "t55_a1_32_time_and_district_matrix_wall",
+    "act": 1,
+    "sentences": "1.07#7,1.07#8",
+    "desc": "Bức tường ghim chằng chịt dây chỉ đỏ tạo thành ma trận.",
+    "prompt": "Wall covered by a web of red string and pins across an unlettered city map in a 1930 detective room, dim bulb, the silhouette of a man studying it from behind."
+  },
+  {
+    "name": "t55_a1_33_jung_shadow_archetype_mirror",
     "act": 1,
     "sentences": "1.08#1",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Sự bế tắc này chỉ thực sự được khai thông khi một chuyên gia điều tra huyền thoại từ Berli...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "desc": "Biểu tượng bóng tối Jung: bóng người nhìn gương phản chiếu một dáng tối lớn hơn.",
+    "prompt": "Symbolic noir tableau: a silhouette standing before a tall antique mirror whose reflection is a larger pitch-black shape, empty study, 1920s interior, no faces."
   },
   {
-    "name": "t55_a1_23_psychoanalysis",
+    "name": "t55_a1_34_collective_shadow_crowd_wall",
     "act": 1,
-    "sentences": "1.08#2",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Ông mang đến một tư duy hoàn toàn mới: không chỉ tìm kiếm dấu vết vật chất, mà phải giải m...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.08#2,1.08#3",
+    "desc": "Đám đông dưới phố, bóng của họ trên tường cao lớn gấp nhiều lần.",
+    "prompt": "Small crowd of silhouettes on a cobbled square at dusk, their enormous distorted shadows stretching up a soot-stained wall, 1929 German city, symbolic projection of collective fear."
   },
   {
-    "name": "t55_a1_24_karl_berg",
+    "name": "t55_a1_35_poisoned_community_old_well",
     "act": 1,
-    "sentences": "1.08#3",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Gennat nhận ra rằng, để bắt được bóng ma này, họ phải thấu hiểu những gì đang diễn ra bên ...",
-    "prompt": "Forensic high-contrast tabletop still life in Dusseldorf, Germany, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.08#4",
+    "desc": "Giếng nước giữa sân khu phố, vệt tối loang trên mặt nước.",
+    "prompt": "Old stone well in a tenement courtyard in Germany 1929, a dark inky stain spreading across the water's surface, empty windows around, symbolic of a poisoned community."
   },
   {
-    "name": "t55_a1_25_weimar_alleys",
+    "name": "t55_a1_36_scapegoat_empty_pillory_square",
     "act": 1,
-    "sentences": "1.09#1",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Dưới lăng kính phân tâm học, cơn cuồng loạn tập thể tại Düsseldorf năm 1929 là một minh ch...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.08#5",
+    "desc": "Quảng trường trống với cột đá trơ trọi, biểu tượng vật tế thần.",
+    "prompt": "Empty old stone square in a German town at dusk with a lone weathered pillory post at its center, shadows lengthening, cold wind, symbolic of a scapegoat."
   },
   {
-    "name": "t55_a1_26_rhine_riverbank",
+    "name": "t55_a1_37_narcissist_overlooking_kneeling_city",
     "act": 1,
-    "sentences": "1.09#2",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Khi một xã hội phải trải qua những chấn thương lịch sử nặng nề và khủng hoảng kinh tế tột ...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.08#6,1.08#7",
+    "desc": "Bóng người đứng trên đồi cao nhìn xuống thành phố le lói trong đêm.",
+    "prompt": "Silhouette from behind on a high hill overlooking a city of dim lights at night in 1929, arms at his sides, coat flapping, the sprawling city kneeling in darkness below."
   },
   {
-    "name": "t55_a1_27_psychoanalysis",
+    "name": "t55_a1_38_empty_throne_armchair_looming_shadow",
+    "act": 1,
+    "sentences": "1.08#8,1.08#9",
+    "desc": "Chiếc ghế bành lớn trống rỗng, bóng khổng lồ trên tường phía sau.",
+    "prompt": "Huge empty high-backed armchair at the center of a dark chamber, an enormous looming shadow cast on the wall behind it, 1920s interior, symbolic of delusional omnipotence."
+  },
+  {
+    "name": "t55_a1_39_cracked_shop_window_reflection",
+    "act": 1,
+    "sentences": "1.08#10",
+    "desc": "Ô kính cửa hàng nứt phản chiếu thành phố u ám và một bóng lớn.",
+    "prompt": "Cracked tall shop window glass on a rainy German street in 1929 reflecting the dim city and a vast shadowy shape, no people in front, desolate noir mood."
+  },
+  {
+    "name": "t55_a1_40_calm_morning_curtain_window_vest",
+    "act": 1,
+    "sentences": "1.09#1,1.09#2",
+    "desc": "Buổi sáng yên ả: cửa sổ khép hờ, rèm trắng bay, bóng người mặc áo vest.",
+    "prompt": "Early morning in a respectable 1929 German tenement, a window ajar with a white curtain stirring, a silhouetted man in a work vest seen from behind in the kitchen light."
+  },
+  {
+    "name": "t55_a1_41_hidden_compartment_cabinet_drawers",
     "act": 1,
     "sentences": "1.09#3",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Cái ác không chỉ hủy hoại sinh mệnh của các nạn nhân, mà nó còn đầu độc tâm trí của cả một...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "desc": "Tủ nhiều ngăn kéo gỗ, một ngăn khép hờ lộ bóng tối.",
+    "prompt": "Antique wooden cabinet with many small drawers in a 1920s apartment, one drawer ajar revealing pure darkness inside, soft morning light, symbolic of psychological compartments."
   },
   {
-    "name": "t55_a1_28_karl_berg",
+    "name": "t55_a1_42_model_citizen_passing_doors_morning",
     "act": 1,
-    "sentences": "1.10#1",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Đám đông khao khát tìm ra một vật tế thần để xua tan cảm giác sợ hãi hiện sinh đang bủa vâ...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.09#4",
+    "desc": "Bóng người đàn ông chỉnh tề đi ngang dãy cửa nhà trong ánh sớm.",
+    "prompt": "Silhouetted well-dressed man in a vest and cap walking calmly along a row of tenement doors in early morning light, Düsseldorf 1929, face lost in shadow."
   },
   {
-    "name": "t55_a1_29_weimar_alleys",
+    "name": "t55_a1_43_darkness_behind_friendly_front_door",
     "act": 1,
-    "sentences": "1.10#2",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Và điều nguy hiểm nhất là, chính sự hoảng loạn tập thể ấy lại trở thành nguồn dưỡng chất t...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.09#5",
+    "desc": "Cánh cửa nhà ngăn nắp với khe tối hở ở mép cửa.",
+    "prompt": "Neat tidy tenement front door with a polished brass handle on a quiet German street in 1929, a thin crack of absolute darkness at the door edge, sunny morning outside."
   },
   {
-    "name": "t55_a1_30_rhine_riverbank",
-    "act": 1,
-    "sentences": "1.10#3",
-    "desc": "Hồi 1 Tập 43 (rhine_riverbank): Nỗi sợ hãi tập thể càng dâng cao bao nhiêu, ảo tưởng về sự toàn năng của kẻ sát nhân lại c...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t55_a1_31_psychoanalysis",
-    "act": 1,
-    "sentences": "1.11#1",
-    "desc": "Hồi 1 Tập 43 (psychoanalysis): Hắn coi sự tê liệt của lực lượng cảnh sát như một bằng chứng cho thấy hắn là kẻ đứng trên ...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t55_a1_32_karl_berg",
-    "act": 1,
-    "sentences": "1.11#2",
-    "desc": "Hồi 1 Tập 43 (karl_berg): Hắn thức dậy mỗi sáng, mỉm cười chào hỏi những người hàng xóm, và khoác lên mình chiếc áo ...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t55_a1_33_weimar_alleys",
-    "act": 1,
-    "sentences": "1.11#3",
-    "desc": "Hồi 1 Tập 43 (weimar_alleys): Một sự chia ngăn tâm lý hoàn hảo đã giúp hắn che giấu một vực thẳm đen tối ngay giữa lòng ...",
-    "prompt": "Dramatic action still in Dusseldorf, Germany, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t55_a2_01_weimar_alleys",
-    "act": 2,
-    "sentences": "2.01#1",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Hãy thử hình dung một người đàn ông trung niên với phong thái lịch thiệp, mái tóc chải chu...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t55_a2_02_rhine_riverbank",
-    "act": 2,
-    "sentences": "2.01#2",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Hắn là một công nhân nhà máy chăm chỉ, chưa bao giờ đi làm muộn và luôn chấp hành nghiêm c...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t55_a2_03_psychoanalysis",
-    "act": 2,
-    "sentences": "2.01#3",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Trong mắt của những người hàng xóm tại khu chung cư số 71 phố Mettmanner, người đàn ông ấy...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t55_a2_04_karl_berg",
+    "name": "t55_a2_01_neat_gentleman_hair_combed_mirror",
     "act": 2,
     "sentences": "2.02#1",
-    "desc": "Hồi 2 Tập 43 (karl_berg): Hắn thường xuyên giúp đỡ những người già trong khu phố xách những giỏ hàng nặng, và luôn d...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "desc": "Bóng người đàn ông lịch thiệp chải tóc trước gương trong căn phòng ngăn nắp.",
+    "prompt": "Interior of a tidy 1929 German apartment, silhouetted man in shirtsleeves combing his hair before a small mirror, face fully in shadow, morning light on clean wallpaper."
   },
   {
-    "name": "t55_a2_05_weimar_alleys",
+    "name": "t55_a2_02_tenement_courtyard_mettmannerstrasse",
     "act": 2,
-    "sentences": "2.02#2",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Thế nhưng, đằng sau bức tranh gia đình êm đềm và đáng kính ấy là một sự thật nghiệt ngã đế...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#2,2.02#3",
+    "desc": "Sân chung cư công nhân ở Düsseldorf với hàng xóm thân thiện chào nhau từ xa.",
+    "prompt": "Courtyard of a respectable working-class tenement building in Düsseldorf, 1929, washing lines, geraniums on window sills, two tiny distant silhouettes nodding to one another."
   },
   {
-    "name": "t55_a2_06_rhine_riverbank",
+    "name": "t55_a2_03_spotless_apartment_kitchen_table",
     "act": 2,
-    "sentences": "2.02#3",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Hắn không có vẻ ngoài của một kẻ quái dị, không mang bất kỳ dấu hiệu bệnh lý thể chất nào ...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#4",
+    "desc": "Căn bếp sạch bóng, chiếc bàn gỗ dọn gọn gàng.",
+    "prompt": "Spotless modest apartment kitchen in 1929 Germany, scrubbed wooden table, enamel pots hanging in a neat row, soft window light, no people."
   },
   {
-    "name": "t55_a2_07_psychoanalysis",
+    "name": "t55_a2_04_helping_elderly_basket_staircase",
     "act": 2,
-    "sentences": "2.03#1",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Chiếc mặt nạ bình thường ấy được gia cố bằng sự điềm đạm tuyệt đối trong từng cử chỉ nhỏ n...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#5",
+    "desc": "Bóng người giúp cụ già xách giỏ hàng lên cầu thang chung cư.",
+    "prompt": "Distant silhouette of a man carrying a heavy shopping basket for a stooped elderly figure up a tenement staircase in 1929 Germany, faces unseen, sepia light from a landing window."
   },
   {
-    "name": "t55_a2_08_karl_berg",
+    "name": "t55_a2_05_weekend_park_stroll_hat_tipped",
     "act": 2,
-    "sentences": "2.03#2",
-    "desc": "Hồi 2 Tập 43 (karl_berg): Kẻ thủ ác đã thiết lập một cuộc sống thường nhật hoàn toàn chuẩn mực, không hề có bất kỳ d...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#6",
+    "desc": "Bóng người dạo công viên ngày cuối tuần, đội mũ chào người quen.",
+    "prompt": "Silhouetted man in a tidy coat strolling a sunlit German city park path on a Sunday in 1929, tipping his hat to distant strollers, long shadows, faces lost."
   },
   {
-    "name": "t55_a2_09_weimar_alleys",
+    "name": "t55_a2_06_fortress_of_respectability_tidy_street",
     "act": 2,
-    "sentences": "2.03#3",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Hắn kết hôn với Auguste Scharf vào năm 1923, một người phụ nữ từng trải qua nhiều biến cố ...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#7",
+    "desc": "Dãy nhà gọn gàng như bức tường bảo vệ, không một vết bẩn.",
+    "prompt": "Orderly row of spotless tenement facades on a quiet Düsseldorf street in 1929, polished doorsteps, a lone lamp, symbolic wall of respectability, no people."
   },
   {
-    "name": "t55_a2_10_rhine_riverbank",
+    "name": "t55_a2_07_unthinkable_truth_closed_curtain_window",
     "act": 2,
-    "sentences": "2.04#1",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Hắn đi làm về đúng giờ, trao trọn tiền lương cho vợ quản lý và luôn xuất hiện bên cạnh bà ...",
-    "prompt": "Psychological chiaroscuro composition in Dusseldorf, Germany, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#8",
+    "desc": "Tấm rèm khép kín sau khung cửa sổ ấm đèn, che giấu bí mật.",
+    "prompt": "Warm lit apartment window with its curtain drawn tight on a peaceful German street at dusk in 1929, a shadow just behind the fabric, serene exterior, hidden secret."
   },
   {
-    "name": "t55_a2_11_psychoanalysis",
+    "name": "t55_a2_08_kurten_silhouette_calm_doorway",
     "act": 2,
-    "sentences": "2.04#2",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Sự ngụy trang của hắn đạt đến mức độ hoàn hảo đến mức ngay cả người phụ nữ chung chăn gối ...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.02#9",
+    "desc": "Bóng đen một người đàn ông bình thản đứng ở ngưỡng cửa chung cư.",
+    "prompt": "Silhouette of an ordinary middle-aged man standing calmly in a tenement doorway in 1929 Düsseldorf, backlit by the hallway, face completely lost in darkness."
   },
   {
-    "name": "t55_a2_12_karl_berg",
+    "name": "t55_a2_09_ordinary_face_mask_on_hook",
+    "act": 2,
+    "sentences": "2.02#10,2.02#11",
+    "desc": "Chiếc mặt nạ trơn treo trên móc áo cạnh áo vest công nhân.",
+    "prompt": "Plain blank porcelain mask hanging on a coat hook beside a worker's vest and cap in a 1929 hallway, soft lamp glow, symbolic of an ordinary public face, no inscription."
+  },
+  {
+    "name": "t55_a2_10_gennat_files_investigators_astonished_room",
+    "act": 2,
+    "sentences": "2.04#1,2.04#2",
+    "desc": "Các bóng thám tử đứng trong căn hộ sạch sẽ, kinh ngạc.",
+    "prompt": "Silhouetted detectives standing in a spotless modest apartment in 1930 Germany, seen from behind, surveying neat furniture, daylight through white curtains, tension in their postures."
+  },
+  {
+    "name": "t55_a2_11_wedding_ceremony_1923_registry_steps",
     "act": 2,
     "sentences": "2.04#3",
-    "desc": "Hồi 2 Tập 43 (karl_berg): Phân tích hành vi hiện trường cho thấy đây là biểu hiện đỉnh cao của “Thủ đoạn gây án” kết...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Bậc thềm toà thị chính năm 1923 với hai bóng đen đứng cạnh nhau từ xa.",
+    "prompt": "Stone steps of a German registry office in 1923 under cloudy daylight, two tiny distant silhouettes standing side by side, rice scattered on the steps, no faces."
   },
   {
-    "name": "t55_a2_13_weimar_alleys",
+    "name": "t55_a2_12_devoted_husband_paying_envelope_table",
     "act": 2,
-    "sentences": "2.05#1",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Hắn không bao giờ lưu giữ bất kỳ chiến lợi phẩm nào trong căn hộ của mình để tránh mọi ngu...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#4",
+    "desc": "Chiếc phong bì lương trống đặt trên bàn bếp, bóng người đưa cho vợ.",
+    "prompt": "Silhouetted husband setting a plain envelope on a kitchen table toward a seated woman's silhouette, both faceless, 1920s apartment, warm lamp light, evening routine."
   },
   {
-    "name": "t55_a2_14_rhine_riverbank",
+    "name": "t55_a2_13_couple_walking_in_best_clothes",
     "act": 2,
-    "sentences": "2.05#2",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Mọi dấu vết sau mỗi lần gây án đều được hắn xử lý sạch sẽ tại các nhà vệ sinh công cộng tr...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#5",
+    "desc": "Đôi vợ chồng mặc lịch lãm đi trên phố tối, chỉ còn là bóng đen.",
+    "prompt": "Two silhouettes in elegant 1920s coats and hat walking arm in arm on a lamplit German street, backs to viewer, faces unseen, soft drizzle."
   },
   {
-    "name": "t55_a2_15_psychoanalysis",
+    "name": "t55_a2_14_wife_sleeping_beside_a_shadow_bedroom",
     "act": 2,
-    "sentences": "2.05#3",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Đây là một cơ chế phòng vệ tâm lý bệnh lý cho phép một cá nhân cô lập hoàn toàn các hành v...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#6",
+    "desc": "Chiếc giường đôi trong phòng tối, một bóng lớn đổ trên tường.",
+    "prompt": "Double bed in a dark 1929 bedroom with a woman's silhouette asleep under a quilt, a looming large shadow cast on the wall above, only a streetlight slit through the curtains."
   },
   {
-    "name": "t55_a2_16_karl_berg",
+    "name": "t55_a2_15_signature_versus_method_two_mirrors",
     "act": 2,
-    "sentences": "2.06#1",
-    "desc": "Hồi 2 Tập 43 (karl_berg): Khi ở nhà hay ở công xưởng, chiếc mặt nạ xã hội của hắn hoạt động với hiệu suất tối đa, ma...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#7",
+    "desc": "Hai chiếc gương đặt cạnh nhau, một phản chiếu phòng, một phản chiếu bóng tối.",
+    "prompt": "Two tall mirrors side by side in a dim 1930 study, one reflecting a plain room, the other reflecting only solid darkness, symbolic duality, no people."
   },
   {
-    "name": "t55_a2_17_weimar_alleys",
+    "name": "t55_a2_16_switching_persona_worker_to_hunter_silhouette",
     "act": 2,
-    "sentences": "2.06#2",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Kürten lớn lên trong một gia đình nghèo đói cùng cực với mười ba người con, nơi người cha ...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#8",
+    "desc": "Một bóng người đứng giữa phố, nửa người trong ánh đèn, nửa người trong bóng tối.",
+    "prompt": "A silhouette in the middle of a night street in 1929 Germany, one half lit by a gas lamp and the other half swallowed by darkness, symbolic of a double life, face unseen."
   },
   {
-    "name": "t55_a2_18_rhine_riverbank",
+    "name": "t55_a2_17_no_trophies_bare_apartment_shelf",
+    "act": 2,
+    "sentences": "2.04#9",
+    "desc": "Kệ trống trong căn hộ ngăn nắp, không một đồ vật thừa.",
+    "prompt": "Bare tidy shelves and an empty drawer in a 1929 German apartment, nothing kept or displayed, hard side light, sterile and cold, no people."
+  },
+  {
+    "name": "t55_a2_18_public_washroom_tiled_cold_light",
+    "act": 2,
+    "sentences": "2.04#10",
+    "desc": "Nhà vệ sinh công cộng lát gạch trắng, ánh đèn lạnh, vắng người.",
+    "prompt": "Empty tiled public washroom in a 1929 German city, rows of white tiles and a single cold bulb, a dripping tap, no people, cheerless atmosphere."
+  },
+  {
+    "name": "t55_a2_19_dissociation_forensic_psychiatry_study",
+    "act": 2,
+    "sentences": "2.05#1,2.05#2",
+    "desc": "Phòng làm việc bác sĩ pháp y với bảng giấy trắng và đèn bàn.",
+    "prompt": "Forensic psychiatrist's study in 1930 Düsseldorf, leather chair, desk lamp, shelves of bound volumes with completely blank spines, a silhouetted doctor writing at the desk, face unseen."
+  },
+  {
+    "name": "t55_a2_20_mask_forged_in_childhood_cracked_porcelain",
+    "act": 2,
+    "sentences": "2.05#3,2.05#4",
+    "desc": "Chiếc mặt nạ sứ nứt trên mặt bàn gỗ cũ, dưới ánh đèn mờ.",
+    "prompt": "Cracked plain porcelain mask resting on a battered wooden table beside a child's worn wooden toy, dim lamp, 1900s era mood, no inscriptions, symbolic of forged defense."
+  },
+  {
+    "name": "t55_a2_21_poverty_crowded_tenement_room_thirteen",
+    "act": 2,
+    "sentences": "2.05#5",
+    "desc": "Căn phòng chật hẹp nghèo khổ, nhiều giường tầng ọp ẹp và một bóng người cao lớn quay lưng.",
+    "prompt": "Cramped one-room tenement dwelling in early 1900s Germany, rows of bare bunk beds, bare floorboards, a tall silhouette seen from behind at the window, oppressive poverty."
+  },
+  {
+    "name": "t55_a2_22_empty_alehouse_table_father_chair",
+    "act": 2,
+    "sentences": "2.05#6",
+    "desc": "Chiếc ghế đổ cùng vài chai rỗng trên sàn căn phòng chật hẹp, dấu vết của gia đình bị chà đạp.",
+    "prompt": "Overturned empty chair and scattered empty bottles on the bare floor of a cramped 1900s German tenement room, flickering lantern, nobody present, atmosphere of ruin and neglect."
+  },
+  {
+    "name": "t55_a2_23_child_empathy_shutting_down_door_closing",
+    "act": 2,
+    "sentences": "2.05#7",
+    "desc": "Cánh cửa nhỏ khép dần trong hành lang tối, một khe sáng mỏng.",
+    "prompt": "A narrow corridor in a shabby early-1900s tenement, a small door slowly closing with the last thin sliver of light, symbolic of emotion shutting down, no figures."
+  },
+  {
+    "name": "t55_a2_24_only_way_to_not_be_victim_shadow_hand_lever",
+    "act": 2,
+    "sentences": "2.05#8",
+    "desc": "Một bóng người nhỏ đứng bên cạnh bóng người khổng lồ trên bức tường tối.",
+    "prompt": "Small child-sized silhouette standing beside an immense dark adult shadow on a bare brick wall, 1900s tenement room, symbolic of power imbalance, faces unseen, no violence."
+  },
+  {
+    "name": "t55_a2_25_empty_farm_yard_childhood_cruelty_metaphor",
+    "act": 2,
+    "sentences": "2.05#9",
+    "desc": "Sân nhà trống, chuồng gia súc bỏ hoang, cánh cổng gỗ đung đưa.",
+    "prompt": "Empty yard behind a poor German tenement, a rickety wooden hutch with its door swinging open, no animals visible, overcast sky, cheerless atmosphere."
+  },
+  {
+    "name": "t55_a2_26_prison_corridor_cells_lit_by_bulb",
+    "act": 2,
+    "sentences": "2.05#10",
+    "desc": "Hành lang nhà tù đầu thế kỷ với dãy cửa sắt đóng kín.",
+    "prompt": "Long prison corridor in early-1900s Germany, rows of closed iron cell doors, a single hanging bulb, wet stone floor, no figures, oppressive stillness."
+  },
+  {
+    "name": "t55_a2_27_cell_interior_narrow_bed_high_window",
+    "act": 2,
+    "sentences": "2.05#11",
+    "desc": "Xà lim hẹp với ô cửa sổ cao nhỏ, tia sáng rơi xuống giường trống.",
+    "prompt": "Narrow bare prison cell in early-1900s Germany, an iron cot, a tiny barred high window dropping a beam of grey light on the floor, nobody inside."
+  },
+  {
+    "name": "t55_a2_28_childhood_trauma_driving_force_dark_swing",
+    "act": 2,
+    "sentences": "2.05#12",
+    "desc": "Chiếc xích đu gỉ sét đung đưa trong sân trống mờ sương.",
+    "prompt": "Rusty empty swing moving slightly in a foggy abandoned courtyard in early-1900s Germany, bare tree, grey dawn, symbolic of a stolen childhood, no children."
+  },
+  {
+    "name": "t55_a2_29_victims_as_tools_empty_workbench",
+    "act": 2,
+    "sentences": "2.05#13",
+    "desc": "Bàn làm việc trống với vài dụng cụ vô tri, đèn bàn lạnh.",
+    "prompt": "Bare workbench in a dim workshop with a few inert tools lined up in rows, cold lamp light, no people, symbolic of cold objectification, 1920s."
+  },
+  {
+    "name": "t55_a2_30_savouring_aftermath_crowd_at_cordon",
+    "act": 2,
+    "sentences": "2.06#1,2.06#2",
+    "desc": "Đám đông bóng đen đứng ở rào phong tỏa, một bóng lẫn trong họ.",
+    "prompt": "Crowd of silhouetted onlookers gathered at a police rope cordon in a German street in 1929, one figure subtly apart, faces unseen, grey morning light."
+  },
+  {
+    "name": "t55_a2_31_returning_to_the_scene_empty_cordon_tape_rope",
     "act": 2,
     "sentences": "2.06#3",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Hắn từng chứng kiến những hành vi lạm dụng vô cùng tàn nhẫn ngay trong căn phòng chật chội...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Hiện trường còn dây phong tỏa, một bóng đứng xa trong sương.",
+    "prompt": "Quiet cordoned-off spot in a German park in 1929, rope barrier between posts, empty ground, a single distant silhouette standing in the mist, no figures or objects of harm."
   },
   {
-    "name": "t55_a2_19_psychoanalysis",
+    "name": "t55_a2_32_eavesdropping_among_the_crowd_street_chatter",
     "act": 2,
-    "sentences": "2.07#1",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Hắn nhận ra rằng, cách duy nhất để không trở thành nạn nhân là trở thành kẻ nắm giữ quyền ...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#4",
+    "desc": "Đám đông thì thầm quanh cột đèn, một bóng lặng nghe.",
+    "prompt": "Silhouettes of townsfolk whispering in a huddle around a gas lamp on a 1929 German street, one silent figure at the edge listening, faces lost in shadow."
   },
   {
-    "name": "t55_a2_20_karl_berg",
+    "name": "t55_a2_33_approachable_man_talking_to_patrol_officer",
     "act": 2,
-    "sentences": "2.07#2",
-    "desc": "Hồi 2 Tập 43 (karl_berg): Từ những hành vi ngược đãi động vật thuở thiếu thời, một mối liên kết bệnh hoạn giữa bạo l...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#5",
+    "desc": "Hai bóng người đứng nói chuyện dưới đèn đường: một cảnh sát, một thường dân.",
+    "prompt": "Two silhouettes in conversation under a street lamp in Düsseldorf in 1929, one wearing a police helmet, the other in a plain cap, faces entirely in shadow, fog."
   },
   {
-    "name": "t55_a2_21_weimar_alleys",
+    "name": "t55_a2_34_monument_of_fear_empty_city_plaza_statue",
     "act": 2,
-    "sentences": "2.07#3",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Trong bóng tối của xà lim, hắn đã nghiền ngẫm và tôi luyện sự thù hận đối với xã hội thành...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#6",
+    "desc": "Quảng trường vắng lặng, bức tượng đá phủ bóng đen khổng lồ.",
+    "prompt": "Empty city plaza at dusk in 1929 Germany with an old stone monument casting an enormous shadow across the paving, symbolic of fear as monument, no people."
   },
   {
-    "name": "t55_a2_22_rhine_riverbank",
+    "name": "t55_a2_35_puppeteer_stage_marionettes_dark_theatre",
+    "act": 2,
+    "sentences": "2.06#7",
+    "desc": "Sân khấu rối tối đen với những con rối treo lơ lửng trên dây.",
+    "prompt": "Dark empty theatre stage with marionettes hanging limp on strings, a single spotlight, a puppeteer's silhouette high above on the gantry, 1920s Weimar cabaret mood."
+  },
+  {
+    "name": "t55_a2_36_innocent_arrested_wrongly_police_van_dusk",
+    "act": 2,
+    "sentences": "2.06#8",
+    "desc": "Chiếc xe cảnh sát đóng kín dưới chân đám đông giận dữ lúc xế chiều.",
+    "prompt": "Closed black police van parked at a street corner at dusk in 1929 Germany, a crowd of angry silhouettes in the background, no faces, tense atmosphere."
+  },
+  {
+    "name": "t55_a2_37_smile_in_the_square_silhouette_fountain",
+    "act": 2,
+    "sentences": "2.06#9",
+    "desc": "Bóng người đứng ở quảng trường bên đài phun nước, khóe miệng không rõ.",
+    "prompt": "Silhouette of a man in a plain coat standing beside a dry stone fountain in a city square at dusk in 1929 Germany, face unseen, crowd murmuring in the distance."
+  },
+  {
+    "name": "t55_a2_38_godlike_power_illusion_high_balcony_city",
+    "act": 2,
+    "sentences": "2.06#10",
+    "desc": "Bóng người đứng ban công cao nhìn xuống đường phố mờ đèn.",
+    "prompt": "Silhouette on a high balcony overlooking rows of dim street lamps in a German city in 1929, hands on the rail, face unseen, enormous sky behind."
+  },
+  {
+    "name": "t55_a2_39_gennat_first_to_see_pattern_wall_pinned_map",
     "act": 2,
     "sentences": "2.08#1",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Điều đáng sợ nhất ở Peter Kürten không chỉ là những hành vi tấn công trong bóng tối, mà là...",
-    "prompt": "Desolate nocturnal scene in Dusseldorf, Germany, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Bóng thám tử đứng trước tấm bản đồ ghim chi chít.",
+    "prompt": "Silhouetted heavy-set detective standing before a wall map riddled with pins and string, completely free of lettering, 1930 Germany, single lamp, quiet discovery."
   },
   {
-    "name": "t55_a2_23_psychoanalysis",
+    "name": "t55_a2_40_serial_killer_term_study_chalkboard_blank",
     "act": 2,
     "sentences": "2.08#2",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Sau mỗi vụ án chấn động, hắn không hề bỏ trốn hay ẩn dật như những tên tội phạm thông thườ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "desc": "Phòng giảng bóng đen với tấm bảng phấn trống trải.",
+    "prompt": "Dim lecture room in 1930 Berlin with a completely blank blackboard and rows of empty wooden desks, a silhouetted instructor from behind, dust in the light."
   },
   {
-    "name": "t55_a2_24_karl_berg",
+    "name": "t55_a2_41_zentrale_mordkartei_card_index_cabinet",
     "act": 2,
     "sentences": "2.08#3",
-    "desc": "Hồi 2 Tập 43 (karl_berg): Hắn đứng lẫn trong đám đông, lắng nghe những lời bàn tán kinh hãi của người dân với một sự...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "desc": "Tủ thẻ hồ sơ khổng lồ với hàng trăm ngăn kéo nhỏ.",
+    "prompt": "Enormous wooden card-index cabinet with hundreds of tiny drawers in a 1930 German police archive, all drawer fronts completely blank and unmarked with no writing at all, a silhouetted clerk, green lamp."
   },
   {
-    "name": "t55_a2_25_weimar_alleys",
+    "name": "t55_a2_42_meticulous_cards_laid_out_desk_grid",
     "act": 2,
-    "sentences": "2.09#1",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Hắn thậm chí còn chủ động bắt chuyện với các sĩ quan tuần tra, hỏi thăm tiến độ điều tra v...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#4",
+    "desc": "Những tấm thẻ giấy trắng xếp thành lưới ngay ngắn trên bàn.",
+    "prompt": "Rows of completely blank unmarked index cards laid in a tidy grid on a desk under a lamp in 1930 Germany, a silhouetted hand-less figure at the edge, quiet precision."
   },
   {
-    "name": "t55_a2_26_rhine_riverbank",
+    "name": "t55_a2_43_not_a_madman_clear_headed_cold_silhouette",
     "act": 2,
-    "sentences": "2.09#2",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Hắn tự coi mình là đạo diễn của một vở kịch kinh dị vĩ đại mà trong đó toàn bộ lực lượng c...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#5,2.08#6",
+    "desc": "Bóng người điềm tĩnh trong phòng lạnh với ánh đèn trắng xanh.",
+    "prompt": "Calm upright silhouette seated in a cold bare room under a harsh blue-white lamp in 1930 Germany, hands folded, face unseen, symbolic of lucid cold intellect."
   },
   {
-    "name": "t55_a2_27_psychoanalysis",
+    "name": "t55_a2_44_craving_attention_addict_metaphor_spotlight_empty",
     "act": 2,
-    "sentences": "2.09#3",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Khoái cảm bệnh lý của hắn đạt đến đỉnh điểm khi chứng kiến những kẻ vô tội bị bắt oan và c...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#7",
+    "desc": "Vòng sáng đèn pha rọi trên sân khấu trống, bóng tối vây quanh.",
+    "prompt": "A single spotlight circle on an empty stage floor in a 1920s theatre, black emptiness beyond, symbolic of craving attention, no people."
   },
   {
-    "name": "t55_a2_28_karl_berg",
+    "name": "t55_a2_45_withheld_clues_locked_evidence_drawer",
     "act": 2,
-    "sentences": "2.10#1",
-    "desc": "Hồi 2 Tập 43 (karl_berg): Chính Ernst Gennat là người đầu tiên nhận ra chữ ký tâm lý độc nhất vô nhị này của kẻ săn ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#8",
+    "desc": "Ngăn kéo hồ sơ khóa chặt, chìa khóa nằm trên mặt bàn.",
+    "prompt": "Locked steel evidence drawer in a 1930 German police office, a brass key resting on a bare desk, the shadow of a detective on the wall, tense quiet."
   },
   {
-    "name": "t55_a2_29_weimar_alleys",
-    "act": 2,
-    "sentences": "2.10#2",
-    "desc": "Hồi 2 Tập 43 (weimar_alleys): Trong bản nghiên cứu chuyên sâu năm 1930, Gennat đã chính thức đặt ra thuật ngữ “Serienmör...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t55_a2_30_rhine_riverbank",
-    "act": 2,
-    "sentences": "2.10#3",
-    "desc": "Hồi 2 Tập 43 (rhine_riverbank): Hắn là một kẻ hoàn toàn tỉnh táo, có lý trí sắc bén và hành động theo một chu kỳ tâm lý th...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t55_a2_31_psychoanalysis",
-    "act": 2,
-    "sentences": "2.11#1",
-    "desc": "Hồi 2 Tập 43 (psychoanalysis): Hắn cần sự chú ý của dư luận giống như một kẻ nghiện cần chất kích thích, và chính sự ngạo...",
-    "prompt": "Intimate forensic interior of vehicle or room in Dusseldorf, Germany, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t55_a3_01_weimar_alleys",
+    "name": "t55_a3_01_train_leaving_cologne_rainy_window_may_1930",
     "act": 3,
-    "sentences": "3.01#1",
-    "desc": "Hồi 3 Tập 43 (weimar_alleys): Ngày 14 tháng 5 năm 1930, khi cơn cuồng nộ của Quái vật Düsseldorf đã kéo dài hơn một năm ...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#1,3.02#2",
+    "desc": "Toa tàu hạng ba rời Cologne ngày mưa tháng 5 năm 1930, chiếc ghế trống và túi vải bên cửa sổ.",
+    "prompt": "Third-class railway carriage leaving Cologne in May 1930, rain streaking the window, an empty wooden seat with a worn cloth bag resting on it, grey countryside rushing past, no passengers visible."
   },
   {
-    "name": "t55_a3_02_rhine_riverbank",
-    "act": 3,
-    "sentences": "3.01#2",
-    "desc": "Hồi 3 Tập 43 (rhine_riverbank): Một cô gái trẻ hai mươi tuổi tên là Maria Budlick rời thành phố Cologne để đến Düsseldorf ...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t55_a3_03_psychoanalysis",
-    "act": 3,
-    "sentences": "3.01#3",
-    "desc": "Hồi 3 Tập 43 (psychoanalysis): Đặt chân xuống nhà ga trung tâm rộng lớn, người phụ nữ nghèo khổ ngơ ngác giữa một đô thị ...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t55_a3_04_karl_berg",
-    "act": 3,
-    "sentences": "3.02#1",
-    "desc": "Hồi 3 Tập 43 (karl_berg): Chính tại nhà ga ấy, Peter Kürten đã xuất hiện như một vị cứu tinh nhân từ....",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t55_a3_05_weimar_alleys",
-    "act": 3,
-    "sentences": "3.02#2",
-    "desc": "Hồi 3 Tập 43 (weimar_alleys): Với phong thái lịch thiệp và nụ cười hiền hậu, hắn chủ động đến gần và ngỏ lời giúp đỡ cô ...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t55_a3_06_rhine_riverbank",
+    "name": "t55_a3_02_dusseldorf_hauptbahnhof_great_hall",
     "act": 3,
     "sentences": "3.02#3",
-    "desc": "Hồi 3 Tập 43 (rhine_riverbank): Không một chút nghi ngờ trước người đàn ông đứng đắn, Maria Budlick đã mỉm cười bước theo ...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "desc": "Đại sảnh nhà ga trung tâm Düsseldorf rộng lớn, ánh sáng xám qua mái kính.",
+    "prompt": "Vast glass-roofed main railway station hall in Düsseldorf in 1930, steam drifting under iron arches, hurrying crowd reduced to tiny dark silhouettes, cavernous scale, grey light."
   },
   {
-    "name": "t55_a3_07_psychoanalysis",
+    "name": "t55_a3_03_worn_cloth_bag_on_station_bench",
     "act": 3,
-    "sentences": "3.03#1",
-    "desc": "Hồi 3 Tập 43 (psychoanalysis): Sự ân cần và tử tế giả tạo của hắn đã đánh sập mọi bức tường cảnh giác tự nhiên của cô gái...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#4",
+    "desc": "Chiếc túi vải sờn rách đặt trên băng ghế gỗ nhà ga vắng.",
+    "prompt": "A threadbare cloth bag left alone on a wooden station bench in 1930 Düsseldorf, a rail-yard glow behind, soft steam, no people, solitary and forlorn."
   },
   {
-    "name": "t55_a3_08_karl_berg",
+    "name": "t55_a3_04_platform_crowd_lonely_among_hurrying_silhouettes",
     "act": 3,
-    "sentences": "3.03#2",
-    "desc": "Hồi 3 Tập 43 (karl_berg): Sau bữa ăn nhẹ tại căn hộ số 71 phố Mettmanner, hắn đề nghị dẫn cô đến một nhà trọ nữ nằm ...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#5,3.02#6",
+    "desc": "Sân ga đông đúc những bóng người vội vã, một góc băng ghế trống.",
+    "prompt": "Busy station platform in 1930 Germany, countless silhouettes hurrying in all directions in long coats and hats, one empty bench in the foreground, steam and motion blur, sense of isolation."
   },
   {
-    "name": "t55_a3_09_weimar_alleys",
+    "name": "t55_a3_05_kind_stranger_approaching_through_steam",
     "act": 3,
-    "sentences": "3.03#3",
-    "desc": "Hồi 3 Tập 43 (weimar_alleys): Thế nhưng, thay vì đi về phía các dãy phố có đèn đường, hắn lại dẫn cô gái trẻ đi sâu vào ...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#7,3.02#8",
+    "desc": "Bóng một người đàn ông chỉnh tề từ xa đi tới qua làn hơi nước nhà ga.",
+    "prompt": "Distant silhouette of a neatly dressed man in a hat approaching through drifting station steam in 1930 Düsseldorf, face completely lost in shadow, warm lamp glow behind him."
   },
   {
-    "name": "t55_a3_10_rhine_riverbank",
+    "name": "t55_a3_06_following_the_stranger_through_tram_street",
+    "act": 3,
+    "sentences": "3.02#9",
+    "desc": "Hai bóng người cách xa nhau đi dọc đường ray xe điện tối dần.",
+    "prompt": "Two distant silhouettes walking one behind the other along a tram-lined Düsseldorf street at dusk in 1930, faces unseen, lit windows, wet rails reflecting light."
+  },
+  {
+    "name": "t55_a3_07_apartment_hallway_door_ajar_warm_light",
+    "act": 3,
+    "sentences": "3.02#10",
+    "desc": "Hành lang chung cư với cánh cửa khép hé tỏa ánh sáng ấm.",
+    "prompt": "Narrow tenement hallway in 1930 Germany, an apartment door standing ajar with warm yellow light spilling across a worn runner, steaming bowl visible on a distant table, no people."
+  },
+  {
+    "name": "t55_a3_08_kitchen_table_one_plate_of_noodles",
+    "act": 3,
+    "sentences": "3.02#11",
+    "desc": "Bàn bếp nhỏ đặt một đĩa mì nóng, hai chiếc ghế gỗ.",
+    "prompt": "Small kitchen table with a single steaming plate of noodles and two wooden chairs in a tidy 1930 German apartment, evening lamp, white curtain, no people."
+  },
+  {
+    "name": "t55_a3_09_evening_street_out_toward_suburbs",
     "act": 3,
     "sentences": "3.04#1",
-    "desc": "Hồi 3 Tập 43 (rhine_riverbank): Không gian bỗng chốc trở nên cô đặc bởi sự đe dọa chết chóc khi hắn dồn cô vào một góc cây...",
-    "prompt": "Late-night police command center in Dusseldorf, Germany, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "desc": "Con phố ngoại ô tối dần, dãy đèn đường thưa thớt kéo dài.",
+    "prompt": "Long empty suburban street at nightfall in 1930 Düsseldorf, widely spaced gas lamps fading into darkness, wet pavement, no figures."
   },
   {
-    "name": "t55_a3_11_psychoanalysis",
+    "name": "t55_a3_10_grafenberg_forest_entrance_dark_path",
     "act": 3,
     "sentences": "3.04#2",
-    "desc": "Hồi 3 Tập 43 (psychoanalysis): Trong giây phút sinh tử ngàn cân treo sợi tóc, bản năng sinh tồn đã thôi thúc cô gái trẻ đ...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Lối mòn vào rừng Grafenberg trong đêm, tán cây khép kín.",
+    "prompt": "Narrow dirt path leading into the dark Grafenberg forest at night near Düsseldorf in 1930, tall trees closing overhead, a last distant street lamp behind, no figures."
   },
   {
-    "name": "t55_a3_12_karl_berg",
+    "name": "t55_a3_11_last_street_lamps_receding_behind_trees",
     "act": 3,
     "sentences": "3.04#3",
-    "desc": "Hồi 3 Tập 43 (karl_berg): Cô cảm nhận được sự lạnh lẽo tột cùng toát ra từ từng hơi thở của kẻ săn mồi đang đứng trư...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Ánh đèn đường cuối cùng nhỏ dần phía sau những thân cây đen.",
+    "prompt": "Last street lamps shrinking into pinpoints behind a screen of black tree trunks, deep forest darkness in the foreground, 1930 Germany, no people."
   },
   {
-    "name": "t55_a3_13_weimar_alleys",
+    "name": "t55_a3_12_dense_thicket_undergrowth_moonless_night",
     "act": 3,
-    "sentences": "3.05#1",
-    "desc": "Hồi 3 Tập 43 (weimar_alleys): Đó không phải ánh mắt của một con người bình thường, mà là một sự trống rỗng lạnh lẽo hoàn...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.04#4,3.04#5,3.04#6",
+    "desc": "Bụi rậm dày đặc trong đêm không trăng, cảm giác bị dồn vào tận cùng.",
+    "prompt": "Dense tangled thicket of undergrowth in a moonless German forest at night, 1930, faint blue-grey outlines of branches, claustrophobic, completely empty of people."
   },
   {
-    "name": "t55_a3_14_rhine_riverbank",
+    "name": "t55_a3_13_two_pale_lamp_glows_like_cold_eyes",
     "act": 3,
-    "sentences": "3.05#2",
-    "desc": "Hồi 3 Tập 43 (rhine_riverbank): Khi nhận ra mình đang đứng một mình giữa rừng sâu cùng kẻ ác, tôi biết rằng nếu mình hoảng...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#1,3.05#2",
+    "desc": "Hai đốm sáng lạnh xa xa trong rừng đen, hệt đôi mắt trống rỗng.",
+    "prompt": "Two pale cold distant lantern glows side by side in pitch-black forest depths, resembling empty unblinking eyes, 1930 Germany, symbolic of a chilling void, no people."
   },
   {
-    "name": "t55_a3_15_psychoanalysis",
+    "name": "t55_a3_14_silent_forest_clearing_stillness_mist",
     "act": 3,
     "sentences": "3.05#3",
-    "desc": "Hồi 3 Tập 43 (psychoanalysis): Tôi giả vờ ngoan ngoãn chấp nhận mọi yêu cầu của hắn, biến mình thành một kẻ yếu ớt và vô ...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Khoảng rừng trống im lặng trong sương mù lạnh.",
+    "prompt": "Silent moonlit forest clearing in 1930 Germany, low mist curling around tree roots, perfectly still air, no figures, tense held-breath atmosphere."
   },
   {
-    "name": "t55_a3_16_karl_berg",
+    "name": "t55_a3_15_whispered_question_dark_trees_wind",
     "act": 3,
-    "sentences": "3.06#1",
-    "desc": "Hồi 3 Tập 43 (karl_berg): Và rồi, hắn ghé sát tai tôi và hỏi một câu hỏi lạnh buốt xương sống: “Cô có nhớ đường về c...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#4",
+    "desc": "Cành cây đen rung nhẹ dưới gió, một khoảng tối tựa tiếng thì thầm.",
+    "prompt": "Black bare branches trembling in a cold night wind against a faint grey sky in a German forest in 1930, an abstract sense of a whispered question hanging in the air, no figures."
   },
   {
-    "name": "t55_a3_17_weimar_alleys",
+    "name": "t55_a3_16_clear_headed_survival_calm_reflection_puddle",
     "act": 3,
-    "sentences": "3.06#2",
-    "desc": "Hồi 3 Tập 43 (weimar_alleys): Bằng tất cả sự tỉnh táo còn sót lại, tôi nhìn thẳng vào mắt hắn và trả lời một cách chân t...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#5",
+    "desc": "Vũng nước đen phẳng lặng phản chiếu vầng trăng mờ giữa rừng.",
+    "prompt": "Still black puddle in a forest path reflecting a faint hazy moon, unnaturally calm, 1930 Germany, symbolic of composure under terror, no people."
   },
   {
-    "name": "t55_a3_18_rhine_riverbank",
+    "name": "t55_a3_17_honest_answer_a_stranger_in_the_city_lamps",
     "act": 3,
-    "sentences": "3.06#3",
-    "desc": "Hồi 3 Tập 43 (rhine_riverbank): Hành động của Maria Budlick là một ví dụ mẫu mực cho cơ chế phản ứng “Thích ứng phục tùng”...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#6,3.05#7,3.05#8",
+    "desc": "Mái nhà và đèn đường xa xa của thành phố lạ, trông giống nhau trong đêm.",
+    "prompt": "Distant uniform rows of identical rooftops and street lamps of an unfamiliar city seen from a dark hillside at night in 1930, all looking alike, no people."
   },
   {
-    "name": "t55_a3_19_psychoanalysis",
+    "name": "t55_a3_18_long_stare_pause_two_silhouettes_far_apart",
+    "act": 3,
+    "sentences": "3.05#9",
+    "desc": "Hai bóng đen đứng xa nhau trên lối mòn, khoảng cách căng như dây đàn.",
+    "prompt": "Two distant black silhouettes standing far apart on a forest path under a pale sky in 1930 Germany, faces fully unseen, taut stillness between them."
+  },
+  {
+    "name": "t55_a3_19_walk_away_without_looking_back_empty_path",
+    "act": 3,
+    "sentences": "3.05#10",
+    "desc": "Lối mòn rừng trống trải kéo dài về phía có ánh đèn thành phố.",
+    "prompt": "Long empty forest path stretching toward distant city lights in 1930 Germany, an abandoned scarf on the ground, no people, a feeling of fragile escape."
+  },
+  {
+    "name": "t55_a3_20_stumbling_through_dark_toward_distant_lights",
+    "act": 3,
+    "sentences": "3.05#11",
+    "desc": "Con đường tối dốc xuống với những ánh đèn nhà dân le lói.",
+    "prompt": "Dark winding downhill road toward a few scattered lit windows of Düsseldorf in 1930, wet gravel, long cold shadows, no figures."
+  },
+  {
+    "name": "t55_a3_21_psychology_of_survival_chessboard_one_move",
+    "act": 3,
+    "sentences": "3.06#1,3.06#2",
+    "desc": "Bàn cờ với một quân trắng nhỏ giữa nhiều quân đen đứng áp sát.",
+    "prompt": "Chessboard with a single small white pawn surrounded by tall black pieces, dim study lamp, 1930 Germany, symbolic of survival strategy, no people."
+  },
+  {
+    "name": "t55_a3_22_fight_or_flight_two_doors_dark_corridor",
+    "act": 3,
+    "sentences": "3.06#3,3.06#4",
+    "desc": "Hành lang hai cánh cửa tối, cửa nào cũng tối đen.",
+    "prompt": "Dark corridor with two closed doors facing each other, both leaking pitch darkness underneath, 1930 interior, symbolic of no safe choice, no people."
+  },
+  {
+    "name": "t55_a3_23_predators_arrogance_blindspot_mirror_hat",
+    "act": 3,
+    "sentences": "3.06#5,3.06#6",
+    "desc": "Chiếc mũ và áo choàng treo trước gương, gương phản chiếu khoảng tối trống rỗng.",
+    "prompt": "Hat and long coat hanging before a tall hallway mirror in a 1930 German apartment, the mirror reflecting only emptiness and a thin rim of light, symbolic of hubris, no people."
+  },
+  {
+    "name": "t55_a3_24_illusion_of_control_candle_flame_dark_hand_shadow",
+    "act": 3,
+    "sentences": "3.06#7,3.06#8",
+    "desc": "Ngọn nến cháy yếu, bóng khổng lồ của bàn tay phủ lên bức tường.",
+    "prompt": "Single candle flame guttering on a bare wooden table, an enormous hand-shaped shadow looming on the wall behind, 1930 interior, symbolic of delusional control, no people."
+  },
+  {
+    "name": "t55_a3_25_maria_borrowed_room_safe_house_window",
     "act": 3,
     "sentences": "3.07#1",
-    "desc": "Hồi 3 Tập 43 (psychoanalysis): Khi đối mặt với một kẻ thủ ác có sức mạnh thể xác áp đảo và vũ khí trong tay, phản xạ chiế...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Căn phòng trọ nhỏ tử tế với cửa sổ khép chặt, ánh đèn ngủ.",
+    "prompt": "Tidy modest rented room in a kind household in 1930 Düsseldorf, curtains drawn, a small bedside lamp, an unmade narrow bed with a coat folded on a chair, no people."
   },
   {
-    "name": "t55_a3_20_karl_berg",
+    "name": "t55_a3_26_letter_writing_table_unmarked_paper_pen",
     "act": 3,
     "sentences": "3.07#2",
-    "desc": "Hồi 3 Tập 43 (karl_berg): Maria đã kích hoạt bản năng sinh tồn tối thượng: hạ thấp cái tôi, khơi gợi một chút nhân t...",
-    "prompt": "Sterile police interrogation room in Dusseldorf, Germany, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Bàn viết nhỏ với tờ giấy trắng hoàn toàn và chiếc bút, ngọn đèn leo lét.",
+    "prompt": "Small writing table in a 1930 lodging, a completely blank unmarked sheet of paper with a pen beside it and a flickering lamp, tear-stained handkerchief, no people."
   },
   {
-    "name": "t55_a3_21_weimar_alleys",
+    "name": "t55_a3_27_window_flowerpots_on_sill_dusk_tenement",
     "act": 3,
     "sentences": "3.07#3",
-    "desc": "Hồi 3 Tập 43 (weimar_alleys): Hắn tin rằng một cô gái nghèo từ nông thôn, hoàn toàn mất phương hướng trong đêm tối, sẽ k...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "desc": "Những chậu hoa nhỏ bên bậu cửa sổ căn hộ vào buổi chiều tà.",
+    "prompt": "Small flowerpots lined on the windowsill of a tenement apartment at dusk in Düsseldorf in 1930, the window glowing softly, no people, neighborly calm."
   },
   {
-    "name": "t55_a3_22_rhine_riverbank",
+    "name": "t55_a3_28_misaddressed_envelope_in_postbox_slot",
     "act": 3,
-    "sentences": "3.08#1",
-    "desc": "Hồi 3 Tập 43 (rhine_riverbank): Sự ngạo mạn thái quá của kẻ thủ ác chính là điểm mù lớn nhất đã dẫn hắn vào cạm bẫy của số...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#4",
+    "desc": "Hộp thư kim loại với phong thư trắng trơn chìa ra khỏi khe thư.",
+    "prompt": "Metal postbox on a German street corner in 1930, a completely blank envelope half-slipped through the slot, dusk lamp light, no markings, symbolic of fate's detour."
   },
   {
-    "name": "t55_a3_23_psychoanalysis",
+    "name": "t55_a3_29_letter_reaches_gennat_desk_green_lamp",
     "act": 3,
-    "sentences": "3.08#2",
-    "desc": "Hồi 3 Tập 43 (psychoanalysis): Hắn cho rằng mình hoàn toàn nắm giữ quyền sinh sát và việc ban phát sự sống cho một nạn nh...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#5,3.07#6",
+    "desc": "Chiếc phong thư mở đặt trên bàn thám tử dưới đèn xanh, một bóng người cúi xuống.",
+    "prompt": "Opened plain envelope and a completely blank folded sheet on a detective's desk under a green lamp in 1930 Düsseldorf, a silhouette bending over from behind, intense focus."
   },
   {
-    "name": "t55_a3_24_karl_berg",
+    "name": "t55_a3_30_golden_link_chain_glinting_in_darkness",
     "act": 3,
-    "sentences": "3.08#3",
-    "desc": "Hồi 3 Tập 43 (karl_berg): Cô tìm được chỗ ở tạm thời tại một gia đình tử tế và viết một lá thư đầy nước mắt gửi cho ...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#7",
+    "desc": "Một mắt xích vàng lấp lánh trong chuỗi xích đen tối.",
+    "prompt": "A single golden chain link glinting among dark iron links on a dim desk in 1930, shafts of lamp light, symbolic of the missing connection, no people."
   },
   {
-    "name": "t55_a3_25_weimar_alleys",
+    "name": "t55_a3_31_secret_manhunt_detectives_gathering_night",
     "act": 3,
-    "sentences": "3.09#1",
-    "desc": "Hồi 3 Tập 43 (weimar_alleys): Trong thư, cô kể lại toàn bộ trải nghiệm kinh hoàng và mô tả chi tiết căn nhà của người đà...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#8",
+    "desc": "Các bóng thám tử tập trung trong phòng họp mờ khói thuốc lúc nửa đêm.",
+    "prompt": "Silhouetted detectives gathered around a table in a smoky 1930 police briefing room at midnight, faces unseen, a wall map behind them completely free of lettering, urgent mood."
   },
   {
-    "name": "t55_a3_26_rhine_riverbank",
+    "name": "t55_a3_32_night_ready_detectives_in_coats_courtyard",
     "act": 3,
-    "sentences": "3.09#2",
-    "desc": "Hồi 3 Tập 43 (rhine_riverbank): Thế nhưng, một sự an bài kỳ lạ của định mệnh đã xảy ra: lá thư bị viết sai địa chỉ người n...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#9",
+    "desc": "Sân cảnh sát lúc rạng sáng, những bóng người mặc áo choàng chuẩn bị.",
+    "prompt": "Silhouettes of plainclothes detectives in long coats and hats gathering in a police courtyard at pre-dawn in 1930 Düsseldorf, breath fogging in cold air, unmarked cars, faces unseen."
   },
   {
-    "name": "t55_a3_27_psychoanalysis",
-    "act": 3,
-    "sentences": "3.09#3",
-    "desc": "Hồi 3 Tập 43 (psychoanalysis): Lá thư ngay lập tức được chuyển thẳng đến bàn làm việc của Ernst Gennat tại trụ sở Cảnh sá...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t55_a3_28_karl_berg",
-    "act": 3,
-    "sentences": "3.10#1",
-    "desc": "Hồi 3 Tập 43 (karl_berg): Gennat lập tức nhận ra đây chính là mắt xích vàng mà lực lượng phá án đã mòn mỏi tìm kiếm ...",
-    "prompt": "Forensic laboratory scene in Dusseldorf, Germany, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t55_a4_01_weimar_alleys",
-    "act": 4,
-    "sentences": "4.01#1",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Ngày 23 tháng 5 năm 1930, Maria Budlick ngồi trên chiếc xe ô tô chuyên dụng của Ernst Genn...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t55_a4_02_rhine_riverbank",
-    "act": 4,
-    "sentences": "4.01#2",
-    "desc": "Hồi 4 Tập 43 (rhine_riverbank): Dù các con đường đều giống nhau dưới ánh nắng ban ngày, nhưng trí nhớ sinh tồn của cô gái ...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t55_a4_03_psychoanalysis",
-    "act": 4,
-    "sentences": "4.01#3",
-    "desc": "Hồi 4 Tập 43 (psychoanalysis): Lực lượng trinh sát ngầm ngay lập tức phong tỏa toàn bộ khu vực xung quanh mà không gây ra...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t55_a4_04_karl_berg",
+    "name": "t55_a4_01_detective_car_cruising_street_may_1930",
     "act": 4,
     "sentences": "4.02#1",
-    "desc": "Hồi 4 Tập 43 (karl_berg): Một phản xạ của loài thú săn mồi đã báo cho hắn biết rằng tấm màn nhung ngụy trang đã chín...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Chiếc xe ô tô điều tra chạy chậm trên phố Düsseldorf ngày nắng tháng 5 năm 1930.",
+    "prompt": "Boxy black 1930 German police automobile cruising slowly along a sunlit Düsseldorf street, tenement fronts passing, the car's interior in dark shadow with silhouettes only, no markings or plates visible."
   },
   {
-    "name": "t55_a4_05_weimar_alleys",
+    "name": "t55_a4_02_tenement_building_facade_identical_doors",
     "act": 4,
     "sentences": "4.02#2",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Hắn bình thản quay lưng bước đi, giả vờ như một người qua đường vô can và tìm cách liên lạ...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Mặt tiền chung cư gạch với hàng cửa giống hệt nhau, ánh nắng ban ngày.",
+    "prompt": "Plain brick tenement facade in Düsseldorf in 1930 with rows of identical doors and windows, daylight, a single door slightly in focus, no numbers or lettering, empty street."
   },
   {
-    "name": "t55_a4_06_rhine_riverbank",
+    "name": "t55_a4_03_plainclothes_watchers_cordon_quiet_street",
     "act": 4,
     "sentences": "4.02#3",
-    "desc": "Hồi 4 Tập 43 (rhine_riverbank): Một cuộc đối thoại nghẹt thở đã vĩnh viễn thay đổi số phận của cả hai con người....",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Các bóng người mặc thường phục đứng rải rác bao quanh khu phố yên tĩnh.",
+    "prompt": "Silhouettes of plainclothes watchers posted discreetly at corners and doorways around a quiet residential street in Düsseldorf in 1930, ordinary clothes, faces unseen, sunlit afternoon."
   },
   {
-    "name": "t55_a4_07_psychoanalysis",
+    "name": "t55_a4_04_two_agents_at_opposite_corner_distant_silhouette",
     "act": 4,
-    "sentences": "4.03#1",
-    "desc": "Hồi 4 Tập 43 (psychoanalysis): Ngồi đối diện với người vợ đã gắn bó suốt bảy năm trời, Peter Kürten nhìn thẳng vào mắt bà...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#4",
+    "desc": "Hai bóng mật thám ở góc phố đối diện, một bóng người từ xa chợt khựng lại.",
+    "prompt": "Two silhouetted watchers standing at a street corner in Düsseldorf in 1930, a distant lone man in a worker's cap stopping mid-step far along the pavement, faces unseen, tense noon light."
   },
   {
-    "name": "t55_a4_08_karl_berg",
+    "name": "t55_a4_05_mask_torn_curtain_ripped_dark_room",
     "act": 4,
-    "sentences": "4.03#2",
-    "desc": "Hồi 4 Tập 43 (karl_berg): Trong khoảnh khắc ấy, cả thế giới của Auguste Scharf như sụp đổ tan tành thành trăm mảnh....",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#5",
+    "desc": "Tấm màn nhung rách toạc để lộ khoảng tối phía sau.",
+    "prompt": "Heavy velvet curtain torn down the middle revealing darkness behind it in a bare 1930 apartment room, dust motes in a shaft of light, symbolic of a mask being ripped away, no people."
   },
   {
-    "name": "t55_a4_09_weimar_alleys",
+    "name": "t55_a4_06_walking_away_calm_street_alley_turn",
     "act": 4,
-    "sentences": "4.03#3",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Người chồng hiền lành, người đàn ông luôn lo lắng từng bữa ăn và giặt từng chiếc áo cho bà...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#6",
+    "desc": "Bóng người bình thản quay lưng bước vào một con hẻm nhỏ.",
+    "prompt": "Silhouette of a man in a plain coat calmly turning away and entering a narrow side alley of a Düsseldorf street in 1930, face unseen, sunlit street behind, long shadow."
   },
   {
-    "name": "t55_a4_10_rhine_riverbank",
+    "name": "t55_a4_07_secret_meeting_back_room_drawn_blinds",
     "act": 4,
-    "sentences": "4.04#1",
-    "desc": "Hồi 4 Tập 43 (rhine_riverbank): Hắn nói với vợ rằng mình không còn đường thoát, và chính quyền thành phố đang treo một kho...",
-    "prompt": "Historic courtroom interior in Dusseldorf, Germany, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#7",
+    "desc": "Căn phòng kín rèm kéo, hai chiếc ghế đặt đối diện nhau.",
+    "prompt": "Bare back room with drawn blinds in 1930 Germany, two wooden chairs facing each other across a small table, slivers of daylight, empty of people, claustrophobic hush."
   },
   {
-    "name": "t55_a4_11_psychoanalysis",
+    "name": "t55_a4_08_choking_dialogue_two_chairs_facing_silhouettes",
     "act": 4,
-    "sentences": "4.04#2",
-    "desc": "Hồi 4 Tập 43 (psychoanalysis): Hắn xúi giục bà hãy đến gặp cảnh sát tố giác hắn, để bà có thể nhận toàn bộ số tiền thưởng...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.02#8",
+    "desc": "Hai bóng người ngồi đối diện nhau trong phòng kín dưới ánh đèn mờ.",
+    "prompt": "Two silhouettes seated facing each other across a small table in a drawn-blind room in 1930 Germany, a single dim lamp between them, faces unseen, thick silence."
   },
   {
-    "name": "t55_a4_12_karl_berg",
+    "name": "t55_a4_09_closed_room_threshold_of_truth_door_light",
     "act": 4,
-    "sentences": "4.04#3",
-    "desc": "Hồi 4 Tập 43 (karl_berg): Trời đất như quay cuồng dưới chân tôi khi nghe những lời thú nhận từ chính miệng người đàn...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.02#9,4.02#10",
+    "desc": "Khe sáng dưới cánh cửa phòng khép kín, bóng hai người nhòe trên tường.",
+    "prompt": "Thin slit of light beneath a closed door in a 1930 apartment, two blurred shadows on the wall, a half-turned key in the lock, no people visible, hush before a revelation."
   },
   {
-    "name": "t55_a4_13_weimar_alleys",
+    "name": "t55_a4_10_confession_two_chairs_small_table_lamp",
     "act": 4,
-    "sentences": "4.05#1",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Tôi đã sống cùng ai suốt bảy năm qua? Một con quỷ mang gương mặt của một người chồng chu đ...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#1,4.04#2,4.04#3",
+    "desc": "Hai chiếc ghế đối diện qua chiếc bàn nhỏ, ngọn đèn leo lét ở giữa.",
+    "prompt": "Two wooden chairs across a small table, a single lamp glowing between them in a darkened 1930 room, a coat draped over one chair, no people, tense stillness."
   },
   {
-    "name": "t55_a4_14_rhine_riverbank",
+    "name": "t55_a4_11_world_shattering_cracked_wall_mirror_floor",
     "act": 4,
-    "sentences": "4.05#2",
-    "desc": "Hồi 4 Tập 43 (rhine_riverbank): Tôi cảm thấy buồn nôn và ghê tởm chính bản thân mình vì đã quá mù quáng....",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#4",
+    "desc": "Chiếc gương treo tường vỡ thành trăm mảnh trên sàn gỗ.",
+    "prompt": "Large wall mirror shattered into hundreds of fragments across a wooden floor in a plain 1930 German apartment, reflections of ceiling light, no people, symbolic of a collapsing world."
   },
   {
-    "name": "t55_a4_15_psychoanalysis",
+    "name": "t55_a4_12_clean_shirts_on_the_line_kitchen_window",
     "act": 4,
-    "sentences": "4.05#3",
-    "desc": "Hồi 4 Tập 43 (psychoanalysis): Hắn bảo tôi hãy đi tố giác để lấy món tiền thưởng béo bở, hắn nghĩ rằng tiền bạc có thể rử...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#5",
+    "desc": "Những chiếc áo sơ mi trắng phơi trên dây bên cửa sổ bếp, ánh chiều mờ.",
+    "prompt": "White shirts hanging on a drying line beside a kitchen window in a 1930 German tenement, soft late-afternoon light, a simple meal on the table, no people."
   },
   {
-    "name": "t55_a4_16_karl_berg",
+    "name": "t55_a4_13_poisonous_proposal_whisper_candle_table",
+    "act": 4,
+    "sentences": "4.04#6",
+    "desc": "Ngọn nến cháy trên bàn trống, hai cái bóng nghiêng về phía nhau.",
+    "prompt": "Candle burning on an empty table, two long shadows leaning toward each other on a bare wall in a 1930 room, faces absent, sinister intimacy."
+  },
+  {
+    "name": "t55_a4_14_pile_of_coins_and_bundled_banknotes_lamp",
+    "act": 4,
+    "sentences": "4.04#7,4.04#8",
+    "desc": "Chồng đồng mark và cọc tiền buộc dây dưới ánh đèn bàn.",
+    "prompt": "Stack of old German coins and bundled banknotes tied with string, completely blank and unmarked with no writing at all, resting on a bare table under a small lamp in 1930."
+  },
+  {
+    "name": "t55_a4_15_self_sacrifice_theatre_empty_stage_single_chair",
+    "act": 4,
+    "sentences": "4.04#9",
+    "desc": "Sân khấu trống với một chiếc ghế đơn độc dưới vòng sáng đèn pha.",
+    "prompt": "Empty theatre stage with a single wooden chair in a lone spotlight, dark empty auditorium beyond, 1930s, symbolic of a narcissistic final performance, no people."
+  },
+  {
+    "name": "t55_a4_16_final_favor_gift_box_ribbon_dark_table",
+    "act": 4,
+    "sentences": "4.04#10",
+    "desc": "Hộp quà buộc ruy băng đen trên bàn tối, bóng nghiêng dài.",
+    "prompt": "Small gift box tied with a black ribbon on a dark table in a 1930 room, a long slanting shadow, bare walls, symbolic of a poisoned gift, no people."
+  },
+  {
+    "name": "t55_a4_17_vertigo_wife_silhouette_swaying_kitchen_stairs",
+    "act": 4,
+    "sentences": "4.05#1,4.05#2,4.05#3",
+    "desc": "Bóng người phụ nữ đứng chênh vênh bên cầu thang chung cư, tay vịn chặt lan can.",
+    "prompt": "Silhouette of a woman from behind gripping a banister at the top of a tenement staircase in 1930, swaying slightly, a spiral of light from a stairwell window, face unseen, dizzying perspective."
+  },
+  {
+    "name": "t55_a4_18_laundry_basket_worn_collar_room",
+    "act": 4,
+    "sentences": "4.05#4,4.05#5",
+    "desc": "Chiếc áo sơ mi nhàu vắt trên lưng ghế, giỏ đồ giặt cạnh bên trong căn bếp lờ mờ.",
+    "prompt": "Rumpled shirt draped over a chair back beside a laundry basket in a dim 1930 apartment kitchen, grey light from the window, no people, a sense of dawning dread."
+  },
+  {
+    "name": "t55_a4_19_reward_money_envelope_on_stairwell_sill",
+    "act": 4,
+    "sentences": "4.05#6,4.05#7",
+    "desc": "Phong bì lớn trắng hoàn toàn trên bậu cửa cầu thang, ánh sáng xám lạnh.",
+    "prompt": "Large plain envelope, completely blank and unmarked with no writing at all, on a stairwell windowsill in a 1930 tenement, cold grey light, no people, moral tension."
+  },
+  {
+    "name": "t55_a4_20_two_paths_split_corridor_door_left_right",
+    "act": 4,
+    "sentences": "4.05#8,4.05#9",
+    "desc": "Hành lang chia hai ngã, một đầu sáng, một đầu tối đặc.",
+    "prompt": "Corridor splitting into two paths in a 1930 building, one end faintly lit, the other pitch black, symbolic of a moral choice, no people."
+  },
+  {
+    "name": "t55_a4_21_conscience_awakening_dawn_window_candle_out",
+    "act": 4,
+    "sentences": "4.05#10,4.05#11",
+    "desc": "Ngọn nến tắt khói, bình minh ló qua khung cửa sổ nhỏ.",
+    "prompt": "Candle just extinguished with a thread of smoke, dawn grey-blue light entering a small window in a bare 1930 room, symbolic of awakening conscience, no people."
+  },
+  {
+    "name": "t55_a4_22_psychologists_notes_desk_lamp_blank_pages",
     "act": 4,
     "sentences": "4.06#1",
-    "desc": "Hồi 4 Tập 43 (karl_berg): Tôi biết rằng nếu tôi tiếp tục im lặng dù chỉ một ngày, linh hồn tôi sẽ bị đày đọa xuống đ...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "desc": "Bàn bác sĩ với tập giấy trắng tinh và bút mực, ánh đèn xanh nhạt.",
+    "prompt": "Psychiatrist's desk in 1930 with a pad of completely blank pages, an inkwell and pen, a green-shaded lamp, silhouette of a doctor seated in the background, face unseen."
   },
   {
-    "name": "t55_a4_17_weimar_alleys",
+    "name": "t55_a4_23_selective_blindness_cloth_blindfold_chair",
     "act": 4,
-    "sentences": "4.06#2",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Tôi phải chấm dứt cơn ác mộng này, ngay cả khi nó có nghĩa là tôi phải tự tay đưa người ch...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#2,4.06#3",
+    "desc": "Dải vải che mắt vắt trên lưng ghế trong căn phòng nhỏ.",
+    "prompt": "Folded cloth blindfold draped across the back of a wooden chair in a tidy 1920s German living room, afternoon light, symbolic of motivated denial, no people."
   },
   {
-    "name": "t55_a4_18_rhine_riverbank",
+    "name": "t55_a4_24_cognitive_dissonance_crumbling_wall_cracks",
     "act": 4,
-    "sentences": "4.06#3",
-    "desc": "Hồi 4 Tập 43 (rhine_riverbank): Trong suốt nhiều năm, Auguste Scharf đã duy trì một trạng thái tâm lý gọi là “Phủ nhận có ...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#4",
+    "desc": "Bức tường phòng khách nứt toác, vữa rơi lả tả.",
+    "prompt": "Living room wall with a vast crack splitting plaster, loose flakes falling in a shaft of window light, 1930 German apartment, symbolic of a defense wall collapsing, no people."
   },
   {
-    "name": "t55_a4_19_psychoanalysis",
+    "name": "t55_a4_25_moral_trauma_empty_rocking_chair_dusk",
     "act": 4,
-    "sentences": "4.07#1",
-    "desc": "Hồi 4 Tập 43 (psychoanalysis): Bản thân là một phụ nữ từng có tiền án và chịu nhiều tổn thương, nhu cầu an toàn và sự phụ...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#5",
+    "desc": "Chiếc ghế bập bênh trống chuyển động nhẹ trong ánh chiều tà.",
+    "prompt": "Empty rocking chair still faintly moving beside a window at dusk in a 1930 German apartment, long orange shadows, no people, sorrowful weight."
   },
   {
-    "name": "t55_a4_20_karl_berg",
+    "name": "t55_a4_26_three_impulses_three_doors_hall",
     "act": 4,
-    "sentences": "4.07#2",
-    "desc": "Hồi 4 Tập 43 (karl_berg): Bà phải đối diện với một “Chấn thương đạo đức” cực hạn: nỗi kinh hoàng trước tội ác của ch...",
-    "prompt": "Emotional witness stand perspective in Dusseldorf, Germany, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#6",
+    "desc": "Ba cánh cửa gỗ khép đóng, một khe sáng vàng dưới cánh cửa giữa.",
+    "prompt": "Long hallway with three closed wooden doors, a thin golden light under the middle one, 1930 German building, symbolic of three psychological forces, no people."
   },
   {
-    "name": "t55_a4_21_weimar_alleys",
+    "name": "t55_a4_27_conscience_stirring_lone_church_bell_tower",
     "act": 4,
-    "sentences": "4.07#3",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Quyết định bước vào đồn cảnh sát của bà được thúc đẩy bởi sự cộng hưởng của ba xung lực tâ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.06#7",
+    "desc": "Tháp chuông nhà thờ vút cao trên mái nhà, bình minh xám.",
+    "prompt": "Church bell tower rising above city rooftops at grey dawn in Düsseldorf in 1930, pigeons lifting off, mist in the streets, no people."
   },
   {
-    "name": "t55_a4_22_rhine_riverbank",
+    "name": "t55_a4_28_fear_of_punishment_cold_courthouse_steps",
+    "act": 4,
+    "sentences": "4.06#8",
+    "desc": "Bậc thềm đá tòa án lạnh lẽo, cánh cửa gỗ lớn khép chặt.",
+    "prompt": "Cold stone steps leading to a massive closed wooden courthouse door in 1930 Germany, grey morning, no people, imposing and austere, no lettering."
+  },
+  {
+    "name": "t55_a4_29_liberation_open_window_cage_door_ajar",
+    "act": 4,
+    "sentences": "4.06#9",
+    "desc": "Chiếc lồng chim cửa mở với khung cửa sổ sáng mờ phía sau.",
+    "prompt": "Empty birdcage with its little door standing open before a window brightening at dawn in a 1930 room, symbolic of liberation, no people, no birds."
+  },
+  {
+    "name": "t55_a4_30_moral_survival_woman_silhouette_police_doorway",
+    "act": 4,
+    "sentences": "4.06#10",
+    "desc": "Bóng người phụ nữ nhỏ bé đứng trước cánh cổng lớn của đồn cảnh sát lúc sáng sớm.",
+    "prompt": "Small silhouette of a woman standing before the large doorway of a police headquarters at early morning in 1930 Düsseldorf, seen from behind, face unseen, long shadow on the steps, no lettering."
+  },
+  {
+    "name": "t55_a4_31_solitude_of_a_killers_wife_empty_apartment",
+    "act": 4,
+    "sentences": "4.06#11",
+    "desc": "Căn hộ vắng với một chiếc ghế cạnh cửa sổ và tách trà nguội.",
+    "prompt": "Empty living room with a single chair by a window and a cooling cup of tea on a small table, 1930 German apartment, late morning light, no people, deep solitude."
+  },
+  {
+    "name": "t55_a4_32_may_24_morning_police_hq_steps_silhouette",
     "act": 4,
     "sentences": "4.08#1",
-    "desc": "Hồi 4 Tập 43 (rhine_riverbank): Thứ hai là nỗi sợ hãi tột cùng về việc bị trừng phạt với tư cách tòng phạm nếu tiếp tục ch...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Bình minh ngày 24 tháng 5, bóng người bước lên các bậc thềm trụ sở cảnh sát.",
+    "prompt": "Silhouette of a woman climbing the steps of Düsseldorf police headquarters at early dawn in May 1930, seen from behind, face unseen, faint light, no lettering on the building."
   },
   {
-    "name": "t55_a4_23_psychoanalysis",
+    "name": "t55_a4_33_trap_planning_detectives_round_table_map",
     "act": 4,
     "sentences": "4.08#2",
-    "desc": "Hồi 4 Tập 43 (psychoanalysis): Và thứ ba là mong muốn giải thoát tâm hồn khỏi chiếc lồng giam của một sự thật kinh tởm kh...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Các bóng thám tử bên bản đồ thành phố trải rộng trên bàn lúc trưa.",
+    "prompt": "Silhouetted detectives around a table with a large unlettered city map, a few marker pins, plain blinds half-drawn in a 1930 police office, careful planning, faces unseen."
   },
   {
-    "name": "t55_a4_24_karl_berg",
+    "name": "t55_a4_34_st_rochus_church_afternoon_plaza_waiting",
     "act": 4,
     "sentences": "4.08#3",
-    "desc": "Hồi 4 Tập 43 (karl_berg): Bà thà chấp nhận sự cô độc và ô nhục của một người vợ kẻ sát nhân, còn hơn là tiếp tục làm...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Quảng trường trước nhà thờ Thánh Rochus buổi chiều, một bóng người nhỏ đứng đợi.",
+    "prompt": "Baroque Rochus church in Düsseldorf with twin spires at midafternoon in 1930, a tiny lone silhouette waiting on the paved square, strollers as distant dark shapes, no signage."
   },
   {
-    "name": "t55_a4_25_weimar_alleys",
+    "name": "t55_a4_35_arrival_calm_neat_man_approaching_across_square",
     "act": 4,
-    "sentences": "4.09#1",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Sáng ngày 24 tháng 5 năm 1930, Auguste Scharf bước vào trụ sở Cảnh sát Hình sự và khai báo...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#4",
+    "desc": "Bóng người mặc gọn gàng bước chậm qua quảng trường về phía cổng nhà thờ.",
+    "prompt": "Silhouette of a neatly dressed man in a cap walking slowly across the church square in Düsseldorf in 1930, long shadow in afternoon light, face completely unseen."
   },
   {
-    "name": "t55_a4_26_rhine_riverbank",
+    "name": "t55_a4_36_police_encirclement_silhouettes_closing_ring",
     "act": 4,
-    "sentences": "4.09#2",
-    "desc": "Hồi 4 Tập 43 (rhine_riverbank): Bà hẹn gặp Peter Kürten vào buổi chiều hôm đó tại khu vực đối diện Nhà thờ Thánh Rochus ở ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#5",
+    "desc": "Vòng vây bóng cảnh sát khép lại quanh một bóng người giữa quảng trường.",
+    "prompt": "Ring of silhouetted police in coats and caps closing in around one still central figure in a church square in 1930 Düsseldorf, no weapons visible, afternoon long shadows, faces unseen."
   },
   {
-    "name": "t55_a4_27_psychoanalysis",
+    "name": "t55_a4_37_handcuffs_resting_on_stone_steps_light",
     "act": 4,
-    "sentences": "4.09#3",
-    "desc": "Hồi 4 Tập 43 (psychoanalysis): Đúng giờ hẹn, kẻ thủ ác xuất hiện trong bộ trang phục gọn gàng như thường lệ, tiến lại gần...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#6",
+    "desc": "Chiếc còng số tám nằm trên bậc đá, ánh nắng chiều hắt qua.",
+    "prompt": "A pair of old figure-eight style steel handcuffs resting on a stone step in late afternoon light in 1930 Germany, no people, symbolic of surrender and capture."
   },
   {
-    "name": "t55_a4_28_karl_berg",
+    "name": "t55_a4_38_ghost_of_rhineland_caught_empty_street_dusk",
     "act": 4,
-    "sentences": "4.10#1",
-    "desc": "Hồi 4 Tập 43 (karl_berg): Kẻ gieo rắc nỗi kinh hoàng lớn nhất lịch sử nước Đức đã tra tay vào còng số tám mà không h...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#7",
+    "desc": "Con phố vắng lúc chạng vạng, sương mỏng, nhẹ nhõm tràn về.",
+    "prompt": "Empty Düsseldorf street at dusk in 1930, thin mist lifting, lamps coming on one by one, a relieved quiet, no figures, faint warm tones for the first time."
   },
   {
-    "name": "t55_a4_29_weimar_alleys",
+    "name": "t55_a4_39_silent_arrest_scene_quiet_square_dove_flight",
     "act": 4,
-    "sentences": "4.10#2",
-    "desc": "Hồi 4 Tập 43 (weimar_alleys): Bóng ma của vùng Rhineland cuối cùng đã chính thức sa lưới công lý....",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Dusseldorf, Germany, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#8",
+    "desc": "Quảng trường yên tĩnh, đàn bồ câu bay lên khi bóng người tản ra.",
+    "prompt": "Quiet church square in Düsseldorf in 1930, a flock of doves lifting off, distant dark silhouettes dispersing calmly, afternoon light, no violence, hush."
   },
   {
-    "name": "t55_a5_01_weimar_alleys",
+    "name": "t55_a4_40_calm_precision_detectives_walking_out_step",
+    "act": 4,
+    "sentences": "4.08#9",
+    "desc": "Bóng các thám tử rời quảng trường lúc chiều tà, bước chân đều.",
+    "prompt": "Silhouetted detectives walking away across a church square in 1930 Düsseldorf at dusk, evenly spaced, long shadows on the paving, faces unseen, controlled calm."
+  },
+  {
+    "name": "t55_a5_01_cell_composed_prisoner_silhouette_calm_bars",
     "act": 5,
-    "sentences": "5.01#1",
-    "desc": "Hồi 5 Tập 43 (weimar_alleys): Sau khi bị bắt giữ, Peter Kürten không hề tỏ ra hoảng loạn hay tìm cách chối tội như những...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#1,5.02#2",
+    "desc": "Xà lim nhà tù Düsseldorf, bóng người ngồi thẳng lưng bình thản dưới ô sáng cao.",
+    "prompt": "Bare cell in Düsseldorf prison in 1930, a silhouette sitting upright and perfectly calm on a narrow bunk beneath a high window beam, face fully in shadow, cold stone walls."
   },
   {
-    "name": "t55_a5_02_rhine_riverbank",
-    "act": 5,
-    "sentences": "5.01#2",
-    "desc": "Hồi 5 Tập 43 (rhine_riverbank): Hắn ngồi trong xà lim của nhà tù Düsseldorf với một phong thái kỳ lạ, sẵn sàng trả lời mọi...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
-  },
-  {
-    "name": "t55_a5_03_psychoanalysis",
-    "act": 5,
-    "sentences": "5.01#3",
-    "desc": "Hồi 5 Tập 43 (psychoanalysis): Suốt một năm trời sau đó, hắn trở thành đối tượng nghiên cứu của Tiến sĩ Karl Berg, Giám đ...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
-  },
-  {
-    "name": "t55_a5_04_karl_berg",
-    "act": 5,
-    "sentences": "5.02#1",
-    "desc": "Hồi 5 Tập 43 (karl_berg): Hàng trăm giờ thẩm vấn và phân tích tâm thần đã được ghi lại, đặt nền móng cho cuốn sách k...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
-  },
-  {
-    "name": "t55_a5_05_weimar_alleys",
-    "act": 5,
-    "sentences": "5.02#2",
-    "desc": "Hồi 5 Tập 43 (weimar_alleys): Và chính tại đây, bản chất thật sự của cái gọi là “sự hối hận” ở Peter Kürten đã bị phơi b...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
-  },
-  {
-    "name": "t55_a5_06_rhine_riverbank",
+    "name": "t55_a5_02_forensic_institute_karl_berg_study_lamp",
     "act": 5,
     "sentences": "5.02#3",
-    "desc": "Hồi 5 Tập 43 (rhine_riverbank): Công trình nghiên cứu của Tiến sĩ Karl Berg đã đưa ra một kết luận đanh thép: Peter Kürten...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Phòng làm việc của viện pháp y, bóng bác sĩ ngồi bên chồng sổ ghi chép trắng.",
+    "prompt": "Forensic institute study in Düsseldorf in 1931, a silhouetted doctor at a desk with stacks of completely blank bound notebooks, green lamp, shelves of old volumes with unmarked spines."
   },
   {
-    "name": "t55_a5_07_psychoanalysis",
+    "name": "t55_a5_03_hundreds_of_hours_notebooks_desk_ink",
+    "act": 5,
+    "sentences": "5.02#4",
+    "desc": "Một chồng sổ tay dày và lọ mực, bút lông để lại nửa chừng trên trang giấy trắng tinh.",
+    "prompt": "Thick stack of notebooks with completely blank pages, an inkwell and pen laid across an open page under a desk lamp, 1931 study, no writing visible, no people."
+  },
+  {
+    "name": "t55_a5_04_old_german_book_closed_on_desk_der_sadist",
+    "act": 5,
+    "sentences": "5.02#5",
+    "desc": "Một cuốn sách bìa da cũ khép lại trên bàn, bìa không có chữ.",
+    "prompt": "Heavy old leather-bound German scientific book closed on a desk, cover completely blank and unmarked with no writing at all, lamp light on the worn spine, 1931."
+  },
+  {
+    "name": "t55_a5_05_sadistic_personality_dark_mirror_hall",
+    "act": 5,
+    "sentences": "5.02#6",
+    "desc": "Hành lang tối với những tấm gương cũ phản chiếu bóng tối thay vì hình người.",
+    "prompt": "Dim hallway lined with antique mirrors reflecting only darkness, 1931 institute, symbolic of a self-deceiving personality, no people."
+  },
+  {
+    "name": "t55_a5_06_true_remorse_exposed_empty_confessional_light",
+    "act": 5,
+    "sentences": "5.02#7",
+    "desc": "Hòm xưng tội gỗ trống rỗng, ánh sáng lạnh quét qua cánh cửa khép.",
+    "prompt": "Empty wooden confessional booth in a 1931 German church, its curtain pulled aside by cold light, no people, no inscriptions, symbolic of hollow remorse."
+  },
+  {
+    "name": "t55_a5_07_cell_conversations_stage_curtain_lamp_empty",
+    "act": 5,
+    "sentences": "5.02#8",
+    "desc": "Phòng thẩm vấn như sân khấu, một chiếc ghế trước bóng tối khán phòng.",
+    "prompt": "Interrogation room arranged like a stage in 1931, one chair under a hanging lamp facing black empty seats, a notebook on the table with blank pages, no people."
+  },
+  {
+    "name": "t55_a5_08_berg_conclusion_cold_scientist_window_silhouette",
     "act": 5,
     "sentences": "5.03#1",
-    "desc": "Hồi 5 Tập 43 (psychoanalysis): Những gì hắn thể hiện trước mặt các nhà điều tra và công chúng chỉ là một dạng “Hối hận cô...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Bóng bác sĩ đứng bên cửa sổ viện nhìn xuống sân phủ sương.",
+    "prompt": "Silhouetted doctor standing at a tall institute window in 1931 looking down at a misty courtyard, hands behind his back, face unseen, grey morning light."
   },
   {
-    "name": "t55_a5_08_karl_berg",
+    "name": "t55_a5_09_instrumental_remorse_marionette_strings_slack",
     "act": 5,
     "sentences": "5.03#2",
-    "desc": "Hồi 5 Tập 43 (karl_berg): Hắn say sưa kể lại từng chi tiết của các vụ án không phải vì muốn chuộc lỗi, mà để sống lạ...",
-    "prompt": "Solemn penal execution facility at dawn in Dusseldorf, Germany, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Con rối treo dây chùng trên giá gỗ, bóng nhỏ trên bức tường trắng.",
+    "prompt": "A marionette hanging from slack strings on a wooden frame, small shadow on a bare white wall, 1931 study, symbolic of staged feelings, no people."
   },
   {
-    "name": "t55_a5_09_weimar_alleys",
+    "name": "t55_a5_10_reliving_power_theatre_auditorium_empty_rows",
     "act": 5,
     "sentences": "5.03#3",
-    "desc": "Hồi 5 Tập 43 (weimar_alleys): Hắn coi phòng thẩm vấn như một sân khấu vĩ đại, nơi hắn là nhân vật trung tâm được các nhà...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "desc": "Khán phòng rạp hát vắng ghế đỏ, một vòng sáng trên sân khấu.",
+    "prompt": "Empty theatre auditorium with rows of dark red seats and a single spotlight circle on the stage, 1931, symbolic of savouring attention, no people."
   },
   {
-    "name": "t55_a5_10_rhine_riverbank",
+    "name": "t55_a5_11_interrogation_room_as_stage_chair_notes",
+    "act": 5,
+    "sentences": "5.03#4",
+    "desc": "Phòng thẩm vấn nhà tù, một chiếc ghế gỗ và bàn có sổ ghi chép trắng.",
+    "prompt": "Interrogation room in a Düsseldorf prison in 1931, a plain wooden chair and a table with a blank notebook, narrow window light, no people, formal and bare."
+  },
+  {
+    "name": "t55_a5_12_cold_numb_prison_corridor_dawn_last_hours",
+    "act": 5,
+    "sentences": "5.03#5,5.03#6",
+    "desc": "Hành lang nhà tù lúc rạng sáng, ánh sáng xám lạnh trải dài trên nền đá.",
+    "prompt": "Long prison corridor at dawn in 1931, grey light spreading across stone floor, closed cell doors, stillness, no people, solemn emptiness."
+  },
+  {
+    "name": "t55_a5_13_proof_of_emptiness_hollow_empty_glass_jar",
+    "act": 5,
+    "sentences": "5.03#7",
+    "desc": "Chiếc bình thủy tinh rỗng trên bệ gỗ dưới tia nắng lạnh.",
+    "prompt": "Completely empty glass jar on a wooden shelf catching cold window light in a 1931 laboratory, dust in the beam, no people, symbolic of emotional hollowness."
+  },
+  {
+    "name": "t55_a5_14_not_regretting_game_over_chess_pieces_scattered",
+    "act": 5,
+    "sentences": "5.03#8",
+    "desc": "Các quân cờ đổ lăn trên bàn cờ, ván chơi đã kết thúc.",
+    "prompt": "Chess pieces toppled and scattered over the board on a dim desk in 1931, the game finished, no people, symbolic of a game of power ending."
+  },
+  {
+    "name": "t55_a5_15_grandiose_delusion_to_the_end_shadow_giant_wall_cell",
+    "act": 5,
+    "sentences": "5.03#9",
+    "desc": "Bóng đen to lớn của một chiếc ghế trên bức tường xà lim trống.",
+    "prompt": "Enormous distorted shadow of a single chair cast on a bare cell wall in a 1931 prison, empty cell, symbolic of grandiose delusion, no people."
+  },
+  {
+    "name": "t55_a5_16_trial_courtroom_april_1931_gallery_silhouettes",
     "act": 5,
     "sentences": "5.04#1",
-    "desc": "Hồi 5 Tập 43 (rhine_riverbank): Hắn hỏi liệu sau khi chiếc lưỡi dao sập xuống, hắn có thể nghe thấy tiếng máu của chính mì...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "desc": "Phòng xử án chật kín bóng khán giả, ghế thẩm phán trống nhìn xuống.",
+    "prompt": "Packed German courtroom in April 1931, rows of silhouetted onlookers in dark clothing, a raised bench at the front with high-backed empty chairs, tall windows, faces unseen, no lettering."
   },
   {
-    "name": "t55_a5_11_psychoanalysis",
+    "name": "t55_a5_17_nine_empty_chairs_judges_bench_gavel",
     "act": 5,
     "sentences": "5.04#2",
-    "desc": "Hồi 5 Tập 43 (psychoanalysis): Đó là bằng chứng không thể chối cãi cho thấy một nhân cách bệnh hoạn đã hoàn toàn mất đi s...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "desc": "Chín chiếc ghế trống xếp trên bục xử án và chiếc búa gỗ.",
+    "prompt": "Nine empty high-backed chairs lined along a courtroom bench with a wooden gavel on the table, April 1931 Düsseldorf, no people, grave symmetry."
   },
   {
-    "name": "t55_a5_12_karl_berg",
+    "name": "t55_a5_18_klingelputz_prison_exterior_stone_wall_dawn",
     "act": 5,
     "sentences": "5.04#3",
-    "desc": "Hồi 5 Tập 43 (karl_berg): Hắn không hối hận vì những nỗi đau mà mình đã gây ra cho các nạn nhân và gia đình họ, mà c...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "desc": "Bức tường đá nhà tù Klingelpütz ở Cologne lúc bình minh sương lạnh.",
+    "prompt": "Exterior of a high stone prison wall in Cologne at cold dawn in July 1931, a heavy closed gate, mist along the ground, no people, no lettering, solemn quiet."
   },
   {
-    "name": "t55_a5_13_weimar_alleys",
+    "name": "t55_a5_19_case_closed_file_stamped_blank_desk",
     "act": 5,
-    "sentences": "5.05#1",
-    "desc": "Hồi 5 Tập 43 (weimar_alleys): Tháng 4 năm 1931, phiên tòa xét xử Peter Kürten diễn ra trong sự chú ý nín thở của toàn th...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#4",
+    "desc": "Hồ sơ dày đã đóng, đặt ngay ngắn trên mặt bàn gỗ trống.",
+    "prompt": "Thick closed case file, completely blank and unmarked with no writing at all, squared neatly on a bare wooden desk with morning light, 1931, the end of a dark chapter."
   },
   {
-    "name": "t55_a5_14_rhine_riverbank",
+    "name": "t55_a5_20_centralized_records_cards_and_mobile_lab_legacy",
     "act": 5,
-    "sentences": "5.05#2",
-    "desc": "Hồi 5 Tập 43 (rhine_riverbank): Ngày 2 tháng 7 năm 1931, bản án tử hình bằng máy chém được thi hành tại nhà tù Klingelpütz...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#5",
+    "desc": "Dãy tủ hồ sơ hiện đại và chiếc xe phòng thí nghiệm lưu động đỗ cạnh nhau.",
+    "prompt": "Rows of steel filing cabinets with blank unmarked drawers beside a parked early police laboratory car in a courtyard, 1930s, soft daylight, no people, legacy of modern forensics."
   },
   {
-    "name": "t55_a5_15_psychoanalysis",
+    "name": "t55_a5_21_scene_behavior_mirror_unconscious_urges_split_screen",
+    "act": 5,
+    "sentences": "5.04#6",
+    "desc": "Một chiếc gương chia đôi hiện trường vắng và bóng mờ của ý nghĩ vô thức.",
+    "prompt": "A crime-scene-like empty room reflected in a tall mirror that shows a swirling dark shape instead of the room, noir symbolic image, no people, no objects of harm."
+  },
+  {
+    "name": "t55_a5_22_forensics_meets_psychoanalysis_two_lamps_one_desk",
+    "act": 5,
+    "sentences": "5.04#7",
+    "desc": "Một bàn làm việc, một chiếc kính lúp và một tượng bán thân Freud trơn nhẵn không chữ.",
+    "prompt": "Desk with a magnifying glass, a microscope and an anonymous faceless plaster bust, two lamps casting overlapping light, noir symbolic scene of forensics and psychoanalysis, no lettering."
+  },
+  {
+    "name": "t55_a5_23_justice_scientific_fence_around_city_night_lights",
+    "act": 5,
+    "sentences": "5.04#8",
+    "desc": "Thành phố về đêm với hàng rào sáng của những ngọn đèn, mái nhà yên bình.",
+    "prompt": "City rooftops at night with a protective ring of warm street lamps along the boulevards, calm peaceful atmosphere, 1930s German city, no people."
+  },
+  {
+    "name": "t55_a5_24_century_later_modern_city_lights_reflection_river",
+    "act": 5,
+    "sentences": "5.05#1,5.05#2",
+    "desc": "Dòng sông Rhine phản chiếu ánh đèn thành phố hiện đại sau gần một thế kỷ.",
+    "prompt": "The Rhine at night reflecting the lights of a modern Düsseldorf skyline, calm water, no people, a century of distance from the 1920s."
+  },
+  {
+    "name": "t55_a5_25_halo_effect_polite_face_hallway_mask_hook",
     "act": 5,
     "sentences": "5.05#3",
-    "desc": "Hồi 5 Tập 43 (psychoanalysis): Vụ án đã khép lại một trong những trang hồ sơ đen tối nhất, nhưng đồng thời để lại những d...",
-    "prompt": "Serene panoramic wide landscape of Dusseldorf, Germany today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "desc": "Chiếc mặt nạ nụ cười trơn trên móc áo, bóng đen đổ phía sau.",
+    "prompt": "Plain smiling porcelain mask hanging on a coat hook in a hallway, a long black shadow stretching behind it, no inscription, symbolic of the halo effect, no people."
   },
   {
-    "name": "t55_a5_16_karl_berg",
+    "name": "t55_a5_26_survival_instinct_calm_breath_misty_window",
     "act": 5,
-    "sentences": "5.06#1",
-    "desc": "Hồi 5 Tập 43 (karl_berg): Hệ thống lưu trữ dữ liệu tập trung, xe phòng thí nghiệm hiện trường của Ernst Gennat và ph...",
-    "prompt": "Serene panoramic wide landscape of Dusseldorf, Germany today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#4",
+    "desc": "Hơi thở mờ trên ô cửa kính lạnh, bên ngoài là con phố mờ sương.",
+    "prompt": "Misty breath on a cold windowpane overlooking a foggy street at night, a symbolic of staying calm in danger, no people, no objects of harm, 1930s mood."
   },
   {
-    "name": "t55_a5_17_weimar_alleys",
+    "name": "t55_a5_27_conscience_awakening_open_door_morning_light",
     "act": 5,
-    "sentences": "5.06#2",
-    "desc": "Hồi 5 Tập 43 (weimar_alleys): Công lý không chỉ dừng lại ở việc trừng phạt kẻ thủ ác, mà còn ở việc xây dựng nên những r...",
-    "prompt": "Serene panoramic wide landscape of Dusseldorf, Germany today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#5",
+    "desc": "Cánh cửa mở ra con phố sáng, ánh nắng đầu tiên rơi vào hành lang tối.",
+    "prompt": "Open door at the end of a dark hallway letting in the first morning sunlight onto the floor, symbolic of conscience awakening, 1930s German building, no people."
   },
   {
-    "name": "t55_a5_18_rhine_riverbank",
+    "name": "t55_a5_28_safe_community_lights_in_windows_neighborhood_evening",
     "act": 5,
-    "sentences": "5.06#3",
-    "desc": "Hồi 5 Tập 43 (rhine_riverbank): Các chuyên gia tâm lý học hành vi khuyến cáo mỗi chúng ta ba nguyên tắc sinh tồn cốt lõi:...",
-    "prompt": "Serene panoramic wide landscape of Dusseldorf, Germany today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#6",
+    "desc": "Khu phố buổi tối, từng ô cửa sáng đèn, những bóng người quen thuộc bên khung cửa.",
+    "prompt": "Evening residential street with warm lights in every window and distant silhouettes of neighbors at the windows, a safe and watchful community, 1930s German city, no faces."
   },
   {
-    "name": "t55_a5_19_psychoanalysis",
+    "name": "t55_a5_29_knowledge_shield_candle_before_dark_window",
     "act": 5,
-    "sentences": "5.07#1",
-    "desc": "Hồi 5 Tập 43 (psychoanalysis): Thứ nhất, đừng bao giờ để “Hiệu ứng Hào quang” và vẻ ngoài lịch thiệp đánh lừa trực giác a...",
-    "prompt": "Serene panoramic wide landscape of Dusseldorf, Germany today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#7",
+    "desc": "Ngọn nến sáng vững trước ô cửa sổ tối, bóng đêm lùi lại.",
+    "prompt": "A steady candle burning on a table before a dark window, the shadows pushing back around it, calm hopeful noir mood, no people."
   },
   {
-    "name": "t55_a5_20_karl_berg",
+    "name": "t55_a5_30_amber_eyes_studio_microphone_desk_lamp",
     "act": 5,
-    "sentences": "5.07#2",
-    "desc": "Hồi 5 Tập 43 (karl_berg): Thứ hai, khi rơi vào tình huống nguy hiểm cận kề, hãy học theo bản năng sinh tồn của Maria...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#8",
+    "desc": "Phòng thu ấm áp với micro, đèn bàn và chồng hồ sơ trắng, ánh hổ phách.",
+    "prompt": "Cozy recording studio with a vintage condenser microphone, a desk lamp casting amber light, a stack of completely blank unmarked folders, wooden walls, no people, warm noir mood."
   },
   {
-    "name": "t55_a5_21_weimar_alleys",
+    "name": "t55_a5_31_sunrise_over_rhine_hope_after_the_dark_chapter",
     "act": 5,
-    "sentences": "5.07#3",
-    "desc": "Hồi 5 Tập 43 (weimar_alleys): Thứ ba, nhận thức rõ sức mạnh của sự thức tỉnh lương tri: cái ác chỉ có thể tồn tại khi nh...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#9,5.05#10",
+    "desc": "Bình minh phía trên sông Rhine, những mái nhà nhuộm vàng nhạt.",
+    "prompt": "Sunrise over the Rhine river and Düsseldorf rooftops, pale gold light breaking through mist, serene mood after a dark story, no people."
   },
   {
-    "name": "t55_a5_22_rhine_riverbank",
+    "name": "t55_a5_32_studio_goodnight_headphones_microphone_amber_glow",
     "act": 5,
-    "sentences": "5.08#1",
-    "desc": "Hồi 5 Tập 43 (rhine_riverbank): Mỗi hành trình giải mã tâm lý tội phạm cùng Amber Eyes không nhằm khơi gợi nỗi sợ hãi, mà ...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#11,5.05#12",
+    "desc": "Tai nghe và micro trong phòng thu, ánh đèn hổ phách dịu.",
+    "prompt": "Studio headphones resting on a vintage microphone under a soft amber lamp, dim wooden studio wall, calm closing mood, no people, no lettering."
   },
   {
-    "name": "t55_a5_23_psychoanalysis",
+    "name": "t55_a5_33_closing_card_amber_eyes_dossier_shut",
     "act": 5,
-    "sentences": "5.08#2",
-    "desc": "Hồi 5 Tập 43 (psychoanalysis): Chiếc mặt nạ hoàn hảo của cái ác có thể đánh lừa được mắt nhìn nhất thời, nhưng lương tri ...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t55_a5_24_karl_berg",
-    "act": 5,
-    "sentences": "5.08#3",
-    "desc": "Hồi 5 Tập 43 (karl_berg): Xin hãy luôn trân trọng cuộc sống, lắng nghe trực giác của bản thân và giữ vững sự tỉnh th...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t55_a5_25_weimar_alleys",
-    "act": 5,
-    "sentences": "5.09#1",
-    "desc": "Hồi 5 Tập 43 (weimar_alleys): Cảm ơn quý vị khán giả đã luôn đồng hành cùng kênh trong từng tập hồ sơ chuyên sâu....",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#13",
+    "desc": "Đôi mắt hổ phách rực sáng trong bóng tối phía trên hồ sơ đã khép lại.",
+    "prompt": "Pair of glowing amber eyes in pitch darkness above a closed, completely blank and unmarked case folder resting on a dark surface, symbolic closing image, noir graphic novel, no lettering."
   }
 ]

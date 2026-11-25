@@ -1,0 +1,27 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 4/4 succeeded",
+ "total_requested": 4,
+ "total_success": 4,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "466719434723458",
+   "file_name": "tk06_clown_mirror_chiaroscuro.jpg"
+  },
+  {
+   "node_id": "466719072591963",
+   "file_name": "tk06_polish_parade_chicago_1978.jpg"
+  },
+  {
+   "node_id": "466719352623314",
+   "file_name": "tk06_secret_service_pin_handshake.jpg"
+  },
+  {
+   "node_id": "466719352623316",
+   "file_name": "tk06_clown_costume_closet.jpg"
+  }
+ ],
+ "failed_items": []
+}

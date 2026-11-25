@@ -1,840 +1,840 @@
 {
-  "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 06 (VI) — sinh tự động bởi .work/_build_tk_tap06.py.",
-  "_episode": "Tap06",
-  "_language": "VI",
-  "_title": "NỤ CƯỜI CHÚ HỀ & 29 BÍ MẬT DƯỚI SÀN NHÀ",
-  "_measured_rates": {
-    "C": 0.2363,
-    "D": 0.2647,
-    "H": 0.3012,
-    "N1": 0.2658,
-    "N2": 0.2964
+ "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 06 (VI) — sinh tự động bởi .work/_build_tk_tap06.py.",
+ "_episode": "Tap06",
+ "_language": "VI",
+ "_title": "NỤ CƯỜI CHÚ HỀ & 29 BÍ MẬT DƯỚI SÀN NHÀ",
+ "_measured_rates": {
+  "C": 0.2363,
+  "D": 0.2647,
+  "H": 0.3012,
+  "N1": 0.2658,
+  "N2": 0.2964
+ },
+ "_clips_summary": [
+  {
+   "clip": "TK1",
+   "title": "Nụ cười chú hề và chiếc mặt nạ công dân",
+   "signs": [
+    9,
+    1
+   ],
+   "lines_count": 8,
+   "est_duration_s": 76.8
   },
-  "_clips_summary": [
-    {
-      "clip": "TK1",
-      "title": "Nụ cười chú hề và chiếc mặt nạ công dân",
-      "signs": [
-        9,
-        1
-      ],
-      "lines_count": 8,
-      "est_duration_s": 76.8
-    },
-    {
-      "clip": "TK2",
-      "title": "Cái bẫy còng tay ảo thuật và chữ ký tâm lý",
-      "signs": [
-        7,
-        8
-      ],
-      "lines_count": 9,
-      "est_duration_s": 74.6
-    },
-    {
-      "clip": "TK3",
-      "title": "Trêu ngươi cảnh sát và sự tự đắc ái kỷ",
-      "signs": [
-        4,
-        8
-      ],
-      "lines_count": 9,
-      "est_duration_s": 72.5
-    },
-    {
-      "clip": "TK4",
-      "title": "Hai mươi sáu bí mật dưới nền nhà và cơ chế chia ngăn",
-      "signs": [
-        3,
-        2
-      ],
-      "lines_count": 9,
-      "est_duration_s": 72.1
-    },
-    {
-      "clip": "TK5",
-      "title": "Bốn bài học cảnh báo đỏ sinh tồn",
-      "signs": [
-        10
-      ],
-      "lines_count": 10,
-      "est_duration_s": 78.3
-    }
-  ],
-  "clips": {
-    "TK1": {
-      "title": "Nụ cười chú hề và chiếc mặt nạ công dân",
-      "theme": "Hiệu ứng Hào quang (Halo Effect) & Điểm mù xã hội trước kẻ săn mồi",
-      "signs": [
-        9,
-        1
-      ],
-      "total_est_duration_s": 76.8,
-      "bgm": "bgm_sub_drone.mp3",
-      "bgm_desc": "Hồi 1 — bed tập: bgm_sub_drone.mp3",
-      "sfx": [
-        "amb_suburban_evening.wav (nền)",
-        "fx_camera_flash.wav",
-        "fx_crowd_applause.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK1.01#1",
-          "text": "CHIẾC MẶT NẠ CÔNG DÂN GƯƠNG MẪU",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK1.01#3",
-          "text": "HUY HIỆU MẬT VỤ HOA KỲ CẤP",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK1.01#4",
-          "text": "CHÚ HỀ POGO TỪ THIỆN TẠI BỆNH VIỆN NHI",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK1.01#5",
-          "text": "ĐỊA VỊ XÃ HỘI DỆT NÊN MẶT NẠ SĂN MỒI",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK1.01#7",
-          "text": "CƠ CHẾ TỰ THÔI MIÊN NHẬN THỨC",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK1.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_clown_mirror_chiaroscuro",
-          "motion": "still",
-          "text": "Bắt tay Đệ nhất phu nhân, khoác áo chú hề và 29 bí mật rùng rợn dưới sàn nhà.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 6.83
-        },
-        {
-          "clip_line_id": "TK1.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_polish_parade_chicago_1978",
-          "motion": "pan",
-          "text": "Vào ngày 6 tháng 5 năm 1978, tại buổi lễ diễu hành mừng Ngày Hiến pháp Ba Lan ở thành phố Chicago, một người đàn ông trung niên bảnh bao tự tin bắt tay Đệ nhất phu nhân Hoa Kỳ Rosalynn Carter.",
-          "src_script": "1.02#1",
-          "est_duration_s": 15.06
-        },
-        {
-          "clip_line_id": "TK1.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_secret_service_pin_handshake",
-          "motion": "push",
-          "text": "Trên ve áo vest của người đàn ông ấy cài chiếc huy hiệu an ninh chữ S danh giá do chính Cơ quan Mật vụ Hoa Kỳ cấp phát sau quy trình thẩm tra lý lịch nghiêm ngặt.",
-          "src_script": "1.02#2",
-          "est_duration_s": 12.05
-        },
-        {
-          "clip_line_id": "TK1.01#4",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_clown_costume_closet",
-          "motion": "still",
-          "text": "Và đặc biệt hơn cả, ông ta là người đàn ông nhân từ thường xuyên khoác lên mình bộ trang phục rực rỡ mang tên Chú hề Pogo.",
-          "src_script": "1.02#6",
-          "est_duration_s": 9.03
-        },
-        {
-          "clip_line_id": "TK1.01#5",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "pull",
-          "text": "Chiếc mặt nạ của những kẻ săn mồi dạng này không được tạo dựng từ sự cô độc lẩn tránh, mà được dệt nên từ chính sự hào nhoáng của địa vị xã hội và hoạt động từ thiện.",
-          "src_script": "1.15#2",
-          "est_duration_s": 9.91
-        },
-        {
-          "clip_line_id": "TK1.01#6",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_clown_mirror_chiaroscuro",
-          "motion": "push",
-          "text": "Trong cơ chế tâm lý của Gacy, việc khoác lên mình bộ trang phục Chú hề Pogo hay bắt tay các chính khách quyền lực phục vụ hai mục đích sống còn.",
-          "src_script": "1.15#3",
-          "est_duration_s": 8.26
-        },
-        {
-          "clip_line_id": "TK1.01#7",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "still",
-          "text": "Thứ hai, nó hoạt động như một cơ chế tự thôi miên nhận thức, giúp hắn tự thuyết phục chính mình rằng bản thân là một công dân vĩ đại có đặc quyền đứng trên mọi quy chuẩn đạo đức và pháp luật.",
-          "src_script": "1.15#5",
-          "est_duration_s": 10.86
-        },
-        {
-          "clip_line_id": "TK1.01#8",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.82
-        }
-      ]
-    },
-    "TK2": {
-      "title": "Cái bẫy còng tay ảo thuật và chữ ký tâm lý",
-      "theme": "Thủ đoạn gây án MO vs. Dấu ấn Chữ ký tâm lý Signature",
-      "signs": [
-        7,
-        8
-      ],
-      "total_est_duration_s": 74.6,
-      "bgm": "bgm_jazz_noir.mp3",
-      "bgm_desc": "Hồi 2 — bed tập: bgm_jazz_noir.mp3",
-      "sfx": [
-        "amb_dark_drone.wav (nền)",
-        "fx_handcuff_click.wav",
-        "fx_door_creak.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK2.01#1",
-          "text": "CHIẾC BẪY CÒNG TAY ẢO THUẬT (THE HANDCUFF TRICK)",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK2.01#3",
-          "text": "THỦ ĐOẠN MO: LIÊN TỤC TIẾN HÓA VÀ HOÀN THIỆN",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK2.01#5",
-          "text": "MỒI NHỬ VIỆC LÀM & KHỐNG CHẾ BẤT LỰC",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK2.01#6",
-          "text": "CHỮ KÝ TÂM LÝ SIGNATURE KHÔNG BAO GIỜ THAY ĐỔI",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK2.01#8",
-          "text": "BIẾN SÀN NHÀ MÌNH THÀNH KHU LĂNG MỘ CHÔN XÁC",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK2.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "still",
-          "text": "Một chiếc còng tay và một trò ảo thuật. Cái bẫy chết người lấy đi 33 sinh mạng.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 6.52
-        },
-        {
-          "clip_line_id": "TK2.01#2",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "still",
-          "text": "Hồ sơ hiện trường cho phép chúng tôi bóc tách rạch ròi giữa “Thủ đoạn gây án” và “Chữ ký tâm lý” bất biến của John Wayne Gacy:",
-          "src_script": "2.09#1",
-          "est_duration_s": 8.01
-        },
-        {
-          "clip_line_id": "TK2.01#3",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_pharmacy_counters_renovation",
-          "motion": "pan",
-          "text": "Về thủ đoạn gây án MO: Hắn liên tục thay đổi và hoàn thiện kỹ thuật theo thời gian để dễ dàng kiểm soát con mồi và tẩu thoát.",
-          "src_script": "2.09#2",
-          "est_duration_s": 8.28
-        },
-        {
-          "clip_line_id": "TK2.01#4",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_pharmacy_counters_renovation",
-          "motion": "pull",
-          "text": "Hắn dụ dỗ các nạn nhân trẻ tuổi bằng lời hứa việc làm lương cao, mời họ uống rượu hoặc dùng cần sa để làm tê liệt phản kháng.",
-          "src_script": "2.09#3",
-          "est_duration_s": 8.28
-        },
-        {
-          "clip_line_id": "TK2.01#5",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "push",
-          "text": "Sau đó, hắn biểu diễn một mánh khóe gọi là “còng tay ảo thuật”, lừa nạn nhân tự đưa tay vào còng để xem hắn biểu diễn cách thoát ra, trước khi khóa chặt họ trong trạng thái bất lực hoàn toàn.",
-          "src_script": "2.09#4",
-          "est_duration_s": 11.72
-        },
-        {
-          "clip_line_id": "TK2.01#6",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "still",
-          "text": "Ngược lại, “Chữ ký tâm lý” Signature là thứ không bao giờ thay đổi:",
-          "src_script": "2.09#5",
-          "est_duration_s": 4.41
-        },
-        {
-          "clip_line_id": "TK2.01#7",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_highschool_ring_jas",
-          "motion": "pull",
-          "text": "Đó là việc lưu giữ các chiến lợi phẩm như chiếc nhẫn tốt nghiệp, ví tiền và bằng lái xe của các nạn nhân để thỏa mãn cơn đói ảo tưởng khi nhìn lại.",
-          "src_script": "2.09#7",
-          "est_duration_s": 9.7
-        },
-        {
-          "clip_line_id": "TK2.01#8",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_crawlspace_trapdoor_opened",
-          "motion": "push",
-          "text": "Và kỳ dị nhất, đó là việc hắn chọn chính khoảng đất trống dưới sàn nhà của mình làm nơi chôn giấu các thi thể, để hàng ngày có thể đi lại bên trên những con người mà hắn đã hoàn toàn đoạt quyền sinh sát.",
-          "src_script": "2.09#8",
-          "est_duration_s": 12.88
-        },
-        {
-          "clip_line_id": "TK2.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.82
-        }
-      ]
-    },
-    "TK3": {
-      "title": "Trêu ngươi cảnh sát và sự tự đắc ái kỷ",
-      "theme": "Sự tự đắc Ái kỷ độc hại & Cảm giác toàn năng trước cơ quan điều tra",
-      "signs": [
-        4,
-        8
-      ],
-      "total_est_duration_s": 72.5,
-      "bgm": "bgm_jazz_noir.mp3",
-      "bgm_desc": "Hồi 2 — bed tập: bgm_jazz_noir.mp3",
-      "sfx": [
-        "amb_bar.wav (nền)",
-        "fx_car_drive.wav",
-        "fx_glass_clink.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK3.01#1",
-          "text": "CUỘC THEO DÕI 24/7 CỦA ĐẶC NHIỆM DES PLAINES",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK3.01#3",
-          "text": "MỜI ĐIỀU TRA VIÊN UỐNG BIA VÀO ĐÊM ĐÔNG",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK3.01#4",
-          "text": "“CÁC ANH KHÔNG BAO GIỜ TÌM THẤY GÌ ĐÂU”",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK3.01#5",
-          "text": "SỰ QUÁ BÙ QUYỀN LỰC (POWER OVERCOMPENSATION)",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK3.01#8",
-          "text": "ẢO TƯỞNG TOÀN NĂNG THAO TÚNG PHÁP LUẬT",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK3.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "still",
-          "text": "Kẻ thủ ác gõ cửa kính xe cảnh sát, mời bia và tuyên bố: Các anh sẽ không tìm thấy gì đâu.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 7.13
-        },
-        {
-          "clip_line_id": "TK3.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_gas_station_neon_midnight",
-          "motion": "pan",
-          "text": "Hai chiếc xe cảnh sát dân sự liên tục theo sát chiếc xe Oldsmobile của Gacy từ sáng sớm tinh mơ cho đến nửa đêm buốt giá.",
-          "src_script": "2.10#4",
-          "est_duration_s": 8.73
-        },
-        {
-          "clip_line_id": "TK3.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "push",
-          "text": "Vào những đêm đông lạnh giá, hắn thản nhiên dừng xe, bước sang gõ cửa kính và mời các sĩ quan đang bám theo vào nhà hàng ăn tối cùng hắn.",
-          "src_script": "2.10#8",
-          "est_duration_s": 9.94
-        },
-        {
-          "clip_line_id": "TK3.01#4",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "still",
-          "text": "Hắn cười lớn, hào phóng mua bia chiêu đãi họ và tuyên bố: “Tôi biết các anh đang làm nhiệm vụ, nhưng các anh sẽ chẳng bao giờ tìm thấy bất cứ thứ gì đâu.”",
-          "src_script": "2.10#9",
-          "est_duration_s": 11.24
-        },
-        {
-          "clip_line_id": "TK3.01#5",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "pull",
-          "text": "Hành vi mời cơm và trêu ngươi các điều tra viên là biểu hiện cực đoan của cơ chế “Bù trừ quyền lực” ở những kẻ ái kỷ ác tính.",
-          "src_script": "2.11#1",
-          "est_duration_s": 7.79
-        },
-        {
-          "clip_line_id": "TK3.01#6",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_police_entry_summerdale",
-          "motion": "push",
-          "text": "Đối với Gacy, việc bị cả một đội cảnh sát bám đuôi không tạo ra cảm giác sợ hãi bị trừng phạt, mà kích hoạt một cơn hưng phấn adrenaline tột độ.",
-          "src_script": "2.11#2",
-          "est_duration_s": 8.26
-        },
-        {
-          "clip_line_id": "TK3.01#7",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "still",
-          "text": "Hắn xem các nhân viên thực thi pháp luật như những khán giả bất đắc dĩ đang chiêm ngưỡng sự vượt trội về trí tuệ của hắn.",
-          "src_script": "2.11#3",
-          "est_duration_s": 7.08
-        },
-        {
-          "clip_line_id": "TK3.01#8",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "pull",
-          "text": "Bằng cách kiểm soát cảm xúc của những người săn đuổi, kẻ thủ ác tự ru ngủ mình trong ảo tưởng rằng hắn là kẻ bất khả xâm phạm.",
-          "src_script": "2.11#4",
-          "est_duration_s": 7.55
-        },
-        {
-          "clip_line_id": "TK3.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.82
-        }
-      ]
-    },
-    "TK4": {
-      "title": "Hai mươi sáu bí mật dưới nền nhà và cơ chế chia ngăn",
-      "theme": "Cơ chế Chia ngăn tâm trí (Compartmentalization) & Đối xử với gia đình / Nạn nhân",
-      "signs": [
-        3,
-        2
-      ],
-      "total_est_duration_s": 72.1,
-      "bgm": "bgm_cellar_wind.mp3",
-      "bgm_desc": "Hồi 3 — bed tập: bgm_cellar_wind.mp3",
-      "sfx": [
-        "amb_cellar_drip.wav (nền)",
-        "fx_shovel_dig.wav",
-        "fx_bone_tap.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK4.01#1",
-          "text": "KHÁM XÉT SÀN NHÀ 8213 WEST SUMMERDALE",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK4.01#3",
-          "text": "PHÒNG KHÁCH ẤM CÚNG NGAY TRÊN HẦM MỘ",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK4.01#4",
-          "text": "TỔNG CỘNG 26 THI THỂ DƯỚI KHOẢNG ĐẤT ẨM",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK4.01#6",
-          "text": "CƠ CHẾ CHIA NGĂN NHẬN THỨC (COMPARTMENTALIZATION)",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK4.01#8",
-          "text": "TẮM RỬA, ĂN TỐI VÀ NGỦ NGON SAU TỘI ÁC",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK4.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_crawlspace_subterranean_tunnel",
-          "motion": "still",
-          "text": "Ăn tối, ngủ say ngay phía trên 26 thi thể. Sự chia ngăn rùng rợn của bộ não ác tính.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 7.13
-        },
-        {
-          "clip_line_id": "TK4.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_forensic_trowel_damp_soil",
-          "motion": "pan",
-          "text": "Chỉ sau vài nhát xẻng đầu tiên, bàn tay của một thám tử đã chạm phải những mảnh vải quần áo và xương cốt người vùi sâu trong lòng đất.",
-          "src_script": "3.08#1",
-          "est_duration_s": 9.64
-        },
-        {
-          "clip_line_id": "TK4.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_crawlspace_trapdoor_opened",
-          "motion": "push",
-          "text": "Ngay phía dưới phòng khách ấm cúng nơi Gacy từng tiếp đón bạn bè, ngay dưới phòng ngủ nơi hắn ngả lưng mỗi đêm, là một nghĩa trang ngầm tập thể của những sinh mạng trẻ vô tội.",
-          "src_script": "3.08#3",
-          "est_duration_s": 12.05
-        },
-        {
-          "clip_line_id": "TK4.01#4",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_flashlight_beam_lime_dust",
-          "motion": "still",
-          "text": "Tổng cộng hai mươi sáu thi thể nạn nhân được tìm thấy chôn giấu chen chúc dưới khoảng không gian bò của ngôi nhà.",
-          "src_script": "3.10#4",
-          "est_duration_s": 7.05
-        },
-        {
-          "clip_line_id": "TK4.01#5",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_gacy_house_daylight_winter",
-          "motion": "pull",
-          "text": "Làm thế nào một con người có thể chung sống thanh thản suốt nhiều năm ngay trên mồ chôn của gần ba mươi nạn nhân do chính tay mình sát hại?",
-          "src_script": "3.11#1",
-          "est_duration_s": 8.02
-        },
-        {
-          "clip_line_id": "TK4.01#6",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "push",
-          "text": "Câu trả lời nằm ở cơ chế “Chia ngăn nhận thức” bệnh lý ở mức độ cực đoan nhất của bộ não thái nhân cách.",
-          "src_script": "3.11#2",
-          "est_duration_s": 6.61
-        },
-        {
-          "clip_line_id": "TK4.01#7",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_two_faces_silhouette",
-          "motion": "still",
-          "text": "Gacy đã thiết lập trong tâm trí mình hai ngăn kéo hoàn toàn biệt lập và không bao giờ cho phép chúng giao thoa:",
-          "src_script": "3.11#3",
-          "est_duration_s": 6.37
-        },
-        {
-          "clip_line_id": "TK4.01#8",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_crawlspace_subterranean_tunnel",
-          "motion": "pull",
-          "text": "Sau khi kết liễu một nạn nhân dưới tầng hầm, hắn có thể tắm rửa sạch sẽ, bước lên phòng khách ăn tối cùng gia đình và ngủ một giấc ngủ say sưa như chưa từng có chuyện gì xảy ra.",
-          "src_script": "3.11#8",
-          "est_duration_s": 10.39
-        },
-        {
-          "clip_line_id": "TK4.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.82
-        }
-      ]
-    },
-    "TK5": {
-      "title": "Bốn bài học cảnh báo đỏ sinh tồn",
-      "theme": "Nạn nhân học & 4 Dấu hiệu cảnh báo đỏ sinh tồn (Red Flags)",
-      "signs": [
-        10
-      ],
-      "total_est_duration_s": 78.3,
-      "bgm": "bgm_cellar_wind.mp3",
-      "bgm_desc": "Hồi 5 — bed tập: bgm_cellar_wind.mp3",
-      "sfx": [
-        "amb_dark_drone.wav (nền)",
-        "fx_clock_ticking.wav",
-        "fx_warning_bell.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK5.01#1",
-          "text": "4 BÀI HỌC CẢNH BÁO ĐỎ SINH TỒN",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK5.01#3",
-          "text": "ĐỎ 1: CẢNH GIÁC MẶT NẠ THIỆN NGUYỆN HÀO NHOÁNG",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK5.01#5",
-          "text": "ĐỎ 2: BẪY CƠ HỘI VIỆC LÀM LƯƠNG CAO BẤT THƯỜNG",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK5.01#7",
-          "text": "ĐỎ 3: TUYỆT ĐỐI KHÔNG ĐỂ NGƯỜI LẠ KHỐNG CHẾ",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK5.01#9",
-          "text": "ĐỎ 4: LUÔN LẮNG NGHE TRỰC GIÁC BẤT AN ĐẦU TIÊN",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK5.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "Bốn dấu hiệu cảnh báo đỏ sinh tồn rút ra từ thảm kịch kinh hoàng mang tên John Wayne Gacy.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 6.52
-        },
-        {
-          "clip_line_id": "TK5.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_charity_facade",
-          "motion": "still",
-          "text": "Dấu hiệu thứ nhất: Cảnh giác trước sự hào nhoáng của các vỏ bọc từ thiện và địa vị xã hội.",
-          "src_script": "5.06#9",
-          "est_duration_s": 6.93
-        },
-        {
-          "clip_line_id": "TK5.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_clown_mirror_chiaroscuro",
-          "motion": "push",
-          "text": "Đôi khi, chính chiếc mặt nạ nhân ái lại là công cụ nguy hiểm nhất được kẻ xấu dựng lên để làm tê liệt trực giác cảnh giác của cộng đồng.",
-          "src_script": "5.06#11",
-          "est_duration_s": 9.94
-        },
-        {
-          "clip_line_id": "TK5.01#4",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_pharmacy_counters_renovation",
-          "motion": "pan",
-          "text": "Dấu hiệu thứ hai: Bẫy cơ hội việc làm thù lao cao bất thường nhắm vào người trẻ thiếu kinh nghiệm.",
-          "src_script": "5.06#12",
-          "est_duration_s": 6.93
-        },
-        {
-          "clip_line_id": "TK5.01#5",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_deserted_parking_lot_snow",
-          "motion": "pull",
-          "text": "Đó thường là mồi nhử nguy hiểm nhằm dụ dỗ nạn nhân bước vào những không gian cô lập và mất khả năng kiểm soát.",
-          "src_script": "5.06#14",
-          "est_duration_s": 8.13
-        },
-        {
-          "clip_line_id": "TK5.01#6",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "still",
-          "text": "Dấu hiệu thứ ba: Tuyệt đối không cho phép người lạ khóa tay hoặc vô hiệu hóa phản kháng tự vệ qua chiêu trò đùa cợt.",
-          "src_script": "5.06#15",
-          "est_duration_s": 8.43
-        },
-        {
-          "clip_line_id": "TK5.01#7",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "push",
-          "text": "Xin quý vị hãy luôn giữ khoảng cách an toàn và kiên quyết từ chối mọi yêu cầu ràng buộc thể xác từ những người chưa đủ tin cậy.",
-          "src_script": "5.06#17",
-          "est_duration_s": 9.34
-        },
-        {
-          "clip_line_id": "TK5.01#8",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_externalized_blame",
-          "motion": "still",
-          "text": "Dấu hiệu thứ tư: Luôn lắng nghe trực giác bất an và nhận diện các bước lấn ranh giới nhỏ từ sớm.",
-          "src_script": "5.06#18",
-          "est_duration_s": 7.23
-        },
-        {
-          "clip_line_id": "TK5.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_dossier_gacy_case_06",
-          "motion": "pull",
-          "text": "Khi một tình huống khiến bạn cảm thấy bất an mà không rõ lý do, hãy tin vào trực giác mách bảo và lập tức tìm cách rời khỏi hiện trường.",
-          "src_script": "5.06#20",
-          "est_duration_s": 10.04
-        },
-        {
-          "clip_line_id": "TK5.01#10",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.82
-        }
-      ]
-    }
+  {
+   "clip": "TK2",
+   "title": "Cái bẫy còng tay ảo thuật và chữ ký tâm lý",
+   "signs": [
+    7,
+    8
+   ],
+   "lines_count": 9,
+   "est_duration_s": 74.6
+  },
+  {
+   "clip": "TK3",
+   "title": "Trêu ngươi cảnh sát và sự tự đắc ái kỷ",
+   "signs": [
+    4,
+    8
+   ],
+   "lines_count": 9,
+   "est_duration_s": 72.5
+  },
+  {
+   "clip": "TK4",
+   "title": "Hai mươi sáu bí mật dưới nền nhà và cơ chế chia ngăn",
+   "signs": [
+    3,
+    2
+   ],
+   "lines_count": 9,
+   "est_duration_s": 72.1
+  },
+  {
+   "clip": "TK5",
+   "title": "Bốn bài học cảnh báo đỏ sinh tồn",
+   "signs": [
+    10
+   ],
+   "lines_count": 10,
+   "est_duration_s": 78.3
   }
+ ],
+ "clips": {
+  "TK1": {
+   "title": "Nụ cười chú hề và chiếc mặt nạ công dân",
+   "theme": "Hiệu ứng Hào quang (Halo Effect) & Điểm mù xã hội trước kẻ săn mồi",
+   "signs": [
+    9,
+    1
+   ],
+   "total_est_duration_s": 76.8,
+   "bgm": "bgm_sub_drone.mp3",
+   "bgm_desc": "Hồi 1 — bed tập: bgm_sub_drone.mp3",
+   "sfx": [
+    "amb_suburban_evening.wav (nền)",
+    "fx_camera_flash.wav",
+    "fx_crowd_applause.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK1.01#1",
+     "text": "CHIẾC MẶT NẠ CÔNG DÂN GƯƠNG MẪU",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK1.01#3",
+     "text": "HUY HIỆU MẬT VỤ HOA KỲ CẤP",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#4",
+     "text": "CHÚ HỀ POGO TỪ THIỆN TẠI BỆNH VIỆN NHI",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#5",
+     "text": "ĐỊA VỊ XÃ HỘI DỆT NÊN MẶT NẠ SĂN MỒI",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#7",
+     "text": "CƠ CHẾ TỰ THÔI MIÊN NHẬN THỨC",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK1.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_clown_mirror_chiaroscuro",
+     "motion": "still",
+     "text": "Bắt tay Đệ nhất phu nhân, khoác áo chú hề và 29 bí mật rùng rợn dưới sàn nhà.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 6.83
+    },
+    {
+     "clip_line_id": "TK1.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_polish_parade_chicago_1978",
+     "motion": "pan",
+     "text": "Vào ngày 6 tháng 5 năm 1978, tại buổi lễ diễu hành mừng Ngày Hiến pháp Ba Lan ở thành phố Chicago, một người đàn ông trung niên bảnh bao tự tin bắt tay Đệ nhất phu nhân Hoa Kỳ Rosalynn Carter.",
+     "src_script": "1.02#1",
+     "est_duration_s": 15.06
+    },
+    {
+     "clip_line_id": "TK1.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_secret_service_pin_handshake",
+     "motion": "push",
+     "text": "Trên ve áo vest của người đàn ông ấy cài chiếc huy hiệu an ninh chữ S danh giá do chính Cơ quan Mật vụ Hoa Kỳ cấp phát sau quy trình thẩm tra lý lịch nghiêm ngặt.",
+     "src_script": "1.02#2",
+     "est_duration_s": 12.05
+    },
+    {
+     "clip_line_id": "TK1.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_clown_costume_closet",
+     "motion": "still",
+     "text": "Và đặc biệt hơn cả, ông ta là người đàn ông nhân từ thường xuyên khoác lên mình bộ trang phục rực rỡ mang tên Chú hề Pogo.",
+     "src_script": "1.02#6",
+     "est_duration_s": 9.03
+    },
+    {
+     "clip_line_id": "TK1.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_metaphor",
+     "motion": "pull",
+     "text": "Chiếc mặt nạ của những kẻ săn mồi dạng này không được tạo dựng từ sự cô độc lẩn tránh, mà được dệt nên từ chính sự hào nhoáng của địa vị xã hội và hoạt động từ thiện.",
+     "src_script": "1.15#2",
+     "est_duration_s": 9.91
+    },
+    {
+     "clip_line_id": "TK1.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_clown_mirror_chiaroscuro",
+     "motion": "push",
+     "text": "Trong cơ chế tâm lý của Gacy, việc khoác lên mình bộ trang phục Chú hề Pogo hay bắt tay các chính khách quyền lực phục vụ hai mục đích sống còn.",
+     "src_script": "1.15#3",
+     "est_duration_s": 8.26
+    },
+    {
+     "clip_line_id": "TK1.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_twin_silhouette",
+     "motion": "still",
+     "text": "Thứ hai, nó hoạt động như một cơ chế tự thôi miên nhận thức, giúp hắn tự thuyết phục chính mình rằng bản thân là một công dân vĩ đại có đặc quyền đứng trên mọi quy chuẩn đạo đức và pháp luật.",
+     "src_script": "1.15#5",
+     "est_duration_s": 10.86
+    },
+    {
+     "clip_line_id": "TK1.01#8",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.82
+    }
+   ]
+  },
+  "TK2": {
+   "title": "Cái bẫy còng tay ảo thuật và chữ ký tâm lý",
+   "theme": "Thủ đoạn gây án MO vs. Dấu ấn Chữ ký tâm lý Signature",
+   "signs": [
+    7,
+    8
+   ],
+   "total_est_duration_s": 74.6,
+   "bgm": "bgm_jazz_noir.mp3",
+   "bgm_desc": "Hồi 2 — bed tập: bgm_jazz_noir.mp3",
+   "sfx": [
+    "amb_dark_drone.wav (nền)",
+    "fx_handcuff_click.wav",
+    "fx_door_creak.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK2.01#1",
+     "text": "CHIẾC BẪY CÒNG TAY ẢO THUẬT (THE HANDCUFF TRICK)",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK2.01#3",
+     "text": "THỦ ĐOẠN MO: LIÊN TỤC TIẾN HÓA VÀ HOÀN THIỆN",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#5",
+     "text": "MỒI NHỬ VIỆC LÀM & KHỐNG CHẾ BẤT LỰC",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#6",
+     "text": "CHỮ KÝ TÂM LÝ SIGNATURE KHÔNG BAO GIỜ THAY ĐỔI",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#8",
+     "text": "BIẾN SÀN NHÀ MÌNH THÀNH KHU LĂNG MỘ CHÔN XÁC",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK2.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_redflag_trick_handcuffs",
+     "motion": "still",
+     "text": "Một chiếc còng tay và một trò ảo thuật. Cái bẫy chết người lấy đi 33 sinh mạng.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 6.52
+    },
+    {
+     "clip_line_id": "TK2.01#2",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_psychological_mask_metaphor",
+     "motion": "still",
+     "text": "Hồ sơ hiện trường cho phép chúng tôi bóc tách rạch ròi giữa “Thủ đoạn gây án” và “Chữ ký tâm lý” bất biến của John Wayne Gacy:",
+     "src_script": "2.09#1",
+     "est_duration_s": 8.01
+    },
+    {
+     "clip_line_id": "TK2.01#3",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_pharmacy_counters_renovation",
+     "motion": "pan",
+     "text": "Về thủ đoạn gây án MO: Hắn liên tục thay đổi và hoàn thiện kỹ thuật theo thời gian để dễ dàng kiểm soát con mồi và tẩu thoát.",
+     "src_script": "2.09#2",
+     "est_duration_s": 8.28
+    },
+    {
+     "clip_line_id": "TK2.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_pharmacy_counters_renovation",
+     "motion": "pull",
+     "text": "Hắn dụ dỗ các nạn nhân trẻ tuổi bằng lời hứa việc làm lương cao, mời họ uống rượu hoặc dùng cần sa để làm tê liệt phản kháng.",
+     "src_script": "2.09#3",
+     "est_duration_s": 8.28
+    },
+    {
+     "clip_line_id": "TK2.01#5",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_redflag_trick_handcuffs",
+     "motion": "push",
+     "text": "Sau đó, hắn biểu diễn một mánh khóe gọi là “còng tay ảo thuật”, lừa nạn nhân tự đưa tay vào còng để xem hắn biểu diễn cách thoát ra, trước khi khóa chặt họ trong trạng thái bất lực hoàn toàn.",
+     "src_script": "2.09#4",
+     "est_duration_s": 11.72
+    },
+    {
+     "clip_line_id": "TK2.01#6",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_twin_silhouette",
+     "motion": "still",
+     "text": "Ngược lại, “Chữ ký tâm lý” Signature là thứ không bao giờ thay đổi:",
+     "src_script": "2.09#5",
+     "est_duration_s": 4.41
+    },
+    {
+     "clip_line_id": "TK2.01#7",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_highschool_ring_jas",
+     "motion": "pull",
+     "text": "Đó là việc lưu giữ các chiến lợi phẩm như chiếc nhẫn tốt nghiệp, ví tiền và bằng lái xe của các nạn nhân để thỏa mãn cơn đói ảo tưởng khi nhìn lại.",
+     "src_script": "2.09#7",
+     "est_duration_s": 9.7
+    },
+    {
+     "clip_line_id": "TK2.01#8",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_crawlspace_trapdoor_opened",
+     "motion": "push",
+     "text": "Và kỳ dị nhất, đó là việc hắn chọn chính khoảng đất trống dưới sàn nhà của mình làm nơi chôn giấu các thi thể, để hàng ngày có thể đi lại bên trên những con người mà hắn đã hoàn toàn đoạt quyền sinh sát.",
+     "src_script": "2.09#8",
+     "est_duration_s": 12.88
+    },
+    {
+     "clip_line_id": "TK2.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.82
+    }
+   ]
+  },
+  "TK3": {
+   "title": "Trêu ngươi cảnh sát và sự tự đắc ái kỷ",
+   "theme": "Sự tự đắc Ái kỷ độc hại & Cảm giác toàn năng trước cơ quan điều tra",
+   "signs": [
+    4,
+    8
+   ],
+   "total_est_duration_s": 72.5,
+   "bgm": "bgm_jazz_noir.mp3",
+   "bgm_desc": "Hồi 2 — bed tập: bgm_jazz_noir.mp3",
+   "sfx": [
+    "amb_bar.wav (nền)",
+    "fx_car_drive.wav",
+    "fx_glass_clink.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK3.01#1",
+     "text": "CUỘC THEO DÕI 24/7 CỦA ĐẶC NHIỆM DES PLAINES",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK3.01#3",
+     "text": "MỜI ĐIỀU TRA VIÊN UỐNG BIA VÀO ĐÊM ĐÔNG",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#4",
+     "text": "“CÁC ANH KHÔNG BAO GIỜ TÌM THẤY GÌ ĐÂU”",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#5",
+     "text": "SỰ QUÁ BÙ QUYỀN LỰC (POWER OVERCOMPENSATION)",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#8",
+     "text": "ẢO TƯỞNG TOÀN NĂNG THAO TÚNG PHÁP LUẬT",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK3.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_diner_booth_confrontation",
+     "motion": "still",
+     "text": "Kẻ thủ ác gõ cửa kính xe cảnh sát, mời bia và tuyên bố: Các anh sẽ không tìm thấy gì đâu.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 7.13
+    },
+    {
+     "clip_line_id": "TK3.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_gas_station_neon_midnight",
+     "motion": "pan",
+     "text": "Hai chiếc xe cảnh sát dân sự liên tục theo sát chiếc xe Oldsmobile của Gacy từ sáng sớm tinh mơ cho đến nửa đêm buốt giá.",
+     "src_script": "2.10#4",
+     "est_duration_s": 8.73
+    },
+    {
+     "clip_line_id": "TK3.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_diner_booth_confrontation",
+     "motion": "push",
+     "text": "Vào những đêm đông lạnh giá, hắn thản nhiên dừng xe, bước sang gõ cửa kính và mời các sĩ quan đang bám theo vào nhà hàng ăn tối cùng hắn.",
+     "src_script": "2.10#8",
+     "est_duration_s": 9.94
+    },
+    {
+     "clip_line_id": "TK3.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_diner_booth_confrontation",
+     "motion": "still",
+     "text": "Hắn cười lớn, hào phóng mua bia chiêu đãi họ và tuyên bố: “Tôi biết các anh đang làm nhiệm vụ, nhưng các anh sẽ chẳng bao giờ tìm thấy bất cứ thứ gì đâu.”",
+     "src_script": "2.10#9",
+     "est_duration_s": 11.24
+    },
+    {
+     "clip_line_id": "TK3.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_metaphor",
+     "motion": "pull",
+     "text": "Hành vi mời cơm và trêu ngươi các điều tra viên là biểu hiện cực đoan của cơ chế “Bù trừ quyền lực” ở những kẻ ái kỷ ác tính.",
+     "src_script": "2.11#1",
+     "est_duration_s": 7.79
+    },
+    {
+     "clip_line_id": "TK3.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_police_entry_summerdale",
+     "motion": "push",
+     "text": "Đối với Gacy, việc bị cả một đội cảnh sát bám đuôi không tạo ra cảm giác sợ hãi bị trừng phạt, mà kích hoạt một cơn hưng phấn adrenaline tột độ.",
+     "src_script": "2.11#2",
+     "est_duration_s": 8.26
+    },
+    {
+     "clip_line_id": "TK3.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_diner_counter_officers",
+     "motion": "still",
+     "text": "Hắn xem các nhân viên thực thi pháp luật như những khán giả bất đắc dĩ đang chiêm ngưỡng sự vượt trội về trí tuệ của hắn.",
+     "src_script": "2.11#3",
+     "est_duration_s": 7.08
+    },
+    {
+     "clip_line_id": "TK3.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_twin_silhouette",
+     "motion": "pull",
+     "text": "Bằng cách kiểm soát cảm xúc của những người săn đuổi, kẻ thủ ác tự ru ngủ mình trong ảo tưởng rằng hắn là kẻ bất khả xâm phạm.",
+     "src_script": "2.11#4",
+     "est_duration_s": 7.55
+    },
+    {
+     "clip_line_id": "TK3.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.82
+    }
+   ]
+  },
+  "TK4": {
+   "title": "Hai mươi sáu bí mật dưới nền nhà và cơ chế chia ngăn",
+   "theme": "Cơ chế Chia ngăn tâm trí (Compartmentalization) & Đối xử với gia đình / Nạn nhân",
+   "signs": [
+    3,
+    2
+   ],
+   "total_est_duration_s": 72.1,
+   "bgm": "bgm_cellar_wind.mp3",
+   "bgm_desc": "Hồi 3 — bed tập: bgm_cellar_wind.mp3",
+   "sfx": [
+    "amb_cellar_drip.wav (nền)",
+    "fx_shovel_dig.wav",
+    "fx_bone_tap.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK4.01#1",
+     "text": "KHÁM XÉT SÀN NHÀ 8213 WEST SUMMERDALE",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK4.01#3",
+     "text": "PHÒNG KHÁCH ẤM CÚNG NGAY TRÊN HẦM MỘ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#4",
+     "text": "TỔNG CỘNG 26 THI THỂ DƯỚI KHOẢNG ĐẤT ẨM",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#6",
+     "text": "CƠ CHẾ CHIA NGĂN NHẬN THỨC (COMPARTMENTALIZATION)",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#8",
+     "text": "TẮM RỬA, ĂN TỐI VÀ NGỦ NGON SAU TỘI ÁC",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK4.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_crawlspace_subterranean_tunnel",
+     "motion": "still",
+     "text": "Ăn tối, ngủ say ngay phía trên 26 thi thể. Sự chia ngăn rùng rợn của bộ não ác tính.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 7.13
+    },
+    {
+     "clip_line_id": "TK4.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_forensic_trowel_damp_soil",
+     "motion": "pan",
+     "text": "Chỉ sau vài nhát xẻng đầu tiên, bàn tay của một thám tử đã chạm phải những mảnh vải quần áo và xương cốt người vùi sâu trong lòng đất.",
+     "src_script": "3.08#1",
+     "est_duration_s": 9.64
+    },
+    {
+     "clip_line_id": "TK4.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_crawlspace_trapdoor_opened",
+     "motion": "push",
+     "text": "Ngay phía dưới phòng khách ấm cúng nơi Gacy từng tiếp đón bạn bè, ngay dưới phòng ngủ nơi hắn ngả lưng mỗi đêm, là một nghĩa trang ngầm tập thể của những sinh mạng trẻ vô tội.",
+     "src_script": "3.08#3",
+     "est_duration_s": 12.05
+    },
+    {
+     "clip_line_id": "TK4.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_flashlight_beam_lime_dust",
+     "motion": "still",
+     "text": "Tổng cộng hai mươi sáu thi thể nạn nhân được tìm thấy chôn giấu chen chúc dưới khoảng không gian bò của ngôi nhà.",
+     "src_script": "3.10#4",
+     "est_duration_s": 7.05
+    },
+    {
+     "clip_line_id": "TK4.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_gacy_house_daylight_winter",
+     "motion": "pull",
+     "text": "Làm thế nào một con người có thể chung sống thanh thản suốt nhiều năm ngay trên mồ chôn của gần ba mươi nạn nhân do chính tay mình sát hại?",
+     "src_script": "3.11#1",
+     "est_duration_s": 8.02
+    },
+    {
+     "clip_line_id": "TK4.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_compartmentalization_floor_section",
+     "motion": "push",
+     "text": "Câu trả lời nằm ở cơ chế “Chia ngăn nhận thức” bệnh lý ở mức độ cực đoan nhất của bộ não thái nhân cách.",
+     "src_script": "3.11#2",
+     "est_duration_s": 6.61
+    },
+    {
+     "clip_line_id": "TK4.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_two_faces_silhouette",
+     "motion": "still",
+     "text": "Gacy đã thiết lập trong tâm trí mình hai ngăn kéo hoàn toàn biệt lập và không bao giờ cho phép chúng giao thoa:",
+     "src_script": "3.11#3",
+     "est_duration_s": 6.37
+    },
+    {
+     "clip_line_id": "TK4.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_crawlspace_subterranean_tunnel",
+     "motion": "pull",
+     "text": "Sau khi kết liễu một nạn nhân dưới tầng hầm, hắn có thể tắm rửa sạch sẽ, bước lên phòng khách ăn tối cùng gia đình và ngủ một giấc ngủ say sưa như chưa từng có chuyện gì xảy ra.",
+     "src_script": "3.11#8",
+     "est_duration_s": 10.39
+    },
+    {
+     "clip_line_id": "TK4.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.82
+    }
+   ]
+  },
+  "TK5": {
+   "title": "Bốn bài học cảnh báo đỏ sinh tồn",
+   "theme": "Nạn nhân học & 4 Dấu hiệu cảnh báo đỏ sinh tồn (Red Flags)",
+   "signs": [
+    10
+   ],
+   "total_est_duration_s": 78.3,
+   "bgm": "bgm_cellar_wind.mp3",
+   "bgm_desc": "Hồi 5 — bed tập: bgm_cellar_wind.mp3",
+   "sfx": [
+    "amb_dark_drone.wav (nền)",
+    "fx_clock_ticking.wav",
+    "fx_warning_bell.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK5.01#1",
+     "text": "4 BÀI HỌC CẢNH BÁO ĐỎ SINH TỒN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK5.01#3",
+     "text": "ĐỎ 1: CẢNH GIÁC MẶT NẠ THIỆN NGUYỆN HÀO NHOÁNG",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#5",
+     "text": "ĐỎ 2: BẪY CƠ HỘI VIỆC LÀM LƯƠNG CAO BẤT THƯỜNG",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#7",
+     "text": "ĐỎ 3: TUYỆT ĐỐI KHÔNG ĐỂ NGƯỜI LẠ KHỐNG CHẾ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#9",
+     "text": "ĐỎ 4: LUÔN LẮNG NGHE TRỰC GIÁC BẤT AN ĐẦU TIÊN",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK5.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "Bốn dấu hiệu cảnh báo đỏ sinh tồn rút ra từ thảm kịch kinh hoàng mang tên John Wayne Gacy.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 6.52
+    },
+    {
+     "clip_line_id": "TK5.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_redflag_charity_facade",
+     "motion": "still",
+     "text": "Dấu hiệu thứ nhất: Cảnh giác trước sự hào nhoáng của các vỏ bọc từ thiện và địa vị xã hội.",
+     "src_script": "5.06#9",
+     "est_duration_s": 6.93
+    },
+    {
+     "clip_line_id": "TK5.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_clown_mirror_chiaroscuro",
+     "motion": "push",
+     "text": "Đôi khi, chính chiếc mặt nạ nhân ái lại là công cụ nguy hiểm nhất được kẻ xấu dựng lên để làm tê liệt trực giác cảnh giác của cộng đồng.",
+     "src_script": "5.06#11",
+     "est_duration_s": 9.94
+    },
+    {
+     "clip_line_id": "TK5.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_pharmacy_counters_renovation",
+     "motion": "pan",
+     "text": "Dấu hiệu thứ hai: Bẫy cơ hội việc làm thù lao cao bất thường nhắm vào người trẻ thiếu kinh nghiệm.",
+     "src_script": "5.06#12",
+     "est_duration_s": 6.93
+    },
+    {
+     "clip_line_id": "TK5.01#5",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_deserted_parking_lot_snow",
+     "motion": "pull",
+     "text": "Đó thường là mồi nhử nguy hiểm nhằm dụ dỗ nạn nhân bước vào những không gian cô lập và mất khả năng kiểm soát.",
+     "src_script": "5.06#14",
+     "est_duration_s": 8.13
+    },
+    {
+     "clip_line_id": "TK5.01#6",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_handcuff_trick_demonstration",
+     "motion": "still",
+     "text": "Dấu hiệu thứ ba: Tuyệt đối không cho phép người lạ khóa tay hoặc vô hiệu hóa phản kháng tự vệ qua chiêu trò đùa cợt.",
+     "src_script": "5.06#15",
+     "est_duration_s": 8.43
+    },
+    {
+     "clip_line_id": "TK5.01#7",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_handcuff_trick_demonstration",
+     "motion": "push",
+     "text": "Xin quý vị hãy luôn giữ khoảng cách an toàn và kiên quyết từ chối mọi yêu cầu ràng buộc thể xác từ những người chưa đủ tin cậy.",
+     "src_script": "5.06#17",
+     "est_duration_s": 9.34
+    },
+    {
+     "clip_line_id": "TK5.01#8",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_redflag_externalized_blame",
+     "motion": "still",
+     "text": "Dấu hiệu thứ tư: Luôn lắng nghe trực giác bất an và nhận diện các bước lấn ranh giới nhỏ từ sớm.",
+     "src_script": "5.06#18",
+     "est_duration_s": 7.23
+    },
+    {
+     "clip_line_id": "TK5.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_dossier_gacy_case_06",
+     "motion": "pull",
+     "text": "Khi một tình huống khiến bạn cảm thấy bất an mà không rõ lý do, hãy tin vào trực giác mách bảo và lập tức tìm cách rời khỏi hiện trường.",
+     "src_script": "5.06#20",
+     "est_duration_s": 10.04
+    },
+    {
+     "clip_line_id": "TK5.01#10",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "Tập sáu của Amber Eyes. Xem trọn vẹn tập phim tài liệu tại link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.82
+    }
+   ]
+  }
+ }
 }

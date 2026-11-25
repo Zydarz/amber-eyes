@@ -1,0 +1,419 @@
+# -*- coding: utf-8 -*-
+"""
+Tập 54: KỲ ÁN ĐIÊU ÁI THANH — BÍ ẨN ĐẠI HỌC NAM KINH & TÂM LÝ HỦY HOẠI CHỨNG CỨ CỰC ĐOAN
+Sinh kịch bản hoàn chỉnh ĐÚNG 240 câu thoại chuẩn A2/A2c, V9 Safe, K1-K10, G1-G13.
+Phân bố đúng chuẩn:
+Hồi 1: 59 câu (1.02 H:11, 1.04 H:9, 1.05 D:8, 1.07 H:12, 1.08 N:9, 1.09 C:7, 1.10 H:3)
+Hồi 2: 50 câu (2.02 H:9, 2.03 C:6, 2.05 H:11, 2.06 D:11, 2.07 C:10, 2.08 H:3)
+Hồi 3: 50 câu (3.02 H:11, 3.03 D:7, 3.04 C:8, 3.06 H:7, 3.07 N:6, 3.08 D:8, 3.09 H:3)
+Hồi 4: 42 câu (4.02 H:8, 4.03 D:11, 4.05 N:6, 4.06 C:8, 4.07 H:9)
+Hồi 5: 39 câu (5.02 H:9, 5.03 D:8, 5.04 C:9, 5.05 N:5, 5.06 H:8)
+Tổng cộng: 59 + 50 + 50 + 42 + 39 = 240 câu.
+"""
+
+SCRIPT_STRUCTURE = [
+    # HỒI 1: 59 CÂU
+    {
+        'act': 1,
+        'title': "BUỔI TỐI MÙA ĐÔNG NĂM 1996 & BƯỚC CHÂN KHÔNG TRỞ LẠI",
+        'bgm': "Tiếng gió mùa đông buốt giá rít qua những hàng cây ngô đồng trơ trụi tại Nam Kinh, tiếng chuông đồng hồ ngân vang trầm buồn.",
+        'elements': [
+            ('H', 'giọng trầm ấm, gợi mở không khí mùa đông buốt giá miền đông Trung Quốc', [
+                "Tháng một năm 1996, thành phố Nam Kinh chìm sâu trong những đợt gió bấc buốt giá đặc trưng của mùa đông miền đông Trung Quốc.",
+                "Khuôn viên cổ kính của Đại học Nam Kinh trên đường Hán Khẩu những ngày giáp Tết bận rộn với các kỳ thi học kỳ căng thẳng.",
+                "Giữa hàng nghìn sinh viên ưu tú, Điêu Ái Thanh là một gương mặt mộc mạc vừa bước chân vào giảng đường chưa đầy ba tháng.",
+                "Cô sinh ra trong một gia đình thuần nông tại huyện Khương Yển thuộc thành phố Thái Châu, tỉnh Giang Tô.",
+                "Là con gái út trong nhà, Ái Thanh luôn được cha mẹ và chị gái yêu thương bởi tính cách hiền lành, nhu mì và hết mực chăm chỉ.",
+                "Để cô có thể theo học hệ giáo dục người lớn chuyên ngành quản lý thông tin và ứng dụng máy tính, gia đình đã dành dụm từng đồng chi phí sinh hoạt.",
+                "Người cha già quanh năm lam lũ chỉ mong con gái có được một tương lai tươi sáng và tri thức vững vàng nơi thành phố lớn.",
+                "Bản tính vốn trầm lặng và ít nói, Ái Thanh thường dành phần lớn thời gian rảnh rỗi trong thư viện để đọc các tác phẩm văn học cổ điển.",
+                "Chữ viết tay của cô nắn nót, cẩn thận và thói quen sinh hoạt vô cùng ngăn nắp, hầu như không bao giờ có bất kỳ mâu thuẫn cá nhân nào.",
+                "Cô hầu như không tham gia các tụ điểm giải trí ồn ào và luôn trở về phòng trước giờ đóng cửa ký túc xá mỗi tối.",
+                "Thế nhưng, nhịp sống bình yên của cô nữ sinh năm nhất đã bất ngờ rẽ sang một hướng hoàn toàn tăm tối vào tối ngày mười tháng một năm 1996."
+            ]),
+            ('SFX', "Tiếng gió rít qua ô cửa kính ký túc xá, tiếng bước chân vội vã trên hành lang vắng lặng.", None),
+            ('H', 'chuyển giọng sâu lắng, kể về biến cố nhỏ nhặt trước giờ biến mất', [
+                "Chiều ngày hôm đó, ban quản lý ký túc xá bất ngờ kiểm tra phòng ở vì phát hiện có sinh viên vi phạm quy định sử dụng thiết bị điện.",
+                "Thời điểm ấy, việc sử dụng nồi điện nấu ăn trong phòng bị cấm rất nghiêm ngặt để phòng chống nguy cơ hỏa hoạn trong mùa đông.",
+                "Dù Ái Thanh không trực tiếp tham gia cắm nồi điện, nhưng với tư cách là thành viên trong phòng, cô vẫn phải chịu nhắc nhở liên đới.",
+                "Là một cô gái nông thôn giàu lòng tự trọng và sống khép kín, Ái Thanh cảm thấy rất ấm ức và tủi thân sau buổi làm việc với quản lý.",
+                "Sau bữa cơm tối, cô mặc chiếc áo khoác dạ màu xanh đen viền đỏ ấm áp và lặng lẽ bước ra khỏi khuôn viên trường để đi dạo giải tỏa tâm trạng.",
+                "Thời tiết ngoài trời khi ấy lạnh cắt da cắt thịt, sương mù dày đặc buông xuống các ngả đường xung quanh khu ký túc xá.",
+                "Một số người nhìn thấy bóng dáng Ái Thanh lần cuối tại khu vực đường Thanh Đảo gần cổng trường vào khoảng chập tối.",
+                "Chiếc áo khoác dạ màu sẫm và bóng dáng trầm lặng của cô dần hòa vào dòng người hối hả trên đường phố Nam Kinh.",
+                "Không một ai có thể ngờ rằng, đó lại là lần cuối cùng có người nhìn thấy cô gái hiền lành ấy còn khỏe mạnh trên cõi đời này."
+            ]),
+            ('D', 'giọng đanh thép, phong thái nghiệp vụ điều tra Nam Kinh', [
+                "Chín ngày sau thời điểm Điêu Ái Thanh rời khỏi ký túc xá, một biến cố kinh hoàng đã làm rung chuyển toàn bộ thành phố.",
+                "Sáng ngày mười chín tháng một năm 1996, thành phố Nam Kinh đón một đợt tuyết rơi dày đặc làm trắng xóa các mái nhà cổ kính.",
+                "Một nữ công nhân vệ sinh môi trường làm việc trên đường Hoa Kiều thuộc quận Cổ Lâu đã phát hiện một chiếc túi nhựa màu đen bị vứt bỏ bên lề đường.",
+                "Bên trong chiếc túi thất lạc là những gói đồ được bọc cẩn thận và chế biến sạch sẽ, thoạt nhìn rất giống thực phẩm bỏ quên.",
+                "Thế nhưng khi người này mang về nơi làm việc để kiểm tra kỹ hơn, những dấu hiệu bất thường về mặt sinh học đã lập tức phát lộ.",
+                "Sự xuất hiện của các phần mô người đã khiến người lao công bàng hoàng và lập tức cấp báo cho cơ quan công an gần nhất.",
+                "Nhận được tin báo khẩn, Công an thành phố Nam Kinh đã ngay lập tức phong tỏa hiện trường và cử các giám định viên pháp y dày dạn kinh nghiệm tiếp cận.",
+                "Một chuyên án hình sự đặc biệt với bí số một một chín đã được thành lập khẩn cấp ngay trong ngày để mở cuộc tổng điều tra."
+            ]),
+            ('SFX', "Tiếng còi xe tuần tra dồn dập, tiếng lật giở tài liệu nghiệp vụ khẩn cấp tại trụ sở ban chuyên án.", None),
+            ('H', 'giọng trầm mặc, nêu bật quy mô rúng động và sự phân tán vật chứng', [
+                "Chỉ trong vài giờ đồng hồ tiếp theo, các trinh sát liên tiếp phát hiện thêm nhiều túi đồ tương tự tại nhiều địa điểm công cộng khác nhau.",
+                "Từ khu vực cầu Tân Kiệt Khẩu sầm uất, đường Thủy Tả Cương vắng vẻ cho đến khu vực quanh chân núi Long Vương ngoại thành.",
+                "Mỗi địa điểm phát hiện đều nằm cách nhau vài cây số, tạo nên một mạng lưới phân tán rộng khắp các quận nội thành Nam Kinh.",
+                "Tất cả các gói đồ đều được bọc lót nhiều lớp bằng túi du lịch, ba lô học sinh và cả những mảnh chăn ga trải giường in hoa sặc sỡ.",
+                "Trước tính chất đặc biệt nghiêm trọng của vụ việc, danh tính nạn nhân trở thành câu hỏi cấp bách hàng đầu của ban chuyên án.",
+                "Lực lượng cảnh sát lập tức rà soát toàn bộ danh sách những người mất tích trong vòng hai tuần trở lại đây trên toàn địa bàn tỉnh Giang Tô.",
+                "Khi đối chiếu hồ sơ tại Đại học Nam Kinh, thông tin về một nữ sinh năm nhất vắng mặt suốt chín ngày lập tức làm dấy lên sự nghi vấn tột độ.",
+                "Người cha già Điêu Nhật Xương nhận được cuộc gọi khẩn cấp từ nhà trường và tức tốc bắt chuyến xe sớm nhất từ Thái Châu lên Nam Kinh.",
+                "Đứng trước những vật dụng cá nhân còn sót lại của con gái, người cha đã ngã quỵ trong sự đau đớn đến tột cùng.",
+                "Chiếc áo khoác dạ quen thuộc và những cuốn sổ tay nắn nót đã xác nhận danh tính đau lòng của người con gái út mộc mạc.",
+                "Một nữ sinh viên mười chín tuổi hiền lành, tương lai tươi sáng bỗng chốc trở thành nạn nhân của một tội ác tàn khốc.",
+                "Toàn bộ giảng đường Đại học Nam Kinh và dư luận thành phố rơi vào một cơn bàng hoàng chưa từng có trong lịch sử."
+            ]),
+            ('N', 'N1: Bạn học cùng phòng ký túc xá của Ái Thanh, giọng run rẩy, xót xa', [
+                "Khi các cán bộ công an đến phòng ký túc xá để thu thập mẫu đối chiếu, chúng tôi đều không dám tin vào tai mình.",
+                "Mới chỉ chín ngày trước, Ái Thanh vẫn còn ngồi bên chiếc bàn học nhỏ này nắn nót chép từng trang tài liệu văn học.",
+                "Bạn ấy rời đi mà không mang theo bất kỳ tiền bạc hay hành lý nào, chiếc áo ấm duy nhất mang theo cũng là để che gió mùa đông.",
+                "Chúng tôi cứ nghĩ bạn ấy chỉ giận dỗi một chút rồi sẽ quay về thi cuối kỳ cùng cả lớp.",
+                "Làm sao một cô gái chưa từng biết đến xích mích hay thù oán với ai lại có thể gặp phải một kết cục bi thảm đến nhường này.",
+                "Những ngày sau đó, cả khu ký túc xá chìm trong một nỗi sợ hãi tột cùng, không ai dám ra ngoài một mình sau khi trời tối.",
+                "Mỗi khi nhìn sang chiếc giường trống trơn của Ái Thanh, chúng tôi chỉ biết ôm nhau khóc trong sự bất lực nghẹn ngào.",
+                "Cảm giác kẻ thủ ác có thể đang ở đâu đó rất gần bên ngoài cánh cổng trường khiến ai nấy đều run rẩy.",
+                "Sự ngây thơ của tuổi trẻ trong chúng tôi dường như đã bị bóng đêm năm ấy bẻ gãy hoàn toàn."
+            ]),
+            ('C', 'giọng điềm đạm, phân tích trụ cột Chấn thương tập thể và Hoang tưởng xã hội', [
+                "Dưới lăng kính tâm lý học xã hội, vụ án ngay lập tức kích hoạt Hội chứng Chấn thương Tập thể và Hoang tưởng Xã hội sâu sắc.",
+                "Cảm giác an toàn của một đô thị văn hóa giáo dục lâu đời như Nam Kinh đã bị đánh sập chỉ sau một đêm.",
+                "Kẻ thủ ác đã biến không gian công cộng quen thuộc hàng ngày thành một chuỗi những điểm phát hiện rúng động tâm lý.",
+                "Phản ứng hoảng loạn tập thể xuất hiện khi cộng đồng nhận ra một kẻ sát nhân vô hình đang cùng hít thở bầu không khí chung với họ.",
+                "Các bậc phụ huynh từ khắp các tỉnh thành liên tục gọi điện đến trường đòi đưa con em về quê lánh nạn vì nỗi sợ hãi lan tràn.",
+                "Sự nghi kỵ bao trùm các mối quan hệ xã hội thông thường, phá vỡ niềm tin tối thiểu giữa người với người trong không gian đô thị.",
+                "Đây là tác động xã hội tàn phá nặng nề nhất mà một tội ác có tổ chức có thể gây ra cho một cộng đồng dân cư."
+            ]),
+            ('H', 'khép lại Hồi 1', [
+                "Một mùa đông buốt giá đã vĩnh viễn lấy đi nụ cười trong sáng của cô nữ sinh mộc mạc tuổi mười chín.",
+                "Những dấu vết để lại trên đường phố Nam Kinh bắt đầu mở ra một cuộc rượt đuổi nghẹt thở trong lịch sử phá án.",
+                "Và những chi tiết pháp y tiếp theo sẽ hé lộ một chân dung tâm lý tàn bạo đến mức vượt xa mọi hình dung thông thường."
+            ])
+        ]
+    },
+
+    # HỒI 2: 50 CÂU
+    {
+        'act': 2,
+        'title': "DẤU ẤN KỸ NĂNG GIẢI PHẪU & SỰ BÌNH TĨNH ĐÁNG SỢ",
+        'bgm': "Âm thanh điều tra tối giản, tiếng kim loại lách cách, tiếng thở dài nặng nề trong căn phòng hồ sơ chuyên án.",
+        'elements': [
+            ('H', 'giọng trầm ấm, gợi mở chi tiết điều tra pháp y chuyên sâu', [
+                "Công tác khám nghiệm hiện trường và thu thập vật chứng trong những ngày tiếp theo đã hé lộ một bức tranh rùng mình về hành vi của thủ phạm.",
+                "Các túi đồ được tìm thấy rải rác tại ít nhất sáu địa điểm công cộng khác nhau, từ đường Thủy Tả Cương, đường Hán Khẩu cho đến chân núi Long Vương.",
+                "Tất cả các phần vật chứng đều được đóng gói tỉ mỉ bằng các túi du lịch thông dụng, ba lô học sinh và khăn trải giường bằng vải cotton in hoa.",
+                "Đặc biệt, bên trong các gói đồ, toàn bộ dấu vết sinh học đã được xử lý bằng nhiệt độ cao một cách vô cùng kiên nhẫn và cẩn trọng.",
+                "Kẻ thủ ác đã dành một lượng thời gian khổng lồ để chia tách mọi thành phần thành hơn hai nghìn mảnh nhỏ với kích thước đồng đều đến kinh ngạc.",
+                "Mỗi nhát cắt đều dứt khoát, đi qua các khớp xương giải phẫu một cách chuẩn xác mà không hề để lại các vết răng cưa của sự giằng xé hay vụng về.",
+                "Sự tỉ mỉ đến mức cực đoan này đã làm đảo lộn hoàn toàn nhận định thông thường của lực lượng điều tra thời bấy giờ.",
+                "Đây không thể là hành vi bộc phát trong một cơn giận dữ mất kiểm soát, mà là một quy trình kỹ thuật được tiến hành với sự bình tĩnh tuyệt đối.",
+                "Thủ phạm đã dành nhiều ngày liên tục trong một không gian kín để hoàn thành từng công đoạn với sự kiên nhẫn khó tin."
+            ]),
+            ('C', 'giọng sắc bén, mổ xẻ ranh giới giữa Thủ đoạn MO và Chữ ký tâm lý Signature', [
+                "Trong khoa học hành vi tội phạm, chúng ta luôn phân biệt rất rõ ràng giữa Thủ đoạn Gây án và Dấu ấn Tâm lý Chữ ký.",
+                "Thủ đoạn gây án là những việc hung thủ bắt buộc phải làm nhằm thực hiện tội ác và che giấu danh tính trước cảnh sát.",
+                "Việc phân tán vật chứng ra nhiều túi và vứt rải rác nhằm gây nhiễu loạn hướng điều tra và làm chậm quá trình nhận dạng nạn nhân là thủ đoạn kinh điển.",
+                "Thế nhưng, việc chia tách tỉ mỉ tới hơn hai nghìn mảnh và sắp xếp ngay ngắn từng phần lại vượt xa mục đích che giấu thông thường.",
+                "Đó chính là Chữ ký Tâm lý, phản ánh nhu cầu kiểm soát bệnh lý và tính khí cưỡng chế ám ảnh cực đoan của kẻ thủ ác.",
+                "Hắn không chỉ muốn xóa dấu vết, mà coi quá trình xử lý như một công việc hoàn mỹ đòi hỏi sự kiên trì và chính xác đến từng milimet."
+            ]),
+            ('SFX', "Tiếng dao giải phẫu kim loại lách cách trên khay thép, tiếng nước chảy róc rách trong không gian tĩnh mịch.", None),
+            ('H', 'giọng sâu sắc, phân tích không gian hiện trường và công cụ thực hiện', [
+                "Từ các đặc điểm giải phẫu học, ban chuyên án đã tái dựng lại bức chân dung về không gian nơi tội ác diễn ra.",
+                "Để thực hiện hàng nghìn thao tác cắt gọt và xử lý nhiệt độ cao suốt nhiều ngày, kẻ thủ ác phải có một không gian hoàn toàn biệt lập.",
+                "Căn phòng này phải đảm bảo tính riêng tư tuyệt đối, cách âm tốt và không bị người thân hay hàng xóm bất ngờ làm phiền.",
+                "Hơn thế nữa, địa điểm gây án bắt buộc phải có nguồn nước sinh hoạt dồi dào và hệ thống thoát nước không dễ bị tắc nghẽn.",
+                "Hệ thống đun nấu phải đủ công suất để hoạt động liên tục trong mùa đông mà không làm khói hay mùi lạ thoát ra khu dân cư.",
+                "Điều này giúp loại trừ ngay lập tức các khu ký túc xá tập thể đông đúc hoặc những phòng trọ tạm bợ có vách ngăn mỏng manh.",
+                "Thủ phạm nhiều khả năng là người sống độc thân, sở hữu nhà riêng hoặc có toàn quyền sử dụng một cơ sở làm việc kín đáo.",
+                "Mọi công cụ gây án, từ dao chuyên dụng, nồi nấu cho đến chăn ga bọc lót, đều là những vật dụng thông thường dễ dàng tìm thấy.",
+                "Sự chuẩn bị kỹ lưỡng này cho thấy một kế hoạch được tính toán chi tiết từ trước hoặc một phản ứng thích ứng cực kỳ lạnh lùng.",
+                "Kẻ thủ ác đã kiểm soát hoàn toàn hiện trường và bình tĩnh xóa sạch mọi dấu vết sinh học trước khi bước ra ngoài.",
+                "Sự đối lập giữa tội ác tàn khốc bên trong bốn bức tường và nhịp sống bình thường bên ngoài khiến bất kỳ ai cũng phải ớn lạnh."
+            ]),
+            ('D', 'giọng đanh thép, nêu bật quá trình khoanh vùng các nhóm nghề nghiệp chuyên môn', [
+                "Dựa trên các dấu vết cắt gọt tinh xảo, ban chuyên án ban đầu tập trung rà soát các nhóm đối tượng có kỹ năng dùng dao chuyên nghiệp.",
+                "Các bác sĩ phẫu thuật tại các bệnh viện lớn, giảng viên và sinh viên trường y khoa Nam Kinh là nhóm đầu tiên được kiểm tra.",
+                "Tiếp theo là các bác sĩ thú y, nhân viên phòng thí nghiệm sinh học, đồ tể tại các lò mổ gia súc và đầu bếp chuyên nghiệp.",
+                "Hàng nghìn người thuộc các ngành nghề này đã được triệu tập để làm rõ lịch trình di chuyển trong khoảng thời gian từ ngày mười đến ngày mười chín tháng một.",
+                "Cảnh sát lật tung từng sổ sách chấm công, kiểm tra từng con dao làm việc và đối chiếu các trường hợp nghỉ phép bất thường.",
+                "Tuy nhiên, qua quá trình sàng lọc gắt gao, các chuyên gia pháp y nhận ra một đặc điểm vô cùng tinh tế khác.",
+                "Đó là dù các nhát cắt rất dứt khoát và đi theo khớp xương, nhưng cách xử lý cơ bắp lại mang hơi hướng của một người có kiến thức lý thuyết hơn là đồ tể thực hành.",
+                "Đồ tể thường chú trọng tốc độ và sản lượng, trong khi quy trình này lại mang nặng tính cẩn trọng, tỉ mỉ của người làm nghiên cứu kỹ thuật.",
+                "Điều này mở rộng diện nghi vấn sang những người có học thức cao, đam mê giải phẫu học hoặc làm việc trong các ngành cơ khí chính xác.",
+                "Việc khoanh vùng trở nên phức tạp hơn bao giờ hết khi phạm vi đối tượng tiềm năng ngày càng mở rộng giữa một đô thị triệu dân.",
+                "Kẻ thủ ác dường như biết rất rõ các lỗ hổng của phương pháp điều tra truyền thống để chủ động ẩn mình."
+            ]),
+            ('C', 'giọng nhấn mạnh, bóc tách cơ chế Phi nhân hóa đối tượng và Vật hóa triệt để', [
+                "Cơ chế tâm lý sâu xa nhất đằng sau hành vi xử lý cực đoan này chính là Hiện tượng Phi Nhân Hóa Nạn Nhân.",
+                "Khi kẻ sát nhân thực hiện các thao tác cơ học, trong não bộ của hắn, nạn nhân đã hoàn toàn không còn là một con người có cảm xúc.",
+                "Cô gái trẻ đã bị giáng cấp thành một chuỗi những vật chất sinh học cần được giải quyết một cách có trật tự và hệ thống.",
+                "Việc vật hóa nạn nhân giúp hung thủ triệt tiêu hoàn toàn mọi cảm giác ghê sợ, tội lỗi hay phản ứng ghê tởm thông thường.",
+                "Hắn có thể nhìn vào từng phần vật chứng mà chỉ nhìn thấy những khối hình học, những đường cắt cần hoàn thành cho thật chuẩn xác.",
+                "Đây là cơ chế phòng vệ tâm lý bệnh lý giúp những kẻ thái nhân cách duy trì được sự bình tĩnh tuyệt đối trong suốt nhiều ngày gây án.",
+                "Sự vô cảm lạnh lùng này chính là bức tường ngăn cách hắn với nhân loại, biến hắn thành một thực thể săn mồi hoàn toàn mất kết nối lương tri.",
+                "Cảm giác kiểm soát toàn diện đối với sự tồn tại của nạn nhân đem lại cho hắn một sự hưng phấn quyền lực ngầm vô cùng méo mó.",
+                "Trong thế giới khép kín ấy, hắn tự phong mình làm kẻ định đoạt tối cao, vượt lên trên mọi chuẩn mực đạo đức xã hội.",
+                "Và chính sự bình thản quái dị ấy đã cho phép hắn tiếp tục bước ra đường, hòa vào dòng người như một công dân vô tội."
+            ]),
+            ('H', 'khép lại Hồi 2', [
+                "Một quy trình xử lý không tì vết, một không gian gây án bí mật và sự thành thạo đến rợn người trong từng nhát dao.",
+                "Kẻ thủ ác đã dựng nên một pháo đài tâm lý kiên cố để bảo vệ bản thân trước sự truy lùng của hàng nghìn cán bộ chiến sĩ.",
+                "Nhưng điều gì đã biến một con người có học thức và kỹ năng trở thành một kẻ hủy diệt lạnh lùng đến mức ấy?"
+            ])
+        ]
+    },
+
+    # HỒI 3: 50 CÂU
+    {
+        'act': 3,
+        'title': "TÂM LÝ HỦY HOẠI CHỨNG CỨ CỰC ĐOAN & CHIẾC KHIÊN BÌNH THƯỜNG HÓA",
+        'bgm': "Giai điệu Cello trầm buồn, tiếng bước chân cô độc trên hè phố đêm buốt giá, tiếng lá khô xào xạc.",
+        'elements': [
+            ('H', 'giọng sâu lắng, dẫn dắt vào mê cung tâm lý tội phạm học', [
+                "Khi cơ quan điều tra đi sâu vào việc phác thảo chân dung tâm lý thủ phạm, một câu hỏi lớn luôn khiến các chuyên gia trăn trở.",
+                "Đó là động cơ nào đã thúc đẩy kẻ thủ ác thực hiện một hành vi hủy hoại chứng cứ cực đoan đến mức khó tin như vậy.",
+                "Thông thường, những kẻ gây trọng án tước đoạt sinh mạng chỉ tìm cách che giấu sơ sài như vùi lấp vội vã, ném xuống sông hoặc bỏ trốn khỏi địa bàn.",
+                "Thế nhưng trong vụ án Điêu Ái Thanh, kẻ thủ ác đã lựa chọn phương thức tốn nhiều thời gian, công sức và rủi ro bị bắt cao nhất.",
+                "Hắn đã giam mình trong căn phòng kín suốt nhiều ngày liền để thực hiện hàng nghìn thao tác cắt tỉa và xử lý nhiệt độ phức tạp.",
+                "Sự kiên nhẫn bệnh lý ấy không thể giải thích đơn thuần bằng nỗi sợ hãi pháp luật, mà bắt nguồn từ những rối loạn nhân cách thâm sâu.",
+                "Đó là sự kết hợp chết người giữa lòng thù ghét vô thức, tính khí cưỡng chế hoàn hảo và nhu cầu tự khẳng định bản thân một cách lệch lạc.",
+                "Để hiểu được hành vi này, chúng ta cần bóc tách cơ chế phân ly và kỹ thuật ngắt kết nối đạo đức trong tâm trí kẻ phạm tội.",
+                "Kẻ thủ ác coi việc che giấu tội ác như một ván cờ trí tuệ mà hắn tự đặt cược sinh mạng của chính mình.",
+                "Hắn muốn chứng minh rằng mình có thể tạo ra một hiện trường hoàn mỹ, nơi công lý không thể tìm ra bất kỳ điểm tựa nào để kết nối.",
+                "Sự kiêu ngạo trí thức bệnh hoạn này chính là động lực vô hình thúc đẩy hắn hoàn thành từng chi tiết với sự tỉ mỉ đến rợn người."
+            ]),
+            ('D', 'giọng sắc bén, phân tích mối quan hệ giữa nạn nhân và kẻ thủ ác', [
+                "Một trong những bài toán hóc búa nhất của ban chuyên án năm 1996 là xác định phương thức tiếp cận nạn nhân của thủ phạm.",
+                "Điêu Ái Thanh là một cô gái nông thôn mới lên thành phố được ba tháng, tính cách rụt rè, không có bạn bè xã giao và rất cảnh giác với người lạ.",
+                "Một người như vậy rất khó có khả năng tự nguyện đi theo một kẻ xa lạ trên đường phố vào một đêm mùa đông buốt giá.",
+                "Điều này dẫn đến hai khả năng nghiệp vụ rất rõ ràng được ban chuyên án theo đuổi suốt nhiều năm.",
+                "Khả năng thứ nhất: kẻ thủ ác là người có quen biết từ trước, có thể là một đồng hương, một người quen qua câu lạc bộ văn học hoặc cán bộ trường học.",
+                "Khả năng thứ hai: kẻ này sở hữu một Vỏ Bọc Hào Quang uy tín khiến nạn nhân hoàn toàn mất đi phản xạ phòng vệ tự nhiên.",
+                "Một người mang dáng dấp của giảng viên đại học, cán bộ trí thức hoặc nhân viên y tế đáng kính dễ dàng tạo ra sự tin tưởng tuyệt đối cho một nữ sinh hiền lành."
+            ]),
+            ('C', 'giọng học thuật, mổ xẻ cơ chế Chia ngăn nhận thức và Vỏ bọc bình thường', [
+                "Trụ cột cốt lõi trong tâm lý học tội phạm giải thích vụ án này chính là Cơ chế Chia Ngăn Nhận Thức.",
+                "Bộ não của những kẻ phạm tội có tổ chức cao có khả năng phân tách cuộc sống thành những ngăn chứa hoàn toàn độc lập với nhau.",
+                "Ở ngăn thứ nhất, hắn vẫn có thể là một công chức mẫu mực, một người hàng xóm nhã nhặn, một người thầy tận tụy hoặc người bán hàng lịch thiệp.",
+                "Hắn vẫn trò chuyện, ăn uống, đi làm và chào hỏi mọi người xung quanh với một vẻ mặt vô cùng bình thản và chuẩn mực.",
+                "Thế nhưng khi cánh cửa phòng riêng khép lại, hắn lập tức bước vào ngăn chứa bóng tối săn mồi mà không hề cảm thấy có sự xung đột nội tâm.",
+                "Gia đình hoặc môi trường công việc chính là chiếc Khiên Bình Thường Hóa hoàn hảo giúp hắn che chắn mọi ánh mắt dò xét từ xã hội.",
+                "Hiện tượng này lý giải vì sao người thân, bạn bè hay đồng nghiệp của những kẻ thủ ác như vậy thường bàng hoàng tuyệt đối khi sự thật bị phanh phui.",
+                "Họ không thể tin một con người tử tế, ít nói và ôn hòa trong mắt họ lại có thể là hiện thân của một con thú săn mồi máu lạnh."
+            ]),
+            ('SFX', "Tiếng lật sách thì thào trong thư viện cũ, tiếng chuông gió xa xăm gợi cảm giác ngây thơ bị phản bội.", None),
+            ('H', 'giọng trầm buồn, khắc họa sự ngây thơ và điểm yếu tâm lý của nạn nhân', [
+                "Điêu Ái Thanh bước chân vào giảng đường Nam Kinh với tất cả sự trong sáng và niềm tin tuyệt đối vào tri thức con người.",
+                "Cô gái nhỏ yêu những trang sách văn học cổ, yêu những lời thơ trầm mặc và luôn nhìn cuộc đời bằng đôi mắt thuần khiết của vùng thôn dã.",
+                "Ở quê hương Thái Châu, các mối quan hệ xóm giềng đều gắn bó thân tình, nơi người ta mở cửa ngủ mà không cần then cài.",
+                "Khi bước vào một siêu đô thị đang chuyển mình dữ dội, cô chưa kịp trang bị cho mình những kỹ năng nhận diện hiểm nguy cần thiết.",
+                "Sự lương thiện và tính cách hay nhường nhịn đôi khi lại trở thành một điểm yếu chí mạng trong mắt những kẻ săn mồi chuyên nghiệp.",
+                "Kẻ thủ ác đã đánh trúng vào tâm lý cô đơn, bỡ ngỡ của một tân sinh viên xa nhà để từng bước giăng lưới thao túng.",
+                "Một lời mời thảo luận về một cuốn sách hay, một sự giúp đỡ nhiệt tình về tài liệu học tập có thể đã mở toang cánh cửa phòng vệ của cô."
+            ]),
+            ('N', 'N1: Bạn học của Điêu Ái Thanh, giọng nghẹn ngào, chia sẻ về niềm tin ngây thơ', [
+                "Chúng tôi khi ấy mới mười chín, đôi mươi, lần đầu tiên rời vòng tay gia đình ở quê để bước vào một thành phố hoa lệ.",
+                "Ái Thanh luôn mang trong mình một sự ngưỡng mộ rất lớn đối với những người có học thức cao và những người hiểu biết rộng.",
+                "Bạn ấy rất thích đọc tiểu thuyết và những cuốn sách triết học cổ, luôn tin rằng những người nói chuyện thanh lịch đều là người tốt.",
+                "Sự chất phác, lương thiện và niềm tin trong sáng của một cô gái quê đôi khi lại trở thành một điểm yếu chí mạng.",
+                "Chúng tôi chưa từng được ai dạy về những cạm bẫy đội lốt lòng tốt nơi đô thị, chưa từng biết rằng sự hiểm độc có thể ẩn sau vẻ ngoài nho nhã.",
+                "Mỗi khi nghĩ đến việc Ái Thanh đã phải đối diện với sự phản bội lòng tin đau đớn đến dường nào, trái tim tôi lại thắt lại."
+            ]),
+            ('D', 'giọng đanh thép, phân tích phương thức vận chuyển và địa hình', [
+                "Tuyến đường vứt các túi đồ tập trung chủ yếu trong bán kính khoảng ba đến bốn cây số quanh khuôn viên Đại học Nam Kinh.",
+                "Các địa điểm như đường Thủy Tả Cương, đường Hoa Kiều hay cổng trường đại học đều là những khu vực trung tâm có mật độ dân cư đông đúc.",
+                "Việc kẻ thủ ác chọn vứt vật chứng ngay tại những tuyến đường quen thuộc chứng minh hắn nắm rất rõ quy luật tuần tra của dân phòng và thời điểm vắng vẻ rạng sáng.",
+                "Phương tiện vận chuyển khả dĩ nhất vào thời điểm ấy là xe đạp có giỏ phía trước hoặc chở hàng phía sau, một hình ảnh vô cùng phổ biến tại Nam Kinh năm 1996.",
+                "Chiếc xe đạp cũ hòa vào dòng người lao động đi làm sớm chính là lớp ngụy trang hoàn hảo giúp hắn vượt qua các chốt kiểm tra ban đầu.",
+                "Sự bình thản đạp xe qua các con phố quen thuộc trong khi chở theo những túi đồ chứng tỏ thần kinh của kẻ này vững vàng đến mức lạnh lùng.",
+                "Hắn không hề có biểu hiện lén lút hay vội vã, mà hành động như một người đang đi chợ sớm hoặc đi làm ca đêm về.",
+                "Chính sự bình thường đến mức hòa tan vào môi trường xung quanh đã khiến hắn hoàn toàn tàng hình trước mắt các nhân chứng."
+            ]),
+            ('H', 'khép lại Hồi 3', [
+                "Một chiếc khiên bình thường hóa hoàn hảo, một ảo tưởng kiểm soát bệnh lý và sự ngây thơ của một cô gái trẻ nơi giảng đường.",
+                "Những yếu tố tâm lý ấy đã đan kết lại thành một thảm kịch không thể cứu vãn trong căn phòng kín giữa lòng Nam Kinh.",
+                "Nhưng tại sao trước một chuyên án có quy mô rà soát khổng lồ như vậy, kẻ thủ ác vẫn có thể trượt qua mọi mắt lưới của công lý?"
+            ])
+        ]
+    },
+
+    # HỒI 4: 42 CÂU
+    {
+        'act': 4,
+        'title': "ĐIỂM MÙ ĐÔ THỊ THẬP NIÊN CHÍN MƯƠI & BƯỚC TIẾN KHOA HỌC PHÁP Y",
+        'bgm': "Tiếng chuông điện thoại bàn reo ngắt quãng, tiếng máy đánh chữ lạch cạch, tiếng còi xe xa xăm của một đô thị đang chuyển mình.",
+        'elements': [
+            ('H', 'giọng trầm ấm, tái hiện bối cảnh xã hội và hạn chế công nghệ thập niên 1990', [
+                "Để lý giải sự bế tắc kéo dài của vụ án Điêu Ái Thanh, chúng ta buộc phải nhìn lại bối cảnh xã hội Trung Quốc vào giữa thập niên 1990.",
+                "Năm 1996 là thời điểm các siêu đô thị bắt đầu bước vào giai đoạn mở cửa và chuyển mình với tốc độ chóng mặt.",
+                "Hàng triệu người lao động từ khắp các vùng nông thôn đổ về các thành phố lớn như Nam Kinh để tìm kiếm cơ hội đổi đời.",
+                "Sự bùng nổ dân số cơ học và quá trình đô thị hóa diễn ra nhanh hơn rất nhiều so với sự phát triển của hệ thống cơ sở hạ tầng an ninh.",
+                "Vào thời kỳ đó, mạng lưới camera giám sát công cộng hầu như là một con số không tròn trĩnh trên các tuyến phố chính.",
+                "Hệ thống quản lý nhân khẩu và đăng ký tạm trú chủ yếu vẫn dựa trên sổ sách giấy tờ thủ công tại các ủy ban khu phố.",
+                "Internet chưa xuất hiện trong đời sống đại chúng, công nghệ viễn thông chưa có tính năng định vị trạm sóng và cơ sở dữ liệu ADN quốc gia vẫn là khái niệm xa vời.",
+                "Tất cả những rào cản công nghệ ấy đã tạo nên một Điểm Mù Đô Thị khổng lồ, trở thành tấm áo giáp vô hình che chở cho kẻ thủ ác."
+            ]),
+            ('D', 'giọng đanh thép, nêu bật nỗ lực phi thường của cuộc đại rà soát lịch sử', [
+                "Đối mặt với sự thiếu thốn về công nghệ giám sát, lực lượng điều tra năm 1996 đã tiến hành một chiến dịch rà soát quy mô chưa từng có trong lịch sử ngành công an.",
+                "Ban chuyên án đã huy động hàng nghìn cán bộ chiến sĩ, lập chốt và chia thành nhiều tổ công tác rà soát từng mét vuông đất.",
+                "Toàn bộ khuôn viên Đại học Nam Kinh và các trường lân cận bị phong tỏa để kiểm tra hành chính từng phòng ký túc xá, từng phòng thí nghiệm và nhà công vụ.",
+                "Hàng trăm nghìn hộ gia đình trong bán kính nhiều cây số quanh hiện trường được gõ cửa thẩm vấn liên tục suốt ngày đêm.",
+                "Mọi phòng trọ cho thuê, xưởng sản xuất, lò mổ, trạm y tế tư nhân và những người độc thân có biểu hiện bất thường đều được lập hồ sơ chi tiết.",
+                "Hàng chục nghìn chiếc xe đạp lưu thông qua các tuyến phố đường Hoa Kiều và đường Thủy Tả Cương trong khung giờ rạng sáng bị dừng lại kiểm tra dấu vết.",
+                "Thế nhưng, kẻ thủ ác dường như đã tính toán trước được mọi phản ứng của lực lượng chức năng ngay từ khi lên kế hoạch.",
+                "Hắn đã hoàn toàn ngừng mọi hoạt động phi tang sau khi nhận thấy sự xuất hiện rầm rộ của cảnh sát, nằm im tuyệt đối trong hang ổ của mình.",
+                "Sự rà soát dù kỹ lưỡng đến đâu cũng không thể tránh khỏi những kẽ hở khi các phương pháp lưu trữ hồ sơ bằng giấy bộc lộ sự quá tải.",
+                "Một số đối tượng tình nghi sau khi đối chiếu giấy tờ tùy thân hợp lệ đã được cho qua mà không có mẫu sinh học để lưu trữ đối chứng.",
+                "Đây chính là nỗi trăn trở đau đáu của nhiều thế hệ trinh sát hình sự Nam Kinh khi nhìn lại những trang hồ sơ cũ."
+            ]),
+            ('SFX', "Tiếng lật trang hồ sơ giấy ố vàng sột soạt, tiếng gõ bàn phím vi tính hiện đại dồn dập trong phòng thí nghiệm pháp y.", None),
+            ('N', 'N2: Cán bộ công an nghỉ hưu từng tham gia ban chuyên án 1996, giọng ngậm ngùi, kiên định', [
+                "Tôi năm nay đã ngoài bảy mươi tuổi, nhưng ký ức về mùa đông năm 1996 tại Nam Kinh vẫn còn in đậm như mới ngày hôm qua.",
+                "Chúng tôi đã thức trắng hàng trăm đêm, đi mòn hàng chục đôi giày qua từng ngõ ngách, kiểm tra từng hố ga và bãi rác.",
+                "Ai cũng mang một quyết tâm sắt đá phải tìm ra kẻ ác để trả lại công bằng cho cô nữ sinh nhỏ tuổi bằng con gái mình.",
+                "Mỗi khi nhìn vào đôi mắt đẫm lệ của người cha già từ Thái Châu lên ngóng tin con, tim chúng tôi như bị bóp nghẹn.",
+                "Thế hệ chúng tôi đã già đi, nhiều đồng đội trong ban chuyên án năm ấy đã qua đời mà vẫn chưa thể nhìn thấy ngày vụ án được sáng tỏ.",
+                "Nhưng chúng tôi tin tưởng tuyệt đối vào thế hệ trẻ và những bước tiến vượt bậc của khoa học kỹ thuật hiện đại ngày nay."
+            ]),
+            ('C', 'giọng điềm đạm, phân tích tâm lý thích ứng và sự kiên nhẫn ẩn mình', [
+                "Những kẻ phạm tội có tổ chức cao luôn sở hữu khả năng tự kiểm soát và thích ứng với áp lực môi trường cực kỳ xuất sắc.",
+                "Khi thấy còi xe cảnh sát rền vang và các cuộc rà soát gõ cửa từng nhà, những kẻ nghiệp dư sẽ hoảng loạn bỏ trốn hoặc để lộ sơ hở.",
+                "Thế nhưng kẻ thủ ác này đã chọn chiến thuật án binh bất động, duy trì nhịp sống thường nhật như chưa từng có chuyện gì xảy ra.",
+                "Hắn thản nhiên đối đáp với các cán bộ điều tra khi được hỏi thăm, trưng ra một vẻ mặt ngây thơ và không hề bộc lộ vi biểu cảm bất an nào.",
+                "Sự bình thản đến mức trơ tráo ấy đã giúp hắn hòa tan hoàn toàn vào đám đông hàng vạn cư dân đô thị bình thường.",
+                "Cơ chế tự bào chữa và ngắt kết nối đạo đức cho phép hắn vô hiệu hóa hoàn toàn cảm giác tội lỗi, ăn ngon ngủ yên mà không bị ám ảnh lương tâm quấy rầy.",
+                "Hắn tự thuyết phục mình rằng hành vi của mình là một sự phòng vệ hoàn hảo, biến việc trốn thoát thành một chiến thắng cá nhân trước xã hội.",
+                "Sự tự lừa dối này chính là tấm áo giáp tâm lý giúp hắn tồn tại suốt nhiều thập kỷ mà không sụp đổ tinh thần."
+            ]),
+            ('H', 'khép lại Hồi 4', [
+                "Năm 2016, tròn hai mươi năm sau khi thảm kịch xảy ra, Bộ Công an Trung Quốc đã chính thức tuyên bố: Vụ án Điêu Ái Thanh sẽ được điều tra vĩnh viễn, không áp dụng thời hiệu miễn trừ.",
+                "Thời gian có thể xóa nhòa dấu vết trên những con phố mùa đông, nhưng không thể xóa đi quyết tâm tìm kiếm sự thật của công lý.",
+                "Toàn bộ các mẫu vật lưu trữ từ năm 1996 đã được đưa vào bảo quản nghiêm ngặt để ứng dụng các công nghệ phân tích ADN thế hệ mới nhất.",
+                "Những bí ẩn bị chôn giấu dưới đáy hồ sơ đang dần được đánh thức bởi sức mạnh của khoa học hình sự hiện đại.",
+                "Kẻ thủ ác dù có thay tên đổi họ hay già nua theo năm tháng cũng không thể thoát khỏi sự truy xét của công lý.",
+                "Mỗi bước tiến của công nghệ hôm nay đều là một bước siết chặt chiếc thòng lọng vô hình quanh cổ kẻ sát nhân giấu mặt.",
+                "Và trong sâu thẳm lương tri của cộng đồng, ký ức về Điêu Ái Thanh chưa bao giờ bị lãng quên.",
+                "Hồ sơ vụ án vẫn mở trên bàn làm việc của các thế hệ trinh sát như một lời thề danh dự không bao giờ từ bỏ.",
+                "Công lý có thể đến muộn mằn, nhưng chắc chắn sẽ không bao giờ vắng mặt trên con đường đi tìm sự thật."
+            ])
+        ]
+    },
+
+    # HỒI 5: 39 CÂU
+    {
+        'act': 5,
+        'title': "NỖI ĐAU CỦA NGƯỜI Ở LẠI & BÀI HỌC CẢNH BÁO ĐỎ SINH TỒN",
+        'bgm': "Tiếng đàn Piano nhẹ nhàng nhưng da diết, tiếng mưa rơi tí tách ngoài cửa sổ mang lại sự tĩnh lặng và chiêm nghiệm sâu sắc.",
+        'elements': [
+            ('H', 'giọng trầm ấm, tràn đầy sự xót xa cho gia đình nạn nhân', [
+                "Hơn hai mươi tám năm đã trôi qua kể từ buổi tối mùa đông định mệnh ấy, một khoảng thời gian dài gần bằng một phần ba đời người.",
+                "Tại ngôi nhà nhỏ ở vùng quê Khương Yển, thành phố Thái Châu, căn phòng của Ái Thanh vẫn được người cha gìn giữ như ngày cô rời nhà lên trường nhập học.",
+                "Người cha già Điêu Nhật Xương suốt mấy chục năm ròng rã chỉ có một tâm nguyện duy nhất: được nghe câu trả lời chính thức trước khi nhắm mắt xuôi tay.",
+                "Mỗi độ Tết đến xuân về, chiếc bát ăn cơm của người con gái út vẫn được đặt trang trọng trên mâm cơm gia đình trong sự nghẹn ngào của người mẹ già.",
+                "Chị gái của Ái Thanh, cô Điêu Ái Hoa, đã thay cha mẹ già tiếp tục hành trình đi tìm công lý qua nhiều cơ quan chức năng suốt hàng thập kỷ.",
+                "Năm 2021, gia đình từng đệ đơn khởi kiện Đại học Nam Kinh về trách nhiệm quản lý ký túc xá, không phải vì muốn đòi tiền bồi thường, mà chỉ để vụ án của người thân không bị lãng quên.",
+                "Dù sau đó gia đình đã rút đơn kiện vì những lý do cá nhân, nhưng nỗi đau khắc khoải của những người ở lại vẫn là một vết sẹo nhức nhối không bao giờ lành.",
+                "Thời gian có thể chữa lành nhiều vết thương, nhưng không thể xoa dịu khoảng trống mênh mông mà sự ra đi đột ngột của một người thân yêu để lại.",
+                "Hình ảnh cô nữ sinh mộc mạc với chiếc áo khoác màu xanh đen viền đỏ vẫn mãi mãi dừng lại ở tuổi mười chín thanh xuân."
+            ]),
+            ('D', 'giọng sâu sắc, nêu bật bước tiến công nghệ và hy vọng phá án', [
+                "Trong những năm gần đây, công nghệ giám định ADN phả hệ và nhận diện dấu vết sinh học vi mô đã tạo nên những bước đột phá ngoạn mục trên toàn thế giới.",
+                "Tại Trung Quốc, hàng loạt kỳ án tưởng chừng đã bế tắc hàng chục năm như vụ án Bạch Ngân hay vụ án nữ sinh y khoa Hàng Châu đều đã được phá giải thành công.",
+                "Ban chuyên án Công an Nam Kinh vẫn liên tục rà soát và đối chiếu các mẫu gen thu được từ hiện trường năm 1996 với cơ sở dữ liệu ADN quốc gia ngày càng hoàn thiện.",
+                "Mỗi nhánh gia tộc nghi vấn, mỗi thông tin trình báo mới từ quần chúng nhân dân đều được các trinh sát hình sự kiểm tra, xác minh cẩn trọng.",
+                "Khoa học hình sự hiện đại không chỉ truy tìm dấu vết vật lý, mà còn có khả năng phục dựng lại chân dung nhân chủng học của thủ phạm từ các đoạn mã di truyền.",
+                "Khoảng cách giữa kẻ thủ ác và ánh sáng pháp luật đang ngày càng bị thu hẹp lại theo từng thuật toán xử lý dữ liệu.",
+                "Lực lượng điều tra luôn kiên định một niềm tin rằng: không có tội ác nào là hoàn hảo và không kẻ sát nhân nào có thể mang bí mật xuống mồ vĩnh viễn.",
+                "Ngày mà sự thật được phơi bày trước công chúng chỉ còn là vấn đề thời gian và sự kiên trì của các nhà khoa học pháp y."
+            ]),
+            ('C', 'giọng trầm lắng, phân tích bản án tâm lý vĩnh cửu đối với kẻ thủ ác', [
+                "Thời gian có thể giúp kẻ sát nhân già đi và ẩn náu dưới vỏ bọc một ông lão hiền lành, nhưng tâm lý học tội phạm chỉ ra rằng hắn không bao giờ có được tự do thực sự.",
+                "Sự phát triển vượt bậc của công nghệ giải mã ADN gia phả học và phân tích dấu vết vi mô chính là bóng ma ám ảnh tâm trí hắn mỗi ngày.",
+                "Những vụ trọng án tương tự kéo dài hàng chục năm lần lượt được phá giải nhờ công nghệ hiện đại đã gửi đi một thông điệp đanh thép.",
+                "Kẻ thủ ác chắc chắn luôn theo dõi từng bản tin thời sự, giật mình trước mỗi tiếng chuông cửa bất ngờ và hoảng loạn ngầm khi thấy cảnh sát xuất hiện.",
+                "Nỗi sợ hãi bị vạch trần danh tính trước con cháu và dòng họ ở những năm tháng cuối đời chính là Bản Án Tâm Lý tàn khốc nhất đang giam cầm linh hồn hắn.",
+                "Hắn có thể trốn tránh được lưới sắt của nhà tù trong nhiều năm, nhưng không bao giờ trốn thoát được sự trừng phạt của nỗi sợ hãi nội tâm.",
+                "Sự trống rỗng và dằn vặt vô hình ấy sẽ gặm nhấm tâm can hắn cho đến hơi thở cuối cùng mà không một liều thuốc nào cứu chữa được.",
+                "Đây chính là cái giá nghiệt ngã mà mọi kẻ coi thường sinh mạng đồng loại đều phải gánh chịu trước tòa án lương tâm.",
+                "Bản án của sự cô độc và hoảng loạn vĩnh viễn chính là sự trừng phạt đích đáng nhất dành cho kẻ thủ ác giấu mặt."
+            ]),
+            ('N', 'N1: Lời nhắn nhủ của thế hệ sinh viên, giọng trong trẻo, chân thành', [
+                "Nhìn lại câu chuyện của Ái Thanh sau gần ba thập kỷ, thế hệ trẻ chúng tôi hôm nay càng thấu hiểu sâu sắc hơn giá trị của sự an toàn và cảnh giác.",
+                "Những ước mơ dang dở của một nữ sinh mười chín tuổi nhắc nhở mỗi bạn trẻ khi bước vào môi trường đại học phải luôn biết tự bảo vệ mình.",
+                "Sự ngây thơ, tin người cần phải được soi sáng bởi tri thức sinh tồn và sự nhạy bén trước những nguy cơ tiềm ẩn nơi phố thị.",
+                "Chúng tôi luôn khắc ghi câu chuyện này không phải để chìm trong sợ hãi, mà để sống có trách nhiệm hơn với bản thân và gia đình.",
+                "Mong rằng ở một thế giới bình yên khác, linh hồn Ái Thanh sẽ tìm thấy sự thanh thản vĩnh hằng mà cô hằng mong ước."
+            ]),
+            ('H', 'khép lại tập phim với thông điệp công lý trường tồn', [
+                "Từ bi kịch của Điêu Ái Thanh tại Đại học Nam Kinh, chúng ta rút ra ba bài học sinh tồn đô thị quý giá cho sinh viên xa nhà:",
+                "Thứ nhất, luôn nhận diện và thiết lập ranh giới an toàn trước Hiệu ứng Hào quang, không đánh đồng học thức hay địa vị với sự an toàn nhân cách.",
+                "Thứ hai, duy trì mạng lưới liên lạc đa kênh và luôn thông báo lịch trình cá nhân cho người thân khi di chuyển vào ban đêm.",
+                "Thứ ba, tôn trọng và lắng nghe trực giác sinh tồn, tuyệt đối không bỏ đi một mình trong lúc cảm xúc yếu đuối hay gặp chuyện buồn bực.",
+                "Kỳ án Điêu Ái Thanh vẫn là một nốt trầm đau xót trong lịch sử tư pháp, nhưng ngọn lửa đi tìm chân lý sẽ không bao giờ tắt.",
+                "Chừng nào hồ sơ vụ án còn mở, chừng ấy công lý vẫn kiên định tiến bước để trả lại danh dự và sự thật cho người đã khuất.",
+                "Cảm ơn quý vị khán giả đã đồng hành cùng Amber Eyes trong hồ sơ phân tích tâm lý tội phạm chuyên sâu ngày hôm nay.",
+                "Xin chào và hẹn gặp lại trong những hành trình giải mã tiếp theo."
+            ])
+        ]
+    }
+]
+
+def generate():
+    out = []
+    out.append("# KỊCH BẢN CHI TIẾT TẬP 54: KỲ ÁN ĐIÊU ÁI THANH — BÍ ẨN ĐẠI HỌC NAM KINH & TÂM LÝ HỦY HOẠI CHỨNG CỨ CỰC ĐOAN\n")
+    out.append("* **Đề tài:** Vụ mất tích và án mạng của nữ sinh viên Điêu Ái Thanh (Đại học Nam Kinh, Giang Tô, Trung Quốc, tháng 1/1996) — một trong những đại kỳ án bí ẩn nhất lịch sử hình sự hiện đại.")
+    out.append("* **Chủ đề tâm lý:** Tâm lý kiểm soát & hủy hoại chứng cứ cực đoan (Extreme Destruction), Dấu ấn Signature vs. Thủ đoạn MO, Chia ngăn nhận thức (Compartmentalization), Điểm mù đô thị và Áp lực đô thị hóa thập niên 1990.")
+    out.append("* **Thời lượng dự kiến:** 28 – 32 phút (~1.700 giây)")
+    out.append("* **Định dạng:** Chuẩn A2 — Cấu trúc 5 Hồi chuẩn mực theo Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (A2c) và Luật K10")
+    out.append("* **Tiêu chuẩn An toàn YouTube (Rule V9):** 100% YouTube Safe, tuyệt đối không mô tả chi tiết thương tổn hay tính chất rùng rợn; tập trung 100% vào phân tích tâm lý học tội phạm, môi trường tâm lý xã hội, khoa học hành vi và bài học cảnh báo sinh tồn.\n")
+    out.append("---\n")
+    out.append("## BẢNG PHÂN VAI VÀ CẤU TRÚC GIỌNG ĐỌC\n")
+    out.append("| Ký hiệu | Vai trò | Tên nhân vật thể hiện | Đặc điểm giọng đọc |")
+    out.append("| :--- | :--- | :--- | :--- |")
+    out.append("| **H** | **Dẫn chuyện (Host)** | Cú (Host Amber Eyes) | Trầm ấm, sâu lắng, sắc sảo, dẫn dắt thấu đáo |")
+    out.append("| **D** | **Điều tra viên** | Sói (Điều tra viên) | Nam trung niên, từng trải, điềm tĩnh, đanh thép |")
+    out.append("| **C** | **Chuyên gia Tâm lý** | Cáo (Chuyên gia tâm lý) | Nữ sắc sảo, điềm đạm, khách quan, giàu hàm lượng khoa học hành vi |")
+    out.append("| **N** | **Người trong cuộc** | N1 (Bạn học Ái Thanh) / N2 (Cán bộ trường / Người dân Nam Kinh) | Chân thực, ngậm ngùi, phản ánh góc nhìn đời thực |\n")
+    out.append("---\n")
+
+    role_headers = {
+        'H': '**HOST**',
+        'D': '**ĐIỀU TRA VIÊN**',
+        'C': '**CHUYÊN GIA TÂM LÝ**',
+        'N': '**NGƯỜI BÌNH THƯỜNG**'
+    }
+
+    for act_data in SCRIPT_STRUCTURE:
+        act_num = act_data['act']
+        act_title = act_data['title']
+        bgm_desc = act_data['bgm']
+        out.append(f"## HỒI {act_num}: {act_title}\n")
+        out.append(f"**[BGM]:** {bgm_desc}\n")
+        
+        for item in act_data['elements']:
+            if item[0] == 'SFX':
+                sfx_desc = item[1]
+                out.append(f"**[SFX]:** {sfx_desc}\n")
+            else:
+                r_code, direction, sentences = item
+                hdr = role_headers[r_code]
+                dir_str = f" *({direction})*:" if direction else ":"
+                out.append(f"{hdr}{dir_str}")
+                for s in sentences:
+                    out.append(s)
+                out.append("")
+        out.append("---\n")
+
+    return "\n".join(out)
+
+if __name__ == '__main__':
+    content = generate()
+    dest = '01_KICH_BAN/Ho_So_Toi_Pham/Tap54/kichban_tap54_22112026.md'
+    with open(dest, 'w', encoding='utf-8') as f:
+        f.write(content)
+    print(f"Written to {dest}")

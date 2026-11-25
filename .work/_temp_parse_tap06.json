@@ -1,0 +1,1370 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Tiếng đàn Piano mộc mạc, ấm áp gợi nhớ những bữa cơm gia đình sum vầy, nhưng dần bị bóp nghẹt bởi những nốt trầm u tối kéo dài đầy nghẹt thở."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng bát đũa va lách cách trong bữa ăn tối, tiếng cười nói đầm ấm của trẻ thơ, tiếng then cài cửa sắt đóng sầm nặng nề trong đêm."
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm ấm, điềm tĩnh, mở đầu bằng sự suy ngẫm về mái ấm",
+  "text": "Trong tâm thức của mỗi con người, gia đình luôn là bến đỗ bình yên và thiêng liêng nhất sau những giông bão của cuộc đời. Mái nhà là nơi chúng ta trút bỏ mọi âu lo, là nơi có những bữa cơm ấm nóng và tình yêu thương vô điều kiện của những người cùng chung dòng máu. Chúng ta được dạy dỗ rằng: người ngoài có thể lừa lọc, xã hội có thể toan tính, nhưng người thân ruột thịt thì sẽ luôn bảo bọc và chở che cho nhau. Người cha là chỗ dựa vững chãi, người mẹ là bến bờ dịu êm, và những người anh em họ hàng là những người sẽ không bao giờ phản bội ta. Niềm tin vào sự an toàn dưới mái ấm gia đình dường như là một định đề hiển nhiên không bao giờ bị đem ra hoài nghi. Chúng ta tin rằng cánh cửa nhà khép lại là mọi hiểm nguy của thế giới bên ngoài đều phải dừng bước trước thềm. Thế nhưng, có bao giờ bạn tự hỏi, điều gì sẽ xảy ra nếu bóng tối rùng rợn nhất lại bắt nguồn từ chính những người ngồi chung mâm cơm mỗi tối? Điều gì sẽ xảy ra khi quyền uy gia trưởng và điểm mù thân thuộc trở thành một pháo đài giam cầm tâm lý không lối thoát? Tại sao những tiếng kêu cứu yếu ớt của nạn nhân trong gia đình lại thường bị chính người thân vùi lấp dưới danh nghĩa giữ gìn thể diện? Làm thế nào tình thân lại có thể bị bóp méo thành một thứ xiềng xích tinh thần tàn nhẫn nhất? Trước khi bước vào cuộc giải phẫu tâm lý đầy đau đớn này, chúng ta hãy lắng nghe tiếng nói từ một người dân đời thường.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "Trong tâm thức của mỗi con người, gia đình luôn là bến đỗ bình yên và thiêng liêng nhất sau những giông bão của cuộc đời.",
+    "words": 26
+   },
+   {
+    "id": "1.03#2",
+    "text": "Mái nhà là nơi chúng ta trút bỏ mọi âu lo, là nơi có những bữa cơm ấm nóng và tình yêu thương vô điều kiện của những người cùng chung dòng máu.",
+    "words": 33
+   },
+   {
+    "id": "1.03#3",
+    "text": "Chúng ta được dạy dỗ rằng: người ngoài có thể lừa lọc, xã hội có thể toan tính, nhưng người thân ruột thịt thì sẽ luôn bảo bọc và chở che cho nhau.",
+    "words": 33
+   },
+   {
+    "id": "1.03#4",
+    "text": "Người cha là chỗ dựa vững chãi, người mẹ là bến bờ dịu êm, và những người anh em họ hàng là những người sẽ không bao giờ phản bội ta.",
+    "words": 31
+   },
+   {
+    "id": "1.03#5",
+    "text": "Niềm tin vào sự an toàn dưới mái ấm gia đình dường như là một định đề hiển nhiên không bao giờ bị đem ra hoài nghi.",
+    "words": 27
+   },
+   {
+    "id": "1.03#6",
+    "text": "Chúng ta tin rằng cánh cửa nhà khép lại là mọi hiểm nguy của thế giới bên ngoài đều phải dừng bước trước thềm.",
+    "words": 24
+   },
+   {
+    "id": "1.03#7",
+    "text": "Thế nhưng, có bao giờ bạn tự hỏi, điều gì sẽ xảy ra nếu bóng tối rùng rợn nhất lại bắt nguồn từ chính những người ngồi chung mâm cơm mỗi tối?",
+    "words": 32
+   },
+   {
+    "id": "1.03#8",
+    "text": "Điều gì sẽ xảy ra khi quyền uy gia trưởng và điểm mù thân thuộc trở thành một pháo đài giam cầm tâm lý không lối thoát?",
+    "words": 27
+   },
+   {
+    "id": "1.03#9",
+    "text": "Tại sao những tiếng kêu cứu yếu ớt của nạn nhân trong gia đình lại thường bị chính người thân vùi lấp dưới danh nghĩa giữ gìn thể diện?",
+    "words": 29
+   },
+   {
+    "id": "1.03#10",
+    "text": "Làm thế nào tình thân lại có thể bị bóp méo thành một thứ xiềng xích tinh thần tàn nhẫn nhất?",
+    "words": 21
+   },
+   {
+    "id": "1.03#11",
+    "text": "Trước khi bước vào cuộc giải phẫu tâm lý đầy đau đớn này, chúng ta hãy lắng nghe tiếng nói từ một người dân đời thường.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng rè băng ghi âm phỏng vấn đường phố bật nhẹ."
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng N1 - một phụ huynh trung niên, thể hiện định kiến gia đình truyền thống",
+  "text": "Trong gia đình tôi, chuyện trên bảo dưới nghe là nguyên tắc sống còn để giữ gìn nề nếp gia phong. Người cha hay người bác trong họ có thể nghiêm khắc, có thể gia trưởng một chút, nhưng tất cả cũng chỉ vì muốn tốt cho con cháu mà thôi. Người trong nhà với nhau, có máu mủ ruột rà thì làm sao có thể làm hại nhau được? Nếu trong họ có mâu thuẫn hay chuyện xích mích, chúng tôi luôn giải quyết nội bộ kín đáo sau cánh cửa đóng chặt, chứ tuyệt đối không bao giờ đem ra ngoài cho thiên hạ chê cười. Mang chuyện nhà ra cho người ngoài bàn tán là điều tối kỵ, làm bại hoại thanh danh của tổ tiên. Nếu một đứa trẻ trong nhà nói rằng người lớn làm điều gì đó sai trái hay có hành vi không đúng mực, phản xạ đầu tiên của chúng tôi là nhắc nhở đứa trẻ không được hỗn hào, bịa đặt làm mất mặt dòng họ. Trẻ con nhiều khi xem phim ảnh rồi tưởng tượng lung tung, nói năng thiếu suy nghĩ. Gia đình là thiêng liêng, người nhà phải luôn bảo vệ và tin tưởng lẫn nhau trước tiên. Làm sao một người cha mẫu mực, sớm hôm tần tảo nuôi con lại có thể trở thành một con quái vật được chứ? Tôi tin rằng không có người cha nào trên đời lại nhẫn tâm hãm hại chính máu mủ của mình.",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "Trong gia đình tôi, chuyện trên bảo dưới nghe là nguyên tắc sống còn để giữ gìn nề nếp gia phong.",
+    "words": 21
+   },
+   {
+    "id": "1.05#2",
+    "text": "Người cha hay người bác trong họ có thể nghiêm khắc, có thể gia trưởng một chút, nhưng tất cả cũng chỉ vì muốn tốt cho con cháu mà thôi.",
+    "words": 30
+   },
+   {
+    "id": "1.05#3",
+    "text": "Người trong nhà với nhau, có máu mủ ruột rà thì làm sao có thể làm hại nhau được?",
+    "words": 19
+   },
+   {
+    "id": "1.05#4",
+    "text": "Nếu trong họ có mâu thuẫn hay chuyện xích mích, chúng tôi luôn giải quyết nội bộ kín đáo sau cánh cửa đóng chặt, chứ tuyệt đối không bao giờ đem ra ngoài cho thiên hạ chê cười.",
+    "words": 38
+   },
+   {
+    "id": "1.05#5",
+    "text": "Mang chuyện nhà ra cho người ngoài bàn tán là điều tối kỵ, làm bại hoại thanh danh của tổ tiên.",
+    "words": 21
+   },
+   {
+    "id": "1.05#6",
+    "text": "Nếu một đứa trẻ trong nhà nói rằng người lớn làm điều gì đó sai trái hay có hành vi không đúng mực, phản xạ đầu tiên của chúng tôi là nhắc nhở đứa trẻ không được hỗn hào, bịa đặt làm mất mặt dòng họ.",
+    "words": 46
+   },
+   {
+    "id": "1.05#7",
+    "text": "Trẻ con nhiều khi xem phim ảnh rồi tưởng tượng lung tung, nói năng thiếu suy nghĩ.",
+    "words": 17
+   },
+   {
+    "id": "1.05#8",
+    "text": "Gia đình là thiêng liêng, người nhà phải luôn bảo vệ và tin tưởng lẫn nhau trước tiên.",
+    "words": 18
+   },
+   {
+    "id": "1.05#9",
+    "text": "Làm sao một người cha mẫu mực, sớm hôm tần tảo nuôi con lại có thể trở thành một con quái vật được chứ?",
+    "words": 24
+   },
+   {
+    "id": "1.05#10",
+    "text": "Tôi tin rằng không có người cha nào trên đời lại nhẫn tâm hãm hại chính máu mủ của mình.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Trầm giọng, nhấn mạnh sự tương phản sâu sắc",
+  "text": "Đó chính là niềm tin phổ biến của hàng triệu gia đình trên khắp thế giới. Một niềm tin mang tính gắn kết thiêng liêng nhưng lại vô tình trở thành chiếc bẫy tâm lý nguy hiểm nhất: Điểm mù thân thuộc, hay Familiarity Bias. Chúng ta tin rằng sự gần gũi về mặt huyết thống tự động đi kèm với sự an toàn về mặt đạo đức. Chính vì tin tưởng tuyệt đối, nạn nhân thường mất đi khả năng tự vệ ngay từ trong suy nghĩ. Họ cảm thấy có lỗi, cảm thấy tội lỗi mỗi khi nảy sinh sự nghi ngờ đối với người thân ruột thịt. Và khi tội ác xảy ra dưới mái ấm, chiếc áo giáp thể diện dòng họ sẽ lập tức được dựng lên để bóp nghẹt mọi tiếng nói tố cáo. Người ta thà bảo vệ danh dự của một gia đình hoàn hảo còn hơn phải đối diện với một sự thật xé lòng. Nạn nhân bị ép buộc phải im lặng, phải hy sinh phẩm giá để bảo toàn sự bình yên giả tạo cho tập thể. Để hiểu rõ cơ chế tâm lý đằng sau những ngục tù gia đình kéo dài hàng thập kỷ, chúng ta cần cái nhìn sâu sắc từ khoa học hành vi.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "Đó chính là niềm tin phổ biến của hàng triệu gia đình trên khắp thế giới.",
+    "words": 16
+   },
+   {
+    "id": "1.06#2",
+    "text": "Một niềm tin mang tính gắn kết thiêng liêng nhưng lại vô tình trở thành chiếc bẫy tâm lý nguy hiểm nhất: Điểm mù thân thuộc, hay Familiarity Bias.",
+    "words": 29
+   },
+   {
+    "id": "1.06#3",
+    "text": "Chúng ta tin rằng sự gần gũi về mặt huyết thống tự động đi kèm với sự an toàn về mặt đạo đức.",
+    "words": 23
+   },
+   {
+    "id": "1.06#4",
+    "text": "Chính vì tin tưởng tuyệt đối, nạn nhân thường mất đi khả năng tự vệ ngay từ trong suy nghĩ.",
+    "words": 20
+   },
+   {
+    "id": "1.06#5",
+    "text": "Họ cảm thấy có lỗi, cảm thấy tội lỗi mỗi khi nảy sinh sự nghi ngờ đối với người thân ruột thịt.",
+    "words": 22
+   },
+   {
+    "id": "1.06#6",
+    "text": "Và khi tội ác xảy ra dưới mái ấm, chiếc áo giáp thể diện dòng họ sẽ lập tức được dựng lên để bóp nghẹt mọi tiếng nói tố cáo.",
+    "words": 30
+   },
+   {
+    "id": "1.06#7",
+    "text": "Người ta thà bảo vệ danh dự của một gia đình hoàn hảo còn hơn phải đối diện với một sự thật xé lòng.",
+    "words": 24
+   },
+   {
+    "id": "1.06#8",
+    "text": "Nạn nhân bị ép buộc phải im lặng, phải hy sinh phẩm giá để bảo toàn sự bình yên giả tạo cho tập thể.",
+    "words": 24
+   },
+   {
+    "id": "1.06#9",
+    "text": "Để hiểu rõ cơ chế tâm lý đằng sau những ngục tù gia đình kéo dài hàng thập kỷ, chúng ta cần cái nhìn sâu sắc từ khoa học hành vi.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Giọng nữ sắc sảo, tự tin, mang chiều sâu học thuật",
+  "text": "Hiện tượng mà người bình thường vừa chia sẻ được tâm lý học định danh là Điểm mù thân thuộc, hay Familiarity Bias, kết hợp với Thao túng thực tại gia đình, tức Domestic Gaslighting. Trong môi trường gia đình khép kín, kẻ bạo hành thường nắm giữ vị thế quyền lực tuyệt đối về kinh tế và tinh thần. Chúng sử dụng danh nghĩa tình thương và quyền làm cha mẹ để từng bước kiểm soát và cô lập các thành viên. Khi nạn nhân bộc lộ sự bất an hay phản kháng, kẻ thao túng sẽ dùng cảm giác tội lỗi và sự bất hiếu để trừng phạt tâm lý. Chúng khiến nạn nhân tin rằng mọi sai trái đều do bản thân họ hư hỏng, nông nổi hoặc có vấn đề về nhận thức. Nạn nhân dần rơi vào trạng thái tê liệt nhận thức, không còn dám tin vào cảm giác của chính mình. Đồng thời, áp lực từ thể diện gia đình và nỗi sợ bị cộng đồng kỳ thị khiến những người thân xung quanh vô thức rơi vào trạng thái Phủ nhận tập thể, tức Collective Denial. Họ nhìn thấy những dấu hiệu bất thường, nghe thấy những âm thanh lạ nhưng bộ não của họ từ chối xâu chuỗi sự thật vì không dám phá vỡ ảo tưởng về một tổ ấm bình yên. Họ chọn cách nhắm mắt làm ngơ để bảo vệ sự an toàn tâm lý của chính bản thân mình. Và minh chứng kinh hoàng nhất cho chiếc bẫy người nhà này chính là hồ sơ vụ án Josef Fritzl tại nước Áo.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Hiện tượng mà người bình thường vừa chia sẻ được tâm lý học định danh là Điểm mù thân thuộc, hay Familiarity Bias, kết hợp với Thao túng thực tại gia đình, tức Domestic Gaslighting.",
+    "words": 35
+   },
+   {
+    "id": "1.07#2",
+    "text": "Trong môi trường gia đình khép kín, kẻ bạo hành thường nắm giữ vị thế quyền lực tuyệt đối về kinh tế và tinh thần.",
+    "words": 25
+   },
+   {
+    "id": "1.07#3",
+    "text": "Chúng sử dụng danh nghĩa tình thương và quyền làm cha mẹ để từng bước kiểm soát và cô lập các thành viên.",
+    "words": 23
+   },
+   {
+    "id": "1.07#4",
+    "text": "Khi nạn nhân bộc lộ sự bất an hay phản kháng, kẻ thao túng sẽ dùng cảm giác tội lỗi và sự bất hiếu để trừng phạt tâm lý.",
+    "words": 29
+   },
+   {
+    "id": "1.07#5",
+    "text": "Chúng khiến nạn nhân tin rằng mọi sai trái đều do bản thân họ hư hỏng, nông nổi hoặc có vấn đề về nhận thức.",
+    "words": 25
+   },
+   {
+    "id": "1.07#6",
+    "text": "Nạn nhân dần rơi vào trạng thái tê liệt nhận thức, không còn dám tin vào cảm giác của chính mình.",
+    "words": 21
+   },
+   {
+    "id": "1.07#7",
+    "text": "Đồng thời, áp lực từ thể diện gia đình và nỗi sợ bị cộng đồng kỳ thị khiến những người thân xung quanh vô thức rơi vào trạng thái Phủ nhận tập thể, tức Collective Denial.",
+    "words": 36
+   },
+   {
+    "id": "1.07#8",
+    "text": "Họ nhìn thấy những dấu hiệu bất thường, nghe thấy những âm thanh lạ nhưng bộ não của họ từ chối xâu chuỗi sự thật vì không dám phá vỡ ảo tưởng về một tổ ấm bình yên.",
+    "words": 38
+   },
+   {
+    "id": "1.07#9",
+    "text": "Họ chọn cách nhắm mắt làm ngơ để bảo vệ sự an toàn tâm lý của chính bản thân mình.",
+    "words": 20
+   },
+   {
+    "id": "1.07#10",
+    "text": "Và minh chứng kinh hoàng nhất cho chiếc bẫy người nhà này chính là hồ sơ vụ án Josef Fritzl tại nước Áo.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Tiếp nối nhịp kịch tính, mở ra hồ sơ án",
+  "text": "Một kỹ sư điện đã nghỉ hưu, một người cha của bảy người con, một người chồng gương mẫu trong mắt hàng xóm tại thị trấn Amstetten yên bình. Người đàn ông ấy luôn xuất hiện với nụ cười phúc hậu, chăm chỉ làm vườn và tận tụy chăm lo cho gia đình. Thế nhưng, ngay dưới sàn nhà nơi gia đình ông ta sinh hoạt mỗi ngày là một căn hầm bê tông kiên cố, nơi một người con gái ruột bị giam cầm suốt hai mươi tư năm trong bóng tối vĩnh hằng. Một tội ác xảy ra ngay dưới chân của những người thân yêu mà không một ai hay biết. Chúng ta hãy cùng Điều tra viên lật mở hồ sơ chấn động về Josef Fritzl.",
+  "sentences": [
+   {
+    "id": "1.08#1",
+    "text": "Một kỹ sư điện đã nghỉ hưu, một người cha của bảy người con, một người chồng gương mẫu trong mắt hàng xóm tại thị trấn Amstetten yên bình.",
+    "words": 29
+   },
+   {
+    "id": "1.08#2",
+    "text": "Người đàn ông ấy luôn xuất hiện với nụ cười phúc hậu, chăm chỉ làm vườn và tận tụy chăm lo cho gia đình.",
+    "words": 24
+   },
+   {
+    "id": "1.08#3",
+    "text": "Thế nhưng, ngay dưới sàn nhà nơi gia đình ông ta sinh hoạt mỗi ngày là một căn hầm bê tông kiên cố, nơi một người con gái ruột bị giam cầm suốt hai mươi tư năm trong bóng tối vĩnh hằng.",
+    "words": 42
+   },
+   {
+    "id": "1.08#4",
+    "text": "Một tội ác xảy ra ngay dưới chân của những người thân yêu mà không một ai hay biết.",
+    "words": 19
+   },
+   {
+    "id": "1.08#5",
+    "text": "Chúng ta hãy cùng Điều tra viên lật mở hồ sơ chấn động về Josef Fritzl.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Âm thanh tiếng kim loại cọ xát rỉ sét, tiếng quạt thông gió trong hầm ngầm quay đều đều ngột ngạt và lạnh lẽo."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Tiếng cánh cửa sắt dày tám lớp đóng sầm lại, tiếng khóa mã số điện tử kêu tít tít, tiếng bước chân nặng nề đi xuống cầu thang hầm."
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng nam lạnh lùng, dứt khoát, phong thái thực chiến",
+  "text": "Thị trấn Amstetten, thuộc bang Hạ Áo, là một vùng đất thanh bình với những ngôi nhà cổ kính và những vườn cây xanh mướt. Tại số 40 đường Ybbsstrasse, Josef Fritzl là một người đàn ông bảy mươi ba tuổi được cả cộng đồng kính trọng. Ông ta là một kỹ sư điện tài năng, một chủ nhà trọ chăm chỉ và là một người cha nghiêm khắc nhưng mẫu mực. Hắn luôn duy trì kỷ luật thép trong gia đình và tự tay quản lý mọi chi tiêu sinh hoạt. Vào tháng 8 năm 1984, cô con gái mười tám tuổi của ông ta là Elisabeth Fritzl bỗng nhiên biến mất bí ẩn. Vài tuần sau, Josef Fritzl đưa cho cảnh sát và người vợ Rosemarie một bức thư viết tay của Elisabeth, nói rằng cô đã chán ghét cuộc sống gia đình và quyết định bỏ trốn theo một giáo phái tôn giáo bí mật. Bức thư yêu cầu gia đình đừng tìm kiếm cô. Cảnh sát và chính quyền địa phương hoàn toàn tin tưởng vào lời giải thích của người cha đáng kính và chính thức đình chỉ cuộc tìm kiếm. Thế nhưng, sự thật lại đen tối hơn bất kỳ cơn ác mộng nào. Josef Fritzl đã lừa con gái mình xuống căn hầm ngầm bên dưới ngôi nhà với lý do nhờ cô giữ giúp một cánh cửa nặng. Ngay khi Elisabeth bước vào, hắn đã đánh thuốc mê và dùng còng sắt khóa chặt cô trong một căn phòng kín không có cửa sổ. Căn hầm này đã được Fritzl bí mật xây dựng và gia cố bằng bê tông cốt thép dày đặc suốt nhiều năm trước đó, với tám lớp cửa bảo vệ kiên cố và hệ thống khóa mã số điện tử tối mật. Tại nơi địa ngục không ánh sáng mặt trời này, Elisabeth đã bị giam cầm suốt hai mươi tư năm ròng rã, từ năm 1984 đến năm 2008.",
+  "sentences": [
+   {
+    "id": "2.03#1",
+    "text": "Thị trấn Amstetten, thuộc bang Hạ Áo, là một vùng đất thanh bình với những ngôi nhà cổ kính và những vườn cây xanh mướt.",
+    "words": 25
+   },
+   {
+    "id": "2.03#2",
+    "text": "Tại số 40 đường Ybbsstrasse, Josef Fritzl là một người đàn ông bảy mươi ba tuổi được cả cộng đồng kính trọng.",
+    "words": 22
+   },
+   {
+    "id": "2.03#3",
+    "text": "Ông ta là một kỹ sư điện tài năng, một chủ nhà trọ chăm chỉ và là một người cha nghiêm khắc nhưng mẫu mực.",
+    "words": 25
+   },
+   {
+    "id": "2.03#4",
+    "text": "Hắn luôn duy trì kỷ luật thép trong gia đình và tự tay quản lý mọi chi tiêu sinh hoạt.",
+    "words": 20
+   },
+   {
+    "id": "2.03#5",
+    "text": "Vào tháng 8 năm 1984, cô con gái mười tám tuổi của ông ta là Elisabeth Fritzl bỗng nhiên biến mất bí ẩn.",
+    "words": 23
+   },
+   {
+    "id": "2.03#6",
+    "text": "Vài tuần sau, Josef Fritzl đưa cho cảnh sát và người vợ Rosemarie một bức thư viết tay của Elisabeth, nói rằng cô đã chán ghét cuộc sống gia đình và quyết định bỏ trốn theo một giáo phái tôn giáo bí mật.",
+    "words": 43
+   },
+   {
+    "id": "2.03#7",
+    "text": "Bức thư yêu cầu gia đình đừng tìm kiếm cô.",
+    "words": 10
+   },
+   {
+    "id": "2.03#8",
+    "text": "Cảnh sát và chính quyền địa phương hoàn toàn tin tưởng vào lời giải thích của người cha đáng kính và chính thức đình chỉ cuộc tìm kiếm.",
+    "words": 28
+   },
+   {
+    "id": "2.03#9",
+    "text": "Thế nhưng, sự thật lại đen tối hơn bất kỳ cơn ác mộng nào.",
+    "words": 14
+   },
+   {
+    "id": "2.03#10",
+    "text": "Josef Fritzl đã lừa con gái mình xuống căn hầm ngầm bên dưới ngôi nhà với lý do nhờ cô giữ giúp một cánh cửa nặng.",
+    "words": 26
+   },
+   {
+    "id": "2.03#11",
+    "text": "Ngay khi Elisabeth bước vào, hắn đã đánh thuốc mê và dùng còng sắt khóa chặt cô trong một căn phòng kín không có cửa sổ.",
+    "words": 26
+   },
+   {
+    "id": "2.03#12",
+    "text": "Căn hầm này đã được Fritzl bí mật xây dựng và gia cố bằng bê tông cốt thép dày đặc suốt nhiều năm trước đó, với tám lớp cửa bảo vệ kiên cố và hệ thống khóa mã số điện tử tối mật.",
+    "words": 43
+   },
+   {
+    "id": "2.03#13",
+    "text": "Tại nơi địa ngục không ánh sáng mặt trời này, Elisabeth đã bị giam cầm suốt hai mươi tư năm ròng rã, từ năm 1984 đến năm 2008.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Đặt câu hỏi khai thác nghiệp vụ",
+  "text": "Một cô gái trẻ bị giam cầm ngay dưới nền nhà của một gia đình đông đúc suốt gần một phần tư thế kỷ. Làm thế nào một người cha có thể qua mặt được người vợ chung sống cùng nhà, các con cháu và toàn bộ các cơ quan thanh tra an toàn đô thị suốt hai mươi tư năm? Màn kịch chia ngăn của hắn đã được dàn dựng tinh vi đến mức độ nào? Tại sao không một người thuê trọ nào trong tòa nhà phát hiện ra sự tồn tại của ngục tối dưới tầng hầm?",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Một cô gái trẻ bị giam cầm ngay dưới nền nhà của một gia đình đông đúc suốt gần một phần tư thế kỷ.",
+    "words": 24
+   },
+   {
+    "id": "2.04#2",
+    "text": "Làm thế nào một người cha có thể qua mặt được người vợ chung sống cùng nhà, các con cháu và toàn bộ các cơ quan thanh tra an toàn đô thị suốt hai mươi tư năm?",
+    "words": 37
+   },
+   {
+    "id": "2.04#3",
+    "text": "Màn kịch chia ngăn của hắn đã được dàn dựng tinh vi đến mức độ nào?",
+    "words": 16
+   },
+   {
+    "id": "2.04#4",
+    "text": "Tại sao không một người thuê trọ nào trong tòa nhà phát hiện ra sự tồn tại của ngục tối dưới tầng hầm?",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Bóc tách thủ đoạn MO nghiệp vụ",
+  "text": "Thủ đoạn gây án, hay Modus Operandi của Josef Fritzl, là sự kết hợp giữa kỹ thuật xây dựng ngụy trang và sự thống trị độc tài trong gia đình. Hắn cấm tuyệt đối vợ và các con không bao giờ được phép bước chân xuống tầng hầm với lý do đó là xưởng cơ khí riêng để hắn nghiên cứu máy móc. Hắn đe dọa rằng tầng hầm có hệ thống điện cao thế nguy hiểm và khí độc có thể phát nổ bất cứ lúc nào. Mỗi buổi sáng, hắn mang thức ăn và nhu yếu phẩm xuống hầm, và dành hàng giờ ở đó mà không ai dám chất vấn. Đặc biệt, trong suốt hai mươi tư năm giam cầm, Elisabeth đã sinh ra bảy người con trong căn hầm ngột ngạt đó. Một đứa trẻ qua đời ngay sau khi sinh vì thiếu chăm sóc y tế và bị Fritzl thiêu hủy trong lò sưởi. Ba đứa trẻ được hắn giữ lại dưới hầm cùng mẹ, chưa từng một lần nhìn thấy ánh sáng mặt trời suốt thời thơ ấu. Còn ba đứa trẻ khác được hắn mang lên tầng trên để nuôi dưỡng bằng một kịch bản hoàn hảo: Hắn đặt những đứa trẻ sơ sinh trước cửa nhà mình cùng với những bức thư giả mạo chữ viết của Elisabeth, nói rằng cô quá nghèo khó không thể nuôi con nên nhờ cha mẹ cưu mang giúp. Chính quyền địa phương và các cơ quan phúc lợi xã hội đã hết lời ca ngợi vợ chồng Josef Fritzl là những bậc ông bà nhân từ, vĩ đại vì đã cưu mang những đứa cháu bị người mẹ bỏ rơi. Hắn đã biến chính quyền và xã hội thành những công cụ bảo vệ hoàn hảo cho nhà tù ngầm của mình.",
+  "sentences": [
+   {
+    "id": "2.05#1",
+    "text": "Thủ đoạn gây án, hay Modus Operandi của Josef Fritzl, là sự kết hợp giữa kỹ thuật xây dựng ngụy trang và sự thống trị độc tài trong gia đình.",
+    "words": 30
+   },
+   {
+    "id": "2.05#2",
+    "text": "Hắn cấm tuyệt đối vợ và các con không bao giờ được phép bước chân xuống tầng hầm với lý do đó là xưởng cơ khí riêng để hắn nghiên cứu máy móc.",
+    "words": 33
+   },
+   {
+    "id": "2.05#3",
+    "text": "Hắn đe dọa rằng tầng hầm có hệ thống điện cao thế nguy hiểm và khí độc có thể phát nổ bất cứ lúc nào.",
+    "words": 25
+   },
+   {
+    "id": "2.05#4",
+    "text": "Mỗi buổi sáng, hắn mang thức ăn và nhu yếu phẩm xuống hầm, và dành hàng giờ ở đó mà không ai dám chất vấn.",
+    "words": 25
+   },
+   {
+    "id": "2.05#5",
+    "text": "Đặc biệt, trong suốt hai mươi tư năm giam cầm, Elisabeth đã sinh ra bảy người con trong căn hầm ngột ngạt đó.",
+    "words": 23
+   },
+   {
+    "id": "2.05#6",
+    "text": "Một đứa trẻ qua đời ngay sau khi sinh vì thiếu chăm sóc y tế và bị Fritzl thiêu hủy trong lò sưởi.",
+    "words": 23
+   },
+   {
+    "id": "2.05#7",
+    "text": "Ba đứa trẻ được hắn giữ lại dưới hầm cùng mẹ, chưa từng một lần nhìn thấy ánh sáng mặt trời suốt thời thơ ấu.",
+    "words": 25
+   },
+   {
+    "id": "2.05#8",
+    "text": "Còn ba đứa trẻ khác được hắn mang lên tầng trên để nuôi dưỡng bằng một kịch bản hoàn hảo:",
+    "words": 20
+   },
+   {
+    "id": "2.05#9",
+    "text": "Hắn đặt những đứa trẻ sơ sinh trước cửa nhà mình cùng với những bức thư giả mạo chữ viết của Elisabeth, nói rằng cô quá nghèo khó không thể nuôi con nên nhờ cha mẹ cưu mang giúp.",
+    "words": 39
+   },
+   {
+    "id": "2.05#10",
+    "text": "Chính quyền địa phương và các cơ quan phúc lợi xã hội đã hết lời ca ngợi vợ chồng Josef Fritzl là những bậc ông bà nhân từ, vĩ đại vì đã cưu mang những đứa cháu bị người mẹ bỏ rơi.",
+    "words": 42
+   },
+   {
+    "id": "2.05#11",
+    "text": "Hắn đã biến chính quyền và xã hội thành những công cụ bảo vệ hoàn hảo cho nhà tù ngầm của mình.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Phân tích cơ chế tâm lý và dấu ấn Chữ ký",
+  "text": "Trường hợp của Josef Fritzl phơi bày sự tha hóa cực đoan nhất của Chủ nghĩa gia trưởng độc đoán kết hợp với Sự chia ngăn nhận thức, tức Compartmentalization. Fritzl không coi các thành viên trong gia đình là những con người độc lập có quyền tự do. Hắn coi họ là tài sản sở hữu tuyệt đối của hắn. Hắn khao khát một thế giới hoàn toàn nằm dưới sự kiểm soát độc tài của hắn, nơi hắn là chúa tể ban phát sự sống, thức ăn và trừng phạt. Khi ở trên mặt đất, hắn đóng vai người ông hiền từ, đưa các cháu đi chơi công viên và trò chuyện vui vẻ với hàng xóm. Nhưng khi cánh cửa hầm khép lại, hắn trở thành một kẻ bạo chúa tàn nhẫn tước đoạt toàn bộ nhân vị của người khác. Hắn tự ru ngủ lương tâm bằng suy nghĩ rằng hắn đang bảo vệ Elisabeth khỏi thế giới bên ngoài đầy cạm bẫy. Hắn tin rằng mình đang mang lại cho cô một cuộc sống an toàn, tránh xa những tệ nạn xã hội. Sự im lặng của người vợ Rosemarie là kết quả của nhiều thập kỷ bị bạo hành tâm lý và áp đặt quyền lực, khiến bà hoàn toàn mất đi khả năng hoài nghi người chồng gia trưởng. Bà trở thành một nạn nhân bị tê liệt hoàn toàn ý chí phản kháng trong chính ngôi nhà của mình.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Trường hợp của Josef Fritzl phơi bày sự tha hóa cực đoan nhất của Chủ nghĩa gia trưởng độc đoán kết hợp với Sự chia ngăn nhận thức, tức Compartmentalization.",
+    "words": 30
+   },
+   {
+    "id": "2.06#2",
+    "text": "Fritzl không coi các thành viên trong gia đình là những con người độc lập có quyền tự do.",
+    "words": 19
+   },
+   {
+    "id": "2.06#3",
+    "text": "Hắn coi họ là tài sản sở hữu tuyệt đối của hắn.",
+    "words": 12
+   },
+   {
+    "id": "2.06#4",
+    "text": "Hắn khao khát một thế giới hoàn toàn nằm dưới sự kiểm soát độc tài của hắn, nơi hắn là chúa tể ban phát sự sống, thức ăn và trừng phạt.",
+    "words": 31
+   },
+   {
+    "id": "2.06#5",
+    "text": "Khi ở trên mặt đất, hắn đóng vai người ông hiền từ, đưa các cháu đi chơi công viên và trò chuyện vui vẻ với hàng xóm.",
+    "words": 27
+   },
+   {
+    "id": "2.06#6",
+    "text": "Nhưng khi cánh cửa hầm khép lại, hắn trở thành một kẻ bạo chúa tàn nhẫn tước đoạt toàn bộ nhân vị của người khác.",
+    "words": 25
+   },
+   {
+    "id": "2.06#7",
+    "text": "Hắn tự ru ngủ lương tâm bằng suy nghĩ rằng hắn đang bảo vệ Elisabeth khỏi thế giới bên ngoài đầy cạm bẫy.",
+    "words": 23
+   },
+   {
+    "id": "2.06#8",
+    "text": "Hắn tin rằng mình đang mang lại cho cô một cuộc sống an toàn, tránh xa những tệ nạn xã hội.",
+    "words": 21
+   },
+   {
+    "id": "2.06#9",
+    "text": "Sự im lặng của người vợ Rosemarie là kết quả của nhiều thập kỷ bị bạo hành tâm lý và áp đặt quyền lực, khiến bà hoàn toàn mất đi khả năng hoài nghi người chồng gia trưởng.",
+    "words": 38
+   },
+   {
+    "id": "2.06#10",
+    "text": "Bà trở thành một nạn nhân bị tê liệt hoàn toàn ý chí phản kháng trong chính ngôi nhà của mình.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Tiếp tục hồ sơ nghiệp vụ phá án",
+  "text": "Lâu đài tội ác của Fritzl chỉ sụp đổ vào tháng 4 năm 2008 khi đứa con gái đầu lòng của Elisabeth dưới hầm là Kerstin mười chín tuổi rơi vào trạng thái hôn mê nguy kịch vì suy tạng. Trước nguy cơ Kerstin tử vong, Elisabeth đã van xin Fritzl đưa cô bé đến bệnh viện cấp cứu. Fritzl đồng ý đưa Kerstin đến Bệnh viện Amstetten cùng một bức thư giả mạo của người mẹ. Tuy nhiên, các bác sĩ tại bệnh viện đã nhận thấy những dấu hiệu bệnh lý cực kỳ bất thường và tình trạng thiếu vitamin D nghiêm trọng của cô gái trẻ chưa từng có hồ sơ y tế. Họ đã thông báo cho cảnh sát và phát lời kêu gọi người mẹ xuất hiện trên truyền hình để cung cấp tiền sử bệnh án. Khi Fritzl đưa Elisabeth lên mặt đất để dàn xếp câu chuyện, cảnh sát đã kịp thời can thiệp và tách riêng Elisabeth khỏi người cha. Khi được các điều tra viên cam kết bảo vệ an toàn tuyệt đối và không bao giờ để cô phải nhìn thấy người cha nữa, Elisabeth đã nghẹn ngào kể lại toàn bộ sự thật kinh hoàng suốt hai mươi tư năm. Ngày 26 tháng 4 năm 2008, Josef Fritzl bị bắt giữ khẩn cấp. Tháng 3 năm 2009, hắn bị kết án tù chung thân và chuyển vào trại giam dành cho tội phạm tâm thần nguy hiểm. Ác mộng Amstetten đã phơi bày một sự thật tàn khốc: chiếc rào chắn an toàn nhất đôi khi lại là nơi giam cầm nghiệt ngã nhất.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Lâu đài tội ác của Fritzl chỉ sụp đổ vào tháng 4 năm 2008 khi đứa con gái đầu lòng của Elisabeth dưới hầm là Kerstin mười chín tuổi rơi vào trạng thái hôn mê nguy kịch vì suy tạng.",
+    "words": 40
+   },
+   {
+    "id": "2.07#2",
+    "text": "Trước nguy cơ Kerstin tử vong, Elisabeth đã van xin Fritzl đưa cô bé đến bệnh viện cấp cứu.",
+    "words": 19
+   },
+   {
+    "id": "2.07#3",
+    "text": "Fritzl đồng ý đưa Kerstin đến Bệnh viện Amstetten cùng một bức thư giả mạo của người mẹ.",
+    "words": 18
+   },
+   {
+    "id": "2.07#4",
+    "text": "Tuy nhiên, các bác sĩ tại bệnh viện đã nhận thấy những dấu hiệu bệnh lý cực kỳ bất thường và tình trạng thiếu vitamin D nghiêm trọng của cô gái trẻ chưa từng có hồ sơ y tế.",
+    "words": 39
+   },
+   {
+    "id": "2.07#5",
+    "text": "Họ đã thông báo cho cảnh sát và phát lời kêu gọi người mẹ xuất hiện trên truyền hình để cung cấp tiền sử bệnh án.",
+    "words": 26
+   },
+   {
+    "id": "2.07#6",
+    "text": "Khi Fritzl đưa Elisabeth lên mặt đất để dàn xếp câu chuyện, cảnh sát đã kịp thời can thiệp và tách riêng Elisabeth khỏi người cha.",
+    "words": 26
+   },
+   {
+    "id": "2.07#7",
+    "text": "Khi được các điều tra viên cam kết bảo vệ an toàn tuyệt đối và không bao giờ để cô phải nhìn thấy người cha nữa, Elisabeth đã nghẹn ngào kể lại toàn bộ sự thật kinh hoàng suốt hai mươi tư năm.",
+    "words": 43
+   },
+   {
+    "id": "2.07#8",
+    "text": "Ngày 26 tháng 4 năm 2008, Josef Fritzl bị bắt giữ khẩn cấp.",
+    "words": 13
+   },
+   {
+    "id": "2.07#9",
+    "text": "Tháng 3 năm 2009, hắn bị kết án tù chung thân và chuyển vào trại giam dành cho tội phạm tâm thần nguy hiểm.",
+    "words": 24
+   },
+   {
+    "id": "2.07#10",
+    "text": "Ác mộng Amstetten đã phơi bày một sự thật tàn khốc: chiếc rào chắn an toàn nhất đôi khi lại là nơi giam cầm nghiệt ngã nhất.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Âm thanh Minimalist Piano lạnh lẽo, nhịp điệu ngắt quãng xen lẫn tiếng sóng biển vỗ vào chân cầu cảng cô quạnh trong sương mù."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "SFX",
+  "desc": "Tiếng vali kéo lách cách trên sàn gỗ, tiếng gió biển thổi rít từng cơn lạnh buốt, tiếng chuông điện thoại gọi nhỡ vang lên vô vọng."
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Chuyển đoạn, kết nối chu trình nhận thức",
+  "text": "Bi kịch Amstetten cho thấy sự bạo tàn của việc giam cầm và kiểm soát thể xác dưới danh nghĩa người chủ gia đình. Nhưng chiếc bẫy người nhà không chỉ dừng lại ở việc giam hãm. Trong một biến thể tâm lý đáng sợ khác, khi chiếc mặt nạ gia đình hoàn hảo bị đe dọa sụp đổ trước những áp lực kinh tế và danh vọng, kẻ thủ ác có thể chọn cách tiêu diệt toàn bộ những người thân yêu nhất để giải thoát cho cái tôi bệnh hoạn của mình. Đó là hiện tượng Kẻ hủy diệt gia đình, hay Family Annihilator. Những người cha, người chồng từng được xem là trụ cột yêu thương bỗng chốc biến thành những sát thủ máu lạnh hủy diệt chính tổ ấm của mình. Họ coi sự tồn tại của vợ con như một gánh nặng cần phải rũ bỏ để bắt đầu lại cuộc đời mới. Chúng ta hãy lắng nghe sự bàng hoàng từ một người dân đời thường khi chứng kiến những bi kịch thảm sát gia đình bất ngờ xảy ra.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Bi kịch Amstetten cho thấy sự bạo tàn của việc giam cầm và kiểm soát thể xác dưới danh nghĩa người chủ gia đình.",
+    "words": 24
+   },
+   {
+    "id": "3.03#2",
+    "text": "Nhưng chiếc bẫy người nhà không chỉ dừng lại ở việc giam hãm.",
+    "words": 13
+   },
+   {
+    "id": "3.03#3",
+    "text": "Trong một biến thể tâm lý đáng sợ khác, khi chiếc mặt nạ gia đình hoàn hảo bị đe dọa sụp đổ trước những áp lực kinh tế và danh vọng, kẻ thủ ác có thể chọn cách tiêu diệt toàn bộ những người thân yêu nhất để giải thoát cho cái tôi bệnh hoạn của mình.",
+    "words": 57
+   },
+   {
+    "id": "3.03#4",
+    "text": "Đó là hiện tượng Kẻ hủy diệt gia đình, hay Family Annihilator.",
+    "words": 12
+   },
+   {
+    "id": "3.03#5",
+    "text": "Những người cha, người chồng từng được xem là trụ cột yêu thương bỗng chốc biến thành những sát thủ máu lạnh hủy diệt chính tổ ấm của mình.",
+    "words": 29
+   },
+   {
+    "id": "3.03#6",
+    "text": "Họ coi sự tồn tại của vợ con như một gánh nặng cần phải rũ bỏ để bắt đầu lại cuộc đời mới.",
+    "words": 23
+   },
+   {
+    "id": "3.03#7",
+    "text": "Chúng ta hãy lắng nghe sự bàng hoàng từ một người dân đời thường khi chứng kiến những bi kịch thảm sát gia đình bất ngờ xảy ra.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "SFX",
+  "desc": "Tiếng rè băng ghi âm phỏng vấn đường phố."
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng N2 - phụ nữ trẻ, thể hiện sự bàng hoàng và sợ hãi",
+  "text": "Mỗi lần đọc tin tức về những vụ người cha sát hại cả vợ con rồi bỏ trốn, tôi thực sự cảm thấy rợn người và không thể nào hiểu nổi. Trên mạng xã hội, họ luôn đăng những bức ảnh gia đình đi du lịch hạnh phúc, những lời nhắn gửi yêu thương ngọt ngào dành cho vợ con. Người đàn ông đó trông rất điển trai, lịch thiệp, làm việc chăm chỉ và luôn tỏ ra là người yêu chiều gia đình hết mực. Họ tổ chức sinh nhật cho con, chia sẻ những khoảnh khắc ấm cúng khiến ai nhìn vào cũng phải ghen tị. Làm sao một người có thể ôm ấp con mình vào buổi sáng mà đến đêm lại có thể ra tay tước đoạt sinh mạng của chính những đứa con máu mủ của mình? Động cơ nào có thể thúc đẩy một người cha làm ra hành vi tàn độc đến mức phi nhân tính như vậy? Chẳng lẽ những yêu thương, những nụ cười suốt nhiều năm chung sống chỉ hoàn toàn là một vở kịch giả tạo hay sao? Làm thế nào người vợ có thể nhận biết được người đàn ông đầu ấp tay gối đang nung nấu một ý định kinh hoàng?",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Mỗi lần đọc tin tức về những vụ người cha sát hại cả vợ con rồi bỏ trốn, tôi thực sự cảm thấy rợn người và không thể nào hiểu nổi.",
+    "words": 31
+   },
+   {
+    "id": "3.05#2",
+    "text": "Trên mạng xã hội, họ luôn đăng những bức ảnh gia đình đi du lịch hạnh phúc, những lời nhắn gửi yêu thương ngọt ngào dành cho vợ con.",
+    "words": 29
+   },
+   {
+    "id": "3.05#3",
+    "text": "Người đàn ông đó trông rất điển trai, lịch thiệp, làm việc chăm chỉ và luôn tỏ ra là người yêu chiều gia đình hết mực.",
+    "words": 26
+   },
+   {
+    "id": "3.05#4",
+    "text": "Họ tổ chức sinh nhật cho con, chia sẻ những khoảnh khắc ấm cúng khiến ai nhìn vào cũng phải ghen tị.",
+    "words": 22
+   },
+   {
+    "id": "3.05#5",
+    "text": "Làm sao một người có thể ôm ấp con mình vào buổi sáng mà đến đêm lại có thể ra tay tước đoạt sinh mạng của chính những đứa con máu mủ của mình?",
+    "words": 34
+   },
+   {
+    "id": "3.05#6",
+    "text": "Động cơ nào có thể thúc đẩy một người cha làm ra hành vi tàn độc đến mức phi nhân tính như vậy?",
+    "words": 23
+   },
+   {
+    "id": "3.05#7",
+    "text": "Chẳng lẽ những yêu thương, những nụ cười suốt nhiều năm chung sống chỉ hoàn toàn là một vở kịch giả tạo hay sao?",
+    "words": 24
+   },
+   {
+    "id": "3.05#8",
+    "text": "Làm thế nào người vợ có thể nhận biết được người đàn ông đầu ấp tay gối đang nung nấu một ý định kinh hoàng?",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Phân tích sâu về hiện tượng Family Annihilator và vụ án Christian Longo",
+  "text": "Câu hỏi của bạn đã chạm vào một trong những ngóc ngách tăm tối nhất của tâm lý học tội phạm: Hiện tượng Kẻ hủy diệt gia đình, hay Family Annihilation. Trong phần lớn các trường hợp, những kẻ này mang nét tính cách Ái kỷ ác tính, tức Malignant Narcissism. Chúng không nhìn nhận vợ con như những cá nhân độc lập có quyền sống. Chúng nhìn nhận gia đình như một món phụ kiện trang sức lộng lẫy để tô điểm cho hình ảnh thành đạt của bản thân trước xã hội. Khi đối mặt với khủng hoảng tài chính, nợ nần hoặc nguy cơ bị bóc trần những hành vi gian dối, cái tôi ái kỷ của chúng không thể chấp nhận sự thất bại và nỗi nhục nhã mất mặt trước cộng đồng. Chúng coi gia đình là tài sản sở hữu riêng của chúng. Và khi con thuyền danh vọng chìm xuống, chúng tự cho mình quyền được tiêu hủy toàn bộ tài sản đó để trút bỏ gánh nặng và tái tạo một cuộc đời mới cho riêng mình. Chúng tin rằng việc xóa bỏ gia đình sẽ giúp chúng xóa sạch mọi dấu vết của sự thất bại. Minh chứng rõ ràng nhất cho cơ chế tâm lý tàn nhẫn này chính là vụ án của Christian Longo tại bang Oregon, nước Mỹ vào năm 2001.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Câu hỏi của bạn đã chạm vào một trong những ngóc ngách tăm tối nhất của tâm lý học tội phạm: Hiện tượng Kẻ hủy diệt gia đình, hay Family Annihilation.",
+    "words": 31
+   },
+   {
+    "id": "3.06#2",
+    "text": "Trong phần lớn các trường hợp, những kẻ này mang nét tính cách Ái kỷ ác tính, tức Malignant Narcissism.",
+    "words": 20
+   },
+   {
+    "id": "3.06#3",
+    "text": "Chúng không nhìn nhận vợ con như những cá nhân độc lập có quyền sống.",
+    "words": 15
+   },
+   {
+    "id": "3.06#4",
+    "text": "Chúng nhìn nhận gia đình như một món phụ kiện trang sức lộng lẫy để tô điểm cho hình ảnh thành đạt của bản thân trước xã hội.",
+    "words": 28
+   },
+   {
+    "id": "3.06#5",
+    "text": "Khi đối mặt với khủng hoảng tài chính, nợ nần hoặc nguy cơ bị bóc trần những hành vi gian dối, cái tôi ái kỷ của chúng không thể chấp nhận sự thất bại và nỗi nhục nhã mất mặt trước cộng đồng.",
+    "words": 43
+   },
+   {
+    "id": "3.06#6",
+    "text": "Chúng coi gia đình là tài sản sở hữu riêng của chúng.",
+    "words": 12
+   },
+   {
+    "id": "3.06#7",
+    "text": "Và khi con thuyền danh vọng chìm xuống, chúng tự cho mình quyền được tiêu hủy toàn bộ tài sản đó để trút bỏ gánh nặng và tái tạo một cuộc đời mới cho riêng mình.",
+    "words": 36
+   },
+   {
+    "id": "3.06#8",
+    "text": "Chúng tin rằng việc xóa bỏ gia đình sẽ giúp chúng xóa sạch mọi dấu vết của sự thất bại.",
+    "words": 20
+   },
+   {
+    "id": "3.06#9",
+    "text": "Minh chứng rõ ràng nhất cho cơ chế tâm lý tàn nhẫn này chính là vụ án của Christian Longo tại bang Oregon, nước Mỹ vào năm 2001.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Mở rộng sang hồ sơ vụ án Christian Longo",
+  "text": "Một gia đình trẻ đẹp như tranh vẽ: người chồng hai mươi bảy tuổi điển trai, người vợ dịu hiền Mary Jane và ba đứa con nhỏ thơ ngây Zachary, Sadie và Madison. Họ sống trong một căn hộ ven biển tại thành phố Newport, bang Oregon. Thế nhưng, đằng sau bức ảnh gia đình hoàn mỹ đó là một chuỗi ngày ngập chìm trong nợ nần, lừa đảo séc và những lời nói dối bệnh lý của người cha. Christian Longo bị đuổi khỏi giáo đoàn vì hành vi trộm cắp, liên tục làm giả giấy tờ tài chính và phải làm thêm tại một quán cà phê Starbucks để trốn tránh các chủ nợ. Khi những lời dối trá không còn có thể che đậy được nữa, người cha mẫu mực đã đưa ra một quyết định tàn bạo. Chúng ta hãy cùng Điều tra viên nhìn lại cách mà người cha mẫu mực đã biến thành kẻ sát hại cả gia đình để chạy trốn thực tại.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "Một gia đình trẻ đẹp như tranh vẽ: người chồng hai mươi bảy tuổi điển trai, người vợ dịu hiền Mary Jane và ba đứa con nhỏ thơ ngây Zachary, Sadie và Madison.",
+    "words": 33
+   },
+   {
+    "id": "3.07#2",
+    "text": "Họ sống trong một căn hộ ven biển tại thành phố Newport, bang Oregon.",
+    "words": 14
+   },
+   {
+    "id": "3.07#3",
+    "text": "Thế nhưng, đằng sau bức ảnh gia đình hoàn mỹ đó là một chuỗi ngày ngập chìm trong nợ nần, lừa đảo séc và những lời nói dối bệnh lý của người cha.",
+    "words": 33
+   },
+   {
+    "id": "3.07#4",
+    "text": "Christian Longo bị đuổi khỏi giáo đoàn vì hành vi trộm cắp, liên tục làm giả giấy tờ tài chính và phải làm thêm tại một quán cà phê Starbucks để trốn tránh các chủ nợ.",
+    "words": 36
+   },
+   {
+    "id": "3.07#5",
+    "text": "Khi những lời dối trá không còn có thể che đậy được nữa, người cha mẫu mực đã đưa ra một quyết định tàn bạo.",
+    "words": 25
+   },
+   {
+    "id": "3.07#6",
+    "text": "Chúng ta hãy cùng Điều tra viên nhìn lại cách mà người cha mẫu mực đã biến thành kẻ sát hại cả gia đình để chạy trốn thực tại.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Bóc tách hồ sơ Christian Longo",
+  "text": "Tháng 12 năm 2001, tại vùng vịnh Yaquina thuộc thành phố Newport, bang Oregon, các ngư dân địa phương bàng hoàng phát hiện thi thể của cậu bé Zachary bốn tuổi trôi dạt vào bờ biển. Vài ngày sau, thợ lặn tiếp tục tìm thấy thi thể của cô bé Sadie ba tuổi bị buộc vào những khối đá dưới đáy nước. Và trong hai chiếc vali du lịch nặng trịch được trục vớt từ vịnh biển, cảnh sát tìm thấy thi thể của người mẹ Mary Jane ba mươi tư tuổi và đứa con gái út Madison mới hai tuổi. Toàn bộ gia đình đã bị sát hại một cách tàn nhẫn và ném xuống biển sâu trong đêm tối. Nghi phạm duy nhất và lớn nhất của vụ thảm sát chính là người cha: Christian Longo. Tuy nhiên, Longo đã hoàn toàn biến mất khỏi địa phương ngay sau khi gây án. Hắn sử dụng thẻ tín dụng đánh cắp để mua vé máy bay chạy trốn sang thành phố nghỉ dưỡng Cancun tại Mexico. Tại đây, Longo thản nhiên đổi tên, đóng giả làm một nhà báo du lịch tự do của tờ báo danh tiếng The New York Times, vui vẻ khiêu vũ và uống rượu cùng các du khách quốc tế như thể hắn chưa từng có một gia đình nào trên cõi đời này. Hắn tận hưởng cuộc sống tự do trên xương máu của vợ con mà không hề có một chút cắn rứt lương tâm.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "Tháng 12 năm 2001, tại vùng vịnh Yaquina thuộc thành phố Newport, bang Oregon, các ngư dân địa phương bàng hoàng phát hiện thi thể của cậu bé Zachary bốn tuổi trôi dạt vào bờ biển.",
+    "words": 36
+   },
+   {
+    "id": "3.08#2",
+    "text": "Vài ngày sau, thợ lặn tiếp tục tìm thấy thi thể của cô bé Sadie ba tuổi bị buộc vào những khối đá dưới đáy nước.",
+    "words": 26
+   },
+   {
+    "id": "3.08#3",
+    "text": "Và trong hai chiếc vali du lịch nặng trịch được trục vớt từ vịnh biển, cảnh sát tìm thấy thi thể của người mẹ Mary Jane ba mươi tư tuổi và đứa con gái út Madison mới hai tuổi.",
+    "words": 39
+   },
+   {
+    "id": "3.08#4",
+    "text": "Toàn bộ gia đình đã bị sát hại một cách tàn nhẫn và ném xuống biển sâu trong đêm tối.",
+    "words": 20
+   },
+   {
+    "id": "3.08#5",
+    "text": "Nghi phạm duy nhất và lớn nhất của vụ thảm sát chính là người cha: Christian Longo.",
+    "words": 17
+   },
+   {
+    "id": "3.08#6",
+    "text": "Tuy nhiên, Longo đã hoàn toàn biến mất khỏi địa phương ngay sau khi gây án.",
+    "words": 16
+   },
+   {
+    "id": "3.08#7",
+    "text": "Hắn sử dụng thẻ tín dụng đánh cắp để mua vé máy bay chạy trốn sang thành phố nghỉ dưỡng Cancun tại Mexico.",
+    "words": 23
+   },
+   {
+    "id": "3.08#8",
+    "text": "Tại đây, Longo thản nhiên đổi tên, đóng giả làm một nhà báo du lịch tự do của tờ báo danh tiếng The New York Times, vui vẻ khiêu vũ và uống rượu cùng các du khách quốc tế như thể hắn chưa từng có một gia đình nào trên cõi đời này.",
+    "words": 53
+   },
+   {
+    "id": "3.08#9",
+    "text": "Hắn tận hưởng cuộc sống tự do trên xương máu của vợ con mà không hề có một chút cắn rứt lương tâm.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Nhạc giao hưởng dồn dập, tiếng còi tàu biển vang vọng giữa đại dương đen kịt kết hợp với tiếng gõ bàn phím truy nã quốc tế."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng còi xe cảnh sát liên bang FBI, tiếng bước chân ập vào phòng khách sạn tại Mexico, tiếng búa toà án gõ đanh thép."
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng dồn dập, tái hiện cuộc truy bắt",
+  "text": "Trước tính chất man rợ của vụ thảm sát gia đình, Cục Điều tra Liên bang FBI đã đưa Christian Longo vào Danh sách Mười Kẻ Bị Truy Nã Gắt Gao Nhất nước Mỹ. Hình ảnh một người cha trẻ tuổi với nụ cười thân thiện xuất hiện trên khắp các phương tiện truyền thông quốc tế. Tháng 1 năm 2002, một nữ du khách người Mỹ tại Cancun đã nhận ra gương mặt của Longo từ chương trình truyền hình truy nã và báo cho chính quyền. Các đặc vụ liên bang phối hợp cùng cảnh sát Mexico đã ập vào tóm gọn Christian Longo khi hắn đang nằm thư giãn bên bờ biển. Hắn bị trục xuất về Mỹ để đối diện với phiên tòa xét xử lịch sử tại bang Oregon. Tại phòng thẩm vấn và trước bồi thẩm đoàn, bản chất dối trá bệnh lý của Longo một lần nữa bộc lộ trần trụi. Hắn không ngần ngại đổ tội cho chính người vợ đã khuất của mình. Hắn khai man rằng vì mâu thuẫn tài chính, Mary Jane đã phát điên và sát hại hai đứa con nhỏ, buộc hắn phải ra tay sát hại vợ để trả thù rồi ném xác đứa con út xuống biển. Hắn cố gắng đóng vai một người cha đau khổ bị đẩy vào bước đường cùng. Nhưng các bằng chứng giám định pháp y và lời khai mâu thuẫn của hắn đã đập tan hoàn toàn câu chuyện hoang đường đó. Các vết thương trên cơ thể nạn nhân chứng minh chính hắn là kẻ ra tay tàn sát có tính toán từ trước.",
+  "sentences": [
+   {
+    "id": "4.03#1",
+    "text": "Trước tính chất man rợ của vụ thảm sát gia đình, Cục Điều tra Liên bang FBI đã đưa Christian Longo vào Danh sách Mười Kẻ Bị Truy Nã Gắt Gao Nhất nước Mỹ.",
+    "words": 34
+   },
+   {
+    "id": "4.03#2",
+    "text": "Hình ảnh một người cha trẻ tuổi với nụ cười thân thiện xuất hiện trên khắp các phương tiện truyền thông quốc tế.",
+    "words": 23
+   },
+   {
+    "id": "4.03#3",
+    "text": "Tháng 1 năm 2002, một nữ du khách người Mỹ tại Cancun đã nhận ra gương mặt của Longo từ chương trình truyền hình truy nã và báo cho chính quyền.",
+    "words": 31
+   },
+   {
+    "id": "4.03#4",
+    "text": "Các đặc vụ liên bang phối hợp cùng cảnh sát Mexico đã ập vào tóm gọn Christian Longo khi hắn đang nằm thư giãn bên bờ biển.",
+    "words": 27
+   },
+   {
+    "id": "4.03#5",
+    "text": "Hắn bị trục xuất về Mỹ để đối diện với phiên tòa xét xử lịch sử tại bang Oregon.",
+    "words": 19
+   },
+   {
+    "id": "4.03#6",
+    "text": "Tại phòng thẩm vấn và trước bồi thẩm đoàn, bản chất dối trá bệnh lý của Longo một lần nữa bộc lộ trần trụi.",
+    "words": 24
+   },
+   {
+    "id": "4.03#7",
+    "text": "Hắn không ngần ngại đổ tội cho chính người vợ đã khuất của mình.",
+    "words": 14
+   },
+   {
+    "id": "4.03#8",
+    "text": "Hắn khai man rằng vì mâu thuẫn tài chính, Mary Jane đã phát điên và sát hại hai đứa con nhỏ, buộc hắn phải ra tay sát hại vợ để trả thù rồi ném xác đứa con út xuống biển.",
+    "words": 40
+   },
+   {
+    "id": "4.03#9",
+    "text": "Hắn cố gắng đóng vai một người cha đau khổ bị đẩy vào bước đường cùng.",
+    "words": 16
+   },
+   {
+    "id": "4.03#10",
+    "text": "Nhưng các bằng chứng giám định pháp y và lời khai mâu thuẫn của hắn đã đập tan hoàn toàn câu chuyện hoang đường đó.",
+    "words": 25
+   },
+   {
+    "id": "4.03#11",
+    "text": "Các vết thương trên cơ thể nạn nhân chứng minh chính hắn là kẻ ra tay tàn sát có tính toán từ trước.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Dẫn dắt đến thời khắc đối đầu tâm lý",
+  "text": "Sự trơ trẽn của một kẻ sẵn sàng sát hại những đứa con máu mủ rồi vu khống cho người vợ đã chết là minh chứng rõ nhất cho sự phá sản hoàn toàn của đạo đức. Tâm lý của một kẻ ái kỷ khi bị tước bỏ chiếc mặt nạ gia đình hạnh phúc đã diễn biến ra sao trước tòa án? Hắn có run sợ trước sự phán xét của công lý và lương tri con người?",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Sự trơ trẽn của một kẻ sẵn sàng sát hại những đứa con máu mủ rồi vu khống cho người vợ đã chết là minh chứng rõ nhất cho sự phá sản hoàn toàn của đạo đức.",
+    "words": 37
+   },
+   {
+    "id": "4.04#2",
+    "text": "Tâm lý của một kẻ ái kỷ khi bị tước bỏ chiếc mặt nạ gia đình hạnh phúc đã diễn biến ra sao trước tòa án?",
+    "words": 26
+   },
+   {
+    "id": "4.04#3",
+    "text": "Hắn có run sợ trước sự phán xét của công lý và lương tri con người?",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Mổ xẻ Sự tự thương hại ái kỷ và ảo tưởng cứu rỗi",
+  "text": "Trước tòa án, chúng ta không thấy bất kỳ giọt nước mắt nào xót thương cho bốn sinh mệnh đã mất. Những giọt nước mắt của Christian Longo chỉ rơi khi hắn nói về sự nghiệp tan vỡ và tương lai mù mịt của chính bản thân hắn. Đó là Sự tự thương hại ái kỷ, tức Pathological Self-Pity. Hắn sát hại gia đình không phải vì căm ghét họ, mà vì hắn coi họ là những vật cản ngăn bước hắn sống một cuộc đời thượng lưu, tự do mà hắn hằng ao ước. Hắn tin rằng việc xóa bỏ gia đình sẽ giúp hắn quay trở lại điểm xuất phát để làm lại cuộc đời như một trang giấy trắng. Hắn hoàn toàn không có khả năng cảm nhận nỗi kinh hoàng của những đứa trẻ khi bị người cha ruột ném xuống dòng nước lạnh giá. Sự trống rỗng tột cùng của nhân cách thái nhân cách đã biến tổ ấm gia đình thành một bãi tha ma phục vụ cho sự ích kỷ cá nhân. Hắn chỉ quan tâm đến hình ảnh của mình trong mắt công chúng cho đến tận phút chót.",
+  "sentences": [
+   {
+    "id": "4.05#1",
+    "text": "Trước tòa án, chúng ta không thấy bất kỳ giọt nước mắt nào xót thương cho bốn sinh mệnh đã mất.",
+    "words": 21
+   },
+   {
+    "id": "4.05#2",
+    "text": "Những giọt nước mắt của Christian Longo chỉ rơi khi hắn nói về sự nghiệp tan vỡ và tương lai mù mịt của chính bản thân hắn.",
+    "words": 27
+   },
+   {
+    "id": "4.05#3",
+    "text": "Đó là Sự tự thương hại ái kỷ, tức Pathological Self-Pity.",
+    "words": 11
+   },
+   {
+    "id": "4.05#4",
+    "text": "Hắn sát hại gia đình không phải vì căm ghét họ, mà vì hắn coi họ là những vật cản ngăn bước hắn sống một cuộc đời thượng lưu, tự do mà hắn hằng ao ước.",
+    "words": 36
+   },
+   {
+    "id": "4.05#5",
+    "text": "Hắn tin rằng việc xóa bỏ gia đình sẽ giúp hắn quay trở lại điểm xuất phát để làm lại cuộc đời như một trang giấy trắng.",
+    "words": 27
+   },
+   {
+    "id": "4.05#6",
+    "text": "Hắn hoàn toàn không có khả năng cảm nhận nỗi kinh hoàng của những đứa trẻ khi bị người cha ruột ném xuống dòng nước lạnh giá.",
+    "words": 27
+   },
+   {
+    "id": "4.05#7",
+    "text": "Sự trống rỗng tột cùng của nhân cách thái nhân cách đã biến tổ ấm gia đình thành một bãi tha ma phục vụ cho sự ích kỷ cá nhân.",
+    "words": 30
+   },
+   {
+    "id": "4.05#8",
+    "text": "Hắn chỉ quan tâm đến hình ảnh của mình trong mắt công chúng cho đến tận phút chót.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Mô tả phán quyết của tòa án",
+  "text": "Tháng 4 năm 2003, bồi thẩm đoàn hạt Lincoln, bang Oregon đã tuyên phạt Christian Longo có tội đối với toàn bộ các tội danh giết người tăng nặng. Thẩm phán đã tuyên án tử hình đối với Longo bằng hình thức tiêm thuốc độc. Dù bang Oregon sau đó đã ban hành lệnh tạm hoãn thi hành án tử hình, nhưng Longo sẽ phải trải qua toàn bộ phần đời còn lại trong phòng biệt giam nghiêm ngặt của nhà tù bang. Bản án là lời khẳng định đanh thép của công lý rằng: chiếc khiên gia đình không bao giờ có thể che chở cho những tội ác chống lại chính tình máu mủ ruột rà. Sự thật kinh hoàng đã mãi mãi khép lại cuộc đời của một kẻ mang dã tâm quỷ dữ dưới lốt người cha hiền từ.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "Tháng 4 năm 2003, bồi thẩm đoàn hạt Lincoln, bang Oregon đã tuyên phạt Christian Longo có tội đối với toàn bộ các tội danh giết người tăng nặng.",
+    "words": 29
+   },
+   {
+    "id": "4.06#2",
+    "text": "Thẩm phán đã tuyên án tử hình đối với Longo bằng hình thức tiêm thuốc độc.",
+    "words": 16
+   },
+   {
+    "id": "4.06#3",
+    "text": "Dù bang Oregon sau đó đã ban hành lệnh tạm hoãn thi hành án tử hình, nhưng Longo sẽ phải trải qua toàn bộ phần đời còn lại trong phòng biệt giam nghiêm ngặt của nhà tù bang.",
+    "words": 38
+   },
+   {
+    "id": "4.06#4",
+    "text": "Bản án là lời khẳng định đanh thép của công lý rằng: chiếc khiên gia đình không bao giờ có thể che chở cho những tội ác chống lại chính tình máu mủ ruột rà.",
+    "words": 35
+   },
+   {
+    "id": "4.06#5",
+    "text": "Sự thật kinh hoàng đã mãi mãi khép lại cuộc đời của một kẻ mang dã tâm quỷ dữ dưới lốt người cha hiền từ.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Âm thanh ấm áp của đàn Piano hòa cùng tiếng violon trầm lắng, mang lại không gian tĩnh lặng cho sự suy ngẫm và chiêm nghiệm đạo đức."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng thở dài trút bỏ gánh nặng, tiếng mở toang cánh cửa sổ đón ánh nắng ban mai, tiếng gió thổi xào xạc qua tán cây xanh."
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Mở đầu hồi kết bằng sự chiêm nghiệm",
+  "text": "Hai câu chuyện ở hai châu lục khác nhau, nhưng đều để lại một nỗi đau xé lòng về sự phản bội niềm tin nơi mái ấm gia đình. Josef Fritzl giam cầm con gái ruột suốt hai mươi tư năm trong ngục tối; Christian Longo tước đoạt sinh mệnh của vợ con để giải thoát bản thân khỏi áp lực nợ nần. Những bi kịch này nhắc nhở chúng ta một sự thật cay đắng: Huyết thống không tự động tạo ra sự an toàn, và danh xưng người cha, người chồng không tự động biến một cá nhân thành người bảo hộ lương thiện. Một gia đình thực sự hạnh phúc không thể được xây dựng trên sự phục tùng sợ hãi hay sự bao che cho những hành vi bạo lực độc hại. Sự im lặng để giữ gìn thể diện dòng họ chính là đồng lõa nguy hiểm nhất nuôi dưỡng cái ác trong bóng tối. Chúng ta không thể hy sinh sự an toàn của những đứa trẻ để đổi lấy một bức tranh gia đình hoàn hảo giả tạo. Chúng ta hãy lắng nghe sự chuyển biến nhận thức sâu sắc của người bình thường sau khi chứng kiến những bài học đau đớn này.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Hai câu chuyện ở hai châu lục khác nhau, nhưng đều để lại một nỗi đau xé lòng về sự phản bội niềm tin nơi mái ấm gia đình.",
+    "words": 29
+   },
+   {
+    "id": "5.03#2",
+    "text": "Josef Fritzl giam cầm con gái ruột suốt hai mươi tư năm trong ngục tối; Christian Longo tước đoạt sinh mệnh của vợ con để giải thoát bản thân khỏi áp lực nợ nần.",
+    "words": 34
+   },
+   {
+    "id": "5.03#3",
+    "text": "Những bi kịch này nhắc nhở chúng ta một sự thật cay đắng:",
+    "words": 13
+   },
+   {
+    "id": "5.03#4",
+    "text": "Huyết thống không tự động tạo ra sự an toàn, và danh xưng người cha, người chồng không tự động biến một cá nhân thành người bảo hộ lương thiện.",
+    "words": 30
+   },
+   {
+    "id": "5.03#5",
+    "text": "Một gia đình thực sự hạnh phúc không thể được xây dựng trên sự phục tùng sợ hãi hay sự bao che cho những hành vi bạo lực độc hại.",
+    "words": 30
+   },
+   {
+    "id": "5.03#6",
+    "text": "Sự im lặng để giữ gìn thể diện dòng họ chính là đồng lõa nguy hiểm nhất nuôi dưỡng cái ác trong bóng tối.",
+    "words": 24
+   },
+   {
+    "id": "5.03#7",
+    "text": "Chúng ta không thể hy sinh sự an toàn của những đứa trẻ để đổi lấy một bức tranh gia đình hoàn hảo giả tạo.",
+    "words": 25
+   },
+   {
+    "id": "5.03#8",
+    "text": "Chúng ta hãy lắng nghe sự chuyển biến nhận thức sâu sắc của người bình thường sau khi chứng kiến những bài học đau đớn này.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng băng ghi âm phỏng vấn hậu kỳ bật nhẹ."
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng N1 - phản ánh sự thức tỉnh nhận thức của cộng đồng",
+  "text": "Theo dõi hai vụ án này, tôi thực sự cảm thấy bàng hoàng và phải tự vấn lại những quan niệm bấy lâu nay của mình. Trước đây, tôi luôn tin rằng chuyện trong nhà thì phải đóng cửa bảo nhau, người ngoài không có quyền can thiệp. Tôi đã từng coi nhẹ những tiếng khóc hay những lời phàn nàn của con trẻ vì nghĩ rằng người lớn trong nhà thì làm sao có thể làm hại con cháu mình. Tôi từng sợ làm mất mặt gia đình hơn là sợ những nỗi đau thầm kín của con em mình. Nhưng giờ đây, tôi nhận ra rằng sự mù quáng vì thể diện gia đình chính là chiếc gông cùm tước đi cơ hội tự vệ của những người yếu thế nhất. Một gia đình đích thực phải là nơi sự thật được tôn trọng và mỗi đứa trẻ đều được lắng nghe, bảo vệ. Từ nay trở đi, tôi sẽ luôn kiên quyết đặt sự an toàn và phẩm giá của con cái lên trên mọi danh dự hão huyền của dòng họ. Nếu có bất kỳ dấu hiệu lạm dụng hay bạo lực nào xảy ra, dù là từ người thân ruột thịt, tôi sẽ không bao giờ im lặng hay nhượng bộ. Bảo vệ sự an toàn của con trẻ mới là danh dự cao quý nhất của một người làm cha, làm mẹ. Tình yêu thương đích thực phải đi liền với sự dũng cảm đối diện với sự thật.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Theo dõi hai vụ án này, tôi thực sự cảm thấy bàng hoàng và phải tự vấn lại những quan niệm bấy lâu nay của mình.",
+    "words": 26
+   },
+   {
+    "id": "5.05#2",
+    "text": "Trước đây, tôi luôn tin rằng chuyện trong nhà thì phải đóng cửa bảo nhau, người ngoài không có quyền can thiệp.",
+    "words": 22
+   },
+   {
+    "id": "5.05#3",
+    "text": "Tôi đã từng coi nhẹ những tiếng khóc hay những lời phàn nàn của con trẻ vì nghĩ rằng người lớn trong nhà thì làm sao có thể làm hại con cháu mình.",
+    "words": 33
+   },
+   {
+    "id": "5.05#4",
+    "text": "Tôi từng sợ làm mất mặt gia đình hơn là sợ những nỗi đau thầm kín của con em mình.",
+    "words": 20
+   },
+   {
+    "id": "5.05#5",
+    "text": "Nhưng giờ đây, tôi nhận ra rằng sự mù quáng vì thể diện gia đình chính là chiếc gông cùm tước đi cơ hội tự vệ của những người yếu thế nhất.",
+    "words": 32
+   },
+   {
+    "id": "5.05#6",
+    "text": "Một gia đình đích thực phải là nơi sự thật được tôn trọng và mỗi đứa trẻ đều được lắng nghe, bảo vệ.",
+    "words": 23
+   },
+   {
+    "id": "5.05#7",
+    "text": "Từ nay trở đi, tôi sẽ luôn kiên quyết đặt sự an toàn và phẩm giá của con cái lên trên mọi danh dự hão huyền của dòng họ.",
+    "words": 29
+   },
+   {
+    "id": "5.05#8",
+    "text": "Nếu có bất kỳ dấu hiệu lạm dụng hay bạo lực nào xảy ra, dù là từ người thân ruột thịt, tôi sẽ không bao giờ im lặng hay nhượng bộ.",
+    "words": 31
+   },
+   {
+    "id": "5.05#9",
+    "text": "Bảo vệ sự an toàn của con trẻ mới là danh dự cao quý nhất của một người làm cha, làm mẹ.",
+    "words": 22
+   },
+   {
+    "id": "5.05#10",
+    "text": "Tình yêu thương đích thực phải đi liền với sự dũng cảm đối diện với sự thật.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Tổng kết giá trị và mời chuyên gia đưa ra giải pháp",
+  "text": "Đó chính là sự chuyển biến nhận thức mang tính cách mạng cho mỗi tổ ấm gia đình trong xã hội hiện đại. Khi chúng ta dũng cảm phá vỡ bức tường thể diện giả tạo, chúng ta mới thực sự bảo vệ được sự bình yên đích thực cho những người thân yêu. Một mái nhà chỉ thực sự an toàn khi nó không có những vùng cấm của sự sợ hãi. Để giúp quý khán giả có thể nhận diện và bảo vệ bản thân trước những nguy cơ độc hại dưới mái ấm, Chuyên gia tâm lý và Điều tra viên sẽ đúc kết các dấu hiệu cảnh báo đỏ cốt lõi.",
+  "sentences": [
+   {
+    "id": "5.06#1",
+    "text": "Đó chính là sự chuyển biến nhận thức mang tính cách mạng cho mỗi tổ ấm gia đình trong xã hội hiện đại.",
+    "words": 23
+   },
+   {
+    "id": "5.06#2",
+    "text": "Khi chúng ta dũng cảm phá vỡ bức tường thể diện giả tạo, chúng ta mới thực sự bảo vệ được sự bình yên đích thực cho những người thân yêu.",
+    "words": 31
+   },
+   {
+    "id": "5.06#3",
+    "text": "Một mái nhà chỉ thực sự an toàn khi nó không có những vùng cấm của sự sợ hãi.",
+    "words": 19
+   },
+   {
+    "id": "5.06#4",
+    "text": "Để giúp quý khán giả có thể nhận diện và bảo vệ bản thân trước những nguy cơ độc hại dưới mái ấm, Chuyên gia tâm lý và Điều tra viên sẽ đúc kết các dấu hiệu cảnh báo đỏ cốt lõi.",
+    "words": 42
+   }
+  ]
+ },
+ {
+  "id": "5.07",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Đưa ra 3 cảnh báo đỏ tâm lý học",
+  "text": "Dưới góc độ tâm lý học hành vi, có ba tín hiệu báo động đỏ cực kỳ nguy hiểm trong các mối quan hệ gia đình mà bạn không bao giờ được phép lơ là: Thứ nhất là Sự cô lập xã hội có hệ thống. Khi một người chủ gia đình kiểm soát tuyệt đối việc đi lại, giao tiếp và các mối quan hệ bạn bè của các thành viên, cấm đoán họ tiếp xúc với thế giới bên ngoài, đó là dấu hiệu của sự giam cầm tâm lý độc tài. Họ muốn triệt tiêu mọi nguồn hỗ trợ bên ngoài để dễ bề thao túng. Thứ hai là Hiện tượng Thao túng thực tại và Đổ lỗi nạn nhân. Kẻ bạo hành thường xuyên phủ nhận những hành vi sai trái, quy chụp mọi lỗi lầm cho con cái hoặc người phối ngẫu, khiến nạn nhân tin rằng mình đáng bị trừng phạt. Họ bẻ cong ranh giới đúng sai để biến sự áp bức thành lẽ đương nhiên. Thứ ba là Sự thay đổi đột ngột giữa hình ảnh hoàn hảo trên mạng xã hội và sự bế tắc tài chính trong đời thực. Khi một người cố gắng duy trì lối sống xa hoa giả tạo bằng cách nói dối bệnh lý, họ rất dễ rơi vào điểm gãy tâm lý hủy diệt khi vỏ bọc có nguy cơ sụp đổ. Khi nhận thấy những dấu hiệu này, hãy tìm kiếm sự trợ giúp chuyên môn ngay lập tức.",
+  "sentences": [
+   {
+    "id": "5.07#1",
+    "text": "Dưới góc độ tâm lý học hành vi, có ba tín hiệu báo động đỏ cực kỳ nguy hiểm trong các mối quan hệ gia đình mà bạn không bao giờ được phép lơ là:",
+    "words": 35
+   },
+   {
+    "id": "5.07#2",
+    "text": "Thứ nhất là Sự cô lập xã hội có hệ thống.",
+    "words": 11
+   },
+   {
+    "id": "5.07#3",
+    "text": "Khi một người chủ gia đình kiểm soát tuyệt đối việc đi lại, giao tiếp và các mối quan hệ bạn bè của các thành viên, cấm đoán họ tiếp xúc với thế giới bên ngoài, đó là dấu hiệu của sự giam cầm tâm lý độc tài.",
+    "words": 48
+   },
+   {
+    "id": "5.07#4",
+    "text": "Họ muốn triệt tiêu mọi nguồn hỗ trợ bên ngoài để dễ bề thao túng.",
+    "words": 15
+   },
+   {
+    "id": "5.07#5",
+    "text": "Thứ hai là Hiện tượng Thao túng thực tại và Đổ lỗi nạn nhân.",
+    "words": 14
+   },
+   {
+    "id": "5.07#6",
+    "text": "Kẻ bạo hành thường xuyên phủ nhận những hành vi sai trái, quy chụp mọi lỗi lầm cho con cái hoặc người phối ngẫu, khiến nạn nhân tin rằng mình đáng bị trừng phạt.",
+    "words": 34
+   },
+   {
+    "id": "5.07#7",
+    "text": "Họ bẻ cong ranh giới đúng sai để biến sự áp bức thành lẽ đương nhiên.",
+    "words": 16
+   },
+   {
+    "id": "5.07#8",
+    "text": "Thứ ba là Sự thay đổi đột ngột giữa hình ảnh hoàn hảo trên mạng xã hội và sự bế tắc tài chính trong đời thực.",
+    "words": 26
+   },
+   {
+    "id": "5.07#9",
+    "text": "Khi một người cố gắng duy trì lối sống xa hoa giả tạo bằng cách nói dối bệnh lý, họ rất dễ rơi vào điểm gãy tâm lý hủy diệt khi vỏ bọc có nguy cơ sụp đổ.",
+    "words": 38
+   },
+   {
+    "id": "5.07#10",
+    "text": "Khi nhận thấy những dấu hiệu này, hãy tìm kiếm sự trợ giúp chuyên môn ngay lập tức.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "5.08",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Đưa ra 2 nguyên tắc phòng vệ nghiệp vụ thực chiến",
+  "text": "Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng mà mỗi cá nhân cần ghi nhớ để bảo vệ mình và người thân là: Thứ nhất, Luôn duy trì Kênh kết nối an toàn độc lập với bên ngoài. Dạy con trẻ và các thành viên trong gia đình cách liên hệ với các đường dây nóng bảo vệ trẻ em, cảnh sát hoặc những người đáng tin cậy bên ngoài khi gặp nguy hiểm trong chính ngôi nhà của mình. Không có bí mật gia đình nào được phép giữ kín nếu nó đe dọa đến tính mạng và sự an toàn thân thể của con người. Thứ hai, Tôn trọng và xác minh ngay lập tức các linh cảm bất an của con trẻ. Khi một đứa trẻ bày tỏ sự sợ hãi hoặc ngập ngừng không muốn ở một mình với một người thân nào đó, đừng bao giờ gạt đi hay mắng mỏ. Hãy lắng nghe bằng sự kiên nhẫn, quan sát các thay đổi hành vi và tìm kiếm sự hỗ trợ chuyên môn độc lập ngay lập tức. Sự an toàn của con em bạn luôn quan trọng hơn bất kỳ sự nể nang dòng tộc nào. Hãy hành động kịp thời trước khi sự im lặng biến thành bi kịch không thể cứu vãn.",
+  "sentences": [
+   {
+    "id": "5.08#1",
+    "text": "Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng mà mỗi cá nhân cần ghi nhớ để bảo vệ mình và người thân là:",
+    "words": 29
+   },
+   {
+    "id": "5.08#2",
+    "text": "Thứ nhất, Luôn duy trì Kênh kết nối an toàn độc lập với bên ngoài.",
+    "words": 15
+   },
+   {
+    "id": "5.08#3",
+    "text": "Dạy con trẻ và các thành viên trong gia đình cách liên hệ với các đường dây nóng bảo vệ trẻ em, cảnh sát hoặc những người đáng tin cậy bên ngoài khi gặp nguy hiểm trong chính ngôi nhà của mình.",
+    "words": 42
+   },
+   {
+    "id": "5.08#4",
+    "text": "Không có bí mật gia đình nào được phép giữ kín nếu nó đe dọa đến tính mạng và sự an toàn thân thể của con người.",
+    "words": 27
+   },
+   {
+    "id": "5.08#5",
+    "text": "Thứ hai, Tôn trọng và xác minh ngay lập tức các linh cảm bất an của con trẻ.",
+    "words": 18
+   },
+   {
+    "id": "5.08#6",
+    "text": "Khi một đứa trẻ bày tỏ sự sợ hãi hoặc ngập ngừng không muốn ở một mình với một người thân nào đó, đừng bao giờ gạt đi hay mắng mỏ.",
+    "words": 31
+   },
+   {
+    "id": "5.08#7",
+    "text": "Hãy lắng nghe bằng sự kiên nhẫn, quan sát các thay đổi hành vi và tìm kiếm sự hỗ trợ chuyên môn độc lập ngay lập tức.",
+    "words": 27
+   },
+   {
+    "id": "5.08#8",
+    "text": "Sự an toàn của con em bạn luôn quan trọng hơn bất kỳ sự nể nang dòng tộc nào.",
+    "words": 19
+   },
+   {
+    "id": "5.08#9",
+    "text": "Hãy hành động kịp thời trước khi sự im lặng biến thành bi kịch không thể cứu vãn.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "5.09",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm ấm, đúc kết triết lý nhân sinh và kết thúc chương trình",
+  "text": "Mái ấm gia đình chỉ thực sự là nơi trú bão khi nó được thắp sáng bằng sự tôn trọng, lòng trắc ẩn và sự thật. Chiếc then cài cửa chỉ nên dùng để ngăn chặn hiểm nguy từ bên ngoài, chứ không bao giờ được biến thành công cụ giam cầm những nỗi đau bên trong. Hãy yêu thương những người thân yêu của bạn bằng một trái tim chân thành nhưng hãy luôn giữ cho lý trí sự tỉnh táo sáng suốt nhất. Bởi vì sự bình yên của gia đình không nằm ở những bức ảnh hoàn mỹ, mà nằm ở sự an toàn trọn vẹn của từng sinh mệnh dưới mái nhà. Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập tài liệu tâm lý học tội phạm hôm nay. Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video đến những người thân trong gia đình để cùng nhau xây dựng những tổ ấm thực sự bình yên và an toàn. Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những hồ sơ phân tích chuyên sâu tiếp theo. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập phim sau.",
+  "sentences": [
+   {
+    "id": "5.09#1",
+    "text": "Mái ấm gia đình chỉ thực sự là nơi trú bão khi nó được thắp sáng bằng sự tôn trọng, lòng trắc ẩn và sự thật.",
+    "words": 26
+   },
+   {
+    "id": "5.09#2",
+    "text": "Chiếc then cài cửa chỉ nên dùng để ngăn chặn hiểm nguy từ bên ngoài, chứ không bao giờ được biến thành công cụ giam cầm những nỗi đau bên trong.",
+    "words": 31
+   },
+   {
+    "id": "5.09#3",
+    "text": "Hãy yêu thương những người thân yêu của bạn bằng một trái tim chân thành nhưng hãy luôn giữ cho lý trí sự tỉnh táo sáng suốt nhất.",
+    "words": 28
+   },
+   {
+    "id": "5.09#4",
+    "text": "Bởi vì sự bình yên của gia đình không nằm ở những bức ảnh hoàn mỹ, mà nằm ở sự an toàn trọn vẹn của từng sinh mệnh dưới mái nhà.",
+    "words": 31
+   },
+   {
+    "id": "5.09#5",
+    "text": "Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập tài liệu tâm lý học tội phạm hôm nay.",
+    "words": 24
+   },
+   {
+    "id": "5.09#6",
+    "text": "Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video đến những người thân trong gia đình để cùng nhau xây dựng những tổ ấm thực sự bình yên và an toàn.",
+    "words": 36
+   },
+   {
+    "id": "5.09#7",
+    "text": "Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những hồ sơ phân tích chuyên sâu tiếp theo.",
+    "words": 23
+   },
+   {
+    "id": "5.09#8",
+    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập phim sau.",
+    "words": 15
+   }
+  ]
+ }
+]

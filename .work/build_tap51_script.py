@@ -1,0 +1,410 @@
+# -*- coding: utf-8 -*-
+import sys, os, json, re
+sys.path.insert(0, '.work')
+import parse_kichban
+
+header = """# KỊCH BẢN AUDIO / PODCAST TÂM LÝ HỌC TỘI PHẠM
+**Chủ đề:** Hệ sinh thái 10 chỉ dấu tâm lý & Thảm án Đại học Bắc Kinh, Tổn thương ái kỷ bệnh lý, Cơ chế tự hủy hoại bản ngã & Ảo tưởng cứu rỗi sai lệch – Hồ sơ Ngô Tạ Vũ.
+**Phiên bản:** Chuẩn A2c/K10 — Hệ sinh thái 10 chỉ dấu tâm lý học tội phạm & Bổ sung phân tích biến chuyển tâm lý đa chiều ngày 24/11/2026.
+
+---
+
+## THÔNG SỐ KỸ THUẬT & CẤU TRÚC DẪN CHUYỆN (PRODUCTION BRIEF)
+
+| Hạng mục | Thiết lập chuẩn cho tập Audio (Host-Driven Documentary) |
+| :--- | :--- |
+| **Tên tập (Episode Title)** | Tập 51: Hồ Sơ Ngô Tạ Vũ — Thảm Án Đại Học Bắc Kinh & Sự Sụp Đổ Của Chiếc Mặt Nạ Hoàn Hảo |
+| **Định dạng (Format)** | Podcast Tài liệu Điều tra (Narrator-led Documentary) – **Host** nắm giữ trục xương sống kể chuyện, kết nối dữ liệu lịch sử, điều phối nhịp cảm xúc và mời các góc nhìn chuyên môn (Điều tra viên, Chuyên gia tâm lý, Người bình thường) vào đúng điểm nút kịch tính theo Hệ sinh thái 10 chỉ dấu tâm lý. |
+| **Tổng thời lượng dự kiến** | 28 – 32 phút (5 hồi nội dung + các khoảng lặng chuyển cảnh âm thanh) |
+| **Nhạc nền (BGM) gợi ý** | Dark Ambient ngột ngạt u tối, Tiếng đàn Cello u buồn giằng xé, Nhạc điện tử tối giản dồn dập tại quán bar, Tiếng vĩ cầm rít gắt phòng xử án, và Warm Piano ấm áp trang nghiêm đúc kết. Âm lượng: -26dB dưới giọng đọc, nâng lên -14dB ở các điểm chuyển cảnh. |
+| **Cơ chế phân bổ giọng đọc** | - **Host (~48% thời lượng):** Giọng nam trầm ấm, sâu lắng, dẫn dắt câu chuyện với góc nhìn nhân văn, dư chấn xã hội, hiệu ứng hào quang và bài học sinh tồn.<br>- **Điều tra viên (~24%):** Giọng nam đanh thép, sắc lạnh, chuẩn xác, đại diện cho hồ sơ nghiệp vụ, chứng cứ hiện trường, chữ ký Signature vs MO và chiến thuật pháp lý của Công an Phúc Châu.<br>- **Chuyên gia tâm lý (~22%):** Giọng điềm đạm, mang tính học thuật sâu sắc, bóc tách tổn thương ái kỷ bệnh lý, cơ chế chia ngăn nhận thức, ảo tưởng cứu rỗi méo mó và cơ chế hối hận của các chủ thể.<br>- **Người bình thường (~6%):** N1 (Bạn học tại Đại học Bắc Kinh - Hồi 1, 5 câu) giọng bàng hoàng, ngỡ ngàng; N2 (Nhân viên quán bar tại Trùng Khánh - Hồi 4, 8 câu) giọng nam chân thực, ngỡ ngàng trước thân phận hai mặt. |
+| **Quy tắc trích dẫn** | Mọi trích dẫn nguyên văn trong hình phải đúng 100% so với nguồn lưu trữ. Quy ước ký hiệu: ngoặc kép “ ” = trích dẫn nguyên văn. |
+| **Nguồn đối chiếu chính** | Bản án sơ thẩm của Tòa án Nhân dân Trung cấp Phúc Châu (tháng 8 năm 2021) · Bản án phúc thẩm của Tòa án Nhân dân Cấp cao tỉnh Phúc Kiến (tháng 5 năm 2023) · Quyết định phê chuẩn thi hành án tử hình của Tòa án Nhân dân Tối cao Trung Quốc (ngày 31 tháng 1 năm 2024) · Lời khai và thư sám hối của Ngô Tạ Vũ · Hồ sơ tâm lý học đường và tâm lý học phát triển nhận thức. |
+
+---
+
+---
+"""
+
+# Act 1: 46 sentences (H:12, H:6, H:6, N:5, H:5, D:7, H:5)
+act1 = """## HỒI 1: HÌNH MẪU HOÀN HẢO VÀ CĂN PHÒNG KHÓA KÍN TẠI PHÚC CHÂU
+
+**[BGM]:** Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng mưa rơi hiu hắt bên ngoài khu tập thể giáo viên cũ kỹ, tạo cảm giác bất an và ngột ngạt.
+
+**HOST** *(chậm rãi, giọng trầm ấm gợi mở không gian lịch sử)*:
+Vào những năm đầu thập niên hai nghìn lẻ mười, trong mắt tất cả thầy cô, bạn bè và hàng xóm tại thành phố Phúc Châu, Ngô Tạ Vũ từng là định nghĩa hoàn hảo nhất cho cụm từ “con nhà người ta”.
+Sinh năm 1994 trong một gia đình trí thức chuẩn mực với cha là cán bộ và mẹ là một giáo viên dạy văn nghiêm khắc, Ngô Tạ Vũ luôn đứng đầu trong tất cả các kỳ thi học thuật.
+Hắn đỗ thủ khoa kỳ thi tuyển sinh vào trường Trung học trọng điểm Số một Phúc Châu với số điểm gần như tuyệt đối, sau đó tiếp tục được tuyển thẳng vào Khoa Kinh tế của Đại học Bắc Kinh.
+Đó là ngôi trường danh giá bậc nhất đất nước, nơi quy tụ những tinh hoa học thuật hàng đầu của cả một thế hệ thanh niên ưu tú.
+Không chỉ sở hữu trí tuệ xuất chúng, chàng trai trẻ còn cao ráo, khôi ngô, đam mê thể thao và luôn giữ thái độ khiêm nhường, lễ phép với tất cả mọi người.
+Hắn nhiệt tình giảng bài cho bạn bè suốt những đêm ôn thi căng thẳng và chưa từng một lần to tiếng hay biểu lộ sự bực dọc với bất kỳ ai.
+Đối với người mẹ góa bụa Tạ Thiên Cầm, một nữ giáo viên văn học nổi tiếng thanh cao và khắt khe, Ngô Tạ Vũ không chỉ là một người con trai ngoan ngoãn.
+Cậu thiếu niên ấy là toàn bộ niềm kiêu hãnh, là biểu tượng danh dự và là lẽ sống duy nhất còn lại của cuộc đời bà.
+Xã hội nhìn vào hai mẹ con họ như một bức tranh gia đình kiểu mẫu của nền giáo dục truyền thống phương Đông.
+Bất kỳ bậc phụ huynh nào tại Phúc Châu thời điểm ấy cũng từng lấy tấm gương của Ngô Tạ Vũ để răn dạy con cái mình hướng tới sự hoàn mỹ.
+Một tương lai xán lạn với những suất học bổng danh giá tại các viện nghiên cứu hàng đầu nước Mỹ dường như đã được trải sẵn dưới chân chàng sinh viên trẻ tuổi.
+Thế nhưng, chính sự hoàn mỹ đến mức tuyệt đối ấy lại trở thành một bức màn nhung hoàn hảo che giấu một bi kịch tâm lý kinh hoàng bậc nhất.
+
+**[SFX]:** Tiếng chuông điện thoại bàn reo ngắt quãng trong đêm, tiếng gió lùa qua khe cửa sổ rít từng hồi lạnh lẽo.
+
+**HOST** *(chuyển giọng u tối, báo hiệu tai ương)*:
+Vào dịp Tết Nguyên đán năm 2016, không khí sum họp gia đình ngập tràn khắp các ngõ phố cổ kính của thành phố Phúc Châu.
+Thế nhưng, tại căn hộ số một trăm linh hai thuộc khu nhà công vụ Trường Trung học Giáo dục Phúc Châu, cánh cửa sổ sắt vẫn đóng kín im ỉm suốt nhiều tháng ròng.
+Người thân trong dòng họ bắt đầu cảm thấy những bất an tột độ khi nhiều lần gọi điện cho cô giáo Tạ Thiên Cầm nhưng đầu dây bên kia luôn trong trạng thái ngắt kết nối.
+Trước đó vài tháng, họ từng nhận được những dòng tin nhắn thông báo rằng hai mẹ con đang hoàn tất thủ tục xuất cảnh sang Mỹ để Ngô Tạ Vũ tham gia chương trình trao đổi sinh viên tại Viện Công nghệ Massachusetts.
+Thế nhưng, khi thời điểm đoàn tụ đầu xuân đã cận kề, tung tích của cả hai mẹ con vẫn hoàn toàn bặt vô âm tín trong sự hoang mang của họ hàng.
+Một linh cảm chẳng lành bắt đầu bao trùm lên tâm trí của những người thân ruột thịt.
+
+**[SFX]:** Tiếng lách cách phá khóa kim loại, tiếng cánh cửa sắt nặng nề hé mở cọt kẹt.
+
+**HOST** *(tiếp tục mạch tự sự nghẹt thở)*:
+Ngày 14 tháng hai năm 2016, người cậu ruột cùng các nhân viên công an địa phương quyết định phá ổ khóa căn hộ tập thể để tiến hành kiểm tra hành chính.
+Khi cánh cửa phòng ngủ bên trong được mở ra, một khung cảnh kỳ quái và rợn người đã hiện ra trước mắt lực lượng chức năng.
+Căn phòng tĩnh lặng tuyệt đối, không có một giọt ánh sáng tự nhiên và nồng nặc mùi hóa chất tổng hợp hòa lẫn mùi ẩm mốc đặc quánh.
+Một chiếc giường lớn được niêm phong kỹ lưỡng bằng hàng chục lớp bọc kín mít, được cố định bằng băng keo công nghiệp dán chặt từng góc cạnh.
+Không có bất kỳ dấu hiệu xáo trộn hay chống cự nào thể hiện một vụ đột nhập cướp tài sản thông thường của những kẻ lưu manh ngoài xã hội.
+Mọi chi tiết trong căn phòng đều toát lên một sự tính toán lạnh lùng, tỉ mỉ và khoa học đến mức ghê người.
+
+**NGƯỜI BÌNH THƯỜNG** *(N1: Bạn học tại Đại học Bắc Kinh, giọng bàng hoàng, nghẹn ngào)*:
+Hãy hình dung tâm trạng bàng hoàng tột cùng của chúng tôi khi nghe tin dữ về gia đình cậu ấy vào những ngày đầu năm ấy.
+Ở giảng đường Đại học Bắc Kinh, Ngô Tạ Vũ là người hoàn hảo đến mức chúng tôi luôn coi cậu ấy như một tấm gương chuẩn mực không tì vết.
+Cậu ấy học tập xuất chúng, luôn đạt điểm số tuyệt đối, lại cực kỳ chu đáo và thường xuyên gọi điện tâm sự với mẹ mỗi ngày.
+Chúng tôi chưa từng thấy cậu ấy than vãn nửa lời về bất kỳ áp lực nào, lúc nào cũng mỉm cười nhẹ nhàng và sẵn sàng giúp đỡ bạn bè.
+Làm sao chúng tôi có thể tin được rằng phía sau sự thanh lịch và ấm áp ấy lại là một hố sâu tăm tối không đáy đến như vậy?
+
+**[SFX]:** Tiếng còi xe cảnh sát vang vọng từ xa, tiếng máy quét vân tay và tiếng kéo khóa túi lưu giữ chứng cứ sột soạt.
+
+**HOST** *(trầm giọng)*:
+Dưới hàng chục lớp bao bọc kín mít và những bao tải than hoạt tính hút mùi, dấu vết tội ác đã được bảo quản suốt hơn hai trăm ngày.
+Nạn nhân không ai khác chính là nữ giáo viên Tạ Thiên Cầm, người phụ nữ đã dành trọn cả cuộc đời để chăm bẵm đứa con trai duy nhất.
+Kết quả khám nghiệm pháp y xác định thời điểm xảy ra biến cố đã từ tháng bảy năm 2015, tức là hơn bảy tháng trước khi cánh cửa phòng được mở ra.
+Người con trai mẫu mực Ngô Tạ Vũ đã hoàn toàn biến mất khỏi trường đại học và không để lại bất kỳ tung tích thực tế nào.
+Cùng với sự biến mất của chàng thủ khoa là một khoản tiền khổng lồ lên tới một triệu bốn trăm bốn mươi nghìn nhân dân tệ được huy động từ người thân.
+
+**ĐIỀU TRA VIÊN** *(giọng nam sắc bén, tái hiện không gian hiện trường)*:
+Hiện trường tại căn hộ số một trăm linh hai khu nhà giáo viên Phúc Châu là một minh chứng điển hình cho hành vi che giấu tội ác có dự mưu kỹ lưỡng bậc nhất.
+Đối tượng đã đặt mua trên mạng internet hàng trăm mét màng bọc nilon công nghiệp, túi đựng chuyên dụng, máy hút ẩm, than hoạt tính và hàng chục lọ chất khử mùi tủ lạnh.
+Khoảng bảy mươi lăm lớp che chắn đã được bao bọc cẩn thận quanh khu vực nạn nhân nằm, xen kẽ với các túi hút ẩm và than hoạt tính nhằm ngăn chặn tối đa sự phân hủy phát tán mùi hôi ra hành lang khu tập thể.
+Đặc biệt nguy hiểm hơn, đối tượng còn lắp đặt hệ thống camera giám sát thông minh có cảm biến chuyển động và kết nối trực tiếp với điện thoại di động cá nhân.
+Mọi biến động bên trong căn phòng hay dấu hiệu có người tiếp cận từ xa đều được báo về thiết bị cầm tay của đối tượng trong suốt nhiều tháng lẩn trốn.
+Phương thức chuẩn bị công cụ gây án và vật liệu xử lý hiện trường đã được đối tượng tiến hành từ nhiều tháng trước khi thời điểm hành động diễn ra.
+Một lệnh truy nã toàn quốc cấp độ cao nhất đối với sinh viên xuất sắc Ngô Tạ Vũ lập tức được Bộ Công an Trung Quốc phát đi trên toàn bộ các phương tiện truyền thông.
+
+**HOST** *(khép lại Hồi 1)*:
+Thông tin một sinh viên ưu tú của Đại học Bắc Kinh trở thành nghi phạm số một trong vụ án tước đoạt sinh mạng mẹ ruột đã tạo nên một cơn địa chấn truyền thông chưa từng có trên khắp đất nước tỷ dân.
+Dư luận xã hội bàng hoàng không chỉ vì tính chất nghiêm trọng của sự việc, mà còn bởi sự sụp đổ kinh hoàng của một biểu tượng giáo dục gia đình.
+Hàng triệu người đặt ra câu hỏi làm thế nào một đứa trẻ hoàn hảo, niềm tự hào của cả một dòng họ trí thức lại có thể bước chân vào vũng lầy tội lỗi đen tối đến như vậy?
+Điều gì đã thực sự diễn ra phía sau những cánh cửa đóng kín của căn hộ tập thể nhỏ bé tại Phúc Châu trong suốt nhiều năm tháng kìm nén?
+Câu trả lời nằm sâu trong những tổn thương tâm lý ái kỷ, những áp lực kỳ vọng độc hại và một cơ chế tư duy méo mó đã âm thầm tích tụ qua nhiều thế hệ gia đình.
+
+**[BGM]:** Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở.
+"""
+
+# Act 2: 57 sentences (H:6, D:10, H:5, C:12, H:4, D:7, H:4, C:6, H:3)
+act2 = """## HỒI 2: ÁP LỰC KỲ VỌNG NGỘT NGẠT VÀ CHIẾC MẶT NẠ ÁI KỶ NỨT VỠ
+
+**[BGM]:** Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây vô vọng giữa căn phòng cô đặc bóng tối.
+
+**HOST** *(giọng hồi hộp dẫn dắt)*:
+Để giải mã nguồn cơn dẫn đến thảm kịch kinh hoàng tại Phúc Châu, chúng ta buộc phải lùi lại dòng thời gian để nhìn thấu cấu trúc tâm lý gia đình đầy áp bức mà Ngô Tạ Vũ đã trải qua từ thuở ấu thơ.
+Trong ngôi nhà nhỏ của nữ giáo viên Tạ Thiên Cầm, trật tự đạo đức và những quy chuẩn thanh cao luôn được thiết lập ở mức độ tuyệt đối.
+Mỗi điểm số, mỗi lời ăn tiếng nói và từng cử chỉ nhỏ nhặt nhất của cậu con trai đều được mẹ soi xét dưới một lăng kính kỷ luật vô cùng nghiêm cẩn.
+Ngô Tạ Vũ chưa từng được phép làm nũng, chưa từng được phép thất bại và quan trọng nhất là không bao giờ có quyền bộc lộ những cảm xúc yếu đuối hay sự bất toàn của bản thân.
+Hắn đã học cách mỉm cười và đáp ứng mọi kỳ vọng khắt khe của cha mẹ như một phản xạ sinh tồn tự nhiên để đổi lấy sự công nhận và tình yêu thương.
+Thế nhưng, chiếc khung trật tự tưởng chừng như vững chắc ấy đã hoàn toàn sụp đổ sau một biến cố nghiệt ngã vào năm 2010.
+
+**[SFX]:** Tiếng thở dài nặng nề, tiếng lật giở những trang nhật ký cũ úa vàng theo thời gian.
+
+**ĐIỀU TRA VIÊN** *(mô tả chân dung tâm lý thủ phạm)*:
+Năm 2010, khi Ngô Tạ Vũ đang học năm thứ nhất trung học phổ thông, người cha là ông Ngô Chí Kiên đã qua đời vì căn bệnh ung thư gan ở tuổi bốn mươi ba.
+Sự ra đi đột ngột của người cha tại quê nhà Tiên Du đã để lại một lỗ hổng cảm xúc khổng lồ trong tâm lý của cậu thiếu niên mười sáu tuổi.
+Lời trăn trối của người cha trước lúc lâm chung liên tục gọi tên con trai đã trở thành một vết thương dằn vặt dai dẳng không bao giờ lành trong tâm can Ngô Tạ Vũ.
+Hắn tự trách bản thân vì đã mải mê với việc học tập mà không thể có mặt bên cạnh cha trong những giây phút cuối cùng của cuộc đời ông.
+Đồng thời, sự thiếu vắng người đàn ông trụ cột đã đẩy mẹ con cô giáo Tạ Thiên Cầm vào một bầu không khí u uất, cô lập và thiếu vắng hoàn toàn tiếng cười.
+Mọi liên hệ xã hội của người mẹ dần bị cắt đứt, bà từ chối sự giúp đỡ của họ hàng và dồn toàn bộ gánh nặng kỳ vọng sống còn lên đôi vai của đứa con trai duy nhất.
+Ngô Tạ Vũ không chỉ phải tiếp tục là một học sinh giỏi xuất chúng, mà còn buộc phải gánh vác vai trò làm chỗ dựa tinh thần tuyệt đối cho người mẹ góa bụa đang chìm sâu vào trầm cảm.
+Hắn phải sống thay cho phần đời của người cha đã mất và sống theo đúng khuôn mẫu lý tưởng mà người mẹ hằng mong đợi.
+Cơ chế kìm nén bản ngã và phục tùng cảm xúc cực đoan đã bắt đầu biến đổi cấu trúc nhân cách của hắn từ thời điểm nhạy cảm này.
+Sự hoàn hảo bề ngoài bắt đầu rạn nứt thành một chiếc mặt nạ ái kỷ che đậy bên trong một cái tôi trống rỗng và rệu rã.
+
+**HOST** *(phân tích áp lực tâm lý học đường)*:
+Khi bước chân vào cánh cổng Đại học Bắc Kinh năm 2012, Ngô Tạ Vũ lần đầu tiên được tiếp xúc với một thế giới tự do rộng lớn ngoài tầm kiểm soát của gia đình.
+Hắn nhận ra sự tương phản sâu sắc giữa cuộc sống đầy màu sắc của bạn bè đồng trang lứa và bầu không khí ngột ngạt, u ám mà mẹ hắn đang giam mình tại Phúc Châu.
+Mỗi ngày, hắn vẫn buộc phải gọi điện về nhà hàng giờ đồng hồ để báo cáo chi tiết từng bữa ăn, từng bước đi cho mẹ theo đúng thói quen đã định hình từ nhỏ.
+Sự ràng buộc cảm xúc quá mức này dần biến thành một chiếc xiềng xích vô hình khiến hắn cảm thấy ngột ngạt và kiệt quệ tinh thần.
+Hắn khao khát được giải thoát khỏi sự kiểm soát của người mẹ, nhưng lại không đủ dũng khí đạo đức để đối diện và tuyên bố quyền tự chủ cho cuộc đời mình.
+
+**CHUYÊN GIA TÂM LÝ** *(phân tích cơ chế ái kỷ bệnh lý và ảo tưởng cứu rỗi)*:
+Trường hợp của Ngô Tạ Vũ là một ví dụ kinh điển về hội chứng “Ái kỷ bệnh lý” kết hợp với “Cơ chế chia ngăn nhận thức” cực kỳ nguy hiểm trong tâm lý học tội phạm.
+Được nuôi dạy trong một môi trường đòi hỏi sự hoàn hảo tuyệt đối, kẻ thủ ác đã xây dựng một cái tôi lý tưởng giả tạo để che giấu cảm giác tự ti và nỗi sợ bị chối bỏ sâu kín.
+Khi đối mặt với sự mất mát người cha và sự kiểm soát áp bức từ người mẹ, cấu trúc nhân cách của hắn bắt đầu hình thành một cơ chế tự vệ méo mó.
+Hắn không dám thể hiện sự thù ghét hay giận dữ trực tiếp đối với mẹ, vì điều đó sẽ phá hủy hoàn toàn hình tượng “người con hiếu thảo” mà hắn đã dày công tôn sùng suốt hai mươi năm.
+Thay vào đó, não bộ của hắn đã sử dụng kỹ thuật “Hợp lý hóa đạo đức” để chuyển hóa sự thù hận bị dồn nén thành một “Ảo tưởng cứu rỗi” vô cùng bệnh hoạn.
+Hắn tự thuyết phục bản thân rằng người mẹ đang sống trong sự đau khổ cùng cực và cách duy nhất để giải thoát cho bà chính là đưa bà về thế giới bên kia để đoàn tụ cùng người cha đã khuất.
+Bằng cách khoác lên hành vi hủy diệt một tấm áo choàng triết học về “sự giải thoát”, hắn đã vô hiệu hóa hoàn toàn tiếng nói của lương tri và cảm giác tội lỗi thông thường.
+Đây là biểu hiện đặc trưng của sự ngắt kết nối đạo đức ở những kẻ phạm tội có trình độ học vấn cao.
+Hắn không nhìn nhận mẹ mình như một con người độc lập có quyền sống và quyền lựa chọn, mà xem bà như một phần mở rộng trong ảo tưởng toàn năng của chính mình.
+Hắn tự cho mình đặc quyền quyết định sự sống chết của mẹ dưới danh nghĩa tình yêu thương vị tha giả tạo.
+Càng nghiên cứu sâu về các tác phẩm văn học bi kịch và triết học siêu hình, ảo tưởng cứu rỗi trong tâm trí đối tượng càng bị củng cố vững chắc.
+Đó chính là điểm gãy tâm lý then chốt biến một thanh niên trí thức thành một kẻ lập mưu lạnh lùng và tàn nhẫn.
+
+**HOST** *(tiếp tục mạch tự sự về nạn nhân đầu tiên)*:
+Đầu năm 2015, sau khi trải qua những giai đoạn sa sút tinh thần và bỏ lỡ một số kỳ thi chuyển tiếp du học, ảo tưởng cứu rỗi trong tâm trí Ngô Tạ Vũ đã đạt đến đỉnh điểm nguy hiểm.
+Hắn bắt đầu lên kế hoạch chi tiết cho một cuộc ra tay mà hắn gọi là “hành động giải thoát tối hậu” cho cả hai mẹ con.
+Hắn nghiên cứu tỉ mỉ trên mạng internet về cấu tạo sinh học cơ thể người, các phương thức gây tổn thương chí mạng và các kỹ thuật khử mùi ẩm mốc trong không gian kín.
+Hắn chuẩn bị từng món đồ nghề với một sự bình thản đáng sợ, tựa như đang chuẩn bị cho một đề tài nghiên cứu khoa học tại trường đại học.
+
+**ĐIỀU TRA VIÊN** *(giải thích diễn biến tội ác)*:
+Theo kết quả điều tra và lời khai của đối tượng, chiều ngày mười tháng bảy năm 2015, cô giáo Tạ Thiên Cầm trở về căn hộ sau giờ làm việc tại trường học.
+Lợi dụng khoảnh khắc người mẹ đang cúi người xuống để thay giày ở cửa ra vào, Ngô Tạ Vũ đã dùng một thanh tạ tay bằng kim loại nặng tấn công liên tiếp vào đầu nạn nhân từ phía sau.
+Hành vi tấn công diễn ra hoàn toàn bất ngờ và không cho nạn nhân bất kỳ cơ hội nào để phản kháng hay kêu cứu.
+Sau khi người mẹ qua đời tại chỗ, đối tượng không hề tỏ ra hoảng loạn hay chạy trốn ngay tức khắc như những kẻ sát nhân thông thường.
+Hắn ở lại căn hộ trong nhiều ngày, tỉ mỉ thực hiện các công đoạn phong tỏa căn phòng bằng hàng chục lớp bao bọc và hóa chất khử mùi nhằm trì hoãn tối đa thời điểm vụ việc bị phát hiện.
+Hắn lau chùi sạch sẽ mọi dấu vết ở khu vực cửa ra vào và cẩn thận khóa chặt tất cả các cửa sổ hướng ra ngoài hành lang.
+Mọi hành vi được thực hiện với một độ chính xác cơ học đến lạnh người.
+
+**HOST** *(nhấn mạnh sự lạnh lùng ghê rợn)*:
+Sau khi hoàn tất việc xử lý hiện trường tại căn hộ, Ngô Tạ Vũ đã không hề thực hiện ý định tự kết liễu cuộc đời để “đoàn tụ cùng cha mẹ” như lời hắn từng ngụy biện trong nhật ký.
+Bản năng sinh tồn thực dụng và lòng tham vật chất đã lập tức trỗi dậy, đánh sập hoàn toàn chiếc mặt nạ triết học cao siêu mà hắn tự vẽ ra cho bản thân.
+Hắn bắt đầu một màn kịch lừa đảo tinh vi nhắm thẳng vào những người thân yêu và bạn bè của cha mẹ mình để chuẩn bị ngân sách cho một cuộc sống hưởng lạc mới.
+Một sự phân liệt nhân cách hoàn toàn đối lập bắt đầu mở ra trong chuỗi ngày tiếp theo.
+
+**CHUYÊN GIA TÂM LÝ** *(đúc kết sự leo thang ảo tưởng)*:
+Sự biến chuyển từ ý định tự sát sang hành vi lẩn trốn và lừa đảo người thân đã bóc trần bản chất ích kỷ tột cùng của nhân cách ái kỷ bệnh lý.
+Khi đã loại bỏ được “vật cản” kiểm soát là người mẹ, cái tôi bị kìm nén của Ngô Tạ Vũ không hề chọn cái chết để hoàn tất vở kịch bi tráng mà hắn dựng lên.
+Ngược lại, hắn cảm thấy một sự hưng phấn quyền lực và cảm giác toàn năng kỳ quặc khi đã vượt qua được giới hạn cấm kỵ lớn nhất của đạo lý con người.
+Hắn bắt đầu tìm cách bù đắp cho những năm tháng tuổi trẻ bị đè nén bằng cách lao vào những thú vui bản năng trần tục và sự buông thả vô độ.
+Ảo tưởng cứu rỗi ban đầu thực chất chỉ là một chiếc cớ tinh vi để hắn giải phóng bản thân khỏi trách nhiệm gia đình và trốn chạy khỏi sự thất bại của chính mình.
+Chiếc mặt nạ hoàn hảo đã rơi xuống, để lộ ra chân dung của một kẻ thao túng tâm lý đầy xảo quyệt.
+
+**HOST** *(thắt lại Hồi 2)*:
+Một kế hoạch huy động tiền bạc quy mô lớn bắt đầu được triển khai thông qua chính chiếc điện thoại của người mẹ đã khuất.
+Những người thân trong dòng họ hoàn toàn không thể ngờ rằng, những tin nhắn hỏi thăm ấm áp mà họ nhận được mỗi ngày thực chất lại là những chiếc bẫy lừa đảo được giăng ra bởi đứa cháu trai mà họ từng hết mực yêu thương và tự hào.
+Cơn ác mộng Phúc Châu đã tạm thời khép lại sau cánh cửa khóa kín, mở ra một hành trình đào tẩu ngập tràn sự tha hóa tại miền đất mới.
+
+**[Nghỉ 1.5 giây – Tiếng drone u uất kéo dài rồi tan biến]**
+"""
+
+# Act 3: 49 sentences (H:4, H:4, D:7, H:4, C:11, H:8, C:8, H:3)
+act3 = """## HỒI 3: CUỘC ĐỜI HAI MẶT TẠI TRÙNG KHÁNH VÀ SỰ THA HÓA BẢN NGÃ
+
+**[BGM]:** Âm nhạc chuyển sang tiếng Dương cầm tối giản, chậm rãi, mang màu sắc triết học và đầy tính tự vấn về giới hạn tâm lý con người.
+
+**HOST** *(đặt vấn đề gây chấn động)*:
+Sau khi rời khỏi Phúc Châu vào cuối tháng bảy năm 2015, Ngô Tạ Vũ không hề chọn con đường vượt biên ra nước ngoài như những đồn đoán ban đầu của dư luận.
+Hắn hiểu rằng các cửa khẩu quốc tế được kiểm soát vô cùng nghiêm ngặt bằng dữ liệu sinh trắc học và hộ chiếu điện tử.
+Hắn chọn cách ẩn mình ngay giữa những đô thị nội địa sầm uất nhất của Trung Quốc, nơi có mật độ dân cư đông đúc và nhịp sống biến động không ngừng.
+Sau khi di chuyển qua nhiều tỉnh thành từ Hà Nam đến Thượng Hải, cuối cùng hắn dừng chân và chọn thành phố Trùng Khánh làm sào huyệt lẩn trốn lâu dài.
+
+**[SFX]:** Tiếng bước chân dồn dập trên vỉa hè lát đá, tiếng còi xe inh ỏi giữa màn sương mù đặc trưng của đô thị Trùng Khánh.
+
+**HOST** *(vạch trần thủ đoạn lừa đảo thân nhân)*:
+Để có được nguồn tài chính dồi dào phục vụ cho cuộc đào tẩu, hắn đã sử dụng danh nghĩa của mẹ để liên lạc với hàng loạt người thân trong dòng họ và bạn bè cũ của cha.
+Hắn bịa ra câu chuyện bản thân đã nhận được học bổng nghiên cứu tại Viện Công nghệ Massachusetts danh tiếng của Mỹ và người mẹ Tạ Thiên Cầm sẽ đi theo để chăm sóc sinh hoạt cho con trai.
+Hắn viện lý do cần chứng minh tài chính ngân hàng và chi phí sinh hoạt đắt đỏ tại nước ngoài để hỏi vay mượn những khoản tiền rất lớn.
+Với uy tín của một nữ giáo viên thanh liêm cùng danh tiếng thủ khoa Đại học Bắc Kinh của Ngô Tạ Vũ, tổng cộng bảy người thân và đồng nghiệp đã tin tưởng chuyển vào tài khoản cho hắn số tiền hơn một triệu bốn trăm nghìn nhân dân tệ.
+
+**ĐIỀU TRA VIÊN** *(làm rõ phương thức che giấu hành tung)*:
+Để hoàn toàn xóa sạch dấu vết nhân thân và đối phó với mạng lưới truy nã, Ngô Tạ Vũ đã tìm mua hơn mười chiếc thẻ chứng minh nhân dân thật của người khác qua các kênh ngầm trên mạng internet.
+Hắn lựa chọn những chiếc thẻ căn cước có độ tuổi và đặc điểm nhân dạng tương đối gần giống mình để sử dụng cho từng mục đích cụ thể.
+Một chiếc thẻ dùng để thuê các căn hộ chung cư bình dân tại quận Giang Bắc, một chiếc khác dùng để đăng ký tài khoản thanh toán điện tử, và những chiếc còn lại dùng để mở tài khoản chơi xổ số.
+Tại Trùng Khánh, cựu sinh viên xuất sắc của khoa kinh tế đã chọn một công việc ban ngày hoàn toàn đối lập với nền tảng học thuật của mình: làm huấn luyện viên thể hình tự do và gia sư bán thời gian.
+Đến khi màn đêm buông xuống, hắn biến thành một nhân viên phục vụ và tiếp rượu tại các quán bar đêm nổi tiếng tại khu phố giải trí sầm uất Quan Âm Kiều.
+Tại đây, hắn lấy biệt danh là Tiểu Long, luôn xuất hiện với nụ cười nhã nhặn, giọng nói nhỏ nhẹ và vóc dáng vạm vỡ được rèn luyện cẩn thận.
+Các đồng nghiệp và khách hàng trong quán bar chỉ biết đến Tiểu Long như một thanh niên ngoại tỉnh hiền lành, hiểu biết rộng và giao tiếp tiếng Anh cực kỳ lưu loát.
+
+**HOST** *(giọng đầy trăn trở)*:
+Tại những tụ điểm ăn chơi xa hoa bậc nhất Trùng Khánh, số tiền hơn một triệu nhân dân tệ lừa đảo từ người thân đã bị Ngô Tạ Vũ tiêu xài một cách điên cuồng và không tiếc tay.
+Hắn thường xuyên chi tiền cho những cuộc vui thâu đêm suốt sáng, mua sắm hàng hiệu đắt tiền và tham gia các trò đỏ đen với số tiền lên đến hàng trăm nghìn nhân dân tệ.
+Hắn bắt đầu mối quan hệ tình cảm sâu sắc với một cô gái làm nghề nhạy cảm tại quán bar tên là Yến Đình.
+Đó là sự bùng nổ của một cái tôi bị đè nén suốt hai mươi năm, một sự phản kháng điên cuồng nhằm vào những quy chuẩn đạo đức thanh cao mà người mẹ từng ép buộc hắn tuân thủ.
+
+**CHUYÊN GIA TÂM LÝ** *(giải phẫu sự tha hóa nhân cách và phản ứng bù trừ cực đoan)*:
+Cuộc đời hai mặt của Ngô Tạ Vũ tại Trùng Khánh là một minh chứng sống động cho hiện tượng “Phản ứng bù trừ cực đoan” và “Tha hóa nhân cách thứ cấp” trong phân tâm học pháp y.
+Khi chiếc lồng sắt của sự kỳ vọng gia đình bị phá vỡ bằng một hành vi tội ác tột cùng, đối tượng rơi vào trạng thái khủng hoảng bản sắc trầm trọng.
+Hắn không còn là “đứa con ngoan của Đại học Bắc Kinh”, nhưng cũng chưa thể chấp nhận mình là một kẻ tội phạm nguy hiểm bị xã hội ruồng bỏ.
+Để trốn chạy khỏi nỗi sợ hãi và cảm giác trống rỗng nội tâm, hắn buộc phải tạo ra một nhân cách mới mang tên Tiểu Long.
+Việc lao vào môi trường quán bar đêm, đắm chìm trong các mối quan hệ tình ái và vung tiền phung phí thực chất là một nỗ lực tuyệt vọng nhằm tìm kiếm cảm giác mình đang thực sự tồn tại.
+Hắn tìm kiếm sự ngưỡng mộ và tình cảm từ những người phụ nữ làm nghề nhạy cảm, bởi ở bên họ, hắn không phải chịu bất kỳ phán xét đạo đức nào và cảm thấy mình có toàn quyền kiểm soát mối quan hệ.
+Đây là sự đảo ngược hoàn toàn so với mối quan hệ giữa hắn và người mẹ, nơi hắn luôn là kẻ phục tùng và bị định đoạt số phận.
+Sự tha hóa này không làm cho hắn cảm thấy thanh thản hơn, mà chỉ càng đẩy hắn lún sâu vào sự trống rỗng và nỗi cô đơn cùng cực.
+Mỗi đêm sau khi tàn cuộc vui tại quán bar, đối tượng lại phải đối diện với nỗi sợ hãi bị bắt giữ luôn rình rập trong từng bóng tối góc phố.
+Hắn phải liên tục thay đổi chỗ ở, cảnh giác với từng ánh mắt của người qua đường và không bao giờ dám chụp ảnh chung với bất kỳ người bạn nào.
+Cái giá của sự tự do ảo ảnh chính là một cuộc sống lưu vong tinh thần triền miên không lối thoát.
+
+**HOST** *(phân tích sự phân liệt nhân cách của Ngô Tạ Vũ)*:
+Dù ngụy trang tinh vi dưới thân phận một nhân viên quán bar mẫn cán, Ngô Tạ Vũ vẫn duy trì những thói quen học thuật của một trí thức ưu tú.
+Trong căn phòng trọ nhỏ bé tại Trùng Khánh, cảnh sát sau này đã tìm thấy hàng chồng sách triết học, kinh tế học và những cuốn tiểu thuyết nước ngoài bằng tiếng Anh được hắn đọc mỗi ngày.
+Hắn thường xuyên dành thời gian nghiên cứu các tài liệu học thuật chuyên sâu và ghi chép suy ngẫm vào những cuốn sổ tay cá nhân.
+Hắn có thể đàm đạo hàng giờ với khách hàng nước ngoài về văn học phương Tây, nhưng ngay sau đó lại thản nhiên cầm ly rượu đi phục vụ khách hàng với nụ cười khúm núm.
+Sự phân liệt sâu sắc giữa trí tuệ uyên bác và lối sống buông thả đã biến hắn thành một cá thể dị biệt và cô độc bậc nhất giữa lòng đô thị.
+Hắn dùng việc đọc sách như một chiếc neo tâm lý cuối cùng để tự nhắc nhở về nguồn gốc trí thức của bản thân.
+Đồng thời, hắn cũng tìm kiếm sự an ủi tinh thần qua việc mua sắm những món đồ công nghệ đắt đỏ để phục vụ cho các thói quen cá nhân.
+Thế nhưng, tất cả những hành vi bù đắp ấy chỉ càng khắc sâu thêm sự trống rỗng và tha hóa đạo đức không thể cứu vãn.
+
+**CHUYÊN GIA TÂM LÝ** *(bóc tách cơ chế chia ngăn nhận thức và sự sụp đổ phòng vệ)*:
+Cơ chế chia ngăn nhận thức của Ngô Tạ Vũ trong giai đoạn này đã đạt đến mức độ bệnh lý tinh vi.
+Hắn đã thành công trong việc khóa chặt ký ức về căn phòng khóa kín tại Phúc Châu vào một chiếc hộp sắt kín mít trong tâm trí mình.
+Hắn tự thôi miên bản thân rằng biến cố mùa hè năm 2015 chỉ là một giấc mơ xa xôi và con người cũ của hắn đã hoàn toàn biến mất khỏi thực tại.
+Thế nhưng, các nghiên cứu tâm thần học khẳng định rằng không một tội phạm nào có thể chia ngăn nhận thức vĩnh viễn mà không phải trả giá bằng sự suy sụp của hệ thống thần kinh.
+Nỗi ám ảnh về tội ác vẫn âm thầm gặm nhấm tâm can hắn, thể hiện qua những cơn ác mộng triền miên và thói quen giật mình hoảng hốt trước tiếng còi xe ngoài phố.
+Càng cố gắng tỏ ra bình thản và hưởng lạc, năng lượng phòng vệ của não bộ càng bị bào mòn nhanh chóng.
+Hắn như một kẻ mộng du đang bước đi trên một sợi dây thừng mỏng manh vắt ngang qua vực thẳm.
+Sự sụp đổ của chiếc mặt nạ đào tẩu chỉ còn là vấn đề thời gian khi các công nghệ an ninh hiện đại đang từng bước siết chặt vòng vây.
+
+**HOST** *(khép lại Hồi 3)*:
+Hơn một nghìn ba trăm ngày lẩn trốn trong bóng tối của những quán bar Trùng Khánh đã dần đi đến hồi kết.
+Một mắt xích bất cẩn trong chuỗi hành vi của đối tượng sẽ sớm kích hoạt chiếc bẫy an ninh công nghệ cao đã được giăng sẵn trên khắp các ngả đường đất nước.
+Ngày tàn của chiếc mặt nạ hai mặt Tiểu Long đã cận kề trong gang tấc.
+
+**[BGM]:** Một nốt piano trầm buồn ngân vang rồi từ từ tắt lịm vào không gian tĩnh mịch.
+"""
+
+# Act 4: 52 sentences (H:5, D:9, H:5, N:8, H:6, D:4, C:9, H:6)
+act4 = """## HỒI 4: VÒNG VÂY SÂN BAY GIANG BẮC VÀ LỜI BIỆN BẠCH TRƯỚC TÒA
+
+**[BGM]:** Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện cuộc đấu trí nghẹt thở và sự phân rã tâm lý của các đối tượng trước vành móng ngựa.
+
+**HOST** *(mở đầu Hồi 4)*:
+Vào những ngày giữa tháng tư năm 2019, cuộc sống hai mặt của Ngô Tạ Vũ tại Trùng Khánh vẫn diễn ra trong sự êm ả biểu kiến.
+Sau gần bốn năm lẩn trốn thành công qua nhiều vòng truy quét, hắn bắt đầu nảy sinh tâm lý chủ quan và lơ là cảnh giác trước những biện pháp an ninh công cộng.
+Hắn tin rằng chiếc mũ lưỡi trai sụp và thói quen cúi đầu khi đi qua các camera đường phố đã đủ để bảo vệ bản thân an toàn tuyệt đối.
+Hắn không ngờ rằng dữ liệu nhận dạng cá nhân của mình đã được cập nhật liên tục vào hệ thống mạng lưới an ninh quốc gia.
+Và thời khắc công lý gõ cửa đã đến vào một buổi tối không thể ngờ tới tại sân bay quốc tế Giang Bắc.
+
+**ĐIỀU TRA VIÊN** *(thuật lại quá trình bắt giữ và điều tra)*:
+Đêm ngày hai mươi mốt tháng tư năm 2019, Ngô Tạ Vũ xuất hiện tại khu vực sảnh đi của Nhà ga T2 Sân bay Quốc tế Giang Bắc, Trùng Khánh để tiễn một người bạn gái.
+Khi hắn vừa bước qua luồng kiểm soát an ninh công cộng, camera giám sát ứng dụng trí tuệ nhân tạo đã quét qua khuôn mặt của hắn và ghi nhận sự trùng khớp sinh trắc học lên tới hơn chín mươi tám phần trăm với lệnh truy nã đỏ.
+Tín hiệu cảnh báo lập tức được truyền về trung tâm chỉ huy tác chiến của lực lượng cảnh sát sân bay.
+Chỉ trong vòng chưa đầy năm phút triển khai đội hình khống chế, các trinh sát hình sự đã bí mật áp sát đối tượng từ nhiều hướng.
+Khi bị giữ lại kiểm tra hành chính, Ngô Tạ Vũ ban đầu vẫn tỏ ra vô cùng bình thản và rút ra một chiếc thẻ chứng minh nhân dân giả mang tên người khác để xuất trình.
+Tuy nhiên, trước những câu hỏi nghiệp vụ sắc bén của điều tra viên, đối tượng nhận ra mình đã hoàn toàn hết đường lẩn tránh.
+Hắn khẽ thở dài và thốt lên một câu ngắn gọn: “Các anh không cần nói nữa, tôi đi theo các anh”.
+Khám xét người và nơi ở của đối tượng, lực lượng chức năng đã thu giữ hơn ba mươi chiếc thẻ căn cước công dân thật của người khác, hàng chục thẻ ngân hàng cùng nhiều tài liệu liên quan đến cuộc đời trốn nã.
+Hành trình lẩn trốn kéo dài một nghìn ba trăm tám mươi ngày của cựu sinh viên xuất sắc Đại học Bắc Kinh chính thức chấm dứt.
+
+**HOST** *(tiết lộ sự đối lập tâm lý tại tòa án)*:
+Tin tức về việc Ngô Tạ Vũ bị bắt giữ tại sân bay Trùng Khánh một lần nữa làm bùng nổ các phương tiện truyền thông và mạng xã hội Trung Quốc.
+Sau nhiều năm suy đoán, công chúng cuối cùng cũng được chứng kiến diện mạo thực sự của kẻ thủ ác phía sau bục thẩm vấn.
+Thế nhưng, điều khiến các điều tra viên và dư luận bàng hoàng nhất không chỉ là lời thú tội, mà là thái độ và màn thể hiện tâm lý của đối tượng trong suốt các phiên tòa xét xử sau đó.
+Một cuộc đối đầu trí tuệ đầy cam go giữa pháp luật và một nhân cách ái kỷ có học thức cao bắt đầu diễn ra tại Tòa án Phúc Châu.
+Bản chất ngụy biện tinh vi của đối tượng bắt đầu bộc lộ rõ nét qua từng lời khai trước Hội đồng xét xử.
+
+**NGƯỜI BÌNH THƯỜNG** *(N2: Lời dẫn minh họa về nhân viên quán bar tại Trùng Khánh, giọng nam sợ hãi, dằn vặt)*:
+Hãy hình dung nỗi khiếp đảm cùng cực của chúng tôi khi nhìn thấy hình ảnh của Tiểu Long xuất hiện trên bản tin thời sự toàn quốc với tư cách là một tử tù nguy hiểm.
+Người thanh niên mà chúng tôi làm việc chung mỗi đêm, người luôn cười nói nhã nhặn và sẵn lòng bưng bê từng khay đồ uống cho khách hàng, hóa ra lại là kẻ mang trên mình trọng tội tày trời.
+Tôi nhớ lại những lần ngồi ăn đêm cùng cậu ấy ở quán nhỏ ven đường, nghe cậu ấy nói về những ước mơ và kiến thức sâu rộng về văn học.
+Mỗi ánh mắt, mỗi cử chỉ khiêm nhường ấy giờ đây hiện lên trong tâm trí tôi như một chiếc mặt nạ ngụy trang hoàn hảo đến mức rợn người.
+Tôi cảm thấy lạnh toát sống lưng khi nhận ra mình đã từng chia sẻ công việc và tin tưởng một con người có thể che giấu bóng tối kinh hoàng như vậy suốt nhiều năm ròng.
+Làm sao một con người có thể sống hai cuộc đời hoàn toàn tách biệt mà không hề để lộ một chút sơ hở nào trước những người xung quanh?
+Đó là một sự thật khiến tôi không bao giờ còn có thể nhìn nhận người khác một cách ngây thơ như trước đây được nữa.
+Sự trừng phạt nghiêm khắc của pháp luật là điều tất yếu dành cho những tội ác đã được che đậy quá tinh vi.
+
+**[SFX]:** Tiếng động cơ xe cảnh sát rú còi dồn dập, tiếng đóng sầm cửa sắt nhà giam nặng nề.
+
+**HOST** *(phân tích câu hỏi mấu chốt về sự hối hận)*:
+Tại phiên tòa sơ thẩm diễn ra vào tháng mười hai năm 2020 và phiên tuyên án tháng tám năm 2021 tại Phúc Châu, Ngô Tạ Vũ đã biến phòng xử án thành một diễn đàn diễn thuyết cá nhân.
+Hắn nói liên tục hàng giờ đồng hồ, sử dụng những trích dẫn văn học kinh điển, các khái niệm triết học trừu tượng và các thuật ngữ tâm lý học để tự phân tích động cơ hành vi của mình.
+Hắn cúi đầu xin lỗi những người thân trong dòng họ, khóc lóc thảm thiết và tha thiết xin được hiến tạng để chuộc lại một phần tội lỗi đã gây ra cho xã hội.
+Hắn vẫn khăng khăng lặp lại luận điểm rằng hành vi của mình xuất phát từ tình yêu thương sâu sắc và mong muốn giải thoát mẹ khỏi nỗi đau khổ của cuộc đời.
+Màn kịch cảm xúc ấy đã khiến một số người có mặt tại phiên tòa rơi nước mắt và đặt ra câu hỏi liệu đối tượng có thực sự ăn năn hối cải hay không?
+Dư luận một lần nữa bị phân tâm trước tài năng hùng biện sắc sảo và vẻ ngoài đáng thương của bị cáo.
+
+**ĐIỀU TRA VIÊN** *(nhận định bản chất lời khai)*:
+Tuy nhiên, toàn bộ hồ sơ chứng cứ và những hành vi thực tế của đối tượng đã bác bỏ hoàn toàn những lời biện bạch hoa mỹ ấy.
+Một người thực sự muốn “giải thoát để chết cùng mẹ” sẽ không bao giờ ở lại hiện trường chuẩn bị kỹ lưỡng hàng chục lớp bọc than hoạt tính để ngăn mùi hôi phát tán suốt nhiều tháng.
+Một người mang động cơ vị tha sẽ không bao giờ lợi dụng danh nghĩa của người mẹ đã mất để lừa đảo hơn một triệu bốn trăm nghìn nhân dân tệ từ chính những người thân ruột thịt nghèo khó.
+Và càng không thể có chuyện một kẻ muốn chết lại sử dụng ba mươi chiếc chứng minh thư giả để trốn nã và lao vào những cuộc ăn chơi hưởng lạc tại các quán bar suốt gần bốn năm trời.
+
+**CHUYÊN GIA TÂM LÝ** *(bóc tách cơ chế tâm lý của sự hối hận chân thực và hối hận thực dụng)*:
+Phân tích vi biểu cảm và ngôn ngữ học pháp y cho thấy những giọt nước mắt của Ngô Tạ Vũ trước tòa là biểu hiện rõ nét của “Sự tự thương hại bệnh lý” và “Hối hận công cụ”, hoàn toàn không phải là sự ăn năn đạo đức chân chính.
+Kẻ ái kỷ bệnh lý chỉ thực sự khóc khi nhận ra vị thế toàn năng của mình đã sụp đổ và quyền kiểm soát số phận đã bị tước đoạt hoàn toàn.
+Hắn khóc cho bản thân mình, khóc cho một tương lai trí thức rực rỡ đã bị chôn vùi và khiếp sợ trước án phạt tử hình đang cận kề trước mắt.
+Việc hắn sử dụng những thuật ngữ triết học cao siêu thực chất là một cơ chế “Trí tuệ hóa” nhằm trốn tránh sự thật trần trụi rằng hắn là một kẻ nghịch tử tham lam và ích kỷ.
+Hắn muốn công chúng nhìn nhận mình như một nhân vật bi kịch mang tầm vóc tư tưởng, thay vì phải đối mặt với hình ảnh một kẻ tội phạm hình sự đê tiện.
+Hắn liên tục nhắc đến cái chết như một sự giải thoát cao thượng, nhưng trong suốt bốn năm qua, hắn đã làm mọi cách để bảo vệ mạng sống của chính mình.
+Lời đề nghị hiến tạng hay viết sách sám hối chỉ là những toan tính tâm lý cuối cùng nhằm tìm kiếm sự thương hại và hy vọng được giảm án từ Hội đồng xét xử.
+Hắn cố gắng đóng vai một người sám hối vĩ đại để một lần nữa trở thành tâm điểm của sự ngưỡng mộ và chú ý từ công chúng.
+Không hề có bất kỳ sự thấu cảm thực sự nào dành cho nỗi đau đớn cùng cực của người mẹ và những người thân đã bị hắn lừa gạt.
+
+**HOST** *(khép lại Hồi 4)*:
+Trước những lập luận đanh thép của Viện Kiểm sát và hệ thống chứng cứ vững chắc của cơ quan điều tra, chiếc mặt nạ triết học cuối cùng của Ngô Tạ Vũ đã hoàn toàn tan rã trước ánh sáng công lý.
+Không một lời biện minh hoa mỹ nào có thể che lấp được bản chất tàn độc của một hành vi đi ngược lại những luân thường đạo lý thiêng liêng nhất của nhân loại.
+Tòa án đã bác bỏ toàn bộ yêu cầu giám định tâm thần lại do các luật sư bào chữa đệ trình, khẳng định bị cáo hoàn toàn tỉnh táo và có đầy đủ năng lực trách nhiệm hình sự.
+Hành vi tội ác có dự mưu bài bản và thái độ trốn tránh pháp luật kéo dài đòi hỏi một sự trừng phạt nghiêm khắc nhất từ nền tư pháp.
+Mọi nỗ lực thao túng dư luận bằng ngôn từ hoa mỹ cuối cùng đã bất lực trước sự thật khách quan.
+Thời khắc định đoạt số phận của kẻ thủ ác trí thức đã điểm.
+
+**[BGM]:** Một nốt nhạc u uất lắng xuống rồi tan biến vào sự trang nghiêm của phòng xử án.
+"""
+
+# Act 5: 36 sentences (H:8, C:7, D:6, H:15)
+act5 = """## HỒI 5: PHÁN QUYẾT NGHIÊM MINH VÀ TIẾNG CHUÔNG CẢNH TỈNH LƯƠNG TRI
+
+**[BGM]:** Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, ngân vang niềm tin mãnh liệt vào công lý và sự thức tỉnh của nhận thức cộng đồng.
+
+**HOST** *(giọng suy ngẫm, triết lý và đầy xúc động)*:
+Ngày 26 tháng tám năm 2021, Tòa án Nhân dân Trung cấp thành phố Phúc Châu đã tuyên đọc bản án sơ thẩm đối với bị cáo Ngô Tạ Vũ.
+Tòa tuyên phạt Ngô Tạ Vũ mức án tử hình về tội Cố ý giết người, mười năm tù về tội Lừa đảo, và ba năm tù về tội Mua bán giấy tờ tùy thân của công dân.
+Tổng hợp hình phạt chung dành cho bị cáo là tử hình, tước bỏ quyền lợi chính trị suốt đời và phạt tiền một trăm linh ba nghìn nhân dân tệ.
+Hội đồng xét xử nhận định hành vi của bị cáo mang tính chất đặc biệt nghiêm trọng, thủ đoạn cực kỳ tàn nhẫn, xâm phạm nghiêm trọng đạo đức gia đình và chuẩn mực ứng xử xã hội.
+Mặc dù bị cáo đã làm đơn kháng cáo lên Tòa án Nhân dân Cấp cao tỉnh Phúc Kiến với lý do bản thân có biểu hiện rối loạn tâm thần tại thời điểm gây án, nhưng các kết quả giám định pháp y tâm thần đều khẳng định bị cáo hoàn toàn có đủ năng lực nhận thức và điều khiển hành vi.
+Ngày 30 tháng năm năm 2023, Tòa án Cấp cao tỉnh Phúc Kiến đã chính thức bác đơn kháng cáo, giữ nguyên bản án tử hình sơ thẩm.
+Sau quá trình xem xét và rà soát nghiêm ngặt theo đúng trình tự tố tụng tối cao, Tòa án Nhân dân Tối cao Trung Quốc đã ký quyết định phê chuẩn thi hành án tử hình đối với Ngô Tạ Vũ.
+Sáng ngày 31 tháng một năm 2024, bản án tử hình đối với Ngô Tạ Vũ đã chính thức được thi hành tại thành phố Phúc Châu, khép lại vĩnh viễn hồ sơ vụ án gây chấn động lịch sử giáo dục và tư pháp nước này.
+
+**CHUYÊN GIA TÂM LÝ** *(đúc kết các bài học hành vi và cơ chế phòng ngừa)*:
+Hồ sơ vụ án Ngô Tạ Vũ để lại những di sản nghiên cứu vô cùng sâu sắc cho ngành tâm lý học giáo dục và khoa học hành vi gia đình hiện đại.
+Thứ nhất, nó gióng lên một hồi chuông cảnh báo đỏ về sự nguy hại khôn lường của “Chủ nghĩa hoàn hảo độc hại” trong môi trường giáo dục gia đình.
+Khi một đứa trẻ chỉ được yêu thương dựa trên thành tích học tập và sự phục tùng tuyệt đối, đứa trẻ đó sẽ bị tước đoạt cơ hội phát triển một nhân cách cảm xúc lành mạnh.
+Thứ hai, vụ án đặt ra yêu cầu cấp thiết về việc thiết lập các “Ranh giới cá nhân lành mạnh” giữa cha mẹ và con cái trong quá trình trưởng thành.
+Tình yêu thương không bao giờ được phép đồng nghĩa với sự chiếm hữu và kiểm soát cảm xúc, bởi sự kiểm soát quá mức sẽ vô tình biến tình mẫu tử thành một gánh nặng ngột ngạt không lối thoát.
+Thứ ba, đây là bài học thức tỉnh về tầm quan trọng của việc can thiệp tâm lý chuyên nghiệp khi gia đình đối mặt với những biến cố mất mát lớn lao.
+Những sang chấn tinh thần sau sự ra đi của người thân cần được chia sẻ và chữa lành khoa học, thay vì chọn cách kìm nén chịu đựng sau những cánh cửa gia đình đóng kín.
+
+**ĐIỀU TRA VIÊN** *(nhận định di sản tư pháp và tinh thần thượng tôn pháp luật)*:
+Về mặt khoa học hình sự và thực thi pháp luật, vụ án Ngô Tạ Vũ là một cột mốc khẳng định sự phát triển vượt bậc của công nghệ điều tra và an ninh số hóa hiện đại.
+Sự kết hợp hiệu quả giữa dữ liệu lớn, mạng lưới giám sát nhận diện khuôn mặt sinh trắc học và nghiệp vụ trinh sát truyền thống đã chứng minh rằng không một kẻ thủ ác nào có thể ẩn mình vĩnh viễn trước ánh sáng công lý.
+Dù nghi phạm có sở hữu trí tuệ xuất chúng hay ngụy trang tinh vi đến đâu, những dấu vết vật chất và dữ liệu số sẽ luôn là những bằng chứng đanh thép nhất bóc trần tội ác.
+Bản án tử hình nghiêm minh được thi hành là lời tuyên ngôn đanh thép về tinh thần thượng tôn pháp luật, bảo vệ trật tự đạo đức xã hội và sự tôn nghiêm bất khả xâm phạm của sinh mạng con người.
+Công lý có thể trải qua một hành trình điều tra gian nan và phức tạp, nhưng sự trừng phạt thích đáng sẽ luôn được thực thi một cách công bằng và chuẩn mực.
+Ánh sáng của pháp luật đã trả lại sự thanh thản cho hương hồn người đã khuất và mang lại niềm tin vững chắc cho toàn thể cộng đồng xã hội.
+
+**HOST** *(chuyển sang phần đúc kết và bài học nhận diện)*:
+Để bảo vệ chính mình và xây dựng một môi trường gia đình thực sự an toàn và hạnh phúc, các chuyên gia tâm lý gửi đến cộng đồng ba nguyên tắc cảnh báo cốt lõi:
+Thứ nhất, hãy học cách chấp nhận và tôn trọng sự không hoàn hảo của bản thân cũng như của con cái và những người thân yêu xung quanh.
+Đừng bao giờ để những điểm số học thuật hay những ánh hào quang thành tích bên ngoài trở thành thước đo duy nhất định nghĩa giá trị của một con người.
+Hãy cho phép con trẻ được bộc lộ sự yếu đuối, được thất bại và được chia sẻ những cảm xúc chân thật nhất mà không phải lo sợ bị phán xét hay trừng phạt.
+Thứ hai, luôn duy trì sự kết nối cảm xúc cởi mở và chủ động tìm kiếm sự giúp đỡ từ cộng đồng hoặc các chuyên gia tâm lý khi gặp phải khủng hoảng tinh thần.
+Sự im lặng kìm nén và thói quen che giấu nỗi đau sau chiếc mặt nạ bình yên chính là chiếc bẫy tâm lý nguy hiểm nhất có thể dẫn dắt con người vào bờ vực sụp đổ.
+Một sự lắng nghe chân thành và một cái ôm ấm áp đúng lúc đôi khi có thể cứu vãn cả một số phận trước những ngã rẽ tăm tối của cuộc đời.
+Thứ ba, tỉnh táo nhận diện và kiên quyết loại bỏ những mối quan hệ thao túng tâm lý độc hại dựa trên sự áp đặt và kiểm soát cưỡng ép.
+Tình yêu thương chân chính luôn đi kèm với sự tôn trọng tự do cá nhân và không gian phát triển độc lập của mỗi thành viên trong gia đình.
+Mỗi hành trình giải mã tâm lý tội phạm cùng Amber Eyes không chỉ là việc lật lại những trang hồ sơ án mạng đau xót của quá khứ.
+Sứ mệnh lớn nhất của chúng tôi là thắp sáng nhận thức xã hội, giúp mỗi người thấu hiểu sâu sắc hơn về thế giới nội tâm phức tạp của con người và bảo vệ những giá trị nhân văn cốt lõi.
+Chiếc mặt nạ hoàn hảo của Ngô Tạ Vũ đã vĩnh viễn vỡ vụn, để lại bài học đắt giá cho muôn thế hệ về giá trị thiêng liêng của một gia đình lành mạnh.
+Xin hãy luôn trân trọng từng khoảnh khắc bình dị bên những người thân yêu, nuôi dưỡng tổ ấm bằng sự thấu hiểu chân thành và lòng trắc ẩn sâu sắc.
+Cảm ơn quý vị khán giả đã luôn đồng hành cùng kênh trong từng tập hồ sơ chuyên sâu.
+Xin chào tạm biệt và hẹn gặp lại quý vị trong những hành trình khám phá tâm lý học tội phạm tiếp theo.
+
+**[BGM]:** Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần vào sự bình yên lắng đọng của cuộc sống.
+"""
+
+full_script = header + "\n" + act1 + "\n---\n\n" + act2 + "\n---\n\n" + act3 + "\n---\n\n" + act4 + "\n---\n\n" + act5
+
+out_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap51/kichban_tap51_22112026.md'
+with open(out_path, 'w', encoding='utf-8') as f:
+    f.write(full_script)
+
+print("Saved script to", out_path)
+
+# Verify with parse_kichban
+els = parse_kichban.parse_lines(full_script.splitlines())
+total_sents = sum(len(e.get('sentences', [])) for e in els if e['kind'] == 'LOI')
+print("Parsed total sentences:", total_sents)
+print("Parsed total elements:", len(els))
+
+for act in range(1, 6):
+    act_els = [e for e in els if e['act'] == act]
+    act_sents = sum(len(e.get('sentences', [])) for e in act_els if e['kind'] == 'LOI')
+    print(f"Act {act}: {act_sents} sentences, {len(act_els)} elements")

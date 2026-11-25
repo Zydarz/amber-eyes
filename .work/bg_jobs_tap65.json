@@ -1,0 +1,940 @@
+[
+  {
+    "name": "t65_a1_01_dark_alley_cracked_wall",
+    "act": 1,
+    "sentences": "1.02#1,1.02#2",
+    "desc": "Con hẻm tối của thủ đô với bức tường nứt, ẩn dụ vết nứt vô hình của xã hội.",
+    "prompt": "Narrow dim alley in Mexico City, 2000s, a long crack running down a weathered plaster wall under one weak streetlamp, empty and quiet."
+  },
+  {
+    "name": "t65_a1_02_crowd_ignores_warning_light",
+    "act": 1,
+    "sentences": "1.02#3,1.02#4",
+    "desc": "Đám đông lơ là đi ngang qua đèn cảnh báo đang nhấp nháy.",
+    "prompt": "Mexico City street at dusk, a crowd of faceless silhouettes walking past a flashing amber warning lamp without looking at it, one dark shape quietly spreading in the shadows behind them."
+  },
+  {
+    "name": "t65_a1_03_mexico_city_rooftops_dark_shadow",
+    "act": 1,
+    "sentences": "1.02#5,1.02#6",
+    "desc": "Toàn cảnh thủ đô Mexico City đầu những năm 2000 với một bóng đen phủ lên mái nhà.",
+    "prompt": "Wide establishing view of Mexico City rooftops in the early 2000s at dusk, dense low-rise apartment blocks, a vast dark shadow shape stretching over the districts like a cloud."
+  },
+  {
+    "name": "t65_a1_04_aging_apartment_corridor",
+    "act": 1,
+    "sentences": "1.02#7",
+    "desc": "Hành lang chung cư cổ kính vắng lặng với những cánh cửa đóng kín.",
+    "prompt": "Long empty corridor of an old colonial-style apartment building in Mexico City, rows of closed wooden doors, peeling paint, a single bulb flickering faintly."
+  },
+  {
+    "name": "t65_a1_05_teacups_on_table_door_ajar",
+    "act": 1,
+    "sentences": "1.02#8,1.02#9",
+    "desc": "Bàn nước còn tách trà dang dở, cửa chính khép hờ để lọt ánh sáng ấm.",
+    "prompt": "Small living room table with two half-finished teacups and a teapot, the front door behind it standing slightly ajar with warm light spilling in, deserted and still, Mexico City flat."
+  },
+  {
+    "name": "t65_a1_06_courtyard_whispering_neighbors",
+    "act": 1,
+    "sentences": "1.02#10,1.02#11",
+    "desc": "Sân chung cư ban đêm, vài bóng người thì thầm với nhau.",
+    "prompt": "Apartment block inner courtyard at night in Venustiano Carranza district of Mexico City, two silhouettes whispering close together near a stairwell, laundry lines overhead."
+  },
+  {
+    "name": "t65_a1_07_prosecutor_emergency_meeting_room",
+    "act": 1,
+    "sentences": "1.04#1,1.04#2",
+    "desc": "Phòng họp khẩn của cơ quan công tố, các bóng người căng thẳng quanh bàn.",
+    "prompt": "Government office meeting room in Mexico City, silhouettes of officials gathered around a long table with scattered completely blank folders, tense atmosphere, one lamp overhead."
+  },
+  {
+    "name": "t65_a1_08_burly_man_assumption_board",
+    "act": 1,
+    "sentences": "1.04#3,1.04#4",
+    "desc": "Bảng điều tra trống với hình bóng một gã đàn ông lực lưỡng cắt từ giấy.",
+    "prompt": "Detective office, a blank corkboard with a crude cut-out silhouette of a broad-shouldered burly man pinned in the center, investigator silhouettes studying it from behind, desk lamp."
+  },
+  {
+    "name": "t65_a1_09_investigators_blind_spot_shadow",
+    "act": 1,
+    "sentences": "1.04#5",
+    "desc": "Các điều tra viên nhìn một hướng trong khi bóng đen lướt qua sau lưng.",
+    "prompt": "Silhouettes of investigators all staring in one direction in a dim office, while an unnoticed dark shape slips by behind them near an open doorway, symbolic cognitive blind spot."
+  },
+  {
+    "name": "t65_a1_10_tidy_flat_clues_lamp",
+    "act": 1,
+    "sentences": "1.05#1,1.05#2",
+    "desc": "Căn hộ gọn gàng nhưng vài vật dụng bị di dời, ánh đèn soi xuống.",
+    "prompt": "Quiet tidy apartment living room after an incident, no people, a few small objects subtly out of place on shelves and a lamp casting a single pool of light, detective noir mood."
+  },
+  {
+    "name": "t65_a1_11_calm_silhouette_studies_patrol",
+    "act": 1,
+    "sentences": "1.05#3,1.05#4",
+    "desc": "Bóng người bình thản quan sát xe tuần tra chạy qua ở xa.",
+    "prompt": "Mexico City avenue at dusk, a lone silhouette standing across the road watching a police patrol car pass in the distance, holding a completely blank notebook, patient and calculating."
+  },
+  {
+    "name": "t65_a1_12_broad_figure_leaving_doorway_distance",
+    "act": 1,
+    "sentences": "1.05#5",
+    "desc": "Nhân chứng thoáng thấy một bóng to lớn mặc đồ sáng bước ra khỏi cửa tòa nhà.",
+    "prompt": "View from across a narrow Mexico City street at dusk, a distant broad-shouldered silhouette in light-colored clothes stepping out of an apartment building doorway, face lost in shadow, seen through a dirty window."
+  },
+  {
+    "name": "t65_a1_13_police_briefing_wrong_theory",
+    "act": 1,
+    "sentences": "1.05#6",
+    "desc": "Buổi họp cảnh sát chốt giả thuyết sai lầm.",
+    "prompt": "Police briefing room in Mexico City, officer silhouettes seated facing a blank chalkboard with a vague ambiguous cut-out figure in a dress and wide shoulders, harsh fluorescent light."
+  },
+  {
+    "name": "t65_a1_14_nightlife_dragnet_patrol_cars",
+    "act": 1,
+    "sentences": "1.05#7,1.05#8",
+    "desc": "Chiến dịch truy quét ban đêm với xe cảnh sát và tia đèn pin ở phố đêm.",
+    "prompt": "Mexico City nightlife street in the 2000s, several police cars with flashing lights and flashlight beams sweeping across anonymous club entrances with plain unmarked walls, crowd of silhouettes lined against a wall."
+  },
+  {
+    "name": "t65_a1_15_fingerprint_cards_desk_lamp",
+    "act": 1,
+    "sentences": "1.05#9",
+    "desc": "Chồng thẻ dấu vân tay trống dưới đèn bàn.",
+    "prompt": "Close view of a stack of fingerprint cards that are completely blank and unmarked with no writing at all, a magnifying glass and ink pad under a desk lamp in a police office."
+  },
+  {
+    "name": "t65_a1_16_sunlit_plaza_calm_walker",
+    "act": 1,
+    "sentences": "1.06#1,1.06#2",
+    "desc": "Quảng trường rực nắng, một bóng người bình thản đi giữa đám đông.",
+    "prompt": "Sunlit Mexico City plaza at midday, a lone calm silhouette walking unhurriedly through a crowd while police cars sit far away at the plaza edge, stark contrast of bright day and hidden threat."
+  },
+  {
+    "name": "t65_a1_17_locked_door_chains_empty_street",
+    "act": 1,
+    "sentences": "1.06#3,1.06#4,1.06#5",
+    "desc": "Cửa khóa nhiều lớp bên trong căn hộ, ngoài kia phố vắng đóng cửa sổ.",
+    "prompt": "Inside an apartment entrance, a front door secured with a heavy chain and several bolts, a window beside it showing a deserted Mexico City street with closed shutters, fearful hush."
+  },
+  {
+    "name": "t65_a1_18_resident_window_curfew_street",
+    "act": 1,
+    "sentences": "1.06#6,1.06#7",
+    "desc": "Người dân nhìn qua cửa sổ khu phố Moctezuma như đang giới nghiêm.",
+    "prompt": "Silhouette of a resident at an apartment window looking down on an empty Moctezuma neighborhood street at dusk in Mexico City, empty benches and closed doors, an invisible curfew mood."
+  },
+  {
+    "name": "t65_a1_19_morning_kitchen_bolted_door",
+    "act": 1,
+    "sentences": "1.06#8,1.06#9",
+    "desc": "Buổi sáng trong bếp, cửa căn hộ cài then chặt.",
+    "prompt": "Early morning in a modest Mexico City kitchen, sunrise through the window onto a table, the apartment door in the background fastened with a latch and bolt, a worried silhouette family at the far end."
+  },
+  {
+    "name": "t65_a1_20_lonely_armchair_by_window",
+    "act": 1,
+    "sentences": "1.06#10,1.06#11",
+    "desc": "Chiếc ghế bành trống bên cửa sổ với tách trà và radio cũ.",
+    "prompt": "Empty armchair beside a window in a quiet Mexico City flat, an old radio and a single teacup on a side table, afternoon light, deep loneliness and longing for company."
+  },
+  {
+    "name": "t65_a1_21_storm_clouds_gathering_city",
+    "act": 1,
+    "sentences": "1.07#1,1.07#2",
+    "desc": "Mây dông tích tụ chậm rãi trên thành phố, ẩn dụ xung động dồn nén.",
+    "prompt": "Heavy dark storm clouds slowly gathering over a Mexico City skyline at dusk, pressure building, distant lightning flickering, symbolic of long-accumulating psychological tension."
+  },
+  {
+    "name": "t65_a1_22_cracked_mirror_dim_room",
+    "act": 1,
+    "sentences": "1.07#3,1.07#4",
+    "desc": "Chiếc gương nứt trong căn phòng tối, một tia lửa nhỏ bùng lên.",
+    "prompt": "A cracked standing mirror in a dim bare room, a tiny spark of light glowing on the broken glass, symbolizing a wounded ego about to collapse, no people."
+  },
+  {
+    "name": "t65_a1_23_maternal_halo_silhouette",
+    "act": 1,
+    "sentences": "1.07#5,1.07#6",
+    "desc": "Bóng người nữ trong vầng sáng dịu dàng của hình ảnh người mẹ.",
+    "prompt": "A soft-edged silhouette of a woman standing in a warm gentle halo of light, symbolizing the image of tenderness and motherhood, darkness thickening behind her."
+  },
+  {
+    "name": "t65_a1_24_shield_of_fog_plaza",
+    "act": 1,
+    "sentences": "1.07#7",
+    "desc": "Tấm khiên sương mù che một bóng người giữa quảng trường đông.",
+    "prompt": "Crowded Mexico City plaza, a large translucent shield of fog hiding a single dark silhouette among the crowd, the figure invisible in plain view."
+  },
+  {
+    "name": "t65_a1_25_bell_tower_night_long_shadow",
+    "act": 1,
+    "sentences": "1.08#1,1.08#2",
+    "desc": "Tháp chuông báo động ban đêm, bóng dài trườn qua sân vắng.",
+    "prompt": "Church bell tower in Mexico City at night, bell swinging, a long creeping shadow slowly crossing the empty plaza below toward the lit windows of apartments."
+  },
+  {
+    "name": "t65_a1_26_shadow_on_blank_wall_album",
+    "act": 1,
+    "sentences": "1.08#3,1.08#4",
+    "desc": "Bóng mờ trên bức tường trống cạnh cuốn album trang trắng.",
+    "prompt": "Dim room with a single lamp, an old photo album open to completely blank pages on a desk, an ambiguous shadow stretched on the blank wall behind, a hidden past to be revealed."
+  },
+  {
+    "name": "t65_a2_01_respectable_facade_silhouette",
+    "act": 2,
+    "sentences": "2.02#1,2.02#2",
+    "desc": "Bóng người phụ nữ ăn mặc giản dị trước cửa, bóng phản chiếu mang nụ cười như mặt nạ.",
+    "prompt": "Silhouette of a modestly dressed woman at a front door seen from behind, in a hallway mirror a faint reflection with a smile-like mask-shaped shadow, respectable outer facade."
+  },
+  {
+    "name": "t65_a2_02_split_room_compartment",
+    "act": 2,
+    "sentences": "2.02#3,2.02#4",
+    "desc": "Căn phòng chia đôi: bếp ấm áp bên này, phòng tối trống bên kia.",
+    "prompt": "Interior split by a wall, one half a warm cozy kitchen with a lit lamp, the other half a cold empty dark room, symbolizing a compartmentalized mind, no people."
+  },
+  {
+    "name": "t65_a2_03_hidalgo_village_adobe_road",
+    "act": 2,
+    "sentences": "2.02#5",
+    "desc": "Làng quê nghèo vùng Hidalgo những năm 1950 với nhà đất và đường bụi.",
+    "prompt": "Poor rural village in Hidalgo state, Mexico, late 1950s, adobe houses and a dusty road under harsh sun, barren landscape of cacti."
+  },
+  {
+    "name": "t65_a2_04_empty_bottles_rough_table",
+    "act": 2,
+    "sentences": "2.02#6",
+    "desc": "Chiếc bàn gỗ thô đầy chai rỗng trong căn nhà đất tối.",
+    "prompt": "Inside a rough adobe house, a worn wooden table covered with empty glass bottles, harsh slanted light through a small window, 1960s rural Mexico, oppressive and bleak."
+  },
+  {
+    "name": "t65_a2_05_sandals_beer_bottles_doorstep",
+    "act": 2,
+    "sentences": "2.02#7,2.02#8",
+    "desc": "Đôi dép nhỏ bỏ lại cùng ba chai bia trên bậc cửa, con đường bụi dẫn đi.",
+    "prompt": "Doorstep of a rural adobe house, a pair of small worn sandals left behind and three beer bottles on the step, an empty dirt road leading away into dusk."
+  },
+  {
+    "name": "t65_a2_06_porcelain_doll_closed_door",
+    "act": 2,
+    "sentences": "2.02#9,2.02#10",
+    "desc": "Búp bê sứ nứt trên sàn phòng trống, cửa đóng chỉ còn khe sáng.",
+    "prompt": "A cracked porcelain doll lying on the floor of a bare dim room, a closed wooden door with only a thin slit of light beneath it, symbol of an unhealed scar, no people."
+  },
+  {
+    "name": "t65_a2_07_mother_shadow_over_doorways",
+    "act": 2,
+    "sentences": "2.04#1,2.04#2",
+    "desc": "Bóng người phụ nữ đổ dài lên hàng cửa căn hộ.",
+    "prompt": "Elongated shadow of a stern woman cast across a row of closed apartment doors in a dark corridor, symbolic projection of old hatred, no faces."
+  },
+  {
+    "name": "t65_a2_08_hall_of_mirrors_cold_room",
+    "act": 2,
+    "sentences": "2.04#3,2.04#4",
+    "desc": "Phòng gương lạnh lẽo, hình phản chiếu vô số của chiếc ghế trống.",
+    "prompt": "Cold dim hall of mirrors reflecting a single empty chair endlessly, pale blue light, symbolizing self-justification and lost empathy, no people."
+  },
+  {
+    "name": "t65_a2_09_rural_cemetery_dusk",
+    "act": 2,
+    "sentences": "2.04#5",
+    "desc": "Nghĩa địa quê lúc chạng vạng với những cây thập giá đơn sơ.",
+    "prompt": "Simple rural Mexican cemetery at dusk, plain wooden crosses with no inscriptions and wilted flowers, hills in the distance, quiet and melancholy."
+  },
+  {
+    "name": "t65_a2_10_university_lecture_hall_scholar",
+    "act": 2,
+    "sentences": "2.04#6",
+    "desc": "Giảng đường đại học, bóng nhà nghiên cứu bên bảng phấn trống.",
+    "prompt": "Lecture hall at a Mexico City university, silhouette of a scholar beside a completely blank chalkboard, rows of empty wooden seats, warm evening light through tall windows."
+  },
+  {
+    "name": "t65_a2_11_ghost_shadow_over_street_doors",
+    "act": 2,
+    "sentences": "2.04#7,2.04#8",
+    "desc": "Bóng ma phụ nữ phủ lên con phố với hàng cửa căn hộ.",
+    "prompt": "Faint ghostly shadow of a stern woman looming over a Mexico City street lined with apartment doors at dawn, mist, a symbolic haunting presence, no face visible."
+  },
+  {
+    "name": "t65_a2_12_lucha_libre_ring_spotlight",
+    "act": 2,
+    "sentences": "2.05#1,2.05#2",
+    "desc": "Sàn đấu Lucha Libre sáng đèn, một bóng đô vật đeo mặt nạ bước ra.",
+    "prompt": "Lucha Libre arena in Mexico City, brightly spotlit wrestling ring, crowd of silhouettes in the dark stands, a masked wrestler silhouette entering through the curtain at the far end."
+  },
+  {
+    "name": "t65_a2_13_satin_cape_mask_dressing_room",
+    "act": 2,
+    "sentences": "2.05#3",
+    "desc": "Áo choàng satin hồng trắng và mặt nạ lấp lánh để trên ghế phòng thay đồ.",
+    "prompt": "Cramped wrestler dressing room, a pink and white satin outfit and a sparkling mask resting on a wooden stool beside a bare mirror, soft warm light, no people."
+  },
+  {
+    "name": "t65_a2_14_cheering_crowd_arena_arms",
+    "act": 2,
+    "sentences": "2.05#4",
+    "desc": "Khán giả giơ tay reo hò trong đấu trường đông nghịt.",
+    "prompt": "Packed Lucha Libre arena, a sea of cheering silhouettes with raised arms under hazy stage lights, a distant ring glowing white."
+  },
+  {
+    "name": "t65_a2_15_wrestling_mask_on_hook_locker",
+    "act": 2,
+    "sentences": "2.05#5,2.05#6",
+    "desc": "Chiếc mặt nạ đấu sĩ treo trên móc trong phòng tủ tối.",
+    "prompt": "Dim locker room, a glittering wrestling mask hanging on a metal hook beside a dusty mirror, a single bare bulb, feeling of another persona hiding behind it."
+  },
+  {
+    "name": "t65_a2_16_back_brace_hospital_corridor",
+    "act": 2,
+    "sentences": "2.05#7",
+    "desc": "Nẹp lưng và nạng dựa tường hành lang bệnh viện.",
+    "prompt": "Hospital corridor in Mexico City, late 1990s, a back brace and a pair of crutches leaning against the wall, pale green light, nobody present."
+  },
+  {
+    "name": "t65_a2_17_dusty_trophy_shelf_bare_bulb",
+    "act": 2,
+    "sentences": "2.05#8,2.05#9",
+    "desc": "Kệ cúp bám bụi, bóng đèn trần đung đưa trong căn hộ nhỏ tối.",
+    "prompt": "Small dark apartment with a dusty shelf of old wrestling trophies, a single bare bulb swinging overhead casting restless shadows, anger smoldering in silence."
+  },
+  {
+    "name": "t65_a2_18_map_wall_red_string_investigators",
+    "act": 2,
+    "sentences": "2.06#1,2.06#2",
+    "desc": "Bức tường bản đồ trống với dây đỏ nối, bóng điều tra viên đứng trước.",
+    "prompt": "Investigators' room, silhouettes standing before a wall-sized blank map with red string connecting unmarked pins across Mexico City districts, desk lamp, late night."
+  },
+  {
+    "name": "t65_a2_19_household_items_neat_row",
+    "act": 2,
+    "sentences": "2.06#3",
+    "desc": "Hàng đồ dùng mềm trong nhà xếp gọn trên bàn: khăn choàng, dây điện thoại.",
+    "prompt": "A neat row of everyday household soft items on a table, a scarf and a coiled telephone cord beside a lamp, ordinary objects with an unsettling stillness, no people."
+  },
+  {
+    "name": "t65_a2_20_late_november_2002_low_rise_street",
+    "act": 2,
+    "sentences": "2.06#4,2.06#5,2.06#6",
+    "desc": "Phố chung cư thấp tầng cuối tháng mười một năm 2002, cây trụi lá, trời âm u.",
+    "prompt": "Quiet street of low-rise apartment blocks in Mexico City in late November 2002, bare trees, overcast sky, a detective silhouette far down the sidewalk, calm before the case."
+  },
+  {
+    "name": "t65_a2_21_welfare_worker_at_door_back",
+    "act": 2,
+    "sentences": "2.06#7",
+    "desc": "Bóng người mang cặp tại cửa căn hộ, quay lưng, như nhân viên phúc lợi.",
+    "prompt": "Silhouette from behind of a woman with a satchel standing at an apartment door in Mexico City, daytime, waiting to be admitted, face never visible."
+  },
+  {
+    "name": "t65_a2_22_two_empty_chairs_kitchen_tension",
+    "act": 2,
+    "sentences": "2.06#8,2.06#9",
+    "desc": "Hai chiếc ghế trống đối diện nhau bên bàn bếp nhỏ, ấm trà lạnh.",
+    "prompt": "Small kitchen table with two empty chairs facing each other and a cold teapot, harsh afternoon light, an unspoken argument hanging in the air, no people."
+  },
+  {
+    "name": "t65_a2_23_curtained_room_single_light_beam",
+    "act": 2,
+    "sentences": "2.06#10",
+    "desc": "Phòng khách rèm kéo kín, một tia sáng hẹp chiếu xuống sàn tĩnh lặng.",
+    "prompt": "Silent living room with heavy curtains drawn, one narrow beam of light falling on the floor, dust motes in the air, stillness after something irreversible, no people."
+  },
+  {
+    "name": "t65_a2_24_doorway_silhouette_long_shadow",
+    "act": 2,
+    "sentences": "2.07#1,2.07#2",
+    "desc": "Bóng người đứng ở cửa tòa nhà tối, bóng đổ dài ra đường.",
+    "prompt": "Silhouette standing in the doorway of a dark apartment building looking onto an evening street in Mexico City, an extremely long shadow stretching across the pavement."
+  },
+  {
+    "name": "t65_a2_25_shawl_and_phone_cord_armchair",
+    "act": 2,
+    "sentences": "2.07#3,2.07#4",
+    "desc": "Chiếc khăn len trên ghế bành cạnh điện thoại quay số cũ.",
+    "prompt": "A knitted shawl draped over an old armchair beside a rotary telephone with a coiled cord, dim living room, an ordinary place turned unsettling, no people."
+  },
+  {
+    "name": "t65_a2_26_trinkets_on_velvet_cloth",
+    "act": 2,
+    "sentences": "2.07#5,2.07#6",
+    "desc": "Vài món kỷ niệm nhỏ trên tấm vải nhung dưới đèn bàn.",
+    "prompt": "Close view of small keepsakes on a dark velvet cloth under a desk lamp: an old pocket watch with a blank face, a few plain medals and coins, treated like trophies."
+  },
+  {
+    "name": "t65_a2_27_popcorn_cart_sunny_plaza",
+    "act": 2,
+    "sentences": "2.08#1",
+    "desc": "Xe bán bỏng ngô trong quảng trường nắng, bóng người bán hàng hiền hòa.",
+    "prompt": "Sunlit Mexico City plaza, a plain popcorn cart with a silhouetted vendor from afar, children's silhouettes nearby, warm daily life."
+  },
+  {
+    "name": "t65_a2_28_two_silhouettes_meet_streetlamp",
+    "act": 2,
+    "sentences": "2.08#2,2.08#3",
+    "desc": "Hai bóng người gặp nhau ở góc phố dưới đèn đường.",
+    "prompt": "Two silhouettes meeting at a street corner under a single streetlamp at night in Mexico City, faces fully in shadow, a conspiracy beginning."
+  },
+  {
+    "name": "t65_a3_01_night_aerial_many_dark_windows",
+    "act": 3,
+    "sentences": "3.02#1,3.02#2",
+    "desc": "Toàn cảnh thủ đô về đêm với vô số ô cửa sổ tối.",
+    "prompt": "Aerial night view of Mexico City in 2004, countless apartment windows, most dark with a few lit, a creeping sense of growing menace."
+  },
+  {
+    "name": "t65_a3_02_white_coat_glasses_hook",
+    "act": 3,
+    "sentences": "3.02#3,3.02#4",
+    "desc": "Áo blouse trắng và kính cận treo trên móc cạnh bìa kẹp hồ sơ trống.",
+    "prompt": "A white medical coat and horn-rimmed glasses hanging on a wall hook beside a completely blank clipboard, a disguise waiting to be worn, cold light, no people."
+  },
+  {
+    "name": "t65_a3_03_single_lit_window_tower_night",
+    "act": 3,
+    "sentences": "3.02#5",
+    "desc": "Một ô cửa sổ sáng đèn lẻ loi trên tòa chung cư cao tầng ban đêm.",
+    "prompt": "Tall Mexico City apartment tower at night, a single lit window high up among dark ones, lonely and exposed."
+  },
+  {
+    "name": "t65_a3_04_sprawling_boulevards_districts_dusk",
+    "act": 3,
+    "sentences": "3.03#1,3.03#2",
+    "desc": "Những đại lộ trải rộng giữa các quận cách xa nhau lúc chạng vạng.",
+    "prompt": "Wide aerial view of vast boulevards linking distant districts of Mexico City at dusk, traffic trails, police checkpoints as tiny lights, a scale that no one on foot could cover."
+  },
+  {
+    "name": "t65_a3_05_green_beetle_cab_night",
+    "act": 3,
+    "sentences": "3.03#3",
+    "desc": "Chiếc taxi Volkswagen màu xanh không chữ đậu đêm, hai bóng người trong xe.",
+    "prompt": "Old green Volkswagen Beetle cab with plain unmarked doors parked on a Mexico City street at night, two silhouettes inside, headlights dim."
+  },
+  {
+    "name": "t65_a3_06_cab_parked_outside_block",
+    "act": 3,
+    "sentences": "3.03#4,3.03#5",
+    "desc": "Taxi đậu trước tòa chung cư, động cơ nổ máy, đèn pha mờ.",
+    "prompt": "Vintage cab with engine running parked at the curb in front of an apartment block in Mexico City at dusk, exhaust in the cold air, getaway ready."
+  },
+  {
+    "name": "t65_a3_07_driver_alone_in_cab_contemplating",
+    "act": 3,
+    "sentences": "3.04#1,3.04#2",
+    "desc": "Bóng người tài xế một mình trong xe, siết vô lăng.",
+    "prompt": "Silhouette of a man alone in a parked cab at night gripping the steering wheel, faint city glow through the windshield, troubled conscience."
+  },
+  {
+    "name": "t65_a3_08_interrogation_room_two_chairs",
+    "act": 3,
+    "sentences": "3.04#3,3.04#4",
+    "desc": "Phòng thẩm vấn trống với hai chiếc ghế và một ngọn đèn.",
+    "prompt": "Bare interrogation room with a metal table, two empty chairs and a single hanging lamp, gray walls, harsh pool of light."
+  },
+  {
+    "name": "t65_a3_09_night_ride_city_lights_windshield",
+    "act": 3,
+    "sentences": "3.04#5,3.04#6",
+    "desc": "Chuyến taxi đêm, ánh đèn thành phố qua kính chắn gió, hai bóng lưng.",
+    "prompt": "Interior of a cab at night, two back silhouettes in the seats, blurred city lights streaming across the windshield, quiet ride."
+  },
+  {
+    "name": "t65_a3_10_curios_in_cloth_bag_backseat",
+    "act": 3,
+    "sentences": "3.04#7,3.04#8",
+    "desc": "Túi vải đựng đồ lưu niệm cũ đặt trên ghế sau xe.",
+    "prompt": "A small cloth bag spilling old curios and trinkets on the back seat of a cab, dim interior light, no people."
+  },
+  {
+    "name": "t65_a3_11_street_corner_beyond_camera",
+    "act": 3,
+    "sentences": "3.04#9",
+    "desc": "Góc phố khuất, cột camera lẩn trong bóng tối.",
+    "prompt": "A shadowy street corner in Mexico City at night with a security camera pole barely visible in darkness, a cab waiting outside its view."
+  },
+  {
+    "name": "t65_a3_12_driver_gazes_apartment_walls",
+    "act": 3,
+    "sentences": "3.04#10",
+    "desc": "Bóng tài xế nhìn qua kính xe lên bức tường chung cư.",
+    "prompt": "Silhouette of a cab driver looking through the windshield at the blank walls of an apartment block at dusk, uneasy suspicion."
+  },
+  {
+    "name": "t65_a3_13_coins_on_dashboard_sleeping_man",
+    "act": 3,
+    "sentences": "3.04#11,3.04#12,3.04#13",
+    "desc": "Vài đồng xu trên bảng điều khiển; xa hơn, bóng người ngủ yên.",
+    "prompt": "Handful of coins on the dashboard of a cab at dusk, dim interior; through the rear window a distant bedroom lit by moonlight with a sleeping silhouette, the conscience dulled by greed."
+  },
+  {
+    "name": "t65_a3_14_overlapping_shadows_row_of_lamps",
+    "act": 3,
+    "sentences": "3.05#1,3.05#2",
+    "desc": "Hàng đèn giống nhau đổ những cái bóng chồng lên nhau, ẩn dụ phân tán trách nhiệm.",
+    "prompt": "A row of identical hooded lamps casting overlapping shadows on a bare floor, symbolizing diffused responsibility, no people."
+  },
+  {
+    "name": "t65_a3_15_brick_wall_between_cab_window",
+    "act": 3,
+    "sentences": "3.05#3,3.05#4",
+    "desc": "Bức tường gạch cao ngăn chiếc taxi với ô cửa sổ xa.",
+    "prompt": "Tall brick wall separating a parked cab from a distant lit apartment window in Mexico City, a barrier of denial, dusk."
+  },
+  {
+    "name": "t65_a3_16_warped_mirror_distorted_figure",
+    "act": 3,
+    "sentences": "3.05#5",
+    "desc": "Chiếc gương méo phản chiếu bóng người biến dạng.",
+    "prompt": "A warped funhouse-like mirror reflecting a distorted silhouette and a few coins on a table, bent perception, dim room."
+  },
+  {
+    "name": "t65_a3_17_dim_hallway_door_light_strip",
+    "act": 3,
+    "sentences": "3.06#1",
+    "desc": "Hành lang tối, cánh cửa mở hé với vệt sáng hẹp.",
+    "prompt": "Dim apartment hallway, a front door open a hand-width with a thin strip of inviting light, quiet Mexico City building, nobody visible."
+  },
+  {
+    "name": "t65_a3_18_lonely_kitchen_window_busy_street",
+    "act": 3,
+    "sentences": "3.06#2,3.06#3",
+    "desc": "Căn bếp nhỏ trống vắng, cửa sổ nhìn xuống con phố tấp nập.",
+    "prompt": "Tiny silent kitchen with an old wall clock with a blank face and a lone chair, window looking down on a bustling Mexico City street, isolation among the crowd."
+  },
+  {
+    "name": "t65_a3_19_warm_doorway_kettle_cups",
+    "act": 3,
+    "sentences": "3.06#4,3.06#5",
+    "desc": "Cửa mở ánh sáng ấm, ấm nước sôi và chén trà đã sẵn.",
+    "prompt": "Open apartment door spilling warm light, a kettle steaming on a stove and prepared teacups on a table, a silhouette seen from behind in the doorway, deceptive hospitality."
+  },
+  {
+    "name": "t65_a3_20_dewy_spider_web_hallway",
+    "act": 3,
+    "sentences": "3.06#6",
+    "desc": "Mạng nhện đẫm sương giăng ngang khung cửa hành lang tối.",
+    "prompt": "A dew-covered spider web stretched across a dim hallway doorway, a trap of trust glistening in a thin light."
+  },
+  {
+    "name": "t65_a3_21_confident_stride_daylight_street",
+    "act": 3,
+    "sentences": "3.07#1,3.07#2",
+    "desc": "Bóng người tự tin sải bước giữa phố ban ngày, bóng dài phía sau.",
+    "prompt": "Silhouette striding confidently down a sunlit Mexico City street at midday, long sharp shadow behind, arrogant over-confidence."
+  },
+  {
+    "name": "t65_a3_22_fingerprint_smudges_glass_table",
+    "act": 3,
+    "sentences": "3.07#3",
+    "desc": "Cận cảnh vết vân tay mờ trên mặt bàn kính.",
+    "prompt": "Macro close-up of faint smudged fingerprints on a glass tabletop catching light, forensic detail, nothing else."
+  },
+  {
+    "name": "t65_a3_23_unmarked_cars_corner_dusk",
+    "act": 3,
+    "sentences": "3.07#4,3.07#5",
+    "desc": "Xe không biển hiệu ở góc phố, bóng cảnh sát theo dõi các khu chung cư.",
+    "prompt": "Unmarked sedans parked at a Mexico City street corner at dusk, officer silhouettes observing apartment blocks, a net slowly tightening."
+  },
+  {
+    "name": "t65_a3_24_misty_winter_dawn_narrow_street",
+    "act": 3,
+    "sentences": "3.08#1",
+    "desc": "Bình minh mùa đông sương mù trên con phố hẹp đầu năm 2006.",
+    "prompt": "Narrow Mexico City street at winter dawn in early 2006, mist hanging between low apartment buildings, cold gray light, an empty doorway."
+  },
+  {
+    "name": "t65_a3_25_two_silhouettes_narrow_passage_backlit",
+    "act": 3,
+    "sentences": "3.08#2",
+    "desc": "Hai bóng người đối mặt trong lối đi hẹp, ngược sáng.",
+    "prompt": "Two silhouettes facing each other in a narrow backlit passage, faces completely sunk in shadow, a frozen moment of confrontation."
+  },
+  {
+    "name": "t65_a4_01_moctezuma_dawn_mist_buildings",
+    "act": 4,
+    "sentences": "4.02#1,4.02#2",
+    "desc": "Bình minh sương mỏng trên các tòa nhà khu phố Moctezuma.",
+    "prompt": "Dawn light breaking through thin mist over apartment buildings in the Moctezuma neighborhood of Mexico City, January 2006, a quiet balcony, peaceful before the truth."
+  },
+  {
+    "name": "t65_a4_02_front_door_closing_large_handbag",
+    "act": 4,
+    "sentences": "4.02#3,4.02#4",
+    "desc": "Cánh cửa căn hộ khép lại sau bóng người mang túi xách to.",
+    "prompt": "Front door of a small flat closing behind a silhouette carrying a large handbag, stepping confidently toward the street, daylight Mexico City, face hidden."
+  },
+  {
+    "name": "t65_a4_03_iron_gate_threshold_light",
+    "act": 4,
+    "sentences": "4.02#5",
+    "desc": "Cổng sắt mở hé ở ngưỡng cửa, tia sáng cắt ngang.",
+    "prompt": "Narrow doorway threshold of an apartment building with a half-open iron gate and a shaft of light across the floor, the trap closing."
+  },
+  {
+    "name": "t65_a4_04_young_man_key_building_entrance",
+    "act": 4,
+    "sentences": "4.04#1",
+    "desc": "Bóng người trẻ cầm chìa khóa đứng trước cổng tòa nhà.",
+    "prompt": "Silhouette of a young man with a key in hand at an apartment building entrance in daylight, returning home earlier than expected."
+  },
+  {
+    "name": "t65_a4_05_stunned_silhouette_dim_doorway",
+    "act": 4,
+    "sentences": "4.04#2",
+    "desc": "Bóng người sững lại ở cửa phòng khách tối, tay bám khung cửa.",
+    "prompt": "Silhouette from behind frozen in the doorway of a dim living room, one hand gripping the doorframe, only a pool of light on an empty floor visible."
+  },
+  {
+    "name": "t65_a4_06_passage_red_coat_figure_distant",
+    "act": 4,
+    "sentences": "4.04#3",
+    "desc": "Lối đi hẹp, bóng người to lớn áo khoác đỏ, tóc ngắn, nhìn từ xa.",
+    "prompt": "Narrow passage between buildings, a large distant silhouette in a red coat with short pale hair walking toward the street, face lost in shadow."
+  },
+  {
+    "name": "t65_a4_07_frozen_feet_tiled_floor",
+    "act": 4,
+    "sentences": "4.04#4,4.04#5",
+    "desc": "Hai đôi chân đứng sững trên nền gạch hẹp, góc thấp sát đất.",
+    "prompt": "Low-angle shot of two pairs of feet frozen on a narrow tiled passage floor facing each other, tension in the stillness, no faces."
+  },
+  {
+    "name": "t65_a4_08_witness_chair_dark_backdrop",
+    "act": 4,
+    "sentences": "4.04#6,4.04#7",
+    "desc": "Bóng người đàn ông ngồi ghế làm chứng trước phông tối.",
+    "prompt": "Silhouette of a young man seated in a plain chair against a dark backdrop with a single spotlight, a witness recounting his story, face completely in shadow."
+  },
+  {
+    "name": "t65_a4_09_cold_mirror_empty_corridor",
+    "act": 4,
+    "sentences": "4.04#8,4.04#9",
+    "desc": "Gương hành lang phản chiếu lối đi trống lạnh lẽo.",
+    "prompt": "A hallway mirror reflecting an empty cold corridor with pale light, an echo of an icy lifeless gaze, no people."
+  },
+  {
+    "name": "t65_a4_10_man_running_narrow_street_daylight",
+    "act": 4,
+    "sentences": "4.04#10,4.04#11",
+    "desc": "Bóng người đàn ông chạy trên phố hẹp ban ngày, người đi đường quay lại.",
+    "prompt": "Silhouette of a young man running down a narrow Mexico City street in daylight, motion blur, pedestrians turning to look, urgency."
+  },
+  {
+    "name": "t65_a4_11_crowd_turning_heads_sidewalk",
+    "act": 4,
+    "sentences": "4.04#12,4.04#13",
+    "desc": "Đám đông trên vỉa hè quay đầu về phía tiếng hô.",
+    "prompt": "Mexico City sidewalk, a crowd of silhouettes turning their heads toward a distant commotion, sun-bleached street, alarm spreading."
+  },
+  {
+    "name": "t65_a4_12_motorcycles_pursuit_avenue",
+    "act": 4,
+    "sentences": "4.04#14",
+    "desc": "Hai xe mô tô cảnh sát lao trên đại lộ.",
+    "prompt": "Two police motorcycles speeding down a Mexico City avenue in daylight, motion blur, rider silhouettes, pursuit."
+  },
+  {
+    "name": "t65_a4_13_handcuffs_handbag_steel_table",
+    "act": 4,
+    "sentences": "4.04#15",
+    "desc": "Còng tay và chiếc túi xách khép kín trên bàn thép.",
+    "prompt": "Pair of handcuffs and a closed large handbag on a steel table under a harsh lamp in a police station, evidence mood, no people."
+  },
+  {
+    "name": "t65_a4_14_observation_room_one_way_glass",
+    "act": 4,
+    "sentences": "4.05#1,4.05#2",
+    "desc": "Phòng quan sát sau kính một chiều, bóng điều tra viên bình tĩnh.",
+    "prompt": "Dark observation room with a large one-way glass looking into an interrogation room, a calm investigator silhouette watching, cool blue light."
+  },
+  {
+    "name": "t65_a4_15_chessboard_logic_trap",
+    "act": 4,
+    "sentences": "4.05#3,4.05#4",
+    "desc": "Bàn cờ với thế bẫy logic dưới đèn mờ.",
+    "prompt": "Chessboard in a dim room with pieces set in a trapping position, one lamp, symbolizing logic traps in questioning, no people."
+  },
+  {
+    "name": "t65_a4_16_fingerprint_comparison_lab_bench",
+    "act": 4,
+    "sentences": "4.05#5",
+    "desc": "Bàn giám định dấu vân tay với kính lúp và thẻ trống.",
+    "prompt": "Forensic lab bench with a magnifier, ink pad and completely blank fingerprint cards, cold fluorescent light, no people."
+  },
+  {
+    "name": "t65_a4_17_prosecutor_office_window_city",
+    "act": 4,
+    "sentences": "4.05#6",
+    "desc": "Bóng công tố viên bên cửa sổ văn phòng nhìn xuống thành phố.",
+    "prompt": "Silhouette of a prosecutor standing at a high office window overlooking Mexico City at dusk, stunned stillness, back to viewer."
+  },
+  {
+    "name": "t65_a4_18_plaza_crowd_cathedral_dusk",
+    "act": 4,
+    "sentences": "4.05#7",
+    "desc": "Đám đông bóng người sững sờ ở quảng trường trước nhà thờ lớn lúc hoàng hôn.",
+    "prompt": "Mexico City central plaza before the great cathedral at dusk, a crowd of silhouettes standing in shocked silence."
+  },
+  {
+    "name": "t65_a4_19_clenched_hands_under_lamp",
+    "act": 4,
+    "sentences": "4.06#1,4.06#2",
+    "desc": "Đôi bàn tay siết chặt và xoa vào nhau dưới đèn bàn.",
+    "prompt": "Close view of a pair of hands clenching and rubbing together on a table under a harsh lamp, nervous strain, no face."
+  },
+  {
+    "name": "t65_a4_20_cracked_ceramic_mask_table",
+    "act": 4,
+    "sentences": "4.06#3,4.06#4",
+    "desc": "Chiếc mặt nạ gốm nứt đặt trên bàn tối.",
+    "prompt": "A cracked ceramic mask lying on a dark table, hairline fissures spreading, a symbol of a crumbling defence, no people."
+  },
+  {
+    "name": "t65_a4_21_news_cameras_hallway_silhouettes",
+    "act": 4,
+    "sentences": "4.06#5",
+    "desc": "Hành lang với các máy quay tin tức trên chân đỡ và bóng người.",
+    "prompt": "Courthouse hallway with TV news camera tripods and silhouettes of crew waiting, bright lamps, tense atmosphere."
+  },
+  {
+    "name": "t65_a4_22_crumbling_plaster_statue",
+    "act": 4,
+    "sentences": "4.06#6,4.06#7",
+    "desc": "Bức tượng thạch cao vỡ vụn trên bệ tối.",
+    "prompt": "A plaster statue crumbling on a pedestal in a dark gallery, fragments falling, symbol of a collapsed narcissistic ego, no people."
+  },
+  {
+    "name": "t65_a4_23_broken_mask_lit_ring_canvas",
+    "act": 4,
+    "sentences": "4.06#8",
+    "desc": "Mặt nạ vỡ trên tấm bạt võ đài dưới ánh đèn.",
+    "prompt": "A shattered wrestling mask lying on the canvas of a spotlit empty wrestling ring, pieces glinting, pride broken."
+  },
+  {
+    "name": "t65_a4_24_tape_recorder_interrogation_lamp",
+    "act": 4,
+    "sentences": "4.06#9",
+    "desc": "Máy ghi âm trên bàn thẩm vấn dưới ngọn đèn.",
+    "prompt": "Old reel tape recorder on an interrogation table under a single lamp, grainy room, no people."
+  },
+  {
+    "name": "t65_a4_25_spiral_shell_dark_rock",
+    "act": 4,
+    "sentences": "4.06#10",
+    "desc": "Vỏ ốc xoắn trên tảng đá tối, biểu tượng sự thu mình.",
+    "prompt": "A large spiral snail shell on a dark rock in dim light, symbolizing withdrawal into a self-pitying shell, no people."
+  },
+  {
+    "name": "t65_a4_26_prison_visiting_glass_partition",
+    "act": 4,
+    "sentences": "4.07#1",
+    "desc": "Phòng thăm nuôi trại giam có vách kính, hai bóng người đối diện.",
+    "prompt": "Mexico City prison visiting room with a glass partition, two silhouettes seated facing each other, fluorescent light, faces fully shadowed."
+  },
+  {
+    "name": "t65_a4_27_folk_charm_candlelight_shadow",
+    "act": 4,
+    "sentences": "4.07#2",
+    "desc": "Bùa dân gian nhỏ dưới ánh nến, bóng đổ dài.",
+    "prompt": "A small folk charm figurine on a prison table lit by two candles, long flickering shadow, occult atmosphere."
+  },
+  {
+    "name": "t65_a4_28_young_man_shaft_of_light_facing_shadow",
+    "act": 4,
+    "sentences": "4.07#3,4.07#4",
+    "desc": "Bóng người trẻ đứng thẳng trong tia sáng đối diện cái bóng.",
+    "prompt": "Silhouette of a young man standing steady in a shaft of light facing a dark shadow across a table in a prison room, quiet resolve."
+  },
+  {
+    "name": "t65_a4_29_bowed_head_cell_bench_bars",
+    "act": 4,
+    "sentences": "4.07#5,4.07#6",
+    "desc": "Bóng người gục đầu trên ghế dài phòng giam, vệt sáng song sắt.",
+    "prompt": "Silhouette of a figure with bowed head seated on a bench in a prison cell, bars of light across the floor, defeat and silence."
+  },
+  {
+    "name": "t65_a5_01_high_courtroom_empty_bench",
+    "act": 5,
+    "sentences": "5.02#1,5.02#2",
+    "desc": "Phòng xử cao rộng, ghế gỗ trống, ánh sáng từ cửa sổ cao.",
+    "prompt": "Interior of a high-ceilinged Mexico City courtroom in spring 2008, empty wooden benches, light falling from tall windows, solemn."
+  },
+  {
+    "name": "t65_a5_02_gavel_echoing_courtroom",
+    "act": 5,
+    "sentences": "5.02#3,5.02#4",
+    "desc": "Chiếc búa gỗ trên bàn xử, âm vang trong khán phòng.",
+    "prompt": "A wooden gavel resting on the judge's bench in a vast courtroom, long echoing shadows, no people."
+  },
+  {
+    "name": "t65_a5_03_dock_rail_bowed_head",
+    "act": 5,
+    "sentences": "5.02#5",
+    "desc": "Bóng người cúi đầu sau thanh chắn bị cáo.",
+    "prompt": "Silhouette of a figure with head bowed behind a courtroom dock railing, low light, face hidden."
+  },
+  {
+    "name": "t65_a5_04_stacked_thick_blank_dossiers",
+    "act": 5,
+    "sentences": "5.02#6",
+    "desc": "Chồng hồ sơ dày trống chữ trên bàn.",
+    "prompt": "Tall stacks of thick completely blank case files on a table in a legal archive, a desk lamp, no writing at all."
+  },
+  {
+    "name": "t65_a5_05_hallway_mirror_city_reflection",
+    "act": 5,
+    "sentences": "5.02#7",
+    "desc": "Chiếc gương lớn ở hành lang phản chiếu thành phố qua cửa sổ.",
+    "prompt": "A large mirror in a hallway reflecting the Mexico City skyline through a window, symbolic of society seeing itself."
+  },
+  {
+    "name": "t65_a5_06_courthouse_steps_exit_silhouette",
+    "act": 5,
+    "sentences": "5.04#1,5.04#2",
+    "desc": "Bóng người đàn ông bước xuống bậc thang tòa án trong nắng nhẹ nhõm.",
+    "prompt": "Silhouette of a man descending the steps of a courthouse into Mexico City daylight with a sense of relief, bright air, quiet street."
+  },
+  {
+    "name": "t65_a5_07_justice_scales_statue_sky",
+    "act": 5,
+    "sentences": "5.04#3",
+    "desc": "Bức tượng cán cân công lý nổi bật trên nền trời.",
+    "prompt": "Silhouette of a scales-of-justice statue against a cloudy Mexico City sky."
+  },
+  {
+    "name": "t65_a5_08_empty_table_chair_sunny_porch",
+    "act": 5,
+    "sentences": "5.04#4,5.04#5",
+    "desc": "Bàn ăn gia đình trống một ghế; qua cửa sổ, hiên nhà nắng.",
+    "prompt": "Family dining table with one empty chair, through the window a sunny porch with a few distant elderly silhouettes warming in the sun, bittersweet."
+  },
+  {
+    "name": "t65_a5_09_hand_knocking_neighbor_door",
+    "act": 5,
+    "sentences": "5.04#6",
+    "desc": "Bàn tay gõ nhẹ lên cánh cửa hàng xóm ban ngày.",
+    "prompt": "A hand gently knocking on a neighbor's wooden door in a sunlit apartment hallway, a gesture of care, no face."
+  },
+  {
+    "name": "t65_a5_10_forensic_lab_powder_jars",
+    "act": 5,
+    "sentences": "5.05#1,5.05#2",
+    "desc": "Phòng giám định hiện đại với kính hiển vi và hũ bột vân tay.",
+    "prompt": "Modern forensic lab with a microscope and jars of fingerprint powder on a clean bench, cool light, no people."
+  },
+  {
+    "name": "t65_a5_11_team_silhouettes_long_table",
+    "act": 5,
+    "sentences": "5.05#3",
+    "desc": "Các bóng chuyên gia giám định và trinh sát quanh bàn dài.",
+    "prompt": "Forensic experts and detective silhouettes working around a long lab table, overhead light, teamwork."
+  },
+  {
+    "name": "t65_a5_12_courthouse_door_sunrise",
+    "act": 5,
+    "sentences": "5.05#4",
+    "desc": "Cánh cửa tòa án nặng nề mở ra ánh bình minh.",
+    "prompt": "A heavy courthouse door opened onto a sunrise, light spilling across the stone floor, justice arriving."
+  },
+  {
+    "name": "t65_a5_13_cadet_training_hall_blank_board",
+    "act": 5,
+    "sentences": "5.05#5,5.05#6",
+    "desc": "Giảng đường đào tạo trinh sát, các bóng học viên trước bảng trống.",
+    "prompt": "Police academy training hall in Latin America, rows of cadet silhouettes before a completely blank board, an instructor silhouette beside it."
+  },
+  {
+    "name": "t65_a5_14_apartment_block_lit_windows_dusk",
+    "act": 5,
+    "sentences": "5.05#7",
+    "desc": "Khối chung cư chiều tà, nhiều ô cửa sáng đèn như đôi mắt cảnh giác.",
+    "prompt": "Apartment block at dusk in Mexico City with many lit windows like watchful eyes, neighbors as silhouettes."
+  },
+  {
+    "name": "t65_a5_15_three_pillars_morning_light",
+    "act": 5,
+    "sentences": "5.06#1,5.06#2",
+    "desc": "Ba cột đá thẳng hàng trong ánh bình minh.",
+    "prompt": "Three plain stone pillars in a row in soft morning light, a simple symbolic image of three principles."
+  },
+  {
+    "name": "t65_a5_16_landline_phone_neighborhood_map",
+    "act": 5,
+    "sentences": "5.06#3",
+    "desc": "Điện thoại bàn cạnh bản đồ khu phố trống chữ.",
+    "prompt": "Landline telephone beside a completely blank hand-drawn neighborhood map on a table, soft lamp light, no people."
+  },
+  {
+    "name": "t65_a5_17_visitor_at_chained_door",
+    "act": 5,
+    "sentences": "5.06#4",
+    "desc": "Bóng người khách đứng đợi trước cửa cài chốt xích ban ngày.",
+    "prompt": "A visitor silhouette waiting outside an apartment door secured with a chain, hallway daylight, cautious hush."
+  },
+  {
+    "name": "t65_a5_18_market_stall_hanging_white_coats",
+    "act": 5,
+    "sentences": "5.06#5",
+    "desc": "Quầy chợ treo áo blouse trắng và ống nghe, không biển hiệu.",
+    "prompt": "Street market stall with white coats and medical gear hanging, plain unmarked awning, vendor in distant shadow, ease of buying a disguise."
+  },
+  {
+    "name": "t65_a5_19_payphone_booth_dusk",
+    "act": 5,
+    "sentences": "5.06#6",
+    "desc": "Bốt điện thoại công cộng chạng vạng, đèn vàng nhạt.",
+    "prompt": "Public payphone booth on a Mexico City street corner at dusk, dim yellow light, nobody inside."
+  },
+  {
+    "name": "t65_a5_20_peering_through_chain_gap",
+    "act": 5,
+    "sentences": "5.06#7",
+    "desc": "Bóng người nhìn qua khe cửa có xích, ngờ vực.",
+    "prompt": "Silhouette peering through the narrow gap of a chained apartment door, uneasy instinct, dim hallway."
+  },
+  {
+    "name": "t65_a5_21_lighthouse_beacon_mist_sea",
+    "act": 5,
+    "sentences": "5.07#1,5.07#2",
+    "desc": "Ngọn hải đăng quét chùm sáng qua màn sương trên biển đêm.",
+    "prompt": "A lighthouse sweeping its beam through mist over a dark night sea, a symbol of truth lighting up justice."
+  },
+  {
+    "name": "t65_a5_22_apartment_tower_sunlit_courtyard",
+    "act": 5,
+    "sentences": "5.07#3",
+    "desc": "Chung cư cao tầng Mexico City ngập nắng, sân dưới có bóng người ngồi.",
+    "prompt": "Mexico City high-rise apartment block in warm sunlight, a courtyard below with distant silhouettes sitting in peace."
+  },
+  {
+    "name": "t65_a5_23_hands_cupping_small_lantern",
+    "act": 5,
+    "sentences": "5.07#4",
+    "desc": "Hai bàn tay che chở một chiếc đèn lồng nhỏ.",
+    "prompt": "A pair of cupped hands sheltering a small glowing lantern against the dark, symbolizing protection of parents."
+  },
+  {
+    "name": "t65_a5_24_candle_flame_window_sunrise",
+    "act": 5,
+    "sentences": "5.07#5",
+    "desc": "Ngọn nến cạnh cửa sổ, bình minh ngoài kia, bóng người trầm tư.",
+    "prompt": "A candle flame in a window at sunrise, a contemplative silhouette beside it, awareness and mindfulness."
+  },
+  {
+    "name": "t65_a5_25_studio_warm_lamp_microphone",
+    "act": 5,
+    "sentences": "5.07#6",
+    "desc": "Phòng thu ấm áp với micro và chiếc ghế trống.",
+    "prompt": "Warm quiet recording studio with a microphone and an empty armchair under a soft lamp, thanking the audience."
+  },
+  {
+    "name": "t65_a5_26_end_card_amber_eyes_dossier_closing",
+    "act": 5,
+    "sentences": "5.07#7",
+    "desc": "Thẻ kết: hai đốm hổ phách trong bóng tối cạnh hồ sơ đang khép lại.",
+    "prompt": "Closing scene: two glowing amber eyes in deep darkness above a blank case dossier folder gently closing, a symbolic end card with nothing written."
+  }
+]

@@ -1,0 +1,35 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 6/6 succeeded",
+ "total_requested": 6,
+ "total_success": 6,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "466657706361058",
+   "file_name": "tk05_interrogation_confrontation.jpg"
+  },
+  {
+   "node_id": "466658025222247",
+   "file_name": "tk05_amber_eyes_dossier_05.jpg"
+  },
+  {
+   "node_id": "466658616172674",
+   "file_name": "tk05_rader_house_park_city.jpg"
+  },
+  {
+   "node_id": "466658340155555",
+   "file_name": "tk05_lutheran_church_exterior.jpg"
+  },
+  {
+   "node_id": "466658802864321",
+   "file_name": "tk05_scout_camp_campfire.jpg"
+  },
+  {
+   "node_id": "466658025222253",
+   "file_name": "tk05_compliance_truck_street.jpg"
+  }
+ ],
+ "failed_items": []
+}

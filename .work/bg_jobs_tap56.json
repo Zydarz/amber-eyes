@@ -1,1038 +1,814 @@
 [
   {
-    "name": "t56_a1_01_arid_town",
+    "name": "t56_a1_01_shadowed_alley_hidden_cracks",
     "act": 1,
-    "sentences": "1.01#1",
-    "desc": "Hồi 1 Tập 50 (arid_town): Mỗi góc tối của xã hội luôn ẩn chứa những vết nứt vô hình mà đôi khi mắt thường của chúng ...",
-    "prompt": "Cinematic establishing wide shot of Garanhuns, Pernambuco, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "sentences": "1.02#1,1.02#2",
+    "desc": "Con hẻm tối ven thị trấn với những vết nứt trên tường, mở đầu hồ sơ.",
+    "prompt": "Wide establishing shot of a dim narrow alley in a small town in Pernambuco, northeastern Brazil, 2012, cracked plaster walls, a single streetlamp, damp night air, empty street."
   },
   {
-    "name": "t56_a1_02_sectarian_cult",
-    "act": 1,
-    "sentences": "1.01#2",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Hồ sơ vụ án Bộ Ba Garanhuns tại bang Pernambuco, miền Đông Bắc Brazil là một trong những m...",
-    "prompt": "Cinematic establishing wide shot of Garanhuns, Pernambuco, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t56_a1_03_folie_a_trois",
-    "act": 1,
-    "sentences": "1.01#3",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Khi những tín hiệu cảnh báo đầu tiên vang lên vào tháng 4 năm 2012, đám đông thường có xu ...",
-    "prompt": "Cinematic establishing wide shot of Garanhuns, Pernambuco, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t56_a1_04_backyard_dig",
-    "act": 1,
-    "sentences": "1.02#1",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Dư chấn của vụ việc không chỉ dừng lại ở phạm vi một địa phương, mà nhanh chóng trở thành ...",
-    "prompt": "Cinematic establishing wide shot of Garanhuns, Pernambuco, Brazil, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t56_a1_05_arid_town",
-    "act": 1,
-    "sentences": "1.02#2",
-    "desc": "Hồi 1 Tập 50 (arid_town): Ở thị trấn Garanhuns yên bình, người ta vốn quen với nhịp sống chậm rãi và nếp làng hiền h...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
-  },
-  {
-    "name": "t56_a1_06_sectarian_cult",
+    "name": "t56_a1_02_april_2012_warning_dusk",
     "act": 1,
     "sentences": "1.02#3",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Ai cũng tin rằng mình biết rõ người hàng xóm bên kia con phố, tin rằng phía sau những nụ c...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Hoàng hôn tháng 4 năm 2012, bóng người đứng xa nhìn về phía con phố vắng.",
+    "prompt": "Distant silhouettes of townspeople standing at a street corner at dusk in Garanhuns, Brazil, April 2012, faces lost in shadow, uneasy stillness, low orange sky."
   },
   {
-    "name": "t56_a1_07_folie_a_trois",
+    "name": "t56_a1_03_evil_taking_root_overgrown_yard",
     "act": 1,
-    "sentences": "1.03#1",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Chính điểm mù thôn dã ấy đã biến nơi đây thành một ngư trường lý tưởng giăng sẵn cho những...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#4,1.02#5",
+    "desc": "Khoảnh sân um tùm, rễ cây trườn qua nền đất, ẩn dụ cái ác bén rễ.",
+    "prompt": "Overgrown backyard behind a modest Brazilian house at night, thick roots creeping across bare earth beside a wall, moonlight cutting through leaves, no people."
   },
   {
-    "name": "t56_a1_08_backyard_dig",
+    "name": "t56_a1_04_garanhuns_quiet_hillside_town",
     "act": 1,
-    "sentences": "1.03#2",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Và một trong những thảm kịch tàn khốc nhất lịch sử tư pháp Nam Mỹ đã bắt đầu từ sự ngây th...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#6,1.02#7",
+    "desc": "Toàn cảnh thị trấn Garanhuns yên bình trên đồi cao, nhịp sống chậm.",
+    "prompt": "Panoramic view of the hill town of Garanhuns in Pernambuco, Brazil, low rooftops and a church tower, mist over hills at dawn, sleepy rural calm."
   },
   {
-    "name": "t56_a1_09_arid_town",
+    "name": "t56_a1_05_neighbors_over_the_fence",
     "act": 1,
-    "sentences": "1.03#3",
-    "desc": "Hồi 1 Tập 50 (arid_town): Khi hai người phụ nữ trẻ tuổi liên tiếp biến mất không để lại dấu vết, những lời bàn tán h...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#8,1.02#9",
+    "desc": "Hai bóng hàng xóm trò chuyện qua hàng rào, tin tưởng mà không nhận ra điều bất thường.",
+    "prompt": "Two faceless silhouettes chatting over a low garden fence on a small-town Brazilian street in late afternoon, curtains drawn in the house behind them, warm hazy light."
   },
   {
-    "name": "t56_a1_10_sectarian_cult",
+    "name": "t56_a1_06_job_promise_open_door",
     "act": 1,
-    "sentences": "1.04#1",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Sự im lặng của chính quyền địa phương trong những ngày đầu càng khiến nỗi sợ hãi vô hình l...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#10,1.02#11",
+    "desc": "Cánh cổng mở hé với lời hứa việc làm, ẩn dụ chiếc bẫy.",
+    "prompt": "A white metal gate left slightly ajar in front of a tidy modest house in Brazil, warm light spilling from a doorway, long shadows on the path, no people."
   },
   {
-    "name": "t56_a1_11_folie_a_trois",
+    "name": "t56_a1_07_empty_street_whispering_rumours",
     "act": 1,
-    "sentences": "1.04#2",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Cả hai đều là những người phụ nữ đang chật vật mưu sinh, mang theo gánh nặng cơm áo gạo ti...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#12,1.02#13",
+    "desc": "Con phố vắng và các cửa sổ khép, lời đồn thì thầm, chính quyền im lặng.",
+    "prompt": "Empty small-town street at dusk in Brazil, shutters closed on every window, a lone silhouette of a woman peering from a distant doorway, tense quiet atmosphere."
   },
   {
-    "name": "t56_a1_12_backyard_dig",
+    "name": "t56_a1_08_two_women_bus_stop_dawn",
     "act": 1,
-    "sentences": "1.04#3",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Họ đã nhận lời làm việc cho một gia đình trung lưu mới chuyển đến khu phố Magano với mức t...",
-    "prompt": "Atmospheric street scene in Garanhuns, Pernambuco, Brazil, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.04#1,1.04#2",
+    "desc": "Hai bóng người phụ nữ chờ xe buýt sáng sớm đầu năm 2012, mưu sinh.",
+    "prompt": "Two women as faceless silhouettes waiting at a roadside bus stop at dawn in northeastern Brazil, early 2012, worn bags on their shoulders, pale light, dusty road."
   },
   {
-    "name": "t56_a1_13_arid_town",
+    "name": "t56_a1_09_magano_neighborhood_new_family",
     "act": 1,
-    "sentences": "1.05#1",
-    "desc": "Hồi 1 Tập 50 (arid_town): Họ hoàn toàn không hề hay biết rằng, phía sau cánh cổng sắt sơn màu trắng đục là một chiếc...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#3,1.04#4",
+    "desc": "Khu phố Magano với ngôi nhà của gia đình mới chuyển đến.",
+    "prompt": "Residential street in the Magano neighborhood of Garanhuns, Brazil, modest middle-class houses, a freshly painted house with drawn curtains, late morning haze."
   },
   {
-    "name": "t56_a1_14_sectarian_cult",
+    "name": "t56_a1_10_white_iron_gate_secret",
     "act": 1,
-    "sentences": "1.05#2",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Mọi manh mối ban đầu dường như hoàn toàn bế tắc khi gia đình các nạn nhân tuyệt vọng gõ cử...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#5",
+    "desc": "Cánh cổng sắt trắng đục khép kín che giấu điều bí mật.",
+    "prompt": "Close view of a chipped off-white iron gate shut tight in front of a Brazilian house, deep shadow behind the bars, cold bluish dusk light, no people."
   },
   {
-    "name": "t56_a1_15_folie_a_trois",
+    "name": "t56_a1_11_worried_family_police_desk",
     "act": 1,
-    "sentences": "1.05#3",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Nhưng bước ngoặt của cuộc điều tra chỉ thực sự mở ra nhờ sự kiên trì phi thường của thân n...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#6,1.04#7",
+    "desc": "Gia đình tuyệt vọng đứng trước bàn trực đồn cảnh sát, nhận cái lắc đầu.",
+    "prompt": "Interior of a small provincial police station in Brazil, an empty wooden counter with a lone silhouette of a worried relative standing before an officer silhouette, dim fluorescent glow."
   },
   {
-    "name": "t56_a1_16_backyard_dig",
+    "name": "t56_a1_12_courier_envelope_on_table",
     "act": 1,
-    "sentences": "1.06#1",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Gia đình của Giselly Helena nhận được một phong bì thư chuyển phát nhanh thông báo hóa đơn...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#1,1.06#2",
+    "desc": "Phong bì chuyển phát đặt trên bàn bếp gia đình nghèo, hoàn toàn trống.",
+    "prompt": "Modest kitchen table in a poor Brazilian home, a courier envelope that is completely blank and unmarked with no writing at all, a silhouette of a woman standing frozen beside it, dim yellow lamp."
   },
   {
-    "name": "t56_a1_17_arid_town",
+    "name": "t56_a1_13_credit_card_counter_trail",
     "act": 1,
-    "sentences": "1.06#2",
-    "desc": "Hồi 1 Tập 50 (arid_town): Chính sự bất thường về dòng tiền kỹ thuật số ấy đã trở thành manh mối then chốt kéo lực lư...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#3,1.06#4",
+    "desc": "Quầy thu ngân tối với chiếc thẻ tín dụng trơn, dấu vết dòng tiền.",
+    "prompt": "Dim supermarket checkout counter in a Brazilian town at night, a plain blank plastic card lying on the belt, an unlit register, empty aisle behind."
   },
   {
-    "name": "t56_a1_18_sectarian_cult",
+    "name": "t56_a1_14_security_camera_footage_room",
     "act": 1,
-    "sentences": "1.06#3",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Cơ quan điều tra lập tức trích xuất dữ liệu camera an ninh tại các quầy thu ngân để truy t...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#5,1.06#6",
+    "desc": "Phòng điều tra xem hình camera, các bóng người trước màn hình tối.",
+    "prompt": "Dark police analysis room, two investigator silhouettes watching a wall of monitors showing only grainy shadowy shapes with no readable details, blue screen glow on their backs."
   },
   {
-    "name": "t56_a1_19_folie_a_trois",
+    "name": "t56_a1_15_respectable_family_street_walk",
     "act": 1,
-    "sentences": "1.07#1",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Sự đối chiếu hình ảnh kỹ thuật số đã phơi bày những gương mặt quen thuộc mà không ai có th...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#1,1.07#2",
+    "desc": "Gia đình lịch thiệp trong bóng đen bước trên phố, ăn mặc trang nhã.",
+    "prompt": "Three formally dressed faceless silhouettes walking along a quiet Brazilian street in the morning, neat clothes, soft diffused light, small-town houses behind."
   },
   {
-    "name": "t56_a1_20_backyard_dig",
+    "name": "t56_a1_16_savory_pastry_tray_street_seller",
     "act": 1,
-    "sentences": "1.07#2",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Họ xuất hiện trong khu phố như một gia đình trí thức chuẩn mực, ăn mặc trang nhã và thường...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#3,1.07#4",
+    "desc": "Khay bánh mặn nướng thơm đặt trên bàn nhỏ đầu ngõ buổi sáng.",
+    "prompt": "A tray of golden baked savory pastries on a small folding table at an alley entrance in Brazil, early morning steam rising, schoolchildren as distant silhouettes."
   },
   {
-    "name": "t56_a1_21_arid_town",
+    "name": "t56_a1_17_police_cordon_house_151",
     "act": 1,
-    "sentences": "1.07#3",
-    "desc": "Hồi 1 Tập 50 (arid_town): Người phụ nữ lớn tuổi nhất ngày nào cũng mang những khay bánh mặn nướng thơm lừng đi bán c...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#5",
+    "desc": "Dải phong tỏa quanh một căn nhà, đèn xe cảnh sát rọi trong đêm.",
+    "prompt": "A Brazilian house cordoned off with plain tape across the street at night, flashing patrol-car lights washing the facade in red and blue, officer silhouettes keeping distance."
   },
   {
-    "name": "t56_a1_22_sectarian_cult",
+    "name": "t56_a1_18_neighbor_sleepless_kitchen_night",
     "act": 1,
-    "sentences": "1.08#1",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Cảm giác ghê sợ và rùng mình tột cùng ập đến khi cảnh sát ập vào phong tỏa căn nhà số một ...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#6,1.07#7",
+    "desc": "Người hàng xóm mất ngủ ngồi bên cửa sổ bếp đêm, ám ảnh kéo dài.",
+    "prompt": "A silhouette of a woman sitting sleepless at a kitchen window at night in a Brazilian home, cold moonlight on the table, an untouched cup, deep shadows."
   },
   {
-    "name": "t56_a1_23_folie_a_trois",
+    "name": "t56_a1_19_lieutenant_colonel_briefing_room",
     "act": 1,
-    "sentences": "1.08#2",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Đến tận bây giờ, mỗi lần nhớ lại nụ cười hiền hậu của người đàn bà bán bánh ấy, tôi vẫn cả...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.09#1,1.09#2",
+    "desc": "Trung tá chỉ đạo họp trinh sát, bóng người quanh bàn họp.",
+    "prompt": "Briefing room of the Pernambuco civil police, a senior officer silhouette at the head of a table of detective silhouettes, a plain blank map on the wall, single hanging lamp."
   },
   {
-    "name": "t56_a1_24_backyard_dig",
+    "name": "t56_a1_20_calm_pair_leaving_grocery_store",
     "act": 1,
-    "sentences": "1.08#3",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Dưới sự chỉ đạo của Trung tá Wesley Fernandes, đội trinh sát hình sự đã nhanh chóng khoanh...",
-    "prompt": "Forensic high-contrast tabletop still life in Garanhuns, Pernambuco, Brazil, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.09#3,1.09#4",
+    "desc": "Hai bóng người bình thản bước ra khỏi cửa hàng tạp hóa, nhìn từ xa.",
+    "prompt": "Distant view of two calm faceless silhouettes, an older woman and a young woman, leaving a small Brazilian grocery store with bags, dusk, plain unmarked storefront."
   },
   {
-    "name": "t56_a1_25_arid_town",
+    "name": "t56_a1_21_undercover_surveillance_corner",
     "act": 1,
-    "sentences": "1.09#1",
-    "desc": "Hồi 1 Tập 50 (arid_town): Hình ảnh ghi lại từ camera thương mại cho thấy một người đàn bà đứng tuổi cùng một cô gái ...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.09#5,1.09#6",
+    "desc": "Trinh sát cải trang canh các góc phố quanh khu nhà.",
+    "prompt": "Street corners around a quiet Brazilian residential block at dusk, plainclothes detective silhouettes lurking at a bakery stall and a parked car, long shadows, taut stillness."
   },
   {
-    "name": "t56_a1_26_sectarian_cult",
+    "name": "t56_a1_22_house_151_tidy_but_heavy_air",
     "act": 1,
-    "sentences": "1.09#2",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Sự điềm tĩnh đến lạnh lùng trên gương mặt họ khi bước ra khỏi cửa hàng tạp hóa cho thấy mộ...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#1,1.10#2",
+    "desc": "Phòng khách ngăn nắp của căn nhà nhưng bầu không khí nặng nề.",
+    "prompt": "Interior of a tidy but oppressive living room in a modest Brazilian house, lace curtains, an empty armchair, dust motes in a single band of cold light, no people."
   },
   {
-    "name": "t56_a1_27_folie_a_trois",
+    "name": "t56_a1_23_contradictions_interview_table",
     "act": 1,
-    "sentences": "1.09#3",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Cảnh sát quyết định không đánh động đối tượng mà tiến hành bao vây căn nhà trong sự im lặn...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#3,1.10#4",
+    "desc": "Bàn lấy lời khai, bóng điều tra viên đối diện bóng người đàn ông ngoài năm mươi.",
+    "prompt": "Bare interview table in a police interior, an investigator silhouette facing a heavyset middle-aged man silhouette, faces dissolved in shadow, a plain blank folder between them."
   },
   {
-    "name": "t56_a1_28_backyard_dig",
+    "name": "t56_a1_24_wife_and_young_woman_in_doorway",
     "act": 1,
-    "sentences": "1.10#1",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Mỗi góc phố xung quanh khu nhà đều được bố trí các trinh sát cải trang dày dạn kinh nghiệm...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#5,1.10#6",
+    "desc": "Hai bóng người phụ nữ trước cửa nhà đưa ra lời giải thích gượng gạo.",
+    "prompt": "Two women as faceless silhouettes standing in a doorway of a Brazilian house, backlit by a warm hall light, stiff postures, a detective silhouette on the porch step."
   },
   {
-    "name": "t56_a1_29_arid_town",
+    "name": "t56_a1_25_hidden_corners_small_girl_chair",
     "act": 1,
-    "sentences": "1.10#2",
-    "desc": "Hồi 1 Tập 50 (arid_town): Căn nhà số 151 tại khu phố Magano thoạt nhìn rất ngăn nắp, nhưng bầu không khí bên trong l...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#7,1.10#8",
+    "desc": "Góc khuất trong nhà với chiếc ghế nhỏ trẻ em đặt bên cửa sổ.",
+    "prompt": "Hidden corner of a Brazilian house interior, a small child-sized wooden chair beside a curtained window, a faded doll on the floor, thin cold light, no people."
   },
   {
-    "name": "t56_a1_30_sectarian_cult",
+    "name": "t56_a1_26_family_facade_unmasked_hallway",
     "act": 1,
-    "sentences": "1.10#3",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Những mâu thuẫn trong lời khai ban đầu của các đối tượng, sự bất thường trong hành vi sinh...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#9,1.10#10",
+    "desc": "Hành lang nhà với khung ảnh trơn trống, cánh cửa khép gợi điều ẩn giấu.",
+    "prompt": "Dim hallway of a Brazilian house with empty plain picture frames on the wall, a closed door at the end with light under it, detective silhouette standing still at the threshold."
   },
   {
-    "name": "t56_a1_31_folie_a_trois",
-    "act": 1,
-    "sentences": "1.11#1",
-    "desc": "Hồi 1 Tập 50 (folie_a_trois): Đi cùng hắn là người vợ chính thức Isabel Cristina năm mươi mốt tuổi và người phụ nữ trẻ B...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t56_a1_32_backyard_dig",
-    "act": 1,
-    "sentences": "1.11#2",
-    "desc": "Hồi 1 Tập 50 (backyard_dig): Họ cố gắng giải thích rằng chiếc thẻ tín dụng là do một người quen để quên trong lúc đến n...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t56_a1_33_arid_town",
-    "act": 1,
-    "sentences": "1.11#3",
-    "desc": "Hồi 1 Tập 50 (arid_town): Đặc biệt là sự hiện diện của một bé gái năm tuổi có nét mặt giống hệt một thiếu nữ từng mấ...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t56_a1_34_sectarian_cult",
-    "act": 1,
-    "sentences": "1.12#1",
-    "desc": "Hồi 1 Tập 50 (sectarian_cult): Kẻ thủ ác đã dành rất nhiều thời gian để xây dựng vỏ bọc một gia đình gương mẫu nhằm qua m...",
-    "prompt": "Dramatic action still in Garanhuns, Pernambuco, Brazil, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t56_a2_01_arid_town",
+    "name": "t56_a2_01_martial_arts_teacher_facade",
     "act": 2,
-    "sentences": "2.01#1",
-    "desc": "Hồi 2 Tập 50 (arid_town): Một trong những đặc điểm nổi bật nhất của Bộ Ba Garanhuns chính là khả năng duy trì một vỏ...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#1,2.02#2",
+    "desc": "Bóng người đàn ông đứng trong phòng tập võ trống, vỏ bọc đáng kính.",
+    "prompt": "Empty martial arts training hall in Brazil with wooden floor and mats, a broad silhouette standing at the far end, face lost in shadow, pale window light."
   },
   {
-    "name": "t56_a2_02_sectarian_cult",
+    "name": "t56_a2_02_respectable_man_and_devoted_wife",
     "act": 2,
-    "sentences": "2.01#2",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Người cầm đầu, Jorge Beltrão Negromonte, từng là một giáo viên dạy võ thuật, một người có ...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#3,2.02#4",
+    "desc": "Bàn ăn gọn gàng với hai bóng người, một người vợ nhu mì phục vụ.",
+    "prompt": "Neat dining table in a Brazilian home set for a family meal, a man silhouette seated and a woman silhouette serving, faces hidden in shadow, warm but stiff lamplight."
   },
   {
-    "name": "t56_a2_03_folie_a_trois",
+    "name": "t56_a2_03_third_piece_young_assistant_pastry",
     "act": 2,
-    "sentences": "2.01#3",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Bên cạnh hắn là Isabel, người vợ hợp pháp luôn tỏ ra nhu mì, tận tụy chăm sóc từng bữa ăn ...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#5,2.02#6",
+    "desc": "Cô gái trẻ phụ giúp bên bàn nhào bột, bức tranh gia đình lạ.",
+    "prompt": "Home kitchen counter dusted with flour in Brazil, a young woman silhouette working dough beside two older silhouettes, steam and soft light, an odd tight arrangement."
   },
   {
-    "name": "t56_a2_04_backyard_dig",
+    "name": "t56_a2_04_mask_of_warm_home_cracking",
     "act": 2,
-    "sentences": "2.02#1",
-    "desc": "Hồi 2 Tập 50 (backyard_dig): Và mảnh ghép thứ ba là Bruna, một cô gái trẻ năng động, đóng vai trò trợ lý đắc lực trong ...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#7",
+    "desc": "Chiếc mặt nạ trắng trơn úp trên bàn, ẩn dụ vỏ bọc ấm cúng.",
+    "prompt": "A plain featureless white mask resting on a dining table inside a dim Brazilian home, a hairline crack across it, warm lamp behind, deep shadows, no people."
   },
   {
-    "name": "t56_a2_05_arid_town",
+    "name": "t56_a2_05_compartmentalized_mind_rooms",
     "act": 2,
-    "sentences": "2.02#2",
-    "desc": "Hồi 2 Tập 50 (arid_town): Nhưng ẩn sâu bên trong chiếc mặt nạ gia đình ấm cúng ấy là một thế giới nội tâm đầy rẫy sự...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#8",
+    "desc": "Dãy cửa phòng khép kín dọc hành lang, ẩn dụ chia ngăn tâm trí.",
+    "prompt": "Long corridor lined with identical closed doors each leaking a different colored light underneath, a silhouette standing at the center, symbolic psychological scene in noir style."
   },
   {
-    "name": "t56_a2_06_sectarian_cult",
+    "name": "t56_a2_06_child_toys_left_in_courtyard",
     "act": 2,
-    "sentences": "2.02#3",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Cơ chế chia ngăn tâm trí cho phép các đối tượng tách bạch hoàn toàn cuộc sống thường nhật ...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#9,2.02#10",
+    "desc": "Sân nhà với đồ chơi bỏ lại, đứa trẻ chỉ hiện qua đồ vật.",
+    "prompt": "Quiet courtyard of a Brazilian house with a small plastic ball and a tiny tricycle left on the ground, late afternoon long shadows, no people."
   },
   {
-    "name": "t56_a2_07_folie_a_trois",
+    "name": "t56_a2_07_gentle_interview_child_room",
     "act": 2,
-    "sentences": "2.03#1",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Một đứa trẻ vô tội lớn lên giữa những bí mật kinh hoàng mà không hề có bất kỳ khái niệm nà...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.04#1,2.04#2",
+    "desc": "Phòng nhỏ có thảm và ghế thấp, bóng điều tra viên ngồi xuống ngang tầm trẻ.",
+    "prompt": "Small softly lit room with a rug and low stools, an investigator silhouette crouching to a child-height seat, crayons scattered on the floor, calm hushed mood."
   },
   {
-    "name": "t56_a2_08_backyard_dig",
+    "name": "t56_a2_08_child_pointing_toward_back_yard",
     "act": 2,
-    "sentences": "2.03#2",
-    "desc": "Hồi 2 Tập 50 (backyard_dig): Trong khi các trinh sát đang bế tắc trước những lời giải thích quanh co của bộ ba, một cán...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.04#3,2.04#4",
+    "desc": "Khung cửa mở ra khoảng sân sau và bóng người nhỏ chỉ tay.",
+    "prompt": "View through an open back door onto a walled yard in Brazil, a small child silhouette at the doorway pointing outward, adult silhouettes standing behind, tense quiet."
   },
   {
-    "name": "t56_a2_09_arid_town",
+    "name": "t56_a2_09_lie_shattered_silence_room",
     "act": 2,
-    "sentences": "2.03#3",
-    "desc": "Hồi 2 Tập 50 (arid_town): Và bằng giọng nói trong trẻo ngây thơ nhất, đứa trẻ đã chỉ tay ra khoảng sân sau ngập nắng...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.04#5",
+    "desc": "Căn phòng im lặng, tấm gương vỡ biểu tượng lời dối trá sụp đổ.",
+    "prompt": "Dim room where a large wall mirror has shattered into long cracks reflecting only darkness, adult silhouette frozen in front of it, symbolic noir tension."
   },
   {
-    "name": "t56_a2_10_sectarian_cult",
+    "name": "t56_a2_10_exhumation_order_afternoon_yard",
     "act": 2,
-    "sentences": "2.04#1",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Em hồn nhiên kể rằng những người phụ nữ đến xin việc đã không hề rời đi như lời người lớn ...",
-    "prompt": "Psychological chiaroscuro composition in Garanhuns, Pernambuco, Brazil, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.04#6,2.04#7",
+    "desc": "Chiều định mệnh, sân sau căng dải phong tỏa, xe pháp y đậu ngoài.",
+    "prompt": "Back yard of a Brazilian house in the afternoon with plain cordon tape strung between posts, forensic vans parked at the gate, team silhouettes in white coveralls at a distance."
   },
   {
-    "name": "t56_a2_11_folie_a_trois",
+    "name": "t56_a2_11_first_shovels_damp_earth",
     "act": 2,
-    "sentences": "2.04#2",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Lệnh khai quật khẩn cấp lập tức được phê chuẩn ngay trong buổi chiều định mệnh ngày 11 thá...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#1,2.05#2",
+    "desc": "Xẻng cắm bên nền đất ẩm sau bức tường, cảnh sau sự việc.",
+    "prompt": "Shovels standing upright beside disturbed damp earth behind a high wall, tented forensic cover in the background, harsh floodlights, no people, somber aftermath."
   },
   {
-    "name": "t56_a2_12_backyard_dig",
+    "name": "t56_a2_12_ritual_papers_cult_room",
     "act": 2,
-    "sentences": "2.04#3",
-    "desc": "Hồi 2 Tập 50 (backyard_dig): Toàn bộ lực lượng pháp y và công binh được huy động tối đa để tiến hành phong tỏa hiện trư...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#3,2.05#4",
+    "desc": "Căn phòng giấy trống và nến tắt, gợi nghi thức tà giáo.",
+    "prompt": "Dim room in a Brazilian house with a table of completely blank unmarked papers and burnt-out candles, heavy drawn curtains, an eerie cult atmosphere, no people."
   },
   {
-    "name": "t56_a2_13_arid_town",
+    "name": "t56_a2_13_evidence_table_blank_papers",
     "act": 2,
-    "sentences": "2.05#1",
-    "desc": "Hồi 2 Tập 50 (arid_town): Dưới lớp đất phủ vội là thi thể của Giselly Helena và Alexandra Falcão, những nạn nhân vừa...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#5,2.05#6",
+    "desc": "Bàn vật chứng với giấy trống trong túi nhựa, kỹ thuật viên đeo găng.",
+    "prompt": "Evidence table under a bare bulb, stacks of completely blank unmarked papers in plastic sleeves, forensic technician silhouette in gloves, cold white light."
   },
   {
-    "name": "t56_a2_14_sectarian_cult",
+    "name": "t56_a2_14_cold_kitchen_empty_counter",
     "act": 2,
-    "sentences": "2.05#2",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Tội ác không chỉ dừng lại ở hành vi tước đoạt mạng sống của nạn nhân để cướp tài sản như n...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#7,2.05#8",
+    "desc": "Gian bếp lạnh lẽo trống trơn, ẩn dụ sự tàn nhẫn ngăn nắp.",
+    "prompt": "Spotless cold kitchen in an old Brazilian house, bare steel counters with nothing on them, a single hanging lamp, long unsettling shadows, no people."
   },
   {
-    "name": "t56_a2_15_folie_a_trois",
+    "name": "t56_a2_15_hardened_detectives_outside_house",
     "act": 2,
-    "sentences": "2.05#3",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Chúng tôi tìm thấy nhiều tài liệu viết tay, những bức vẽ chi tiết mô phỏng các nghi lễ hiế...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#9,2.05#10",
+    "desc": "Các điều tra viên kỳ cựu đứng ngoài nhà, quay lưng, nặng nề.",
+    "prompt": "Veteran detective silhouettes standing outside a Brazilian house at night with their backs to the camera, one holding his forehead, floodlights haloing the facade."
   },
   {
-    "name": "t56_a2_16_backyard_dig",
+    "name": "t56_a2_16_seasoned_investigator_on_the_step",
     "act": 2,
-    "sentences": "2.06#1",
-    "desc": "Hồi 2 Tập 50 (backyard_dig): Đặc biệt, tại khu vực nhà bếp, các dụng cụ nấu nướng và chế biến thực phẩm được bố trí một...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#11",
+    "desc": "Một điều tra viên ngồi lặng trên bậc thềm, đèn rọi từ xa.",
+    "prompt": "Lone investigator silhouette sitting on a front step at night in Brazil, head bowed, distant floodlights, empty street, heavy stillness."
   },
   {
-    "name": "t56_a2_17_arid_town",
+    "name": "t56_a2_17_crowd_and_tv_vans_behind_cordon",
     "act": 2,
-    "sentences": "2.06#2",
-    "desc": "Hồi 2 Tập 50 (arid_town): Mục đích của hành vi bệnh hoạn này không chỉ nhằm phi tang chứng cứ mà còn để thực hiện mộ...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#1,2.06#2",
+    "desc": "Đám đông bóng người và xe truyền hình trước dải phong tỏa.",
+    "prompt": "Crowd of faceless silhouettes gathered behind a cordon on a Brazilian street at dusk, broadcast vans with antennas parked nearby, shocked stillness."
   },
   {
-    "name": "t56_a2_18_sectarian_cult",
+    "name": "t56_a2_18_unanswered_questions_string_wall",
     "act": 2,
-    "sentences": "2.06#3",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Đây là một trong những hiện trường gây chấn động tâm lý nặng nề nhất đối với lực lượng giá...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#3,2.06#4",
+    "desc": "Bức tường tối với sợi chỉ nối các thẻ trống, câu hỏi về động cơ.",
+    "prompt": "Dark investigation room wall with red string connecting blank unmarked cards and pins, a detective silhouette in front, a single desk lamp, noir mood."
   },
   {
-    "name": "t56_a2_19_folie_a_trois",
+    "name": "t56_a2_19_labyrinth_of_distorted_mind",
     "act": 2,
-    "sentences": "2.07#1",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Những vật chứng thu thập được tại gian bếp khiến ngay cả những điều tra viên kỳ cựu nhất c...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#5,2.06#6",
+    "desc": "Mê cung hành lang xoắn cho tâm trí lệch lạc, biểu tượng.",
+    "prompt": "Surreal noir labyrinth of tilted corridors and doors, a small silhouette lost in the center, desaturated, symbolic of a distorted shared mind."
   },
   {
-    "name": "t56_a2_20_backyard_dig",
+    "name": "t56_a2_20_three_figures_shared_delusion",
     "act": 2,
-    "sentences": "2.07#2",
-    "desc": "Hồi 2 Tập 50 (backyard_dig): Tin tức về việc khai quật được các thi thể trong vườn nhà số một trăm năm mươi mốt lập tức...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.07#1,2.07#2",
+    "desc": "Ba bóng người quay vào nhau trong phòng kín, chung một ánh đèn.",
+    "prompt": "Three silhouettes seated close in a small closed room lit by one lamp, shadows interlocking on the wall, faces fully hidden, claustrophobic symbolic scene."
   },
   {
-    "name": "t56_a2_21_arid_town",
+    "name": "t56_a2_21_narcissist_on_pedestal_light",
     "act": 2,
-    "sentences": "2.07#3",
-    "desc": "Hồi 2 Tập 50 (arid_town): Những câu hỏi về động cơ thực sự, về cơ chế điều khiển tâm lý nội bộ bắt đầu được đặt ra m...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.07#3,2.07#4",
+    "desc": "Bóng người đứng trên bục cao dưới đèn rọi, bóng đen kéo dài phía dưới.",
+    "prompt": "Lone silhouette standing on a raised platform under a harsh spotlight, a gigantic distorted shadow stretching across the floor, empty room, symbolic narcissism."
   },
   {
-    "name": "t56_a2_22_sectarian_cult",
+    "name": "t56_a2_22_miniature_cult_circle_room",
     "act": 2,
-    "sentences": "2.08#1",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Làm sao một người vợ có thể chấp nhận người tình của chồng sống chung nhà, và làm sao cả b...",
-    "prompt": "Desolate nocturnal scene in Garanhuns, Pernambuco, Brazil, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.07#5,2.07#6",
+    "desc": "Căn phòng kín với ghế xếp vòng tròn và nến, giáo phái thu nhỏ.",
+    "prompt": "Small windowless room with chairs arranged in a circle around a single candle, silhouettes seated with faces hidden, ritual-like dim atmosphere, no writing anywhere."
   },
   {
-    "name": "t56_a2_23_folie_a_trois",
+    "name": "t56_a2_23_victims_as_objects_empty_chairs",
     "act": 2,
-    "sentences": "2.08#2",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Một mê cung nhận thức lệch lạc đã được xây dựng kiên cố qua nhiều năm tháng cô lập xã hội....",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#7,2.07#8",
+    "desc": "Hàng ghế trống xếp thẳng dưới đèn, ẩn dụ nạn nhân bị xem như vật.",
+    "prompt": "Row of empty wooden chairs in a bare room under a harsh overhead light, long shadows on the floor, nothing else, cold symbolic composition."
   },
   {
-    "name": "t56_a2_24_backyard_dig",
+    "name": "t56_a2_24_empathy_switched_off_dark_lamp",
     "act": 2,
-    "sentences": "2.08#3",
-    "desc": "Hồi 2 Tập 50 (backyard_dig): Trọng tâm bệnh lý cốt lõi trong hồ sơ này chính là hiện tượng Loạn thần chia sẻ ba người, ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#9,2.07#10",
+    "desc": "Chiếc đèn bàn tắt trong phòng tối, ẩn dụ đồng cảm bị triệt tiêu.",
+    "prompt": "An old desk lamp switched off in a dark room, a thin ray of pale moonlight on the desk, two faint silhouettes seated far apart, cold stillness."
   },
   {
-    "name": "t56_a2_25_arid_town",
+    "name": "t56_a2_25_closed_ecosystem_stairs_descending",
     "act": 2,
-    "sentences": "2.09#1",
-    "desc": "Hồi 2 Tập 50 (arid_town): Kẻ khởi xướng và đóng vai trò phát tán mầm bệnh tư tưởng không ai khác chính là Jorge Belt...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.07#11,2.07#12,2.07#13",
+    "desc": "Cầu thang xuống tầng hầm tối, ẩn dụ sự tha hóa từng bước.",
+    "prompt": "Narrow staircase descending into darkness inside a Brazilian house, each step lit less than the one above, a silhouette halfway down seen from behind, symbolic gradual decline."
   },
   {
-    "name": "t56_a2_26_sectarian_cult",
-    "act": 2,
-    "sentences": "2.09#2",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Jorge mang trong mình cấu trúc nhân cách ái kỷ ác tính kết hợp với hoang tưởng cứu thế ở m...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t56_a2_27_folie_a_trois",
-    "act": 2,
-    "sentences": "2.09#3",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Hắn thành lập một giáo phái thu nhỏ tự gọi là Cartel, đặt ra các giáo lý quái đản về việc ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t56_a2_28_backyard_dig",
-    "act": 2,
-    "sentences": "2.10#1",
-    "desc": "Hồi 2 Tập 50 (backyard_dig): Đối tượng nhìn nhận các nạn nhân không phải như những cá thể độc lập có quyền được sống, m...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t56_a2_29_arid_town",
-    "act": 2,
-    "sentences": "2.10#2",
-    "desc": "Hồi 2 Tập 50 (arid_town): Khi sự đồng cảm bị triệt tiêu hoàn toàn bởi giáo điều hoang tưởng, ranh giới đạo đức căn b...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t56_a2_30_sectarian_cult",
-    "act": 2,
-    "sentences": "2.10#3",
-    "desc": "Hồi 2 Tập 50 (sectarian_cult): Isabel và Bruna, do những khiếm khuyết tâm lý sẵn có, đã trở thành những nạn nhân bị lây n...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t56_a2_31_folie_a_trois",
-    "act": 2,
-    "sentences": "2.11#1",
-    "desc": "Hồi 2 Tập 50 (folie_a_trois): Sự tha hóa tâm lý diễn ra từng bước một, từ việc chấp nhận những giáo lý kỳ quặc cho đến v...",
-    "prompt": "Intimate forensic interior of vehicle or room in Garanhuns, Pernambuco, Brazil, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t56_a3_01_arid_town",
+    "name": "t56_a3_01_interrogation_corridor_soundproof",
     "act": 3,
-    "sentences": "3.01#1",
-    "desc": "Hồi 3 Tập 50 (arid_town): Thời khắc quyết định đã đến khi ba kẻ bị tình nghi chính thức bị đưa vào các phòng thẩm vấ...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#1,3.02#2",
+    "desc": "Hành lang đồn cảnh sát với hai phòng hỏi cung cách âm.",
+    "prompt": "Narrow police station corridor in Brazil, two heavy soundproof doors with tiny dark windows, a bare bulb, escort silhouettes at a distance, tense cold light."
   },
   {
-    "name": "t56_a3_02_sectarian_cult",
+    "name": "t56_a3_02_peeling_layers_of_the_mask",
     "act": 3,
-    "sentences": "3.01#2",
-    "desc": "Hồi 3 Tập 50 (sectarian_cult): Bốn bức tường cách âm trở thành đấu trường cân não giữa các điều tra viên dày dạn kinh ngh...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#3,3.02#4",
+    "desc": "Chiếc mặt nạ nhiều lớp trên bàn thẩm vấn, một lớp được bóc ra.",
+    "prompt": "On a bare interrogation table, a plain blank mask with a layer peeled away, investigator hands out of focus, harsh overhead lamp, cold noir contrast."
   },
   {
-    "name": "t56_a3_03_folie_a_trois",
+    "name": "t56_a3_03_behavioral_science_team_room",
     "act": 3,
-    "sentences": "3.01#3",
-    "desc": "Hồi 3 Tập 50 (folie_a_trois): Nhiệm vụ của cơ quan chức năng là phải bóc tách từng lớp mặt nạ nhận thức, triệt tiêu sự l...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#5,3.02#6",
+    "desc": "Phòng nhóm điều tra, bóng người bàn bạc quanh bàn có hồ sơ trống.",
+    "prompt": "Small investigation team room with a completely blank whiteboard, three detective silhouettes leaning over a table with blank folders, a desk lamp, late night."
   },
   {
-    "name": "t56_a3_04_backyard_dig",
+    "name": "t56_a3_04_room_one_man_upright_cuffs",
     "act": 3,
-    "sentences": "3.02#1",
-    "desc": "Hồi 3 Tập 50 (backyard_dig): Họ cần phải tìm ra sự thật về số lượng nạn nhân thực tế và giải mã tận gốc cơ chế điều khi...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.04#1,3.04#2",
+    "desc": "Phòng thẩm vấn số một, bóng người ngồi thẳng, còng đặt trên bàn.",
+    "prompt": "Interrogation room one, a straight-backed man silhouette seated at a steel table, a pair of handcuffs resting in front of him, face lost in shadow, flat harsh lighting."
   },
   {
-    "name": "t56_a3_05_arid_town",
+    "name": "t56_a3_05_lecture_in_interview_room",
     "act": 3,
-    "sentences": "3.02#2",
-    "desc": "Hồi 3 Tập 50 (arid_town): Trong phòng thẩm vấn số một, Jorge Negromonte ngồi thẳng lưng, ánh mắt sáng rực với một sự...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.04#3,3.04#4",
+    "desc": "Phòng hỏi cung thành giảng đường, bóng người diễn thuyết.",
+    "prompt": "Bare interview room where a standing silhouette gestures like a lecturer toward an empty row of chairs, a stack of blank books on the table, dramatic side light."
   },
   {
-    "name": "t56_a3_06_sectarian_cult",
+    "name": "t56_a3_06_supernatural_claims_looming_shadow",
     "act": 3,
-    "sentences": "3.02#3",
-    "desc": "Hồi 3 Tập 50 (sectarian_cult): Hắn không hề tỏ ra sợ hãi trước chiếc còng số tám hay những bức ảnh chụp hiện trường vừa đ...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.04#5,3.04#6",
+    "desc": "Cái bóng khổng lồ trên tường sau người ngồi, biểu tượng ảo tưởng siêu nhiên.",
+    "prompt": "A seated silhouette whose enormous distorted shadow looms on the wall behind him, bare interrogation room, flickering light, symbolic delusion."
   },
   {
-    "name": "t56_a3_07_folie_a_trois",
+    "name": "t56_a3_07_empty_courtroom_legal_gamble",
     "act": 3,
-    "sentences": "3.03#1",
-    "desc": "Hồi 3 Tập 50 (folie_a_trois): Hắn thao thao bất tuyệt về cuốn sách mang tên Những Tiết Lộ Của Một Kẻ Tâm Thần Phân Liệt ...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.04#7",
+    "desc": "Phòng xử trống nhìn từ xa, toan tính pháp lý.",
+    "prompt": "Wide view of an empty Brazilian courtroom, polished benches and a high judge bench in shadow, a single beam through a high window, quiet legal tension."
   },
   {
-    "name": "t56_a3_08_backyard_dig",
+    "name": "t56_a3_08_feigned_madness_two_masks",
     "act": 3,
-    "sentences": "3.03#2",
-    "desc": "Hồi 3 Tập 50 (backyard_dig): Hắn tuyên bố rằng mình chỉ là một công cụ thực thi mệnh lệnh từ những thực thể siêu nhiên ...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.05#1,3.05#2",
+    "desc": "Hai chiếc mặt nạ trơn trên bàn, một nghiêng như cười, biểu tượng giả bệnh.",
+    "prompt": "Two plain blank theatrical masks side by side on an interrogation table, one tilted in a smile shape, harsh lamp, a silhouetted man behind slightly blurred."
   },
   {
-    "name": "t56_a3_09_arid_town",
+    "name": "t56_a3_09_psychiatric_trap_door_ajar",
     "act": 3,
-    "sentences": "3.03#3",
-    "desc": "Hồi 3 Tập 50 (arid_town): Hắn hy vọng rằng những bài diễn thuyết dài dòng về triết học sẽ giúp bản thân được đưa vào...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.05#3,3.05#4",
+    "desc": "Cánh cửa khoa tâm thần khép hờ, điều tra viên chọn hướng khác.",
+    "prompt": "Frosted-glass door of a hospital psychiatric ward ajar, an investigator silhouette standing in the corridor deciding to turn away, cold teal light, empty floor."
   },
   {
-    "name": "t56_a3_10_sectarian_cult",
+    "name": "t56_a3_10_borrowed_cards_and_papers_table",
     "act": 3,
-    "sentences": "3.04#1",
-    "desc": "Hồi 3 Tập 50 (sectarian_cult): Chúng tôi nhận ra ngay rằng Jorge đang áp dụng chiến thuật giả bệnh tâm thần nhằm tạo vỏ b...",
-    "prompt": "Late-night police command center in Garanhuns, Pernambuco, Brazil, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.05#5,3.05#6",
+    "desc": "Bàn thẩm vấn trải thẻ nhựa trơn và giấy trống, bằng chứng tham lam.",
+    "prompt": "Interrogation table spread with plain blank plastic cards and completely blank unmarked documents, a pointing investigator hand, a seated suspect silhouette across."
   },
   {
-    "name": "t56_a3_11_folie_a_trois",
+    "name": "t56_a3_11_prophet_stammering_water_glass",
     "act": 3,
-    "sentences": "3.04#2",
-    "desc": "Hồi 3 Tập 50 (folie_a_trois): Nếu chúng tôi đối đầu trực diện về mặt tâm thần học, cuộc thẩm vấn sẽ rơi vào chiếc bẫy tr...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#7,3.05#8",
+    "desc": "Bóng người ngồi trước ly nước, vai gục, bắt đầu sụp đổ.",
+    "prompt": "Interrogation room, a man silhouette hunched forward reaching for a glass of water, shaky posture, harsh overhead light."
   },
   {
-    "name": "t56_a3_12_backyard_dig",
+    "name": "t56_a3_12_ego_collapse_cracked_paper_crown",
     "act": 3,
-    "sentences": "3.04#3",
-    "desc": "Hồi 3 Tập 50 (backyard_dig): Thay vào đó, chúng tôi tập trung xoáy sâu vào những chi tiết thực tế mang tính toan tính v...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#9",
+    "desc": "Vương miện giấy trơn nứt vỡ trên bàn, cái tôi sụp đổ.",
+    "prompt": "A cheap plain paper crown crushed and cracked on an interrogation table, dim light, a slumped silhouette in the background, symbolic collapse of ego."
   },
   {
-    "name": "t56_a3_13_arid_town",
+    "name": "t56_a3_13_opposite_room_woman_steel_chair",
     "act": 3,
-    "sentences": "3.05#1",
-    "desc": "Hồi 3 Tập 50 (arid_town): Chúng tôi chất vấn về lý do hắn mạo danh giấy tờ để chiếm đoạt tài sản và tiền trợ cấp xã ...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.06#1,3.06#2",
+    "desc": "Phòng đối diện, bóng người phụ nữ co ro trên ghế kim loại.",
+    "prompt": "Second interrogation room in a Brazilian police station, a hunched woman silhouette curled on a steel chair, small and fragile, cold blue light, bare walls."
   },
   {
-    "name": "t56_a3_14_sectarian_cult",
+    "name": "t56_a3_14_trembling_hands_cracking_wall",
     "act": 3,
-    "sentences": "3.05#2",
-    "desc": "Hồi 3 Tập 50 (sectarian_cult): Khi những bằng chứng về lòng tham lam và sự hèn hạ được đặt cạnh những lý thuyết cao siêu,...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.06#3,3.06#4",
+    "desc": "Đôi tay run trên bàn lạnh, bức tường nứt phía sau.",
+    "prompt": "Close view of trembling hands clasped on a cold steel table, a wall behind with spreading hairline cracks, a woman silhouette out of focus, bleak light."
   },
   {
-    "name": "t56_a3_15_folie_a_trois",
+    "name": "t56_a3_15_expert_behind_one_way_mirror",
     "act": 3,
-    "sentences": "3.05#3",
-    "desc": "Hồi 3 Tập 50 (folie_a_trois): Sự sụp đổ của cái tôi ái kỷ diễn ra rõ rệt khi hắn nhận ra chiếc mặt nạ tiên tri không còn...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.06#5,3.06#6",
+    "desc": "Bóng chuyên gia quan sát qua cửa kính một chiều.",
+    "prompt": "Observation side of a one-way mirror, an expert silhouette standing in the dark watching a small brightly lit interview room beyond the glass, quiet analysis."
   },
   {
-    "name": "t56_a3_16_backyard_dig",
+    "name": "t56_a3_16_tears_or_tactic_balance_scale",
     "act": 3,
-    "sentences": "3.06#1",
-    "desc": "Hồi 3 Tập 50 (backyard_dig): Ở phòng thẩm vấn đối diện, bức tranh tâm lý lại hoàn toàn đảo ngược....",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.06#7,3.06#8",
+    "desc": "Chiếc cân một bên giọt nước, một bên mặt nạ trơn, biểu tượng.",
+    "prompt": "A balance scale on a dark table, one pan holding a single glass teardrop, the other a plain blank mask, soft backlight, symbolic dilemma, no people."
   },
   {
-    "name": "t56_a3_17_arid_town",
+    "name": "t56_a3_17_battered_woman_dim_kitchen",
     "act": 3,
-    "sentences": "3.06#2",
-    "desc": "Hồi 3 Tập 50 (arid_town): Không còn vẻ hiền từ, tươm tất khi đi bán bánh ngoài đầu ngõ, bà ta run rẩy dữ dội trước t...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#1,3.07#2",
+    "desc": "Gian bếp tối, bóng người phụ nữ đứng lặng bên bàn nhào bột.",
+    "prompt": "Dim kitchen in a Brazilian home, a woman silhouette standing motionless beside a flour-dusted table, head slightly bowed, cold light from a small window."
   },
   {
-    "name": "t56_a3_18_sectarian_cult",
+    "name": "t56_a3_18_lover_in_house_tangled_shadows",
     "act": 3,
-    "sentences": "3.06#3",
-    "desc": "Hồi 3 Tập 50 (sectarian_cult): Bức tường hoang tưởng mà Jorge dựng lên cho bà ta suốt hàng chục năm qua bỗng chốc tan vỡ ...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#3,3.07#4",
+    "desc": "Ba chiếc bóng chồng lên nhau trên tường phòng ăn, quan hệ độc hại.",
+    "prompt": "Dining room wall where three overlapping silhouette shadows cast by a single lamp merge into one tangled form, empty table below, oppressive domestic noir."
   },
   {
-    "name": "t56_a3_19_folie_a_trois",
+    "name": "t56_a3_19_kneading_dough_mechanical_habit",
     "act": 3,
-    "sentences": "3.07#1",
-    "desc": "Hồi 3 Tập 50 (folie_a_trois): Tại sao một người phụ nữ đã tiếp tay cho tội ác suốt nhiều năm lại đột ngột bật khóc và th...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#5,3.07#6",
+    "desc": "Đôi tay nhào bột lặp đi lặp lại, thói quen cơ học.",
+    "prompt": "Close view of hands mechanically kneading dough on a floured wooden counter, dim yellow kitchen light, face out of frame."
   },
   {
-    "name": "t56_a3_20_backyard_dig",
+    "name": "t56_a3_20_echo_chamber_shattered_mirror_room",
     "act": 3,
-    "sentences": "3.07#2",
-    "desc": "Hồi 3 Tập 50 (backyard_dig): Liệu những giọt nước mắt ấy xuất phát từ một lương tri thức tỉnh chân chính, hay chỉ là mộ...",
-    "prompt": "Sterile police interrogation room in Garanhuns, Pernambuco, Brazil, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#7,3.07#8",
+    "desc": "Căn phòng gương vỡ, mảnh phản chiếu bóng một người.",
+    "prompt": "A small room whose mirror walls have cracked into shards, each shard reflecting a dark silhouette, harsh white light, symbolic collapse of a closed belief echo chamber."
   },
   {
-    "name": "t56_a3_21_arid_town",
+    "name": "t56_a3_21_guilt_awakening_hands_over_face",
     "act": 3,
-    "sentences": "3.07#3",
-    "desc": "Hồi 3 Tập 50 (arid_town): Để hiểu được sự biến chuyển tâm lý của Isabel, chúng ta phải giải phẫu cơ chế hối hận tron...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#9,3.07#10",
+    "desc": "Bóng người phụ nữ gập người, hai tay ôm mặt, vai run.",
+    "prompt": "Woman silhouette seated bent forward in an interrogation room with hands pressed to her face, shoulders shaking, a cup of water untouched, cold light, face hidden."
   },
   {
-    "name": "t56_a3_22_sectarian_cult",
+    "name": "t56_a3_22_survival_instinct_forked_road",
     "act": 3,
-    "sentences": "3.08#1",
-    "desc": "Hồi 3 Tập 50 (sectarian_cult): Suốt hàng chục năm chung sống, Isabel là nạn nhân của hội chứng người phụ nữ bị bạo hành v...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#11,3.07#12",
+    "desc": "Con đường rẽ đôi trong bóng tối, giằng xé giữa lương tri và sinh tồn.",
+    "prompt": "A narrow dark road forking into two paths under a pale moon, a lone silhouette standing at the split seen from behind, desaturated, symbolic inner conflict."
   },
   {
-    "name": "t56_a3_23_folie_a_trois",
+    "name": "t56_a3_23_personality_collapse_single_chair",
     "act": 3,
-    "sentences": "3.08#2",
-    "desc": "Hồi 3 Tập 50 (folie_a_trois): Bà ta tự thuyết phục mình rằng việc phục tùng Jorge là cách duy nhất để giữ cho gia đình t...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#13,3.07#14",
+    "desc": "Căn phòng trống, một ghế duy nhất dưới ánh sáng cửa sổ cao.",
+    "prompt": "Empty bare room with a single chair under one shaft of pale light from a high window, dust floating, deep darkness at the edges, no people."
   },
   {
-    "name": "t56_a3_24_backyard_dig",
-    "act": 3,
-    "sentences": "3.08#3",
-    "desc": "Hồi 3 Tập 50 (backyard_dig): Bà ta biến việc nhào bột làm bánh thành một thói quen cơ học để phong tỏa hoàn toàn cảm xú...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t56_a3_25_arid_town",
-    "act": 3,
-    "sentences": "3.09#1",
-    "desc": "Hồi 3 Tập 50 (arid_town): Hiện thực tàn khốc tràn vào tâm trí khiến cơ chế bất hòa nhận thức bị phá vỡ hoàn toàn, kí...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t56_a3_26_sectarian_cult",
-    "act": 3,
-    "sentences": "3.09#2",
-    "desc": "Hồi 3 Tập 50 (sectarian_cult): Sự hối hận của Isabel mang tính chất lưỡng phân rất phức tạp giữa hai xung lực tâm lý đối ...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t56_a3_27_folie_a_trois",
-    "act": 3,
-    "sentences": "3.09#3",
-    "desc": "Hồi 3 Tập 50 (folie_a_trois): Nỗi đau đớn và sự tự ghê tởm chính bản thân mình khiến hệ thần kinh thực vật quá tải, biểu...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t56_a3_28_backyard_dig",
-    "act": 3,
-    "sentences": "3.10#1",
-    "desc": "Hồi 3 Tập 50 (backyard_dig): Mặt khác, trong tiềm thức vô thức của một kẻ đồng phạm, sự tỏ ra ăn năn còn là một chiến l...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t56_a3_29_arid_town",
-    "act": 3,
-    "sentences": "3.10#2",
-    "desc": "Hồi 3 Tập 50 (arid_town): Sự giằng xé giữa lương tri thật sự và bản năng sinh tồn cá nhân chính là bi kịch tâm lý đi...",
-    "prompt": "Forensic laboratory scene in Garanhuns, Pernambuco, Brazil, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t56_a4_01_arid_town",
+    "name": "t56_a4_01_beyond_two_victims_dark_laptop",
     "act": 4,
-    "sentences": "4.01#1",
-    "desc": "Hồi 4 Tập 50 (arid_town): Cuộc điều tra tại Garanhuns không chỉ dừng lại ở hai nạn nhân được tìm thấy dưới lòng đất ...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#1,4.02#2",
+    "desc": "Bàn làm việc với máy tính tắt và hồ sơ trống, điều tra mở rộng.",
+    "prompt": "Detective desk with a dark powered-off laptop and completely blank unmarked folders, a silhouette of an investigator reaching for one, cold lamp light, night office."
   },
   {
-    "name": "t56_a4_02_sectarian_cult",
+    "name": "t56_a4_02_olinda_2008_colonial_streets",
     "act": 4,
-    "sentences": "4.01#2",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Những lời khai rời rạc của Isabel cùng tài liệu thu giữ trong máy tính cá nhân của Bruna đ...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#3,4.02#4",
+    "desc": "Phố cổ Olinda, Pernambuco, năm 2008, ngõ dốc lát đá.",
+    "prompt": "Wide shot of the old hillside town of Olinda in Pernambuco, Brazil, 2008, colonial facades desaturated to grey, cobbled slope, sea haze, empty street at dusk."
   },
   {
-    "name": "t56_a4_03_folie_a_trois",
+    "name": "t56_a4_03_buried_secret_empty_lot",
     "act": 4,
-    "sentences": "4.01#3",
-    "desc": "Hồi 4 Tập 50 (folie_a_trois): Đó là nơi khởi nguồn cho phương thức gây án tàn độc của nhóm cuồng giáo thu nhỏ này....",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#5,4.02#6",
+    "desc": "Bãi đất hoang phẳng, ẩn dụ bí mật bị chôn vùi bốn năm.",
+    "prompt": "Flat empty lot of packed earth behind a Brazilian wall, weeds and a lone leaning post, a thin first light of dawn, quiet and ominous, no people."
   },
   {
-    "name": "t56_a4_04_backyard_dig",
+    "name": "t56_a4_04_young_mother_olinda_dusk",
     "act": 4,
-    "sentences": "4.02#1",
-    "desc": "Hồi 4 Tập 50 (backyard_dig): Một bí mật đen tối bị chôn vùi suốt bốn năm ròng rã cuối cùng cũng phải bước ra ánh sáng c...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.04#1,4.04#2",
+    "desc": "Bóng cô gái trẻ ôm em bé trước căn nhà nhỏ nghèo ở Olinda.",
+    "prompt": "Silhouette of a very young woman holding a baby in front of a tiny poor brick house in Olinda, Brazil, 2008, dusk, face hidden in shadow, laundry line in the background."
   },
   {
-    "name": "t56_a4_05_arid_town",
+    "name": "t56_a4_05_kind_words_open_hand_streetlamp",
     "act": 4,
-    "sentences": "4.02#2",
-    "desc": "Hồi 4 Tập 50 (arid_town): Năm 2008, cô gái mười bảy tuổi Jéssica Camila da Silva Pereira sinh sống trong một khu ổ c...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.04#3,4.04#4",
+    "desc": "Bàn tay đưa ra dưới đèn đường, lời hứa cưu mang.",
+    "prompt": "Two silhouettes facing each other under a streetlamp at night in Olinda, one extending an open hand toward a young mother holding a child, faces hidden, misty air."
   },
   {
-    "name": "t56_a4_06_sectarian_cult",
+    "name": "t56_a4_06_porch_with_child_sandal",
     "act": 4,
-    "sentences": "4.02#3",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Nhóm của Jorge đã tiếp cận cô gái trẻ với lời hứa hẹn sẽ cưu mang hai mẹ con và cho cô làm...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.04#5,4.04#6",
+    "desc": "Hiên nhà vắng với chiếc dép trẻ em bỏ lại, cánh cửa khép dần.",
+    "prompt": "Front porch of a Brazilian house at night, a child-sized sandal left on the step, the front door half closed with a thin line of warm light, no people."
   },
   {
-    "name": "t56_a4_07_folie_a_trois",
+    "name": "t56_a4_07_dna_lab_blank_printouts",
     "act": 4,
-    "sentences": "4.03#1",
-    "desc": "Hồi 4 Tập 50 (folie_a_trois): Và tại nơi đó, người mẹ trẻ ngây thơ đã vĩnh viễn không bao giờ có thể bước chân ra ngoài ...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.05#1,4.05#2",
+    "desc": "Phòng giám định gen, bóng kỹ thuật viên bên máy, giấy kết quả trống.",
+    "prompt": "Forensic genetics laboratory, a technician silhouette beside a machine with dim indicator glow, completely blank unmarked printouts on the bench, cold clinical light."
   },
   {
-    "name": "t56_a4_08_backyard_dig",
+    "name": "t56_a4_08_stolen_identity_wallet_desk",
     "act": 4,
-    "sentences": "4.03#2",
-    "desc": "Hồi 4 Tập 50 (backyard_dig): Một bi kịch gia đình xé lòng đã diễn ra mà không một ai hay biết suốt một thời gian quá dà...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.05#3,4.05#4",
+    "desc": "Bàn với ví chứa thẻ nhựa trơn, giấy tờ tùy thân bị lấy cắp.",
+    "prompt": "Table with a worn leather wallet holding plain blank plastic cards and completely blank unmarked documents, a woman silhouette reaching for it, dim lamp."
   },
   {
-    "name": "t56_a4_09_arid_town",
+    "name": "t56_a4_09_child_bedroom_teddy_bear",
     "act": 4,
-    "sentences": "4.03#3",
-    "desc": "Hồi 4 Tập 50 (arid_town): Sau khi sát hại Jéssica vào tháng 5 năm 2008, các đối tượng đã thực hiện một hành vi chiếm...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.05#5,4.05#6",
+    "desc": "Phòng ngủ nhỏ của trẻ với gấu bông, chăn mỏng.",
+    "prompt": "Small child bedroom in a Brazilian home with a worn teddy bear on a narrow bed and a window with soft light, completely blank pinned drawing paper on the wall, no people."
   },
   {
-    "name": "t56_a4_10_sectarian_cult",
+    "name": "t56_a4_10_blank_photo_frame_face_down",
     "act": 4,
-    "sentences": "4.04#1",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Ả dùng danh tính của người đã chết để đăng ký nhận trợ cấp xã hội và làm thủ tục nhận nuôi...",
-    "prompt": "Historic courtroom interior in Garanhuns, Pernambuco, Brazil, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.05#7,4.05#8",
+    "desc": "Khung ảnh trơn lật úp trên kệ, ẩn dụ xóa danh tính.",
+    "prompt": "A plain blank photo frame lying face down on a dusty shelf, a faint rectangle of cleaner wall behind it, cold light, a silhouette passing in the doorway behind."
   },
   {
-    "name": "t56_a4_11_folie_a_trois",
+    "name": "t56_a4_11_prison_cell_confession_light",
     "act": 4,
-    "sentences": "4.04#2",
-    "desc": "Hồi 4 Tập 50 (folie_a_trois): Trong suốt bốn năm ròng rã, đứa bé lớn lên trong sự chăm sóc của chính những kẻ đã tước đo...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#1,4.06#2",
+    "desc": "Phòng giam trống với băng ghế và ánh sáng cửa sổ cao.",
+    "prompt": "Bare Brazilian prison cell with a metal bench and a high barred window, a single shaft of light on the floor, a woman silhouette seated far in the corner, face hidden."
   },
   {
-    "name": "t56_a4_12_backyard_dig",
+    "name": "t56_a4_12_child_bedroom_door_ajar_hallway",
     "act": 4,
-    "sentences": "4.04#3",
-    "desc": "Hồi 4 Tập 50 (backyard_dig): Kẻ thủ ác không chỉ muốn hủy diệt thể xác mà còn muốn tước đoạt cả danh tính và tương lai ...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#3,4.06#4",
+    "desc": "Cánh cửa phòng trẻ hé mở, bóng người đứng ngoài hành lang.",
+    "prompt": "Door of a child bedroom ajar with a thin line of light, a woman silhouette standing in the dark hallway with a hand on the doorframe, cold shadows."
   },
   {
-    "name": "t56_a4_13_arid_town",
+    "name": "t56_a4_13_draped_mirror_bathroom_shame",
     "act": 4,
-    "sentences": "4.05#1",
-    "desc": "Hồi 4 Tập 50 (arid_town): Tôi biết mình đã phạm phải những tội lỗi không thể nào dung thứ trước trời đất và con ngườ...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#5,4.06#6",
+    "desc": "Gương phòng tắm phủ khăn, bóng người cúi đầu bên bồn rửa.",
+    "prompt": "Dim bathroom with a mirror draped in a cloth, a woman silhouette bowed over a sink, cold tile light, quiet shame, face hidden."
   },
   {
-    "name": "t56_a4_14_sectarian_cult",
+    "name": "t56_a4_14_barred_window_dawn_resolve",
     "act": 4,
-    "sentences": "4.05#2",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Tôi đã để nỗi sợ hãi và sự mê muội làm mù quáng tâm can suốt bao nhiêu năm tháng sống tron...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#7,4.06#8",
+    "desc": "Bóng người bên cửa sổ nhà giam, tay chạm song sắt, ánh bình minh.",
+    "prompt": "Silhouette of a woman standing by a barred prison window at dawn, hand on the bars, pale golden light on the wall, face in shadow, grave quiet."
   },
   {
-    "name": "t56_a4_15_folie_a_trois",
+    "name": "t56_a4_15_prison_corridor_last_breath",
     "act": 4,
-    "sentences": "4.05#3",
-    "desc": "Hồi 4 Tập 50 (folie_a_trois): Nhưng mỗi đêm khi nhìn thấy đứa bé ngủ say, lòng tôi lại thắt lại như có hàng ngàn mũi dao...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.06#9",
+    "desc": "Hành lang nhà giam dài vắng, ánh đèn xa dần.",
+    "prompt": "Long empty prison corridor in Brazil stretching toward a distant dim light, wet floor reflecting, a lone silhouette small at the far end, desaturated."
   },
   {
-    "name": "t56_a4_16_backyard_dig",
+    "name": "t56_a4_16_crowd_before_courthouse_justice",
     "act": 4,
-    "sentences": "4.06#1",
-    "desc": "Hồi 4 Tập 50 (backyard_dig): Tôi không dám cầu xin sự tha thứ từ gia đình của các nạn nhân, bởi vì nỗi đau mà chúng tôi...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.07#1,4.07#2",
+    "desc": "Đám đông bóng người trước tòa án đòi công lý.",
+    "prompt": "Crowd of silhouettes gathered before a Brazilian courthouse steps in the early morning, hands raised calmly, tall stone facade behind, grey cloudy light."
   },
   {
-    "name": "t56_a4_17_arid_town",
+    "name": "t56_a4_17_pernambuco_court_defense_table",
     "act": 4,
-    "sentences": "4.06#2",
-    "desc": "Hồi 4 Tập 50 (arid_town): Tôi chỉ mong rằng bản án của tòa án sẽ là chiếc gông cùm cần thiết để tôi trả nợ cho những...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.07#3,4.07#4",
+    "desc": "Phòng xử với bàn bào chữa, bóng luật sư và hồ sơ trống.",
+    "prompt": "Brazilian courtroom interior, a defense attorney silhouette standing at a table with completely blank unmarked folders, a judge bench in shadow behind, cold daylight."
   },
   {
-    "name": "t56_a4_18_sectarian_cult",
+    "name": "t56_a4_18_long_queue_outside_courthouse",
     "act": 4,
-    "sentences": "4.06#3",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Nỗi thống khổ của sự ân hận muộn màng sẽ theo đuổi tôi cho đến hơi thở cuối cùng trong bốn...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.07#5,4.07#6",
+    "desc": "Hàng dài bóng người xếp hàng ngoài tòa chờ theo dõi phiên xử.",
+    "prompt": "Long queue of faceless silhouettes waiting outside a courthouse at sunrise, cameras on tripods as dark shapes, mist, hushed anticipation."
   },
   {
-    "name": "t56_a4_19_folie_a_trois",
+    "name": "t56_a4_19_forensic_psychiatric_panel_table",
     "act": 4,
-    "sentences": "4.07#1",
-    "desc": "Hồi 4 Tập 50 (folie_a_trois): Dư luận đòi hỏi một bản án nghiêm khắc nhất dành cho cả ba kẻ thủ ác để trả lại sự công bằ...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.08#1,4.08#2",
+    "desc": "Phòng hội đồng giám định, các bóng chuyên gia ngồi quanh bàn dài.",
+    "prompt": "Long conference table in a forensic psychiatry panel room, a row of expert silhouettes seated, blank notepads and water glasses, flat cold light."
   },
   {
-    "name": "t56_a4_20_backyard_dig",
+    "name": "t56_a4_20_deliberate_faker_chess_board",
     "act": 4,
-    "sentences": "4.07#2",
-    "desc": "Hồi 4 Tập 50 (backyard_dig): Tuy nhiên, trận chiến pháp lý tại Tòa án Thượng thẩm bang Pernambuco lại diễn ra vô cùng c...",
-    "prompt": "Emotional witness stand perspective in Garanhuns, Pernambuco, Brazil, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.08#3,4.08#4",
+    "desc": "Bàn cờ quân đen tiến lên, ẩn dụ giả bệnh có kế hoạch.",
+    "prompt": "A chessboard under a single lamp with black pieces advanced and white pieces scattered, a silhouette seated behind it with face hidden, noir symbolism of calculation."
   },
   {
-    "name": "t56_a4_21_arid_town",
+    "name": "t56_a4_21_coercion_no_shield_cracked_shield",
     "act": 4,
-    "sentences": "4.07#3",
-    "desc": "Hồi 4 Tập 50 (arid_town): Họ cố gắng biến phiên tòa thành một cuộc tranh luận về ranh giới giữa bệnh lý tâm thần và ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#5,4.08#6",
+    "desc": "Tấm khiên gỗ nứt dựa tường, ẩn dụ cưỡng ép không thành lá chắn.",
+    "prompt": "A cracked wooden shield propped against a bare wall in a dim hall, two silhouettes standing apart in the background, cold daylight, no writing."
   },
   {
-    "name": "t56_a4_22_sectarian_cult",
+    "name": "t56_a4_22_scales_of_justice_high_window",
     "act": 4,
-    "sentences": "4.08#1",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Hội đồng giám định pháp y tâm thần đã tiến hành hàng chục cuộc phỏng vấn chuyên sâu và các...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#7,4.08#8",
+    "desc": "Cán cân công lý bằng đồng trên bàn thẩm phán, ánh sáng cửa sổ cao.",
+    "prompt": "Brass scales of justice on a courtroom bench lit by a beam from a high window, dust in the air, empty chairs below, solemn mood."
   },
   {
-    "name": "t56_a4_23_folie_a_trois",
+    "name": "t56_a4_23_gavel_on_empty_bench_hall",
     "act": 4,
-    "sentences": "4.08#2",
-    "desc": "Hồi 4 Tập 50 (folie_a_trois): Kết luận cuối cùng được đưa ra một cách dứt khoát: Jorge Beltrão Negromonte hoàn toàn khôn...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#9",
+    "desc": "Búa tòa trên bục trống, đại sảnh tòa vắng.",
+    "prompt": "Wooden gavel resting on an empty bench in a vast Brazilian courthouse hall at night, columns fading into shadow, one lamp, no people."
   },
   {
-    "name": "t56_a4_24_backyard_dig",
+    "name": "t56_a4_24_recife_courthouse_corridor_years",
     "act": 4,
-    "sentences": "4.08#3",
-    "desc": "Hồi 4 Tập 50 (backyard_dig): Các kế hoạch phi tang chứng cứ bài bản, việc mạo danh nhân thân để trục lợi tài chính và v...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#1,4.09#2",
+    "desc": "Hành lang tòa Recife qua nhiều năm xét xử, người đi lại là bóng.",
+    "prompt": "Long courthouse corridor in Recife, Brazil, silhouettes of lawyers and clerks walking with blank folders, tall windows, dust and hazy light, passing years feel."
   },
   {
-    "name": "t56_a4_25_arid_town",
+    "name": "t56_a4_25_steel_cell_door_closing_guard",
     "act": 4,
-    "sentences": "4.09#1",
-    "desc": "Hồi 4 Tập 50 (arid_town): Đối với Isabel và Bruna, hội đồng xác định các đối tượng có sự suy giảm khả năng tự chủ do...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#3,4.09#4",
+    "desc": "Cánh cửa sắt phòng giam đóng lại, bóng lính canh nhìn từ sau lưng.",
+    "prompt": "Heavy steel prison door being closed by a guard silhouette seen from behind, long corridor of cells beyond, cold fluorescent light, final stillness."
   },
   {
-    "name": "t56_a4_26_sectarian_cult",
+    "name": "t56_a4_26_olinda_courthouse_sunrise_steps",
     "act": 4,
-    "sentences": "4.09#2",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Cơ chế kiểm soát cưỡng ép và sự phụ thuộc cảm xúc không thể trở thành tấm lá chắn pháp lý ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#5,4.09#6",
+    "desc": "Mặt tiền tòa Olinda lúc bình minh, bậc thềm trống, lời răn đe.",
+    "prompt": "Courthouse facade in Olinda at sunrise, wide empty stone steps and columns, long shadows, a lone silhouette walking away down the steps, calm deterrent mood."
   },
   {
-    "name": "t56_a4_27_folie_a_trois",
-    "act": 4,
-    "sentences": "4.09#3",
-    "desc": "Hồi 4 Tập 50 (folie_a_trois): Sự trừng phạt của pháp luật là lời khẳng định đanh thép rằng không một học thuyết dị giáo ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
-  },
-  {
-    "name": "t56_a4_28_backyard_dig",
-    "act": 4,
-    "sentences": "4.10#1",
-    "desc": "Hồi 4 Tập 50 (backyard_dig): Cả ba bị cáo đều bị tuyên phạm tội giết người có tổ chức, che giấu thi thể, xâm phạm thi t...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
-  },
-  {
-    "name": "t56_a4_29_arid_town",
-    "act": 4,
-    "sentences": "4.10#2",
-    "desc": "Hồi 4 Tập 50 (arid_town): Tổng mức hình phạt dành cho Jorge Beltrão Negromonte lên tới hơn bảy mươi mốt năm tù giam....",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
-  },
-  {
-    "name": "t56_a4_30_sectarian_cult",
-    "act": 4,
-    "sentences": "4.10#3",
-    "desc": "Hồi 4 Tập 50 (sectarian_cult): Không một kẽ hở pháp lý nào có thể cứu vãn được những kẻ đã tự tay xé nát các chuẩn mực că...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Garanhuns, Pernambuco, Brazil, dramatic dust particles rising in sharp beam of light, absolute final sentence."
-  },
-  {
-    "name": "t56_a5_01_arid_town",
+    "name": "t56_a5_01_garanhuns_grey_morning_years_later",
     "act": 5,
-    "sentences": "5.01#1",
-    "desc": "Hồi 5 Tập 50 (arid_town): Vụ án Bộ Ba Garanhuns khép lại sau nhiều năm điều tra và xét xử, nhưng những dư chấn của n...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#1,5.02#2",
+    "desc": "Garanhuns buổi sáng sau nhiều năm, thị trấn lặng, dư chấn còn đó.",
+    "prompt": "Garanhuns hillside town on a quiet grey morning years later, mist over rooftops and the church tower, empty streets, a heavy lingering sadness."
   },
   {
-    "name": "t56_a5_02_sectarian_cult",
+    "name": "t56_a5_02_burned_house_ruins_ash",
     "act": 5,
-    "sentences": "5.01#2",
-    "desc": "Hồi 5 Tập 50 (sectarian_cult): Ngay sau khi những bí mật kinh hoàng được phơi bày vào tháng 4 năm 2012, một đám đông hàng...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#3,5.02#4",
+    "desc": "Tàn tích ngôi nhà bị phóng hỏa, tro và dầm cháy dưới hoàng hôn.",
+    "prompt": "Burned-out shell of a Brazilian house with charred beams and ash on the ground, dusk smoke thinning, no people, aftermath of mob anger."
   },
   {
-    "name": "t56_a5_03_folie_a_trois",
+    "name": "t56_a5_03_community_candles_vigil",
     "act": 5,
-    "sentences": "5.01#3",
-    "desc": "Hồi 5 Tập 50 (folie_a_trois): Họ đập phá và phóng hỏa thiêu rụi ngôi nhà thành tro bụi, như một nỗ lực nguyên thủy nhằm ...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#5,5.02#6",
+    "desc": "Đám đông bóng người thắp nến trên phố, tâm lý rúng động.",
+    "prompt": "Community of silhouettes holding small candles on a dark street in Garanhuns, faces hidden, soft flickering glow, a collective moment of reflection."
   },
   {
-    "name": "t56_a5_04_backyard_dig",
+    "name": "t56_a5_04_sprout_from_the_ashes",
     "act": 5,
-    "sentences": "5.02#1",
-    "desc": "Hồi 5 Tập 50 (backyard_dig): Sự giận dữ của cộng đồng không chỉ nhắm vào tội ác của ba kẻ sát nhân, mà còn xuất phát từ...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#7,5.02#8",
+    "desc": "Mầm cây nhỏ mọc từ lớp tro, bài học từ tro tàn.",
+    "prompt": "A small green sprout growing from grey ash and rubble in front of a ruined wall, soft dawn light, shallow depth of field, hopeful but desaturated."
   },
   {
-    "name": "t56_a5_05_arid_town",
+    "name": "t56_a5_05_gift_of_fear_night_road",
     "act": 5,
-    "sentences": "5.02#2",
-    "desc": "Hồi 5 Tập 50 (arid_town): Sự việc trở thành một hồi chuông cảnh tỉnh đắt giá cho toàn xã hội về những lỗ hổng an toà...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#1,5.03#2",
+    "desc": "Con đường tối ban đêm, bóng người dừng lại lắng nghe trực giác.",
+    "prompt": "A lone silhouette stopping on a dim country road at night, head slightly turned to look back over the shoulder, distant streetlamp, symbolic gift of fear."
   },
   {
-    "name": "t56_a5_06_sectarian_cult",
+    "name": "t56_a5_06_too_easy_offer_open_gate_trap",
     "act": 5,
-    "sentences": "5.02#3",
-    "desc": "Hồi 5 Tập 50 (sectarian_cult): Và từ đống tro tàn của thảm kịch, những bài học cảnh báo đỏ sinh tồn đã được các chuyên gi...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#3,5.03#4",
+    "desc": "Cánh cổng mở và lối đi đẹp quá mức dẫn tới ô cửa đen.",
+    "prompt": "A suspiciously inviting open gate and neat garden path in warm light with a deep black doorway at the end, a silhouette hesitating at the entrance, noir symbolism."
   },
   {
-    "name": "t56_a5_07_folie_a_trois",
+    "name": "t56_a5_07_warm_facade_halo_house",
     "act": 5,
-    "sentences": "5.03#1",
-    "desc": "Hồi 5 Tập 50 (folie_a_trois): Những vết sẹo tâm lý của người dân vùng Garanhuns sẽ phải mất nhiều thế hệ nữa mới có thể ...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#5,5.03#6",
+    "desc": "Ngôi nhà ấm áp ánh vàng nhưng bóng đổ dài ma quái.",
+    "prompt": "A cozy-looking Brazilian house glowing with warm gold light from every window while its long shadow stretches dark across the lawn, symbolic halo effect, no people."
   },
   {
-    "name": "t56_a5_08_backyard_dig",
+    "name": "t56_a5_08_isolation_dark_phone_room",
     "act": 5,
-    "sentences": "5.03#2",
-    "desc": "Hồi 5 Tập 50 (backyard_dig): Cảnh báo đỏ thứ nhất: Cảnh giác tuyệt đối trước những lời đề nghị làm việc quá dễ dàng đi ...",
-    "prompt": "Solemn penal execution facility at dawn in Garanhuns, Pernambuco, Brazil, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#7,5.03#8",
+    "desc": "Bóng người trong phòng tối, điện thoại không sáng, cô lập thông tin.",
+    "prompt": "A silhouette standing alone in a dark room holding a dark phone that gives off no light, a faint moon through the curtains, symbolic isolation."
   },
   {
-    "name": "t56_a5_09_arid_town",
+    "name": "t56_a5_09_police_office_night_blank_folders",
     "act": 5,
-    "sentences": "5.03#3",
-    "desc": "Hồi 5 Tập 50 (arid_town): Những kẻ săn mồi tâm lý luôn biết cách khai thác sự bế tắc kinh tế và sự ngây thơ của nhữn...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#1,5.04#2",
+    "desc": "Văn phòng cảnh sát đêm, bàn đầy hồ sơ trống, bóng người thức khuya.",
+    "prompt": "Police office at night with desks piled with completely blank unmarked case folders, a detective silhouette leaning over one, a lamp, rain on the window."
   },
   {
-    "name": "t56_a5_10_sectarian_cult",
+    "name": "t56_a5_10_data_money_voices_evidence_still_life",
     "act": 5,
-    "sentences": "5.04#1",
-    "desc": "Hồi 5 Tập 50 (sectarian_cult): Cảnh báo đỏ thứ hai: Không bao giờ để hiệu ứng hào quang của một vỏ bọc gia đình ấm cúng l...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#3,5.04#4",
+    "desc": "Bàn có máy tính tắt, thẻ trơn và micro cũ, ba nguồn thông tin hội tụ.",
+    "prompt": "A table with a dark laptop, a plain blank plastic card and an old microphone converging in one pool of lamp light, a detective silhouette behind, noir evidence still life."
   },
   {
-    "name": "t56_a5_11_folie_a_trois",
+    "name": "t56_a5_11_child_recovery_sunlit_garden",
     "act": 5,
-    "sentences": "5.04#2",
-    "desc": "Hồi 5 Tập 50 (folie_a_trois): Sự hiện diện của phụ nữ hay trẻ nhỏ trong một môi trường xa lạ không đồng nghĩa với sự an ...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#5,5.04#6",
+    "desc": "Khu vườn nắng nhẹ với xích đu, bóng chuyên gia ngồi cạnh bóng bé gái nhỏ.",
+    "prompt": "Sunlit garden with a small swing and colorful toys, an adult expert silhouette seated on a bench beside a tiny child silhouette, soft hopeful light."
   },
   {
-    "name": "t56_a5_12_backyard_dig",
+    "name": "t56_a5_12_window_dawn_responsibility",
     "act": 5,
-    "sentences": "5.04#3",
-    "desc": "Hồi 5 Tập 50 (backyard_dig): Sự cô lập về mặt thông tin chính là điều kiện tiên quyết để cái ác có thể thực hiện hành v...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#7,5.05#1",
+    "desc": "Cửa sổ nhìn bình minh trên đồi, người đứng quay lưng.",
+    "prompt": "Silhouette of a person standing at a large window watching dawn rise over the hills of Garanhuns, warm light spreading, quiet resolve."
   },
   {
-    "name": "t56_a5_13_arid_town",
+    "name": "t56_a5_13_thin_cracked_glass_pane",
     "act": 5,
-    "sentences": "5.05#1",
-    "desc": "Hồi 5 Tập 50 (arid_town): Biết trân trọng cảm giác bất an ban đầu chính là vũ khí tự vệ tự nhiên mạnh mẽ nhất mà tạo...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.05#2,5.05#3",
+    "desc": "Tấm kính mỏng rạn nứt, phía sau là bóng tối.",
+    "prompt": "A thin glass pane with spreading hairline cracks in a doorframe, deep darkness behind it and pale light in front, symbolic fragility of social barriers."
   },
   {
-    "name": "t56_a5_14_sectarian_cult",
+    "name": "t56_a5_14_masks_hanging_on_dark_wall",
     "act": 5,
-    "sentences": "5.05#2",
-    "desc": "Hồi 5 Tập 50 (sectarian_cult): Đối với lực lượng thực thi pháp luật, hồ sơ Garanhuns để lại bài học sâu sắc về tầm quan t...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.05#4,5.05#5",
+    "desc": "Dãy mặt nạ trơn treo tường, ánh sáng lướt qua, cái ác sau nụ cười.",
+    "prompt": "A row of plain blank smooth masks hanging on a dark wall with a slow light sweeping across them, one mask turned slightly away, noir symbolism."
   },
   {
-    "name": "t56_a5_15_folie_a_trois",
+    "name": "t56_a5_15_studio_farewell_microphone_lamp",
     "act": 5,
-    "sentences": "5.05#3",
-    "desc": "Hồi 5 Tập 50 (folie_a_trois): Sự phối hợp chặt chẽ giữa dữ liệu công nghệ, dấu vết tài chính và tiếng nói của quần chúng...",
-    "prompt": "Serene panoramic wide landscape of Garanhuns, Pernambuco, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#6,5.05#7",
+    "desc": "Phòng thu với micro và đèn bàn ấm, lời chào tạm biệt.",
+    "prompt": "Dim radio studio with a vintage microphone and a warm desk lamp, headphones resting on a stand, empty chairs, quiet farewell mood, no writing."
   },
   {
-    "name": "t56_a5_16_backyard_dig",
+    "name": "t56_a5_16_closing_card_amber_eyes_file_closed",
     "act": 5,
-    "sentences": "5.06#1",
-    "desc": "Hồi 5 Tập 50 (backyard_dig): Bên cạnh đó, việc bảo vệ và phục hồi tâm lý cho nhân chứng nhỏ tuổi là một ưu tiên nhân đạ...",
-    "prompt": "Serene panoramic wide landscape of Garanhuns, Pernambuco, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t56_a5_17_arid_town",
-    "act": 5,
-    "sentences": "5.06#2",
-    "desc": "Hồi 5 Tập 50 (arid_town): Bé gái năm tuổi sau khi được giải cứu đã nhận được sự chăm sóc đặc biệt từ các chuyên gia ...",
-    "prompt": "Serene panoramic wide landscape of Garanhuns, Pernambuco, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t56_a5_18_sectarian_cult",
-    "act": 5,
-    "sentences": "5.06#3",
-    "desc": "Hồi 5 Tập 50 (sectarian_cult): Sự hồi phục kỳ diệu của đứa trẻ chính là tia sáng hy vọng le lói bước ra từ bóng tối kinh ...",
-    "prompt": "Serene panoramic wide landscape of Garanhuns, Pernambuco, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t56_a5_19_folie_a_trois",
-    "act": 5,
-    "sentences": "5.07#1",
-    "desc": "Hồi 5 Tập 50 (folie_a_trois): Khép lại hồ sơ Bộ Ba Garanhuns, chúng ta không chỉ nhìn lại một vụ án hình sự với những ch...",
-    "prompt": "Serene panoramic wide landscape of Garanhuns, Pernambuco, Brazil today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
-  },
-  {
-    "name": "t56_a5_20_backyard_dig",
-    "act": 5,
-    "sentences": "5.07#2",
-    "desc": "Hồi 5 Tập 50 (backyard_dig): Điều quan trọng hơn cả là sự thấu hiểu sâu sắc về bản chất mong manh của các rào cản đạo đ...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t56_a5_21_arid_town",
-    "act": 5,
-    "sentences": "5.07#3",
-    "desc": "Hồi 5 Tập 50 (arid_town): Cái ác không bao giờ mang hình thù của những con quái vật gớm ghiếc từ cõi xa xôi nào đến....",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t56_a5_22_sectarian_cult",
-    "act": 5,
-    "sentences": "5.08#1",
-    "desc": "Hồi 5 Tập 50 (sectarian_cult): Biết lắng nghe trực giác bất an, giữ vững sự tỉnh táo trước những cạm bẫy ngọt ngào chính ...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t56_a5_23_folie_a_trois",
-    "act": 5,
-    "sentences": "5.08#2",
-    "desc": "Hồi 5 Tập 50 (folie_a_trois): Cảm ơn quý vị thính giả đã đồng hành cùng Amber eyes qua những phân tích khoa học hành vi ...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t56_a5_24_backyard_dig",
-    "act": 5,
-    "sentences": "5.08#3",
-    "desc": "Hồi 5 Tập 50 (backyard_dig): Xin chào tạm biệt và hẹn gặp lại trong những hồ sơ tâm lý tội phạm tiếp theo....",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#8",
+    "desc": "Thẻ kết: đôi mắt hổ phách trong bóng tối và hồ sơ khép lại.",
+    "prompt": "Symbolic closing image of a pair of glowing amber eyes in deep darkness above a closed completely blank unmarked case file on a dark desk, no writing at all."
   }
 ]

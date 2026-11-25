@@ -1,951 +1,951 @@
 {
-  "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 05 (VI) — sinh tự động bởi .work/_build_tk_tap05.py.",
-  "_episode": "Tap05",
-  "_language": "VI",
-  "_title": "CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ",
-  "_measured_rates": {
-    "C": 0.2368,
-    "D": 0.2625,
-    "H": 0.2963,
-    "N1": 0.2637,
-    "N2": 0.2816
+ "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 05 (VI) — sinh tự động bởi .work/_build_tk_tap05.py.",
+ "_episode": "Tap05",
+ "_language": "VI",
+ "_title": "CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ",
+ "_measured_rates": {
+  "C": 0.2368,
+  "D": 0.2625,
+  "H": 0.2963,
+  "N1": 0.2637,
+  "N2": 0.2816
+ },
+ "_clips_summary": [
+  {
+   "clip": "TK1",
+   "title": "Chiếc đĩa mềm màu tím và cái bẫy siêu dữ liệu",
+   "signs": [
+    4,
+    8
+   ],
+   "lines_count": 11,
+   "est_duration_s": 74.3
   },
-  "_clips_summary": [
-    {
-      "clip": "TK1",
-      "title": "Chiếc đĩa mềm màu tím và cái bẫy siêu dữ liệu",
-      "signs": [
-        4,
-        8
-      ],
-      "lines_count": 11,
-      "est_duration_s": 74.3
-    },
-    {
-      "clip": "TK2",
-      "title": "Chủ tịch hội đồng nhà thờ và chiếc mặt nạ 30 năm",
-      "signs": [
-        9,
-        3
-      ],
-      "lines_count": 10,
-      "est_duration_s": 75.7
-    },
-    {
-      "clip": "TK3",
-      "title": "Nỗi sợ bị lãng quên và ảo tưởng Nhân tố X",
-      "signs": [
-        6,
-        5
-      ],
-      "lines_count": 10,
-      "est_duration_s": 72.9
-    },
-    {
-      "clip": "TK4",
-      "title": "Nỗi đau của con gái kẻ sát nhân BTK",
-      "signs": [
-        3,
-        1
-      ],
-      "lines_count": 11,
-      "est_duration_s": 80.8
-    },
-    {
-      "clip": "TK5",
-      "title": "4 dấu hiệu cảnh báo đỏ sinh tồn nhận diện mặt nạ",
-      "signs": [
-        10
-      ],
-      "lines_count": 12,
-      "est_duration_s": 85.8
-    }
-  ],
-  "clips": {
-    "TK1": {
-      "title": "Chiếc đĩa mềm màu tím và cái bẫy siêu dữ liệu",
-      "theme": "Sự sụp đổ của cái tôi ái kỷ & Ảo tưởng toàn năng trước giám định kỹ thuật số",
-      "signs": [
-        4,
-        8
-      ],
-      "total_est_duration_s": 74.3,
-      "bgm": "bgm_ambient_tension.mp3",
-      "bgm_desc": "Hồi 4 — bed tập: bgm_ambient_tension.mp3",
-      "sfx": [
-        "amb_winter_wind.wav (nền)",
-        "fx_floppy_insert.wav",
-        "fx_keyboard_typing.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK1.01#1",
-          "text": "HỒ SƠ TẬP 05: DENNIS RADER (BTK)",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK1.01#4",
-          "text": "MỤC RAO VẶT 494: “REX, IT WILL BE OK”",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK1.01#5",
-          "text": "ĐĨA MỀM MEMOREX 1.44MB MÀU TÍM",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK1.01#8",
-          "text": "SIÊU DỮ LIỆU METADATA: DENNIS & CHRIST LUTHERAN",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK1.01#10",
-          "text": "SỰ SỤP ĐỔ CỦA CÁI TÔI ÁI KỶ (NARCISSISTIC COLLAPSE)",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK1.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t5_handwritten_note_floppy",
-          "motion": "still",
-          "text": "Một kẻ sát nhân 30 năm lẩn trốn. Lại tự nộp mạng vì một chiếc đĩa mềm màu tím.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 6.43
-        },
-        {
-          "clip_line_id": "TK1.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_handwritten_note_floppy",
-          "motion": "pan",
-          "text": "Theo hồ sơ được công bố, hắn ngây thơ đặt ra một câu hỏi kỳ lạ: “Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không?",
-          "src_script": "4.02#6",
-          "est_duration_s": 11.27
-        },
-        {
-          "clip_line_id": "TK1.01#3",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_newspaper_classified_494",
-          "motion": "still",
-          "text": "Ngày 28 tháng 1 năm 2005, trên mục rao vặt của tờ The Wichita Eagle, một mẩu tin nhắn ngắn xuất hiện: “Rex, mọi chuyện sẽ ổn để gửi nó”.",
-          "src_script": "4.04#5",
-          "est_duration_s": 10.31
-        },
-        {
-          "clip_line_id": "TK1.01#4",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_purple_floppy_disk",
-          "motion": "pull",
-          "text": "Bên trong phong bì là một chiếc đĩa mềm Memorex 1.44 Megabyte màu tím bọc trong tập tài liệu.",
-          "src_script": "4.04#8",
-          "est_duration_s": 6.11
-        },
-        {
-          "clip_line_id": "TK1.01#5",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_digital_forensics_lab",
-          "motion": "pan",
-          "text": "Chiếc đĩa mềm màu tím lập tức được đưa vào phòng phân tích dữ liệu chuyên dụng với sự giám sát nghiêm ngặt.",
-          "src_script": "4.06#1",
-          "est_duration_s": 7.41
-        },
-        {
-          "clip_line_id": "TK1.01#6",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_metadata_screen",
-          "motion": "push",
-          "text": "Dòng thứ nhất ghi rõ: “Sửa đổi lần cuối bởi: Dennis”.",
-          "src_script": "4.06#6",
-          "est_duration_s": 3.86
-        },
-        {
-          "clip_line_id": "TK1.01#7",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_metadata_screen",
-          "motion": "still",
-          "text": "Và dòng thứ hai: “Được đăng ký bởi tổ chức: Nhà thờ Lutheran Chúa Kitô”.",
-          "src_script": "4.06#7",
-          "est_duration_s": 5.04
-        },
-        {
-          "clip_line_id": "TK1.01#8",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t5_church_website_search",
-          "motion": "pull",
-          "text": "Trang thông tin của giáo đoàn hiện ra ngay trên màn hình với danh sách ban lãnh đạo: Chủ tịch Hội đồng Nhà thờ chính là Dennis Rader.",
-          "src_script": "4.08#2",
-          "est_duration_s": 8.05
-        },
-        {
-          "clip_line_id": "TK1.01#9",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t5_interrogation_confrontation",
-          "motion": "push",
-          "text": "Hắn ngơ ngác hỏi Trung úy Landwehr: “Tại sao các anh lại nói dối tôi về chiếc đĩa mềm?”.",
-          "src_script": "4.12#2",
-          "est_duration_s": 5.69
-        },
-        {
-          "clip_line_id": "TK1.01#10",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t5_interrogation_confrontation",
-          "motion": "still",
-          "text": "Câu trả lời của Trung úy Landwehr rất đanh thép và sòng phẳng: “Vì chúng tôi tìm cách bắt ông.”.",
-          "src_script": "4.12#3",
-          "est_duration_s": 5.95
-        },
-        {
-          "clip_line_id": "TK1.01#11",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t5_amber_eyes_dossier_05",
-          "motion": "still",
-          "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.15
-        }
-      ]
-    },
-    "TK2": {
-      "title": "Chủ tịch hội đồng nhà thờ và chiếc mặt nạ 30 năm",
-      "theme": "Hiệu ứng Hào quang (Halo Effect) & Sự chia ngăn tâm trí (Compartmentalization)",
-      "signs": [
-        9,
-        3
-      ],
-      "total_est_duration_s": 75.7,
-      "bgm": "bgm_jazz_noir.mp3",
-      "bgm_desc": "Hồi 2 — bed tập: bgm_jazz_noir.mp3",
-      "sfx": [
-        "amb_suburban_evening.wav (nền)",
-        "fx_lawnmower_distant.wav",
-        "fx_door_creak.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK2.01#1",
-          "text": "ĐIỂM MÙ XÃ HỘI: CHIẾC MẶT NẠ CÔNG DÂN MẪU MỰC",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK2.01#4",
-          "text": "CHỦ TỊCH HỘI ĐỒNG NHÀ THỜ CHRIST LUTHERAN",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK2.01#6",
-          "text": "VIÊN CHỨC TRẬT TỰ ĐÔ THỊ ĐO TỪNG BÃI CỎ",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK2.01#8",
-          "text": "HIỆU ỨNG HÀO QUANG (HALO EFFECT)",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK2.01#9",
-          "text": "SỰ CHIA NGĂN TÂM TRÍ (COMPARTMENTALIZATION)",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK2.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t5_rader_house_park_city",
-          "motion": "still",
-          "text": "Chủ tịch hội đồng nhà thờ. Đội trưởng Hướng đạo sinh. Và kẻ sát nhân giấu mặt.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.54
-        },
-        {
-          "clip_line_id": "TK2.01#2",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_rader_house_park_city",
-          "motion": "pan",
-          "text": "Nhưng nghịch lý lớn nhất khiến dư luận bàng hoàng chính là chiếc mặt nạ xã hội hoàn hảo mà Dennis Rader đã dày công xây dựng.",
-          "src_script": "2.06#1",
-          "est_duration_s": 7.69
-        },
-        {
-          "clip_line_id": "TK2.01#3",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_lutheran_church_exterior",
-          "motion": "still",
-          "text": "Hắn giữ chức Chủ tịch Hội đồng Nhà thờ Lutheran Chúa Kitô – người được cả giáo đoàn tin cậy giao phó chìa khóa và quản lý tài chính.",
-          "src_script": "2.06#4",
-          "est_duration_s": 8.21
-        },
-        {
-          "clip_line_id": "TK2.01#4",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_scout_camp_campfire",
-          "motion": "pan",
-          "text": "Hắn là Đội trưởng Hướng đạo sinh Cub Scout, tận tình dạy con trẻ kỹ năng sinh tồn và rèn luyện đạo đức trung thực.",
-          "src_script": "2.06#5",
-          "est_duration_s": 7.16
-        },
-        {
-          "clip_line_id": "TK2.01#5",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_compliance_truck_street",
-          "motion": "push",
-          "text": "Và từ năm 1991, hắn là Nhân viên Trật tự Đô thị của chính quyền Park City, lái xe bán tải đi kiểm tra từng góc phố, đo chiều cao từng bãi cỏ và bắt giữ thú cưng chạy rông.",
-          "src_script": "2.06#6",
-          "est_duration_s": 12.67
-        },
-        {
-          "clip_line_id": "TK2.01#6",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t5_compliance_measuring_tape",
-          "motion": "still",
-          "text": "Sự hà khắc, tỉ mỉ đến mức bệnh hoạn của hắn được cộng đồng giải thích đơn giản là tính cách nguyên tắc của một cựu quân nhân.",
-          "src_script": "2.06#7",
-          "est_duration_s": 8.05
-        },
-        {
-          "clip_line_id": "TK2.01#7",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t5_two_faces_silhouette",
-          "motion": "push",
-          "text": "Chính “Hiệu ứng Hào quang” và tâm lý bình thường hóa xã hội đã tạo nên điểm mù khổng lồ che mắt cả thị trấn suốt ba thập kỷ.",
-          "src_script": "2.06#8",
-          "est_duration_s": 8.31
-        },
-        {
-          "clip_line_id": "TK2.01#8",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t5_concrete_wall_divide",
-          "motion": "pull",
-          "text": "Hắn xây dựng một bức tường bê tông vô hình giữa thế giới gia đình, cộng đồng với thế giới hưng tưởng đen tối săn mồi.",
-          "src_script": "3.02#3",
-          "est_duration_s": 6.86
-        },
-        {
-          "clip_line_id": "TK2.01#9",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t5_family_dinner_warmth",
-          "motion": "still",
-          "text": "Gia đình và người thân được hắn sử dụng như một “Lá chắn bình thường hóa” để duy trì chiếc mặt nạ công khai trước xã hội.",
-          "src_script": "3.02#6",
-          "est_duration_s": 7.09
-        },
-        {
-          "clip_line_id": "TK2.01#10",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t5_amber_eyes_dossier_05",
-          "motion": "still",
-          "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.15
-        }
-      ]
-    },
-    "TK3": {
-      "title": "Nỗi sợ bị lãng quên và ảo tưởng Nhân tố X",
-      "theme": "Ngòi nổ tâm lý (Precipitating Trigger) & Hệ thống tự bào chữa (Factor X)",
-      "signs": [
-        6,
-        5
-      ],
-      "total_est_duration_s": 72.9,
-      "bgm": "bgm_sub_drone.mp3",
-      "bgm_desc": "Hồi 1/3 — bed tập: bgm_sub_drone.mp3",
-      "sfx": [
-        "amb_dark_drone.wav (nền)",
-        "fx_newspaper_rustle.wav",
-        "fx_whisper_shadow.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK3.01#1",
-          "text": "NGÒI NỔ TÂM LÝ: KHI CÁI ÁC BỊ LÃNG QUÊN",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK3.01#3",
-          "text": "THE WICHITA EAGLE: “BTK CÓ THỂ ĐÃ QUA ĐỜI”",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK3.01#5",
-          "text": "ĐÒN ĐÂM CHÍ MẠNG VÀO LÒNG TỰ TÔN ÁI KỶ",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK3.01#7",
-          "text": "HOANG TƯỞNG “NHÂN TỐ X” (FACTOR X)",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK3.01#8",
-          "text": "HỆ THỐNG TỰ BÀO CHỮA & TRUNG HÒA ĐẠO ĐỨC",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK3.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t5_fear_of_oblivion",
-          "motion": "still",
-          "text": "Kẻ ác không sợ nhà tù. Điều hắn khiếp sợ nhất là bị nhân loại lãng quên.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.54
-        },
-        {
-          "clip_line_id": "TK3.01#2",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_detective_war_room",
-          "motion": "pan",
-          "text": "Khi bức thư tái xuất xuất hiện vào tháng 3 năm 2004, câu hỏi lớn nhất ban chuyên án đặt ra là: Tại sao lại là lúc này?",
-          "src_script": "1.14#1",
-          "est_duration_s": 9.26
-        },
-        {
-          "clip_line_id": "TK3.01#3",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_book_manuscript_desk",
-          "motion": "still",
-          "text": "Vào đầu năm 2004, tờ báo The Wichita Eagle đăng tải loạt bài kỷ niệm 30 năm vụ án đầu tiên của BTK.",
-          "src_script": "1.14#3",
-          "est_duration_s": 8.21
-        },
-        {
-          "clip_line_id": "TK3.01#4",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_book_manuscript_desk",
-          "motion": "pull",
-          "text": "Bài báo nhắc đến cuốn sách sắp xuất bản của luật sư Robert Beattie, cùng giả thuyết rằng kẻ thủ ác có lẽ đã qua đời hoặc đang già nua trong bóng tối của sự lãng quên.",
-          "src_script": "1.14#4",
-          "est_duration_s": 10.31
-        },
-        {
-          "clip_line_id": "TK3.01#5",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_narcissist_mirror_shadow",
-          "motion": "push",
-          "text": "Đối với một nhân cách ái kỷ ác tính, đó chính là một cú đâm chí mạng vào lòng tự tôn bệnh hoạn.",
-          "src_script": "1.14#5",
-          "est_duration_s": 6.64
-        },
-        {
-          "clip_line_id": "TK3.01#6",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_narcissist_mirror_shadow",
-          "motion": "still",
-          "text": "Hắn không thể chấp nhận việc nhân loại lãng quên sự tồn tại và quyền lực gieo rắc nỗi sợ của mình.",
-          "src_script": "1.14#6",
-          "est_duration_s": 6.37
-        },
-        {
-          "clip_line_id": "TK3.01#7",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t5_btk_signature_letter",
-          "motion": "pull",
-          "text": "Cơn khát khao được cả xã hội chú ý đã thúc đẩy hắn phá vỡ vỏ bọc an toàn để nhắc nhở thế giới rằng: quái vật BTK vẫn còn sống.",
-          "src_script": "1.14#7",
-          "est_duration_s": 8.84
-        },
-        {
-          "clip_line_id": "TK3.01#8",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t5_factor_x_shadow",
-          "motion": "push",
-          "text": "Và để hợp thức hóa sự phân mảnh đó, Rader đã tự tạo ra một khái niệm tâm lý hoang tưởng mang tên: “Nhân tố X” – Factor X.",
-          "src_script": "3.02#7",
-          "est_duration_s": 7.57
-        },
-        {
-          "clip_line_id": "TK3.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t5_projection_mask",
-          "motion": "still",
-          "text": "Dưới góc nhìn khoa học hành vi, “Nhân tố X” thực chất là hiện tượng tâm lý gì?",
-          "src_script": "3.04#3",
-          "est_duration_s": 6.03
-        },
-        {
-          "clip_line_id": "TK3.01#10",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t5_amber_eyes_dossier_05",
-          "motion": "still",
-          "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.15
-        }
-      ]
-    },
-    "TK4": {
-      "title": "Nỗi đau của con gái kẻ sát nhân BTK",
-      "theme": "Hành vi đối xử với người thân (Compartmentalization) & Nỗi đau gia đình vô tội",
-      "signs": [
-        3,
-        1
-      ],
-      "total_est_duration_s": 80.8,
-      "bgm": "bgm_piano_warm.mp3",
-      "bgm_desc": "Hồi 4 — bed tập: bgm_piano_warm.mp3",
-      "sfx": [
-        "amb_somber_room.wav (nền)",
-        "fx_door_knock_fbi.wav",
-        "fx_heartbeat_slow.wav",
-        "fx_tear_sob.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK4.01#1",
-          "text": "BI KỊCH CỦA NHỮNG NGƯỜI THÂN VÔ TỘI",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK4.01#3",
-          "text": "KERRI RAWSON: CON GÁI RUỘT CỦA DENNIS RADER",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK4.01#5",
-          "text": "NGƯỜI CHA MẪU MỰC & BÓNG MA SÁT NHÂN",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK4.01#7",
-          "text": "SỰ PHẢN BỘI NIỀM TIN TỘT CÙNG",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK4.01#9",
-          "text": "VẾT THƯƠNG TÂM HỒN SUỐT PHẦN ĐỜI CÒN LẠI",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK4.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t5_kerri_rawson_tears",
-          "motion": "still",
-          "text": "Cha tôi dạy tôi đi xe đạp, dắt tay tôi vào lễ đường. Rồi FBI gõ cửa.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.54
-        },
-        {
-          "clip_line_id": "TK4.01#2",
-          "role": "H",
-          "emotion": "sad",
-          "speed_offset": -0.04,
-          "pause_after_s": 0.6,
-          "bg": "t5_rader_house_park_city",
-          "motion": "pan",
-          "text": "Phía sau sự tự mãn bệnh hoạn của kẻ thủ ác là bi kịch kinh hoàng giáng xuống đầu những người thân vô tội.",
-          "src_script": "4.14#1",
-          "est_duration_s": 7.71
-        },
-        {
-          "clip_line_id": "TK4.01#3",
-          "role": "H",
-          "emotion": "sad",
-          "speed_offset": -0.04,
-          "pause_after_s": 0.6,
-          "bg": "t5_rader_house_park_city",
-          "motion": "pull",
-          "text": "Người vợ Paula suy sụp hoàn toàn, còn hai người con phải đối diện với sự sụp đổ của toàn bộ thế giới ký ức tuổi thơ.",
-          "src_script": "4.14#2",
-          "est_duration_s": 8.6
-        },
-        {
-          "clip_line_id": "TK4.01#4",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_kerri_rawson_tears",
-          "motion": "still",
-          "text": "Hãy lắng nghe nỗi đau ấy qua lời tâm sự của Kerri Rawson – con gái ruột của Dennis Rader.",
-          "src_script": "4.14#3",
-          "est_duration_s": 6.53
-        },
-        {
-          "clip_line_id": "TK4.01#5",
-          "role": "N2",
-          "emotion": "sad",
-          "speed_offset": -0.04,
-          "pause_after_s": 0.6,
-          "bg": "t5_kerri_rawson_tears",
-          "motion": "push",
-          "text": "Cả thế giới nhìn thấy ông ấy như một con quái vật đáng ghê tởm, nhưng với tôi, ông từng là người cha mẫu mực nhất.",
-          "src_script": "4.15#1",
-          "est_duration_s": 7.92
-        },
-        {
-          "clip_line_id": "TK4.01#6",
-          "role": "N2",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_family_dinner_warmth",
-          "motion": "pan",
-          "text": "Ông dạy tôi đi xe đạp, đưa tôi đi câu cá mùa hè và tự hào dắt tay tôi bước vào lễ đường trong ngày cưới.",
-          "src_script": "4.15#2",
-          "est_duration_s": 7.92
-        },
-        {
-          "clip_line_id": "TK4.01#7",
-          "role": "N2",
-          "emotion": "sad",
-          "speed_offset": -0.04,
-          "pause_after_s": 0.7,
-          "bg": "t5_highway_takedown_arrest",
-          "motion": "still",
-          "text": "Khi đặc vụ FBI gõ cửa căn hộ và thông báo cha tôi chính là sát nhân BTK, toàn bộ mặt đất dưới chân tôi như sụp đổ hoàn toàn.",
-          "src_script": "4.15#3",
-          "est_duration_s": 9.15
-        },
-        {
-          "clip_line_id": "TK4.01#8",
-          "role": "N2",
-          "emotion": "sad",
-          "speed_offset": -0.04,
-          "pause_after_s": 0.7,
-          "bg": "t5_shattered_mask_confession",
-          "motion": "pull",
-          "text": "Nỗi đau đớn lớn nhất không chỉ là sự sợ hãi, mà là sự phản bội niềm tin tột cùng.",
-          "src_script": "4.15#4",
-          "est_duration_s": 6.33
-        },
-        {
-          "clip_line_id": "TK4.01#9",
-          "role": "N2",
-          "emotion": "sad",
-          "speed_offset": -0.04,
-          "pause_after_s": 0.7,
-          "bg": "t5_kerri_rawson_tears",
-          "motion": "still",
-          "text": "Làm sao tôi có thể chấp nhận người đàn ông từng chúc tôi ngủ ngon mỗi đêm lại chính là bóng ma reo rắc kinh hoàng cho hàng chục gia đình khác?",
-          "src_script": "4.15#5",
-          "est_duration_s": 9.71
-        },
-        {
-          "clip_line_id": "TK4.01#10",
-          "role": "N2",
-          "emotion": "sad",
-          "speed_offset": -0.04,
-          "pause_after_s": 0.8,
-          "bg": "t5_kerri_rawson_tears",
-          "motion": "push",
-          "text": "Đó là một vết thương tâm hồn sẽ không bao giờ có thể lành lặn trong suốt phần đời còn lại của tôi.",
-          "src_script": "4.15#6",
-          "est_duration_s": 7.28
-        },
-        {
-          "clip_line_id": "TK4.01#11",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t5_amber_eyes_dossier_05",
-          "motion": "still",
-          "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.15
-        }
-      ]
-    },
-    "TK5": {
-      "title": "4 dấu hiệu cảnh báo đỏ sinh tồn nhận diện mặt nạ",
-      "theme": "Nạn nhân học & 4 Dấu hiệu cảnh báo đỏ sinh tồn rút ra từ hồ sơ BTK",
-      "signs": [
-        10
-      ],
-      "total_est_duration_s": 85.8,
-      "bgm": "bgm_piano_warm.mp3",
-      "bgm_desc": "Hồi 5 — bed tập: bgm_piano_warm.mp3",
-      "sfx": [
-        "amb_gentle_night.wav (nền)",
-        "fx_clock_chime.wav",
-        "fx_sub_drop.wav",
-        "fx_warm_resolve.wav"
-      ],
-      "overlays": [
-        {
-          "sau_cau": "TK5.01#1",
-          "text": "4 DẤU HIỆU CẢNH BÁO ĐỎ SINH TỒN",
-          "dur_s": 3.0
-        },
-        {
-          "sau_cau": "TK5.01#2",
-          "text": "1. ÁM ẢNH KIỂM SOÁT QUY TẮC CỰC ĐOAN",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK5.01#4",
-          "text": "2. SỰ TÁCH BIỆT CẢM XÚC ĐẰNG SAU VẺ NHIỆT THÀNH",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK5.01#6",
-          "text": "3. THÓI QUEN LƯU TRỮ VẬT RIÊNG TƯ NHƯ CHIẾN LỢI PHẨM",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK5.01#8",
-          "text": "4. KHAO KHÁT ĐƯỢC CÔNG NHẬN VÀ TUNG HÔ BẰNG MỌI GIÁ",
-          "dur_s": 2.5
-        },
-        {
-          "sau_cau": "TK5.01#10",
-          "text": "LUÔN LẮNG NGHE TIẾNG NÓI TRỰC GIÁC BẢO VỆ SINH MẠNG",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK5.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t5_amber_eyes_dossier_05",
-          "motion": "still",
-          "text": "4 dấu hiệu cảnh báo đỏ để không bao giờ trở thành nạn nhân của kẻ giấu mặt.",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.83
-        },
-        {
-          "clip_line_id": "TK5.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_solitary_confinement_cell",
-          "motion": "pull",
-          "text": "Quan trọng hơn, thảm kịch này mang lại những bài học thức tỉnh sâu sắc về việc nhận diện những chiếc mặt nạ độc hại trong đời sống thường nhật.",
-          "src_script": "5.04#3",
-          "est_duration_s": 9.49
-        },
-        {
-          "clip_line_id": "TK5.01#3",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_redflag_rule_control",
-          "motion": "still",
-          "text": "Dấu hiệu thứ nhất: Sự ám ảnh kiểm soát quy tắc cực đoan – Micromanagement & Rigidity.",
-          "src_script": "5.05#2",
-          "est_duration_s": 4.63
-        },
-        {
-          "clip_line_id": "TK5.01#4",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_redflag_rule_control",
-          "motion": "push",
-          "text": "Đó thường là biểu hiện của một nhu cầu kiểm soát quyền lực bị dồn nén, chờ thời cơ để bộc phát thành hành vi bạo lực.",
-          "src_script": "5.05#4",
-          "est_duration_s": 6.99
-        },
-        {
-          "clip_line_id": "TK5.01#5",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_redflag_shallow_affect",
-          "motion": "still",
-          "text": "Dấu hiệu thứ hai: Sự tách biệt cảm xúc đằng sau vẻ ngoài nhiệt thành – Shallow Affect.",
-          "src_script": "5.05#5",
-          "est_duration_s": 4.86
-        },
-        {
-          "clip_line_id": "TK5.01#6",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t5_redflag_shallow_affect",
-          "motion": "pull",
-          "text": "Chiếc áo choàng đạo đức công cộng thường được kẻ thái nhân cách sử dụng như một lá chắn tàng hình che giấu sự vô cảm tuyệt đối bên trong.",
-          "src_script": "5.05#7",
-          "est_duration_s": 7.7
-        },
-        {
-          "clip_line_id": "TK5.01#7",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_redflag_secret_trophies",
-          "motion": "still",
-          "text": "Dấu hiệu thứ ba: Thói quen bí mật lưu trữ vật dụng riêng tư của người khác như chiến lợi phẩm.",
-          "src_script": "5.06#2",
-          "est_duration_s": 6.11
-        },
-        {
-          "clip_line_id": "TK5.01#8",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_redflag_secret_trophies",
-          "motion": "push",
-          "text": "Những món đồ đó là nhiên liệu kích hoạt hưng tưởng lệch lạc và thường là bước đệm dẫn tới các hành vi xâm lấn ranh giới nghiêm trọng hơn.",
-          "src_script": "5.06#4",
-          "est_duration_s": 8.47
-        },
-        {
-          "clip_line_id": "TK5.01#9",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t5_redflag_narcissistic_hubris",
-          "motion": "still",
-          "text": "Và dấu hiệu thứ tư: Nhu cầu ái kỷ khao khát được công nhận và tung hô bằng mọi giá.",
-          "src_script": "5.06#5",
-          "est_duration_s": 5.85
-        },
-        {
-          "clip_line_id": "TK5.01#10",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t5_redflag_narcissistic_hubris",
-          "motion": "pull",
-          "text": "Chúng có thể kiên nhẫn ẩn mình suốt nhiều năm, nhưng sẽ tự để lộ sơ hở và hủy hoại chính mình khi cái tôi kiêu ngạo bị thách thức trước công luận.",
-          "src_script": "5.06#7",
-          "est_duration_s": 9.36
-        },
-        {
-          "clip_line_id": "TK5.01#11",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.8,
-          "bg": "t5_closing_desk",
-          "motion": "still",
-          "text": "Hãy luôn lắng nghe tiếng nói trực giác bên trong bạn khi đối diện với những điều bất thường, bởi vì trực giác chính là món quà tiến hóa vô giá giúp bảo vệ sinh mạng của chúng ta.",
-          "src_script": "5.08#6",
-          "est_duration_s": 12.36
-        },
-        {
-          "clip_line_id": "TK5.01#12",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t5_closing_desk",
-          "motion": "still",
-          "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.15
-        }
-      ]
-    }
+  {
+   "clip": "TK2",
+   "title": "Chủ tịch hội đồng nhà thờ và chiếc mặt nạ 30 năm",
+   "signs": [
+    9,
+    3
+   ],
+   "lines_count": 10,
+   "est_duration_s": 75.7
+  },
+  {
+   "clip": "TK3",
+   "title": "Nỗi sợ bị lãng quên và ảo tưởng Nhân tố X",
+   "signs": [
+    6,
+    5
+   ],
+   "lines_count": 10,
+   "est_duration_s": 72.9
+  },
+  {
+   "clip": "TK4",
+   "title": "Nỗi đau của con gái kẻ sát nhân BTK",
+   "signs": [
+    3,
+    1
+   ],
+   "lines_count": 11,
+   "est_duration_s": 80.8
+  },
+  {
+   "clip": "TK5",
+   "title": "4 dấu hiệu cảnh báo đỏ sinh tồn nhận diện mặt nạ",
+   "signs": [
+    10
+   ],
+   "lines_count": 12,
+   "est_duration_s": 85.8
   }
+ ],
+ "clips": {
+  "TK1": {
+   "title": "Chiếc đĩa mềm màu tím và cái bẫy siêu dữ liệu",
+   "theme": "Sự sụp đổ của cái tôi ái kỷ & Ảo tưởng toàn năng trước giám định kỹ thuật số",
+   "signs": [
+    4,
+    8
+   ],
+   "total_est_duration_s": 74.3,
+   "bgm": "bgm_ambient_tension.mp3",
+   "bgm_desc": "Hồi 4 — bed tập: bgm_ambient_tension.mp3",
+   "sfx": [
+    "amb_winter_wind.wav (nền)",
+    "fx_floppy_insert.wav",
+    "fx_keyboard_typing.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK1.01#1",
+     "text": "HỒ SƠ TẬP 05: DENNIS RADER (BTK)",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK1.01#4",
+     "text": "MỤC RAO VẶT 494: “REX, IT WILL BE OK”",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#5",
+     "text": "ĐĨA MỀM MEMOREX 1.44MB MÀU TÍM",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#8",
+     "text": "SIÊU DỮ LIỆU METADATA: DENNIS & CHRIST LUTHERAN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK1.01#10",
+     "text": "SỰ SỤP ĐỔ CỦA CÁI TÔI ÁI KỶ (NARCISSISTIC COLLAPSE)",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK1.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk05_handwritten_note_floppy",
+     "motion": "still",
+     "text": "Một kẻ sát nhân 30 năm lẩn trốn. Lại tự nộp mạng vì một chiếc đĩa mềm màu tím.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 6.43
+    },
+    {
+     "clip_line_id": "TK1.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_handwritten_note_floppy",
+     "motion": "pan",
+     "text": "Theo hồ sơ được công bố, hắn ngây thơ đặt ra một câu hỏi kỳ lạ: “Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không?",
+     "src_script": "4.02#6",
+     "est_duration_s": 11.27
+    },
+    {
+     "clip_line_id": "TK1.01#3",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_newspaper_classified_494",
+     "motion": "still",
+     "text": "Ngày 28 tháng 1 năm 2005, trên mục rao vặt của tờ The Wichita Eagle, một mẩu tin nhắn ngắn xuất hiện: “Rex, mọi chuyện sẽ ổn để gửi nó”.",
+     "src_script": "4.04#5",
+     "est_duration_s": 10.31
+    },
+    {
+     "clip_line_id": "TK1.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_purple_floppy_disk",
+     "motion": "pull",
+     "text": "Bên trong phong bì là một chiếc đĩa mềm Memorex 1.44 Megabyte màu tím bọc trong tập tài liệu.",
+     "src_script": "4.04#8",
+     "est_duration_s": 6.11
+    },
+    {
+     "clip_line_id": "TK1.01#5",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_digital_forensics_lab",
+     "motion": "pan",
+     "text": "Chiếc đĩa mềm màu tím lập tức được đưa vào phòng phân tích dữ liệu chuyên dụng với sự giám sát nghiêm ngặt.",
+     "src_script": "4.06#1",
+     "est_duration_s": 7.41
+    },
+    {
+     "clip_line_id": "TK1.01#6",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_metadata_screen",
+     "motion": "push",
+     "text": "Dòng thứ nhất ghi rõ: “Sửa đổi lần cuối bởi: Dennis”.",
+     "src_script": "4.06#6",
+     "est_duration_s": 3.86
+    },
+    {
+     "clip_line_id": "TK1.01#7",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_metadata_screen",
+     "motion": "still",
+     "text": "Và dòng thứ hai: “Được đăng ký bởi tổ chức: Nhà thờ Lutheran Chúa Kitô”.",
+     "src_script": "4.06#7",
+     "est_duration_s": 5.04
+    },
+    {
+     "clip_line_id": "TK1.01#8",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk05_church_website_search",
+     "motion": "pull",
+     "text": "Trang thông tin của giáo đoàn hiện ra ngay trên màn hình với danh sách ban lãnh đạo: Chủ tịch Hội đồng Nhà thờ chính là Dennis Rader.",
+     "src_script": "4.08#2",
+     "est_duration_s": 8.05
+    },
+    {
+     "clip_line_id": "TK1.01#9",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk05_interrogation_confrontation",
+     "motion": "push",
+     "text": "Hắn ngơ ngác hỏi Trung úy Landwehr: “Tại sao các anh lại nói dối tôi về chiếc đĩa mềm?”.",
+     "src_script": "4.12#2",
+     "est_duration_s": 5.69
+    },
+    {
+     "clip_line_id": "TK1.01#10",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk05_interrogation_confrontation",
+     "motion": "still",
+     "text": "Câu trả lời của Trung úy Landwehr rất đanh thép và sòng phẳng: “Vì chúng tôi tìm cách bắt ông.”.",
+     "src_script": "4.12#3",
+     "est_duration_s": 5.95
+    },
+    {
+     "clip_line_id": "TK1.01#11",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk05_amber_eyes_dossier_05",
+     "motion": "still",
+     "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK2": {
+   "title": "Chủ tịch hội đồng nhà thờ và chiếc mặt nạ 30 năm",
+   "theme": "Hiệu ứng Hào quang (Halo Effect) & Sự chia ngăn tâm trí (Compartmentalization)",
+   "signs": [
+    9,
+    3
+   ],
+   "total_est_duration_s": 75.7,
+   "bgm": "bgm_jazz_noir.mp3",
+   "bgm_desc": "Hồi 2 — bed tập: bgm_jazz_noir.mp3",
+   "sfx": [
+    "amb_suburban_evening.wav (nền)",
+    "fx_lawnmower_distant.wav",
+    "fx_door_creak.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK2.01#1",
+     "text": "ĐIỂM MÙ XÃ HỘI: CHIẾC MẶT NẠ CÔNG DÂN MẪU MỰC",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK2.01#4",
+     "text": "CHỦ TỊCH HỘI ĐỒNG NHÀ THỜ CHRIST LUTHERAN",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#6",
+     "text": "VIÊN CHỨC TRẬT TỰ ĐÔ THỊ ĐO TỪNG BÃI CỎ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#8",
+     "text": "HIỆU ỨNG HÀO QUANG (HALO EFFECT)",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#9",
+     "text": "SỰ CHIA NGĂN TÂM TRÍ (COMPARTMENTALIZATION)",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK2.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk05_rader_house_park_city",
+     "motion": "still",
+     "text": "Chủ tịch hội đồng nhà thờ. Đội trưởng Hướng đạo sinh. Và kẻ sát nhân giấu mặt.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.54
+    },
+    {
+     "clip_line_id": "TK2.01#2",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_rader_house_park_city",
+     "motion": "pan",
+     "text": "Nhưng nghịch lý lớn nhất khiến dư luận bàng hoàng chính là chiếc mặt nạ xã hội hoàn hảo mà Dennis Rader đã dày công xây dựng.",
+     "src_script": "2.06#1",
+     "est_duration_s": 7.69
+    },
+    {
+     "clip_line_id": "TK2.01#3",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_lutheran_church_exterior",
+     "motion": "still",
+     "text": "Hắn giữ chức Chủ tịch Hội đồng Nhà thờ Lutheran Chúa Kitô – người được cả giáo đoàn tin cậy giao phó chìa khóa và quản lý tài chính.",
+     "src_script": "2.06#4",
+     "est_duration_s": 8.21
+    },
+    {
+     "clip_line_id": "TK2.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_scout_camp_campfire",
+     "motion": "pan",
+     "text": "Hắn là Đội trưởng Hướng đạo sinh Cub Scout, tận tình dạy con trẻ kỹ năng sinh tồn và rèn luyện đạo đức trung thực.",
+     "src_script": "2.06#5",
+     "est_duration_s": 7.16
+    },
+    {
+     "clip_line_id": "TK2.01#5",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_compliance_truck_street",
+     "motion": "push",
+     "text": "Và từ năm 1991, hắn là Nhân viên Trật tự Đô thị của chính quyền Park City, lái xe bán tải đi kiểm tra từng góc phố, đo chiều cao từng bãi cỏ và bắt giữ thú cưng chạy rông.",
+     "src_script": "2.06#6",
+     "est_duration_s": 12.67
+    },
+    {
+     "clip_line_id": "TK2.01#6",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk05_compliance_measuring_tape",
+     "motion": "still",
+     "text": "Sự hà khắc, tỉ mỉ đến mức bệnh hoạn của hắn được cộng đồng giải thích đơn giản là tính cách nguyên tắc của một cựu quân nhân.",
+     "src_script": "2.06#7",
+     "est_duration_s": 8.05
+    },
+    {
+     "clip_line_id": "TK2.01#7",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk05_two_faces_silhouette",
+     "motion": "push",
+     "text": "Chính “Hiệu ứng Hào quang” và tâm lý bình thường hóa xã hội đã tạo nên điểm mù khổng lồ che mắt cả thị trấn suốt ba thập kỷ.",
+     "src_script": "2.06#8",
+     "est_duration_s": 8.31
+    },
+    {
+     "clip_line_id": "TK2.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk05_concrete_wall_divide",
+     "motion": "pull",
+     "text": "Hắn xây dựng một bức tường bê tông vô hình giữa thế giới gia đình, cộng đồng với thế giới hưng tưởng đen tối săn mồi.",
+     "src_script": "3.02#3",
+     "est_duration_s": 6.86
+    },
+    {
+     "clip_line_id": "TK2.01#9",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk05_family_dinner_warmth",
+     "motion": "still",
+     "text": "Gia đình và người thân được hắn sử dụng như một “Lá chắn bình thường hóa” để duy trì chiếc mặt nạ công khai trước xã hội.",
+     "src_script": "3.02#6",
+     "est_duration_s": 7.09
+    },
+    {
+     "clip_line_id": "TK2.01#10",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk05_amber_eyes_dossier_05",
+     "motion": "still",
+     "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK3": {
+   "title": "Nỗi sợ bị lãng quên và ảo tưởng Nhân tố X",
+   "theme": "Ngòi nổ tâm lý (Precipitating Trigger) & Hệ thống tự bào chữa (Factor X)",
+   "signs": [
+    6,
+    5
+   ],
+   "total_est_duration_s": 72.9,
+   "bgm": "bgm_sub_drone.mp3",
+   "bgm_desc": "Hồi 1/3 — bed tập: bgm_sub_drone.mp3",
+   "sfx": [
+    "amb_dark_drone.wav (nền)",
+    "fx_newspaper_rustle.wav",
+    "fx_whisper_shadow.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK3.01#1",
+     "text": "NGÒI NỔ TÂM LÝ: KHI CÁI ÁC BỊ LÃNG QUÊN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK3.01#3",
+     "text": "THE WICHITA EAGLE: “BTK CÓ THỂ ĐÃ QUA ĐỜI”",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#5",
+     "text": "ĐÒN ĐÂM CHÍ MẠNG VÀO LÒNG TỰ TÔN ÁI KỶ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#7",
+     "text": "HOANG TƯỞNG “NHÂN TỐ X” (FACTOR X)",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#8",
+     "text": "HỆ THỐNG TỰ BÀO CHỮA & TRUNG HÒA ĐẠO ĐỨC",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK3.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk05_fear_of_oblivion",
+     "motion": "still",
+     "text": "Kẻ ác không sợ nhà tù. Điều hắn khiếp sợ nhất là bị nhân loại lãng quên.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.54
+    },
+    {
+     "clip_line_id": "TK3.01#2",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_detective_war_room",
+     "motion": "pan",
+     "text": "Khi bức thư tái xuất xuất hiện vào tháng 3 năm 2004, câu hỏi lớn nhất ban chuyên án đặt ra là: Tại sao lại là lúc này?",
+     "src_script": "1.14#1",
+     "est_duration_s": 9.26
+    },
+    {
+     "clip_line_id": "TK3.01#3",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_book_manuscript_desk",
+     "motion": "still",
+     "text": "Vào đầu năm 2004, tờ báo The Wichita Eagle đăng tải loạt bài kỷ niệm 30 năm vụ án đầu tiên của BTK.",
+     "src_script": "1.14#3",
+     "est_duration_s": 8.21
+    },
+    {
+     "clip_line_id": "TK3.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_book_manuscript_desk",
+     "motion": "pull",
+     "text": "Bài báo nhắc đến cuốn sách sắp xuất bản của luật sư Robert Beattie, cùng giả thuyết rằng kẻ thủ ác có lẽ đã qua đời hoặc đang già nua trong bóng tối của sự lãng quên.",
+     "src_script": "1.14#4",
+     "est_duration_s": 10.31
+    },
+    {
+     "clip_line_id": "TK3.01#5",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_narcissist_mirror_shadow",
+     "motion": "push",
+     "text": "Đối với một nhân cách ái kỷ ác tính, đó chính là một cú đâm chí mạng vào lòng tự tôn bệnh hoạn.",
+     "src_script": "1.14#5",
+     "est_duration_s": 6.64
+    },
+    {
+     "clip_line_id": "TK3.01#6",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_narcissist_mirror_shadow",
+     "motion": "still",
+     "text": "Hắn không thể chấp nhận việc nhân loại lãng quên sự tồn tại và quyền lực gieo rắc nỗi sợ của mình.",
+     "src_script": "1.14#6",
+     "est_duration_s": 6.37
+    },
+    {
+     "clip_line_id": "TK3.01#7",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk05_btk_signature_letter",
+     "motion": "pull",
+     "text": "Cơn khát khao được cả xã hội chú ý đã thúc đẩy hắn phá vỡ vỏ bọc an toàn để nhắc nhở thế giới rằng: quái vật BTK vẫn còn sống.",
+     "src_script": "1.14#7",
+     "est_duration_s": 8.84
+    },
+    {
+     "clip_line_id": "TK3.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk05_factor_x_shadow",
+     "motion": "push",
+     "text": "Và để hợp thức hóa sự phân mảnh đó, Rader đã tự tạo ra một khái niệm tâm lý hoang tưởng mang tên: “Nhân tố X” – Factor X.",
+     "src_script": "3.02#7",
+     "est_duration_s": 7.57
+    },
+    {
+     "clip_line_id": "TK3.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk05_projection_mask",
+     "motion": "still",
+     "text": "Dưới góc nhìn khoa học hành vi, “Nhân tố X” thực chất là hiện tượng tâm lý gì?",
+     "src_script": "3.04#3",
+     "est_duration_s": 6.03
+    },
+    {
+     "clip_line_id": "TK3.01#10",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk05_amber_eyes_dossier_05",
+     "motion": "still",
+     "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK4": {
+   "title": "Nỗi đau của con gái kẻ sát nhân BTK",
+   "theme": "Hành vi đối xử với người thân (Compartmentalization) & Nỗi đau gia đình vô tội",
+   "signs": [
+    3,
+    1
+   ],
+   "total_est_duration_s": 80.8,
+   "bgm": "bgm_piano_warm.mp3",
+   "bgm_desc": "Hồi 4 — bed tập: bgm_piano_warm.mp3",
+   "sfx": [
+    "amb_somber_room.wav (nền)",
+    "fx_door_knock_fbi.wav",
+    "fx_heartbeat_slow.wav",
+    "fx_tear_sob.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK4.01#1",
+     "text": "BI KỊCH CỦA NHỮNG NGƯỜI THÂN VÔ TỘI",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK4.01#3",
+     "text": "KERRI RAWSON: CON GÁI RUỘT CỦA DENNIS RADER",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#5",
+     "text": "NGƯỜI CHA MẪU MỰC & BÓNG MA SÁT NHÂN",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#7",
+     "text": "SỰ PHẢN BỘI NIỀM TIN TỘT CÙNG",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#9",
+     "text": "VẾT THƯƠNG TÂM HỒN SUỐT PHẦN ĐỜI CÒN LẠI",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK4.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk05_kerri_rawson_tears",
+     "motion": "still",
+     "text": "Cha tôi dạy tôi đi xe đạp, dắt tay tôi vào lễ đường. Rồi FBI gõ cửa.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.54
+    },
+    {
+     "clip_line_id": "TK4.01#2",
+     "role": "H",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk05_rader_house_park_city",
+     "motion": "pan",
+     "text": "Phía sau sự tự mãn bệnh hoạn của kẻ thủ ác là bi kịch kinh hoàng giáng xuống đầu những người thân vô tội.",
+     "src_script": "4.14#1",
+     "est_duration_s": 7.71
+    },
+    {
+     "clip_line_id": "TK4.01#3",
+     "role": "H",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk05_rader_house_park_city",
+     "motion": "pull",
+     "text": "Người vợ Paula suy sụp hoàn toàn, còn hai người con phải đối diện với sự sụp đổ của toàn bộ thế giới ký ức tuổi thơ.",
+     "src_script": "4.14#2",
+     "est_duration_s": 8.6
+    },
+    {
+     "clip_line_id": "TK4.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_kerri_rawson_tears",
+     "motion": "still",
+     "text": "Hãy lắng nghe nỗi đau ấy qua lời tâm sự của Kerri Rawson – con gái ruột của Dennis Rader.",
+     "src_script": "4.14#3",
+     "est_duration_s": 6.53
+    },
+    {
+     "clip_line_id": "TK4.01#5",
+     "role": "N2",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk05_kerri_rawson_tears",
+     "motion": "push",
+     "text": "Cả thế giới nhìn thấy ông ấy như một con quái vật đáng ghê tởm, nhưng với tôi, ông từng là người cha mẫu mực nhất.",
+     "src_script": "4.15#1",
+     "est_duration_s": 7.92
+    },
+    {
+     "clip_line_id": "TK4.01#6",
+     "role": "N2",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_family_dinner_warmth",
+     "motion": "pan",
+     "text": "Ông dạy tôi đi xe đạp, đưa tôi đi câu cá mùa hè và tự hào dắt tay tôi bước vào lễ đường trong ngày cưới.",
+     "src_script": "4.15#2",
+     "est_duration_s": 7.92
+    },
+    {
+     "clip_line_id": "TK4.01#7",
+     "role": "N2",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.7,
+     "bg": "tk05_highway_takedown_arrest",
+     "motion": "still",
+     "text": "Khi đặc vụ FBI gõ cửa căn hộ và thông báo cha tôi chính là sát nhân BTK, toàn bộ mặt đất dưới chân tôi như sụp đổ hoàn toàn.",
+     "src_script": "4.15#3",
+     "est_duration_s": 9.15
+    },
+    {
+     "clip_line_id": "TK4.01#8",
+     "role": "N2",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.7,
+     "bg": "tk05_shattered_mask_confession",
+     "motion": "pull",
+     "text": "Nỗi đau đớn lớn nhất không chỉ là sự sợ hãi, mà là sự phản bội niềm tin tột cùng.",
+     "src_script": "4.15#4",
+     "est_duration_s": 6.33
+    },
+    {
+     "clip_line_id": "TK4.01#9",
+     "role": "N2",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.7,
+     "bg": "tk05_narcissistic_throne",
+     "motion": "still",
+     "text": "Làm sao tôi có thể chấp nhận người đàn ông từng chúc tôi ngủ ngon mỗi đêm lại chính là bóng ma reo rắc kinh hoàng cho hàng chục gia đình khác?",
+     "src_script": "4.15#5",
+     "est_duration_s": 9.71
+    },
+    {
+     "clip_line_id": "TK4.01#10",
+     "role": "N2",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.8,
+     "bg": "tk05_darkened_house_exterior",
+     "motion": "push",
+     "text": "Đó là một vết thương tâm hồn sẽ không bao giờ có thể lành lặn trong suốt phần đời còn lại của tôi.",
+     "src_script": "4.15#6",
+     "est_duration_s": 7.28
+    },
+    {
+     "clip_line_id": "TK4.01#11",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk05_amber_eyes_dossier_05",
+     "motion": "still",
+     "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK5": {
+   "title": "4 dấu hiệu cảnh báo đỏ sinh tồn nhận diện mặt nạ",
+   "theme": "Nạn nhân học & 4 Dấu hiệu cảnh báo đỏ sinh tồn rút ra từ hồ sơ BTK",
+   "signs": [
+    10
+   ],
+   "total_est_duration_s": 85.8,
+   "bgm": "bgm_piano_warm.mp3",
+   "bgm_desc": "Hồi 5 — bed tập: bgm_piano_warm.mp3",
+   "sfx": [
+    "amb_gentle_night.wav (nền)",
+    "fx_clock_chime.wav",
+    "fx_sub_drop.wav",
+    "fx_warm_resolve.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK5.01#1",
+     "text": "4 DẤU HIỆU CẢNH BÁO ĐỎ SINH TỒN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK5.01#2",
+     "text": "1. ÁM ẢNH KIỂM SOÁT QUY TẮC CỰC ĐOAN",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#4",
+     "text": "2. SỰ TÁCH BIỆT CẢM XÚC ĐẰNG SAU VẺ NHIỆT THÀNH",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#6",
+     "text": "3. THÓI QUEN LƯU TRỮ VẬT RIÊNG TƯ NHƯ CHIẾN LỢI PHẨM",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#8",
+     "text": "4. KHAO KHÁT ĐƯỢC CÔNG NHẬN VÀ TUNG HÔ BẰNG MỌI GIÁ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#10",
+     "text": "LUÔN LẮNG NGHE TIẾNG NÓI TRỰC GIÁC BẢO VỆ SINH MẠNG",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK5.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk05_amber_eyes_dossier_05",
+     "motion": "still",
+     "text": "4 dấu hiệu cảnh báo đỏ để không bao giờ trở thành nạn nhân của kẻ giấu mặt.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.83
+    },
+    {
+     "clip_line_id": "TK5.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_solitary_confinement_cell",
+     "motion": "pull",
+     "text": "Quan trọng hơn, thảm kịch này mang lại những bài học thức tỉnh sâu sắc về việc nhận diện những chiếc mặt nạ độc hại trong đời sống thường nhật.",
+     "src_script": "5.04#3",
+     "est_duration_s": 9.49
+    },
+    {
+     "clip_line_id": "TK5.01#3",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_redflag_rule_control",
+     "motion": "still",
+     "text": "Dấu hiệu thứ nhất: Sự ám ảnh kiểm soát quy tắc cực đoan – Micromanagement & Rigidity.",
+     "src_script": "5.05#2",
+     "est_duration_s": 4.63
+    },
+    {
+     "clip_line_id": "TK5.01#4",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_redflag_rule_control",
+     "motion": "push",
+     "text": "Đó thường là biểu hiện của một nhu cầu kiểm soát quyền lực bị dồn nén, chờ thời cơ để bộc phát thành hành vi bạo lực.",
+     "src_script": "5.05#4",
+     "est_duration_s": 6.99
+    },
+    {
+     "clip_line_id": "TK5.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_redflag_shallow_affect",
+     "motion": "still",
+     "text": "Dấu hiệu thứ hai: Sự tách biệt cảm xúc đằng sau vẻ ngoài nhiệt thành – Shallow Affect.",
+     "src_script": "5.05#5",
+     "est_duration_s": 4.86
+    },
+    {
+     "clip_line_id": "TK5.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk05_redflag_shallow_affect",
+     "motion": "pull",
+     "text": "Chiếc áo choàng đạo đức công cộng thường được kẻ thái nhân cách sử dụng như một lá chắn tàng hình che giấu sự vô cảm tuyệt đối bên trong.",
+     "src_script": "5.05#7",
+     "est_duration_s": 7.7
+    },
+    {
+     "clip_line_id": "TK5.01#7",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_redflag_secret_trophies",
+     "motion": "still",
+     "text": "Dấu hiệu thứ ba: Thói quen bí mật lưu trữ vật dụng riêng tư của người khác như chiến lợi phẩm.",
+     "src_script": "5.06#2",
+     "est_duration_s": 6.11
+    },
+    {
+     "clip_line_id": "TK5.01#8",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_redflag_secret_trophies",
+     "motion": "push",
+     "text": "Những món đồ đó là nhiên liệu kích hoạt hưng tưởng lệch lạc và thường là bước đệm dẫn tới các hành vi xâm lấn ranh giới nghiêm trọng hơn.",
+     "src_script": "5.06#4",
+     "est_duration_s": 8.47
+    },
+    {
+     "clip_line_id": "TK5.01#9",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk05_redflag_narcissistic_hubris",
+     "motion": "still",
+     "text": "Và dấu hiệu thứ tư: Nhu cầu ái kỷ khao khát được công nhận và tung hô bằng mọi giá.",
+     "src_script": "5.06#5",
+     "est_duration_s": 5.85
+    },
+    {
+     "clip_line_id": "TK5.01#10",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk05_redflag_narcissistic_hubris",
+     "motion": "pull",
+     "text": "Chúng có thể kiên nhẫn ẩn mình suốt nhiều năm, nhưng sẽ tự để lộ sơ hở và hủy hoại chính mình khi cái tôi kiêu ngạo bị thách thức trước công luận.",
+     "src_script": "5.06#7",
+     "est_duration_s": 9.36
+    },
+    {
+     "clip_line_id": "TK5.01#11",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.8,
+     "bg": "tk05_closing_desk",
+     "motion": "still",
+     "text": "Hãy luôn lắng nghe tiếng nói trực giác bên trong bạn khi đối diện với những điều bất thường, bởi vì trực giác chính là món quà tiến hóa vô giá giúp bảo vệ sinh mạng của chúng ta.",
+     "src_script": "5.08#6",
+     "est_duration_s": 12.36
+    },
+    {
+     "clip_line_id": "TK5.01#12",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk05_closing_desk",
+     "motion": "still",
+     "text": "Tập năm của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.15
+    }
+   ]
+  }
+ }
 }

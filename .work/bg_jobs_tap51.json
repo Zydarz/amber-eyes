@@ -1,0 +1,933 @@
+[
+  {
+    "name": "t51_a1_01_fuzhou_scholar_family_home",
+    "act": 1,
+    "sentences": "1.02#1,1.02#2",
+    "desc": "Căn hộ gia đình trí thức ở Phúc Châu, bàn học ngăn nắp của cậu học trò xuất sắc, bóng cậu bé nhìn từ xa.",
+    "prompt": "Fuzhou, China, early 2010s: tidy apartment study of an academic family, neat desk with stacked schoolbooks under a warm lamp, a boy's silhouette seen from behind, face lost in shadow."
+  },
+  {
+    "name": "t51_a1_02_peking_university_gate_dusk",
+    "act": 1,
+    "sentences": "1.02#3,1.02#4",
+    "desc": "Cổng đại học danh giá ở Bắc Kinh lúc hoàng hôn, bóng sinh viên đi qua.",
+    "prompt": "Beijing, China, 2012: the grand traditional stone gate of an elite university at dusk, distant student silhouettes walking beneath old trees, nothing written anywhere."
+  },
+  {
+    "name": "t51_a1_03_night_study_helping_friends",
+    "act": 1,
+    "sentences": "1.02#5,1.02#6",
+    "desc": "Đêm ôn thi, bóng chàng trai giảng bài cho bạn bè quanh bàn học.",
+    "prompt": "Late-night university dormitory study session, several student silhouettes gathered around a desk lit by a single lamp, one tall figure leaning over shared notebooks that are completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t51_a1_04_widowed_teacher_classroom_silhouette",
+    "act": 1,
+    "sentences": "1.02#7,1.02#8",
+    "desc": "Bóng nữ giáo viên văn nghiêm khắc đứng trong lớp học trống lúc chiều muộn.",
+    "prompt": "Empty Chinese school classroom in late afternoon, long window light across wooden desks, a lone woman's silhouette standing at the blackboard which is completely blank and unmarked with no writing at all, face hidden in shadow."
+  },
+  {
+    "name": "t51_a1_05_model_family_ideal_portrait",
+    "act": 1,
+    "sentences": "1.02#9,1.02#10",
+    "desc": "Hai mẹ con như bức tranh gia đình mẫu mực, hàng xóm nhìn từ xa.",
+    "prompt": "Fuzhou residential courtyard at golden hour, silhouettes of a mother and son walking side by side admired by distant neighbor silhouettes, idyllic and orderly atmosphere with a faint unease."
+  },
+  {
+    "name": "t51_a1_06_bright_future_cracking_velvet_curtain",
+    "act": 1,
+    "sentences": "1.02#11,1.02#12",
+    "desc": "Con đường tương lai rực rỡ, sau tấm màn nhung đang nứt ra bóng tối.",
+    "prompt": "Symbolic scene: a long bright corridor of golden light leading to a distant gate, with a heavy velvet curtain on one side torn open to reveal darkness behind it, a small silhouette standing between."
+  },
+  {
+    "name": "t51_a1_07_fuzhou_lunar_new_year_barred_window",
+    "act": 1,
+    "sentences": "1.04#1,1.04#2",
+    "desc": "Tết 2016 ở Phúc Châu: ngõ phố rộn ràng, một cửa sổ sắt đóng kín tối đen.",
+    "prompt": "Fuzhou, China, Lunar New Year 2016: old lantern-lit alleys full of festive warmth, while one apartment window in a worker housing block has iron bars and stays shut and dark."
+  },
+  {
+    "name": "t51_a1_08_unanswered_phone_relatives",
+    "act": 1,
+    "sentences": "1.04#3,1.04#4",
+    "desc": "Người thân gọi mãi không ai bắt máy, màn hình điện thoại sáng trong bóng tối.",
+    "prompt": "Dark living room of a relative, a lone woman's silhouette holding a glowing phone to her ear, an unanswered call, a cold cup of tea beside her, uneasy waiting mood."
+  },
+  {
+    "name": "t51_a1_09_empty_reunion_table_foreboding",
+    "act": 1,
+    "sentences": "1.04#5,1.04#6",
+    "desc": "Bàn tiệc sum họp thiếu hai chỗ ngồi, linh cảm chẳng lành.",
+    "prompt": "Festive family reunion dining table in a Chinese home with two chairs left conspicuously empty, untouched dishes cooling, dim lamplight, relatives as silhouettes glancing at the door."
+  },
+  {
+    "name": "t51_a1_10_police_uncle_forcing_apartment_door",
+    "act": 1,
+    "sentences": "1.06#1,1.06#2",
+    "desc": "Cậu ruột và công an đứng trước cánh cửa căn hộ tập thể, ổ khoá bị phá.",
+    "prompt": "Narrow stairwell corridor of a 1990s Chinese staff housing block, silhouettes of a man and uniformed officers before a steel door, a heavy padlock cut open, a dim bedroom door beyond."
+  },
+  {
+    "name": "t51_a1_11_dark_sealed_room_plastic_layers",
+    "act": 1,
+    "sentences": "1.06#3,1.06#4",
+    "desc": "Căn phòng không ánh sáng, đồ đạc bọc kín nhiều lớp ni lông và băng keo công nghiệp.",
+    "prompt": "Pitch-dark bedroom with windows blocked, furniture shrouded in many layers of translucent plastic sheeting held by wide industrial tape, cloudy air, a single flashlight beam cutting across, no figure visible."
+  },
+  {
+    "name": "t51_a1_12_undisturbed_room_cold_order",
+    "act": 1,
+    "sentences": "1.06#5,1.06#6",
+    "desc": "Căn phòng ngăn nắp lạnh lẽo, không có dấu hiệu xáo trộn.",
+    "prompt": "Orderly apartment living room seen from the doorway, everything in precise place, dust-free surfaces, cold bluish light, a coat still hanging on a hook, sterile and unsettling calm."
+  },
+  {
+    "name": "t51_a1_13_lecture_hall_model_student_memory",
+    "act": 1,
+    "sentences": "1.07#1,1.07#2",
+    "desc": "Giảng đường Đại học Bắc Kinh, bạn học nhớ về người bạn hoàn hảo.",
+    "prompt": "Large tiered lecture hall of a Beijing university, rows of student silhouettes, one empty seat at the front lit by a shaft of light, nostalgic bittersweet mood."
+  },
+  {
+    "name": "t51_a1_14_daily_phone_call_smiling_student",
+    "act": 1,
+    "sentences": "1.07#3,1.07#4",
+    "desc": "Bóng chàng sinh viên mỉm cười gọi điện cho mẹ ngoài hành lang ký túc xá mỗi đêm.",
+    "prompt": "Dormitory corridor at night, a student's silhouette holding a phone to his ear in a pool of warm light, relaxed and polite posture, face lost in shadow."
+  },
+  {
+    "name": "t51_a1_15_staircase_descending_abyss",
+    "act": 1,
+    "sentences": "1.07#5",
+    "desc": "Cầu thang xoắn ốc đi sâu xuống hố tối không đáy.",
+    "prompt": "Symbolic image: an elegant spiral staircase descending into a bottomless black abyss, polished upper steps in warm light, lower steps swallowed by darkness."
+  },
+  {
+    "name": "t51_a1_16_charcoal_sacks_stacked_room",
+    "act": 1,
+    "sentences": "1.09#1,1.09#2",
+    "desc": "Những bao than hoạt tính xếp chồng trong căn phòng khép kín, chiếc ghế trống của bà giáo viên.",
+    "prompt": "Dim closed apartment room with stacked sacks of activated charcoal and rolled plastic film against a wall, an empty wooden armchair and a reading desk with spectacles left behind, no figure."
+  },
+  {
+    "name": "t51_a1_17_forensic_team_corridor_silhouettes",
+    "act": 1,
+    "sentences": "1.09#3,1.09#4",
+    "desc": "Bóng đội pháp y trong hành lang, phòng ký túc xá trống của sinh viên mất tích.",
+    "prompt": "Apartment corridor with silhouettes of forensic investigators in pale suits at a doorway under harsh cold light, a second inset glimpse of an empty tidy dormitory bed, seven months later mood."
+  },
+  {
+    "name": "t51_a1_18_stacks_of_banknotes_dark_desk",
+    "act": 1,
+    "sentences": "1.09#5",
+    "desc": "Những xấp tiền mặt nhân dân tệ xếp trên bàn tối.",
+    "prompt": "Neat stacks of Chinese yuan banknotes bound with paper bands on a dark desk under a single hard lamp, banknotes shown without readable markings, ominous quiet."
+  },
+  {
+    "name": "t51_a1_19_online_orders_plastic_film_rolls",
+    "act": 1,
+    "sentences": "1.10#1,1.10#2",
+    "desc": "Thùng hàng chất đống cùng những cuộn màng bọc công nghiệp.",
+    "prompt": "Stacks of unopened cardboard delivery boxes beside huge rolls of industrial plastic film and deodorizer bottles in a dim apartment hallway, plain unmarked boxes, cold light."
+  },
+  {
+    "name": "t51_a1_20_camera_motion_sensor_corner",
+    "act": 1,
+    "sentences": "1.10#3,1.10#4",
+    "desc": "Camera cảm biến nhỏ trong góc phòng tối, điện thoại sáng trên bàn.",
+    "prompt": "Dark apartment corner with a small white smart security camera dome with a faint red light under the ceiling, a phone glowing blank-screened on a table, cold surveillance mood, no figure."
+  },
+  {
+    "name": "t51_a1_21_preparation_tools_lamplit_table",
+    "act": 1,
+    "sentences": "1.10#5,1.10#6",
+    "desc": "Bàn đồ nghề chuẩn bị gọn gàng dưới ngọn đèn bàn.",
+    "prompt": "Tidy table under a desk lamp with neatly aligned rolls of tape, plastic bags, boxes and gloves arranged like lab equipment, notebook completely blank and unmarked with no writing at all, chilling calm."
+  },
+  {
+    "name": "t51_a1_22_national_manhunt_command_room",
+    "act": 1,
+    "sentences": "1.10#7",
+    "desc": "Phòng chỉ huy truy nã toàn quốc, bóng các sĩ quan quanh bàn bản đồ trống.",
+    "prompt": "Public security command room in China, silhouettes of officers around a large table with a map completely blank and unmarked with no writing at all, glowing blank wall monitors, urgent tension."
+  },
+  {
+    "name": "t51_a1_23_media_shockwave_city_screens",
+    "act": 1,
+    "sentences": "1.11#1,1.11#2",
+    "desc": "Cơn địa chấn truyền thông: đám đông cầm điện thoại, màn hình sáng khắp phố.",
+    "prompt": "Busy Chinese city plaza at dusk, crowd silhouettes holding glowing phones, large blank bright video screens on building walls, a feeling of nationwide shock."
+  },
+  {
+    "name": "t51_a1_24_parents_pride_school_gate_questions",
+    "act": 1,
+    "sentences": "1.11#3",
+    "desc": "Bóng phụ huynh đứng trước cổng trường, hoang mang đặt câu hỏi.",
+    "prompt": "Chinese school gate at dusk, silhouettes of parents standing in stunned silence, a rolled-up banner hung completely blank and unmarked with no writing at all, pensive and troubled mood."
+  },
+  {
+    "name": "t51_a1_25_corridor_closed_doors_staff_housing",
+    "act": 1,
+    "sentences": "1.11#4",
+    "desc": "Hành lang nhà tập thể với hàng cánh cửa đóng kín.",
+    "prompt": "Long corridor of an old Chinese staff apartment block with a row of identical closed steel doors, flickering bulb, peeling paint, silence behind every door."
+  },
+  {
+    "name": "t51_a1_26_cracked_porcelain_mask_on_stand",
+    "act": 1,
+    "sentences": "1.11#5",
+    "desc": "Chiếc mặt nạ sứ hoàn hảo nứt vỡ trên giá.",
+    "prompt": "Symbolic still life: a flawless white porcelain theatre mask with a spreading crack on a dark stand, dramatic side light, blank background."
+  },
+  {
+    "name": "t51_a2_01_strict_home_order_apartment",
+    "act": 2,
+    "sentences": "2.02#1,2.02#2",
+    "desc": "Phòng khách gia đình nghiêm cẩn, mọi thứ đặt ngay ngắn.",
+    "prompt": "Fuzhou, China, 2000s: a strictly ordered apartment living room, framed calligraphy scroll left completely blank and unmarked with no writing at all, rows of books, polished floor, a boy silhouette standing straight, stern oppressive tidiness."
+  },
+  {
+    "name": "t51_a2_02_mother_scrutinizing_homework_desk",
+    "act": 2,
+    "sentences": "2.02#3,2.02#4",
+    "desc": "Bóng người mẹ soi xét bài vở của cậu con trai bên bàn học.",
+    "prompt": "Study desk at night, a stern woman's silhouette standing behind a seated boy's silhouette, sheets of homework completely blank and unmarked with no writing at all spread under a harsh lamp, tense atmosphere."
+  },
+  {
+    "name": "t51_a2_03_smiling_boy_cracked_picture_frame",
+    "act": 2,
+    "sentences": "2.02#5,2.02#6",
+    "desc": "Bóng cậu bé mỉm cười, khung ảnh gia đình bắt đầu nứt.",
+    "prompt": "A boy's silhouette with a rehearsed stiff posture beside a wall frame whose glass is cracking, the frame image completely blank and unmarked with no writing at all, cold half-light."
+  },
+  {
+    "name": "t51_a2_04_memorial_altar_candles_blank_frame",
+    "act": 2,
+    "sentences": "2.04#1,2.04#2",
+    "desc": "Bàn thờ tưởng niệm với nến và khung ảnh để trống, quê Tiên Du năm 2010.",
+    "prompt": "Rural home in Xianyou, Fujian, 2010: a small memorial altar with burning candles and incense, a portrait frame that is completely blank and unmarked with no writing at all, dim somber light."
+  },
+  {
+    "name": "t51_a2_05_teen_alone_hospital_bench_night",
+    "act": 2,
+    "sentences": "2.04#3,2.04#4",
+    "desc": "Bóng thiếu niên ngồi một mình trên băng ghế hành lang bệnh viện vắng.",
+    "prompt": "Empty hospital corridor at night, a lone teenage silhouette seated on a bench with head bowed, a distant doorway glowing pale, grief and guilt, no other people."
+  },
+  {
+    "name": "t51_a2_06_curtains_drawn_isolated_widow_home",
+    "act": 2,
+    "sentences": "2.04#5,2.04#6",
+    "desc": "Căn hộ rèm kéo kín, điện thoại bỏ không, người mẹ cô lập.",
+    "prompt": "Dark apartment with heavy curtains drawn, a woman's silhouette in an armchair beside a phone left untouched, stale quiet, evidence of withdrawal from the world."
+  },
+  {
+    "name": "t51_a2_07_boy_shadow_of_father_behind",
+    "act": 2,
+    "sentences": "2.04#7,2.04#8",
+    "desc": "Bóng cậu bé gánh trên vai cái bóng lớn của người cha đã mất.",
+    "prompt": "Symbolic scene: a teenager's silhouette in a bare room cast against the wall with a much larger shadow of a man looming behind him, heavy melancholic mood."
+  },
+  {
+    "name": "t51_a2_08_ornate_mask_on_desk_hollow",
+    "act": 2,
+    "sentences": "2.04#9,2.04#10",
+    "desc": "Chiếc mặt nạ điệu đà trên bàn, phía sau là khoảng trống.",
+    "prompt": "Ornate smiling theatre mask propped on a desk, behind it only an empty dark hollow in the shape of a seated figure, cold side lighting."
+  },
+  {
+    "name": "t51_a2_09_campus_colorful_life_vs_gray_home",
+    "act": 2,
+    "sentences": "2.05#1,2.05#2",
+    "desc": "Sân trường Đại học Bắc Kinh năm 2012 đầy màu sắc, tương phản căn hộ xám xịt.",
+    "prompt": "Beijing university campus 2012, lively tree-lined path with student silhouettes cycling and laughing in warm color, contrasted by a small inset of a gray dim apartment window."
+  },
+  {
+    "name": "t51_a2_10_dorm_phone_call_chain_shadow",
+    "act": 2,
+    "sentences": "2.05#3,2.05#4",
+    "desc": "Bóng sinh viên gọi điện trong phòng ký túc, bóng xiềng xích trên tường.",
+    "prompt": "Dormitory room at night, a student silhouette sitting on a bed holding a phone, the wall shadow forming heavy chains, suffocating mood."
+  },
+  {
+    "name": "t51_a2_11_window_longing_for_freedom",
+    "act": 2,
+    "sentences": "2.05#5",
+    "desc": "Bóng chàng trai bên cửa sổ nhìn ra bầu trời, không dám bước đi.",
+    "prompt": "Student silhouette at an open dormitory window looking at a wide night sky and city lights, one hand gripping the sill, longing and hesitation."
+  },
+  {
+    "name": "t51_a2_12_idealized_self_statue_cracks",
+    "act": 2,
+    "sentences": "2.06#1,2.06#2",
+    "desc": "Pho tượng thạch cao hoàn hảo nứt chân chim, bóng tối bên trong.",
+    "prompt": "A flawless white plaster bust statue (featureless face) with fine cracks revealing darkness inside, on a pedestal in an empty gallery, dramatic lighting."
+  },
+  {
+    "name": "t51_a2_13_tea_table_suppressed_resentment",
+    "act": 2,
+    "sentences": "2.06#3,2.06#4",
+    "desc": "Bàn trà, bóng người con rót trà cho mẹ, nén giận.",
+    "prompt": "Home tea table, a son's silhouette pouring tea for his mother's silhouette across from him, rigid politeness, a faint red glow at the edge of the scene suggesting buried anger."
+  },
+  {
+    "name": "t51_a2_14_window_mother_armchair_rationalization",
+    "act": 2,
+    "sentences": "2.06#5,2.06#6",
+    "desc": "Bóng chàng trai ở cửa sổ, bóng người mẹ ngồi xa trong ghế bành, ánh sáng nhập nhoè.",
+    "prompt": "Dim apartment, a young man's silhouette at the window and a woman's silhouette far in an armchair, a heavy theatrical curtain half-drawn between them, ambiguous warped light."
+  },
+  {
+    "name": "t51_a2_15_philosophical_black_cloak_on_chair",
+    "act": 2,
+    "sentences": "2.06#7,2.06#8",
+    "desc": "Chiếc áo choàng đen vắt trên ghế bên chồng sách, tượng trưng cho tấm áo triết lý.",
+    "prompt": "Black heavy cloak draped over a chair beside stacks of old books, candle lit, faint ghostly light, symbolism of a philosophical disguise, no figure."
+  },
+  {
+    "name": "t51_a2_16_giant_shadow_over_small_armchair",
+    "act": 2,
+    "sentences": "2.06#9,2.06#10",
+    "desc": "Cái bóng khổng lồ trùm lên chiếc ghế bành nhỏ.",
+    "prompt": "A huge shadow of a standing figure covering a wall and falling across a small empty armchair, symbolic of omnipotence delusion, dim room."
+  },
+  {
+    "name": "t51_a2_17_desk_tragedy_books_snapped_chain",
+    "act": 2,
+    "sentences": "2.06#11,2.06#12",
+    "desc": "Bàn đầy sách bi kịch và triết học, sợi xích đứt rơi xuống.",
+    "prompt": "Cluttered scholar's desk with stacks of old tragedy and philosophy books, lamp light, a snapped iron chain lying on the floor beneath, book covers completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t51_a2_18_empty_exam_hall_planning_notebook",
+    "act": 2,
+    "sentences": "2.07#1,2.07#2",
+    "desc": "Phòng thi trống, cuốn sổ kế hoạch để mở trên bàn đêm.",
+    "prompt": "Split composition: an empty university exam hall with rows of vacant desks in cold light, and a night desk with a lamp and an open notebook that is completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t51_a2_19_laptop_glow_dark_supplies_table",
+    "act": 2,
+    "sentences": "2.07#3,2.07#4",
+    "desc": "Laptop sáng trong bóng tối, bàn đồ nghề xếp gọn.",
+    "prompt": "Dark bedroom, a laptop glowing with a blank pale screen on a desk, and a neatly arranged table of plastic rolls, tape and charcoal bags, no figure, calm menace."
+  },
+  {
+    "name": "t51_a2_20_hallway_house_slippers_door",
+    "act": 2,
+    "sentences": "2.08#1,2.08#2",
+    "desc": "Hành lang cửa ra vào chiều muộn với đôi dép đi trong nhà, bóng một người sau cánh cửa.",
+    "prompt": "Apartment entrance hallway at late afternoon July 2015, a pair of house slippers and shoes by the door, a shadow of a figure behind a half-open inner door, ominous stillness, nothing harmful shown."
+  },
+  {
+    "name": "t51_a2_21_still_living_room_afternoon_dust",
+    "act": 2,
+    "sentences": "2.08#3,2.08#4",
+    "desc": "Phòng khách tĩnh lặng chiều muộn, bụi lơ lửng trong tia nắng.",
+    "prompt": "Silent apartment living room in late afternoon, dust motes drifting in slanted sunlight, a chair slightly displaced, eerie quiet, no person visible."
+  },
+  {
+    "name": "t51_a2_22_plastic_rolls_bucket_locked_window",
+    "act": 2,
+    "sentences": "2.08#5,2.08#6",
+    "desc": "Cuộn nilon, xô nước, khăn lau, cửa sổ sắt khoá chặt.",
+    "prompt": "Dim room with large rolls of plastic film, a bucket and cloth on a clean floor, iron-barred window locked tight, methodical cold atmosphere, no figure."
+  },
+  {
+    "name": "t51_a2_23_mechanical_metronome_cold_room",
+    "act": 2,
+    "sentences": "2.08#7",
+    "desc": "Chiếc máy đếm nhịp cơ học trên bàn trong căn phòng lạnh.",
+    "prompt": "Brass mechanical metronome ticking on a bare table in a cold sealed room, window shut, symbol of mechanical precision, sharp side light."
+  },
+  {
+    "name": "t51_a2_24_closed_diary_shattered_mask_pieces",
+    "act": 2,
+    "sentences": "2.09#1,2.09#2",
+    "desc": "Cuốn nhật ký khép kín, mảnh mặt nạ triết học vỡ trên bàn.",
+    "prompt": "A closed leather diary with a cover completely blank and unmarked with no writing at all on a desk, beside shards of a shattered white mask, cold light."
+  },
+  {
+    "name": "t51_a2_25_mother_phone_glowing_two_shadows",
+    "act": 2,
+    "sentences": "2.09#3,2.09#4",
+    "desc": "Điện thoại của người mẹ sáng trên bàn, hai cái bóng trái ngược.",
+    "prompt": "A woman's old smartphone glowing with a blank screen on a table, two contradictory shadows of a young man cast on the wall in different poses, split personality symbolism."
+  },
+  {
+    "name": "t51_a2_26_open_window_dawn_obstacle_removed",
+    "act": 2,
+    "sentences": "2.10#1,2.10#2",
+    "desc": "Bóng người đứng bên cửa sổ mở lúc bình minh, thở ra nhẹ nhõm lạnh lùng.",
+    "prompt": "Young man's silhouette standing at an open apartment window at dawn, cold pale light, a sense of eerie relief and cruel freedom, face hidden."
+  },
+  {
+    "name": "t51_a2_27_night_street_neon_hedonism",
+    "act": 2,
+    "sentences": "2.10#3,2.10#4",
+    "desc": "Phố đêm rực đèn neon, bóng người lao vào thú vui.",
+    "prompt": "Chinese city night street awash with neon glow reflected on wet pavement, silhouettes of revelers, glowing abstract light shapes only, feverish hedonism."
+  },
+  {
+    "name": "t51_a2_28_mask_shards_floor_reflection",
+    "act": 2,
+    "sentences": "2.10#5,2.10#6",
+    "desc": "Mảnh mặt nạ hoàn hảo rơi vỡ trên nền gạch, phản chiếu bóng đen.",
+    "prompt": "Shards of a flawless white mask scattered on a dark tiled floor reflecting a black silhouette, dramatic overhead light."
+  },
+  {
+    "name": "t51_a2_29_phones_warm_messages_relatives_kitchens",
+    "act": 2,
+    "sentences": "2.11#1,2.11#2",
+    "desc": "Người thân đọc tin nhắn ấm áp trong những căn bếp, không ngờ là bẫy.",
+    "prompt": "Triptych of Chinese kitchens at evening, silhouettes of relatives smiling at glowing phones, warm lamp light with a subtle unsettling shadow creeping from the edges."
+  },
+  {
+    "name": "t51_a2_30_night_train_platform_departure",
+    "act": 2,
+    "sentences": "2.11#3",
+    "desc": "Sân ga đêm, đoàn tàu rời đi.",
+    "prompt": "Chinese railway platform at night, a long train pulling away into darkness, empty benches, a single silhouette far down the platform, melancholic flight mood."
+  },
+  {
+    "name": "t51_a3_01_airport_checkpoint_empty_lanes",
+    "act": 3,
+    "sentences": "3.02#1,3.02#2",
+    "desc": "Các làn kiểm soát biên giới vắng, hộ chiếu điện tử, không vượt biên.",
+    "prompt": "Chinese international airport immigration hall with empty biometric gate lanes and cold blue light, silhouettes far off, mood of a sealed border."
+  },
+  {
+    "name": "t51_a3_02_chongqing_skyline_night_hideout",
+    "act": 3,
+    "sentences": "3.02#3,3.02#4",
+    "desc": "Toàn cảnh thành phố Trùng Khánh về đêm, nơi hắn ẩn mình.",
+    "prompt": "Chongqing, China: sweeping night skyline of layered mountain city towers and bridges, river reflections, glowing windows only, a sense of hiding in the crowd."
+  },
+  {
+    "name": "t51_a3_03_relatives_phones_scholarship_story",
+    "act": 3,
+    "sentences": "3.04#1,3.04#2",
+    "desc": "Bóng họ hàng nhận tin nhắn về học bổng, ánh điện thoại trong bếp tối.",
+    "prompt": "Silhouettes of elderly relatives in dim home kitchens reading glowing phone messages, hopeful leaning postures, subtle deceptive atmosphere."
+  },
+  {
+    "name": "t51_a3_04_bank_hall_transfers_silhouettes",
+    "act": 3,
+    "sentences": "3.04#3,3.04#4",
+    "desc": "Sảnh ngân hàng chiều muộn, bóng người đứng quầy chuyển tiền.",
+    "prompt": "Bank hall in China in the late afternoon, silhouettes of several people at counter windows, glass partitions, plain walls, quiet trust and impending loss."
+  },
+  {
+    "name": "t51_a3_05_internet_cafe_blank_id_cards",
+    "act": 3,
+    "sentences": "3.05#1,3.05#2",
+    "desc": "Quán net tối, tấm thẻ nhựa trơn đặt trên bàn phím.",
+    "prompt": "Dim internet cafe, rows of monitors with blank glowing screens, a handful of plain blank plastic cards fanned on a keyboard, a silhouette seen from behind."
+  },
+  {
+    "name": "t51_a3_06_jiangbei_budget_apartment_blocks",
+    "act": 3,
+    "sentences": "3.05#3",
+    "desc": "Dãy chung cư bình dân quận Giang Bắc, cửa sổ sáng lác đác.",
+    "prompt": "Budget high-rise apartment blocks in Jiangbei district, Chongqing, dusk, scattered lit windows, laundry on balconies, anonymous urban mood."
+  },
+  {
+    "name": "t51_a3_07_empty_gym_early_morning",
+    "act": 3,
+    "sentences": "3.05#4",
+    "desc": "Phòng tập thể hình vắng, tạ và máy tập, ánh sáng buổi sớm.",
+    "prompt": "Empty gym in early morning light, barbells and benches, lone silhouette far away doing exercise, quiet, face invisible."
+  },
+  {
+    "name": "t51_a3_08_guanyinqiao_nightlife_street",
+    "act": 3,
+    "sentences": "3.05#5,3.05#6",
+    "desc": "Phố giải trí về đêm khu Quan Âm Kiều, ánh đèn lấp lánh.",
+    "prompt": "Chongqing nightlife district at night, crowds of silhouettes, glowing lights and reflections on wet streets, abstract light shapes only, double-life atmosphere."
+  },
+  {
+    "name": "t51_a3_09_bar_counter_bartender_silhouette",
+    "act": 3,
+    "sentences": "3.05#7",
+    "desc": "Quầy bar, bóng nhân viên phục vụ nở nụ cười nhã nhặn với khách.",
+    "prompt": "Moody bar counter with unmarked bottles in warm backlight, a bartender's silhouette serving two guest silhouettes, polite chatter mood."
+  },
+  {
+    "name": "t51_a3_10_vip_lounge_banknotes_scattered",
+    "act": 3,
+    "sentences": "3.06#1,3.06#2",
+    "desc": "Phòng VIP xa hoa, tiền giấy rải trên bàn, chai rượu đắt tiền.",
+    "prompt": "Opulent nightclub private lounge with velvet seating, scattered banknotes without readable markings, plain bottles and glasses, reckless excess in dim colored light."
+  },
+  {
+    "name": "t51_a3_11_two_silhouettes_bar_table_distance",
+    "act": 3,
+    "sentences": "3.06#3",
+    "desc": "Hai bóng người ngồi ở bàn quán bar, khoảng cách ngập ngừng.",
+    "prompt": "Two silhouettes seated at a small bar table with a candle between them, a distance of unspoken distrust, dim intimate light."
+  },
+  {
+    "name": "t51_a3_12_open_birdcage_rebellion_dance",
+    "act": 3,
+    "sentences": "3.06#4",
+    "desc": "Chiếc lồng chim mở toang, bóng nhảy múa phá phách.",
+    "prompt": "Symbolic scene: an open iron birdcage on a stage while a silhouetted dancer thrashes wildly under red strobe light, rebellion against repression."
+  },
+  {
+    "name": "t51_a3_13_shattered_mirror_identity_crisis",
+    "act": 3,
+    "sentences": "3.07#1,3.07#2",
+    "desc": "Chiếc gương vỡ phản chiếu bóng người khuyết, khủng hoảng bản sắc.",
+    "prompt": "A large shattered mirror in an empty room reflecting fragmented silhouettes of one figure, each in different poses, cold light, identity crisis."
+  },
+  {
+    "name": "t51_a3_14_spare_mask_coat_rack_new_persona",
+    "act": 3,
+    "sentences": "3.07#3,3.07#4",
+    "desc": "Giá treo áo với chiếc mặt nạ thứ hai và chiếc áo khoác khác.",
+    "prompt": "A coat rack with a hanging coat and a spare mask beside an old mask, dim room light, symbolic of a newly constructed persona."
+  },
+  {
+    "name": "t51_a3_15_neon_city_seeking_existence",
+    "act": 3,
+    "sentences": "3.07#5,3.07#6",
+    "desc": "Bóng người lẻ loi giữa phố đêm neon, tìm cảm giác tồn tại.",
+    "prompt": "Lone silhouette in the middle of a neon-lit Chongqing street at night, women silhouettes drifting nearby, blurred crowds, abstract light shapes, search for validation."
+  },
+  {
+    "name": "t51_a3_16_closed_bar_empty_stools_lonely",
+    "act": 3,
+    "sentences": "3.07#7,3.07#8",
+    "desc": "Quán bar sau giờ đóng cửa, ghế trống, bóng người ngồi một mình.",
+    "prompt": "Bar after closing, upturned stools, a lone silhouette sitting at the counter under a dying neon glow, deep loneliness."
+  },
+  {
+    "name": "t51_a3_17_alley_glancing_back_fear",
+    "act": 3,
+    "sentences": "3.07#9,3.07#10",
+    "desc": "Hẻm tối, bóng người ngoái nhìn phía sau; nhóm bạn chụp ảnh còn một người bước ra khỏi khung.",
+    "prompt": "Dark Chongqing alley at night, a silhouette glancing over his shoulder, in the distant background friends posing for a group photo while one figure steps out of the frame."
+  },
+  {
+    "name": "t51_a3_18_chongqing_bridge_lone_exile",
+    "act": 3,
+    "sentences": "3.07#11",
+    "desc": "Bóng người đứng trên cây cầu Trùng Khánh nhìn mặt sông.",
+    "prompt": "Lone silhouette on a Chongqing bridge in night fog looking at the river and glittering city, a sense of endless inner exile."
+  },
+  {
+    "name": "t51_a3_19_rented_room_bookshelves_english_novels",
+    "act": 3,
+    "sentences": "3.08#1,3.08#2",
+    "desc": "Phòng trọ nhỏ với chồng sách triết học và tiểu thuyết ngoại văn.",
+    "prompt": "Small rented room in Chongqing with towers of books, spines completely blank and unmarked with no writing at all, lamp light, a narrow bed, no figure."
+  },
+  {
+    "name": "t51_a3_20_notebooks_bar_conversation_client",
+    "act": 3,
+    "sentences": "3.08#3,3.08#4",
+    "desc": "Sổ tay trống trên bàn nhỏ; ở quán bar, bóng khách nước ngoài trò chuyện với người phục vụ.",
+    "prompt": "Split scene: a small desk with notebooks completely blank and unmarked with no writing at all under a lamp, and a bar where a foreign guest's silhouette talks with a bartender silhouette carrying a glass."
+  },
+  {
+    "name": "t51_a3_21_lone_reading_lamp_anchor",
+    "act": 3,
+    "sentences": "3.08#5,3.08#6",
+    "desc": "Ngọn đèn đọc sách một mình trong căn phòng tối.",
+    "prompt": "A solitary reading lamp pooling light over an open book whose pages are completely blank and unmarked with no writing at all, rest of the small room dark, symbolizing a psychological anchor."
+  },
+  {
+    "name": "t51_a3_22_gadget_boxes_futile_compensation",
+    "act": 3,
+    "sentences": "3.08#7,3.08#8",
+    "desc": "Những hộp đồ công nghệ chất đống trong căn phòng trống trải.",
+    "prompt": "Stacks of plain unopened electronics boxes in a sparse rented room, a lone chair, cold light, futile material comfort."
+  },
+  {
+    "name": "t51_a3_23_locked_iron_box_dark_memory",
+    "act": 3,
+    "sentences": "3.09#1,3.09#2",
+    "desc": "Hộp sắt kín trong bóng tối, khoá nặng.",
+    "prompt": "A heavy sealed iron box with a large padlock sitting in a dark void, a faint keyhole glow, symbol of compartmentalized memory."
+  },
+  {
+    "name": "t51_a3_24_sleeper_foggy_dream_pulling_back",
+    "act": 3,
+    "sentences": "3.09#3,3.09#4",
+    "desc": "Bóng người ngủ co ro, sương mù mơ hồ bao quanh.",
+    "prompt": "A silhouette curled on a narrow bed in a dim room, thick fog drifting around as in a restless dream, ghostly pale light."
+  },
+  {
+    "name": "t51_a3_25_night_street_car_horn_startle",
+    "act": 3,
+    "sentences": "3.09#5,3.09#6",
+    "desc": "Phố đêm xe cộ nhoè, bóng người giật mình giữa đường.",
+    "prompt": "Chongqing night street with blurred car headlights and traffic streaks, a pedestrian silhouette startled and frozen on the curb, nervous tension."
+  },
+  {
+    "name": "t51_a3_26_tightrope_over_abyss_net_closing",
+    "act": 3,
+    "sentences": "3.09#7,3.09#8",
+    "desc": "Sợi dây thừng vắt ngang vực thẳm, lưới ánh sáng khép dần.",
+    "prompt": "A frail rope stretched across a deep abyss with a sleepwalking silhouette balancing on it, a faint translucent net of light closing in from above."
+  },
+  {
+    "name": "t51_a3_27_bar_dawn_closing_end_of_hiding",
+    "act": 3,
+    "sentences": "3.10#1",
+    "desc": "Quán bar lúc bình minh, ánh sáng xám lọt qua cửa.",
+    "prompt": "Bar interior at dawn, gray light spilling through the door onto empty tables and chairs, the end of long hiding."
+  },
+  {
+    "name": "t51_a3_28_digital_net_over_city_cracked_mask",
+    "act": 3,
+    "sentences": "3.10#2,3.10#3",
+    "desc": "Mạng lưới an ninh số phủ lên thành phố, chiếc mặt nạ nứt giữa tâm.",
+    "prompt": "City at night covered by a faint glowing digital grid of surveillance lines and nodes, a cracked mask floating at the center, high-tech trap closing."
+  },
+  {
+    "name": "t51_a4_01_chongqing_street_april_calm",
+    "act": 4,
+    "sentences": "4.02#1,4.02#2",
+    "desc": "Phố Trùng Khánh giữa trưa tháng tư 2019, bóng người đội mũ đi giữa dòng người.",
+    "prompt": "Chongqing, April 2019, busy ordinary street at midday, silhouette of a man in a cap blending among pedestrians, deceptive calm, plain storefronts."
+  },
+  {
+    "name": "t51_a4_02_street_cameras_lowered_cap",
+    "act": 4,
+    "sentences": "4.02#3,4.02#4",
+    "desc": "Camera đường phố trên cột, bóng người cúi đầu bước qua.",
+    "prompt": "Rows of street surveillance cameras on poles in Chongqing, below them a silhouette in a peaked cap walking with lowered head, face hidden, tense subtle dread."
+  },
+  {
+    "name": "t51_a4_03_jiangbei_airport_exterior_night",
+    "act": 4,
+    "sentences": "4.02#5",
+    "desc": "Mặt tiền sân bay quốc tế Giang Bắc về đêm.",
+    "prompt": "Chongqing Jiangbei international airport terminal exterior at night, glass facade glowing, taxis arriving, foreboding mood."
+  },
+  {
+    "name": "t51_a4_04_terminal_concourse_ai_camera_scan",
+    "act": 4,
+    "sentences": "4.03#1,4.03#2",
+    "desc": "Sảnh đi nhà ga T2, camera AI quét bóng người qua cổng an ninh.",
+    "prompt": "Airport terminal concourse in China, security gate, a ceiling AI camera dome with a thin scanning beam sweeping a silhouette, face lost in shadow, blank screens only."
+  },
+  {
+    "name": "t51_a4_05_police_command_center_alert",
+    "act": 4,
+    "sentences": "4.03#3,4.03#4",
+    "desc": "Trung tâm chỉ huy sân bay, bóng trinh sát áp sát từ nhiều hướng.",
+    "prompt": "Airport police command center with silhouettes of officers around glowing blank monitors, an inset of detectives closing in from several directions in the terminal."
+  },
+  {
+    "name": "t51_a4_06_security_office_blank_card_table",
+    "act": 4,
+    "sentences": "4.03#5,4.03#6",
+    "desc": "Phòng kiểm tra hành chính sân bay, tấm thẻ nhựa trống trên bàn.",
+    "prompt": "Bare airport security office, a plain table with a blank plastic card between a seated silhouette and an interrogator silhouette, harsh fluorescent light."
+  },
+  {
+    "name": "t51_a4_07_two_officers_silhouette_walking_away",
+    "act": 4,
+    "sentences": "4.03#7",
+    "desc": "Hai sĩ quan cùng bóng người đi giữa hành lang vắng, bước đi chấp nhận.",
+    "prompt": "Empty airport corridor with two officer silhouettes escorting a third silhouette walking calmly away down the hall, cold light, accepting mood."
+  },
+  {
+    "name": "t51_a4_08_evidence_table_cards_dawn_airport",
+    "act": 4,
+    "sentences": "4.03#8,4.03#9",
+    "desc": "Bàn vật chứng đầy thẻ nhựa trơn, bình minh sau ô cửa sân bay.",
+    "prompt": "Long evidence table covered in plain blank plastic cards, card-shaped items with no markings, a window behind showing dawn over the airport apron."
+  },
+  {
+    "name": "t51_a4_09_city_plaza_crowd_phones_media",
+    "act": 4,
+    "sentences": "4.04#1,4.04#2",
+    "desc": "Quảng trường đông người, màn hình lớn sáng trắng, tin tức lan nhanh.",
+    "prompt": "Chinese city plaza at night, crowds of silhouettes looking at glowing phones and a huge blank bright LED screen, public sensation."
+  },
+  {
+    "name": "t51_a4_10_fuzhou_court_facade_dawn",
+    "act": 4,
+    "sentences": "4.04#3,4.04#4",
+    "desc": "Mặt tiền toà án Phúc Châu lúc rạng sáng, bậc thang đá rộng.",
+    "prompt": "Grand courthouse facade in Fuzhou, China at dawn with wide stone steps and tall columns, silhouettes ascending, a legal showdown."
+  },
+  {
+    "name": "t51_a4_11_empty_witness_stand_courtroom",
+    "act": 4,
+    "sentences": "4.04#5",
+    "desc": "Bục khai báo trống trong phòng xử án.",
+    "prompt": "Empty witness stand in a Chinese courtroom under cold light, microphone and wooden railing, nobody present."
+  },
+  {
+    "name": "t51_a4_12_colleagues_tv_news_bar_staff",
+    "act": 4,
+    "sentences": "4.05#1,4.05#2",
+    "desc": "Bóng nhân viên quán bar đứng trước chiếc tivi sáng loá, sững sờ.",
+    "prompt": "Back room of a bar with staff silhouettes frozen in front of a TV emitting bright blank glare, trays of glasses left unattended."
+  },
+  {
+    "name": "t51_a4_13_roadside_night_stall_steam_mask",
+    "act": 4,
+    "sentences": "4.05#3,4.05#4",
+    "desc": "Quán ăn đêm ven đường, hơi nóng bốc lên; chiếc mặt nạ nằm trên chiếc ghế trống.",
+    "prompt": "Roadside street food stall at night with rising steam and warm lantern light, two stools, a white theatre mask resting on one empty stool, plain unmarked surroundings."
+  },
+  {
+    "name": "t51_a4_14_doubled_shadow_two_lives",
+    "act": 4,
+    "sentences": "4.05#5,4.05#6",
+    "desc": "Một bóng người in hai cái bóng tách rời trên tường.",
+    "prompt": "A lone figure's silhouette casting two separate shadows pointing in opposite directions on a wall, symbolizing two split lives, moody light."
+  },
+  {
+    "name": "t51_a4_15_dark_window_scales_of_justice",
+    "act": 4,
+    "sentences": "4.05#7,4.05#8",
+    "desc": "Bóng người bên cửa sổ tối, cán cân công lý nghiêng nhẹ.",
+    "prompt": "Silhouette at a dark window at night, and a bronze scales of justice statue on a table nearby tipping slightly, solemn mood."
+  },
+  {
+    "name": "t51_a4_16_courtroom_speech_podium_microphone",
+    "act": 4,
+    "sentences": "4.07#1,4.07#2",
+    "desc": "Phòng xử án với bục phát biểu và micro, ánh đèn tập trung.",
+    "prompt": "Chinese courtroom interior with a defendant's platform and microphone under a single spotlight, gallery in shadow, theatrical mood, nobody visible."
+  },
+  {
+    "name": "t51_a4_17_courtroom_gallery_silhouettes_bowing",
+    "act": 4,
+    "sentences": "4.07#3,4.07#4",
+    "desc": "Bóng người thân trong khán phòng, một bóng cúi đầu trước họ.",
+    "prompt": "Courtroom gallery with rows of silhouettes, one silhouette bowing deeply toward the first rows, solemn heavy mood."
+  },
+  {
+    "name": "t51_a4_18_gallery_tears_handkerchiefs_confused",
+    "act": 4,
+    "sentences": "4.07#5,4.07#6",
+    "desc": "Khán giả với khăn tay, vẻ bối rối, ánh sáng dịu.",
+    "prompt": "Courtroom gallery silhouettes pressing handkerchiefs to faces, confused mood, soft diffused light through tall windows."
+  },
+  {
+    "name": "t51_a4_19_evidence_boxes_sealed_exhibit_room",
+    "act": 4,
+    "sentences": "4.08#1,4.08#2",
+    "desc": "Phòng vật chứng với những hộp niêm phong, bao than hoạt tính xếp bên.",
+    "prompt": "Exhibit room with sealed plain cardboard boxes, stacked charcoal sacks and rolled plastic film, cold clinical light, no person visible."
+  },
+  {
+    "name": "t51_a4_20_prosecutor_table_exhibits_bars_cards",
+    "act": 4,
+    "sentences": "4.08#3,4.08#4",
+    "desc": "Bàn công tố bày vật chứng: thẻ nhựa trơn, bóng quán bar mờ phía sau.",
+    "prompt": "Prosecutor's table with blank plastic cards and neat exhibits, faint bar-lights bokeh seen through the window behind, accusatory mood."
+  },
+  {
+    "name": "t51_a4_21_bowed_head_shaft_of_light",
+    "act": 4,
+    "sentences": "4.09#1,4.09#2",
+    "desc": "Bóng người cúi đầu trong ánh sáng cột từ cửa sổ cao.",
+    "prompt": "Silhouette with bowed head in a shaft of light from a high courtroom window, tears implied by a glint, dust in light, theatrical sorrow."
+  },
+  {
+    "name": "t51_a4_22_podium_books_library_ladder",
+    "act": 4,
+    "sentences": "4.09#3,4.09#4",
+    "desc": "Bục phát biểu chất đầy sách, thang thư viện phía sau.",
+    "prompt": "Courtroom podium piled with heavy books, library ladder against a tall bookshelf in a pale dream-like blend, spines completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t51_a4_23_empty_theatre_stage_spotlight",
+    "act": 4,
+    "sentences": "4.09#5,4.09#6",
+    "desc": "Sân khấu trống với vệt đèn rọi, tấm màn đỏ rủ xuống.",
+    "prompt": "Empty theatre stage with a single spotlight and a heavy red curtain half drawn, a lone chair centered, tragic hero pose implied without a figure."
+  },
+  {
+    "name": "t51_a4_24_blank_manuscript_pages_armchair_spotlight",
+    "act": 4,
+    "sentences": "4.09#7,4.09#8",
+    "desc": "Trang bản thảo trống trên bàn, chiếc ghế bành dưới đèn rọi.",
+    "prompt": "A stack of manuscript pages completely blank and unmarked with no writing at all on a small table beside an armchair in a single spotlight, symbolizing performative penitence."
+  },
+  {
+    "name": "t51_a4_25_empty_family_dining_table_two_chairs",
+    "act": 4,
+    "sentences": "4.09#9",
+    "desc": "Bàn ăn gia đình trống, hai chiếc ghế đã lùi ra.",
+    "prompt": "Family dining table in a dim apartment with two chairs pulled back and a covered dish untouched, cold light, absence of empathy."
+  },
+  {
+    "name": "t51_a4_26_scales_of_justice_light_dissolve_mask",
+    "act": 4,
+    "sentences": "4.10#1,4.10#2",
+    "desc": "Cán cân công lý trong ánh sáng, chiếc mặt nạ tan rã thành bụi.",
+    "prompt": "Bronze scales of justice in a shaft of brilliant light while a white mask crumbles into dust on a stand, solemn dramatic mood."
+  },
+  {
+    "name": "t51_a4_27_judge_bench_gavel_silhouette",
+    "act": 4,
+    "sentences": "4.10#3,4.10#4",
+    "desc": "Bục thẩm phán, bóng thẩm phán và chiếc búa gỗ.",
+    "prompt": "Chinese courtroom judge's bench with silhouettes of the panel and a wooden gavel resting, cold overhead light, faces lost in shadow."
+  },
+  {
+    "name": "t51_a4_28_courtroom_doors_closing_light_line",
+    "act": 4,
+    "sentences": "4.10#5,4.10#6",
+    "desc": "Cánh cửa phòng xử án khép lại, vệt sáng mỏng trên sàn.",
+    "prompt": "Heavy courtroom double doors slowly closing, thin line of light across the floor and a lone silhouette beyond, a mood of fate being decided."
+  },
+  {
+    "name": "t51_a5_01_fuzhou_intermediate_court_verdict_hall",
+    "act": 5,
+    "sentences": "5.02#1,5.02#2",
+    "desc": "Phòng xử án Phúc Châu lúc tuyên án năm 2021, bục hội đồng xét xử.",
+    "prompt": "Fuzhou Intermediate People's Court hall in 2021, wide view of the judges' raised bench and gallery, silhouettes only, cold formal light, plain walls."
+  },
+  {
+    "name": "t51_a5_02_judges_panel_tableau_silhouettes",
+    "act": 5,
+    "sentences": "5.02#3,5.02#4",
+    "desc": "Hội đồng xét xử ba bóng người sau bàn dài.",
+    "prompt": "Three judges' silhouettes behind a long wooden bench in a courtroom, a wall emblem blurred into an unreadable shape, formal solemn light."
+  },
+  {
+    "name": "t51_a5_03_fujian_high_court_exterior_appeal",
+    "act": 5,
+    "sentences": "5.02#5,5.02#6",
+    "desc": "Toà án cấp cao tỉnh Phúc Kiến, bậc thang, một bóng người cầm tập hồ sơ.",
+    "prompt": "Exterior of a provincial high court in Fujian under a gray sky, wide steps, a silhouette carrying a folder completely blank and unmarked with no writing at all up the stairs."
+  },
+  {
+    "name": "t51_a5_04_beijing_supreme_court_building_night",
+    "act": 5,
+    "sentences": "5.02#7",
+    "desc": "Toà nhà Tối cao Nhân dân ở Bắc Kinh về đêm.",
+    "prompt": "Beijing, night: imposing government judicial building with lit windows and columns, solemn mood of review."
+  },
+  {
+    "name": "t51_a5_05_closed_prison_gate_dawn_empty_yard",
+    "act": 5,
+    "sentences": "5.02#8",
+    "desc": "Cổng nhà tù khép kín lúc bình minh, sân trống.",
+    "prompt": "A closed heavy prison gate at dawn with an empty yard, gray mist, no person, quiet finality, nothing graphic."
+  },
+  {
+    "name": "t51_a5_06_red_warning_light_school_corridor",
+    "act": 5,
+    "sentences": "5.03#1,5.03#2",
+    "desc": "Hành lang trường học với ngọn đèn đỏ cảnh báo lập loè.",
+    "prompt": "Empty school corridor with a single red warning light glowing over doors, rows of lockers, symbolic alarm against toxic perfectionism."
+  },
+  {
+    "name": "t51_a5_07_child_books_towers_boundary_light_line",
+    "act": 5,
+    "sentences": "5.03#3,5.03#4",
+    "desc": "Bóng đứa trẻ giữa những tháp sách; vệt sáng ngăn cha mẹ và con.",
+    "prompt": "Child silhouette between towers of books, and across the floor a clean line of light separating the child from two parent silhouettes, healthy boundary symbolism."
+  },
+  {
+    "name": "t51_a5_08_hands_holding_tight_counselor_room",
+    "act": 5,
+    "sentences": "5.03#5,5.03#6",
+    "desc": "Hai bàn tay nắm quá chặt; phòng tư vấn tâm lý ấm áp.",
+    "prompt": "Split scene: two silhouetted hands gripping each other too tightly, and a warm counselor's office with two armchairs and a lamp, silhouettes in conversation."
+  },
+  {
+    "name": "t51_a5_09_door_ajar_healing_light",
+    "act": 5,
+    "sentences": "5.03#7",
+    "desc": "Cánh cửa mở hé, ánh sáng ấm lọt ra hành lang.",
+    "prompt": "A door slightly ajar in a dark hallway with warm golden light spilling out, symbolizing healing and sharing grief."
+  },
+  {
+    "name": "t51_a5_10_server_room_face_recognition_network",
+    "act": 5,
+    "sentences": "5.04#1,5.04#2",
+    "desc": "Phòng máy chủ sáng xanh, mạng lưới nhận diện khuôn mặt giăng như mạng nhện.",
+    "prompt": "Server room with rows of racks and glowing cables, a holographic grid of featureless face-outline nodes connecting across a city, wholly abstract."
+  },
+  {
+    "name": "t51_a5_11_scales_statue_courthouse_columns",
+    "act": 5,
+    "sentences": "5.04#3,5.04#4",
+    "desc": "Tượng cán cân công lý trước hàng cột toà án.",
+    "prompt": "Statue of scales of justice in front of grand courthouse columns at dusk, solemn legal authority."
+  },
+  {
+    "name": "t51_a5_12_memorial_garden_sunrise_peace",
+    "act": 5,
+    "sentences": "5.04#5,5.04#6",
+    "desc": "Khu vườn tưởng niệm yên bình lúc mặt trời mọc.",
+    "prompt": "Quiet memorial garden at sunrise, soft golden light on trimmed hedges and a stone bench, a feeling of peace restored, no figures."
+  },
+  {
+    "name": "t51_a5_13_family_dining_table_warm_imperfect",
+    "act": 5,
+    "sentences": "5.05#1,5.05#2",
+    "desc": "Bàn ăn gia đình ấm áp với ánh đèn vàng, thức ăn giản dị.",
+    "prompt": "Warm family dining table in a cozy home, soft yellow lamp, simple dishes, silhouettes of parent and child, acceptance of imperfection."
+  },
+  {
+    "name": "t51_a5_14_parent_child_embrace_blank_report_cards",
+    "act": 5,
+    "sentences": "5.05#3,5.05#4",
+    "desc": "Bóng cha mẹ quỳ xuống ôm con, những tờ giấy trống nằm bên.",
+    "prompt": "Silhouette of a parent kneeling to hug a child, sheets of paper completely blank and unmarked with no writing at all lying scattered nearby, soft warm light, permission to be vulnerable."
+  },
+  {
+    "name": "t51_a5_15_lone_figure_pale_mask_help_hand",
+    "act": 5,
+    "sentences": "5.05#5,5.05#6",
+    "desc": "Bóng người lẻ loi che mặt bằng chiếc mặt nạ nhạt; bàn tay đưa ra trợ giúp.",
+    "prompt": "Lone silhouette holding a pale mask in front of the face, another outstretched hand entering the frame from the light, silence breaking."
+  },
+  {
+    "name": "t51_a5_16_warm_embrace_chain_cut",
+    "act": 5,
+    "sentences": "5.05#7,5.05#8",
+    "desc": "Cái ôm ấm áp của hai bóng người; sợi xích bị cắt đứt rơi xuống.",
+    "prompt": "Two silhouettes embracing under warm light, below them a cut iron chain falling away, symbol of leaving manipulative relationships."
+  },
+  {
+    "name": "t51_a5_17_open_window_birds_case_files_desk",
+    "act": 5,
+    "sentences": "5.05#9,5.05#10",
+    "desc": "Cửa sổ mở với đàn chim bay ra, bàn làm việc với tập hồ sơ khép.",
+    "prompt": "Open window with birds flying into dawn sky, beside a desk with a closed stack of case folders completely blank and unmarked with no writing at all and a lamp."
+  },
+  {
+    "name": "t51_a5_18_recording_studio_lamp_mask_shards",
+    "act": 5,
+    "sentences": "5.05#11,5.05#12",
+    "desc": "Phòng thu với một đèn bàn; những mảnh mặt nạ vỡ trên sàn.",
+    "prompt": "Dim recording studio with a single desk lamp and microphone, on the floor lie shards of a shattered white mask, reflective and sober."
+  },
+  {
+    "name": "t51_a5_19_warm_kitchen_lamp_family_hands",
+    "act": 5,
+    "sentences": "5.05#13",
+    "desc": "Bếp nhà ấm với ngọn đèn vàng, những bàn tay cùng nâng ly trà.",
+    "prompt": "Warm family kitchen with a golden pendant lamp, silhouettes of several hands lifting tea cups together, gentle gratitude."
+  },
+  {
+    "name": "t51_a5_20_studio_microphone_empty_chair_goodbye",
+    "act": 5,
+    "sentences": "5.05#14",
+    "desc": "Micro trong phòng thu với chiếc ghế trống, đèn dịu.",
+    "prompt": "Quiet studio with a microphone on a stand and an empty chair under soft amber light, farewell mood."
+  },
+  {
+    "name": "t51_a5_21_amber_eyes_closing_card_file_closed",
+    "act": 5,
+    "sentences": "5.05#15",
+    "desc": "Thẻ kết: đôi mắt hổ phách trong bóng tối, tập hồ sơ khép lại.",
+    "prompt": "Closing card: a pair of glowing amber eyes in deep darkness above a closed case file completely blank and unmarked with no writing at all, cinematic noir symmetry."
+  }
+]

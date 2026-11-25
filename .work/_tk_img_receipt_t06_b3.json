@@ -1,0 +1,27 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 4/4 succeeded",
+ "total_requested": 4,
+ "total_success": 4,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "466720138936528",
+   "file_name": "tk06_pharmacy_counters_renovation.jpg"
+  },
+  {
+   "node_id": "466719713333674",
+   "file_name": "tk06_highschool_ring_jas.jpg"
+  },
+  {
+   "node_id": "466719536894065",
+   "file_name": "tk06_crawlspace_trapdoor_opened.jpg"
+  },
+  {
+   "node_id": "466719851098330",
+   "file_name": "tk06_diner_booth_confrontation.jpg"
+  }
+ ],
+ "failed_items": []
+}

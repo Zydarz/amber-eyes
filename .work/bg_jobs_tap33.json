@@ -1,1066 +1,954 @@
 [
   {
-    "name": "t33_a1_01_underground_dungeon",
-    "act": 1,
-    "sentences": "1.01#1",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Vào cuối thập niên 1990, thủ đô Vienna của nước Áo vẫn luôn được ca ngợi là một trong nhữn...",
-    "prompt": "Cinematic establishing wide shot of Strasshof, Vienna, Austria, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t33_a1_02_vault_door",
-    "act": 1,
-    "sentences": "1.01#2",
-    "desc": "Hồi 1 Tập 38 (vault_door): Tại các khu dân cư ven đô như quận Donaustadt, những con đường rợp bóng cây và những ngôi ...",
-    "prompt": "Cinematic establishing wide shot of Strasshof, Vienna, Austria, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t33_a1_03_resilience",
-    "act": 1,
-    "sentences": "1.01#3",
-    "desc": "Hồi 1 Tập 38 (resilience): Người dân nơi đây sống bằng niềm tin mặc định rằng hiểm họa bắt cóc hay bạo lực chỉ thuộc ...",
-    "prompt": "Cinematic establishing wide shot of Strasshof, Vienna, Austria, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t33_a1_04_escape",
+    "name": "t33_a1_01_vienna_skyline_1990s_dusk",
     "act": 1,
     "sentences": "1.02#1",
-    "desc": "Hồi 1 Tập 38 (escape): Thế nhưng, chính sự ngây thơ và cảm giác an toàn tập thể ấy đã vô tình tạo nên một “Điểm m...",
-    "prompt": "Cinematic establishing wide shot of Strasshof, Vienna, Austria, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "desc": "Toàn cảnh Vienna cuối thập niên 1990, đô thị yên bình.",
+    "prompt": "Cinematic establishing wide shot of Vienna, Austria in the late 1990s at golden dusk, historic rooftops and church spires over a calm, orderly city."
   },
   {
-    "name": "t33_a1_05_underground_dungeon",
+    "name": "t33_a1_02_donaustadt_brick_houses_street",
     "act": 1,
-    "sentences": "1.02#2",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Ở những cộng đồng ngoại ô tĩnh lặng, ranh giới tôn trọng quyền riêng tư thường bị biến thà...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#2,1.02#3",
+    "desc": "Phố ven đô Donaustadt với nhà gạch đỏ, bóng cây, cuộc sống mẫu mực.",
+    "prompt": "Quiet tree-lined residential street in Donaustadt, Vienna, 1990s, red-brick houses and trimmed lawns, an old television glowing in a distant window."
   },
   {
-    "name": "t33_a1_06_vault_door",
+    "name": "t33_a1_03_morning_school_path_empty_fog",
     "act": 1,
-    "sentences": "1.02#3",
-    "desc": "Hồi 1 Tập 38 (vault_door): Ai cũng tin rằng mình biết rõ người hàng xóm bên kia hàng rào, tin rằng phía sau những khu...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#4,1.02#5",
+    "desc": "Con đường đến trường buổi sáng vắng, sương mỏng, cảm giác an toàn mong manh.",
+    "prompt": "Empty suburban sidewalk to school at early morning in Vienna 1990s, thin fog, a single streetlamp still lit, houses softly blurred."
   },
   {
-    "name": "t33_a1_07_resilience",
+    "name": "t33_a1_04_curtained_windows_privacy",
     "act": 1,
-    "sentences": "1.03#1",
-    "desc": "Hồi 1 Tập 38 (resilience): Sự thờ ơ mang vỏ bọc lịch thiệp của xã hội hiện đại đã tạo điều kiện lý tưởng cho những kẻ...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#6,1.02#7",
+    "desc": "Cửa sổ rèm kín và hàng rào, ranh giới riêng tư che giấu bí mật.",
+    "prompt": "Row of suburban houses with tightly drawn curtains and tall green hedges at dusk, one warm window lit, privacy turned into a quiet veil."
   },
   {
-    "name": "t33_a1_08_escape",
+    "name": "t33_a1_05_iron_gate_flower_wall_shadow",
     "act": 1,
-    "sentences": "1.03#2",
-    "desc": "Hồi 1 Tập 38 (escape): Một đứa trẻ có thể biến mất ngay giữa ban ngày trên một con đường quen thuộc mà không ai k...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#8,1.02#9",
+    "desc": "Cổng sắt, tường hoa rực rỡ, bóng người thờ ơ sau rèm.",
+    "prompt": "Heavy wrought iron gate and a wall covered in bright flowers, a lone silhouette watching from behind a curtain upstairs, face lost in shadow."
   },
   {
-    "name": "t33_a1_09_underground_dungeon",
+    "name": "t33_a1_06_sunlit_empty_road_chalk_arcs",
     "act": 1,
-    "sentences": "1.03#3",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Hồ sơ vụ án Natascha Kampusch và Wolfgang Priklopil chính là một trong những minh chứng ch...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#10",
+    "desc": "Con đường quen thuộc giữa ban ngày trống trải.",
+    "prompt": "Sunlit empty suburban road at midday, faint chalk arcs on the pavement, eerie stillness, nobody anywhere in the frame."
   },
   {
-    "name": "t33_a1_10_vault_door",
+    "name": "t33_a1_07_closed_case_folder_dark_desk",
     "act": 1,
-    "sentences": "1.04#1",
-    "desc": "Hồi 1 Tập 38 (vault_door): Sáng ngày mùng 2 tháng 3 năm 1998, cô bé mười tuổi Natascha Kampusch rời căn hộ của gia đì...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#11,1.02#12",
+    "desc": "Hồ sơ vụ án khép kín và cầu thang xuống tầng hầm tối.",
+    "prompt": "Blank closed case folder with no writing at all on a dark desk, two faceless silhouettes cast on the wall behind, a narrow stair descending into darkness in the background."
   },
   {
-    "name": "t33_a1_11_resilience",
+    "name": "t33_a1_08_empty_apartment_door_morning",
     "act": 1,
-    "sentences": "1.04#2",
-    "desc": "Hồi 1 Tập 38 (resilience): Đó là ngày đầu tiên cô bé được mẹ cho phép tự đi bộ một mình đến trường, đánh dấu một bước...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.04#1,1.04#2",
+    "desc": "Sáng 2/3/1998 trước căn hộ ở Donaustadt, ngày đầu đi học một mình.",
+    "prompt": "Apartment stairwell in Donaustadt, Vienna, early morning of March 1998, front door ajar onto pale light, a small empty coat hook, a woman silhouette far up at a window."
   },
   {
-    "name": "t33_a1_12_escape",
+    "name": "t33_a1_09_blank_craft_paper_school_desk",
     "act": 1,
-    "sentences": "1.04#3",
-    "desc": "Hồi 1 Tập 38 (escape): Trong tâm trí của đứa trẻ mười tuổi lúc ấy chỉ có niềm vui ngây thơ về một ngày học mới và...",
-    "prompt": "Atmospheric street scene in Strasshof, Vienna, Austria, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.04#3,1.04#4",
+    "desc": "Bàn thủ công dang dở: giấy màu, kéo, tuổi thơ ngây thơ.",
+    "prompt": "School desk with unfinished handicraft, blank coloured paper and scissors under soft morning light from a window, cozy childhood stillness."
   },
   {
-    "name": "t33_a1_13_underground_dungeon",
+    "name": "t33_a1_10_lime_tree_lane_near_school",
     "act": 1,
-    "sentences": "1.05#1",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Cô bé bước đi thoăn thoắt trên con đường quen thuộc cách trường học chỉ chừng vài trăm mét...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#5",
+    "desc": "Lối nhỏ rợp cây gần trường vài trăm mét.",
+    "prompt": "Narrow lane lined with lime trees near a primary school in Vienna, spring morning 1998, cold clear light, completely empty."
   },
   {
-    "name": "t33_a1_14_vault_door",
+    "name": "t33_a1_11_schrannekgasse_corner_white_van",
     "act": 1,
-    "sentences": "1.05#2",
-    "desc": "Hồi 1 Tập 38 (vault_door): Thế nhưng, chính tại khúc cua vắng lặng của góc phố Schrannekgasse, một chiếc xe tải nhỏ m...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#6",
+    "desc": "Khúc cua vắng với chiếc xe tải nhỏ màu trắng đỗ chờ.",
+    "prompt": "Quiet street bend in a Vienna suburb, 1998, a plain white small van parked by the curb with no plates or markings, cold dawn light, ominous stillness."
   },
   {
-    "name": "t33_a1_15_resilience",
+    "name": "t33_a1_12_white_van_door_ajar_empty_street",
     "act": 1,
-    "sentences": "1.05#3",
-    "desc": "Hồi 1 Tập 38 (resilience): Khi Natascha vừa bước ngang qua, cánh cửa trượt của chiếc xe tải nhỏ đột ngột bật mở trong...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#1,1.06#2",
+    "desc": "Cánh cửa trượt hé mở của xe van trên phố vắng.",
+    "prompt": "White van seen from across an empty street with its side door slightly ajar, dark interior, no people visible, tense wide composition."
   },
   {
-    "name": "t33_a1_16_escape",
+    "name": "t33_a1_13_van_speeding_away_motion_blur",
     "act": 1,
-    "sentences": "1.06#1",
-    "desc": "Hồi 1 Tập 38 (escape): Cánh cửa xe lập tức đóng sập lại trước khi đứa trẻ kịp cất lên một tiếng thét kêu cứu trọn...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#3,1.06#4",
+    "desc": "Chiếc xe lao đi, để lại phố tĩnh lặng.",
+    "prompt": "Rear of a white van speeding away down a misty suburban street, heavy motion blur, plates smeared out of focus, the lonely street behind it."
   },
   {
-    "name": "t33_a1_17_underground_dungeon",
+    "name": "t33_a1_14_schoolbag_left_on_curb",
     "act": 1,
-    "sentences": "1.06#2",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Chiếc xe rú ga lao vút đi trong sự ngơ ngác của không gian buổi sáng tĩnh lặng....",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#5,1.06#6",
+    "desc": "Chiếc cặp sách bị bỏ lại bên lề đường.",
+    "prompt": "A small abandoned schoolbag lying on an empty curb beside faint wet tire marks, Vienna suburb 1998, grey morning light, tragic stillness."
   },
   {
-    "name": "t33_a1_18_vault_door",
+    "name": "t33_a1_15_witness_schoolgirl_distant_van",
     "act": 1,
-    "sentences": "1.06#3",
-    "desc": "Hồi 1 Tập 38 (vault_door): Chiếc cặp sách rơi lại bên lề đường là dấu vết duy nhất còn sót lại của cô bé mười tuổi gi...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#1,1.07#2",
+    "desc": "Bóng nữ sinh nhân chứng nhìn từ xa chiếc xe van trắng.",
+    "prompt": "Distant silhouette of a young schoolgirl from behind at a street corner looking toward a parked white van far down the road, early morning mist, face hidden."
   },
   {
-    "name": "t33_a1_19_resilience",
+    "name": "t33_a1_16_school_corridor_teacher_silhouette",
     "act": 1,
-    "sentences": "1.07#1",
-    "desc": "Hồi 1 Tập 38 (resilience): Tôi là một cô bé mười hai tuổi vào buổi sáng định mệnh năm đó khi đang trên đường đi học q...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#3,1.07#4",
+    "desc": "Hành lang trường, bóng thầy cô đón nhân chứng hoảng loạn.",
+    "prompt": "Empty school corridor with long windows, a teacher silhouette in a doorway at the far end, bright morning light and long shadows on linoleum."
   },
   {
-    "name": "t33_a1_20_escape",
+    "name": "t33_a1_17_corner_streetlamp_haunted_memory",
     "act": 1,
-    "sentences": "1.07#2",
-    "desc": "Hồi 1 Tập 38 (escape): Tôi nhìn thấy chiếc xe van nhỏ màu trắng mang biển số ngoại ô đỗ bất thường bên vỉa hè từ ...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#5",
+    "desc": "Góc phố ám ảnh nhiều năm sau.",
+    "prompt": "The same Vienna street corner years later at night under a streetlamp, a lone adult silhouette walking past with head turned away, wistful and haunting."
   },
   {
-    "name": "t33_a1_21_underground_dungeon",
+    "name": "t33_a1_18_vienna_police_cars_dawn_search",
     "act": 1,
-    "sentences": "1.07#3",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Tôi chạy thục mạng đến trường và báo ngay với thầy cô rằng tôi vừa chứng kiến một vụ bắt c...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.09#1,1.09#2",
+    "desc": "Chiến dịch tìm kiếm lớn của cảnh sát Áo.",
+    "prompt": "Austrian police cars with blurred blue lights in thick dawn fog on a Vienna avenue, silhouettes of officers gathered, large-scale search operation."
   },
   {
-    "name": "t33_a1_22_vault_door",
+    "name": "t33_a1_19_corkboard_blank_cards_string",
     "act": 1,
-    "sentences": "1.08#1",
-    "desc": "Hồi 1 Tập 38 (vault_door): Nhiều năm sau đó, hình ảnh cánh cửa xe sập lại và ánh mắt tuyệt vọng của cô bé ấy vẫn luôn...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.09#3,1.09#4",
+    "desc": "Bảng điều tra với thẻ trắng và dây nối, rà soát hàng xóm.",
+    "prompt": "Investigators corkboard covered in completely blank index cards joined by string, dim room, a lamp glaring, silhouettes of detectives against the wall."
   },
   {
-    "name": "t33_a1_23_resilience",
+    "name": "t33_a1_20_slipped_folder_shadow_desk",
     "act": 1,
-    "sentences": "1.08#2",
-    "desc": "Hồi 1 Tập 38 (resilience): Lời khai của nhân chứng mười hai tuổi lập tức kích hoạt chiến dịch tìm kiếm quy mô lớn nhấ...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.09#5,1.10#1",
+    "desc": "Một hồ sơ trượt khỏi chồng, danh sách chủ xe van.",
+    "prompt": "Investigator desk with a tall stack of blank index cards under a desk lamp, one card slipped aside into shadow, faceless detective silhouette leaning over."
   },
   {
-    "name": "t33_a1_24_escape",
+    "name": "t33_a1_21_heinestrasse_tidy_house_garden",
     "act": 1,
-    "sentences": "1.08#3",
-    "desc": "Hồi 1 Tập 38 (escape): Hàng xóm, người thân và cả những đối tượng từng có tiền án tình dục đều bị đưa vào tầm ngắ...",
-    "prompt": "Forensic high-contrast tabletop still life in Strasshof, Vienna, Austria, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.10#2,1.10#3",
+    "desc": "Ngôi nhà gọn gàng ở Strasshof, bóng người nhã nhặn.",
+    "prompt": "Neat suburban house in Strasshof an der Nordbahn, Austria, 2000s, manicured hedge and lawn, plain garage door, police car silhouette at the gate, polite man silhouette at the doorstep."
   },
   {
-    "name": "t33_a1_25_underground_dungeon",
+    "name": "t33_a1_22_ordered_living_room_silhouette",
     "act": 1,
-    "sentences": "1.09#1",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Thế nhưng, giữa mạng lưới điều tra khổng lồ ấy, một lỗ hổng nhận thức chí mạng đã xuất hiệ...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#4",
+    "desc": "Phòng khách ngăn nắp, bóng người hợp tác lịch sự.",
+    "prompt": "Orderly austere living room in warm lamplight, a man silhouette standing calmly in the doorway with face hidden, deceptively reassuring."
   },
   {
-    "name": "t33_a1_26_vault_door",
+    "name": "t33_a1_23_manicured_garden_halo_light",
     "act": 1,
-    "sentences": "1.09#2",
-    "desc": "Hồi 1 Tập 38 (vault_door): Cơ quan điều tra đã từng tiếp cận chính kẻ thủ ác, nhưng lại bỏ qua hắn một cách khó tin c...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#5,1.10#6",
+    "desc": "Khu vườn chải chuốt dưới ánh vàng, hiệu ứng hào quang.",
+    "prompt": "Perfectly manicured garden bathed in warm golden light, a closed garage door in the background, deceptive halo of respectability."
   },
   {
-    "name": "t33_a1_27_resilience",
+    "name": "t33_a1_24_garage_floor_hidden_seam",
     "act": 1,
-    "sentences": "1.09#3",
-    "desc": "Hồi 1 Tập 38 (resilience): Khi cảnh sát đến ngôi nhà số 60 đường Heinestrasse tại thị trấn Strasshof an der Nordbahn,...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#7",
+    "desc": "Sàn bê tông garage che giấu hầm kín.",
+    "prompt": "Dim garage interior with plain concrete floor and heavy workbench, a barely visible seam in the floor suggesting a hidden hatch, cold light from a high window."
   },
   {
-    "name": "t33_a1_28_escape",
+    "name": "t33_a1_25_strasshof_dusk_gate_and_hatch",
     "act": 1,
-    "sentences": "1.10#1",
-    "desc": "Hồi 1 Tập 38 (escape): Hắn giải thích rằng chiếc xe van màu trắng chỉ được dùng để chở vật liệu xây dựng và phục ...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.11#1,1.11#2",
+    "desc": "Xe về Strasshof lúc hoàng hôn và miệng hầm dưới garage.",
+    "prompt": "Plain van pulling up to a quiet suburban gate in Strasshof at dusk, then a steep dark hatch opening in a garage floor leading into black depths."
   },
   {
-    "name": "t33_a1_29_underground_dungeon",
+    "name": "t33_a1_26_steel_door_ajar_line_of_light",
     "act": 1,
-    "sentences": "1.10#2",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Priklopil thậm chí còn đưa ra một chứng cứ ngoại phạm hoàn hảo rằng vào sáng ngày mùng 2 t...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.11#3,1.11#4,1.11#5",
+    "desc": "Cửa sắt hé mở, vệt sáng mảnh, cuộc chiến sinh tồn bắt đầu.",
+    "prompt": "Heavy concrete-lined steel door ajar in an underground corridor, a single thin line of light cutting across the darkness, ominous and heavy."
   },
   {
-    "name": "t33_a1_30_vault_door",
-    "act": 1,
-    "sentences": "1.10#3",
-    "desc": "Hồi 1 Tập 38 (vault_door): Chính “Hiệu ứng Hào quang” về một người đàn ông hiền lành, trí thức đã khiến lực lượng chứ...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t33_a1_31_resilience",
-    "act": 1,
-    "sentences": "1.11#1",
-    "desc": "Hồi 1 Tập 38 (resilience): Họ không thể ngờ rằng, ngay dưới sàn bê tông của chiếc garage ấy, một căn hầm bí mật kiên ...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t33_a1_32_escape",
-    "act": 1,
-    "sentences": "1.11#2",
-    "desc": "Hồi 1 Tập 38 (escape): Natascha Kampusch bị đưa về thị trấn Strasshof, cách hiện trường bắt cóc hơn hai mươi lăm ...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t33_a1_33_underground_dungeon",
-    "act": 1,
-    "sentences": "1.11#3",
-    "desc": "Hồi 1 Tập 38 (underground_dungeon): Một cuộc giam cầm kỳ quặc và tàn khốc kéo dài hơn tám năm bắt đầu được thiết lập từ giây p...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t33_a1_34_vault_door",
-    "act": 1,
-    "sentences": "1.12#1",
-    "desc": "Hồi 1 Tập 38 (vault_door): Một đứa trẻ mười tuổi chính thức bị tước đoạt toàn bộ ánh sáng mặt trời, gia đình và xã hộ...",
-    "prompt": "Dramatic action still in Strasshof, Vienna, Austria, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t33_a2_01_underground_dungeon",
+    "name": "t33_a2_01_bunker_windowless_low_ceiling",
     "act": 2,
-    "sentences": "2.01#1",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Căn hầm giam giữ Natascha Kampusch là một công trình ngầm được tính toán cơ học tỉ mỉ đến ...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#1,2.02#2",
+    "desc": "Căn hầm 5 m2 không cửa sổ, trần thấp.",
+    "prompt": "Tiny windowless concrete cell of a few square metres under a house in Austria, very low ceiling, narrow bed with grey blanket, one dim bulb, nobody inside."
   },
   {
-    "name": "t33_a2_02_vault_door",
-    "act": 2,
-    "sentences": "2.01#2",
-    "desc": "Hồi 2 Tập 38 (vault_door): Nó có diện tích vỏn vẹn chỉ khoảng năm mét vuông, với trần nhà thấp chưa đầy một mét tám....",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t33_a2_03_resilience",
-    "act": 2,
-    "sentences": "2.01#3",
-    "desc": "Hồi 2 Tập 38 (resilience): Căn phòng hoàn toàn không có ánh sáng tự nhiên, không có bất kỳ âm thanh nào của thế giới ...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t33_a2_04_escape",
-    "act": 2,
-    "sentences": "2.02#1",
-    "desc": "Hồi 2 Tập 38 (escape): Toàn bộ dưỡng khí được cung cấp qua một đường ống thông hơi nhỏ hẹp chạy luồn lách qua các...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t33_a2_05_underground_dungeon",
-    "act": 2,
-    "sentences": "2.02#2",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Về mặt hành vi học tội phạm, Wolfgang Priklopil đã thể hiện một “Chữ ký tâm lý” đặc trưng ...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t33_a2_06_vault_door",
+    "name": "t33_a2_02_concrete_lined_steel_door",
     "act": 2,
     "sentences": "2.02#3",
-    "desc": "Hồi 2 Tập 38 (vault_door): Trong sáu tháng đầu tiên, hắn nhốt cô bé hoàn toàn trong bóng tối và sự im lặng tuyệt đối ...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "desc": "Cánh cửa sắt bọc bê tông nặng, khóa điện tử.",
+    "prompt": "Massive concrete-lined steel door with electronic lock panel completely blank, cold fluorescent light in a narrow underground corridor."
   },
   {
-    "name": "t33_a2_07_resilience",
+    "name": "t33_a2_03_vent_pipe_dust_beam",
     "act": 2,
-    "sentences": "2.03#1",
-    "desc": "Hồi 2 Tập 38 (resilience): Hắn là người duy nhất quyết định khi nào đèn được bật, khi nào nước được cấp và khi nào th...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#4,2.02#5",
+    "desc": "Ống thông hơi nhỏ, bụi bay trong vệt sáng yếu.",
+    "prompt": "Narrow ventilation pipe in a soundproofed concrete wall, dust floating in a faint beam of light, utter isolation."
   },
   {
-    "name": "t33_a2_08_escape",
+    "name": "t33_a2_04_garage_workshop_builder_silhouette",
     "act": 2,
-    "sentences": "2.03#2",
-    "desc": "Hồi 2 Tập 38 (escape): Nếu cô bé tỏ bất kỳ thái độ phản kháng nào, hắn lập tức cắt khẩu phần ăn hoặc tắt toàn bộ ...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#6",
+    "desc": "Kẻ xây hầm trong garage, cuối thập niên 1990.",
+    "prompt": "Dim garage workshop in Strasshof in the late 1990s, concrete mixer and shovels, man silhouette bent at work with face in total shadow."
   },
   {
-    "name": "t33_a2_09_underground_dungeon",
+    "name": "t33_a2_05_hand_on_light_switch_dark_hall",
     "act": 2,
-    "sentences": "2.03#3",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Hắn thiết lập một chế độ kiểm soát kép tinh vi: một mặt là kẻ trừng phạt tàn bạo, mặt khác...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.04#1,2.04#2",
+    "desc": "Bóng bàn tay chạm công tắc đèn ngoài cánh cửa sắt.",
+    "prompt": "Bare concrete wall with a plain light switch outside a steel door, a man's shadow and the shadow of a hand reaching toward it, dim hallway."
   },
   {
-    "name": "t33_a2_10_vault_door",
+    "name": "t33_a2_06_tray_of_food_at_dark_doorway",
     "act": 2,
-    "sentences": "2.04#1",
-    "desc": "Hồi 2 Tập 38 (vault_door): Hắn tặng cho cô bé những cuốn sách giáo khoa, những bộ xếp hình và dành hàng giờ để giảng ...",
-    "prompt": "Psychological chiaroscuro composition in Strasshof, Vienna, Austria, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.04#3,2.04#4",
+    "desc": "Khay thức ăn và bát nước đặt ngoài ngưỡng cửa tối.",
+    "prompt": "Plain tray with a bowl of water and simple food placed on the floor of a dark doorway, a thin strip of light from a hallway behind."
   },
   {
-    "name": "t33_a2_11_resilience",
+    "name": "t33_a2_07_backlit_man_on_stair_long_shadow",
     "act": 2,
-    "sentences": "2.04#2",
-    "desc": "Hồi 2 Tập 38 (resilience): Bị giam cầm trong một không gian chật hẹp không ánh mặt trời suốt nhiều năm ròng rã là một...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#5,2.04#6",
+    "desc": "Bóng người đứng trên cầu thang, bóng đổ dài xuống tầng hầm.",
+    "prompt": "Backlit silhouette of a man standing at the top of concrete stairs, long shadow stretching down into a dark basement, face completely black."
   },
   {
-    "name": "t33_a2_12_escape",
+    "name": "t33_a2_08_ring_of_iron_keys_on_hook",
     "act": 2,
-    "sentences": "2.04#3",
-    "desc": "Hồi 2 Tập 38 (escape): Khái niệm về ngày và đêm, về các mùa trong năm hoàn toàn tan biến trong sự ngưng đọng của ...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#7,2.04#8",
+    "desc": "Chùm chìa khóa sắt, kiểm soát từng quyền tự chủ.",
+    "prompt": "Heavy ring of iron keys hanging on a hook against a dark concrete wall, a single cold light slicing across them."
   },
   {
-    "name": "t33_a2_13_underground_dungeon",
+    "name": "t33_a2_09_blank_textbooks_wooden_blocks",
     "act": 2,
-    "sentences": "2.05#1",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Natascha đã không đầu hàng trước sự suy sụp tinh thần mà tự kiến tạo nên một chiến lược ph...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#9,2.04#10",
+    "desc": "Sách giáo khoa và bộ xếp hình, vai người bảo hộ giả tạo.",
+    "prompt": "Small table under a desk lamp with a few textbooks with completely blank covers and wooden building blocks, deceptively homely scene in a concrete room."
   },
   {
-    "name": "t33_a2_14_vault_door",
+    "name": "t33_a2_10_bare_cell_dust_in_lamp_glow",
     "act": 2,
-    "sentences": "2.05#2",
-    "desc": "Hồi 2 Tập 38 (vault_door): Dưới góc độ tâm lý học sang chấn, hiện tượng mà Natascha Kampusch trải qua thường bị dư lu...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#1,2.05#2",
+    "desc": "Căn phòng không ngày đêm, thời gian ngưng đọng.",
+    "prompt": "Bare concrete cell with a camp bed and folded blanket, dust drifting in a weak lamp glow, no window, timeless and still, nobody present."
   },
   {
-    "name": "t33_a2_15_resilience",
+    "name": "t33_a2_11_seedling_in_jar_toward_bulb",
     "act": 2,
-    "sentences": "2.05#3",
-    "desc": "Hồi 2 Tập 38 (resilience): Công chúng thường nhầm tưởng rằng nạn nhân đã phải lòng hoặc đồng cảm mù quáng với kẻ bắt ...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#3,2.05#4",
+    "desc": "Mầm cây trong lọ vươn về bóng đèn yếu, ý chí sinh tồn.",
+    "prompt": "Tiny green seedling growing in a glass jar bending toward a weak bare bulb in a dark concrete room, quiet metaphor of survival."
   },
   {
-    "name": "t33_a2_16_escape",
+    "name": "t33_a2_12_chessboard_two_chairs_silhouette",
     "act": 2,
-    "sentences": "2.06#1",
-    "desc": "Hồi 2 Tập 38 (escape): Để bảo vệ bản thân khỏi sự điên loạn, Natascha đã kích hoạt cơ chế “Tâm trí phân ly hai ng...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#5",
+    "desc": "Ván cờ với bóng người, đánh bại kẻ thao túng trong trò chơi của hắn.",
+    "prompt": "Chessboard on a small table with two chairs, a man silhouette on one side, the opposite chair empty, dramatic low lamp light."
   },
   {
-    "name": "t33_a2_17_underground_dungeon",
+    "name": "t33_a2_13_psychologist_office_empty_armchair",
     "act": 2,
-    "sentences": "2.06#2",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Cô bé đóng vai một đứa trẻ biết vâng lời, cùng nấu ăn, cùng đọc sách để đổi lấy những điều...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#1,2.06#2,2.06#3",
+    "desc": "Phòng chuyên gia với ghế bành trống, giải thích hội chứng Stockholm.",
+    "prompt": "Quiet psychologist office with an empty leather armchair, grey window light and a completely blank notepad on a side table."
   },
   {
-    "name": "t33_a2_18_vault_door",
+    "name": "t33_a2_14_cracked_mirror_warm_cold_halves",
     "act": 2,
-    "sentences": "2.06#3",
-    "desc": "Hồi 2 Tập 38 (vault_door): Thế nhưng ở ngăn thứ hai, Natascha kiên quyết gìn giữ một pháo đài nội tâm hoàn toàn tự do...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#4,2.06#5",
+    "desc": "Gương nứt hai nửa, ấm và lạnh, tâm trí phân ly hai ngăn.",
+    "prompt": "Tall mirror split by a crack into two halves, one half lit by warm lamplight and the other by cold darkness, no reflection of any person."
   },
   {
-    "name": "t33_a2_19_resilience",
+    "name": "t33_a2_15_kitchen_table_two_cups_blank_book",
     "act": 2,
-    "sentences": "2.07#1",
-    "desc": "Hồi 2 Tập 38 (resilience): Cô bé phân định rạch ròi rằng người đàn ông trước mặt vừa là người cấp dưỡng duy nhất, như...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#6",
+    "desc": "Bàn bếp có hai tách và cuốn sách trống, sự ngoan ngoãn chiến thuật.",
+    "prompt": "Plain upstairs kitchen table with two cups and an open book with completely blank pages under a warm lamp, ordinary yet eerie."
   },
   {
-    "name": "t33_a2_20_escape",
+    "name": "t33_a2_16_golden_glow_hollow_in_wall",
     "act": 2,
-    "sentences": "2.07#2",
-    "desc": "Hồi 2 Tập 38 (escape): Sự thỏa hiệp bề ngoài thực chất là một chiếc mặt nạ ngụy trang chiến thuật để bảo tồn sinh...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#7,2.06#8",
+    "desc": "Ánh vàng nhỏ trong hốc tường, pháo đài nội tâm.",
+    "prompt": "Faint golden glow from a small hollow inside a dark concrete wall, a private inner refuge, soft and protected."
   },
   {
-    "name": "t33_a2_21_underground_dungeon",
+    "name": "t33_a2_17_theatre_mask_on_a_nail",
+    "act": 2,
+    "sentences": "2.06#9,2.06#10",
+    "desc": "Chiếc mặt nạ sân khấu treo trên đinh, mặt nạ ngụy trang.",
+    "prompt": "Plain white porcelain theatre mask hanging on a nail on a dim cell wall, one eye hole catching a thread of light."
+  },
+  {
+    "name": "t33_a2_18_feather_on_concrete_light_beam",
+    "act": 2,
+    "sentences": "2.06#11,2.06#12",
+    "desc": "Chiếc lông vũ trên nền bê tông trong vệt sáng, bản ngã độc lập.",
+    "prompt": "A single bird feather resting on bare concrete inside a narrow beam of light, surrounded by darkness."
+  },
+  {
+    "name": "t33_a2_19_basement_stairs_to_daylit_door",
+    "act": 2,
+    "sentences": "2.07#1,2.07#2",
+    "desc": "Cầu thang từ hầm lên tầng nhà, năm 2001 nới lỏng kìm kẹp.",
+    "prompt": "Narrow concrete stairs leading up from a basement to a half-open door flooded with daylight, house hallway beyond, cautious loosening of control."
+  },
+  {
+    "name": "t33_a2_20_living_room_houseplants_vacuum",
     "act": 2,
     "sentences": "2.07#3",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Chính việc duy trì được bản ngã độc lập ấy đã giúp cô bé không bị đồng hóa vào thế giới ho...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Phòng khách cây cảnh, việc nhà ban ngày.",
+    "prompt": "Suburban living room with houseplants and drawn curtains, a vacuum cleaner standing idle, midday light, domestic chores setting."
   },
   {
-    "name": "t33_a2_22_vault_door",
+    "name": "t33_a2_21_heavy_door_many_locks_shut",
     "act": 2,
-    "sentences": "2.08#1",
-    "desc": "Hồi 2 Tập 38 (vault_door): Từ năm 2001, khi nhận thấy nạn nhân có vẻ đã hoàn toàn thuần phục, Priklopil bắt đầu nới l...",
-    "prompt": "Desolate nocturnal scene in Strasshof, Vienna, Austria, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.07#4",
+    "desc": "Cánh cửa hầm khóa nhiều lớp mỗi buổi tối.",
+    "prompt": "Heavy basement door closed with several layered bolts and locks in lamp light, claustrophobic close shot."
   },
   {
-    "name": "t33_a2_23_resilience",
+    "name": "t33_a2_22_curtained_house_night_silhouette",
     "act": 2,
-    "sentences": "2.08#2",
-    "desc": "Hồi 2 Tập 38 (resilience): Hắn cho phép cô bước lên nhà trên vào ban ngày để làm việc nhà, dọn dẹp phòng khách và chă...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#1,2.08#2",
+    "desc": "Ngôi nhà đóng kín về đêm, bóng người bên cửa sổ, lời đe dọa.",
+    "prompt": "Suburban house at night with every curtain drawn, a single man silhouette at one window, cold blue streetlight, menace of imaginary traps."
   },
   {
-    "name": "t33_a2_24_escape",
+    "name": "t33_a2_23_neighbour_windows_dusk_warm",
     "act": 2,
-    "sentences": "2.08#3",
-    "desc": "Hồi 2 Tập 38 (escape): Hồ sơ điều tra cho thấy Priklopil luôn duy trì một hệ thống đe dọa tâm lý vô cùng khủng kh...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#3,2.08#4",
+    "desc": "Ô cửa hàng xóm sáng ấm lúc chạng vạng, nỗi lo cho người vô tội.",
+    "prompt": "Quiet neighbouring houses at dusk with warm lit windows behind garden fences, one house in the foreground dark, peaceful but unreachable."
   },
   {
-    "name": "t33_a2_25_underground_dungeon",
+    "name": "t33_a2_24_rusted_padlock_open_on_latch",
     "act": 2,
-    "sentences": "2.09#1",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Hắn tuyên bố nếu cô cố tình bỏ trốn hoặc kêu cứu, cả hai sẽ cùng tan xác trong một vụ nổ k...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#5",
+    "desc": "Ổ khóa gỉ mở hé, chiếc còng vô hình.",
+    "prompt": "Rusted padlock hanging open on a door latch, close-up, shallow depth of field, metaphor of invisible shackles."
   },
   {
-    "name": "t33_a2_26_vault_door",
+    "name": "t33_a2_25_alpine_ski_slope_tiny_skiers",
     "act": 2,
-    "sentences": "2.09#2",
-    "desc": "Hồi 2 Tập 38 (vault_door): Hắn còn bịa đặt rằng hắn mang theo một khẩu súng ngắn đã lên đạn và sẽ bắn chết bất kỳ ngư...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#6,2.08#7",
+    "desc": "Dốc trượt tuyết Alps, người nhỏ xíu giữa đám đông.",
+    "prompt": "Snowy Alpine ski slope in winter in Austria with tiny distant skier silhouettes and crowds, bright but unreachable, flat cold light."
   },
   {
-    "name": "t33_a2_27_resilience",
+    "name": "t33_a2_26_open_front_door_garden_path",
     "act": 2,
-    "sentences": "2.09#3",
-    "desc": "Hồi 2 Tập 38 (resilience): Priklopil thậm chí còn đưa Natascha đi mua sắm tại các siêu thị hoặc cùng đi trượt tuyết t...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.09#1,2.09#2",
+    "desc": "Cửa trước mở ra lối vườn, nhưng bóng ngưỡng cửa kéo dài.",
+    "prompt": "Open front door of a suburban house with a garden path ahead in daylight, a long dark shadow of the door frame across the threshold, nobody visible."
   },
   {
-    "name": "t33_a2_28_escape",
+    "name": "t33_a2_27_empty_birdcage_open_sky",
     "act": 2,
-    "sentences": "2.10#1",
-    "desc": "Hồi 2 Tập 38 (escape): Nhưng sự kiểm soát cưỡng ép bằng mắt và những lời đe dọa ngầm đã khiến nạn nhân không dám ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.09#3,2.09#4",
+    "desc": "Lồng chim trống bên cửa sổ, nỗi tê liệt trước khoảng trời rộng.",
+    "prompt": "Empty ornate birdcage on a windowsill with a bright wide sky outside, door of the cage closed, quiet tension."
   },
   {
-    "name": "t33_a2_29_underground_dungeon",
+    "name": "t33_a2_28_rainy_city_street_through_window",
     "act": 2,
-    "sentences": "2.10#2",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Câu trả lời nằm ở sự tàn độc của cơ chế bạo hành tâm lý và sự giam cầm vô hình trong tâm t...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.10#1,2.10#2",
+    "desc": "Thành phố mưa nhìn qua cửa sổ tối, thế giới bên ngoài như mối đe dọa.",
+    "prompt": "View from a dark window onto a rainy city street at night, wet reflections, forbidding atmosphere, no people."
   },
   {
-    "name": "t33_a2_30_vault_door",
+    "name": "t33_a2_29_empty_classroom_vacant_desk",
     "act": 2,
-    "sentences": "2.10#3",
-    "desc": "Hồi 2 Tập 38 (vault_door): Nhưng sâu thẳm trong lòng, cô gái ấy vẫn âm thầm quan sát, tính toán và kiên nhẫn chờ đợi ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.10#3,2.10#4",
+    "desc": "Lớp học vắng, bàn ghế trống, cảm giác bị lãng quên.",
+    "prompt": "Empty school classroom with a single vacant desk and chair, dust in late afternoon light, feeling of being forgotten."
   },
   {
-    "name": "t33_a2_31_resilience",
+    "name": "t33_a2_30_tree_sprouting_through_concrete",
+    "act": 2,
+    "sentences": "2.10#5,2.10#6",
+    "desc": "Cây mọc xuyên bê tông, ý chí không thể khuất phục.",
+    "prompt": "Small tree growing through a crack in a thick concrete slab, soft sunlight breaking over it, quiet defiance."
+  },
+  {
+    "name": "t33_a2_31_dim_cell_hair_thin_sunbeam",
     "act": 2,
     "sentences": "2.11#1",
-    "desc": "Hồi 2 Tập 38 (resilience): Đây chính là minh chứng điển hình cho khái niệm “Kiểm soát cưỡng ép đa tầng” trong tâm thầ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "desc": "Tia nắng mảnh như sợi tóc trong căn hầm tối, tám năm tôi luyện.",
+    "prompt": "Dim concrete cell with a single hair-thin ray of sunlight reaching the floor, deep darkness around it."
   },
   {
-    "name": "t33_a2_32_escape",
+    "name": "t33_a2_32_summer_noon_strasshof_unlatched_gate",
     "act": 2,
-    "sentences": "2.11#2",
-    "desc": "Hồi 2 Tập 38 (escape): Hắn khiến cô tin rằng xã hội đã hoàn toàn lãng quên cô, và không ai ngoài hắn có thể che c...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.11#2,2.11#3",
+    "desc": "Trưa hè 2006 ở Strasshof, cánh cổng hé mở, bước ngoặt từ sơ hở.",
+    "prompt": "Bright summer noon in 2006 over the rooftops of Strasshof, Austria, a small garden gate unlatched in the foreground, quiet before a turning point."
   },
   {
-    "name": "t33_a2_33_underground_dungeon",
-    "act": 2,
-    "sentences": "2.11#3",
-    "desc": "Hồi 2 Tập 38 (underground_dungeon): Natascha không thụ động chấp nhận số phận, mà cô đang thực hiện một chiến lược sinh tồn dà...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t33_a2_34_vault_door",
-    "act": 2,
-    "sentences": "2.12#1",
-    "desc": "Hồi 2 Tập 38 (vault_door): Cô gái trẻ đã chứng minh một chân lý tâm lý học: thể xác có thể bị giam cầm trong bê tông,...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t33_a2_35_resilience",
-    "act": 2,
-    "sentences": "2.12#2",
-    "desc": "Hồi 2 Tập 38 (resilience): Và rồi, khoảnh khắc định mệnh của sự giải thoát cuối cùng cũng xuất hiện vào một buổi trưa...",
-    "prompt": "Intimate forensic interior of vehicle or room in Strasshof, Vienna, Austria, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t33_a3_01_underground_dungeon",
+    "name": "t33_a3_01_stairway_dusty_light_shaft",
     "act": 3,
-    "sentences": "3.01#1",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Bước sang năm 2006, Natascha Kampusch đã tròn mười tám tuổi, mang vóc dáng của một thiếu n...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#1,3.02#2",
+    "desc": "Cầu thang bê tông có vệt nắng chiều, năm 2006.",
+    "prompt": "Dim concrete stairway with a shaft of afternoon light and drifting dust, no person, exhausted stillness."
   },
   {
-    "name": "t33_a3_02_vault_door",
+    "name": "t33_a3_02_man_silhouette_leaning_on_fence",
     "act": 3,
-    "sentences": "3.01#2",
-    "desc": "Hồi 3 Tập 38 (vault_door): Trải qua ba nghìn không trăm chín mươi sáu ngày chịu đựng, cô hiểu rất rõ quy luật sinh ho...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#3,3.02#4",
+    "desc": "Bóng người dựa hàng rào, tự mãn, quay lưng.",
+    "prompt": "Silhouette of a man from behind leaning on a garden fence with arms crossed, sunlit hedges, relaxed and self-satisfied, face hidden."
   },
   {
-    "name": "t33_a3_03_resilience",
+    "name": "t33_a3_03_red_bmw_gravel_drive_august_noon",
     "act": 3,
-    "sentences": "3.01#3",
-    "desc": "Hồi 3 Tập 38 (resilience): Hắn bắt đầu tin tưởng tuyệt đối vào quyền lực toàn năng của mình và dần nới lỏng sự cảnh g...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.04#1,3.04#2",
+    "desc": "Xe BMW đỏ trên lối sỏi trưa 23/8/2006 nắng gắt.",
+    "prompt": "Red BMW sedan parked on a gravel driveway of a tidy suburban house in Strasshof, Austria, blazing noon sun on 23 August 2006, plates not visible."
   },
   {
-    "name": "t33_a3_04_escape",
+    "name": "t33_a3_04_vacuum_cleaner_on_gravel_supervisor",
     "act": 3,
-    "sentences": "3.02#1",
-    "desc": "Hồi 3 Tập 38 (escape): Buổi trưa ngày 23 tháng 8 năm 2006, trời nắng gắt tại thị trấn Strasshof an der Nordbahn....",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.04#3,3.04#4",
+    "desc": "Máy hút bụi trên lối sỏi, bóng người khoanh tay giám sát.",
+    "prompt": "Upright vacuum cleaner with long hose on a gravel path, a man silhouette with arms folded watching from a few steps away, noonday heat haze."
   },
   {
-    "name": "t33_a3_05_underground_dungeon",
+    "name": "t33_a3_05_old_mobile_phone_dark_screen",
     "act": 3,
-    "sentences": "3.02#2",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Chiếc máy hút bụi kêu rền rĩ trên lối đi rải sỏi, tạo nên một bức tường âm thanh che lấp m...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.05#1,3.05#2",
+    "desc": "Chiếc điện thoại di động đời cũ trên bàn vườn, màn hình tối.",
+    "prompt": "Old silver mobile phone from 2006 lying on a garden table, screen dark and completely blank, bright summer light."
   },
   {
-    "name": "t33_a3_06_vault_door",
+    "name": "t33_a3_06_man_back_turned_phone_to_ear",
     "act": 3,
-    "sentences": "3.02#3",
-    "desc": "Hồi 3 Tập 38 (vault_door): Priklopil đứng cách đó chỉ vài bước chân, khoanh tay giám sát từng cử chỉ của cô gái trẻ v...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.05#3,3.05#4",
+    "desc": "Bóng người quay lưng, áp điện thoại vào tai, bước lùi xa.",
+    "prompt": "Distant silhouette of a man turned away with a phone held to his ear, stepping back across a sunlit lawn, face hidden."
   },
   {
-    "name": "t33_a3_07_resilience",
+    "name": "t33_a3_07_unlatched_iron_gate_sunlit",
     "act": 3,
-    "sentences": "3.03#1",
-    "desc": "Hồi 3 Tập 38 (resilience): Đó là cuộc gọi từ một khách hàng tiềm năng muốn hỏi mua chiếc xe tải nhỏ của hắn thông qua...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.05#5,3.05#6",
+    "desc": "Cổng sắt hé mở dưới nắng, khoảnh khắc sơ hở dưới ba mươi giây.",
+    "prompt": "Wrought iron garden gate slightly unlatched on a sunlit path, bright light beyond, sense of a narrow window of time."
   },
   {
-    "name": "t33_a3_08_escape",
+    "name": "t33_a3_08_single_brass_key_in_grass",
     "act": 3,
-    "sentences": "3.03#2",
-    "desc": "Hồi 3 Tập 38 (escape): Hắn bước lùi ra xa vài mét, quay lưng lại phía Natascha và áp điện thoại vào tai để nghe r...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.05#7",
+    "desc": "Một chiếc chìa khóa đồng nằm trên cỏ trong nắng.",
+    "prompt": "Single old brass key lying in sunlit green grass, close-up, shallow depth of field, symbol of release."
   },
   {
-    "name": "t33_a3_09_underground_dungeon",
+    "name": "t33_a3_09_running_vacuum_hose_dropped_on_lawn",
     "act": 3,
-    "sentences": "3.03#3",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Đó là một khoảnh khắc sơ hở hiếm hoi kéo dài chỉ trong vòng chưa đầy ba mươi giây trong su...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.06#1,3.06#2",
+    "desc": "Vòi hút bụi bị buông xuống bãi cỏ, vẫn chạy.",
+    "prompt": "Vacuum cleaner hose dropped on a lawn still running, tilted camera, abandoned in a hurry, nobody in the frame."
   },
   {
-    "name": "t33_a3_10_vault_door",
+    "name": "t33_a3_10_sunny_alley_between_fences",
     "act": 3,
-    "sentences": "3.04#1",
-    "desc": "Hồi 3 Tập 38 (vault_door): Chiếc chìa khóa giải thoát cho ba nghìn không trăm chín mươi sáu ngày đọa đày đã xuất hiện...",
-    "prompt": "Late-night police command center in Strasshof, Vienna, Austria, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.06#3,3.06#4",
+    "desc": "Ngõ ngoại ô nắng giữa những hàng rào, hơi nóng bốc lên.",
+    "prompt": "Narrow sunny suburban alley between wooden fences in Strasshof, heat haze, empty, strong sense of flight."
   },
   {
-    "name": "t33_a3_11_resilience",
+    "name": "t33_a3_11_doorway_flooded_with_light",
     "act": 3,
-    "sentences": "3.04#2",
-    "desc": "Hồi 3 Tập 38 (resilience): Trong khoảnh khắc sinh tử ấy, toàn bộ hệ thống thần kinh của Natascha Kampusch như bùng nổ...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#1,3.07#2",
+    "desc": "Khung cửa tràn ánh sáng ở cuối hành lang tối, cửa sổ cơ hội vàng.",
+    "prompt": "Dark corridor leading to a doorway flooded with golden daylight, strong perspective, symbol of a golden window of opportunity."
   },
   {
-    "name": "t33_a3_12_escape",
+    "name": "t33_a3_12_loose_fence_plank_in_light",
     "act": 3,
-    "sentences": "3.04#3",
-    "desc": "Hồi 3 Tập 38 (escape): Cô gái mười tám tuổi nhón gót, luồn qua cánh cổng sắt hé mở và bắt đầu chạy thục mạng qua ...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#3,3.07#4",
+    "desc": "Tấm ván hàng rào lỏng, ánh sáng lọt qua, dũng khí bộc phát.",
+    "prompt": "Tall wooden garden fence with one loose plank letting a blade of sunlight through, close and tense."
   },
   {
-    "name": "t33_a3_13_underground_dungeon",
+    "name": "t33_a3_13_wide_summer_sky_birds_rooftops",
     "act": 3,
-    "sentences": "3.05#1",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Một cuộc đào thoát nghẹt thở chống lại tử thần chính thức bắt đầu giữa trưa hè tĩnh lặng....",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#5,3.07#6",
+    "desc": "Bầu trời hè rộng với đàn chim trên mái nhà, khát vọng tự do.",
+    "prompt": "Wide summer sky with a flock of birds above suburban rooftops of an Austrian town, soft warm light, longing for freedom."
   },
   {
-    "name": "t33_a3_14_vault_door",
+    "name": "t33_a3_14_dusty_footprints_on_dirt_path",
     "act": 3,
-    "sentences": "3.05#2",
-    "desc": "Hồi 3 Tập 38 (vault_door): Rất nhiều nạn nhân bị giam cầm lâu năm thường rơi vào trạng thái “Đóng băng nhận thức” và ...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#7,3.07#8",
+    "desc": "Dấu chân trần in trên đường đất bụi, không người.",
+    "prompt": "Scattered bare footprints in dust on a rural dirt path between gardens, midday sun, no person in the frame."
   },
   {
-    "name": "t33_a3_15_resilience",
+    "name": "t33_a3_15_sunflower_against_concrete_wall",
     "act": 3,
-    "sentences": "3.05#3",
-    "desc": "Hồi 3 Tập 38 (resilience): Não bộ của cô đã vượt qua rào cản của nỗi sợ hãi tê liệt về những lời đe dọa cài bom hay b...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#9,3.07#10",
+    "desc": "Hoa hướng dương vươn trước bức tường bê tông, ngọn lửa tự do.",
+    "prompt": "Single sunflower turning toward the sun against a grey concrete wall, strong warm light."
   },
   {
-    "name": "t33_a3_16_escape",
+    "name": "t33_a3_16_stone_steps_ascending_to_light",
     "act": 3,
-    "sentences": "3.06#1",
-    "desc": "Hồi 3 Tập 38 (escape): Cô hiểu rằng nếu bị bắt lại lần này, cái chết chắc chắn là kết cục duy nhất đang chờ đợi m...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#11",
+    "desc": "Bậc đá dẫn lên ánh sáng, bao năm chuẩn bị cho thời khắc quyết định.",
+    "prompt": "Rough concrete steps ascending out of shadow toward a bright opening, strong upward composition."
   },
   {
-    "name": "t33_a3_17_underground_dungeon",
+    "name": "t33_a3_17_back_gardens_low_fences_sunlit",
     "act": 3,
-    "sentences": "3.06#2",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Đây là một chiến thắng rực rỡ của ý thức cá nhân trước sự kiểm soát cưỡng ép tinh vi và ké...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.08#1,3.08#2",
+    "desc": "Những khu vườn kề nhau với hàng rào gỗ thấp dưới nắng.",
+    "prompt": "Row of adjoining suburban back gardens divided by low wooden fences, low sun, long shadows, empty."
   },
   {
-    "name": "t33_a3_18_vault_door",
+    "name": "t33_a3_18_elderly_woman_silhouette_flowerbed",
     "act": 3,
-    "sentences": "3.06#3",
-    "desc": "Hồi 3 Tập 38 (vault_door): Cô gái chạy qua những hàng rào với đôi chân trần trầy xước, vượt qua nỗi kinh hoàng về sự ...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.08#3,3.08#4",
+    "desc": "Bóng bà cụ chăm luống hoa cạnh cửa sổ bếp.",
+    "prompt": "Silhouette of an elderly woman kneeling at a flower bed from behind, face hidden, kitchen window with pale light behind her, Heinestrasse garden in Strasshof."
   },
   {
-    "name": "t33_a3_19_resilience",
+    "name": "t33_a3_19_half_open_window_curtain_drifting",
     "act": 3,
-    "sentences": "3.07#1",
-    "desc": "Hồi 3 Tập 38 (resilience): Nó khẳng định rằng trong suốt tám năm qua, ngọn lửa tự do chưa bao giờ tắt trong tâm hồn c...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.08#5,3.08#6",
+    "desc": "Cửa sổ hé mở, rèm bay, phản ứng ngỡ ngàng kỳ quặc.",
+    "prompt": "Half-open house window seen from outside with a curtain drifting in a light breeze, empty and uneasy."
   },
   {
-    "name": "t33_a3_20_escape",
+    "name": "t33_a3_20_perfect_lawn_sprinkler_contrast",
     "act": 3,
-    "sentences": "3.07#2",
-    "desc": "Hồi 3 Tập 38 (escape): Natascha chạy thục mạng qua những khu vườn tiếp giáp, nhảy qua các hàng rào gỗ ngăn cách g...",
-    "prompt": "Sterile police interrogation room in Strasshof, Vienna, Austria, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.08#7,3.08#8",
+    "desc": "Thảm cỏ cắt tỉa hoàn hảo, đối nghịch với thảm kịch.",
+    "prompt": "Perfectly manicured green lawn with a rotating sprinkler and tidy flowerbeds on a sunny day, eerie ordinary calm."
   },
   {
-    "name": "t33_a3_21_underground_dungeon",
+    "name": "t33_a3_21_corridor_identical_closed_doors",
     "act": 3,
-    "sentences": "3.07#3",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Cô gái kiệt sức, nhịp thở đứt quãng, tim đập như muốn vỡ tung lồng ngực khi nhìn thấy một ...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.09#1,3.09#2",
+    "desc": "Hành lang dài với những cánh cửa giống hệt đóng kín, thành kiến bình thường hóa.",
+    "prompt": "Long dim corridor of identical closed doors under flat light, repeating perspective, no people."
   },
   {
-    "name": "t33_a3_22_vault_door",
+    "name": "t33_a3_22_pegboard_garden_tools_order",
     "act": 3,
-    "sentences": "3.08#1",
-    "desc": "Hồi 3 Tập 38 (vault_door): Natascha lao thẳng tới bên cửa sổ nhà bếp, gõ dồn dập vào mặt kính và cất lên tiếng kêu cứ...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.09#3,3.09#4",
+    "desc": "Bảng treo dụng cụ làm vườn gọn gàng, bám víu trật tự vụn vặt.",
+    "prompt": "Pegboard in a garden shed with tools neatly arranged, lawn mower beneath, sunlight through a dusty window."
   },
   {
-    "name": "t33_a3_23_resilience",
+    "name": "t33_a3_23_row_of_shutters_one_ajar",
     "act": 3,
-    "sentences": "3.08#2",
-    "desc": "Hồi 3 Tập 38 (resilience): Khuôn mặt nhợt nhạt, thân hình gầy gò chỉ nặng ba mươi tám ký và bộ quần áo cũ kỹ khiến cô...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.09#5,3.09#6",
+    "desc": "Hàng cửa chớp đóng, một cánh hé mở.",
+    "prompt": "House facade with a row of closed shutters, one shutter slightly ajar, harsh midday light, defensive and cold."
   },
   {
-    "name": "t33_a3_24_escape",
+    "name": "t33_a3_24_hallway_landline_phone_dusk",
     "act": 3,
-    "sentences": "3.08#3",
-    "desc": "Hồi 3 Tập 38 (escape): Người phụ nữ ấy mở hé cửa sổ và cau mày quát lớn vì sợ cô gái xa lạ sẽ giẫm nát thảm cỏ xa...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.09#7,3.09#8",
+    "desc": "Điện thoại bàn trên bàn hành lang, cuộc gọi lịch sử cho cảnh sát.",
+    "prompt": "Old landline telephone with coiled cord on a hallway table, soft dusk light through a door, blank wall behind."
   },
   {
-    "name": "t33_a3_25_underground_dungeon",
+    "name": "t33_a3_25_noon_sun_doorstep_long_shadow",
     "act": 3,
-    "sentences": "3.09#1",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Sự đối nghịch ghê gớm giữa một thảm kịch sinh tử và một thói quen thường nhật đã bộc lộ tr...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.10#1,3.10#2",
+    "desc": "Ánh nắng trưa chói trên bậc cửa, cơn ác mộng tám năm kết thúc.",
+    "prompt": "Blazing noon sun on a suburban doorstep with long shadow of the door frame, empty, silent, hush before change."
   },
   {
-    "name": "t33_a3_26_vault_door",
-    "act": 3,
-    "sentences": "3.09#2",
-    "desc": "Hồi 3 Tập 38 (vault_door): Khi một sự kiện quá bất thường hoặc quá kinh hoàng đột ngột xuất hiện, não bộ con người có...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t33_a3_27_resilience",
-    "act": 3,
-    "sentences": "3.09#3",
-    "desc": "Hồi 3 Tập 38 (resilience): Bà cụ không thể tiếp nhận ngay lập tức rằng một nạn nhân bị giam cầm suốt tám năm đang đứn...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t33_a3_28_escape",
-    "act": 3,
-    "sentences": "3.10#1",
-    "desc": "Hồi 3 Tập 38 (escape): Sự đứt gãy trong khả năng đồng cảm tức thời này cho thấy con người trong xã hội hiện đại t...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t33_a3_29_underground_dungeon",
-    "act": 3,
-    "sentences": "3.10#2",
-    "desc": "Hồi 3 Tập 38 (underground_dungeon): Phải mất nhiều phút giằng co nghẹt thở, khi Natascha kiên quyết khẳng định danh tính của m...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t33_a3_30_vault_door",
+    "name": "t33_a3_26_storm_clouds_over_suburb_rooftops",
     "act": 3,
     "sentences": "3.10#3",
-    "desc": "Hồi 3 Tập 38 (vault_door): Đó là một cuộc gọi lịch sử nhưng cũng là một lời cảnh tỉnh sâu sắc về sự vô cảm vô thức củ...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "desc": "Mây giông kéo trên mái nhà phía bên kia thị trấn.",
+    "prompt": "Dark storm clouds gathering over the other side of an Austrian suburb, rooftops lit by a last strip of sun, dread building."
   },
   {
-    "name": "t33_a3_31_resilience",
-    "act": 3,
-    "sentences": "3.11#1",
-    "desc": "Hồi 3 Tập 38 (resilience): Cô cất lên câu nói định mệnh đã làm rung chuyển toàn bộ đất nước Áo ngay trong buổi chiều ...",
-    "prompt": "Forensic laboratory scene in Strasshof, Vienna, Austria, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t33_a4_01_underground_dungeon",
+    "name": "t33_a4_01_abandoned_vacuum_frozen_silhouette",
     "act": 4,
-    "sentences": "4.01#1",
-    "desc": "Hồi 4 Tập 38 (underground_dungeon): Chỉ vài giây sau khi kết thúc cuộc gọi điện thoại, Wolfgang Priklopil quay lại và nhận ra ...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#1,4.02#2",
+    "desc": "Máy hút bụi bị bỏ, bóng người đứng sững cuối lối xe vào.",
+    "prompt": "Front yard seen from the gate, abandoned running vacuum on the lawn, a man silhouette standing frozen at the end of the driveway, face hidden."
   },
   {
-    "name": "t33_a4_02_vault_door",
+    "name": "t33_a4_02_open_gate_empty_street_vanishing_point",
     "act": 4,
-    "sentences": "4.01#2",
-    "desc": "Hồi 4 Tập 38 (vault_door): Chiếc máy hút bụi vẫn đang chạy rền rĩ, vòi hút nằm chỏng chơ bên cạnh chiếc xe BMW màu đỏ...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#3,4.02#4",
+    "desc": "Cánh cổng mở nhìn ra con phố vắng, hoảng loạn nhấn chìm hắn.",
+    "prompt": "View through an open iron gate down a bright empty street toward a vanishing point, heat shimmer, emptiness."
   },
   {
-    "name": "t33_a4_03_resilience",
+    "name": "t33_a4_03_house_facade_police_lights_blur",
     "act": 4,
-    "sentences": "4.01#3",
-    "desc": "Hồi 4 Tập 38 (resilience): Cơn hoảng loạn tột độ lập tức nhấn chìm toàn bộ sự điên rồ và ngạo mạn mà hắn đã dày công ...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#5",
+    "desc": "Ngôi nhà bị bủa vây, ánh đèn cảnh sát nhòe phía xa.",
+    "prompt": "Dark silhouette of a suburban house in the foreground with blurred police lights flickering over rooftops far behind, net closing in."
   },
   {
-    "name": "t33_a4_04_escape",
+    "name": "t33_a4_04_red_bmw_speeding_toward_vienna",
     "act": 4,
-    "sentences": "4.02#1",
-    "desc": "Hồi 4 Tập 38 (escape): Thay vì cố gắng truy đuổi nạn nhân, Priklopil đã có một chuỗi hành vi tháo chạy đầy hỗn lo...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.03#1,4.03#2",
+    "desc": "Xe BMW đỏ lao trên đường về Vienna, nhìn từ xa.",
+    "prompt": "Distant red BMW speeding along a suburban road toward the Vienna skyline in afternoon haze, rear view too far to see any plate."
   },
   {
-    "name": "t33_a4_05_underground_dungeon",
-    "act": 4,
-    "sentences": "4.02#2",
-    "desc": "Hồi 4 Tập 38 (underground_dungeon): Vào lúc mười ba giờ ba mươi phút, hắn dừng xe tại một trạm xăng và cuống cuồng gọi điện th...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t33_a4_06_vault_door",
-    "act": 4,
-    "sentences": "4.02#3",
-    "desc": "Hồi 4 Tập 38 (vault_door): Khi Holzapfel lái xe đến nơi, Priklopil xuất hiện trong trạng thái run rẩy bần bật, đồng t...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t33_a4_07_resilience",
-    "act": 4,
-    "sentences": "4.03#1",
-    "desc": "Hồi 4 Tập 38 (resilience): Trong suốt nhiều giờ đồng hồ sau đó, Holzapfel đã chở Priklopil chạy lòng vòng qua những c...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t33_a4_08_escape",
-    "act": 4,
-    "sentences": "4.03#2",
-    "desc": "Hồi 4 Tập 38 (escape): Và rồi, ngay trên chiếc xe ô tô ấy, một lời thú tội chấn động bậc nhất đã được thốt ra tro...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t33_a4_09_underground_dungeon",
+    "name": "t33_a4_05_gas_station_canopy_payphone",
     "act": 4,
     "sentences": "4.03#3",
-    "desc": "Hồi 4 Tập 38 (underground_dungeon): Giữa không gian chật hẹp của khoang xe, chiếc mặt nạ của người kỹ sư viễn thông mẫu mực ho...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Mái trạm xăng và buồng điện thoại, cuộc gọi cầu cứu.",
+    "prompt": "Gas station canopy on a quiet afternoon with a public telephone booth beside it, no logos, empty pumps."
   },
   {
-    "name": "t33_a4_10_vault_door",
+    "name": "t33_a4_06_mall_car_park_trembling_silhouette",
     "act": 4,
-    "sentences": "4.04#1",
-    "desc": "Hồi 4 Tập 38 (vault_door): Hắn thừa nhận chính hắn là kẻ đã bắt cóc cô bé Natascha Kampusch tám năm trước và giam cầm...",
-    "prompt": "Historic courtroom interior in Strasshof, Vienna, Austria, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.03#4,4.03#5",
+    "desc": "Bãi đỗ xe trung tâm thương mại gần ga điện ngầm, bóng người run rẩy.",
+    "prompt": "Large open-air car park of a shopping centre next to a metro station in Vienna, a waiting sedan, a trembling man silhouette approaching, face hidden."
   },
   {
-    "name": "t33_a4_11_resilience",
+    "name": "t33_a4_07_car_interior_two_silhouettes_streets",
     "act": 4,
-    "sentences": "4.04#2",
-    "desc": "Hồi 4 Tập 38 (resilience): Thế nhưng phản ứng tiếp theo của Holzapfel và hành động cuối cùng của Priklopil đã để lại ...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.03#6,4.03#7",
+    "desc": "Hai bóng người trong xe, phố Vienna lướt qua kính.",
+    "prompt": "View from back seat of two silhouettes in the front seats of a car, Vienna streets blurred through the windshield, faces dark."
   },
   {
-    "name": "t33_a4_12_escape",
+    "name": "t33_a4_08_dashboard_glow_dusk_city_bokeh",
     "act": 4,
-    "sentences": "4.04#3",
-    "desc": "Hồi 4 Tập 38 (escape): Khi Wolfgang gọi điện nhờ đón, tôi chỉ nghĩ anh ấy đang gặp rắc rối nhỏ về giấy tờ xe cộ h...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.03#8,4.03#9",
+    "desc": "Ánh bảng điều khiển, đèn thành phố nhòe lúc chạng vạng, lời thú tội sắp thốt ra.",
+    "prompt": "Car dashboard glow at dusk with two silhouettes in profile, faces fully dark, city lights as soft bokeh through the windshield."
   },
   {
-    "name": "t33_a4_13_underground_dungeon",
+    "name": "t33_a4_09_cracked_mirror_dusk_city_lights",
     "act": 4,
-    "sentences": "4.05#1",
-    "desc": "Hồi 4 Tập 38 (underground_dungeon): Tôi không thể tin vào tai mình, không thể tin rằng người bạn trầm tính, sạch sẽ mà tôi que...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#1,4.04#2",
+    "desc": "Gương nứt phản chiếu ánh đèn thành phố, mặt nạ rơi rụng.",
+    "prompt": "Cracked hand mirror resting on a car dashboard reflecting only dusk city lights, no face anywhere."
   },
   {
-    "name": "t33_a4_14_vault_door",
+    "name": "t33_a4_10_stopped_sedan_hazards_storm_sky",
     "act": 4,
-    "sentences": "4.05#2",
-    "desc": "Hồi 4 Tập 38 (vault_door): Nhưng Wolfgang chỉ lắc đầu trong tuyệt vọng và nói rằng anh ấy sẽ không bao giờ để cảnh sá...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#3,4.04#4",
+    "desc": "Chiếc xe dừng bên đường dưới trời giông, cú sốc của Holzapfel.",
+    "prompt": "Sedan stopped on a road shoulder with hazard lights blinking under storm clouds over Vienna at dusk, no one visible."
   },
   {
-    "name": "t33_a4_15_resilience",
+    "name": "t33_a4_11_night_kitchen_table_untouched_coffee",
     "act": 4,
-    "sentences": "4.05#3",
-    "desc": "Hồi 4 Tập 38 (resilience): Tôi đã để anh ấy bước xuống xe mà không hề biết rằng đó là lần cuối cùng tôi nhìn thấy một...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#5,4.05#1",
+    "desc": "Bàn bếp đêm với tách cà phê chưa động, nhân chứng nhớ lại.",
+    "prompt": "Kitchen table at night with two chairs, one lamp and an untouched cup of coffee, quiet heavy atmosphere."
   },
   {
-    "name": "t33_a4_16_escape",
+    "name": "t33_a4_12_bedside_phone_night_streetlight",
     "act": 4,
-    "sentences": "4.06#1",
-    "desc": "Hồi 4 Tập 38 (escape): Vào lúc hai mươi giờ năm mươi chín phút đêm ngày 23 tháng 8 năm 2006, tại khu vực đường ra...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#2,4.05#3",
+    "desc": "Điện thoại bàn cạnh giường trong phòng tối, ánh đèn đường qua rèm.",
+    "prompt": "Telephone on a bedside table in a dark room with streetlight glowing through the curtains, uneasy silence."
   },
   {
-    "name": "t33_a4_17_underground_dungeon",
+    "name": "t33_a4_13_pressed_white_shirt_polished_shoes",
     "act": 4,
-    "sentences": "4.06#2",
-    "desc": "Hồi 4 Tập 38 (underground_dungeon): Cú va chạm kinh hoàng đã cướp đi sinh mạng của kẻ thủ ác ngay tại chỗ, chấm dứt cuộc đời c...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#4,4.05#5",
+    "desc": "Áo sơ mi trắng là lượt và đôi giày bóng, vẻ ngoài sạch sẽ của kẻ giả mạo.",
+    "prompt": "Neat room with a pressed white shirt on a hanger and polished shoes beside it, spotless and soulless, cold light."
   },
   {
-    "name": "t33_a4_18_vault_door",
+    "name": "t33_a4_14_suburban_train_platform_dusk",
     "act": 4,
-    "sentences": "4.06#3",
-    "desc": "Hồi 4 Tập 38 (vault_door): Trên người hắn, cảnh sát tìm thấy một mảnh giấy nhỏ nguệch ngoạc chỉ có duy nhất một chữ: ...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#6,4.05#7",
+    "desc": "Sân ga ngoại ô vắng lúc chạng vạng, ghế trống.",
+    "prompt": "Deserted suburban commuter train platform near Dresdner Strasse in Vienna at dusk, empty bench, wet rails, nothing readable anywhere."
   },
   {
-    "name": "t33_a4_19_resilience",
+    "name": "t33_a4_15_car_door_open_empty_passenger_seat",
     "act": 4,
-    "sentences": "4.07#1",
-    "desc": "Hồi 4 Tập 38 (resilience): Hành vi tự sát của Wolfgang Priklopil không phải là một sự ăn năn sám hối đạo đức trước tộ...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#8",
+    "desc": "Cửa xe mở bên đường tối, ghế phụ trống.",
+    "prompt": "Parked car on a dark roadside with passenger door open and an empty seat, dim dome light, lonely."
   },
   {
-    "name": "t33_a4_20_escape",
+    "name": "t33_a4_16_empty_rails_night_headlight_glow",
     "act": 4,
-    "sentences": "4.07#2",
-    "desc": "Hồi 4 Tập 38 (escape): Priklopil không thể đối diện với sự thật rằng hình tượng người đàn ông ưu tú, lịch thiệp m...",
-    "prompt": "Emotional witness stand perspective in Strasshof, Vienna, Austria, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.07#1,4.07#2",
+    "desc": "Đường ray vắng ban đêm, quầng đèn đầu tàu xa dần.",
+    "prompt": "Empty railway tracks at night near a suburban station, a distant approaching glow of a train headlight, red and green lamps, no person."
   },
   {
-    "name": "t33_a4_21_underground_dungeon",
+    "name": "t33_a4_17_rails_after_rain_pale_lamps",
     "act": 4,
-    "sentences": "4.07#3",
-    "desc": "Hồi 4 Tập 38 (underground_dungeon): Một câu hỏi lớn luôn khiến công chúng đau đáu là: Tại sao lại thú tội rồi tự sát và cơ chế...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.07#3,4.07#4",
+    "desc": "Đường ray sau mưa dưới ánh đèn ga nhợt, ánh xanh nhấp nháy ở xa.",
+    "prompt": "Empty rails under pale station lamps after rain, faint blue emergency light flickering far in the distance, quiet aftermath, no person."
   },
   {
-    "name": "t33_a4_22_vault_door",
+    "name": "t33_a4_18_scrap_of_paper_blank_desk_lamp",
     "act": 4,
-    "sentences": "4.08#1",
-    "desc": "Hồi 4 Tập 38 (vault_door): Thế nhưng các chuyên gia tâm lý khẳng định: ở những kẻ ái kỷ bệnh hoạn, không bao giờ tồn ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.07#5",
+    "desc": "Mảnh giấy nhỏ trống trơn dưới đèn bàn.",
+    "prompt": "Small folded scrap of paper completely blank and unmarked with no writing at all on a bare table under a desk lamp."
   },
   {
-    "name": "t33_a4_23_resilience",
+    "name": "t33_a4_19_closed_courtroom_door_corridor",
     "act": 4,
-    "sentences": "4.08#2",
-    "desc": "Hồi 4 Tập 38 (resilience): Sự hối hận thực sự đòi hỏi lòng đồng cảm với nỗi đau đớn của nạn nhân và sự thừa nhận rằng...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.07#6",
+    "desc": "Cửa phòng xử án đóng kín, hành lang mờ.",
+    "prompt": "Closed heavy oak courtroom door at the end of a dim marble corridor, no trial to come, cold light."
   },
   {
-    "name": "t33_a4_24_escape",
+    "name": "t33_a4_20_forensic_office_man_at_window",
+    "act": 4,
+    "sentences": "4.08#1,4.08#2",
+    "desc": "Văn phòng pháp y, bóng người đứng bên cửa sổ đêm mưa.",
+    "prompt": "Forensic psychiatry office with a desk lamp and a blank clipboard, a man silhouette standing at a rain-streaked window at night."
+  },
+  {
+    "name": "t33_a4_21_toppled_plaster_bust_dim_room",
     "act": 4,
     "sentences": "4.08#3",
-    "desc": "Hồi 4 Tập 38 (escape): Lời thú tội với Holzapfel thực chất là một tiếng kêu cứu ích kỷ của một tâm trí đang bị sụ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Tượng bán thân thạch cao đổ vỡ, cái tôi ái kỷ sụp đổ.",
+    "prompt": "Toppled plaster bust broken on the floor of a dim room, fine white dust in the air, no person."
   },
   {
-    "name": "t33_a4_25_underground_dungeon",
+    "name": "t33_a4_22_empty_chair_cold_spotlight_hall",
     "act": 4,
-    "sentences": "4.09#1",
-    "desc": "Hồi 4 Tập 38 (underground_dungeon): Đó là hành vi trốn chạy tối hậu của một kẻ bạo chúa không dám chấp nhận thân phận của một ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#4",
+    "desc": "Chiếc ghế trống như ngai dưới ánh đèn lạnh, kẻ bạo chúa nắm quyền kiểm soát.",
+    "prompt": "Lone empty armchair like a throne in a vast dark hall under a cold spotlight, no person."
   },
   {
-    "name": "t33_a4_26_vault_door",
+    "name": "t33_a4_23_tv_shop_windows_onlookers_glow",
     "act": 4,
-    "sentences": "4.09#2",
-    "desc": "Hồi 4 Tập 38 (vault_door): Sau cái chết của kẻ bắt cóc, một sự kiện kỳ lạ và gây chấn động dư luận khác đã diễn ra tạ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#1,4.09#2",
+    "desc": "Bóng người đứng trước các cửa kính cửa hàng tivi sáng trắng.",
+    "prompt": "Silhouettes of onlookers in front of lit shop windows glowing with blank white screens at night in Vienna, faces turned away."
   },
   {
-    "name": "t33_a4_27_resilience",
+    "name": "t33_a4_24_wilted_white_flower_bare_table",
     "act": 4,
-    "sentences": "4.09#3",
-    "desc": "Hồi 4 Tập 38 (resilience): Cô gái mười tám tuổi đứng lặng người trước cỗ quan tài đóng kín, nhẹ nhàng thắp lên một ng...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#3,4.09#4",
+    "desc": "Bông hoa trắng héo trên bàn gỗ, hối hận chân chính không tồn tại.",
+    "prompt": "Single wilted white flower on a bare wooden table beside a closed window, soft grey light."
   },
   {
-    "name": "t33_a4_28_escape",
+    "name": "t33_a4_25_brick_wall_cracks_leaking_light",
     "act": 4,
-    "sentences": "4.10#1",
-    "desc": "Hồi 4 Tập 38 (escape): Người ta cáo buộc cô là kẻ mất trí, là kẻ mắc hội chứng yêu thương kẻ thù mà không thể hiể...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Strasshof, Vienna, Austria, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#5,4.09#6",
+    "desc": "Bức tường gạch nứt toác, ánh sáng lọt qua kẽ nứt.",
+    "prompt": "Brick wall with spreading cracks and light leaking through them in a dark room, a mind crumbling metaphor."
   },
   {
-    "name": "t33_a5_01_underground_dungeon",
+    "name": "t33_a4_26_man_silhouette_walking_into_tunnel",
+    "act": 4,
+    "sentences": "4.09#7,4.09#8",
+    "desc": "Bóng người quay lưng bước vào đường hầm tối, trốn chạy hèn nhát.",
+    "prompt": "Small man silhouette walking away from the camera down a long dark tunnel, light dwindling behind, back turned."
+  },
+  {
+    "name": "t33_a4_27_two_empty_chairs_facing_bright_room",
+    "act": 4,
+    "sentences": "4.09#9",
+    "desc": "Hai chiếc ghế trống đối diện nhau, lời xin lỗi không bao giờ được nói.",
+    "prompt": "Two empty chairs facing each other in a bright empty room, dust in sunlight, unspoken apology."
+  },
+  {
+    "name": "t33_a4_28_cold_tiled_morgue_corridor_empty",
+    "act": 4,
+    "sentences": "4.10#1,4.10#2",
+    "desc": "Hành lang nhà xác lát gạch lạnh, cửa kính mờ, vắng người.",
+    "prompt": "Empty cold tiled corridor of a forensic institute in Vienna with frosted glass doors and fluorescent light, no person."
+  },
+  {
+    "name": "t33_a4_29_closed_coffin_chapel_single_candle",
+    "act": 4,
+    "sentences": "4.10#3",
+    "desc": "Quan tài đóng kín trong nhà nguyện mờ, một ngọn nến nhỏ bên cạnh.",
+    "prompt": "Closed plain wooden coffin in a dim chapel with a single small lit candle beside it, solemn composition, nobody visible."
+  },
+  {
+    "name": "t33_a4_30_angry_crowd_silhouettes_camera_flashes",
+    "act": 4,
+    "sentences": "4.10#4,4.10#5",
+    "desc": "Đám đông bóng đen phẫn nộ, đèn flash máy ảnh.",
+    "prompt": "Crowd of silhouettes outside a broadcast building at night with bursts of camera flashes, restless public outrage, faces dark."
+  },
+  {
+    "name": "t33_a4_31_candle_in_window_quiet_house_night",
+    "act": 4,
+    "sentences": "4.10#6",
+    "desc": "Ngọn nến trong cửa sổ ngôi nhà yên tĩnh về đêm, biểu tượng tính người.",
+    "prompt": "Single lit candle in the window of a quiet house at night, warm glow in cold darkness, symbol of lasting humanity."
+  },
+  {
+    "name": "t33_a5_01_open_cellar_hatch_sunlit_garage",
     "act": 5,
-    "sentences": "5.01#1",
-    "desc": "Hồi 5 Tập 38 (underground_dungeon): Ba nghìn không trăm chín mươi sáu ngày dưới lòng đất của Natascha Kampusch đã khép lại, nh...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#1,5.02#2",
+    "desc": "Miệng hầm mở trên sàn garage đầy nắng, ba nghìn ngày đã khép lại.",
+    "prompt": "Open empty cellar hatch in a sunlit garage floor in Strasshof, light pouring down into the space below, no person."
   },
   {
-    "name": "t33_a5_02_vault_door",
+    "name": "t33_a5_02_tv_studio_empty_chair_backlight",
     "act": 5,
-    "sentences": "5.01#2",
-    "desc": "Hồi 5 Tập 38 (vault_door): Khi bước ra ánh sáng, cô gái mười tám tuổi không chọn cách đóng vai một nạn nhân đáng thươ...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#3,5.02#4",
+    "desc": "Studio truyền hình với ghế trống ngược sáng, bóng máy quay.",
+    "prompt": "Television studio with an empty chair under soft backlight, camera silhouettes at the edges, calm and dignified."
   },
   {
-    "name": "t33_a5_03_resilience",
+    "name": "t33_a5_03_theatre_audience_empty_stage_spotlight",
     "act": 5,
-    "sentences": "5.01#3",
-    "desc": "Hồi 5 Tập 38 (resilience): Thế nhưng chính sự mạnh mẽ phi thường ấy lại khiến cô phải gánh chịu một làn sóng bạo lực ...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#5,5.02#6",
+    "desc": "Khán giả bóng đen nhìn sân khấu trống, đám đông đòi khuôn mẫu bi lụy.",
+    "prompt": "Silhouettes of an audience in theatre seats facing an empty stage under a single spotlight."
   },
   {
-    "name": "t33_a5_04_escape",
+    "name": "t33_a5_04_red_string_board_blank_cards",
     "act": 5,
-    "sentences": "5.02#1",
-    "desc": "Hồi 5 Tập 38 (escape): Xã hội dường như luôn đòi hỏi nạn nhân phải đau khổ theo một khuôn mẫu bi lụy có sẵn để th...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#7",
+    "desc": "Bảng dây đỏ với thẻ trống, các thuyết âm mưu.",
+    "prompt": "Dark wall covered with tangled red string connecting completely blank cards, conspiracy atmosphere, no people."
   },
   {
-    "name": "t33_a5_05_underground_dungeon",
+    "name": "t33_a5_05_writing_desk_blank_notebook_dawn",
     "act": 5,
-    "sentences": "5.02#2",
-    "desc": "Hồi 5 Tập 38 (underground_dungeon): Họ đặt ra hàng loạt thuyết âm mưu cay nghiệt nhằm hạ thấp phẩm giá và ý chí sinh tồn kiên ...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#8",
+    "desc": "Bàn viết với cuốn sổ trống và bút máy, bình minh ngoài cửa sổ.",
+    "prompt": "Writing desk with an open blank notebook and a fountain pen in warm lamp light, soft dawn at the window."
   },
   {
-    "name": "t33_a5_06_vault_door",
+    "name": "t33_a5_06_sapling_through_concrete_soft_sun",
     "act": 5,
-    "sentences": "5.02#3",
-    "desc": "Hồi 5 Tập 38 (vault_door): Vượt lên trên tất cả những định kiến bất công ấy, Natascha đã dũng cảm viết nên câu chuyện...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#1,5.03#2",
+    "desc": "Cây non mọc qua khe bê tông dưới nắng dịu, tăng trưởng sau sang chấn.",
+    "prompt": "Small sapling growing through a crack in concrete in soft sunlight, symbol of post-traumatic growth."
   },
   {
-    "name": "t33_a5_07_resilience",
+    "name": "t33_a5_07_cemetery_path_mist_votive_candle",
     "act": 5,
-    "sentences": "5.03#1",
-    "desc": "Hồi 5 Tập 38 (resilience): Nó chứng minh rằng tâm hồn của cô bé không hề bị vấy bẩn hay méo mó bởi lòng thù hận mù qu...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#3,5.03#4",
+    "desc": "Lối nghĩa trang buổi sớm sương, một ngọn nến nhỏ cạnh bia đá trơn.",
+    "prompt": "Cemetery path at dawn with soft mist, a single votive candle beside a plain blank stone, quiet farewell."
   },
   {
-    "name": "t33_a5_08_escape",
+    "name": "t33_a5_08_open_cage_bird_flying_dawn",
     "act": 5,
-    "sentences": "5.03#2",
-    "desc": "Hồi 5 Tập 38 (escape): Ngọn nến ấy không phải là sự dung dưỡng cho tội ác, mà là một nghi thức tâm lý thiêng liên...",
-    "prompt": "Solemn penal execution facility at dawn in Strasshof, Vienna, Austria, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.03#5,5.03#6",
+    "desc": "Cửa lồng mở, chim bay về phía bình minh, tha thứ giải thoát tâm trí.",
+    "prompt": "Open cage door with a bird flying out into a dawn sky, symbol of forgiveness and release."
   },
   {
-    "name": "t33_a5_09_underground_dungeon",
+    "name": "t33_a5_09_snapped_open_iron_lock_wet_ground",
     "act": 5,
-    "sentences": "5.03#3",
-    "desc": "Hồi 5 Tập 38 (underground_dungeon): Bằng việc tha thứ và từ chối nuôi dưỡng hận thù, Natascha đã tước đoạt nốt quyền năng cuối...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.03#7",
+    "desc": "Ổ khóa sắt bật mở trên nền ướt, tự do của tâm trí.",
+    "prompt": "Iron padlock snapped open lying on wet cobblestones with soft reflected light, close-up."
   },
   {
-    "name": "t33_a5_10_vault_door",
+    "name": "t33_a5_10_commission_room_long_table_blank_folders",
     "act": 5,
-    "sentences": "5.04#1",
-    "desc": "Hồi 5 Tập 38 (vault_door): Cô gái đã chiến thắng kẻ thủ ác không chỉ bằng cuộc đào thoát thể xác, mà bằng sự thăng ho...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#1,5.04#2",
+    "desc": "Phòng ủy ban điều tra, bàn dài với hồ sơ trống, bóng người ở cuối phòng.",
+    "prompt": "Formal commission chamber with a long polished table and blank folders, silhouettes seated at the far end, cold light."
   },
   {
-    "name": "t33_a5_11_resilience",
+    "name": "t33_a5_11_night_aerial_european_city_lights",
     "act": 5,
-    "sentences": "5.04#2",
-    "desc": "Hồi 5 Tập 38 (resilience): Về mặt tư pháp và quản trị xã hội, hồ sơ vụ án Natascha Kampusch đã thúc đẩy một cuộc đại ...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#3,5.04#4",
+    "desc": "Cảnh đêm thành phố châu Âu nhìn từ trên cao, mạng lưới ánh đèn nối nhau.",
+    "prompt": "Night aerial view of a European city with glowing arteries of light connected across borders, calm and vast."
   },
   {
-    "name": "t33_a5_12_escape",
+    "name": "t33_a5_12_tall_hedge_closed_gate_suburb",
     "act": 5,
-    "sentences": "5.04#3",
-    "desc": "Hồi 5 Tập 38 (escape): Các ủy ban điều tra độc lập sau đó đã vạch trần hàng loạt sai sót nghiêm trọng trong công ...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#5,5.04#6",
+    "desc": "Hàng rào cao và cổng đóng, thờ ơ sau bức tường ngoại ô.",
+    "prompt": "Tall green hedge walls with a closed gate along a quiet Austrian suburban street, neighbouring gardens tidy and unreachable."
   },
   {
-    "name": "t33_a5_13_underground_dungeon",
+    "name": "t33_a5_13_four_unlit_lanterns_on_shelf",
     "act": 5,
-    "sentences": "5.05#1",
-    "desc": "Hồi 5 Tập 38 (underground_dungeon): Nó gióng lên hồi chuông cảnh tỉnh nghiêm khắc về hiểm họa của sự thờ ơ và thói quen thỏa h...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.05#1,5.05#2",
+    "desc": "Bốn chiếc đèn lồng chưa thắp trên kệ gỗ tối, bốn bài học cảnh báo.",
+    "prompt": "Four unlit lanterns lined on a dark wooden shelf, quiet and symbolic."
   },
   {
-    "name": "t33_a5_14_vault_door",
-    "act": 5,
-    "sentences": "5.05#2",
-    "desc": "Hồi 5 Tập 38 (vault_door): Cộng đồng không thể an toàn nếu mỗi người dân chỉ biết chăm sóc cho mảnh vườn riêng của mì...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
-  },
-  {
-    "name": "t33_a5_15_resilience",
+    "name": "t33_a5_14_perfect_suburb_street_dusk_windows",
     "act": 5,
     "sentences": "5.05#3",
-    "desc": "Hồi 5 Tập 38 (resilience): Để bảo vệ chính mình và những người thân yêu trước những cạm bẫy tâm lý đen tối của xã hội...",
-    "prompt": "Serene panoramic wide landscape of Strasshof, Vienna, Austria today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "desc": "Phố ngoại ô hoàn hảo lúc hoàng hôn, những ô cửa sáng ấm.",
+    "prompt": "Picture-perfect suburban street at dusk with warm lit windows, calm facade hiding a danger."
   },
   {
-    "name": "t33_a5_16_escape",
+    "name": "t33_a5_15_threadwork_birdcage_dim_room",
     "act": 5,
-    "sentences": "5.06#1",
-    "desc": "Hồi 5 Tập 38 (escape): Bài học thứ nhất: Cảnh giác trước “Ảo tưởng an toàn ngoại ô” và sự thờ ơ tập thể....",
-    "prompt": "Serene panoramic wide landscape of Strasshof, Vienna, Austria today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#4,5.05#5",
+    "desc": "Chiếc lồng chim dệt từ sợi chỉ đen treo trong phòng mờ.",
+    "prompt": "Ornate birdcage woven from thin dark threads hanging in a dim room, delicate and menacing."
   },
   {
-    "name": "t33_a5_17_underground_dungeon",
+    "name": "t33_a5_16_porch_light_front_door_opening",
     "act": 5,
-    "sentences": "5.06#2",
-    "desc": "Hồi 5 Tập 38 (underground_dungeon): Bài học thứ hai: Nhận diện thủ thuật “Kiểm soát cưỡng ép” và sự bạo hành tâm lý phi thể xá...",
-    "prompt": "Serene panoramic wide landscape of Strasshof, Vienna, Austria today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#6,5.05#7",
+    "desc": "Cửa trước mở ra ánh sáng ấm lúc đêm, hành động giúp người hoạn nạn.",
+    "prompt": "Front door opening to warm light on a night porch with a welcoming empty doorway."
   },
   {
-    "name": "t33_a5_18_vault_door",
+    "name": "t33_a5_17_lighthouse_stormy_dawn_steady_beam",
     "act": 5,
-    "sentences": "5.06#3",
-    "desc": "Hồi 5 Tập 38 (vault_door): Chiếc lồng giam đáng sợ nhất không chỉ được xây bằng bê tông cách âm, mà được dệt nên từ s...",
-    "prompt": "Serene panoramic wide landscape of Strasshof, Vienna, Austria today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#8,5.05#9",
+    "desc": "Ngọn hải đăng giữa bình minh bão tố, chùm sáng không tắt.",
+    "prompt": "Lighthouse on a rocky coast at stormy dawn with a steady beam cutting through clouds."
   },
   {
-    "name": "t33_a5_19_resilience",
+    "name": "t33_a5_18_plain_brass_compass_dark_wood",
     "act": 5,
-    "sentences": "5.07#1",
-    "desc": "Hồi 5 Tập 38 (resilience): Đừng bao giờ vì bảo vệ sự bình yên vụn vặt của bản thân mà thờ ơ trước những dấu hiệu nguy...",
-    "prompt": "Serene panoramic wide landscape of Strasshof, Vienna, Austria today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#10",
+    "desc": "La bàn đồng trơn trên mặt gỗ tối, trực giác sinh tồn.",
+    "prompt": "Plain brass compass with no markings on dark wood, needle glinting in lamp light, close-up."
   },
   {
-    "name": "t33_a5_20_escape",
+    "name": "t33_a5_19_sunrise_open_meadow_hills_birds",
     "act": 5,
-    "sentences": "5.07#2",
-    "desc": "Hồi 5 Tập 38 (escape): Bài học thứ tư: Nuôi dưỡng “Pháo đài tự do nội tâm” trước mọi nghịch cảnh cùng cực....",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#11,5.05#12",
+    "desc": "Bình minh trên đồng cỏ Áo, đồi xa và đàn chim, chiến thắng cái ác.",
+    "prompt": "Sunrise over an open Austrian meadow with distant hills and a flock of birds, warm hopeful light."
   },
   {
-    "name": "t33_a5_21_underground_dungeon",
+    "name": "t33_a5_20_studio_microphone_amber_light_chair",
     "act": 5,
-    "sentences": "5.07#3",
-    "desc": "Hồi 5 Tập 38 (underground_dungeon): Hãy luôn lắng nghe trực giác sinh tồn bên trong bạn, bởi trực giác chính là chiếc la bàn n...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#13,5.05#14",
+    "desc": "Phòng thu với micro cổ điển và ghế trống, ánh hổ phách ấm.",
+    "prompt": "Podcast studio with a vintage microphone and an empty chair in soft amber light, warm and quiet."
   },
   {
-    "name": "t33_a5_22_vault_door",
+    "name": "t33_a5_21_amber_eyes_over_closed_dossier",
     "act": 5,
-    "sentences": "5.08#1",
-    "desc": "Hồi 5 Tập 38 (vault_door): Tự do đích thực không chỉ là phá tung cánh cửa sắt hầm ngầm, mà là dũng cảm tha thứ để tâm...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t33_a5_23_resilience",
-    "act": 5,
-    "sentences": "5.08#2",
-    "desc": "Hồi 5 Tập 38 (resilience): Cảm ơn quý vị đã đồng hành cùng Amber eyes trong tập hồ sơ giải phẫu tâm lý học đặc biệt n...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
-  },
-  {
-    "name": "t33_a5_24_escape",
-    "act": 5,
-    "sentences": "5.08#3",
-    "desc": "Hồi 5 Tập 38 (escape): Hãy nhấn đăng ký kênh, bật chuông thông báo và chia sẻ góc nhìn sâu sắc của quý vị ở phần ...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#15",
+    "desc": "Đôi mắt hổ phách trong bóng tối phía trên hồ sơ khép lại, thẻ kết.",
+    "prompt": "Pair of glowing amber tiger eyes in darkness above a closed dossier with a completely blank cover and no writing at all, closing card."
   }
 ]

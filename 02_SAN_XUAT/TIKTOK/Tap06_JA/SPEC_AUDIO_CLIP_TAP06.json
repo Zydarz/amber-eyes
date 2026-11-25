@@ -1,840 +1,840 @@
 {
-  "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 06 (JA) — sinh tự động bởi .work/_build_tk_tap06.py.",
-  "_episode": "Tap06",
-  "_language": "JA",
-  "_title": "道化師の笑顔と床下の29の秘密",
-  "_measured_rates": {
-    "C": 0.1805,
-    "D": 0.1729,
-    "H": 0.1614,
-    "N1": 0.1507,
-    "N2": 0.1588
+ "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 06 (JA) — sinh tự động bởi .work/_build_tk_tap06.py.",
+ "_episode": "Tap06",
+ "_language": "JA",
+ "_title": "道化師の笑顔と床下の29の秘密",
+ "_measured_rates": {
+  "C": 0.1805,
+  "D": 0.1729,
+  "H": 0.1614,
+  "N1": 0.1507,
+  "N2": 0.1588
+ },
+ "_clips_summary": [
+  {
+   "clip": "TK1",
+   "title": "道化師の笑顔と完璧な市民の仮面",
+   "signs": [
+    9,
+    1
+   ],
+   "lines_count": 8,
+   "est_duration_s": 89.3
   },
-  "_clips_summary": [
-    {
-      "clip": "TK1",
-      "title": "道化師の笑顔と完璧な市民の仮面",
-      "signs": [
-        9,
-        1
-      ],
-      "lines_count": 8,
-      "est_duration_s": 89.3
-    },
-    {
-      "clip": "TK2",
-      "title": "手錠の奇術という罠と不変の心理的署名",
-      "signs": [
-        7,
-        8
-      ],
-      "lines_count": 9,
-      "est_duration_s": 81.9
-    },
-    {
-      "clip": "TK3",
-      "title": "警察を挑発する怪物と誇大自己愛の暴走",
-      "signs": [
-        4,
-        8
-      ],
-      "lines_count": 9,
-      "est_duration_s": 84.0
-    },
-    {
-      "clip": "TK4",
-      "title": "床下の26の秘密と極限の精神分断",
-      "signs": [
-        3,
-        2
-      ],
-      "lines_count": 9,
-      "est_duration_s": 82.3
-    },
-    {
-      "clip": "TK5",
-      "title": "日常に潜む4つの生存危険信号",
-      "signs": [
-        10
-      ],
-      "lines_count": 10,
-      "est_duration_s": 80.8
-    }
-  ],
-  "clips": {
-    "TK1": {
-      "title": "道化師の笑顔と完璧な市民の仮面",
-      "theme": "ハロー効果（後光効果）と社会集団の致命的死角",
-      "signs": [
-        9,
-        1
-      ],
-      "total_est_duration_s": 89.3,
-      "bgm": "bgm_sub_drone.mp3",
-      "bgm_desc": "第1幕 — 本編BGM: bgm_sub_drone.mp3",
-      "sfx": [
-        "amb_suburban_evening.wav（環境音）",
-        "fx_camera_flash.wav",
-        "fx_crowd_applause.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "after_id": "TK1.01#1",
-          "text": "模範市民という完璧な社会的仮面",
-          "dur_s": 3.0
-        },
-        {
-          "after_id": "TK1.01#3",
-          "text": "大統領シークレットサービス特別許可証",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK1.01#4",
-          "text": "小児病棟を慰問する慈善の道化師ポゴ",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK1.01#5",
-          "text": "社会的地位によって織り成された捕食の仮面",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK1.01#7",
-          "text": "自己催眠による良心の麻痺と完全正当化",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK1.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_clown_mirror_chiaroscuro",
-          "motion": "still",
-          "text": "大統領夫人との握手、道化師の仮面、そして床下に埋められた29の戦慄の秘密。",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 6.47
-        },
-        {
-          "clip_line_id": "TK1.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_polish_parade_chicago_1978",
-          "motion": "pan",
-          "text": "1978年5月6日、シカゴで開催されたポーランド憲法記念日パレードにおいて、身なりの整った中年男性が、ロザリン・カーターアメリカ合衆国大統領夫人と自信に満ちた笑みで握手を交わしました。",
-          "src_script": "1.02#1",
-          "est_duration_s": 15.45
-        },
-        {
-          "clip_line_id": "TK1.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_secret_service_pin_handshake",
-          "motion": "push",
-          "text": "その男性の仕立ての良いスーツの襟元には、厳格な身元調査を経てアメリカ合衆国シークレットサービスから直接支給された、特別な保安バッジが光っていました。",
-          "src_script": "1.02#2",
-          "est_duration_s": 12.54
-        },
-        {
-          "clip_line_id": "TK1.01#4",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_clown_costume_closet",
-          "motion": "still",
-          "text": "そして何よりも人々の尊敬を集めていたのは、彼が「道化師ポゴ」と呼ばれる色鮮やかな衣装に身を包み、地域社会に奉仕する慈善家であったことです。",
-          "src_script": "1.02#6",
-          "est_duration_s": 11.74
-        },
-        {
-          "clip_line_id": "TK1.01#5",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "pull",
-          "text": "この種の捕食者がまとう仮面は、世捨て人のような孤独ではなく、まさに社会的名声や慈善活動という派手な舞台装置によって織り成されます。",
-          "src_script": "1.15#2",
-          "est_duration_s": 12.43
-        },
-        {
-          "clip_line_id": "TK1.01#6",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_clown_mirror_chiaroscuro",
-          "motion": "push",
-          "text": "ゲイシーの心理構造において、道化師ポゴの衣装を身にまとい、政治エリートと握手を交わす行為は、二つの重要な機能を果たしていました。",
-          "src_script": "1.15#3",
-          "est_duration_s": 12.25
-        },
-        {
-          "clip_line_id": "TK1.01#7",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "still",
-          "text": "第二に、それは自己催眠のメカニズムとして機能し、自らをすべての道徳や法規を超越した偉大な特権者であると確信させるための道具でした。",
-          "src_script": "1.15#5",
-          "est_duration_s": 12.43
-        },
-        {
-          "clip_line_id": "TK1.01#8",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.97
-        }
-      ]
-    },
-    "TK2": {
-      "title": "手錠の奇術という罠と不変の心理的署名",
-      "theme": "犯行手口（MO）の進化と不変の心理的シグネチャー",
-      "signs": [
-        7,
-        8
-      ],
-      "total_est_duration_s": 81.9,
-      "bgm": "bgm_jazz_noir.mp3",
-      "bgm_desc": "第2幕 — 本編BGM: bgm_jazz_noir.mp3",
-      "sfx": [
-        "amb_dark_drone.wav（環境音）",
-        "fx_handcuff_click.wav",
-        "fx_door_creak.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "after_id": "TK2.01#1",
-          "text": "致命的な『手錠の奇術』という捕食の罠",
-          "dur_s": 3.0
-        },
-        {
-          "after_id": "TK2.01#3",
-          "text": "犯行手口（MO）：進化し続ける捕食技術",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK2.01#5",
-          "text": "高給求人の罠と完全な抵抗不能状態",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK2.01#6",
-          "text": "決して変わることのない歪んだ心理的署名",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK2.01#8",
-          "text": "自宅床下を巨大な墓場と化す狂気の支配欲",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK2.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "still",
-          "text": "手錠と奇術の罠。33名の命を奪った戦慄の捕食手口。",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 4.54
-        },
-        {
-          "clip_line_id": "TK2.01#2",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "still",
-          "text": "現場の証拠から、私たちはジョン・ウェイン・ゲイシーの手口である「MO」と、不変の「心理的シグネチャー」を明確に分離することができました。",
-          "src_script": "2.09#1",
-          "est_duration_s": 12.36
-        },
-        {
-          "clip_line_id": "TK2.01#3",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_pharmacy_counters_renovation",
-          "motion": "pan",
-          "text": "犯行の手口であるMOにおいて、彼は標的を制圧し逃走を容易にするため、技術を進化させ続けました。",
-          "src_script": "2.09#2",
-          "est_duration_s": 8.73
-        },
-        {
-          "clip_line_id": "TK2.01#4",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_pharmacy_counters_renovation",
-          "motion": "pull",
-          "text": "彼は高給の建設作業を持ちかけて若い獲物を誘い込み、酒や大麻を勧めて肉体的抵抗力を麻痺させました。",
-          "src_script": "2.09#3",
-          "est_duration_s": 8.9
-        },
-        {
-          "clip_line_id": "TK2.01#5",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "push",
-          "text": "そして「手錠の奇術」と称する手品を披露し、脱出方法を見せると偽って獲物自身に手錠をかけさせ、無抵抗の状態に追い込みました。",
-          "src_script": "2.09#4",
-          "est_duration_s": 11.15
-        },
-        {
-          "clip_line_id": "TK2.01#6",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "still",
-          "text": "これに対し、彼の心理的署名である「シグネチャー」は、決して変わることがありませんでした。",
-          "src_script": "2.09#5",
-          "est_duration_s": 8.31
-        },
-        {
-          "clip_line_id": "TK2.01#7",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_highschool_ring_jas",
-          "motion": "pull",
-          "text": "それは、卒業リングや運転免許証といった戦利品を手元に保管し、それらを眺めることで妄想の飢餓を満たす行為でした。",
-          "src_script": "2.09#7",
-          "est_duration_s": 10.21
-        },
-        {
-          "clip_line_id": "TK2.01#8",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_crawlspace_trapdoor_opened",
-          "motion": "push",
-          "text": "そして何より異常だったのは、自宅の床下を墓場に選び、自らが命を奪った犠牲者たちの上を日常的に歩き回るという倒錯した支配感でした。",
-          "src_script": "2.09#8",
-          "est_duration_s": 11.77
-        },
-        {
-          "clip_line_id": "TK2.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.97
-        }
-      ]
-    },
-    "TK3": {
-      "title": "警察を挑発する怪物と誇大自己愛の暴走",
-      "theme": "悪性自己愛と捜査機関を手玉に取る全能妄想",
-      "signs": [
-        4,
-        8
-      ],
-      "total_est_duration_s": 84.0,
-      "bgm": "bgm_jazz_noir.mp3",
-      "bgm_desc": "第2幕 — 本編BGM: bgm_jazz_noir.mp3",
-      "sfx": [
-        "amb_bar.wav（環境音）",
-        "fx_car_drive.wav",
-        "fx_glass_clink.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "after_id": "TK3.01#1",
-          "text": "デスプレーンズ警察による24時間体制の完全尾行",
-          "dur_s": 3.0
-        },
-        {
-          "after_id": "TK3.01#3",
-          "text": "尾行中の捜査官にビールを振る舞う不敵な態度",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK3.01#4",
-          "text": "「ご苦労だが君たちが何かを見つけることなどない」",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK3.01#5",
-          "text": "自己愛性精神病質者に見られる権力の過剰代償",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK3.01#8",
-          "text": "国家権力すら支配できるという破滅的全能妄想",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK3.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "still",
-          "text": "尾行警察の窓を叩き、酒を奢り高笑いした怪物。「君たちに何も見つけられないさ」",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 6.63
-        },
-        {
-          "clip_line_id": "TK3.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_gas_station_neon_midnight",
-          "motion": "pan",
-          "text": "2台の覆面パトカーが、早朝から深夜の凍える寒さの中まで、ゲイシーのオールズモビルを車間を詰めて追跡し続けました。",
-          "src_script": "2.10#4",
-          "est_duration_s": 9.64
-        },
-        {
-          "clip_line_id": "TK3.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "push",
-          "text": "凍てつく冬の夜には車を止め、尾行車両の窓をノックして、捜査員たちにレストランで一緒に食事をしようと気さくに誘いかけました。",
-          "src_script": "2.10#8",
-          "est_duration_s": 10.45
-        },
-        {
-          "clip_line_id": "TK3.01#4",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "still",
-          "text": "彼は豪快に笑いながらビールをおごり、「ご苦労なことだが、君たちが何かを見つけることなど絶対にないさ」と言い放ちました。",
-          "src_script": "2.10#9",
-          "est_duration_s": 10.22
-        },
-        {
-          "clip_line_id": "TK3.01#5",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "pull",
-          "text": "捜査官に酒を振る舞い露骨に挑発する行動は、悪性自己愛者に見られる「権力の過剰代償」の極端な現れです。",
-          "src_script": "2.11#1",
-          "est_duration_s": 9.72
-        },
-        {
-          "clip_line_id": "TK3.01#6",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_police_entry_summerdale",
-          "motion": "push",
-          "text": "ゲイシーにとって、警察部隊全体に追跡されている状況は恐怖ではなく、最高レベルのアドレナリン放出をもたらす刺激でした。",
-          "src_script": "2.11#2",
-          "est_duration_s": 11.17
-        },
-        {
-          "clip_line_id": "TK3.01#7",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_diner_booth_confrontation",
-          "motion": "still",
-          "text": "彼は法執行官たちを、自らの圧倒的な知性を鑑賞するために集まった観客であると見なしていたのです。",
-          "src_script": "2.11#3",
-          "est_duration_s": 9.18
-        },
-        {
-          "clip_line_id": "TK3.01#8",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "pull",
-          "text": "追跡者の感情を自らの意のままに操ることで、自分は法の手の届かない無敵の支配者であるという全能妄想に浸り続けました。",
-          "src_script": "2.11#4",
-          "est_duration_s": 10.99
-        },
-        {
-          "clip_line_id": "TK3.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.97
-        }
-      ]
-    },
-    "TK4": {
-      "title": "床下の26の秘密と極限の精神分断",
-      "theme": "精神の分断（コンパートメンタライゼーション）と人間性の剥奪",
-      "signs": [
-        3,
-        2
-      ],
-      "total_est_duration_s": 82.3,
-      "bgm": "bgm_cellar_wind.mp3",
-      "bgm_desc": "第3幕 — 本編BGM: bgm_cellar_wind.mp3",
-      "sfx": [
-        "amb_cellar_drip.wav（環境音）",
-        "fx_shovel_dig.wav",
-        "fx_bone_tap.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "after_id": "TK4.01#1",
-          "text": "サマーデール通り8213番地・床下這い込み空間の発掘",
-          "dur_s": 3.0
-        },
-        {
-          "after_id": "TK4.01#3",
-          "text": "墓場の真上に位置する団欒のリビングルーム",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK4.01#4",
-          "text": "床下の狭小な土中から発見された26体の遺体",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK4.01#6",
-          "text": "精神の分断（コンパートメンタライゼーション）",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK4.01#8",
-          "text": "殺戮直後にシャワーを浴び家族と団欒する病理",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK4.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_crawlspace_subterranean_tunnel",
-          "motion": "still",
-          "text": "26体の遺体の上で夕食をとり熟睡する。悪性自己愛者の異常な精神分断。",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.99
-        },
-        {
-          "clip_line_id": "TK4.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_forensic_trowel_damp_soil",
-          "motion": "pan",
-          "text": "掘り始めてわずか数分後、捜査員の指先は土中に深く埋もれていた衣服の残骸と人骨に触れました。",
-          "src_script": "3.08#1",
-          "est_duration_s": 7.86
-        },
-        {
-          "clip_line_id": "TK4.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_crawlspace_trapdoor_opened",
-          "motion": "push",
-          "text": "ゲイシーが友人をもてなしていた暖かいリビングの真下、毎晩眠りについていたベッドの真下は、罪なき少年たちの巨大な地下墓地だったのです。",
-          "src_script": "3.08#3",
-          "est_duration_s": 11.25
-        },
-        {
-          "clip_line_id": "TK4.01#4",
-          "role": "D",
-          "emotion": "neutral",
-          "speed_offset": -0.03,
-          "pause_after_s": 0.7,
-          "bg": "t6_flashlight_beam_lime_dust",
-          "motion": "still",
-          "text": "住宅の這い込み空間から、合計26体の遺体が折り重なるように発掘されたのです。",
-          "src_script": "3.10#4",
-          "est_duration_s": 7.27
-        },
-        {
-          "clip_line_id": "TK4.01#5",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_gacy_house_daylight_winter",
-          "motion": "pull",
-          "text": "自らが手にかけて命を奪った30名近い遺体の真上で、人間がいかにして何年も平然と日常を過ごすことができたのでしょうか。",
-          "src_script": "3.11#1",
-          "est_duration_s": 11.17
-        },
-        {
-          "clip_line_id": "TK4.01#6",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_psychological_mask_metaphor",
-          "motion": "push",
-          "text": "その答えは、精神病質者の脳内で極限まで作動していた「精神の分断（コンパートメンタライゼーション）」の病理にあります。",
-          "src_script": "3.11#2",
-          "est_duration_s": 11.17
-        },
-        {
-          "clip_line_id": "TK4.01#7",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_two_faces_silhouette",
-          "motion": "still",
-          "text": "ゲイシーは自らの意識の中に、決して交わることのない2つの完全に独立した引き出しを構築していました。",
-          "src_script": "3.11#3",
-          "est_duration_s": 9.54
-        },
-        {
-          "clip_line_id": "TK4.01#8",
-          "role": "C",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_crawlspace_subterranean_tunnel",
-          "motion": "pull",
-          "text": "地下で殺戮を終えた後でも、彼はシャワーを浴びてリビングに上がり、家族と何食わぬ顔で食事をし、深い眠りにつくことができたのです。",
-          "src_script": "3.11#8",
-          "est_duration_s": 12.07
-        },
-        {
-          "clip_line_id": "TK4.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.97
-        }
-      ]
-    },
-    "TK5": {
-      "title": "日常に潜む4つの生存危険信号",
-      "theme": "被害者学と日常に潜む4つの生存危険信号",
-      "signs": [
-        10
-      ],
-      "total_est_duration_s": 80.8,
-      "bgm": "bgm_cellar_wind.mp3",
-      "bgm_desc": "第5幕 — 本編BGM: bgm_cellar_wind.mp3",
-      "sfx": [
-        "amb_dark_drone.wav（環境音）",
-        "fx_clock_ticking.wav",
-        "fx_warning_bell.wav",
-        "fx_tension_tick.wav",
-        "fx_stinger.wav"
-      ],
-      "overlays": [
-        {
-          "after_id": "TK5.01#1",
-          "text": "日常に潜む4つの生存のための危険信号",
-          "dur_s": 3.0
-        },
-        {
-          "after_id": "TK5.01#3",
-          "text": "警告1：社会的地位や慈善の看板に惑わされない",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK5.01#5",
-          "text": "警告2：若年層を狙った不自然な高額求人の罠",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK5.01#7",
-          "text": "警告3：手品や冗談でも身体拘束を決して許さない",
-          "dur_s": 2.5
-        },
-        {
-          "after_id": "TK5.01#9",
-          "text": "警告4：初期の違和感と直感の警報を信じて逃げる",
-          "dur_s": 3.0
-        }
-      ],
-      "lines": [
-        {
-          "clip_line_id": "TK5.01#1",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.5,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "ジョン・ウェイン・ゲイシー事件の悲劇から導き出された、日常に潜む4つの生存危険信号。",
-          "src_script": "hook — không phải dữ kiện kịch bản",
-          "est_duration_s": 7.28
-        },
-        {
-          "clip_line_id": "TK5.01#2",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_charity_facade",
-          "motion": "still",
-          "text": "第1の赤い警告：慈善活動や社会的地位という眩い看板に対して常に警戒を怠らないこと。",
-          "src_script": "5.06#9",
-          "est_duration_s": 7.22
-        },
-        {
-          "clip_line_id": "TK5.01#3",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_clown_mirror_chiaroscuro",
-          "motion": "push",
-          "text": "時として、人道主義の仮面こそが、周囲の直感的な警戒心を麻痺させるために邪悪な人間によって意図的に構築された最も危険な盾となるのです。",
-          "src_script": "5.06#11",
-          "est_duration_s": 11.25
-        },
-        {
-          "clip_line_id": "TK5.01#4",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_pharmacy_counters_renovation",
-          "motion": "pan",
-          "text": "第2の赤い警告：経験の浅い若者を狙った不自然な高額報酬の求人罠に警戒すること。",
-          "src_script": "5.06#12",
-          "est_duration_s": 6.89
-        },
-        {
-          "clip_line_id": "TK5.01#5",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_deserted_parking_lot_snow",
-          "motion": "pull",
-          "text": "それは獲物を密室や孤立した環境へと誘い込み、抵抗力を奪うための典型的な罠なのです。",
-          "src_script": "5.06#14",
-          "est_duration_s": 7.22
-        },
-        {
-          "clip_line_id": "TK5.01#6",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "still",
-          "text": "第3の赤い警告：手品や悪ふざけを装って身体の自由や抵抗力を奪わせる行為を決して許さないこと。",
-          "src_script": "5.06#15",
-          "est_duration_s": 8.02
-        },
-        {
-          "clip_line_id": "TK5.01#7",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_trick_handcuffs",
-          "motion": "push",
-          "text": "安全な対人距離を常に保ち、十分な信頼関係のない相手からのいかなる身体的拘束の要求も毅然として拒絶してください。",
-          "src_script": "5.06#17",
-          "est_duration_s": 9.48
-        },
-        {
-          "clip_line_id": "TK5.01#8",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.6,
-          "bg": "t6_redflag_externalized_blame",
-          "motion": "still",
-          "text": "第4の赤い警告：直感的な不安に常に耳を傾け、初期の境界線侵犯を見逃さないこと。",
-          "src_script": "5.06#18",
-          "est_duration_s": 6.89
-        },
-        {
-          "clip_line_id": "TK5.01#9",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.7,
-          "bg": "t6_dossier_gacy_case_06",
-          "motion": "pull",
-          "text": "明白な理由が分からなくとも何らかの違和感や胸騒ぎを覚えたときは、自らの生存本能を信じ、直ちにその場から立ち去ってください。",
-          "src_script": "5.06#20",
-          "est_duration_s": 10.55
-        },
-        {
-          "clip_line_id": "TK5.01#10",
-          "role": "H",
-          "emotion": "neutral",
-          "speed_offset": -0.02,
-          "pause_after_s": 0.0,
-          "bg": "t6_closing_rose_closed_dossier",
-          "motion": "still",
-          "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
-          "src_script": "CTA — không phải dữ kiện kịch bản",
-          "est_duration_s": 5.97
-        }
-      ]
-    }
+  {
+   "clip": "TK2",
+   "title": "手錠の奇術という罠と不変の心理的署名",
+   "signs": [
+    7,
+    8
+   ],
+   "lines_count": 9,
+   "est_duration_s": 81.9
+  },
+  {
+   "clip": "TK3",
+   "title": "警察を挑発する怪物と誇大自己愛の暴走",
+   "signs": [
+    4,
+    8
+   ],
+   "lines_count": 9,
+   "est_duration_s": 84.0
+  },
+  {
+   "clip": "TK4",
+   "title": "床下の26の秘密と極限の精神分断",
+   "signs": [
+    3,
+    2
+   ],
+   "lines_count": 9,
+   "est_duration_s": 82.3
+  },
+  {
+   "clip": "TK5",
+   "title": "日常に潜む4つの生存危険信号",
+   "signs": [
+    10
+   ],
+   "lines_count": 10,
+   "est_duration_s": 80.8
   }
+ ],
+ "clips": {
+  "TK1": {
+   "title": "道化師の笑顔と完璧な市民の仮面",
+   "theme": "ハロー効果（後光効果）と社会集団の致命的死角",
+   "signs": [
+    9,
+    1
+   ],
+   "total_est_duration_s": 89.3,
+   "bgm": "bgm_sub_drone.mp3",
+   "bgm_desc": "第1幕 — 本編BGM: bgm_sub_drone.mp3",
+   "sfx": [
+    "amb_suburban_evening.wav（環境音）",
+    "fx_camera_flash.wav",
+    "fx_crowd_applause.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "after_id": "TK1.01#1",
+     "text": "模範市民という完璧な社会的仮面",
+     "dur_s": 3.0
+    },
+    {
+     "after_id": "TK1.01#3",
+     "text": "大統領シークレットサービス特別許可証",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK1.01#4",
+     "text": "小児病棟を慰問する慈善の道化師ポゴ",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK1.01#5",
+     "text": "社会的地位によって織り成された捕食の仮面",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK1.01#7",
+     "text": "自己催眠による良心の麻痺と完全正当化",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK1.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_clown_mirror_chiaroscuro",
+     "motion": "still",
+     "text": "大統領夫人との握手、道化師の仮面、そして床下に埋められた29の戦慄の秘密。",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 6.47
+    },
+    {
+     "clip_line_id": "TK1.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_polish_parade_chicago_1978",
+     "motion": "pan",
+     "text": "1978年5月6日、シカゴで開催されたポーランド憲法記念日パレードにおいて、身なりの整った中年男性が、ロザリン・カーターアメリカ合衆国大統領夫人と自信に満ちた笑みで握手を交わしました。",
+     "src_script": "1.02#1",
+     "est_duration_s": 15.45
+    },
+    {
+     "clip_line_id": "TK1.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_secret_service_pin_handshake",
+     "motion": "push",
+     "text": "その男性の仕立ての良いスーツの襟元には、厳格な身元調査を経てアメリカ合衆国シークレットサービスから直接支給された、特別な保安バッジが光っていました。",
+     "src_script": "1.02#2",
+     "est_duration_s": 12.54
+    },
+    {
+     "clip_line_id": "TK1.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_clown_costume_closet",
+     "motion": "still",
+     "text": "そして何よりも人々の尊敬を集めていたのは、彼が「道化師ポゴ」と呼ばれる色鮮やかな衣装に身を包み、地域社会に奉仕する慈善家であったことです。",
+     "src_script": "1.02#6",
+     "est_duration_s": 11.74
+    },
+    {
+     "clip_line_id": "TK1.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_metaphor",
+     "motion": "pull",
+     "text": "この種の捕食者がまとう仮面は、世捨て人のような孤独ではなく、まさに社会的名声や慈善活動という派手な舞台装置によって織り成されます。",
+     "src_script": "1.15#2",
+     "est_duration_s": 12.43
+    },
+    {
+     "clip_line_id": "TK1.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_clown_mirror_chiaroscuro",
+     "motion": "push",
+     "text": "ゲイシーの心理構造において、道化師ポゴの衣装を身にまとい、政治エリートと握手を交わす行為は、二つの重要な機能を果たしていました。",
+     "src_script": "1.15#3",
+     "est_duration_s": 12.25
+    },
+    {
+     "clip_line_id": "TK1.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_twin_silhouette",
+     "motion": "still",
+     "text": "第二に、それは自己催眠のメカニズムとして機能し、自らをすべての道徳や法規を超越した偉大な特権者であると確信させるための道具でした。",
+     "src_script": "1.15#5",
+     "est_duration_s": 12.43
+    },
+    {
+     "clip_line_id": "TK1.01#8",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.97
+    }
+   ]
+  },
+  "TK2": {
+   "title": "手錠の奇術という罠と不変の心理的署名",
+   "theme": "犯行手口（MO）の進化と不変の心理的シグネチャー",
+   "signs": [
+    7,
+    8
+   ],
+   "total_est_duration_s": 81.9,
+   "bgm": "bgm_jazz_noir.mp3",
+   "bgm_desc": "第2幕 — 本編BGM: bgm_jazz_noir.mp3",
+   "sfx": [
+    "amb_dark_drone.wav（環境音）",
+    "fx_handcuff_click.wav",
+    "fx_door_creak.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "after_id": "TK2.01#1",
+     "text": "致命的な『手錠の奇術』という捕食の罠",
+     "dur_s": 3.0
+    },
+    {
+     "after_id": "TK2.01#3",
+     "text": "犯行手口（MO）：進化し続ける捕食技術",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK2.01#5",
+     "text": "高給求人の罠と完全な抵抗不能状態",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK2.01#6",
+     "text": "決して変わることのない歪んだ心理的署名",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK2.01#8",
+     "text": "自宅床下を巨大な墓場と化す狂気の支配欲",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK2.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_redflag_trick_handcuffs",
+     "motion": "still",
+     "text": "手錠と奇術の罠。33名の命を奪った戦慄の捕食手口。",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 4.54
+    },
+    {
+     "clip_line_id": "TK2.01#2",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_psychological_mask_metaphor",
+     "motion": "still",
+     "text": "現場の証拠から、私たちはジョン・ウェイン・ゲイシーの手口である「MO」と、不変の「心理的シグネチャー」を明確に分離することができました。",
+     "src_script": "2.09#1",
+     "est_duration_s": 12.36
+    },
+    {
+     "clip_line_id": "TK2.01#3",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_pharmacy_counters_renovation",
+     "motion": "pan",
+     "text": "犯行の手口であるMOにおいて、彼は標的を制圧し逃走を容易にするため、技術を進化させ続けました。",
+     "src_script": "2.09#2",
+     "est_duration_s": 8.73
+    },
+    {
+     "clip_line_id": "TK2.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_pharmacy_counters_renovation",
+     "motion": "pull",
+     "text": "彼は高給の建設作業を持ちかけて若い獲物を誘い込み、酒や大麻を勧めて肉体的抵抗力を麻痺させました。",
+     "src_script": "2.09#3",
+     "est_duration_s": 8.9
+    },
+    {
+     "clip_line_id": "TK2.01#5",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk06_redflag_trick_handcuffs",
+     "motion": "push",
+     "text": "そして「手錠の奇術」と称する手品を披露し、脱出方法を見せると偽って獲物自身に手錠をかけさせ、無抵抗の状態に追い込みました。",
+     "src_script": "2.09#4",
+     "est_duration_s": 11.15
+    },
+    {
+     "clip_line_id": "TK2.01#6",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_twin_silhouette",
+     "motion": "still",
+     "text": "これに対し、彼の心理的署名である「シグネチャー」は、決して変わることがありませんでした。",
+     "src_script": "2.09#5",
+     "est_duration_s": 8.31
+    },
+    {
+     "clip_line_id": "TK2.01#7",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_highschool_ring_jas",
+     "motion": "pull",
+     "text": "それは、卒業リングや運転免許証といった戦利品を手元に保管し、それらを眺めることで妄想の飢餓を満たす行為でした。",
+     "src_script": "2.09#7",
+     "est_duration_s": 10.21
+    },
+    {
+     "clip_line_id": "TK2.01#8",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_crawlspace_trapdoor_opened",
+     "motion": "push",
+     "text": "そして何より異常だったのは、自宅の床下を墓場に選び、自らが命を奪った犠牲者たちの上を日常的に歩き回るという倒錯した支配感でした。",
+     "src_script": "2.09#8",
+     "est_duration_s": 11.77
+    },
+    {
+     "clip_line_id": "TK2.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.97
+    }
+   ]
+  },
+  "TK3": {
+   "title": "警察を挑発する怪物と誇大自己愛の暴走",
+   "theme": "悪性自己愛と捜査機関を手玉に取る全能妄想",
+   "signs": [
+    4,
+    8
+   ],
+   "total_est_duration_s": 84.0,
+   "bgm": "bgm_jazz_noir.mp3",
+   "bgm_desc": "第2幕 — 本編BGM: bgm_jazz_noir.mp3",
+   "sfx": [
+    "amb_bar.wav（環境音）",
+    "fx_car_drive.wav",
+    "fx_glass_clink.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "after_id": "TK3.01#1",
+     "text": "デスプレーンズ警察による24時間体制の完全尾行",
+     "dur_s": 3.0
+    },
+    {
+     "after_id": "TK3.01#3",
+     "text": "尾行中の捜査官にビールを振る舞う不敵な態度",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK3.01#4",
+     "text": "「ご苦労だが君たちが何かを見つけることなどない」",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK3.01#5",
+     "text": "自己愛性精神病質者に見られる権力の過剰代償",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK3.01#8",
+     "text": "国家権力すら支配できるという破滅的全能妄想",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK3.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_diner_booth_confrontation",
+     "motion": "still",
+     "text": "尾行警察の窓を叩き、酒を奢り高笑いした怪物。「君たちに何も見つけられないさ」",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 6.63
+    },
+    {
+     "clip_line_id": "TK3.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_gas_station_neon_midnight",
+     "motion": "pan",
+     "text": "2台の覆面パトカーが、早朝から深夜の凍える寒さの中まで、ゲイシーのオールズモビルを車間を詰めて追跡し続けました。",
+     "src_script": "2.10#4",
+     "est_duration_s": 9.64
+    },
+    {
+     "clip_line_id": "TK3.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_diner_booth_confrontation",
+     "motion": "push",
+     "text": "凍てつく冬の夜には車を止め、尾行車両の窓をノックして、捜査員たちにレストランで一緒に食事をしようと気さくに誘いかけました。",
+     "src_script": "2.10#8",
+     "est_duration_s": 10.45
+    },
+    {
+     "clip_line_id": "TK3.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_diner_booth_confrontation",
+     "motion": "still",
+     "text": "彼は豪快に笑いながらビールをおごり、「ご苦労なことだが、君たちが何かを見つけることなど絶対にないさ」と言い放ちました。",
+     "src_script": "2.10#9",
+     "est_duration_s": 10.22
+    },
+    {
+     "clip_line_id": "TK3.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_metaphor",
+     "motion": "pull",
+     "text": "捜査官に酒を振る舞い露骨に挑発する行動は、悪性自己愛者に見られる「権力の過剰代償」の極端な現れです。",
+     "src_script": "2.11#1",
+     "est_duration_s": 9.72
+    },
+    {
+     "clip_line_id": "TK3.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_police_entry_summerdale",
+     "motion": "push",
+     "text": "ゲイシーにとって、警察部隊全体に追跡されている状況は恐怖ではなく、最高レベルのアドレナリン放出をもたらす刺激でした。",
+     "src_script": "2.11#2",
+     "est_duration_s": 11.17
+    },
+    {
+     "clip_line_id": "TK3.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_diner_counter_officers",
+     "motion": "still",
+     "text": "彼は法執行官たちを、自らの圧倒的な知性を鑑賞するために集まった観客であると見なしていたのです。",
+     "src_script": "2.11#3",
+     "est_duration_s": 9.18
+    },
+    {
+     "clip_line_id": "TK3.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_psychological_mask_twin_silhouette",
+     "motion": "pull",
+     "text": "追跡者の感情を自らの意のままに操ることで、自分は法の手の届かない無敵の支配者であるという全能妄想に浸り続けました。",
+     "src_script": "2.11#4",
+     "est_duration_s": 10.99
+    },
+    {
+     "clip_line_id": "TK3.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.97
+    }
+   ]
+  },
+  "TK4": {
+   "title": "床下の26の秘密と極限の精神分断",
+   "theme": "精神の分断（コンパートメンタライゼーション）と人間性の剥奪",
+   "signs": [
+    3,
+    2
+   ],
+   "total_est_duration_s": 82.3,
+   "bgm": "bgm_cellar_wind.mp3",
+   "bgm_desc": "第3幕 — 本編BGM: bgm_cellar_wind.mp3",
+   "sfx": [
+    "amb_cellar_drip.wav（環境音）",
+    "fx_shovel_dig.wav",
+    "fx_bone_tap.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "after_id": "TK4.01#1",
+     "text": "サマーデール通り8213番地・床下這い込み空間の発掘",
+     "dur_s": 3.0
+    },
+    {
+     "after_id": "TK4.01#3",
+     "text": "墓場の真上に位置する団欒のリビングルーム",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK4.01#4",
+     "text": "床下の狭小な土中から発見された26体の遺体",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK4.01#6",
+     "text": "精神の分断（コンパートメンタライゼーション）",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK4.01#8",
+     "text": "殺戮直後にシャワーを浴び家族と団欒する病理",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK4.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_crawlspace_subterranean_tunnel",
+     "motion": "still",
+     "text": "26体の遺体の上で夕食をとり熟睡する。悪性自己愛者の異常な精神分断。",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.99
+    },
+    {
+     "clip_line_id": "TK4.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_forensic_trowel_damp_soil",
+     "motion": "pan",
+     "text": "掘り始めてわずか数分後、捜査員の指先は土中に深く埋もれていた衣服の残骸と人骨に触れました。",
+     "src_script": "3.08#1",
+     "est_duration_s": 7.86
+    },
+    {
+     "clip_line_id": "TK4.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_crawlspace_trapdoor_opened",
+     "motion": "push",
+     "text": "ゲイシーが友人をもてなしていた暖かいリビングの真下、毎晩眠りについていたベッドの真下は、罪なき少年たちの巨大な地下墓地だったのです。",
+     "src_script": "3.08#3",
+     "est_duration_s": 11.25
+    },
+    {
+     "clip_line_id": "TK4.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.7,
+     "bg": "tk06_flashlight_beam_lime_dust",
+     "motion": "still",
+     "text": "住宅の這い込み空間から、合計26体の遺体が折り重なるように発掘されたのです。",
+     "src_script": "3.10#4",
+     "est_duration_s": 7.27
+    },
+    {
+     "clip_line_id": "TK4.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_gacy_house_daylight_winter",
+     "motion": "pull",
+     "text": "自らが手にかけて命を奪った30名近い遺体の真上で、人間がいかにして何年も平然と日常を過ごすことができたのでしょうか。",
+     "src_script": "3.11#1",
+     "est_duration_s": 11.17
+    },
+    {
+     "clip_line_id": "TK4.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_compartmentalization_floor_section",
+     "motion": "push",
+     "text": "その答えは、精神病質者の脳内で極限まで作動していた「精神の分断（コンパートメンタライゼーション）」の病理にあります。",
+     "src_script": "3.11#2",
+     "est_duration_s": 11.17
+    },
+    {
+     "clip_line_id": "TK4.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_two_faces_silhouette",
+     "motion": "still",
+     "text": "ゲイシーは自らの意識の中に、決して交わることのない2つの完全に独立した引き出しを構築していました。",
+     "src_script": "3.11#3",
+     "est_duration_s": 9.54
+    },
+    {
+     "clip_line_id": "TK4.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_crawlspace_subterranean_tunnel",
+     "motion": "pull",
+     "text": "地下で殺戮を終えた後でも、彼はシャワーを浴びてリビングに上がり、家族と何食わぬ顔で食事をし、深い眠りにつくことができたのです。",
+     "src_script": "3.11#8",
+     "est_duration_s": 12.07
+    },
+    {
+     "clip_line_id": "TK4.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.97
+    }
+   ]
+  },
+  "TK5": {
+   "title": "日常に潜む4つの生存危険信号",
+   "theme": "被害者学と日常に潜む4つの生存危険信号",
+   "signs": [
+    10
+   ],
+   "total_est_duration_s": 80.8,
+   "bgm": "bgm_cellar_wind.mp3",
+   "bgm_desc": "第5幕 — 本編BGM: bgm_cellar_wind.mp3",
+   "sfx": [
+    "amb_dark_drone.wav（環境音）",
+    "fx_clock_ticking.wav",
+    "fx_warning_bell.wav",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "after_id": "TK5.01#1",
+     "text": "日常に潜む4つの生存のための危険信号",
+     "dur_s": 3.0
+    },
+    {
+     "after_id": "TK5.01#3",
+     "text": "警告1：社会的地位や慈善の看板に惑わされない",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK5.01#5",
+     "text": "警告2：若年層を狙った不自然な高額求人の罠",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK5.01#7",
+     "text": "警告3：手品や冗談でも身体拘束を決して許さない",
+     "dur_s": 2.5
+    },
+    {
+     "after_id": "TK5.01#9",
+     "text": "警告4：初期の違和感と直感の警報を信じて逃げる",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK5.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "ジョン・ウェイン・ゲイシー事件の悲劇から導き出された、日常に潜む4つの生存危険信号。",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "est_duration_s": 7.28
+    },
+    {
+     "clip_line_id": "TK5.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_redflag_charity_facade",
+     "motion": "still",
+     "text": "第1の赤い警告：慈善活動や社会的地位という眩い看板に対して常に警戒を怠らないこと。",
+     "src_script": "5.06#9",
+     "est_duration_s": 7.22
+    },
+    {
+     "clip_line_id": "TK5.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_clown_mirror_chiaroscuro",
+     "motion": "push",
+     "text": "時として、人道主義の仮面こそが、周囲の直感的な警戒心を麻痺させるために邪悪な人間によって意図的に構築された最も危険な盾となるのです。",
+     "src_script": "5.06#11",
+     "est_duration_s": 11.25
+    },
+    {
+     "clip_line_id": "TK5.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_pharmacy_counters_renovation",
+     "motion": "pan",
+     "text": "第2の赤い警告：経験の浅い若者を狙った不自然な高額報酬の求人罠に警戒すること。",
+     "src_script": "5.06#12",
+     "est_duration_s": 6.89
+    },
+    {
+     "clip_line_id": "TK5.01#5",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_deserted_parking_lot_snow",
+     "motion": "pull",
+     "text": "それは獲物を密室や孤立した環境へと誘い込み、抵抗力を奪うための典型的な罠なのです。",
+     "src_script": "5.06#14",
+     "est_duration_s": 7.22
+    },
+    {
+     "clip_line_id": "TK5.01#6",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_handcuff_trick_demonstration",
+     "motion": "still",
+     "text": "第3の赤い警告：手品や悪ふざけを装って身体の自由や抵抗力を奪わせる行為を決して許さないこと。",
+     "src_script": "5.06#15",
+     "est_duration_s": 8.02
+    },
+    {
+     "clip_line_id": "TK5.01#7",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_handcuff_trick_demonstration",
+     "motion": "push",
+     "text": "安全な対人距離を常に保ち、十分な信頼関係のない相手からのいかなる身体的拘束の要求も毅然として拒絶してください。",
+     "src_script": "5.06#17",
+     "est_duration_s": 9.48
+    },
+    {
+     "clip_line_id": "TK5.01#8",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk06_redflag_externalized_blame",
+     "motion": "still",
+     "text": "第4の赤い警告：直感的な不安に常に耳を傾け、初期の境界線侵犯を見逃さないこと。",
+     "src_script": "5.06#18",
+     "est_duration_s": 6.89
+    },
+    {
+     "clip_line_id": "TK5.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.7,
+     "bg": "tk06_dossier_gacy_case_06",
+     "motion": "pull",
+     "text": "明白な理由が分からなくとも何らかの違和感や胸騒ぎを覚えたときは、自らの生存本能を信じ、直ちにその場から立ち去ってください。",
+     "src_script": "5.06#20",
+     "est_duration_s": 10.55
+    },
+    {
+     "clip_line_id": "TK5.01#10",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk06_closing_rose_closed_dossier",
+     "motion": "still",
+     "text": "アンバー・アイズ第6話。完全版ドキュメンタリーはプロフィールのリンクから。",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "est_duration_s": 5.97
+    }
+   ]
+  }
+ }
 }

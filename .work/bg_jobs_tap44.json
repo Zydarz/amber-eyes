@@ -1,1066 +1,1171 @@
 [
   {
-    "name": "t44_a1_01_thurston_high",
-    "act": 1,
-    "sentences": "1.01#1",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Vào cuối thập niên một chín chín mươi, thị trấn Springfield thuộc bang Oregon là một cộng ...",
-    "prompt": "Cinematic establishing wide shot of Springfield, Oregon, USA, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t44_a1_02_willamette_valley",
-    "act": 1,
-    "sentences": "1.01#2",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Bao quanh bởi những cánh rừng thông xanh ngút ngàn và rặng núi Cascade hùng vĩ, cuộc sống ...",
-    "prompt": "Cinematic establishing wide shot of Springfield, Oregon, USA, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t44_a1_03_schizophrenia",
-    "act": 1,
-    "sentences": "1.01#3",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Những dãy nhà gỗ xinh xắn với hàng rào sơn trắng mở ra những con phố rợp bóng cây, nơi con...",
-    "prompt": "Cinematic establishing wide shot of Springfield, Oregon, USA, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
-  },
-  {
-    "name": "t44_a1_04_hallucinations",
+    "name": "t44_a1_01_oregon_suburb_aerial_pines",
     "act": 1,
     "sentences": "1.02#1",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Họ tin rằng bạo lực và những thảm kịch kinh hoàng chỉ thuộc về những đô thị xa xôi đầy cạm...",
-    "prompt": "Cinematic establishing wide shot of Springfield, Oregon, USA, cold mist hovering over dark terrain at twilight, deep chiaroscuro noir shadows, distant amber lampposts."
+    "desc": "Toàn cảnh thị trấn Springfield, Oregon cuối thập niên 1990 giữa rừng thông.",
+    "prompt": "Cinematic aerial establishing shot of Springfield, Oregon in the late 1990s, tidy suburban rooftops nestled among endless evergreen pine forest under a soft grey morning sky."
   },
   {
-    "name": "t44_a1_05_thurston_high",
+    "name": "t44_a1_02_cascade_range_misty_forest",
     "act": 1,
     "sentences": "1.02#2",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Trường trung học Thurston được xem như trái tim rộn rã của cộng đồng, nơi ươm mầm cho nhữn...",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Rừng thông và dãy núi Cascade bao quanh thị trấn trong sương.",
+    "prompt": "Wide misty landscape of the Cascade mountain range and dense Oregon pine forest, a lone quiet two-lane road winding through the fog."
   },
   {
-    "name": "t44_a1_06_willamette_valley",
+    "name": "t44_a1_03_white_picket_fence_street",
     "act": 1,
     "sentences": "1.02#3",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Thế nhưng, chính sự ngây thơ tập thể ấy đã dệt nên một “Điểm mù xã hội” vô cùng nguy hiểm....",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Phố rợp bóng cây với nhà gỗ và hàng rào trắng.",
+    "prompt": "Peaceful tree-lined residential street in 1990s Oregon, small wooden houses with white picket fences and leafy maples, golden hour, no people."
   },
   {
-    "name": "t44_a1_07_schizophrenia",
+    "name": "t44_a1_04_neighbors_talking_over_fence_dusk",
     "act": 1,
-    "sentences": "1.03#1",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Sự yên ả của nếp sống thường nhật đã vô tình làm tê liệt phản xạ cảnh giác tự nhiên của co...",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#4,1.02#5",
+    "desc": "Hàng xóm trò chuyện thân thiện, tin rằng thảm kịch chỉ ở nơi xa.",
+    "prompt": "Distant silhouettes of two neighbors chatting across a garden fence at dusk in a small town, warm windows glowing behind them, faces lost in shadow."
   },
   {
-    "name": "t44_a1_08_hallucinations",
+    "name": "t44_a1_05_thurston_high_school_morning_exterior",
     "act": 1,
-    "sentences": "1.03#2",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Ai cũng tin rằng mình hiểu rõ đứa trẻ sống ở căn nhà bên cạnh, tin rằng phía sau những khu...",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#6",
+    "desc": "Trường Thurston, trái tim cộng đồng, trong buổi sáng yên ả.",
+    "prompt": "Exterior of a 1990s American brick high school in Springfield, Oregon on a quiet foggy morning, empty front lawn, flagpole, plain entrance doors and walls completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a1_09_thurston_high",
+    "name": "t44_a1_06_one_dark_window_among_lit_ones",
     "act": 1,
-    "sentences": "1.03#3",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Chính sự mất cảnh giác tập thể ấy đã biến ngôi trường trung học thanh bình thành một ngư t...",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.02#7",
+    "desc": "Điểm mù xã hội: một ô cửa tối giữa những ô cửa sáng đèn.",
+    "prompt": "Row of suburban houses at night, every window glowing warm yellow except one single pitch-dark window, symbolic of a social blind spot."
   },
   {
-    "name": "t44_a1_10_willamette_valley",
+    "name": "t44_a1_07_porch_light_sleepy_town_evening",
+    "act": 1,
+    "sentences": "1.02#8,1.02#9",
+    "desc": "Niềm tin mặc định khiến cả thị trấn mất cảnh giác.",
+    "prompt": "Empty porch with a rocking chair and a glowing porch lamp on a drowsy small-town evening, drifting mist, a sense of complacent calm."
+  },
+  {
+    "name": "t44_a1_08_curtained_windows_family_homes_night",
+    "act": 1,
+    "sentences": "1.02#10",
+    "desc": "Những khung cửa sổ sáng đèn che giấu điều không ai biết.",
+    "prompt": "Night view across a lawn of lit windows with drawn curtains in a wooden suburban house, soft warm light hiding what lies behind it."
+  },
+  {
+    "name": "t44_a1_09_school_long_shadow_empty_lawn_dusk",
+    "act": 1,
+    "sentences": "1.02#11,1.02#12",
+    "desc": "Ngôi trường bình yên với chiếc bóng dài, báo hiệu cơn bão.",
+    "prompt": "High school building at dusk with a long ominous shadow stretching across an empty lawn, storm clouds gathering behind the roof."
+  },
+  {
+    "name": "t44_a1_10_foggy_morning_school_parking_lot_1998",
     "act": 1,
     "sentences": "1.04#1",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Sáng ngày hai mươi mốt tháng năm năm một chín chín mươi tám, bầu trời Springfield chìm tro...",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "desc": "Sáng 21/5/1998 sương lạnh phủ bãi xe trước trường.",
+    "prompt": "Cold damp foggy morning in May 1998 at a high school parking lot in Oregon, parked family cars, pale light, nobody in sight."
   },
   {
-    "name": "t44_a1_11_schizophrenia",
+    "name": "t44_a1_11_busy_school_cafeteria_silhouettes",
     "act": 1,
-    "sentences": "1.04#2",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Tại căn tin trường trung học Thurston, hơn bốn trăm học sinh đang tụ tập ăn sáng, trò chuy...",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.04#2,1.04#3",
+    "desc": "Căn tin đông học sinh ăn sáng và trò chuyện.",
+    "prompt": "Crowded 1990s school cafeteria seen from a distance, long metal tables, steaming trays, many teenage silhouettes with no visible faces, warm bustle."
   },
   {
-    "name": "t44_a1_12_hallucinations",
+    "name": "t44_a1_12_hourglass_on_empty_cafeteria_table",
     "act": 1,
-    "sentences": "1.04#3",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Tiếng cười đùa vang vọng khắp các dãy bàn ăn kim loại, hòa cùng mùi bánh mì nướng và tiếng...",
-    "prompt": "Atmospheric street scene in Springfield, Oregon, USA, subtle social blindspot concept, misty drizzle, faceless pedestrian silhouettes, 1990s realistic graphic novel tone."
+    "sentences": "1.04#4",
+    "desc": "Chiếc đồng hồ cát số phận đếm ngược những phút bình yên cuối.",
+    "prompt": "A sand hourglass standing on an empty cafeteria table, last grains falling, dim light, background blurred rows of tables."
   },
   {
-    "name": "t44_a1_13_thurston_high",
+    "name": "t44_a1_13_long_hallway_silhouette_back_turned",
     "act": 1,
-    "sentences": "1.05#1",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Bước chân của một thiếu niên mười lăm tuổi trong chiếc áo khoác dài sẫm màu đang lặng lẽ t...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#5",
+    "desc": "Một bóng thiếu niên áo khoác dài lặng lẽ đi dọc hành lang.",
+    "prompt": "Long dim school hallway, a single teenage silhouette in a long dark coat walking away from camera toward distant double doors, face never visible, arms empty at his sides."
   },
   {
-    "name": "t44_a1_14_willamette_valley",
+    "name": "t44_a1_14_heavy_dark_coat_on_hallway_bench",
     "act": 1,
-    "sentences": "1.05#2",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Phía dưới lớp áo khoác trùm kín ấy không phải là sách vở, mà là một kho vũ khí chết chóc đ...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.04#6",
+    "desc": "Lớp áo khoác trùm kín che giấu điều đáng sợ.",
+    "prompt": "A heavy long dark coat draped over a bench in a gloomy hallway, shapeless and ominous, bare light from a high window."
   },
   {
-    "name": "t44_a1_15_schizophrenia",
+    "name": "t44_a1_15_cafeteria_doors_haze_light_flare",
     "act": 1,
-    "sentences": "1.05#3",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Khi tiếng súng đầu tiên chát chúa vang lên xé toạc không gian tĩnh lặng của hành lang, mọi...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#1,1.06#2",
+    "desc": "Âm thanh đầu tiên xé toạc buổi sáng, khói mờ ở cửa căn tin.",
+    "prompt": "Cafeteria double doors swinging open with a harsh flare of light and wisps of grey haze drifting through the doorway, no people visible."
   },
   {
-    "name": "t44_a1_16_hallucinations",
+    "name": "t44_a1_16_overturned_chairs_empty_cafeteria",
     "act": 1,
-    "sentences": "1.06#1",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Hai học sinh trúng đạn gục ngã ngay trước cửa ra vào, trong khi hàng trăm đứa trẻ khác hoả...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#3,1.06#4",
+    "desc": "Căn tin hỗn loạn với ghế đổ và bàn trống.",
+    "prompt": "Aftermath-implied scene in a school cafeteria: overturned chairs, abandoned trays and empty tables in cold light, nobody present."
   },
   {
-    "name": "t44_a1_17_thurston_high",
+    "name": "t44_a1_17_long_shadow_on_concrete_wall",
     "act": 1,
-    "sentences": "1.06#2",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Cơn địa chấn kinh hoàng biến giảng đường trung học thành một chiến địa hỗn loạn không lối ...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.06#5,1.06#6",
+    "desc": "Chiếc bóng lạnh lùng trên tường bê tông, không thấy mặt.",
+    "prompt": "Bare concrete school wall with the long lone shadow of a standing figure cast across it, no face, no objects, stark harsh light."
   },
   {
-    "name": "t44_a1_18_willamette_valley",
+    "name": "t44_a1_18_cafeteria_corner_table_glass_shards_light",
     "act": 1,
-    "sentences": "1.06#3",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Và kẻ bóp cò điên cuồng ấy lại chính là Kipland Kinkel, một cậu học sinh lớp chín vừa bị n...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#1,1.07#2",
+    "desc": "Góc căn tin nhìn từ bàn trong cùng, mảnh kính vỡ lấp lánh.",
+    "prompt": "View from a far corner table of a school cafeteria, a girl's silhouette seen from behind, shards of broken window glass glittering on the floor in pale light."
   },
   {
-    "name": "t44_a1_19_schizophrenia",
+    "name": "t44_a1_19_distant_backlit_figure_dim_cafeteria",
     "act": 1,
-    "sentences": "1.07#1",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Chúng tôi ngồi ở bàn ăn phía góc trong và ban đầu chỉ nghĩ ai đó đang chơi khăm bằng pháo ...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#3,1.07#4",
+    "desc": "Bóng người đứng bất động, ngược sáng, vô cảm giữa căn tin.",
+    "prompt": "Far end of a dim cafeteria, a motionless backlit silhouette standing with arms hanging empty, face swallowed by darkness, eerie stillness."
   },
   {
-    "name": "t44_a1_20_hallucinations",
+    "name": "t44_a1_20_frozen_students_backs_to_camera",
     "act": 1,
-    "sentences": "1.07#2",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Nhưng rồi tiếng kính vỡ vụn và những tiếng la hét thất thanh vang lên khắp nơi....",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.07#5",
+    "desc": "Nỗi kinh hoàng khiến học sinh đông cứng.",
+    "prompt": "Two teenage silhouettes seated rigid and frozen at a cafeteria table, backs to camera, tense claustrophobic framing."
   },
   {
-    "name": "t44_a1_21_thurston_high",
+    "name": "t44_a1_21_dropped_backpack_doorway_light_sliver",
     "act": 1,
-    "sentences": "1.07#3",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Cậu ấy không nói một lời nào, chỉ bước đi chầm chậm và liên tục siết cò như một cỗ máy đã ...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
+    "sentences": "1.09#1,1.09#2",
+    "desc": "Khoảnh khắc ngàn cân treo sợi tóc, ba lô rơi bên cửa.",
+    "prompt": "A dropped backpack on the floor beside a half-open doorway with a thin sliver of light, tense motionless atmosphere in a school corridor."
   },
   {
-    "name": "t44_a1_22_willamette_valley",
-    "act": 1,
-    "sentences": "1.08#1",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Cảm giác kinh hoàng lúc ấy khiến chân tay tôi hoàn toàn đông cứng, không ai có thể tin ngư...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
-  },
-  {
-    "name": "t44_a1_23_schizophrenia",
-    "act": 1,
-    "sentences": "1.08#2",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Khi đạn trong khẩu súng trường bán tự động tạm thời cạn kiệt, kẻ thủ ác dừng lại một nhịp ...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
-  },
-  {
-    "name": "t44_a1_24_hallucinations",
-    "act": 1,
-    "sentences": "1.08#3",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Jacob Ryker, một học sinh mười bảy tuổi kiêm vận động viên đấu vật của trường, dù đã bị tr...",
-    "prompt": "Forensic high-contrast tabletop still life in Springfield, Oregon, USA, macro view of vintage investigative items and shadowed room, directional amber desk lighting."
-  },
-  {
-    "name": "t44_a1_25_thurston_high",
-    "act": 1,
-    "sentences": "1.09#1",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Những học sinh dũng cảm khác lập tức lao vào tiếp ứng, đè chặt kẻ sát nhân cho tới khi lực...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t44_a1_26_willamette_valley",
-    "act": 1,
-    "sentences": "1.09#2",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Cơn ác mộng tại căn tin tạm thời khép lại, nhưng chiếc hộp Pandora của vụ án chỉ vừa mới b...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
-  },
-  {
-    "name": "t44_a1_27_schizophrenia",
+    "name": "t44_a1_22_empty_wrestling_mat_gym_high_window",
     "act": 1,
     "sentences": "1.09#3",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Hiện trường trước mắt chúng tôi là một khung cảnh tang thương tột cùng với hàng chục vỏ đạ...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "desc": "Tấm thảm đấu vật trống trong phòng tập của trường.",
+    "prompt": "Empty school gymnasium with a wrestling mat under a single high window, dusty shaft of light, quiet and heroic mood."
   },
   {
-    "name": "t44_a1_28_hallucinations",
+    "name": "t44_a1_23_backlit_students_moving_together_doorway",
+    "act": 1,
+    "sentences": "1.09#4",
+    "desc": "Các học sinh cùng nhau xông tới, ngược sáng và nhòe chuyển động.",
+    "prompt": "Group of teenage silhouettes moving together as one through a bright backlit doorway, motion blur, faces unseen, courageous solidarity."
+  },
+  {
+    "name": "t44_a1_24_closed_wooden_box_light_seeping",
+    "act": 1,
+    "sentences": "1.09#5",
+    "desc": "Chiếc hộp Pandora của vụ án hé mở.",
+    "prompt": "An ornate closed wooden box on a school table, thin amber light seeping from its lid, no markings, dark background."
+  },
+  {
+    "name": "t44_a1_25_patrol_cars_flashing_lights_fog_school",
     "act": 1,
     "sentences": "1.10#1",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Hai mươi lăm học sinh bị thương tích ở nhiều mức độ khác nhau, và hai học sinh vô tội đã k...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "desc": "Xe cảnh sát tới trường trong sương, đèn xoay.",
+    "prompt": "Patrol cars with flashing red and blue lights in dense fog before a brick school entrance, distant silhouettes of officers, no markings visible."
   },
   {
-    "name": "t44_a1_29_thurston_high",
+    "name": "t44_a1_26_taped_off_cafeteria_floodlight",
     "act": 1,
-    "sentences": "1.10#2",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Nghi phạm Kipland Kinkel bị khống chế tại chỗ trong tình trạng co giật nhẹ, miệng liên tục...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#2,1.10#3",
+    "desc": "Căn tin bị phong tỏa dưới ánh đèn pha.",
+    "prompt": "Cordoned-off school cafeteria with tape strung across the doorway, empty tables and overturned chairs under harsh floodlights, nobody present."
   },
   {
-    "name": "t44_a1_30_willamette_valley",
+    "name": "t44_a1_27_slumped_silhouette_police_holding_bench",
     "act": 1,
-    "sentences": "1.10#3",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Nhưng điều khiến các điều tra viên lạnh sống lưng nhất chính là câu nói đầu tiên của hắn k...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#4",
+    "desc": "Nghi phạm ngồi gục đầu trên băng ghế đồn cảnh sát.",
+    "prompt": "Bare police station corridor, a teenage silhouette slumped on a bench with head bowed, face hidden in deep shadow, cold fluorescent light."
   },
   {
-    "name": "t44_a1_31_schizophrenia",
+    "name": "t44_a1_28_evidence_table_plain_paper_bags",
     "act": 1,
-    "sentences": "1.11#1",
-    "desc": "Hồi 1 Tập 36 (schizophrenia): Hắn cầu xin các sĩ quan hãy bắn chết hắn ngay tại chỗ, và tiết lộ rằng cha mẹ hắn ở nhà đã...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#5,1.10#6",
+    "desc": "Bàn chứng cứ với những túi giấy trơn sau khi kiểm tra.",
+    "prompt": "Sterile evidence room table with plain paper bags and sealed cardboard boxes, completely blank and unmarked with no writing at all, harsh overhead light."
   },
   {
-    "name": "t44_a1_32_hallucinations",
+    "name": "t44_a1_29_patrol_car_rear_window_rain_night",
     "act": 1,
-    "sentences": "1.11#2",
-    "desc": "Hồi 1 Tập 36 (hallucinations): Lời thú nhận kinh hoàng ấy như một cú sét đánh ngang tai giáng xuống lực lượng thực thi ph...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.10#7",
+    "desc": "Bóng người cúi đầu sau cửa sổ xe cảnh sát đêm mưa.",
+    "prompt": "Rain-streaked rear window of a patrol car at night, a bowed silhouette inside, blurred red and blue lights smearing across the glass."
   },
   {
-    "name": "t44_a1_33_thurston_high",
+    "name": "t44_a1_30_patrol_car_forest_road_dusk",
     "act": 1,
-    "sentences": "1.11#3",
-    "desc": "Hồi 1 Tập 36 (thurston_high): Và những gì chờ đón các sĩ quan bên trong căn nhà yên ắng ấy còn đen tối và bi thảm hơn gấ...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.11#1,1.11#2",
+    "desc": "Xe cảnh sát lao về căn nhà trong rừng lúc chạng vạng.",
+    "prompt": "Police car speeding along a dark forest road at dusk toward distant pines, headlights cutting through mist, urgent mood."
   },
   {
-    "name": "t44_a1_34_willamette_valley",
+    "name": "t44_a1_31_log_house_deep_pine_forest_dim_windows",
     "act": 1,
-    "sentences": "1.12#1",
-    "desc": "Hồi 1 Tập 36 (willamette_valley): Một bi kịch gia đình khủng khiếp bị giấu kín phía sau bức rèm của một tổ ấm trí thức danh ...",
-    "prompt": "Dramatic action still in Springfield, Oregon, USA, sudden rupture of routine peace, dynamic diagonal shadows, flashing emergency vehicle beacons illuminating mist."
+    "sentences": "1.11#3,1.11#4",
+    "desc": "Ngôi nhà gỗ gia đình Kinkel nằm sâu trong rừng thông.",
+    "prompt": "Isolated wooden two-story house deep in an Oregon pine forest at dusk, faint dim light in the windows, heavy silence, ominous fog."
   },
   {
-    "name": "t44_a2_01_thurston_high",
-    "act": 2,
-    "sentences": "2.01#1",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Khi cánh cửa ngôi nhà của gia đình Kinkel được mở ra, các sĩ quan cảnh sát bước vào một kh...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "name": "t44_a1_32_blank_case_folder_opening_lamplight",
+    "act": 1,
+    "sentences": "1.11#5",
+    "desc": "Hồ sơ tâm lý học tội phạm lật mở dưới ánh đèn.",
+    "prompt": "A closed manila case folder on a dark desk slowly opening under a desk lamp, pages completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a2_02_willamette_valley",
-    "act": 2,
-    "sentences": "2.01#2",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Trên chiếc máy hát đĩa trong phòng khách, bản nhạc opera vẫn đang lặp đi lặp lại những gia...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t44_a2_03_schizophrenia",
-    "act": 2,
-    "sentences": "2.01#3",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Sự chăm chút kỳ lạ đối với các thi thể phản ánh một trạng thái tâm lý giằng xé tột cùng gi...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t44_a2_04_hallucinations",
+    "name": "t44_a2_01_front_door_ajar_flashlight_beams",
     "act": 2,
     "sentences": "2.02#1",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Xung quanh ngôi nhà, các điều tra viên phát hiện hàng loạt quả bom tự chế được cài đặt tin...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "desc": "Cửa nhà Kinkel mở ra, đèn pin của cảnh sát rọi vào.",
+    "prompt": "Wooden front door of a forest house slightly ajar at night, flashlight beams spilling into a silent hallway, 1998 Oregon."
   },
   {
-    "name": "t44_a2_05_thurston_high",
+    "name": "t44_a2_02_record_player_spinning_dim_living_room",
     "act": 2,
     "sentences": "2.02#2",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Cả hai nạn nhân người lớn đều là những giáo viên ngoại ngữ kỳ cựu và được xã hội vô cùng k...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "desc": "Máy hát đĩa vẫn quay bản opera trong phòng khách vắng.",
+    "prompt": "Dim empty living room with a record player spinning a plain black vinyl disc, amber lamp glow, melancholic opera mood, disc center completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a2_06_willamette_valley",
+    "name": "t44_a2_03_basement_stairs_empty_folded_white_cloth",
     "act": 2,
-    "sentences": "2.02#3",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Họ từng đưa cả gia đình sang Tây Ban Nha sinh sống trong một năm phép để giúp các con mở r...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#3,2.02#4",
+    "desc": "Cầu thang xuống tầng hầm trống, tấm vải trắng gấp gọn.",
+    "prompt": "Empty wooden staircase descending into a dark basement, a neatly folded white cloth on the bottom step, still and solemn, no people."
   },
   {
-    "name": "t44_a2_07_schizophrenia",
+    "name": "t44_a2_04_cordoned_wooded_yard_flashlights_night",
     "act": 2,
-    "sentences": "2.03#1",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Người con gái lớn của họ là một sinh viên xuất sắc, sở hữu thành tích học tập và thể thao ...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.02#5,2.02#6",
+    "desc": "Khuôn viên rừng bị phong tỏa, đèn pin quét trong đêm.",
+    "prompt": "Dark wooded property at night with police cordon barriers and flashlight beams sweeping the pines, a dark house looming, no visible objects of harm."
   },
   {
-    "name": "t44_a2_08_hallucinations",
+    "name": "t44_a2_05_empty_college_classroom_blank_chalkboard",
     "act": 2,
-    "sentences": "2.03#2",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Kip mắc chứng khó đọc bẩm sinh, luôn cảm thấy mình là kẻ kém cỏi và lập dị giữa một gia đì...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
+    "sentences": "2.04#1,2.04#2",
+    "desc": "Lớp học ngoại ngữ trường cao đẳng của ông Bill, bảng trống.",
+    "prompt": "Empty community college classroom, a desk, a globe and a chalkboard completely blank and unmarked with no writing at all, late afternoon light."
   },
   {
-    "name": "t44_a2_09_thurston_high",
-    "act": 2,
-    "sentences": "2.03#3",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Đặc biệt, bên cạnh chiếc bàn học là một bức thư tuyệt mệnh viết tay nghệch ngoạc với những...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t44_a2_10_willamette_valley",
-    "act": 2,
-    "sentences": "2.04#1",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Hắn viết rằng đầu óc mình hoàn toàn không còn hoạt động bình thường, và những tiếng nói tr...",
-    "prompt": "Psychological chiaroscuro composition in Springfield, Oregon, USA, mental compartmentalization, fractured antique mirror reflection, ominous creeping shadows."
-  },
-  {
-    "name": "t44_a2_11_schizophrenia",
-    "act": 2,
-    "sentences": "2.04#2",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Trong mắt những người láng giềng xung quanh, Kip Kinkel không hề có biểu hiện của một con ...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
-  },
-  {
-    "name": "t44_a2_12_hallucinations",
+    "name": "t44_a2_06_sunny_whitewashed_spanish_village_plaza",
     "act": 2,
     "sentences": "2.04#3",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Cậu bé vẫn thường trượt ván trên con đường trước nhà, phụ giúp cha mẹ làm vườn và chào hỏi...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Gia đình sống một năm phép ở Tây Ban Nha.",
+    "prompt": "Sunlit whitewashed Spanish village plaza with terracotta roofs and café tables, tiny family silhouettes from far away, warm travel feel."
   },
   {
-    "name": "t44_a2_13_thurston_high",
+    "name": "t44_a2_07_trophy_shelf_and_graduation_cap",
     "act": 2,
-    "sentences": "2.05#1",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Một cuộc chiến tranh tâm lý khốc liệt đã âm ỉ diễn ra trong não bộ của cậu thiếu niên suốt...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#4",
+    "desc": "Thành tích của người chị gái: chiếc mũ tốt nghiệp và cúp.",
+    "prompt": "A shelf holding sports trophies and a graduation cap in a soft-lit family hallway, plaques completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a2_14_willamette_valley",
+    "name": "t44_a2_08_towering_shelves_shadow_over_small_chair",
     "act": 2,
-    "sentences": "2.05#2",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Dưới góc độ tâm thần học hành vi, hồ sơ Kip Kinkel là một trường hợp kinh điển của 'Tâm th...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.04#5",
+    "desc": "Áp lực vô hình đè lên đứa con út.",
+    "prompt": "Tall shelves of achievements casting a long heavy shadow over a single small empty wooden chair in a quiet room."
   },
   {
-    "name": "t44_a2_15_schizophrenia",
+    "name": "t44_a2_09_open_blank_books_child_desk_lamp",
+    "act": 2,
+    "sentences": "2.04#6",
+    "desc": "Chứng khó đọc: những cuốn sách trên bàn học nhỏ.",
+    "prompt": "Small child's desk under a lamp with several open books whose pages are completely blank and unmarked with no writing at all, a sense of frustration and isolation."
+  },
+  {
+    "name": "t44_a2_10_teen_bedroom_desk_stack_of_notebooks",
+    "act": 2,
+    "sentences": "2.04#7",
+    "desc": "Phòng ngủ thiếu niên với chồng sổ tay.",
+    "prompt": "Dim teenage bedroom desk with a stack of plain notebooks and a lamp, covers completely blank and unmarked with no writing at all, unmade bed behind."
+  },
+  {
+    "name": "t44_a2_11_single_blank_sheet_desk_lamp",
+    "act": 2,
+    "sentences": "2.04#8",
+    "desc": "Bức thư tuyệt mệnh: tờ giấy trống bên chiếc bàn học.",
+    "prompt": "One sheet of paper completely blank and unmarked with no writing at all lying on a wooden desk beside a small lamp, moody shadows."
+  },
+  {
+    "name": "t44_a2_12_seated_silhouette_head_in_hands_desk",
+    "act": 2,
+    "sentences": "2.04#9,2.04#10",
+    "desc": "Bóng thiếu niên ôm đầu, ngồi quay lưng ở bàn.",
+    "prompt": "Silhouette of a teenage boy seated at a desk, back to camera, head in his hands, face hidden, a single lamp pool of light."
+  },
+  {
+    "name": "t44_a2_13_skateboard_driveway_quiet_morning_garden",
+    "act": 2,
+    "sentences": "2.05#1,2.05#2",
+    "desc": "Cậu bé trượt ván, làm vườn: vẻ ngoài bình thường.",
+    "prompt": "Quiet suburban driveway in the morning, a skateboard resting on the pavement, garden tools and flowerbeds, a distant neighbor waving as a silhouette."
+  },
+  {
+    "name": "t44_a2_14_calm_house_reflected_in_dark_puddle",
     "act": 2,
     "sentences": "2.05#3",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Căn bệnh này cực kỳ hiếm gặp ở lứa tuổi thiếu niên nhưng lại có sức tàn phá khủng khiếp đố...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Vỏ bọc bình lặng và quỹ đạo ảo tưởng bên dưới.",
+    "prompt": "A calm suburban house reflected in a dark puddle where the reflection is twisted and shadowed, symbolic hidden turmoil."
   },
   {
-    "name": "t44_a2_16_hallucinations",
+    "name": "t44_a2_15_head_profile_silhouette_storm_inside",
     "act": 2,
-    "sentences": "2.06#1",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Những giọng nói vô hình trong đầu liên tục sỉ nhục, nguyền rủa và ra lệnh cho cậu bé phải ...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#4",
+    "desc": "Cuộc chiến tâm lý âm ỉ trong não bộ.",
+    "prompt": "Pure black head-profile silhouette with swirling storm clouds and lightning inside it, faceless, symbolic psychological concept."
   },
   {
-    "name": "t44_a2_17_thurston_high",
+    "name": "t44_a2_16_hallway_many_closed_doors_one_ajar",
     "act": 2,
-    "sentences": "2.06#2",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Việc che giấu ảo giác trong thời gian dài dẫn tới sự cô lập cảm xúc cực hạn, đánh sập toàn...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.05#5",
+    "desc": "Cơ chế chia ngăn: hành lang nhiều cửa đóng.",
+    "prompt": "Endless hallway of closed doors, one door cracked open with cold light, symbolizing a compartmentalized mind."
   },
   {
-    "name": "t44_a2_18_willamette_valley",
+    "name": "t44_a2_17_empty_psychiatrist_office_leather_chair",
+    "act": 2,
+    "sentences": "2.06#1,2.06#2",
+    "desc": "Phòng khám tâm thần học vắng bóng người.",
+    "prompt": "Empty psychiatrist's office, leather chair and couch under a dim lamp, framed pictures on the wall completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t44_a2_18_child_silhouette_bed_whispering_shadows",
     "act": 2,
     "sentences": "2.06#3",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Đồng thời, hệ thống hoang tưởng bị hại phát triển mạnh mẽ khiến Kip tin rằng chính phủ và ...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Những giọng nói bắt đầu từ năm mười hai tuổi.",
+    "prompt": "Silhouette of a young boy sitting up in bed at night with hands over his ears, dark whispering wisps curling across the walls."
   },
   {
-    "name": "t44_a2_19_schizophrenia",
+    "name": "t44_a2_19_black_ribbons_swirling_around_empty_chair",
     "act": 2,
-    "sentences": "2.07#1",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Khi cầm một khẩu súng trong tay, một đứa trẻ đang bất lực trước những tiếng nói điên loạn ...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#4",
+    "desc": "Những giọng nói vô hình sỉ nhục và ra lệnh.",
+    "prompt": "Swirling black ribbons of shadow around an empty chair in a dark room, ominous."
   },
   {
-    "name": "t44_a2_20_hallucinations",
+    "name": "t44_a2_20_institutional_corridor_boy_turned_away",
     "act": 2,
-    "sentences": "2.07#2",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Sự kết hợp giữa căn bệnh tâm thần phân liệt chưa được điều trị và khả năng tiếp cận vũ khí...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "sentences": "2.06#5",
+    "desc": "Nỗi sợ bị đưa vào viện tâm thần, giấu triệu chứng.",
+    "prompt": "Long institutional hospital corridor, a boy silhouette standing apart facing away, a closed heavy door at the end, hushed cold light."
   },
   {
-    "name": "t44_a2_21_thurston_high",
+    "name": "t44_a2_21_small_figure_in_huge_room_rainy_window",
+    "act": 2,
+    "sentences": "2.06#6",
+    "desc": "Cô lập cảm xúc cực hạn.",
+    "prompt": "Tiny silhouette sitting alone on a windowsill in a huge empty room, rain streaming down the window, cold blue tones."
+  },
+  {
+    "name": "t44_a2_22_curtain_silhouette_watching_dark_car_street",
+    "act": 2,
+    "sentences": "2.06#7",
+    "desc": "Hoang tưởng bị theo dõi.",
+    "prompt": "Silhouette behind a curtain peering out at a night street where an unmarked dark car is parked, paranoid tension."
+  },
+  {
+    "name": "t44_a2_23_small_silhouette_huge_shadow_empty_field",
+    "act": 2,
+    "sentences": "2.06#8,2.06#9",
+    "desc": "Cơ chế bù trừ quyền lực: chiếc bóng khổng lồ.",
+    "prompt": "A small boy silhouette in a vast empty field at dusk whose shadow is cast enormously large across the ground, sense of false power."
+  },
+  {
+    "name": "t44_a2_24_coiled_spring_on_dark_table",
+    "act": 2,
+    "sentences": "2.06#10",
+    "desc": "Quả bom nổ chậm: chiếc lò xo bị nén.",
+    "prompt": "Tightly wound coiled metal spring on a dark table under a single light, tension about to release, no other objects."
+  },
+  {
+    "name": "t44_a2_25_frosted_glass_pane_two_silhouettes",
+    "act": 2,
+    "sentences": "2.06#11",
+    "desc": "Khuyết tật Thuyết tâm trí: hai bóng người ngăn bởi kính mờ.",
+    "prompt": "Two silhouettes facing each other separated by a thick frosted glass pane, unable to truly see one another."
+  },
+  {
+    "name": "t44_a2_26_fence_line_fading_into_fog",
+    "act": 2,
+    "sentences": "2.06#12",
+    "desc": "Ranh giới tự vệ và tàn sát bị xóa nhòa.",
+    "prompt": "A white fence line stretching into dense fog until it disappears, boundaries dissolving, eerie pale light."
+  },
+  {
+    "name": "t44_a2_27_clinic_waiting_room_pill_bottle",
+    "act": 2,
+    "sentences": "2.07#1,2.07#2",
+    "desc": "Cha mẹ đưa con đi khám và thử thuốc.",
+    "prompt": "Quiet clinic waiting room with small empty chairs and a table holding an amber glass bottle completely blank and unmarked with no writing at all, soft light."
+  },
+  {
+    "name": "t44_a2_28_smiling_porcelain_mask_consulting_desk",
     "act": 2,
     "sentences": "2.07#3",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Trong tâm thức méo mó của Kip, ranh giới giữa việc tự vệ sinh tồn và việc tàn sát tập thể ...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Sự ngụy trang đánh lừa chuyên gia y tế.",
+    "prompt": "A smiling porcelain mask resting on a consulting room desk, reflecting a lamp, symbol of concealment."
   },
   {
-    "name": "t44_a2_22_willamette_valley",
+    "name": "t44_a2_29_long_hall_single_dark_doorway",
+    "act": 2,
+    "sentences": "2.07#4",
+    "desc": "Chuỗi thỏa hiệp mang tính định mệnh bắt đầu.",
+    "prompt": "Long dim hallway with a single dark open doorway at its end, ominous perspective."
+  },
+  {
+    "name": "t44_a2_30_pacifist_study_ceramic_dove_books",
     "act": 2,
     "sentences": "2.08#1",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Họ từng đưa Kip đến gặp chuyên gia tâm lý học lâm sàng và cho cậu bé thử sử dụng thuốc điề...",
-    "prompt": "Desolate nocturnal scene in Springfield, Oregon, USA, solitary predatory silhouette concealed in deep woodland shadows, cold blue moonlight cutting through branches."
+    "desc": "Phòng làm việc của người cha ôn hòa.",
+    "prompt": "Warm cluttered study with shelves of books and a small ceramic dove figurine on the desk, no people, book spines completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a2_23_schizophrenia",
+    "name": "t44_a2_31_forest_edge_practice_field_two_long_shadows",
     "act": 2,
-    "sentences": "2.08#2",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Thế nhưng, sự ngụy trang khéo léo của căn bệnh tâm thần phân liệt đã đánh lừa được cả nhữn...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#2,2.08#3",
+    "desc": "Cha con ở bãi tập ven rừng, hai chiếc bóng dài.",
+    "prompt": "Empty clearing at the forest edge at dawn with hay bales, two long shadows of a man and a boy stretching across the grass from out of frame, no objects of harm."
   },
   {
-    "name": "t44_a2_24_hallucinations",
+    "name": "t44_a2_32_plain_cardboard_box_ribbon_kitchen_table",
     "act": 2,
-    "sentences": "2.08#3",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Ông Bill Kinkel vốn là một người theo chủ nghĩa ôn hòa và kịch liệt phản đối sự hiện diện ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#4",
+    "desc": "Món quà nhượng bộ đặt trên bàn bếp.",
+    "prompt": "Plain closed cardboard box tied with a ribbon on a dim kitchen table, box completely blank and unmarked with no writing at all, ominous gift metaphor."
   },
   {
-    "name": "t44_a2_25_thurston_high",
+    "name": "t44_a2_33_padlock_on_sturdy_cabinet_key_on_hook",
     "act": 2,
-    "sentences": "2.09#1",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Với mong muốn dùng sự đồng hành để kiểm soát con trai, ông tin rằng nếu mình trực tiếp hướ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#5",
+    "desc": "Quy tắc khóa kỹ và giám sát của người cha.",
+    "prompt": "Heavy padlock on a closed wooden cabinet with a key hanging on a nearby hook, quiet garage light, no contents visible."
   },
   {
-    "name": "t44_a2_26_willamette_valley",
+    "name": "t44_a2_34_cabinet_door_splintered_open_black_void",
     "act": 2,
-    "sentences": "2.09#2",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Ông đã nhượng bộ mua cho Kip một khẩu súng trường bán tự động cỡ đạn hai mươi hai và sau đ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.08#6,2.08#7",
+    "desc": "Chiếc tủ khóa bị phá, bên trong tối đen.",
+    "prompt": "Wooden cabinet door splintered and ajar, its interior an empty black void, dim hall light, no contents visible."
   },
   {
-    "name": "t44_a2_27_schizophrenia",
+    "name": "t44_a2_35_warm_kitchen_window_dark_lawn_dusk",
     "act": 2,
-    "sentences": "2.09#3",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Nhưng người cha chất phác không thể lường trước rằng đối với một tâm trí đang bị hoang tưở...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.09#1,2.09#2",
+    "desc": "Nghịch lý: lòng tốt của người cha, ô cửa bếp ấm áp.",
+    "prompt": "Warm lit kitchen window seen from a dark lawn at dusk, golden light spilling onto grass, tragic contrast."
   },
   {
-    "name": "t44_a2_28_hallucinations",
+    "name": "t44_a2_36_fraying_rope_about_to_snap_fog",
     "act": 2,
-    "sentences": "2.10#1",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Chiếc tủ súng bị phá vỡ chỉ là vấn đề thời gian khi ngòi nổ tâm lý bị kích hoạt....",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.09#3,2.09#4",
+    "desc": "Tiếng kêu cứu của một bộ não bên bờ sụp đổ.",
+    "prompt": "Thick rope fraying strand by strand under tension in dense fog, moments from snapping, dramatic closeup."
   },
   {
-    "name": "t44_a2_29_thurston_high",
+    "name": "t44_a2_37_silent_living_room_curtains_cold_tea",
     "act": 2,
-    "sentences": "2.10#2",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Tình yêu thương và sự nhượng bộ xuất phát từ lòng tốt của người cha lại vô tình cung cấp c...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.10#1,2.10#2",
+    "desc": "Cha mẹ hợp lý hóa: phòng khách im lặng, tách trà nguội.",
+    "prompt": "Silent living room with closed curtains and two cold cups of tea on a table, heavy denial atmosphere, no people."
   },
   {
-    "name": "t44_a2_30_willamette_valley",
+    "name": "t44_a2_38_house_walled_by_books_fortress_fog",
     "act": 2,
     "sentences": "2.10#3",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Đó là những tiếng kêu cứu tuyệt vọng của một bộ não đang trên bờ vực sụp đổ sinh học hoàn ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "desc": "Pháo đài chối bỏ sự thật.",
+    "prompt": "A suburban house surrounded by a high wall of stacked books like a fortress in fog, symbolic denial."
   },
   {
-    "name": "t44_a2_31_schizophrenia",
+    "name": "t44_a2_39_unmarked_amber_vials_clinic_shelf",
+    "act": 2,
+    "sentences": "2.10#4",
+    "desc": "Bệnh không tự biến mất nếu thiếu thuốc chuyên sâu.",
+    "prompt": "Shelf of plain amber glass vials in a dim clinic, vials completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t44_a2_40_marionette_hanging_dark_hand_above",
+    "act": 2,
+    "sentences": "2.10#5",
+    "desc": "Con rối trong tay những giọng nói.",
+    "prompt": "Marionette puppet hanging by strings controlled by a shadowy hand silhouette above, theatrical dark stage."
+  },
+  {
+    "name": "t44_a2_41_crack_spreading_window_school_hall",
+    "act": 2,
+    "sentences": "2.10#6",
+    "desc": "Vết nứt lan rộng khi sự sỉ nhục ập đến.",
+    "prompt": "A crack spreading across a tall window pane in a school hallway, glass about to give way, cold light."
+  },
+  {
+    "name": "t44_a2_42_thunderheads_over_pine_forest_twilight",
     "act": 2,
     "sentences": "2.11#1",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Hiện tượng 'Thành kiến bình thường hóa' thường khiến các bậc phụ huynh trí thức tìm mọi cá...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "desc": "Cơn bão ngầm đạt ngưỡng áp suất.",
+    "prompt": "Massive thunderheads gathering over an Oregon pine forest at twilight, ominous light on the horizon."
   },
   {
-    "name": "t44_a2_32_hallucinations",
+    "name": "t44_a2_43_school_entrance_twilight_may_1998",
     "act": 2,
     "sentences": "2.11#2",
-    "desc": "Hồi 2 Tập 36 (hallucinations): Sự kỳ vọng xã hội và nỗi sợ bị mang tiếng khiến gia đình vô tình xây dựng nên một pháo đài...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "desc": "Tia lửa định mệnh tại trường Thurston, ngày 20/5/1998.",
+    "prompt": "Brick high school entrance at twilight in May 1998 Oregon, empty steps, a single lit window, walls completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a2_33_thurston_high",
+    "name": "t44_a2_44_wooden_blocks_toppling_chain_reaction_dark",
     "act": 2,
-    "sentences": "2.11#3",
-    "desc": "Hồi 2 Tập 36 (thurston_high): Nó âm thầm ăn mòn sợi dây liên kết lý trí cuối cùng, biến cậu thiếu niên ngoan ngoãn thành...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
+    "sentences": "2.11#3,2.11#4",
+    "desc": "Chuỗi phản ứng dây chuyền bắt đầu.",
+    "prompt": "Plain wooden blocks toppling in a long chain across a dark table, chain reaction metaphor, shallow depth of field."
   },
   {
-    "name": "t44_a2_34_willamette_valley",
-    "act": 2,
-    "sentences": "2.12#1",
-    "desc": "Hồi 2 Tập 36 (willamette_valley): Và khi một sự kiện xã hội mang tính sỉ nhục ập đến, sự sụp đổ nhân cách diễn ra với tốc độ...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t44_a2_35_schizophrenia",
-    "act": 2,
-    "sentences": "2.12#2",
-    "desc": "Hồi 2 Tập 36 (schizophrenia): Một tia lửa kích hoạt định mệnh đã xuất hiện vào ngày hai mươi tháng năm năm một chín chín...",
-    "prompt": "Intimate forensic interior of vehicle or room in Springfield, Oregon, USA, evidence markers, analytical lighting, graphic novel chiaroscuro realism."
-  },
-  {
-    "name": "t44_a3_01_thurston_high",
-    "act": 3,
-    "sentences": "3.01#1",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Ngày hai mươi tháng năm năm một chín chín mươi tám bắt đầu như bao ngày bình thường khác t...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t44_a3_02_willamette_valley",
-    "act": 3,
-    "sentences": "3.01#2",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Thế nhưng đối với Kipland Kinkel, đây lại là ngày mà toàn bộ thế giới thực tại mong manh c...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t44_a3_03_schizophrenia",
-    "act": 3,
-    "sentences": "3.01#3",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Điểm gãy tâm lý đã xuất hiện, biến một ngày học đường bình thường thành khởi đầu của một t...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t44_a3_04_hallucinations",
+    "name": "t44_a3_01_school_buses_arriving_foggy_morning",
     "act": 3,
     "sentences": "3.02#1",
-    "desc": "Hồi 3 Tập 36 (hallucinations): Tại hành lang trường trung học Thurston, ban giám hiệu nhận được tin báo về một vụ mất trộ...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "desc": "Ngày 20/5/1998 bắt đầu bình thường, xe buýt tới trường.",
+    "prompt": "Yellow school buses arriving at a high school in Springfield, Oregon on a foggy morning in 1998, ordinary calm."
   },
   {
-    "name": "t44_a3_05_thurston_high",
+    "name": "t44_a3_02_street_unnatural_long_shadows_pale_sun",
     "act": 3,
     "sentences": "3.02#2",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Khám xét tủ đồ cá nhân của Kip, các nhân viên an ninh phát hiện một khẩu súng ngắn ba mươi...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "desc": "Thế giới thực tại mong manh sắp sụp đổ.",
+    "prompt": "Small-town street under a pale sun where shadows lengthen unnaturally, fragile reality about to crack."
   },
   {
-    "name": "t44_a3_06_willamette_valley",
+    "name": "t44_a3_03_disciplinary_office_door_frosted_glass",
     "act": 3,
-    "sentences": "3.02#3",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Ngay lập tức, còng số tám đã bập vào tay cậu học sinh mười lăm tuổi trước sự chứng kiến củ...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "sentences": "3.02#3,3.02#4",
+    "desc": "Cú va chạm với kỷ luật nhà trường: cánh cửa văn phòng đóng.",
+    "prompt": "Closed school disciplinary office door with frosted glass completely blank and unmarked with no writing at all, a long shadow beneath it."
   },
   {
-    "name": "t44_a3_07_schizophrenia",
-    "act": 3,
-    "sentences": "3.03#1",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Ewert đã bán lại khẩu súng này cho Kip Kinkel với giá một trăm mười đô la ngay tại khuôn v...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t44_a3_08_hallucinations",
-    "act": 3,
-    "sentences": "3.03#2",
-    "desc": "Hồi 3 Tập 36 (hallucinations): Kip Kinkel bị khởi tố tội danh tàng trữ vũ khí trọng tội và đối mặt với quyết định đình ch...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t44_a3_09_thurston_high",
-    "act": 3,
-    "sentences": "3.03#3",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Sau khi hoàn tất thủ tục lấy lời khai ban đầu, cảnh sát đã bàn giao Kip cho cha cậu là ông...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
-  },
-  {
-    "name": "t44_a3_10_willamette_valley",
+    "name": "t44_a3_04_principal_office_silhouette_phone",
     "act": 3,
     "sentences": "3.04#1",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Người cha mẫu mực cảm thấy hoàn toàn sụp đổ và tan nát cõi lòng trước hành vi phạm pháp kh...",
-    "prompt": "Late-night police command center in Springfield, Oregon, USA, tactical wall maps crisscrossed with red yarn, detectives in shirtsleeves under green banker lamps."
+    "desc": "Ban giám hiệu nhận tin báo.",
+    "prompt": "Silhouette of a staff member at a desk holding a telephone in a school office, face hidden, tense mood."
   },
   {
-    "name": "t44_a3_11_schizophrenia",
+    "name": "t44_a3_05_single_chair_facing_empty_desk_discipline",
     "act": 3,
     "sentences": "3.04#2",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Khi về đến nhà, ông Bill Kinkel đã có một cuộc điện thoại trao đổi rất căng thẳng với ông ...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Phòng kỷ luật: chiếc ghế trơ trọi.",
+    "prompt": "Lone chair facing an empty desk in a bare school discipline room, cold light from a window."
   },
   {
-    "name": "t44_a3_12_hallucinations",
+    "name": "t44_a3_06_locker_row_one_ajar_paper_bag",
     "act": 3,
     "sentences": "3.04#3",
-    "desc": "Hồi 3 Tập 36 (hallucinations): Hắn đinh ninh rằng mình sẽ bị tống vào trường quân sự hoặc trại giáo dưỡng, và danh dự của...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Tủ đồ cá nhân bị khám, túi giấy bọc kín.",
+    "prompt": "Row of school lockers with one door ajar and a plain brown paper bag on the shelf, bag completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a3_13_thurston_high",
+    "name": "t44_a3_07_steel_handcuffs_on_desk_hallway_onlookers",
     "act": 3,
-    "sentences": "3.05#1",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Và trong khoảnh khắc đó, chiếc lồng giam của những tiếng nói hoang tưởng trong đầu hắn đã ...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.04#4",
+    "desc": "Còng số tám trước mắt các bạn học.",
+    "prompt": "Steel handcuffs resting on a desk with blurred distant student silhouettes watching from a hallway."
   },
   {
-    "name": "t44_a3_14_willamette_valley",
+    "name": "t44_a3_08_two_teen_silhouettes_campus_lawn_exchange",
     "act": 3,
-    "sentences": "3.05#2",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Đối với một đứa trẻ vị thành niên có lòng tự trọng mong manh và căn bệnh tâm thần phân liệ...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.05#1,3.05#2",
+    "desc": "Vụ mua bán khẩu súng ăn cắp trong khuôn viên.",
+    "prompt": "Two teenage silhouettes at a distance on a school lawn quietly exchanging a small unseen item, faces hidden, overcast sky."
   },
   {
-    "name": "t44_a3_15_schizophrenia",
+    "name": "t44_a3_09_police_station_front_cars_fog",
     "act": 3,
     "sentences": "3.05#3",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Những giọng nói ảo giác mệnh lệnh trong đầu Kip lập tức gầm thét dữ dội, lặp đi lặp lại mệ...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Cả hai bị đưa về đồn.",
+    "prompt": "Front of a small-town police station in fog, parked cruisers, harsh entrance light, building facade completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a3_16_hallucinations",
+    "name": "t44_a3_10_empty_disciplinary_board_table_blank_folders",
+    "act": 3,
+    "sentences": "3.05#4",
+    "desc": "Quyết định đình chỉ chờ hội đồng kỷ luật.",
+    "prompt": "Empty long table in a school boardroom with stacked folders completely blank and unmarked with no writing at all, cold overhead light."
+  },
+  {
+    "name": "t44_a3_11_police_lobby_empty_door_open_idling_car",
+    "act": 3,
+    "sentences": "3.05#5",
+    "desc": "Bàn giao cậu bé, cửa sảnh mở ra chiếc xe đang chờ.",
+    "prompt": "Empty police station lobby, front door open to a parking lot where a family car waits with headlights on, grey afternoon."
+  },
+  {
+    "name": "t44_a3_12_windshield_view_rural_road_empty_seat_dusk",
+    "act": 3,
+    "sentences": "3.05#6,3.05#7",
+    "desc": "Chuyến xe về nhà im lặng nghẹt thở.",
+    "prompt": "Interior view through a windshield of a quiet rural road at dusk, wipers resting, an empty passenger seat, heavy silence, no people."
+  },
+  {
+    "name": "t44_a3_13_rotary_wall_phone_kitchen_dusk",
     "act": 3,
     "sentences": "3.06#1",
-    "desc": "Hồi 3 Tập 36 (hallucinations): Ảo thanh thuyết phục Kip rằng cha mẹ sẽ không bao giờ có thể vượt qua được nỗi nhục nhã nà...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Cuộc điện thoại xin lỗi căng thẳng.",
+    "prompt": "Old rotary wall telephone with its cord hanging in a dim kitchen at dusk, no one in the room."
   },
   {
-    "name": "t44_a3_17_thurston_high",
+    "name": "t44_a3_14_boy_silhouette_dark_hallway_doorway_listening",
     "act": 3,
     "sentences": "3.06#2",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Họ giết người thân không phải vì thù hận, mà vì niềm tin bệnh hoạn rằng đó là hành động cứ...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Kip đứng nghe, mặt đất dưới chân nứt toác.",
+    "prompt": "Silhouette of a teenage boy standing in a dark hallway doorway, head bowed, back to camera, listening, face hidden."
   },
   {
-    "name": "t44_a3_18_willamette_valley",
+    "name": "t44_a3_15_reform_school_fence_dusk_wire",
     "act": 3,
     "sentences": "3.06#3",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Khoảng mười lăm giờ chiều ngày hai mươi tháng năm, khi ông Bill Kinkel đang ngồi uống cà p...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "desc": "Nỗi sợ trường quân sự, trại giáo dưỡng.",
+    "prompt": "Forbidding institutional gate and tall chain-link fence with coiled wire at dusk, grim brick buildings behind, gate completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a3_19_schizophrenia",
+    "name": "t44_a3_16_open_birdcage_dark_room",
     "act": 3,
-    "sentences": "3.07#1",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Ngay sau đó, Kip kéo thi thể của cha vào phòng tắm, phủ tấm vải trắng lên trên và ngồi chờ...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.06#4",
+    "desc": "Chiếc lồng giam phá tung then cài.",
+    "prompt": "Ornate birdcage with its door swinging open in a dark room, one cold shaft of light, nothing inside."
   },
   {
-    "name": "t44_a3_20_hallucinations",
+    "name": "t44_a3_17_shattered_mirror_faint_outline",
     "act": 3,
-    "sentences": "3.07#2",
-    "desc": "Hồi 3 Tập 36 (hallucinations): Suốt đêm hai mươi tháng năm, Kip Kinkel ở lại một mình trong ngôi nhà gỗ giữa rừng thông c...",
-    "prompt": "Sterile police interrogation room in Springfield, Oregon, USA, suspect silhouette seated opposite veteran interrogators under single harsh overhead fluorescent lamp."
+    "sentences": "3.07#1,3.07#2",
+    "desc": "Tổn thương ái kỷ cực hạn, tấm gương vỡ.",
+    "prompt": "Large shattered mirror in a dim room reflecting a barely visible faceless outline, symbolic of narcissistic injury."
   },
   {
-    "name": "t44_a3_21_thurston_high",
+    "name": "t44_a3_18_black_ink_swirling_in_glass_of_water",
     "act": 3,
-    "sentences": "3.07#3",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Trong căn phòng nồng nặc mùi thuốc súng và chết chóc, cậu thiếu niên mười lăm tuổi đã trải...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#3,3.07#4",
+    "desc": "Phản ứng hoảng loạn và những giọng nói gầm thét.",
+    "prompt": "Black ink swirling violently in a clear glass of water against a dark backdrop, macro, ominous."
   },
   {
-    "name": "t44_a3_22_willamette_valley",
+    "name": "t44_a3_19_two_empty_armchairs_lit_lamp_dust",
     "act": 3,
-    "sentences": "3.08#1",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Hắn ngồi vào bàn và viết bức thư tuyệt mệnh đẫm nước mắt, thú nhận toàn bộ sự bất lực và n...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#5,3.07#6,3.07#7",
+    "desc": "Niềm tin bệnh hoạn về sự cứu rỗi, hai chiếc ghế trống.",
+    "prompt": "Living room with two empty armchairs and a lit lamp, dust motes floating in the light, deep stillness, no people."
   },
   {
-    "name": "t44_a3_23_schizophrenia",
+    "name": "t44_a3_20_steaming_coffee_cup_kitchen_table_empty_chair",
     "act": 3,
-    "sentences": "3.08#2",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Hắn cài đặt các khối thuốc nổ tự chế xung quanh thi thể cha mẹ và các lối ra vào với ý địn...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.07#8",
+    "desc": "Chiều 15 giờ trên bàn ăn, tách cà phê còn bốc hơi.",
+    "prompt": "Kitchen table at three in the afternoon with a steaming coffee cup and an empty chair, low golden sunlight, no people."
   },
   {
-    "name": "t44_a3_24_hallucinations",
+    "name": "t44_a3_21_closed_door_end_of_dim_hall_light_beneath",
+    "act": 3,
+    "sentences": "3.07#9,3.07#10",
+    "desc": "Cánh cửa khép kín cuối hành lang.",
+    "prompt": "Closed wooden door at the end of a dim hallway with a thin line of light beneath it, utterly still."
+  },
+  {
+    "name": "t44_a3_22_woman_coat_and_keys_by_door_dusk",
+    "act": 3,
+    "sentences": "3.07#11",
+    "desc": "Chiều tối, chiếc áo khoác và chùm chìa khóa của người mẹ.",
+    "prompt": "Entry hall with a woman's coat on a hook and car keys beside it, dusk light through the door glass, silent and heavy."
+  },
+  {
+    "name": "t44_a3_23_forest_house_night_one_dim_window",
+    "act": 3,
+    "sentences": "3.08#1,3.08#2",
+    "desc": "Đêm một mình trong ngôi nhà giữa rừng thông.",
+    "prompt": "Wooden house deep in pine forest at night with one dim window, thick mist, absolute stillness."
+  },
+  {
+    "name": "t44_a3_24_vinyl_grooves_tonearm_amber_lamp_macro",
     "act": 3,
     "sentences": "3.08#3",
-    "desc": "Hồi 3 Tập 36 (hallucinations): Chúng ra lệnh cho hắn phải quay trở lại trường trung học Thurston để trút cơn thịnh nộ lên...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "desc": "Máy hát đĩa át đi tiếng gào trong đầu.",
+    "prompt": "Macro of vinyl record grooves and tonearm in amber lamplight beside a brass gramophone horn, disc center completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a3_25_thurston_high",
+    "name": "t44_a3_25_desk_lamp_pen_on_blank_paper_tears",
     "act": 3,
-    "sentences": "3.09#1",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Sáng hôm sau, trong bộ áo khoác dài giấu kín ba khẩu súng và hơn một nghìn viên đạn, Kip l...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.08#4",
+    "desc": "Bức thư viết trong đêm.",
+    "prompt": "Pool of lamplight on a desk where a pen rests across a sheet completely blank and unmarked with no writing at all, a few tear drops dampening the surface."
   },
   {
-    "name": "t44_a3_26_willamette_valley",
+    "name": "t44_a3_26_dark_hall_deadbolts_night_chain_door",
     "act": 3,
-    "sentences": "3.09#2",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Đối tượng bước vào trường học với tâm thế của một kẻ đã chết, không hề có bất kỳ kế hoạch ...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.08#5",
+    "desc": "Căn nhà bị khóa kín trong đêm.",
+    "prompt": "Dark front door with deadbolts and a night chain engaged, a thin beam of moonlight across the floor, no people."
   },
   {
-    "name": "t44_a3_27_schizophrenia",
+    "name": "t44_a3_27_silhouette_on_bed_ears_covered_shadow_tendrils",
     "act": 3,
-    "sentences": "3.09#3",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Khi nỗi đau đớn và sự căm ghét bản thân đạt đến cực điểm, nó biến thành một cơn cuồng nộ h...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.08#6,3.08#7",
+    "desc": "Giọng nói thúc giục quay lại trường học.",
+    "prompt": "Boy silhouette sitting on a bed with hands over ears, shadow tendrils climbing the walls, no face visible."
   },
   {
-    "name": "t44_a3_28_hallucinations",
+    "name": "t44_a3_28_lone_car_forest_road_dawn_headlights_fog",
     "act": 3,
-    "sentences": "3.10#1",
-    "desc": "Hồi 3 Tập 36 (hallucinations): Tuy nhiên, sự xuất hiện của Jake Ryker và các học sinh dũng cảm đã làm trật bánh kịch bản ...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.08#8",
+    "desc": "Sáng hôm sau, chiếc xe lăn bánh về phía trường.",
+    "prompt": "Lone car on a forest road at dawn heading toward town, headlights in dense fog, no occupants visible."
   },
   {
-    "name": "t44_a3_29_thurston_high",
+    "name": "t44_a3_29_silhouette_walking_toward_white_light_tunnel",
     "act": 3,
-    "sentences": "3.10#2",
-    "desc": "Hồi 3 Tập 36 (thurston_high): Kip Kinkel bị bắt sống, và chiếc mặt nạ ảo giác bắt đầu rạn nứt trước ánh sáng điều tra th...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "sentences": "3.09#1,3.09#2",
+    "desc": "Bước vào trường với tâm thế một kẻ đã chết.",
+    "prompt": "Lone silhouette walking away from camera toward a blinding white light at the end of a long dark tunnel."
   },
   {
-    "name": "t44_a3_30_willamette_valley",
+    "name": "t44_a3_30_thunderstorm_lightning_over_school_roof",
+    "act": 3,
+    "sentences": "3.09#3,3.09#4",
+    "desc": "Cơn cuồng nộ hướng ra toàn xã hội.",
+    "prompt": "Violent thunderstorm with lightning forking behind a high school roofline at dusk, dramatic sky, no people."
+  },
+  {
+    "name": "t44_a3_31_backlit_line_of_teen_silhouettes_hallway",
+    "act": 3,
+    "sentences": "3.09#5,3.09#6",
+    "desc": "Jake Ryker và những học sinh dũng cảm làm trật bánh kịch bản.",
+    "prompt": "Line of teenage silhouettes standing shoulder to shoulder in a school hallway, bright light behind them, heroic and resolute, faces unseen."
+  },
+  {
+    "name": "t44_a3_32_boy_curled_in_cell_high_window_light",
+    "act": 3,
+    "sentences": "3.09#7,3.09#8",
+    "desc": "Thiếu niên run rẩy, khóc và van xin trong phòng giam.",
+    "prompt": "Teenage silhouette curled with head on knees in a bare police cell, weak light from a high barred window, face hidden."
+  },
+  {
+    "name": "t44_a3_33_candles_flowers_school_lawn_dusk_fog",
+    "act": 3,
+    "sentences": "3.10#1,3.10#2",
+    "desc": "Vết sẹo nhức nhối của thị trấn: nến và hoa trên bãi cỏ.",
+    "prompt": "Rows of lit candles and flowers laid on a school lawn at dusk in fog, no people, solemn."
+  },
+  {
+    "name": "t44_a3_34_heavy_steel_door_closing_cold_corridor",
     "act": 3,
     "sentences": "3.10#3",
-    "desc": "Hồi 3 Tập 36 (willamette_valley): Một thiếu niên mười lăm tuổi run rẩy, khóc lóc và van xin được chết đối diện với hiện thực...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
+    "desc": "Cánh cửa phòng thẩm vấn khép lại.",
+    "prompt": "Heavy steel interrogation room door slowly closing along a narrow corridor in cold fluorescent light."
   },
   {
-    "name": "t44_a3_31_schizophrenia",
-    "act": 3,
-    "sentences": "3.11#1",
-    "desc": "Hồi 3 Tập 36 (schizophrenia): Nhưng vết thương tâm lý mà nó để lại cho thị trấn Springfield sẽ là một vết sẹo nhức nhối ...",
-    "prompt": "Forensic laboratory scene in Springfield, Oregon, USA, comparison microscope glowing with split circular circular fields, unshakeable forensic breakthrough."
-  },
-  {
-    "name": "t44_a4_01_thurston_high",
-    "act": 4,
-    "sentences": "4.01#1",
-    "desc": "Hồi 4 Tập 36 (thurston_high): Bên trong phòng thẩm vấn của Sở Cảnh sát Springfield, chiếc máy ghi âm băng cối quay đều t...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t44_a4_02_willamette_valley",
-    "act": 4,
-    "sentences": "4.01#2",
-    "desc": "Hồi 4 Tập 36 (willamette_valley): Đối diện với Thám tử Al Warthen là một cậu thiếu niên mười lăm tuổi gầy gò, người vẫn còn ...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t44_a4_03_schizophrenia",
-    "act": 4,
-    "sentences": "4.01#3",
-    "desc": "Hồi 4 Tập 36 (schizophrenia): Đây không phải là một cuộc đấu trí ngoan cố giữa cảnh sát và một tên tội phạm cáo già máu ...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
-  },
-  {
-    "name": "t44_a4_04_hallucinations",
+    "name": "t44_a4_01_reel_tape_recorder_spinning_bare_table",
     "act": 4,
     "sentences": "4.02#1",
-    "desc": "Hồi 4 Tập 36 (hallucinations): Trong suốt ba mươi năm làm công tác điều tra hình sự, tôi chưa từng chứng kiến một buổi hỏ...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Máy ghi âm băng cối quay trong phòng thẩm vấn.",
+    "prompt": "Unbranded reel-to-reel tape recorder spinning on a bare table in a 1998 interrogation room, cold light, nothing else."
   },
   {
-    "name": "t44_a4_05_thurston_high",
+    "name": "t44_a4_02_interrogation_room_two_silhouettes_floor_ring",
     "act": 4,
-    "sentences": "4.02#2",
-    "desc": "Hồi 4 Tập 36 (thurston_high): Cứ sau vài câu trả lời, cậu bé lại ôm chặt lấy hai tai, gập người xuống bàn và gào thét tr...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#2,4.02#3",
+    "desc": "Thám tử Warthen đối diện cậu bé bị khóa chân vào móc sàn.",
+    "prompt": "Bare concrete interrogation room, a table and two chairs, a detective silhouette seated opposite a slouched teenage silhouette, a bolted metal ring on the floor, faces hidden."
   },
   {
-    "name": "t44_a4_06_willamette_valley",
+    "name": "t44_a4_03_chess_game_mid_play_toppled_king",
     "act": 4,
-    "sentences": "4.02#3",
-    "desc": "Hồi 4 Tập 36 (willamette_valley): Hắn liên tục van xin chúng tôi hãy bắn vào đầu hắn, nói rằng những tiếng nói trong đầu đan...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.02#4,4.02#5",
+    "desc": "Cuộc đối thoại với một tâm thức vỡ vụn.",
+    "prompt": "Unfinished chess game with a toppled king on a dark table, plain pieces, dramatic side light."
   },
   {
-    "name": "t44_a4_07_schizophrenia",
+    "name": "t44_a4_04_detective_silhouette_desk_lamp_late_night",
     "act": 4,
     "sentences": "4.03#1",
-    "desc": "Hồi 4 Tập 36 (schizophrenia): Hắn khai rằng hắn đã nói 'Con yêu mẹ' trước khi bắn, và hắn làm điều đó vì tin rằng đó là ...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Điều tra viên ba mươi năm kinh nghiệm trong đêm.",
+    "prompt": "Detective silhouette at a cluttered desk with one lamp and an empty coffee cup late at night, face hidden, files completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a4_08_hallucinations",
+    "name": "t44_a4_05_hunched_silhouette_hands_over_ears_table",
     "act": 4,
-    "sentences": "4.03#2",
-    "desc": "Hồi 4 Tập 36 (hallucinations): Hắn hét lên: 'Hãy bắn tôi đi! Giết tôi đi!' — một nỗ lực tự sát tuyệt vọng ngay bên trong ...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.03#2,4.03#3",
+    "desc": "Cậu bé ôm tai, gập người xuống bàn.",
+    "prompt": "Distant silhouette of a hunched teenage boy at a bare table with hands over his ears, face hidden, cold interrogation light."
   },
   {
-    "name": "t44_a4_09_thurston_high",
+    "name": "t44_a4_06_barred_window_rain_grey_dawn",
     "act": 4,
-    "sentences": "4.03#3",
-    "desc": "Hồi 4 Tập 36 (thurston_high): Cuộn băng ghi âm buổi hỏi cung năm một chín chín mươi tám đã trở thành một tài liệu pháp y...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "sentences": "4.03#4",
+    "desc": "Tiếng nói trong đầu xé toạc màng nhĩ.",
+    "prompt": "Barred window with rain streaming down and grey dawn light on a bare concrete wall."
   },
   {
-    "name": "t44_a4_10_willamette_valley",
+    "name": "t44_a4_07_small_child_silhouette_forest_path_night_lost",
+    "act": 4,
+    "sentences": "4.03#5,4.03#6",
+    "desc": "Như một đứa trẻ lên năm bị lạc.",
+    "prompt": "Tiny child silhouette alone on a dark forest path at night, lost, fog and distant trees, no face."
+  },
+  {
+    "name": "t44_a4_08_overturned_chair_single_shoe_door_ajar",
+    "act": 4,
+    "sentences": "4.03#7,4.03#8,4.03#9",
+    "desc": "Cơn hoảng loạn trong phòng thẩm vấn, dấu vết còn lại.",
+    "prompt": "Interrogation room with an overturned chair, a single shoe on the floor and the door ajar spilling hallway light, no people."
+  },
+  {
+    "name": "t44_a4_09_white_haze_drifting_empty_interrogation_room",
+    "act": 4,
+    "sentences": "4.03#10",
+    "desc": "Khói cay lẫn trong phòng thẩm vấn trống.",
+    "prompt": "Wisps of pale haze drifting through an empty interrogation room under harsh light."
+  },
+  {
+    "name": "t44_a4_10_forensic_archive_shelves_blank_boxes",
     "act": 4,
     "sentences": "4.04#1",
-    "desc": "Hồi 4 Tập 36 (willamette_valley): Liệu sự suy sụp đau đớn ấy có phải là sự ăn năn hối hận thực thụ trước tội ác tày trời mà ...",
-    "prompt": "Historic courtroom interior in Springfield, Oregon, USA, elevated judge bench under seal, crowded gallery of spectators, shaft of daylight cutting across wooden benches."
+    "desc": "Cuộn băng trở thành tài liệu pháp y kinh điển.",
+    "prompt": "Rows of archive shelves holding boxes and tape reels, all completely blank and unmarked with no writing at all, dim institutional light."
   },
   {
-    "name": "t44_a4_11_schizophrenia",
+    "name": "t44_a4_11_rain_streaked_glass_silhouette_behind",
     "act": 4,
     "sentences": "4.04#2",
-    "desc": "Hồi 4 Tập 36 (schizophrenia): Hay đó chỉ là sự hoảng loạn sinh học của một đứa trẻ bị căn bệnh tâm thần phân liệt dồn đế...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "desc": "Những giọt nước mắt: giọt mưa trượt trên kính.",
+    "prompt": "Rain-streaked window glass with droplets like tears running down, a blurred silhouette behind it."
   },
   {
-    "name": "t44_a4_12_hallucinations",
+    "name": "t44_a4_12_empty_brass_scales_soft_light",
     "act": 4,
-    "sentences": "4.04#3",
-    "desc": "Hồi 4 Tập 36 (hallucinations): Suốt hơn hai mươi năm sống sau chấn song nhà tù, tôi đã chọn cách hoàn toàn im lặng trước ...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#3,4.04#4",
+    "desc": "Hối hận thực thụ hay hoảng loạn sinh học: chiếc cân.",
+    "prompt": "Brass balance scale with two empty pans in soft light on a dark wooden table, plain and unmarked."
   },
   {
-    "name": "t44_a4_13_thurston_high",
+    "name": "t44_a4_13_stacked_translucent_glass_panes_faint_shapes",
     "act": 4,
-    "sentences": "4.05#1",
-    "desc": "Hồi 4 Tập 36 (thurston_high): Khi tôi mười lăm tuổi, đầu óc tôi là một địa ngục của những tiếng gào thét mà tôi không có...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.04#5",
+    "desc": "Cơ chế tâm lý phức tạp nhiều tầng.",
+    "prompt": "Stack of translucent glass panes layered with faint shapes behind each, symbolic layers of the mind."
   },
   {
-    "name": "t44_a4_14_willamette_valley",
+    "name": "t44_a4_14_prison_corridor_cell_bars_cold_blue_2021",
     "act": 4,
-    "sentences": "4.05#2",
-    "desc": "Hồi 4 Tập 36 (willamette_valley): Và sự tỉnh táo ấy chính là bản án trừng phạt tàn khốc nhất mà tôi phải gánh chịu mỗi ngày....",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#1,4.05#2",
+    "desc": "Hơn hai mươi năm sau song sắt nhà tù.",
+    "prompt": "Empty prison corridor with cell bars in cold blue light, no inmates, quiet, walls completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a4_15_schizophrenia",
+    "name": "t44_a4_15_cell_window_moonlight_bar_shadows_ribbons",
     "act": 4,
     "sentences": "4.05#3",
-    "desc": "Hồi 4 Tập 36 (schizophrenia): Nhưng tôi cũng mang gánh nặng trách nhiệm về nỗi đau mà sự tồn tại của tôi ở tuổi trưởng t...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "desc": "Địa ngục của những tiếng gào thét năm mười lăm tuổi.",
+    "prompt": "Prison cell floor striped by moonlight and bar shadows with dark ribbons of shadow swirling in the corner, no people."
   },
   {
-    "name": "t44_a4_16_hallucinations",
+    "name": "t44_a4_16_sunlight_through_barred_window_dust_motes",
     "act": 4,
-    "sentences": "4.06#1",
-    "desc": "Hồi 4 Tập 36 (hallucinations): Cảm giác tội lỗi và sự hổ thẹn này sẽ không bao giờ, không bao giờ có thể biến mất khỏi tâ...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#4,4.05#5",
+    "desc": "Sự tỉnh táo nhờ thuốc men như ánh sáng rọi qua song.",
+    "prompt": "Clear sunlight streaming through a barred window onto a bare concrete floor, dust motes, calm and stark."
   },
   {
-    "name": "t44_a4_17_thurston_high",
+    "name": "t44_a4_17_hunched_silhouette_carrying_boulder_dusk_road",
     "act": 4,
-    "sentences": "4.06#2",
-    "desc": "Hồi 4 Tập 36 (thurston_high): Sau hai mươi ba năm câm lặng tuyệt đối, Kip Kinkel lần đầu tiên lên tiếng không phải để tì...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#6,4.05#7",
+    "desc": "Gánh nặng trách nhiệm.",
+    "prompt": "Hunched silhouette carrying a huge boulder on his back along a dusty road at dusk, faceless, symbolic burden."
   },
   {
-    "name": "t44_a4_18_willamette_valley",
+    "name": "t44_a4_18_prison_yard_high_walls_lone_bench",
     "act": 4,
-    "sentences": "4.06#3",
-    "desc": "Hồi 4 Tập 36 (willamette_valley): Sự xuất hiện của hắn là một minh chứng sống động cho sự chuyển biến tâm lý sâu sắc nhất củ...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.05#8",
+    "desc": "Cảm giác tội lỗi không bao giờ biến mất.",
+    "prompt": "Prison yard with high walls under a grey sky, a lone bench with a faraway silhouette seated, face unseen."
   },
   {
-    "name": "t44_a4_19_schizophrenia",
+    "name": "t44_a4_19_visiting_room_glass_partition_hanging_handset",
     "act": 4,
-    "sentences": "4.07#1",
-    "desc": "Hồi 4 Tập 36 (schizophrenia): Đây chính là điểm sáng triết học cần được giải mã bằng khoa học thần kinh và tâm lý học ph...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
+    "sentences": "4.07#1,4.07#2",
+    "desc": "Sau hai mươi ba năm im lặng, lần đầu lên tiếng.",
+    "prompt": "Prison visiting room with a glass partition and two empty chairs, a telephone handset hanging by its cord, cold light."
   },
   {
-    "name": "t44_a4_20_hallucinations",
-    "act": 4,
-    "sentences": "4.07#2",
-    "desc": "Hồi 4 Tập 36 (hallucinations): Tại phiên tòa năm một chín chín mươi chín, các luật sư bào chữa đã chuẩn bị một hồ sơ bệnh...",
-    "prompt": "Emotional witness stand perspective in Springfield, Oregon, USA, dignified testimony under spotlight, tragic human resilience contrasting with judicial solemnity."
-  },
-  {
-    "name": "t44_a4_21_thurston_high",
+    "name": "t44_a4_20_thick_prison_door_narrow_slot",
     "act": 4,
     "sentences": "4.07#3",
-    "desc": "Hồi 4 Tập 36 (thurston_high): Tuy nhiên, trước sức ép to lớn từ dư luận và nỗi đau không thể xoa dịu của hai mươi lăm gi...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Không xin ân xá, không chối bỏ án.",
+    "prompt": "Thick iron prison door with a narrow slot, cold light, closed and final, door surface completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a4_22_willamette_valley",
+    "name": "t44_a4_21_green_sprout_through_cracked_concrete_dawn",
+    "act": 4,
+    "sentences": "4.07#4,4.07#5,4.07#6",
+    "desc": "Sự tiến hóa của lương tri: mầm cây nứt bê tông.",
+    "prompt": "Small green sprout growing through a crack in concrete floor in a dark cell, thin dawn light."
+  },
+  {
+    "name": "t44_a4_22_wooden_courtroom_empty_benches_gavel_1999",
     "act": 4,
     "sentences": "4.08#1",
-    "desc": "Hồi 4 Tập 36 (willamette_valley): Để hiểu tại sao Kip Kinkel lại hối hận chân thực sau nhiều thập kỷ, chúng ta phải giải mã ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Phiên tòa quận Lane năm 1999.",
+    "prompt": "Empty wood-paneled American courtroom, a gavel on the bench and empty gallery benches, soft light, 1999."
   },
   {
-    "name": "t44_a4_23_schizophrenia",
+    "name": "t44_a4_23_conference_table_thick_blank_case_files",
     "act": 4,
     "sentences": "4.08#2",
-    "desc": "Hồi 4 Tập 36 (schizophrenia): Khi bước vào trại giam và được điều trị liên tục bằng các loại thuốc chống loạn thần thế h...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "desc": "Chuyên gia tâm thần giám định.",
+    "prompt": "Long dim conference table stacked with thick case files completely blank and unmarked with no writing at all, a lone lamp."
   },
   {
-    "name": "t44_a4_24_hallucinations",
+    "name": "t44_a4_24_empty_courtroom_benches_white_lilies",
     "act": 4,
-    "sentences": "4.08#3",
-    "desc": "Hồi 4 Tập 36 (hallucinations): Thứ hai, khoa học thần kinh hiện đại đã chứng minh rằng 'Vỏ não trước trán' — trung tâm đi...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.08#3,4.08#4",
+    "desc": "Hai mươi lăm gia đình và quyết định nhận tội.",
+    "prompt": "Rows of empty courtroom benches with a bouquet of white lilies on one, soft muted light, no people."
   },
   {
-    "name": "t44_a4_25_thurston_high",
+    "name": "t44_a4_25_night_neuroscience_lab_microscope_model_brain",
     "act": 4,
-    "sentences": "4.09#1",
-    "desc": "Hồi 4 Tập 36 (thurston_high): Năm mười lăm tuổi, não bộ của Kip chưa phát triển toàn diện, lại bị căn bệnh tâm thần phân...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#1,4.09#2",
+    "desc": "Hai cơ chế khoa học: dược lý thần kinh.",
+    "prompt": "University neuroscience lab at night, microscope and a plain anatomical brain model on a bench, desk lamp, everything completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a4_26_willamette_valley",
+    "name": "t44_a4_26_fog_lifting_pine_forest_window_dawn",
     "act": 4,
-    "sentences": "4.09#2",
-    "desc": "Hồi 4 Tập 36 (willamette_valley): Đó là lý do tại sao sự hối hận năm một chín chín mươi tám chỉ là 'Hoảng loạn bản năng', tr...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#3,4.09#4",
+    "desc": "Tiếng nói ảo giác dần câm lặng, sương tan.",
+    "prompt": "View from a window at dawn as fog lifts from a pine forest, calm and clear light."
   },
   {
-    "name": "t44_a4_27_schizophrenia",
+    "name": "t44_a4_27_young_sapling_beside_mature_tree_soft_light",
     "act": 4,
-    "sentences": "4.09#3",
-    "desc": "Hồi 4 Tập 36 (schizophrenia): Sự ăn năn muộn màng của Kip Kinkel không thể làm sống lại những sinh mệnh đã mất, cũng khô...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#5",
+    "desc": "Vỏ não trước trán chỉ hoàn thiện ở tuổi hai mươi lăm.",
+    "prompt": "Young sapling growing beside a mature tree in soft morning light, symbolizing slow brain maturation."
   },
   {
-    "name": "t44_a4_28_hallucinations",
+    "name": "t44_a4_28_unfinished_stone_bridge_over_ravine_dusk",
     "act": 4,
-    "sentences": "4.10#1",
-    "desc": "Hồi 4 Tập 36 (hallucinations): Một xã hội văn minh không chỉ cần trừng phạt thích đáng cái ác, mà còn phải thấu hiểu tận ...",
-    "prompt": "Judicial hardwood gavel striking sounding block firmly in Springfield, Oregon, USA, dramatic dust particles rising in sharp beam of light, absolute final sentence."
+    "sentences": "4.09#6",
+    "desc": "Não bộ tuổi mười lăm chưa hoàn thiện.",
+    "prompt": "Unfinished stone bridge with a gap over a deep ravine at dusk, mist below."
   },
   {
-    "name": "t44_a5_01_thurston_high",
-    "act": 5,
-    "sentences": "5.01#1",
-    "desc": "Hồi 5 Tập 36 (thurston_high): Vào tháng mười một năm một chín chín mươi chín, thẩm phán Jack Mattison của Tòa án Quận La...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "name": "t44_a4_29_completed_stone_bridge_morning_light",
+    "act": 4,
+    "sentences": "4.09#7",
+    "desc": "Vỏ não trưởng thành, khả năng thấu cảm đầy đủ.",
+    "prompt": "The same kind of stone bridge now complete over a ravine in warm morning light, mist burning off."
   },
   {
-    "name": "t44_a5_02_willamette_valley",
-    "act": 5,
-    "sentences": "5.01#2",
-    "desc": "Hồi 5 Tập 36 (willamette_valley): Kipland Kinkel bị kết án một trăm mười một năm và tám tháng tù giam, hoàn toàn không có cơ...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "name": "t44_a4_30_silhouette_bowing_head_still_water_dawn",
+    "act": 4,
+    "sentences": "4.09#8,4.09#9",
+    "desc": "Hối hận bản thể: bóng người cúi đầu bên mặt nước.",
+    "prompt": "Silhouette of a man bowing his head beside still water at calm dawn, reflection unclear, face hidden."
   },
   {
-    "name": "t44_a5_03_schizophrenia",
-    "act": 5,
-    "sentences": "5.01#3",
-    "desc": "Hồi 5 Tập 36 (schizophrenia): Xã hội đòi hỏi công lý nghiêm minh để xoa dịu nỗi đau của những người cha, người mẹ đã vĩn...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "name": "t44_a4_31_extinguished_candles_one_flame_wax_trails",
+    "act": 4,
+    "sentences": "4.10#1,4.10#2",
+    "desc": "Ăn năn không thể làm sống lại những sinh mệnh đã mất.",
+    "prompt": "Table of extinguished candles with wax trails and a single small flame remaining, dark room."
   },
   {
-    "name": "t44_a5_04_hallucinations",
+    "name": "t44_a4_32_lady_justice_statue_dusk_courthouse_steps",
+    "act": 4,
+    "sentences": "4.10#3",
+    "desc": "Trừng phạt và thấu hiểu gốc rễ tâm lý.",
+    "prompt": "Stone statue of blindfolded Lady Justice on courthouse steps at dusk, pedestal completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t44_a4_33_red_beacon_lamp_over_foggy_road",
+    "act": 4,
+    "sentences": "4.10#4",
+    "desc": "Bài học cảnh báo đỏ sinh tồn.",
+    "prompt": "Glowing red warning beacon lamp over a foggy empty road at night, ominous, nothing else."
+  },
+  {
+    "name": "t44_a5_01_lane_county_courthouse_autumn_leaves_1999",
     "act": 5,
     "sentences": "5.02#1",
-    "desc": "Hồi 5 Tập 36 (hallucinations): Thế nhưng, đằng sau sự trừng phạt tuyệt đối ấy, thảm kịch Kip Kinkel đã để lại một khoảng ...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Tòa án quận Lane tháng 11/1999.",
+    "prompt": "Exterior of an American county courthouse in November 1999, fallen autumn leaves on the steps, grey sky, facade completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a5_05_thurston_high",
+    "name": "t44_a5_02_gavel_resting_on_wooden_bench",
     "act": 5,
     "sentences": "5.02#2",
-    "desc": "Hồi 5 Tập 36 (thurston_high): Làm thế nào một đứa trẻ bị tâm thần phân liệt nặng có thể trượt dài vào hố sâu bạo lực nga...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Bản án lịch sử được tuyên.",
+    "prompt": "Wooden gavel resting on a judge's bench, still and heavy, soft light."
   },
   {
-    "name": "t44_a5_06_willamette_valley",
+    "name": "t44_a5_03_empty_prison_cell_bare_bunk",
     "act": 5,
     "sentences": "5.02#3",
-    "desc": "Hồi 5 Tập 36 (willamette_valley): Đó là câu hỏi mà toàn bộ nền văn minh hiện đại buộc phải đối diện sau cơn địa chấn Thursto...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "desc": "Bốn bức tường đá hoa cương khép lại tương lai.",
+    "prompt": "Empty prison cell with a bare bunk and stone walls in cold light, no people."
   },
   {
-    "name": "t44_a5_07_schizophrenia",
+    "name": "t44_a5_04_courthouse_corridor_empty_chairs_jackets",
     "act": 5,
-    "sentences": "5.03#1",
-    "desc": "Hồi 5 Tập 36 (schizophrenia): Thứ nhất, tuyệt đối không bao giờ bình thường hóa những biểu hiện bất ổn tâm thần ở thanh ...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#4",
+    "desc": "Nỗi đau của các gia đình: dãy ghế trống.",
+    "prompt": "Courthouse corridor lined with empty chairs and a few folded jackets, a box of tissues, somber light, no people."
   },
   {
-    "name": "t44_a5_08_hallucinations",
+    "name": "t44_a5_05_empty_classroom_stacked_chairs_dust_light",
     "act": 5,
-    "sentences": "5.03#2",
-    "desc": "Hồi 5 Tập 36 (hallucinations): Khi một đứa trẻ có biểu hiện cô lập bản thân, ám ảnh với bạo lực hoặc có những phát ngôn k...",
-    "prompt": "Solemn penal execution facility at dawn in Springfield, Oregon, USA, razor wire perimeter fence cutting through cold morning mist, profound contemplative quiet."
+    "sentences": "5.02#5",
+    "desc": "Khoảng trống đạo đức và giáo dục.",
+    "prompt": "Empty classroom with stacked chairs and a chalkboard completely blank and unmarked with no writing at all, late afternoon dusty sunbeams."
   },
   {
-    "name": "t44_a5_09_thurston_high",
+    "name": "t44_a5_06_padlocked_iron_gate_school_fog_beyond",
+    "act": 5,
+    "sentences": "5.02#6,5.02#7",
+    "desc": "Bản án giam thể xác, câu hỏi phòng ngừa còn đó.",
+    "prompt": "Padlocked iron gate in fog with a school campus faintly visible beyond it, gate completely blank and unmarked with no writing at all."
+  },
+  {
+    "name": "t44_a5_07_school_under_storm_one_lit_window",
+    "act": 5,
+    "sentences": "5.02#8",
+    "desc": "Câu hỏi sau cơn địa chấn Thurston.",
+    "prompt": "Lonely high school building under heavy storm clouds with one lit window, dusk, empty grounds."
+  },
+  {
+    "name": "t44_a5_08_three_lit_lanterns_dark_wooden_table",
+    "act": 5,
+    "sentences": "5.03#1,5.03#2",
+    "desc": "Ba bài học nhận diện sinh tồn.",
+    "prompt": "Three glowing lanterns in a row on a dark wooden table, symbolizing three lessons, deep shadows."
+  },
+  {
+    "name": "t44_a5_09_closed_teen_bedroom_door_light_beneath",
     "act": 5,
     "sentences": "5.03#3",
-    "desc": "Hồi 5 Tập 36 (thurston_high): Cha mẹ không thể dùng việc mua súng để xoa dịu hoặc thương lượng với một đứa trẻ đang mang...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "desc": "Dấu hiệu cô lập ở thanh thiếu niên.",
+    "prompt": "Closed teenage bedroom door in a quiet hallway, soft light under it, wall decorations completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a5_10_willamette_valley",
+    "name": "t44_a5_10_heavy_steel_home_safe_closed_garage",
     "act": 5,
-    "sentences": "5.04#1",
-    "desc": "Hồi 5 Tập 36 (willamette_valley): Thứ ba, nhà trường và cộng đồng cần xây dựng cơ chế phản ứng nhanh để tiếp nhận và can thi...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.03#4,5.03#5",
+    "desc": "Kiểm soát vũ khí trong gia đình bằng kỷ luật tuyệt đối.",
+    "prompt": "Heavy closed steel safe in a plain home garage, dim bulb overhead, nothing else visible."
   },
   {
-    "name": "t44_a5_11_schizophrenia",
+    "name": "t44_a5_11_counselor_office_open_door_warm_light",
     "act": 5,
-    "sentences": "5.04#2",
-    "desc": "Hồi 5 Tập 36 (schizophrenia): Vụ án Kip Kinkel đã trở thành một bước ngoặt làm thay đổi toàn diện quy trình kiểm soát an...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.03#6",
+    "desc": "Cơ chế tiếp nhận và can thiệp tâm lý của nhà trường.",
+    "prompt": "School counselor's office with the door open and warm light, two chairs facing each other, no people, walls completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a5_12_hallucinations",
+    "name": "t44_a5_12_misty_forest_fork_one_path_lit",
     "act": 5,
-    "sentences": "5.04#3",
-    "desc": "Hồi 5 Tập 36 (hallucinations): Khái niệm 'Đánh giá nguy cơ đe dọa học đường' được ra đời, buộc các trường học và lực lượn...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.03#7",
+    "desc": "Bi kịch có thể đã rẽ hướng khác.",
+    "prompt": "Misty forest road forking in two, one path bathed in warm light, the other dark."
   },
   {
-    "name": "t44_a5_13_thurston_high",
+    "name": "t44_a5_13_round_table_staff_police_silhouettes",
     "act": 5,
-    "sentences": "5.05#1",
-    "desc": "Hồi 5 Tập 36 (thurston_high): Họ đã được trao tặng những tấm huân chương danh dự cao quý nhất của Hướng đạo sinh Mỹ vì t...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#1,5.04#2",
+    "desc": "Đánh giá nguy cơ đe dọa học đường: nhà trường và cảnh sát phối hợp.",
+    "prompt": "Round table meeting of school staff and police as silhouettes in a dim room, faces unseen, a lamp over the table."
   },
   {
-    "name": "t44_a5_14_willamette_valley",
+    "name": "t44_a5_14_bronze_medal_blue_ribbon_wooden_stand",
     "act": 5,
-    "sentences": "5.05#2",
-    "desc": "Hồi 5 Tập 36 (willamette_valley): Nhưng di sản lớn nhất của vụ án là lời cảnh tỉnh về việc xây dựng một hệ thống pháp luật b...",
-    "prompt": "Symbolic red flag survival visual: An antique brass compass resting on dark slate beside an alert warning beacon, life-saving awareness."
+    "sentences": "5.04#3,5.04#4",
+    "desc": "Huân chương Hướng đạo sinh cho tinh thần xả thân.",
+    "prompt": "Small bronze medal on a blue ribbon on a wooden stand, medal face completely blank and unmarked with no writing at all, soft spotlight."
   },
   {
-    "name": "t44_a5_15_schizophrenia",
+    "name": "t44_a5_15_law_library_blank_spines_lamp",
     "act": 5,
-    "sentences": "5.05#3",
-    "desc": "Hồi 5 Tập 36 (schizophrenia): Nhìn lại hành trình hơn hai thập kỷ của hồ sơ Kip Kinkel, chúng ta không tìm kiếm sự biện ...",
-    "prompt": "Serene panoramic wide landscape of Springfield, Oregon, USA today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.04#5,5.04#6",
+    "desc": "Hệ thống pháp luật phân định cái ác và điên loạn.",
+    "prompt": "Dim law library with tall shelves of books with spines completely blank and unmarked with no writing at all, a green reading lamp."
   },
   {
-    "name": "t44_a5_16_hallucinations",
+    "name": "t44_a5_16_memorial_garden_bench_flowers_autumn_school",
     "act": 5,
-    "sentences": "5.06#1",
-    "desc": "Hồi 5 Tập 36 (hallucinations): Những vết thương thể xác và nỗi đau mất mát của các gia đình tại Springfield là vĩnh viễn ...",
-    "prompt": "Serene panoramic wide landscape of Springfield, Oregon, USA today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#1,5.05#2",
+    "desc": "Vết thương của các gia đình tại Springfield.",
+    "prompt": "Quiet memorial garden with a bench and fresh flowers beside a school in autumn, no people, soft grey light."
   },
   {
-    "name": "t44_a5_17_thurston_high",
+    "name": "t44_a5_17_lantern_in_fog_on_dark_road",
     "act": 5,
-    "sentences": "5.06#2",
-    "desc": "Hồi 5 Tập 36 (thurston_high): Cái ác không phải lúc nào cũng sinh ra từ lòng căm thù thuần túy hay sự tha hóa đạo đức có...",
-    "prompt": "Serene panoramic wide landscape of Springfield, Oregon, USA today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#3,5.05#4",
+    "desc": "Thấu hiểu sự mỏng manh của nhân tính.",
+    "prompt": "A single lantern glowing in heavy fog on a dark road, delicate warm halo."
   },
   {
-    "name": "t44_a5_18_willamette_valley",
+    "name": "t44_a5_18_lone_armchair_vast_empty_room_whispers",
     "act": 5,
-    "sentences": "5.06#3",
-    "desc": "Hồi 5 Tập 36 (willamette_valley): Đôi khi, nó bùng phát từ sự sụp đổ im lặng của một tâm trí bị bỏ rơi giữa những tiếng nói ...",
-    "prompt": "Serene panoramic wide landscape of Springfield, Oregon, USA today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#5,5.05#6",
+    "desc": "Tâm trí bị bỏ rơi giữa những tiếng nói ảo giác.",
+    "prompt": "Single armchair in a vast empty dark room with faint pale wisps swirling around it, desolate."
   },
   {
-    "name": "t44_a5_19_schizophrenia",
+    "name": "t44_a5_19_dawn_rays_over_pine_forest_after_storm",
     "act": 5,
-    "sentences": "5.07#1",
-    "desc": "Hồi 5 Tập 36 (schizophrenia): Lương tri con người có thể thức tỉnh khi vỏ não trưởng thành và thuốc men xua tan đi làn s...",
-    "prompt": "Serene panoramic wide landscape of Springfield, Oregon, USA today: Sunlight breaking through storm clouds, peaceful nature renewed, dignity and closure restored."
+    "sentences": "5.05#7,5.05#8",
+    "desc": "Lương tri thức tỉnh, thời gian không quay lại.",
+    "prompt": "Sunrise rays breaking through clouds over an Oregon pine forest after a storm, wet leaves glittering."
   },
   {
-    "name": "t44_a5_20_hallucinations",
+    "name": "t44_a5_20_umbrella_shielding_sapling_in_rain",
     "act": 5,
-    "sentences": "5.07#2",
-    "desc": "Hồi 5 Tập 36 (hallucinations): Thế nhưng, thời gian không bao giờ quay trở lại để đảo ngược những phát súng đã cướp đi si...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#9,5.05#10",
+    "desc": "Mỗi gia đình là tấm khiên bảo vệ.",
+    "prompt": "Open umbrella sheltering a small sapling in heavy rain, protective and gentle, dusk light."
   },
   {
-    "name": "t44_a5_21_thurston_high",
+    "name": "t44_a5_21_lighthouse_beam_over_night_sea",
     "act": 5,
-    "sentences": "5.07#3",
-    "desc": "Hồi 5 Tập 36 (thurston_high): Hãy học cách lắng nghe những vết nứt vô hình phía sau nụ cười của con cái trước khi áp lực...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#11,5.05#12",
+    "desc": "Sự tỉnh thức là ngọn hải đăng.",
+    "prompt": "Lighthouse beam sweeping across a dark stormy sea at night, hopeful, no people."
   },
   {
-    "name": "t44_a5_22_willamette_valley",
+    "name": "t44_a5_22_dark_podcast_studio_warm_lamp_microphone",
     "act": 5,
-    "sentences": "5.08#1",
-    "desc": "Hồi 5 Tập 36 (willamette_valley): Sự tỉnh thức và lòng thấu cảm chính là ngọn hải đăng duy nhất giúp chúng ta đẩy lùi bóng t...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#13",
+    "desc": "Lời cảm ơn khán giả từ phòng thu Amber Eyes.",
+    "prompt": "Cozy dark audio recording studio with a warm desk lamp and a studio microphone, acoustic foam walls completely blank and unmarked with no writing at all."
   },
   {
-    "name": "t44_a5_23_schizophrenia",
+    "name": "t44_a5_23_family_dinner_table_warm_window_night",
     "act": 5,
-    "sentences": "5.08#2",
-    "desc": "Hồi 5 Tập 36 (schizophrenia): Cảm ơn quý vị khán giả đã luôn đồng hành cùng kênh Amber Eyes trong những hành trình khám ...",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#14",
+    "desc": "Yêu thương gia đình, bảo bọc những người xung quanh.",
+    "prompt": "Warm lit window of a house at night showing an empty dinner table set for a family, glowing amber light spilling onto the lawn outside."
   },
   {
-    "name": "t44_a5_24_hallucinations",
+    "name": "t44_a5_24_amber_tiger_eyes_closing_dossier_dark",
     "act": 5,
-    "sentences": "5.08#3",
-    "desc": "Hồi 5 Tập 36 (hallucinations): Xin hãy luôn giữ vững sự tỉnh thức, yêu thương gia đình và bảo bọc những người xung quanh....",
-    "prompt": "Amber Eyes investigative studio desk: Antique brass lamp casting warm golden amber light over closed leather-bound dossier stamped with golden owl emblem, complete dignified closure."
+    "sentences": "5.05#15",
+    "desc": "Thẻ kết: đôi mắt hổ phách và hồ sơ khép lại.",
+    "prompt": "Closing card scene: a pair of glowing amber tiger eyes in darkness above a closed dossier folder, folder completely blank and unmarked with no writing at all, noir mood, nothing else."
   }
 ]

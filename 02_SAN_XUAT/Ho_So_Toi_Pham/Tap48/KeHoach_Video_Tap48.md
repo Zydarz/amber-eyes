@@ -25,11 +25,13 @@
 
 ## B3. Trạng thái các bước kỹ thuật (Checklist)
 
-- [x] Kịch bản Tiếng Việt (01_KICH_BAN/Ho_So_Toi_Pham/Tap48/)
-- [x] Kịch bản Tiếng Anh (01_KICH_BAN/Ho_So_Toi_Pham/Tap48_EN/)
-- [x] Kịch bản Tiếng Nhật (01_KICH_BAN/Ho_So_Toi_Pham/Tap48_JA/)
-- [x] Kịch bản Tiếng Hàn (01_KICH_BAN/Ho_So_Toi_Pham/Tap48_KO/)
-- [ ] Tách câu (`parse_kichban.py`)
+- [x] Kịch bản Tiếng Việt 240 câu chuẩn A2 & K10 (`01_KICH_BAN/Ho_So_Toi_Pham/Tap48/kichban_tap48_19112026.md`)
+- [x] Báo cáo nghiên cứu tâm lý & đối chiếu tư pháp (`01_KICH_BAN/Ho_So_Toi_Pham/Tap48/NghienCuu_TamLy_BoSung_KichBan_Tap48.md`)
+- [x] Báo cáo review chính tả, ngôn từ và kiểm định tư pháp (`01_KICH_BAN/Ho_So_Toi_Pham/Tap48/REVIEW_kichban_tap48.md`)
+- [ ] Kịch bản Tiếng Anh (01_KICH_BAN/Ho_So_Toi_Pham/Tap48_EN/)
+- [ ] Kịch bản Tiếng Nhật (01_KICH_BAN/Ho_So_Toi_Pham/Tap48_JA/)
+- [ ] Kịch bản Tiếng Hàn (01_KICH_BAN/Ho_So_Toi_Pham/Tap48_KO/)
+- [x] Tách câu (`parse_kichban.py`) — Đã kiểm thử đạt chuẩn 240 câu / 31 elements
 - [ ] Diễn xuất & sinh audio TTS (`tts_sentences.py`)
 - [ ] QC âm thanh, nhịp nghỉ, LUFS (`qc_pause_gate.py`, `build_audio3.py`)
 - [ ] Bảng shot hình ảnh (`parse_shots.py`)

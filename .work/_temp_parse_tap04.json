@@ -1,0 +1,1370 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Tiếng đàn Piano trầm buồn hòa cùng âm thanh máy đo nhịp tim \"Tít... Tít...\" chậm rãi, đều đặn tạo không gian bệnh viện u tịch và lạnh lẽo."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng bước chân nhẹ nhàng trên sàn gạch hành lang bệnh viện, tiếng ống nghe y tế cọ xát vào áo vải, tiếng thở dốc yếu ớt của người bệnh."
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm ấm, điềm tĩnh, mở đầu bằng sự suy ngẫm về sự thiêng liêng của ngành y",
+  "text": "Trong bậc thang danh vọng của xã hội loài người, có những nghề nghiệp được tôn vinh như những thiên thần hộ mệnh giữa đời thực. Đó là những người thầy thuốc khoác trên mình chiếc áo blouse trắng tinh khôi, biểu tượng của tri thức, y đức và lòng nhân ái vô bờ. Từ khi lọt lòng mẹ cất tiếng khóc chào đời cho đến giây phút cuối cùng từ giã cõi đời, chúng ta đều đặt trọn sinh mạng của mình vào đôi bàn tay của bác sĩ. Chúng ta trao cho họ quyền được chạm vào cơ thể mình, quyền được đưa những mũi tiêm vào huyết quản và quyền quyết định phác đồ điều trị sinh tử. Một lời dặn dò của bác sĩ có sức nặng hơn ngàn lời khuyên nhủ của người thân. Sự tôn kính dành cho chiếc áo blouse trắng dường như đã trở thành một phản xạ văn hóa ăn sâu vào tiềm thức của mỗi con người. Chúng ta tin tưởng họ một cách vô điều kiện, bởi vì nếu không tin bác sĩ, chúng ta còn biết bám víu vào ai trong những khoảnh khắc mong manh nhất của sự sống? Ai trong chúng ta cũng tin rằng những người thề lời thề y đức sẽ luôn chiến đấu đến hơi thở cuối cùng để bảo vệ sự sống. Thế nhưng, điều gì sẽ xảy ra nếu chiếc áo blouse trắng tinh khôi ấy lại trở thành một tấm bình phong tàng hình hoàn hảo nhất cho cái ác? Điều gì sẽ xảy ra khi quyền lực sinh sát thiêng liêng bị biến thành công cụ thỏa mãn sự ngạo mạn bệnh hoạn của một kẻ săn mồi? Liệu một phòng khám tư nhân ấm cúng có thể là nơi che giấu một chuỗi hành quyết lạnh lùng kéo dài suốt nhiều thập kỷ? Trước khi bước vào bóng tối sau cánh cửa phòng khám, chúng ta hãy lắng nghe tiếng nói từ một người bệnh đời thường.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "Trong bậc thang danh vọng của xã hội loài người, có những nghề nghiệp được tôn vinh như những thiên thần hộ mệnh giữa đời thực.",
+    "words": 26
+   },
+   {
+    "id": "1.03#2",
+    "text": "Đó là những người thầy thuốc khoác trên mình chiếc áo blouse trắng tinh khôi, biểu tượng của tri thức, y đức và lòng nhân ái vô bờ.",
+    "words": 28
+   },
+   {
+    "id": "1.03#3",
+    "text": "Từ khi lọt lòng mẹ cất tiếng khóc chào đời cho đến giây phút cuối cùng từ giã cõi đời, chúng ta đều đặt trọn sinh mạng của mình vào đôi bàn tay của bác sĩ.",
+    "words": 36
+   },
+   {
+    "id": "1.03#4",
+    "text": "Chúng ta trao cho họ quyền được chạm vào cơ thể mình, quyền được đưa những mũi tiêm vào huyết quản và quyền quyết định phác đồ điều trị sinh tử.",
+    "words": 31
+   },
+   {
+    "id": "1.03#5",
+    "text": "Một lời dặn dò của bác sĩ có sức nặng hơn ngàn lời khuyên nhủ của người thân.",
+    "words": 18
+   },
+   {
+    "id": "1.03#6",
+    "text": "Sự tôn kính dành cho chiếc áo blouse trắng dường như đã trở thành một phản xạ văn hóa ăn sâu vào tiềm thức của mỗi con người.",
+    "words": 28
+   },
+   {
+    "id": "1.03#7",
+    "text": "Chúng ta tin tưởng họ một cách vô điều kiện, bởi vì nếu không tin bác sĩ, chúng ta còn biết bám víu vào ai trong những khoảnh khắc mong manh nhất của sự sống?",
+    "words": 35
+   },
+   {
+    "id": "1.03#8",
+    "text": "Ai trong chúng ta cũng tin rằng những người thề lời thề y đức sẽ luôn chiến đấu đến hơi thở cuối cùng để bảo vệ sự sống.",
+    "words": 28
+   },
+   {
+    "id": "1.03#9",
+    "text": "Thế nhưng, điều gì sẽ xảy ra nếu chiếc áo blouse trắng tinh khôi ấy lại trở thành một tấm bình phong tàng hình hoàn hảo nhất cho cái ác?",
+    "words": 30
+   },
+   {
+    "id": "1.03#10",
+    "text": "Điều gì sẽ xảy ra khi quyền lực sinh sát thiêng liêng bị biến thành công cụ thỏa mãn sự ngạo mạn bệnh hoạn của một kẻ săn mồi?",
+    "words": 29
+   },
+   {
+    "id": "1.03#11",
+    "text": "Liệu một phòng khám tư nhân ấm cúng có thể là nơi che giấu một chuỗi hành quyết lạnh lùng kéo dài suốt nhiều thập kỷ?",
+    "words": 26
+   },
+   {
+    "id": "1.03#12",
+    "text": "Trước khi bước vào bóng tối sau cánh cửa phòng khám, chúng ta hãy lắng nghe tiếng nói từ một người bệnh đời thường.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng rè băng ghi âm phỏng vấn đường phố bật nhẹ."
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng N1 - người bệnh trung niên, thể hiện sự kính trọng và tin tưởng tuyệt đối vào bác sĩ",
+  "text": "Đối với gia đình tôi, bác sĩ gia đình giống như một ân nhân cứu mạng vậy. Mẹ tôi tuổi đã cao, nhiều bệnh nền, mỗi lần trở trời ốm đau là cả nhà lại lo sốt vó. Nhưng chỉ cần bác sĩ đến nhà khám bệnh, ân cần bắt mạch, hỏi han từng bữa ăn giấc ngủ và kê đơn thuốc là chúng tôi cảm thấy yên tâm vô cùng. Bác sĩ nhớ rõ từng tiền sử dị ứng, từng thói quen sinh hoạt của mẹ tôi còn hơn cả con cái trong nhà. Bác sĩ là người có học hàm, học vị cao, thề lời thề Hippocrates cứu người, thì việc gì họ phải làm hại bệnh nhân của mình? Nếu bác sĩ bảo bệnh nhân qua đời thanh thản trong giấc ngủ do tuổi già sức yếu, thì gia đình chỉ biết gạt nước mắt cảm ơn bác sĩ đã tận tình chăm sóc những ngày cuối đời. Làm sao một người có thể nghi ngờ một vị bác sĩ đáng kính đã gắn bó với cả khu phố suốt mấy chục năm trời được chứ? Nghi ngờ bác sĩ chẳng khác nào xúc phạm đến y đức và lòng tốt của những người đang cứu rỗi mạng sống của chúng ta. Chúng tôi luôn mang ơn ông ấy như một vị phúc tinh che chở cho sức khỏe của cả gia đình.",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "Đối với gia đình tôi, bác sĩ gia đình giống như một ân nhân cứu mạng vậy.",
+    "words": 17
+   },
+   {
+    "id": "1.05#2",
+    "text": "Mẹ tôi tuổi đã cao, nhiều bệnh nền, mỗi lần trở trời ốm đau là cả nhà lại lo sốt vó.",
+    "words": 21
+   },
+   {
+    "id": "1.05#3",
+    "text": "Nhưng chỉ cần bác sĩ đến nhà khám bệnh, ân cần bắt mạch, hỏi han từng bữa ăn giấc ngủ và kê đơn thuốc là chúng tôi cảm thấy yên tâm vô cùng.",
+    "words": 33
+   },
+   {
+    "id": "1.05#4",
+    "text": "Bác sĩ nhớ rõ từng tiền sử dị ứng, từng thói quen sinh hoạt của mẹ tôi còn hơn cả con cái trong nhà.",
+    "words": 24
+   },
+   {
+    "id": "1.05#5",
+    "text": "Bác sĩ là người có học hàm, học vị cao, thề lời thề Hippocrates cứu người, thì việc gì họ phải làm hại bệnh nhân của mình?",
+    "words": 27
+   },
+   {
+    "id": "1.05#6",
+    "text": "Nếu bác sĩ bảo bệnh nhân qua đời thanh thản trong giấc ngủ do tuổi già sức yếu, thì gia đình chỉ biết gạt nước mắt cảm ơn bác sĩ đã tận tình chăm sóc những ngày cuối đời.",
+    "words": 39
+   },
+   {
+    "id": "1.05#7",
+    "text": "Làm sao một người có thể nghi ngờ một vị bác sĩ đáng kính đã gắn bó với cả khu phố suốt mấy chục năm trời được chứ?",
+    "words": 28
+   },
+   {
+    "id": "1.05#8",
+    "text": "Nghi ngờ bác sĩ chẳng khác nào xúc phạm đến y đức và lòng tốt của những người đang cứu rỗi mạng sống của chúng ta.",
+    "words": 26
+   },
+   {
+    "id": "1.05#9",
+    "text": "Chúng tôi luôn mang ơn ông ấy như một vị phúc tinh che chở cho sức khỏe của cả gia đình.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Trầm giọng, nhấn mạnh sự tương phản sâu sắc",
+  "text": "Đó chính là phản xạ tâm lý chung của đại đa số người dân khi đứng trước những người mang danh xưng thầy thuốc. Một sự tôn kính chính đáng nhưng lại vô tình tạo nên một bức tường miễn nhiễm đạo đức tuyệt đối. Chúng ta có xu hướng thần thánh hóa các danh xưng nghề nghiệp cao quý. Chúng ta tin rằng chiếc áo blouse trắng có khả năng tự động thanh tẩy mọi dục vọng đen tối của con người. Chính sự tin tưởng tuyệt đối và sự e dè trước quyền lực chuyên môn đã khiến các nạn nhân và gia đình hoàn toàn tê liệt khả năng phản kháng. Họ không dám chất vấn, không dám nghi ngờ ngay cả khi người thân của mình ra đi một cách bất thường. Họ chấp nhận mọi lời giải thích y khoa như những chân lý bất biến mà không cần kiểm chứng. Để giải mã cơ chế tâm lý đằng sau điểm mù thể chế nguy hiểm này, chúng ta cần sự soi chiếu từ khoa học hành vi.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "Đó chính là phản xạ tâm lý chung của đại đa số người dân khi đứng trước những người mang danh xưng thầy thuốc.",
+    "words": 24
+   },
+   {
+    "id": "1.06#2",
+    "text": "Một sự tôn kính chính đáng nhưng lại vô tình tạo nên một bức tường miễn nhiễm đạo đức tuyệt đối.",
+    "words": 21
+   },
+   {
+    "id": "1.06#3",
+    "text": "Chúng ta có xu hướng thần thánh hóa các danh xưng nghề nghiệp cao quý.",
+    "words": 15
+   },
+   {
+    "id": "1.06#4",
+    "text": "Chúng ta tin rằng chiếc áo blouse trắng có khả năng tự động thanh tẩy mọi dục vọng đen tối của con người.",
+    "words": 23
+   },
+   {
+    "id": "1.06#5",
+    "text": "Chính sự tin tưởng tuyệt đối và sự e dè trước quyền lực chuyên môn đã khiến các nạn nhân và gia đình hoàn toàn tê liệt khả năng phản kháng.",
+    "words": 31
+   },
+   {
+    "id": "1.06#6",
+    "text": "Họ không dám chất vấn, không dám nghi ngờ ngay cả khi người thân của mình ra đi một cách bất thường.",
+    "words": 22
+   },
+   {
+    "id": "1.06#7",
+    "text": "Họ chấp nhận mọi lời giải thích y khoa như những chân lý bất biến mà không cần kiểm chứng.",
+    "words": 20
+   },
+   {
+    "id": "1.06#8",
+    "text": "Để giải mã cơ chế tâm lý đằng sau điểm mù thể chế nguy hiểm này, chúng ta cần sự soi chiếu từ khoa học hành vi.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Giọng nữ sắc sảo, tự tin, mang chiều sâu học thuật",
+  "text": "Hiện tượng mà người bình thường vừa chia sẻ được tâm lý học định danh là Hiệu ứng Hào quang Thể chế, hay Institutional Halo Effect, kết hợp với Thiên kiến thần thánh hóa, tức Sanctification Bias. Xã hội có xu hướng gán ghép mặc định những phẩm chất đạo đức tối thượng cho những cá nhân làm việc trong các ngành nghề cứu rỗi như y tế, giáo dục hay tôn giáo. Khi một cá nhân khoác lên mình chiếc áo blouse trắng, họ lập tức được bao bọc bởi một hào quang của sự vô hại và uy quyền chuyên môn. Hiện tượng này tạo ra sự bất đối xứng quyền lực tuyệt đối giữa bác sĩ và bệnh nhân. Bệnh nhân ở vào vị thế yếu thế, lo sợ và phụ thuộc hoàn toàn vào kiến thức của người thầy thuốc. Họ sẵn sàng tuân phục mọi chỉ định mà không hề có bất kỳ sự hoài nghi nào. Đặc biệt, trong thế giới tội phạm học y khoa, có một nhóm cá nhân mang hội chứng Phức cảm Đấng cứu thế, hay God Complex. Chúng không giết người vì lòng tham tiền tài tầm thường hay thù hằn cá nhân. Chúng say sưa với cảm giác được nắm giữ ranh giới mong manh giữa sự sống và cái chết. Được quyết định xem ai sẽ sống, ai sẽ chết và chết vào thời điểm nào mang lại cho bộ não thái nhân cách của chúng một cảm giác hưng phấn quyền lực tột đỉnh. Và chiếc áo blouse trắng chính là chiếc khiên che chở hoàn hảo nhất giúp chúng thực hiện hành vi đó ngay giữa thanh thiên bạch nhật. Sự phục tùng của nạn nhân và sự biết ơn của thân nhân lại càng củng cố thêm ảo tưởng quyền lực bệnh hoạn của kẻ thủ ác.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Hiện tượng mà người bình thường vừa chia sẻ được tâm lý học định danh là Hiệu ứng Hào quang Thể chế, hay Institutional Halo Effect, kết hợp với Thiên kiến thần thánh hóa, tức Sanctification Bias.",
+    "words": 37
+   },
+   {
+    "id": "1.07#2",
+    "text": "Xã hội có xu hướng gán ghép mặc định những phẩm chất đạo đức tối thượng cho những cá nhân làm việc trong các ngành nghề cứu rỗi như y tế, giáo dục hay tôn giáo.",
+    "words": 36
+   },
+   {
+    "id": "1.07#3",
+    "text": "Khi một cá nhân khoác lên mình chiếc áo blouse trắng, họ lập tức được bao bọc bởi một hào quang của sự vô hại và uy quyền chuyên môn.",
+    "words": 30
+   },
+   {
+    "id": "1.07#4",
+    "text": "Hiện tượng này tạo ra sự bất đối xứng quyền lực tuyệt đối giữa bác sĩ và bệnh nhân.",
+    "words": 19
+   },
+   {
+    "id": "1.07#5",
+    "text": "Bệnh nhân ở vào vị thế yếu thế, lo sợ và phụ thuộc hoàn toàn vào kiến thức của người thầy thuốc.",
+    "words": 22
+   },
+   {
+    "id": "1.07#6",
+    "text": "Họ sẵn sàng tuân phục mọi chỉ định mà không hề có bất kỳ sự hoài nghi nào.",
+    "words": 18
+   },
+   {
+    "id": "1.07#7",
+    "text": "Đặc biệt, trong thế giới tội phạm học y khoa, có một nhóm cá nhân mang hội chứng Phức cảm Đấng cứu thế, hay God Complex.",
+    "words": 26
+   },
+   {
+    "id": "1.07#8",
+    "text": "Chúng không giết người vì lòng tham tiền tài tầm thường hay thù hằn cá nhân.",
+    "words": 16
+   },
+   {
+    "id": "1.07#9",
+    "text": "Chúng say sưa với cảm giác được nắm giữ ranh giới mong manh giữa sự sống và cái chết.",
+    "words": 19
+   },
+   {
+    "id": "1.07#10",
+    "text": "Được quyết định xem ai sẽ sống, ai sẽ chết và chết vào thời điểm nào mang lại cho bộ não thái nhân cách của chúng một cảm giác hưng phấn quyền lực tột đỉnh.",
+    "words": 35
+   },
+   {
+    "id": "1.07#11",
+    "text": "Và chiếc áo blouse trắng chính là chiếc khiên che chở hoàn hảo nhất giúp chúng thực hiện hành vi đó ngay giữa thanh thiên bạch nhật.",
+    "words": 27
+   },
+   {
+    "id": "1.07#12",
+    "text": "Sự phục tùng của nạn nhân và sự biết ơn của thân nhân lại càng củng cố thêm ảo tưởng quyền lực bệnh hoạn của kẻ thủ ác.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Tiếp nối nhịp kịch tính, mở ra hồ sơ án",
+  "text": "Chiếc khiên thể chế ấy đã từng được một vị bác sĩ gia đình đáng kính tại nước Anh sử dụng để biến cả một thị trấn thành bãi săn riêng suốt hơn hai mươi năm ròng. Một người đàn ông được hàng nghìn bệnh nhân yêu mến gọi bằng cái tên thân thương: Bác sĩ Fred tốt bụng. Hắn là niềm tự hào của thị trấn Hyde, là người được người dân tin tưởng trao trọn chìa khóa nhà để vào khám bệnh bất cứ lúc nào. Thế nhưng, phía sau nụ cười nhân hậu và những lời an ủi ấm áp ấy là bóng ma của kẻ sát nhân hàng loạt tàn bạo nhất trong lịch sử y khoa thế giới. Chúng ta hãy cùng Điều tra viên lật mở hồ sơ đen tối về Bác sĩ Harold Shipman.",
+  "sentences": [
+   {
+    "id": "1.08#1",
+    "text": "Chiếc khiên thể chế ấy đã từng được một vị bác sĩ gia đình đáng kính tại nước Anh sử dụng để biến cả một thị trấn thành bãi săn riêng suốt hơn hai mươi năm ròng.",
+    "words": 37
+   },
+   {
+    "id": "1.08#2",
+    "text": "Một người đàn ông được hàng nghìn bệnh nhân yêu mến gọi bằng cái tên thân thương: Bác sĩ Fred tốt bụng.",
+    "words": 22
+   },
+   {
+    "id": "1.08#3",
+    "text": "Hắn là niềm tự hào của thị trấn Hyde, là người được người dân tin tưởng trao trọn chìa khóa nhà để vào khám bệnh bất cứ lúc nào.",
+    "words": 29
+   },
+   {
+    "id": "1.08#4",
+    "text": "Thế nhưng, phía sau nụ cười nhân hậu và những lời an ủi ấm áp ấy là bóng ma của kẻ sát nhân hàng loạt tàn bạo nhất trong lịch sử y khoa thế giới.",
+    "words": 35
+   },
+   {
+    "id": "1.08#5",
+    "text": "Chúng ta hãy cùng Điều tra viên lật mở hồ sơ đen tối về Bác sĩ Harold Shipman.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Giai điệu vĩ cầm u buồn, tiếng kéo đàn não nùng như tiếng khóc than của hàng trăm gia đình trong tang lễ thị trấn Hyde."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Tiếng kim tiêm đâm qua nắp lọ thuốc cao su \"Phụt\", tiếng thở hắt ra của bệnh nhân, tiếng bút máy ký giấy chứng tử sột soạt."
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng nam lạnh lùng, dứt khoát, phong thái thực chiến",
+  "text": "Thị trấn Hyde, thuộc hạt Greater Manchester, nước Anh, vào những năm một nghìn chín trăm chín mươi là một cộng đồng công nhân yên bình và gắn kết. Tại nơi đây, Bác sĩ Harold Shipman, hay còn được người dân gọi là Fred Shipman, là một tượng đài y đức bất khả xâm phạm. Là một bác sĩ gia đình mở phòng khám tư nhân độc lập, Shipman nổi tiếng là người tận tụy, không nề hà đêm hôm hay mưa gió để đến tận nhà thăm khám cho các bệnh nhân cao tuổi. Ông ta nhớ rõ bệnh án của từng người, trò chuyện với họ như người thân trong nhà và luôn lắng nghe những nỗi cô đơn của tuổi già. Các cụ già trong thị trấn coi Bác sĩ Shipman như một người con hiếu thảo, người mang lại cho họ sự an ủi lớn nhất trong những năm tháng cuối đời. Họ luôn chuẩn bị sẵn trà bánh mỗi khi biết tin Bác sĩ Shipman sẽ ghé qua thăm khám định kỳ. Thế nhưng, ẩn sau cặp kính trắng và vẻ ngoài phúc hậu ấy lại là một cỗ máy hủy diệt sinh mệnh lạnh lùng. Từ năm 1975 cho đến khi bị bắt vào năm 1998, Harold Shipman đã cướp đi sinh mạng của hơn hai trăm mười lăm bệnh nhân, phần lớn là những phụ nữ lớn tuổi khỏe mạnh sống độc thân. Hắn đã biến những cuộc thăm khám định kỳ thành những buổi hành quyết êm thấm không để lại bất kỳ dấu vết bạo lực nào. Hắn xóa sổ từng thế hệ người già trong thị trấn mà không hề bị bất kỳ ai nghi ngờ.",
+  "sentences": [
+   {
+    "id": "2.03#1",
+    "text": "Thị trấn Hyde, thuộc hạt Greater Manchester, nước Anh, vào những năm một nghìn chín trăm chín mươi là một cộng đồng công nhân yên bình và gắn kết.",
+    "words": 29
+   },
+   {
+    "id": "2.03#2",
+    "text": "Tại nơi đây, Bác sĩ Harold Shipman, hay còn được người dân gọi là Fred Shipman, là một tượng đài y đức bất khả xâm phạm.",
+    "words": 26
+   },
+   {
+    "id": "2.03#3",
+    "text": "Là một bác sĩ gia đình mở phòng khám tư nhân độc lập, Shipman nổi tiếng là người tận tụy, không nề hà đêm hôm hay mưa gió để đến tận nhà thăm khám cho các bệnh nhân cao tuổi.",
+    "words": 40
+   },
+   {
+    "id": "2.03#4",
+    "text": "Ông ta nhớ rõ bệnh án của từng người, trò chuyện với họ như người thân trong nhà và luôn lắng nghe những nỗi cô đơn của tuổi già.",
+    "words": 29
+   },
+   {
+    "id": "2.03#5",
+    "text": "Các cụ già trong thị trấn coi Bác sĩ Shipman như một người con hiếu thảo, người mang lại cho họ sự an ủi lớn nhất trong những năm tháng cuối đời.",
+    "words": 32
+   },
+   {
+    "id": "2.03#6",
+    "text": "Họ luôn chuẩn bị sẵn trà bánh mỗi khi biết tin Bác sĩ Shipman sẽ ghé qua thăm khám định kỳ.",
+    "words": 21
+   },
+   {
+    "id": "2.03#7",
+    "text": "Thế nhưng, ẩn sau cặp kính trắng và vẻ ngoài phúc hậu ấy lại là một cỗ máy hủy diệt sinh mệnh lạnh lùng.",
+    "words": 24
+   },
+   {
+    "id": "2.03#8",
+    "text": "Từ năm 1975 cho đến khi bị bắt vào năm 1998, Harold Shipman đã cướp đi sinh mạng của hơn hai trăm mười lăm bệnh nhân, phần lớn là những phụ nữ lớn tuổi khỏe mạnh sống độc thân.",
+    "words": 39
+   },
+   {
+    "id": "2.03#9",
+    "text": "Hắn đã biến những cuộc thăm khám định kỳ thành những buổi hành quyết êm thấm không để lại bất kỳ dấu vết bạo lực nào.",
+    "words": 26
+   },
+   {
+    "id": "2.03#10",
+    "text": "Hắn xóa sổ từng thế hệ người già trong thị trấn mà không hề bị bất kỳ ai nghi ngờ.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Đặt câu hỏi khai thác nghiệp vụ",
+  "text": "Hơn hai trăm con người lần lượt qua đời ngay sau những chuyến thăm khám của một vị bác sĩ duy nhất suốt hai thập kỷ. Làm thế nào một chuỗi án mạng quy mô kinh hoàng như vậy có thể diễn ra trót lọt mà không kích hoạt bất kỳ sự báo động nào từ hệ thống y tế và pháp luật nước Anh? Quy trình chứng tử y khoa thời bấy giờ đã bộc lộ những lỗ hổng chết người nào? Tại sao các nhân viên nhà tang lễ địa phương từng nhận thấy sự bất thường nhưng cuộc điều tra ban đầu lại nhanh chóng bị đình chỉ?",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Hơn hai trăm con người lần lượt qua đời ngay sau những chuyến thăm khám của một vị bác sĩ duy nhất suốt hai thập kỷ.",
+    "words": 26
+   },
+   {
+    "id": "2.04#2",
+    "text": "Làm thế nào một chuỗi án mạng quy mô kinh hoàng như vậy có thể diễn ra trót lọt mà không kích hoạt bất kỳ sự báo động nào từ hệ thống y tế và pháp luật nước Anh?",
+    "words": 39
+   },
+   {
+    "id": "2.04#3",
+    "text": "Quy trình chứng tử y khoa thời bấy giờ đã bộc lộ những lỗ hổng chết người nào?",
+    "words": 18
+   },
+   {
+    "id": "2.04#4",
+    "text": "Tại sao các nhân viên nhà tang lễ địa phương từng nhận thấy sự bất thường nhưng cuộc điều tra ban đầu lại nhanh chóng bị đình chỉ?",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Bóc tách thủ đoạn MO nghiệp vụ",
+  "text": "Thủ đoạn gây án, hay Modus Operandi của Harold Shipman, là sự lợi dụng triệt để những kẽ hở pháp lý trong quy trình chứng tử tại Anh thời bấy giờ. Hắn thường chọn thời điểm thăm khám vào buổi chiều, khi các bệnh nhân lớn tuổi ở nhà một mình và không có con cháu bên cạnh. Hắn bí mật tiêm cho nạn nhân một liều thuốc độc cực mạnh là Diamorphine, một dạng ma túy y tế có tác dụng giảm đau cực mạnh nhưng sẽ gây ức chế hô hấp và tử vong nhanh chóng nếu dùng quá liều. Hắn tích trữ thuốc độc bằng cách kê khống đơn thuốc giảm đau cho những bệnh nhân ung thư giai đoạn cuối đã qua đời. Sau khi nạn nhân ngừng thở, Shipman không hề rời đi ngay lập tức. Hắn thản nhiên ngồi lại phòng khách, tự tay dọn dẹp các ống thuốc độc, sắp xếp lại hiện trường để giống như bệnh nhân vừa thiếp đi thanh thản trên ghế sofa hoặc trên giường ngủ. Sau đó, hắn chủ động gọi điện báo cho gia đình bệnh nhân với giọng điệu nghẹn ngào, thông báo rằng người thân của họ đã qua đời vì đột quỵ hoặc suy tim do tuổi già. Điều nguy hiểm nhất nằm ở quy trình chứng tử: Với tư cách là bác sĩ điều trị chính, Shipman có toàn quyền tự tay ký vào Giấy chứng tử mà không cần bất kỳ sự can thiệp hay giám định độc lập nào từ cảnh sát. Hắn tự chẩn đoán nguyên nhân tử vong là do tuổi già, huyết áp cao hoặc trụy tim. Hắn thậm chí còn khuyên nhủ gia đình nên nhanh chóng hỏa táng thi thể người quá cố để giảm bớt đau buồn và chi phí tang lễ. Bằng cách hỏa táng, toàn bộ dấu vết độc chất Diamorphine trong cơ thể nạn nhân đã bị thiêu rụi hoàn toàn, xóa sạch mọi chứng cứ vật chất đối với cơ quan điều tra.",
+  "sentences": [
+   {
+    "id": "2.05#1",
+    "text": "Thủ đoạn gây án, hay Modus Operandi của Harold Shipman, là sự lợi dụng triệt để những kẽ hở pháp lý trong quy trình chứng tử tại Anh thời bấy giờ.",
+    "words": 31
+   },
+   {
+    "id": "2.05#2",
+    "text": "Hắn thường chọn thời điểm thăm khám vào buổi chiều, khi các bệnh nhân lớn tuổi ở nhà một mình và không có con cháu bên cạnh.",
+    "words": 27
+   },
+   {
+    "id": "2.05#3",
+    "text": "Hắn bí mật tiêm cho nạn nhân một liều thuốc độc cực mạnh là Diamorphine, một dạng ma túy y tế có tác dụng giảm đau cực mạnh nhưng sẽ gây ức chế hô hấp và tử vong nhanh chóng nếu dùng quá liều.",
+    "words": 44
+   },
+   {
+    "id": "2.05#4",
+    "text": "Hắn tích trữ thuốc độc bằng cách kê khống đơn thuốc giảm đau cho những bệnh nhân ung thư giai đoạn cuối đã qua đời.",
+    "words": 25
+   },
+   {
+    "id": "2.05#5",
+    "text": "Sau khi nạn nhân ngừng thở, Shipman không hề rời đi ngay lập tức.",
+    "words": 14
+   },
+   {
+    "id": "2.05#6",
+    "text": "Hắn thản nhiên ngồi lại phòng khách, tự tay dọn dẹp các ống thuốc độc, sắp xếp lại hiện trường để giống như bệnh nhân vừa thiếp đi thanh thản trên ghế sofa hoặc trên giường ngủ.",
+    "words": 37
+   },
+   {
+    "id": "2.05#7",
+    "text": "Sau đó, hắn chủ động gọi điện báo cho gia đình bệnh nhân với giọng điệu nghẹn ngào, thông báo rằng người thân của họ đã qua đời vì đột quỵ hoặc suy tim do tuổi già.",
+    "words": 37
+   },
+   {
+    "id": "2.05#8",
+    "text": "Điều nguy hiểm nhất nằm ở quy trình chứng tử:",
+    "words": 10
+   },
+   {
+    "id": "2.05#9",
+    "text": "Với tư cách là bác sĩ điều trị chính, Shipman có toàn quyền tự tay ký vào Giấy chứng tử mà không cần bất kỳ sự can thiệp hay giám định độc lập nào từ cảnh sát.",
+    "words": 37
+   },
+   {
+    "id": "2.05#10",
+    "text": "Hắn tự chẩn đoán nguyên nhân tử vong là do tuổi già, huyết áp cao hoặc trụy tim.",
+    "words": 18
+   },
+   {
+    "id": "2.05#11",
+    "text": "Hắn thậm chí còn khuyên nhủ gia đình nên nhanh chóng hỏa táng thi thể người quá cố để giảm bớt đau buồn và chi phí tang lễ.",
+    "words": 28
+   },
+   {
+    "id": "2.05#12",
+    "text": "Bằng cách hỏa táng, toàn bộ dấu vết độc chất Diamorphine trong cơ thể nạn nhân đã bị thiêu rụi hoàn toàn, xóa sạch mọi chứng cứ vật chất đối với cơ quan điều tra.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Phân tích cơ chế tâm lý và Chữ ký Phức cảm Đấng cứu thế",
+  "text": "Vụ án Harold Shipman là một minh chứng rùng rợn nhất về Chữ ký tâm lý của Phức cảm Đấng cứu thế, hay God Complex. Shipman không hề trục lợi bảo hiểm hay tống tiền nạn nhân trong phần lớn các vụ án. Động cơ sâu kín của hắn là sự khao khát được kiểm soát sự sống và cái chết như một vị thần. Hắn tìm thấy sự thỏa mãn tột cùng khi nhìn thấy bệnh nhân hoàn toàn tin tưởng giao phó tính mạng cho hắn trước khi rơi vào hôn mê vĩnh viễn. Khi hắn tiêm mũi thuốc độc vào tĩnh mạch của bệnh nhân, hắn được chứng kiến khoảnh khắc sinh mệnh rời bỏ cơ thể dưới sự kiểm soát tuyệt đối của chính đôi tay hắn. Sau đó, hắn lại tận hưởng sự tôn sùng và lòng biết ơn của gia đình nạn nhân khi họ ôm hắn khóc và cảm ơn hắn đã giúp người thân của họ ra đi nhẹ nhàng. Hắn biến tang lễ của các nạn nhân thành nơi tôn vinh y đức của chính mình. Sự phân tách nhận thức của Shipman đạt đến độ hoàn hảo đến mức đáng sợ. Hắn quay trở lại phòng khám, sửa đổi hồ sơ bệnh án điện tử để thêm vào các triệu chứng bệnh tim giả tạo cho bệnh nhân trước ngày họ qua đời nhằm hợp thức hóa cái chết. Hắn tin rằng tri thức y khoa và sự tôn kính của xã hội đã biến hắn thành một kẻ đứng trên mọi luật lệ của trần gian. Sự ngạo mạn đó đã ru ngủ hắn trong ảo tưởng rằng mình sẽ không bao giờ có thể bị phát hiện.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Vụ án Harold Shipman là một minh chứng rùng rợn nhất về Chữ ký tâm lý của Phức cảm Đấng cứu thế, hay God Complex.",
+    "words": 25
+   },
+   {
+    "id": "2.06#2",
+    "text": "Shipman không hề trục lợi bảo hiểm hay tống tiền nạn nhân trong phần lớn các vụ án.",
+    "words": 18
+   },
+   {
+    "id": "2.06#3",
+    "text": "Động cơ sâu kín của hắn là sự khao khát được kiểm soát sự sống và cái chết như một vị thần.",
+    "words": 22
+   },
+   {
+    "id": "2.06#4",
+    "text": "Hắn tìm thấy sự thỏa mãn tột cùng khi nhìn thấy bệnh nhân hoàn toàn tin tưởng giao phó tính mạng cho hắn trước khi rơi vào hôn mê vĩnh viễn.",
+    "words": 31
+   },
+   {
+    "id": "2.06#5",
+    "text": "Khi hắn tiêm mũi thuốc độc vào tĩnh mạch của bệnh nhân, hắn được chứng kiến khoảnh khắc sinh mệnh rời bỏ cơ thể dưới sự kiểm soát tuyệt đối của chính đôi tay hắn.",
+    "words": 35
+   },
+   {
+    "id": "2.06#6",
+    "text": "Sau đó, hắn lại tận hưởng sự tôn sùng và lòng biết ơn của gia đình nạn nhân khi họ ôm hắn khóc và cảm ơn hắn đã giúp người thân của họ ra đi nhẹ nhàng.",
+    "words": 37
+   },
+   {
+    "id": "2.06#7",
+    "text": "Hắn biến tang lễ của các nạn nhân thành nơi tôn vinh y đức của chính mình.",
+    "words": 17
+   },
+   {
+    "id": "2.06#8",
+    "text": "Sự phân tách nhận thức của Shipman đạt đến độ hoàn hảo đến mức đáng sợ.",
+    "words": 16
+   },
+   {
+    "id": "2.06#9",
+    "text": "Hắn quay trở lại phòng khám, sửa đổi hồ sơ bệnh án điện tử để thêm vào các triệu chứng bệnh tim giả tạo cho bệnh nhân trước ngày họ qua đời nhằm hợp thức hóa cái chết.",
+    "words": 38
+   },
+   {
+    "id": "2.06#10",
+    "text": "Hắn tin rằng tri thức y khoa và sự tôn kính của xã hội đã biến hắn thành một kẻ đứng trên mọi luật lệ của trần gian.",
+    "words": 28
+   },
+   {
+    "id": "2.06#11",
+    "text": "Sự ngạo mạn đó đã ru ngủ hắn trong ảo tưởng rằng mình sẽ không bao giờ có thể bị phát hiện.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Tiếp tục hồ sơ nghiệp vụ phá án",
+  "text": "Chiếc mặt nạ hoàn hảo của Shipman chỉ bắt đầu xuất hiện vết nứt khi lòng tham của hắn làm lu mờ sự cẩn trọng. Ngày 24 tháng 6 năm 1998, bà Kathleen Grundy, cựu thị trưởng thị trấn Hyde và là một phụ nữ tám mươi mốt tuổi giàu có, được phát hiện qua đời đột ngột sau chuyến thăm của Shipman. Ngay sau tang lễ, con gái của bà là luật sư Angela Woodruff bàng hoàng nhận được một bản di chúc mới của mẹ. Bản di chúc để lại toàn bộ khối tài sản trị giá gần bốn trăm nghìn bảng Anh cho chính Bác sĩ Harold Shipman, gạch tên hoàn toàn con cháu trong gia đình. Nhận thấy những dấu hiệu giả mạo chữ ký vụng về trên chiếc máy đánh chữ cũ, Angela Woodruff đã lập tức nộp đơn tố cáo lên cảnh sát hạt Greater Manchester. Cuộc điều tra quy mô lớn được bí mật khởi động. Cảnh sát quyết định khai quật thi thể của bà Kathleen Grundy để tiến hành khám nghiệm tử thi độc chất pháp y. Kết quả xét nghiệm mẫu mô đã làm rúng động toàn bộ giới y khoa: hàm lượng Diamorphine trong thi thể bà Grundy cao gấp nhiều lần liều gây tử vong. Cảnh sát mở rộng khai quật hàng chục ngôi mộ khác và phát hiện cùng một kịch bản đầu độc bằng Diamorphine. Khi khám xét máy tính tại phòng khám, các chuyên gia kỹ thuật số phát hiện Shipman đã truy cập và sửa đổi bệnh án của các nạn nhân chỉ vài phút sau khi sát hại họ để ngụy tạo chứng cứ. Tháng 1 năm 2000, Harold Shipman bị tòa án kết tội sát hại mười lăm bệnh nhân và làm giả di chúc, nhận mười lăm bản án tù chung thân liên tiếp không ân xá. Ủy ban Điều tra Hoàng gia Anh do Thẩm phán Janet Smith dẫn đầu sau đó kết luận số nạn nhân thực tế của Shipman lên tới ít nhất hai trăm mười lăm người. Một bi kịch y khoa đen tối nhất đã thúc đẩy nước Anh phải cải tổ toàn diện hệ thống chứng tử và kiểm soát thuốc độc quốc gia.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Chiếc mặt nạ hoàn hảo của Shipman chỉ bắt đầu xuất hiện vết nứt khi lòng tham của hắn làm lu mờ sự cẩn trọng.",
+    "words": 25
+   },
+   {
+    "id": "2.07#2",
+    "text": "Ngày 24 tháng 6 năm 1998, bà Kathleen Grundy, cựu thị trưởng thị trấn Hyde và là một phụ nữ tám mươi mốt tuổi giàu có, được phát hiện qua đời đột ngột sau chuyến thăm của Shipman.",
+    "words": 38
+   },
+   {
+    "id": "2.07#3",
+    "text": "Ngay sau tang lễ, con gái của bà là luật sư Angela Woodruff bàng hoàng nhận được một bản di chúc mới của mẹ.",
+    "words": 24
+   },
+   {
+    "id": "2.07#4",
+    "text": "Bản di chúc để lại toàn bộ khối tài sản trị giá gần bốn trăm nghìn bảng Anh cho chính Bác sĩ Harold Shipman, gạch tên hoàn toàn con cháu trong gia đình.",
+    "words": 33
+   },
+   {
+    "id": "2.07#5",
+    "text": "Nhận thấy những dấu hiệu giả mạo chữ ký vụng về trên chiếc máy đánh chữ cũ, Angela Woodruff đã lập tức nộp đơn tố cáo lên cảnh sát hạt Greater Manchester.",
+    "words": 32
+   },
+   {
+    "id": "2.07#6",
+    "text": "Cuộc điều tra quy mô lớn được bí mật khởi động.",
+    "words": 11
+   },
+   {
+    "id": "2.07#7",
+    "text": "Cảnh sát quyết định khai quật thi thể của bà Kathleen Grundy để tiến hành khám nghiệm tử thi độc chất pháp y.",
+    "words": 23
+   },
+   {
+    "id": "2.07#8",
+    "text": "Kết quả xét nghiệm mẫu mô đã làm rúng động toàn bộ giới y khoa: hàm lượng Diamorphine trong thi thể bà Grundy cao gấp nhiều lần liều gây tử vong.",
+    "words": 31
+   },
+   {
+    "id": "2.07#9",
+    "text": "Cảnh sát mở rộng khai quật hàng chục ngôi mộ khác và phát hiện cùng một kịch bản đầu độc bằng Diamorphine.",
+    "words": 22
+   },
+   {
+    "id": "2.07#10",
+    "text": "Khi khám xét máy tính tại phòng khám, các chuyên gia kỹ thuật số phát hiện Shipman đã truy cập và sửa đổi bệnh án của các nạn nhân chỉ vài phút sau khi sát hại họ để ngụy tạo chứng cứ.",
+    "words": 42
+   },
+   {
+    "id": "2.07#11",
+    "text": "Tháng 1 năm 2000, Harold Shipman bị tòa án kết tội sát hại mười lăm bệnh nhân và làm giả di chúc, nhận mười lăm bản án tù chung thân liên tiếp không ân xá.",
+    "words": 35
+   },
+   {
+    "id": "2.07#12",
+    "text": "Ủy ban Điều tra Hoàng gia Anh do Thẩm phán Janet Smith dẫn đầu sau đó kết luận số nạn nhân thực tế của Shipman lên tới ít nhất hai trăm mười lăm người.",
+    "words": 34
+   },
+   {
+    "id": "2.07#13",
+    "text": "Một bi kịch y khoa đen tối nhất đã thúc đẩy nước Anh phải cải tổ toàn diện hệ thống chứng tử và kiểm soát thuốc độc quốc gia.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Âm thanh cello trầm đục, kết hợp với tiếng máy khử rung tim dồn dập, tạo cảm giác ngột ngạt và căng thẳng trong phòng cấp cứu."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "SFX",
+  "desc": "Tiếng máy in bệnh án chạy rè rè, tiếng còi xe cấp cứu rú vang trong đêm, tiếng rót chất lỏng vào tách cà phê lách cách."
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Chuyển đoạn, kết nối chu trình nhận thức",
+  "text": "Hồ sơ của Harold Shipman phơi bày sự nguy hiểm tột cùng khi một cá nhân lạm dụng quyền lực y khoa độc lập tại một thị trấn nhỏ. Thế nhưng, sự đáng sợ của bóng ma chiếc áo blouse đen không chỉ dừng lại ở các phòng khám gia đình đơn lẻ. Trong một biến thể tinh vi và có tính hệ thống hơn, kẻ săn mồi có thể di chuyển qua hàng loạt bệnh viện lớn, vượt qua các cuộc kiểm tra nhân sự khắt khe nhất nhờ vào chính sự bao che và điểm mù của các thể chế y tế. Khi danh tiếng của bệnh viện được đặt cao hơn tính mạng của bệnh nhân, những kẻ sát nhân có thể tự do săn mồi từ bang này sang bang khác mà không hề bị ngăn chặn. Sự im lặng của các đồng nghiệp và sự e ngại của ban giám đốc đã vô tình trở thành những cánh cửa mở toang cho tội ác tiếp diễn. Chúng ta hãy lắng nghe sự hoang mang từ một người dân đời thường khi đối diện với những góc khuất trong các bệnh viện hiện đại.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Hồ sơ của Harold Shipman phơi bày sự nguy hiểm tột cùng khi một cá nhân lạm dụng quyền lực y khoa độc lập tại một thị trấn nhỏ.",
+    "words": 29
+   },
+   {
+    "id": "3.03#2",
+    "text": "Thế nhưng, sự đáng sợ của bóng ma chiếc áo blouse đen không chỉ dừng lại ở các phòng khám gia đình đơn lẻ.",
+    "words": 24
+   },
+   {
+    "id": "3.03#3",
+    "text": "Trong một biến thể tinh vi và có tính hệ thống hơn, kẻ săn mồi có thể di chuyển qua hàng loạt bệnh viện lớn, vượt qua các cuộc kiểm tra nhân sự khắt khe nhất nhờ vào chính sự bao che và điểm mù của các thể chế y tế.",
+    "words": 51
+   },
+   {
+    "id": "3.03#4",
+    "text": "Khi danh tiếng của bệnh viện được đặt cao hơn tính mạng của bệnh nhân, những kẻ sát nhân có thể tự do săn mồi từ bang này sang bang khác mà không hề bị ngăn chặn.",
+    "words": 37
+   },
+   {
+    "id": "3.03#5",
+    "text": "Sự im lặng của các đồng nghiệp và sự e ngại của ban giám đốc đã vô tình trở thành những cánh cửa mở toang cho tội ác tiếp diễn.",
+    "words": 30
+   },
+   {
+    "id": "3.03#6",
+    "text": "Chúng ta hãy lắng nghe sự hoang mang từ một người dân đời thường khi đối diện với những góc khuất trong các bệnh viện hiện đại.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "SFX",
+  "desc": "Tiếng rè băng ghi âm phỏng vấn đường phố."
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng N2 - nữ nhân viên y tế hoặc thân nhân người bệnh, thể hiện sự bối rối và hoang mang",
+  "text": "Khi nghe những vụ việc như vậy, tôi thực sự cảm thấy mất phương hướng và sợ hãi. Chúng ta luôn nghĩ rằng bệnh viện là nơi an toàn nhất, nơi quy tụ những quy trình kiểm soát nghiêm ngặt nhất với hàng trăm bác sĩ và y tá giám sát lẫn nhau. Nhưng tại sao một kẻ có hành vi đầu độc đồng nghiệp hay có tiền án tiền sự lại vẫn có thể dễ dàng xin việc vào các bệnh viện cựu chiến binh danh tiếng? Tại sao khi có những cái chết bất thường xảy ra xung quanh một bác sĩ, ban giám đốc bệnh viện lại thường chọn cách im lặng hoặc cho thôi việc êm thấm thay vì báo công an? Phải chăng vì sợ mất uy tín, sợ bị kiện tụng bồi thường mà các tổ chức y tế đã vô tình thả một con quái vật sang làm hại những người bệnh ở các bệnh viện khác? Làm sao người bệnh thấp cổ bé họng có thể tự bảo vệ mình khi chính hệ thống bảo vệ lại quay lưng lại với sự thật? Làm thế nào chúng ta có thể phân biệt được đâu là rủi ro y khoa thông thường, và đâu là tội ác cố ý của kẻ mang áo blouse?",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Khi nghe những vụ việc như vậy, tôi thực sự cảm thấy mất phương hướng và sợ hãi.",
+    "words": 18
+   },
+   {
+    "id": "3.05#2",
+    "text": "Chúng ta luôn nghĩ rằng bệnh viện là nơi an toàn nhất, nơi quy tụ những quy trình kiểm soát nghiêm ngặt nhất với hàng trăm bác sĩ và y tá giám sát lẫn nhau.",
+    "words": 35
+   },
+   {
+    "id": "3.05#3",
+    "text": "Nhưng tại sao một kẻ có hành vi đầu độc đồng nghiệp hay có tiền án tiền sự lại vẫn có thể dễ dàng xin việc vào các bệnh viện cựu chiến binh danh tiếng?",
+    "words": 35
+   },
+   {
+    "id": "3.05#4",
+    "text": "Tại sao khi có những cái chết bất thường xảy ra xung quanh một bác sĩ, ban giám đốc bệnh viện lại thường chọn cách im lặng hoặc cho thôi việc êm thấm thay vì báo công an?",
+    "words": 38
+   },
+   {
+    "id": "3.05#5",
+    "text": "Phải chăng vì sợ mất uy tín, sợ bị kiện tụng bồi thường mà các tổ chức y tế đã vô tình thả một con quái vật sang làm hại những người bệnh ở các bệnh viện khác?",
+    "words": 38
+   },
+   {
+    "id": "3.05#6",
+    "text": "Làm sao người bệnh thấp cổ bé họng có thể tự bảo vệ mình khi chính hệ thống bảo vệ lại quay lưng lại với sự thật?",
+    "words": 27
+   },
+   {
+    "id": "3.05#7",
+    "text": "Làm thế nào chúng ta có thể phân biệt được đâu là rủi ro y khoa thông thường, và đâu là tội ác cố ý của kẻ mang áo blouse?",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Phân tích sâu về Điểm mù thể chế và hồ sơ Michael Swango",
+  "text": "Câu hỏi của bạn đã vạch trần một căn bệnh trầm kha trong tâm lý học tổ chức: Sự bảo hộ thể chế mù quáng, hay Institutional Denial. Khi đối diện với nguy cơ uy tín của tổ chức bị tổn hại, các nhà quản lý thường rơi vào trạng thái phủ nhận tâm lý. Họ từ chối tin rằng một bác sĩ được đào tạo bài bản trong bệnh viện của mình lại là một kẻ giết người. Họ lo sợ các vụ bê bối truyền thông sẽ làm sụp đổ nguồn tài trợ và danh tiếng của bệnh viện, nên họ chọn giải pháp nguy hiểm nhất: che đậy nội bộ và đẩy vấn đề sang nơi khác. Kẻ lợi dụng triệt để điểm mù thể chế này tại nước Mỹ chính là Bác sĩ Michael Swango, nhân vật trung tâm trong cuốn sách điều tra nổi tiếng Con mắt mù lòa của nhà báo James Stewart. Swango là một kẻ thái nhân cách mang nỗi ám ảnh bệnh hoạn với chất độc và cái chết từ thời còn là sinh viên y khoa. Hắn tìm thấy khoái cảm tột cùng khi nhìn thấy cơ thể con người co giật và tê liệt dưới tác động của các chất độc thần kinh. Hắn không chỉ đầu độc bệnh nhân, mà còn thích thú đầu độc cả các đồng nghiệp y tá bằng Arsenic trộn vào bình trà và bánh ngọt tại phòng nghỉ. Và sự ngạo mạn của Swango được nuôi dưỡng bởi chính sự tắc trách và thờ ơ của hệ thống quản lý y tế Hoa Kỳ suốt nhiều năm trời. Hắn hiểu rằng các bệnh viện luôn e ngại kiện tụng và sẽ dễ dàng cấp thư giới thiệu tích cực chỉ để tống khứ hắn đi nơi khác mà không muốn làm lớn chuyện.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Câu hỏi của bạn đã vạch trần một căn bệnh trầm kha trong tâm lý học tổ chức: Sự bảo hộ thể chế mù quáng, hay Institutional Denial.",
+    "words": 28
+   },
+   {
+    "id": "3.06#2",
+    "text": "Khi đối diện với nguy cơ uy tín của tổ chức bị tổn hại, các nhà quản lý thường rơi vào trạng thái phủ nhận tâm lý.",
+    "words": 27
+   },
+   {
+    "id": "3.06#3",
+    "text": "Họ từ chối tin rằng một bác sĩ được đào tạo bài bản trong bệnh viện của mình lại là một kẻ giết người.",
+    "words": 24
+   },
+   {
+    "id": "3.06#4",
+    "text": "Họ lo sợ các vụ bê bối truyền thông sẽ làm sụp đổ nguồn tài trợ và danh tiếng của bệnh viện, nên họ chọn giải pháp nguy hiểm nhất: che đậy nội bộ và đẩy vấn đề sang nơi khác.",
+    "words": 41
+   },
+   {
+    "id": "3.06#5",
+    "text": "Kẻ lợi dụng triệt để điểm mù thể chế này tại nước Mỹ chính là Bác sĩ Michael Swango, nhân vật trung tâm trong cuốn sách điều tra nổi tiếng Con mắt mù lòa của nhà báo James Stewart.",
+    "words": 39
+   },
+   {
+    "id": "3.06#6",
+    "text": "Swango là một kẻ thái nhân cách mang nỗi ám ảnh bệnh hoạn với chất độc và cái chết từ thời còn là sinh viên y khoa.",
+    "words": 27
+   },
+   {
+    "id": "3.06#7",
+    "text": "Hắn tìm thấy khoái cảm tột cùng khi nhìn thấy cơ thể con người co giật và tê liệt dưới tác động của các chất độc thần kinh.",
+    "words": 28
+   },
+   {
+    "id": "3.06#8",
+    "text": "Hắn không chỉ đầu độc bệnh nhân, mà còn thích thú đầu độc cả các đồng nghiệp y tá bằng Arsenic trộn vào bình trà và bánh ngọt tại phòng nghỉ.",
+    "words": 31
+   },
+   {
+    "id": "3.06#9",
+    "text": "Và sự ngạo mạn của Swango được nuôi dưỡng bởi chính sự tắc trách và thờ ơ của hệ thống quản lý y tế Hoa Kỳ suốt nhiều năm trời.",
+    "words": 30
+   },
+   {
+    "id": "3.06#10",
+    "text": "Hắn hiểu rằng các bệnh viện luôn e ngại kiện tụng và sẽ dễ dàng cấp thư giới thiệu tích cực chỉ để tống khứ hắn đi nơi khác mà không muốn làm lớn chuyện.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Mở rộng sang hành trình tội ác xuyên bang của Michael Swango",
+  "text": "Một kẻ từng bị kết án tù năm năm tại bang Ohio vì tội cố ý đầu độc đồng nghiệp bằng thạch tín. Thế nhưng, sau khi mãn hạn tù, hắn vẫn có thể làm giả hồ sơ lý lịch, thay đổi tên tuổi để được nhận vào làm bác sĩ nội trú tại Đại học Nam Dakota và sau đó là Trung tâm Y tế Cựu chiến binh Northport tại New York. Tiếng chuông báo tử vang lên ở bất kỳ nơi nào chiếc áo blouse của Michael Swango xuất hiện. Hắn biến những phòng bệnh hồi sức cấp cứu thành nơi thử nghiệm các loại độc chất chết người. Chúng ta hãy cùng Điều tra viên nhìn lại cách mà bóng tối y khoa này cuối cùng đã bị chặn đứng trước công lý liên bang.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "Một kẻ từng bị kết án tù năm năm tại bang Ohio vì tội cố ý đầu độc đồng nghiệp bằng thạch tín.",
+    "words": 23
+   },
+   {
+    "id": "3.07#2",
+    "text": "Thế nhưng, sau khi mãn hạn tù, hắn vẫn có thể làm giả hồ sơ lý lịch, thay đổi tên tuổi để được nhận vào làm bác sĩ nội trú tại Đại học Nam Dakota và sau đó là Trung tâm Y tế Cựu chiến binh Northport tại New York.",
+    "words": 50
+   },
+   {
+    "id": "3.07#3",
+    "text": "Tiếng chuông báo tử vang lên ở bất kỳ nơi nào chiếc áo blouse của Michael Swango xuất hiện.",
+    "words": 19
+   },
+   {
+    "id": "3.07#4",
+    "text": "Hắn biến những phòng bệnh hồi sức cấp cứu thành nơi thử nghiệm các loại độc chất chết người.",
+    "words": 19
+   },
+   {
+    "id": "3.07#5",
+    "text": "Chúng ta hãy cùng Điều tra viên nhìn lại cách mà bóng tối y khoa này cuối cùng đã bị chặn đứng trước công lý liên bang.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Bóc tách hồ sơ Michael Swango tại các bệnh viện VA",
+  "text": "Năm 1993, Michael Swango được tuyển dụng vào làm bác sĩ tại Bệnh viện Cựu chiến binh Northport ở Long Island, New York. Ngay sau khi Swango bắt đầu ca trực, tỷ lệ tử vong bất thường tại khoa hồi sức tăng vọt một cách đáng ngờ. Những cựu chiến binh vốn đang trong giai đoạn hồi phục sức khỏe bỗng nhiên rơi vào trạng thái ngừng tim đột ngột ngay sau khi được Bác sĩ Swango tiêm thuốc định kỳ. Hắn thường lén lút tiêm các chất độc làm ngừng tim như Kali clorua hoặc thuốc an thần cực mạnh vào dây truyền dịch của bệnh nhân. Hắn thậm chí còn tự tay làm giả các lệnh Không hồi sức cấp cứu, tức Do Not Resuscitate, để ngăn cản các y bác sĩ khác cấp cứu cho nạn nhân khi tim ngừng đập. Khi các y tá bắt đầu bày tỏ sự nghi ngờ về việc Swango luôn xuất hiện một mình trong phòng bệnh ngay trước khi chuông báo cấp cứu vang lên, ban quản lý bệnh viện ban đầu đã phớt lờ các cảnh báo đó. Họ coi đó chỉ là những tin đồn vô căn cứ giữa các nhân viên cấp dưới. Chỉ đến khi người thân của các bệnh nhân liên tục yêu cầu điều tra độc lập, Cục Điều tra Liên bang FBI và Thanh tra Bộ Cựu chiến binh mới chính thức vào cuộc. Phát hiện vòng vây đang khép lại, Swango đã bỏ trốn khỏi nước Mỹ sang châu Phi để tiếp tục hành nghề y tại một bệnh viện truyền giáo ở Zimbabwe, nơi hắn tiếp tục đầu độc thêm nhiều bệnh nhân vô tội khác.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "Năm 1993, Michael Swango được tuyển dụng vào làm bác sĩ tại Bệnh viện Cựu chiến binh Northport ở Long Island, New York.",
+    "words": 23
+   },
+   {
+    "id": "3.08#2",
+    "text": "Ngay sau khi Swango bắt đầu ca trực, tỷ lệ tử vong bất thường tại khoa hồi sức tăng vọt một cách đáng ngờ.",
+    "words": 24
+   },
+   {
+    "id": "3.08#3",
+    "text": "Những cựu chiến binh vốn đang trong giai đoạn hồi phục sức khỏe bỗng nhiên rơi vào trạng thái ngừng tim đột ngột ngay sau khi được Bác sĩ Swango tiêm thuốc định kỳ.",
+    "words": 34
+   },
+   {
+    "id": "3.08#4",
+    "text": "Hắn thường lén lút tiêm các chất độc làm ngừng tim như Kali clorua hoặc thuốc an thần cực mạnh vào dây truyền dịch của bệnh nhân.",
+    "words": 27
+   },
+   {
+    "id": "3.08#5",
+    "text": "Hắn thậm chí còn tự tay làm giả các lệnh Không hồi sức cấp cứu, tức Do Not Resuscitate, để ngăn cản các y bác sĩ khác cấp cứu cho nạn nhân khi tim ngừng đập.",
+    "words": 36
+   },
+   {
+    "id": "3.08#6",
+    "text": "Khi các y tá bắt đầu bày tỏ sự nghi ngờ về việc Swango luôn xuất hiện một mình trong phòng bệnh ngay trước khi chuông báo cấp cứu vang lên, ban quản lý bệnh viện ban đầu đã phớt lờ các cảnh báo đó.",
+    "words": 45
+   },
+   {
+    "id": "3.08#7",
+    "text": "Họ coi đó chỉ là những tin đồn vô căn cứ giữa các nhân viên cấp dưới.",
+    "words": 17
+   },
+   {
+    "id": "3.08#8",
+    "text": "Chỉ đến khi người thân của các bệnh nhân liên tục yêu cầu điều tra độc lập, Cục Điều tra Liên bang FBI và Thanh tra Bộ Cựu chiến binh mới chính thức vào cuộc.",
+    "words": 35
+   },
+   {
+    "id": "3.08#9",
+    "text": "Phát hiện vòng vây đang khép lại, Swango đã bỏ trốn khỏi nước Mỹ sang châu Phi để tiếp tục hành nghề y tại một bệnh viện truyền giáo ở Zimbabwe, nơi hắn tiếp tục đầu độc thêm nhiều bệnh nhân vô tội khác.",
+    "words": 44
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Nhạc giao hưởng dồn dập, tiếng trống trầm căng thẳng như nhịp đếm lùi của một chiến dịch truy bắt xuyên quốc gia."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng loa thông báo sân bay quốc tế vang vọng, tiếng lật hộ chiếu cộc cộc, tiếng còng tay sắt va vào nhau đanh thép."
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng dồn dập, tái hiện bước ngoặt bóc trần sự thật",
+  "text": "Tháng 6 năm 1997, sau khi chính quyền Zimbabwe phát hiện hàng loạt ca tử vong bí ẩn và phát lệnh truy nã, Michael Swango đã bí mật trốn sang Namibia để tìm đường bay sang Ả Rập Xê Út nhận một công việc y tế mới. Hắn tin rằng biên giới quốc tế và sự thiếu kết nối thông tin giữa các châu lục sẽ giúp hắn mãi mãi thoát khỏi sự trừng phạt. Tuy nhiên, đường bay quá cảnh của hắn buộc phải dừng chân tại Sân bay Quốc tế O'Hare ở Chicago, nước Mỹ. Các đặc vụ FBI đã mật phục sẵn tại cổng kiểm soát hộ chiếu. Ngay khoảnh khắc Swango vừa bước xuống ống lồng máy bay với chiếc túi xách chứa đầy tài liệu y khoa giả mạo, các đặc vụ liên bang đã ập vào khống chế và bắt giữ hắn. Ban đầu, do các chứng cứ tử thi tại New York chưa được khai quật đầy đủ, các công tố viên đã truy tố Swango về tội gian lận hồ sơ y tế liên bang để tạm giam hắn trong ba năm. Trong khoảng thời gian đó, một chiến dịch pháp y quy mô chưa từng có đã được tiến hành. Các thi thể cựu chiến binh tại nghĩa trang Long Island đã được khai quật dưới sự giám sát nghiêm ngặt của cơ quan pháp y liên bang. Các chuyên gia độc chất pháp y hàng đầu của FBI đã tìm thấy hàm lượng thuốc độc và chất làm ngừng tim còn đọng lại nguyên vẹn trong xương và mẫu mô của các nạn nhân. Trước những bằng chứng khoa học không thể bác bỏ, tấm bình phong chuyên môn của Swango chính thức bị xé toang hoàn toàn. Kẻ sát nhân y khoa cuối cùng đã phải đối mặt với công lý sau nhiều năm trốn chạy.",
+  "sentences": [
+   {
+    "id": "4.03#1",
+    "text": "Tháng 6 năm 1997, sau khi chính quyền Zimbabwe phát hiện hàng loạt ca tử vong bí ẩn và phát lệnh truy nã, Michael Swango đã bí mật trốn sang Namibia để tìm đường bay sang Ả Rập Xê Út nhận một công việc y tế mới.",
+    "words": 47
+   },
+   {
+    "id": "4.03#2",
+    "text": "Hắn tin rằng biên giới quốc tế và sự thiếu kết nối thông tin giữa các châu lục sẽ giúp hắn mãi mãi thoát khỏi sự trừng phạt.",
+    "words": 28
+   },
+   {
+    "id": "4.03#3",
+    "text": "Tuy nhiên, đường bay quá cảnh của hắn buộc phải dừng chân tại Sân bay Quốc tế O'Hare ở Chicago, nước Mỹ.",
+    "words": 22
+   },
+   {
+    "id": "4.03#4",
+    "text": "Các đặc vụ FBI đã mật phục sẵn tại cổng kiểm soát hộ chiếu.",
+    "words": 14
+   },
+   {
+    "id": "4.03#5",
+    "text": "Ngay khoảnh khắc Swango vừa bước xuống ống lồng máy bay với chiếc túi xách chứa đầy tài liệu y khoa giả mạo, các đặc vụ liên bang đã ập vào khống chế và bắt giữ hắn.",
+    "words": 37
+   },
+   {
+    "id": "4.03#6",
+    "text": "Ban đầu, do các chứng cứ tử thi tại New York chưa được khai quật đầy đủ, các công tố viên đã truy tố Swango về tội gian lận hồ sơ y tế liên bang để tạm giam hắn trong ba năm.",
+    "words": 42
+   },
+   {
+    "id": "4.03#7",
+    "text": "Trong khoảng thời gian đó, một chiến dịch pháp y quy mô chưa từng có đã được tiến hành.",
+    "words": 19
+   },
+   {
+    "id": "4.03#8",
+    "text": "Các thi thể cựu chiến binh tại nghĩa trang Long Island đã được khai quật dưới sự giám sát nghiêm ngặt của cơ quan pháp y liên bang.",
+    "words": 28
+   },
+   {
+    "id": "4.03#9",
+    "text": "Các chuyên gia độc chất pháp y hàng đầu của FBI đã tìm thấy hàm lượng thuốc độc và chất làm ngừng tim còn đọng lại nguyên vẹn trong xương và mẫu mô của các nạn nhân.",
+    "words": 37
+   },
+   {
+    "id": "4.03#10",
+    "text": "Trước những bằng chứng khoa học không thể bác bỏ, tấm bình phong chuyên môn của Swango chính thức bị xé toang hoàn toàn.",
+    "words": 24
+   },
+   {
+    "id": "4.03#11",
+    "text": "Kẻ sát nhân y khoa cuối cùng đã phải đối mặt với công lý sau nhiều năm trốn chạy.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Dẫn dắt đến thời khắc đối đầu tâm lý",
+  "text": "Đối diện với bản án tử hình tại bang New York, kẻ từng coi sinh mạng của các cựu chiến binh như những món đồ chơi thí nghiệm đã phản ứng như thế nào? Chiếc mặt nạ ngạo mạn của kẻ mang Phức cảm Đấng cứu thế có còn tồn tại trước ngưỡng cửa của công lý? Liệu hắn có dám ngẩng cao đầu đối diện với gia đình của những người lính đã từng vào sinh ra tử bảo vệ đất nước?",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Đối diện với bản án tử hình tại bang New York, kẻ từng coi sinh mạng của các cựu chiến binh như những món đồ chơi thí nghiệm đã phản ứng như thế nào?",
+    "words": 34
+   },
+   {
+    "id": "4.04#2",
+    "text": "Chiếc mặt nạ ngạo mạn của kẻ mang Phức cảm Đấng cứu thế có còn tồn tại trước ngưỡng cửa của công lý?",
+    "words": 23
+   },
+   {
+    "id": "4.04#3",
+    "text": "Liệu hắn có dám ngẩng cao đầu đối diện với gia đình của những người lính đã từng vào sinh ra tử bảo vệ đất nước?",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Mổ xẻ Sự hèn nhát của bản ngã ái kỷ khi mất quyền kiểm soát",
+  "text": "Đó là sự sụp đổ kinh điển của một kẻ mang nhân cách thái nhân cách ái kỷ. Khi còn cầm ống tiêm đứng cạnh giường bệnh của những người không có khả năng tự vệ, Swango cảm thấy mình là một vị chúa tể toàn năng có quyền ban phát cái chết. Hắn say sưa trong ảo tưởng về sự bất khả xâm phạm của bản thân. Nhưng khi bị đặt vào vị thế của một kẻ bị xét xử, đối diện với nguy cơ phải nhận án tử hình bằng cách tiêm thuốc độc, sự hèn nhát tột cùng bên trong hắn đã lập tức lộ diện. Hắn không còn vẻ ngạo nghễ của một bậc trí thức thượng lưu. Hắn sợ hãi cái chết hơn bất kỳ ai trên cõi đời này. Để đổi lấy việc không bị tuyên án tử hình, Swango đã chấp nhận ký vào thỏa thuận nhận tội toàn bộ các tội danh sát hại các cựu chiến binh. Hắn thú nhận rằng hắn hoàn toàn tỉnh táo khi thực hiện các hành vi đầu độc và không hề có bất kỳ động cơ ân giảm nào. Đây chính là sự trơ trẽn của một kẻ sát nhân y khoa: chúng tôn sùng cái chết của người khác như một tác phẩm nghệ thuật, nhưng lại van xin sự sống cho chính bản thân mình bằng mọi giá. Mặt nạ trí thức sụp đổ, để lại một kẻ hèn nhát tìm mọi cách bám víu lấy sự tồn tại trong song sắt nhà tù.",
+  "sentences": [
+   {
+    "id": "4.05#1",
+    "text": "Đó là sự sụp đổ kinh điển của một kẻ mang nhân cách thái nhân cách ái kỷ.",
+    "words": 18
+   },
+   {
+    "id": "4.05#2",
+    "text": "Khi còn cầm ống tiêm đứng cạnh giường bệnh của những người không có khả năng tự vệ, Swango cảm thấy mình là một vị chúa tể toàn năng có quyền ban phát cái chết.",
+    "words": 35
+   },
+   {
+    "id": "4.05#3",
+    "text": "Hắn say sưa trong ảo tưởng về sự bất khả xâm phạm của bản thân.",
+    "words": 15
+   },
+   {
+    "id": "4.05#4",
+    "text": "Nhưng khi bị đặt vào vị thế của một kẻ bị xét xử, đối diện với nguy cơ phải nhận án tử hình bằng cách tiêm thuốc độc, sự hèn nhát tột cùng bên trong hắn đã lập tức lộ diện.",
+    "words": 41
+   },
+   {
+    "id": "4.05#5",
+    "text": "Hắn không còn vẻ ngạo nghễ của một bậc trí thức thượng lưu.",
+    "words": 13
+   },
+   {
+    "id": "4.05#6",
+    "text": "Hắn sợ hãi cái chết hơn bất kỳ ai trên cõi đời này.",
+    "words": 13
+   },
+   {
+    "id": "4.05#7",
+    "text": "Để đổi lấy việc không bị tuyên án tử hình, Swango đã chấp nhận ký vào thỏa thuận nhận tội toàn bộ các tội danh sát hại các cựu chiến binh.",
+    "words": 31
+   },
+   {
+    "id": "4.05#8",
+    "text": "Hắn thú nhận rằng hắn hoàn toàn tỉnh táo khi thực hiện các hành vi đầu độc và không hề có bất kỳ động cơ ân giảm nào.",
+    "words": 28
+   },
+   {
+    "id": "4.05#9",
+    "text": "Đây chính là sự trơ trẽn của một kẻ sát nhân y khoa: chúng tôn sùng cái chết của người khác như một tác phẩm nghệ thuật, nhưng lại van xin sự sống cho chính bản thân mình bằng mọi giá.",
+    "words": 41
+   },
+   {
+    "id": "4.05#10",
+    "text": "Mặt nạ trí thức sụp đổ, để lại một kẻ hèn nhát tìm mọi cách bám víu lấy sự tồn tại trong song sắt nhà tù.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Mô tả phán quyết của tòa án",
+  "text": "Tháng 9 năm 2000, tại Tòa án Liên bang ở Brooklyn, New York, Michael Swango chính thức nhận tội sát hại ba cựu chiến binh và bị tuyên phạt ba bản án tù chung thân liên tiếp không có cơ hội được ân xá. Hắn bị tước vĩnh viễn quyền hành nghề y và bị chuyển đến giam giữ tại Nhà tù Siêu an ninh ADX Florence tại bang Colorado, nơi giam giữ những tội phạm nguy hiểm nhất nước Mỹ. Các ủy ban điều tra ước tính Michael Swango có thể đã liên quan đến cái chết của hơn sáu mươi bệnh nhân và đồng nghiệp tại Mỹ và châu Phi. Vụ án đã buộc hệ thống bệnh viện Hoa Kỳ phải thiết lập cơ sở dữ liệu quốc gia về hành vi sai phạm y khoa, chấm dứt hoàn toàn thời kỳ các bác sĩ có tiền án có thể dễ dàng chuyển vùng hành nghề. Một bài học đắt giá được trả bằng sinh mạng của hàng chục con người vô tội.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "Tháng 9 năm 2000, tại Tòa án Liên bang ở Brooklyn, New York, Michael Swango chính thức nhận tội sát hại ba cựu chiến binh và bị tuyên phạt ba bản án tù chung thân liên tiếp không có cơ hội được ân xá.",
+    "words": 44
+   },
+   {
+    "id": "4.06#2",
+    "text": "Hắn bị tước vĩnh viễn quyền hành nghề y và bị chuyển đến giam giữ tại Nhà tù Siêu an ninh ADX Florence tại bang Colorado, nơi giam giữ những tội phạm nguy hiểm nhất nước Mỹ.",
+    "words": 37
+   },
+   {
+    "id": "4.06#3",
+    "text": "Các ủy ban điều tra ước tính Michael Swango có thể đã liên quan đến cái chết của hơn sáu mươi bệnh nhân và đồng nghiệp tại Mỹ và châu Phi.",
+    "words": 31
+   },
+   {
+    "id": "4.06#4",
+    "text": "Vụ án đã buộc hệ thống bệnh viện Hoa Kỳ phải thiết lập cơ sở dữ liệu quốc gia về hành vi sai phạm y khoa, chấm dứt hoàn toàn thời kỳ các bác sĩ có tiền án có thể dễ dàng chuyển vùng hành nghề.",
+    "words": 46
+   },
+   {
+    "id": "4.06#5",
+    "text": "Một bài học đắt giá được trả bằng sinh mạng của hàng chục con người vô tội.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Âm thanh ấm áp của đàn Piano hòa cùng tiếng violon trầm lắng, mang lại không gian tĩnh lặng cho sự suy ngẫm và chiêm nghiệm đạo đức."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng thở phào nhẹ nhõm, tiếng lật hồ sơ bệnh án mới minh bạch, tiếng bước chân tự tin bước ra khỏi cổng bệnh viện."
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Mở đầu hồi kết bằng sự chiêm nghiệm",
+  "text": "Hai vị bác sĩ ở hai bên bờ Đại Tây Dương, hai kẻ được đào tạo để cứu chữa con người nhưng lại biến tri thức y học thành vũ khí giết người hàng loạt. Harold Shipman và Michael Swango là những lời nhắc nhở đau đớn nhất về việc chiếc áo blouse trắng không phải là chiếc áo giáp miễn nhiễm tội lỗi. Chúng ta luôn biết ơn và trân trọng những người thầy thuốc chân chính đang ngày đêm tận tụy chiến đấu vì sinh mạng của bệnh nhân. Thế nhưng, sự tôn kính chân chính phải luôn đi đôi với sự minh bạch và trách nhiệm giải trình. Một nền y tế văn minh không thể được xây dựng trên sự phục tùng mù quáng của người bệnh, mà phải dựa trên sự tôn trọng quyền được biết và quyền được an toàn của mỗi con người. Sự an toàn của bệnh nhân không thể chỉ trông chờ vào lương tâm của từng cá nhân đơn lẻ, mà phải được bảo đảm bằng những cơ chế kiểm soát độc lập chặt chẽ. Chúng ta hãy lắng nghe sự chuyển biến nhận thức sâu sắc của người bình thường sau khi chứng kiến những bài học xương máu này.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Hai vị bác sĩ ở hai bên bờ Đại Tây Dương, hai kẻ được đào tạo để cứu chữa con người nhưng lại biến tri thức y học thành vũ khí giết người hàng loạt.",
+    "words": 35
+   },
+   {
+    "id": "5.03#2",
+    "text": "Harold Shipman và Michael Swango là những lời nhắc nhở đau đớn nhất về việc chiếc áo blouse trắng không phải là chiếc áo giáp miễn nhiễm tội lỗi.",
+    "words": 29
+   },
+   {
+    "id": "5.03#3",
+    "text": "Chúng ta luôn biết ơn và trân trọng những người thầy thuốc chân chính đang ngày đêm tận tụy chiến đấu vì sinh mạng của bệnh nhân.",
+    "words": 27
+   },
+   {
+    "id": "5.03#4",
+    "text": "Thế nhưng, sự tôn kính chân chính phải luôn đi đôi với sự minh bạch và trách nhiệm giải trình.",
+    "words": 20
+   },
+   {
+    "id": "5.03#5",
+    "text": "Một nền y tế văn minh không thể được xây dựng trên sự phục tùng mù quáng của người bệnh, mà phải dựa trên sự tôn trọng quyền được biết và quyền được an toàn của mỗi con người.",
+    "words": 39
+   },
+   {
+    "id": "5.03#6",
+    "text": "Sự an toàn của bệnh nhân không thể chỉ trông chờ vào lương tâm của từng cá nhân đơn lẻ, mà phải được bảo đảm bằng những cơ chế kiểm soát độc lập chặt chẽ.",
+    "words": 35
+   },
+   {
+    "id": "5.03#7",
+    "text": "Chúng ta hãy lắng nghe sự chuyển biến nhận thức sâu sắc của người bình thường sau khi chứng kiến những bài học xương máu này.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng băng ghi âm phỏng vấn hậu kỳ bật nhẹ."
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng N1 - phản ánh sự thức tỉnh nhận thức của cộng đồng",
+  "text": "Theo dõi hai vụ án này, tôi thực sự cảm thấy một sự thức tỉnh sâu sắc về thái độ của chính mình đối với sức khỏe của bản thân và gia đình. Trước đây, mỗi khi đưa người thân đi viện, tôi luôn có tâm lý e sợ, không bao giờ dám hỏi kỹ bác sĩ về loại thuốc đang tiêm hay nguyên nhân thực sự của các triệu chứng bất thường. Tôi từng nghĩ rằng hỏi nhiều là bất kính, là thể hiện sự thiếu tin tưởng vào người thầy thuốc. Nhưng giờ đây, tôi nhận ra rằng sự tôn trọng bác sĩ không đồng nghĩa với việc từ bỏ quyền bảo vệ tính mạng của người thân mình. Một người bác sĩ có lương tâm và năng lực thực sự sẽ luôn kiên nhẫn giải thích rõ ràng và minh bạch phác đồ điều trị cho bệnh nhân. Từ nay trở đi, tôi sẽ luôn chủ động tìm hiểu, theo dõi sát sao hồ sơ bệnh án và không ngần ngại tìm kiếm ý kiến đánh giá độc lập thứ hai khi có những chẩn đoán bất thường. Tôi sẽ không bao giờ để sự e dè làm lu mờ đi trách nhiệm bảo vệ người thân trong những thời khắc sinh tử. Sự an toàn của người thân phải được bảo đảm bằng sự chủ động và hiểu biết tỉnh táo, chứ không thể phó mặc hoàn toàn cho sự may rủi.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Theo dõi hai vụ án này, tôi thực sự cảm thấy một sự thức tỉnh sâu sắc về thái độ của chính mình đối với sức khỏe của bản thân và gia đình.",
+    "words": 33
+   },
+   {
+    "id": "5.05#2",
+    "text": "Trước đây, mỗi khi đưa người thân đi viện, tôi luôn có tâm lý e sợ, không bao giờ dám hỏi kỹ bác sĩ về loại thuốc đang tiêm hay nguyên nhân thực sự của các triệu chứng bất thường.",
+    "words": 40
+   },
+   {
+    "id": "5.05#3",
+    "text": "Tôi từng nghĩ rằng hỏi nhiều là bất kính, là thể hiện sự thiếu tin tưởng vào người thầy thuốc.",
+    "words": 20
+   },
+   {
+    "id": "5.05#4",
+    "text": "Nhưng giờ đây, tôi nhận ra rằng sự tôn trọng bác sĩ không đồng nghĩa với việc từ bỏ quyền bảo vệ tính mạng của người thân mình.",
+    "words": 28
+   },
+   {
+    "id": "5.05#5",
+    "text": "Một người bác sĩ có lương tâm và năng lực thực sự sẽ luôn kiên nhẫn giải thích rõ ràng và minh bạch phác đồ điều trị cho bệnh nhân.",
+    "words": 30
+   },
+   {
+    "id": "5.05#6",
+    "text": "Từ nay trở đi, tôi sẽ luôn chủ động tìm hiểu, theo dõi sát sao hồ sơ bệnh án và không ngần ngại tìm kiếm ý kiến đánh giá độc lập thứ hai khi có những chẩn đoán bất thường.",
+    "words": 40
+   },
+   {
+    "id": "5.05#7",
+    "text": "Tôi sẽ không bao giờ để sự e dè làm lu mờ đi trách nhiệm bảo vệ người thân trong những thời khắc sinh tử.",
+    "words": 25
+   },
+   {
+    "id": "5.05#8",
+    "text": "Sự an toàn của người thân phải được bảo đảm bằng sự chủ động và hiểu biết tỉnh táo, chứ không thể phó mặc hoàn toàn cho sự may rủi.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Tổng kết giá trị và mời chuyên gia đưa ra giải pháp",
+  "text": "Đó chính là sự trưởng thành nhận thức vô cùng quý giá của mỗi công dân trong xã hội hiện đại. Khi bệnh nhân trở thành những người có hiểu biết và có tư duy phản biện, họ không chỉ tự bảo vệ được chính mình, mà còn giúp bảo vệ sự liêm chính của toàn bộ hệ thống y tế. Quyền lực chuyên môn chỉ thực sự có giá trị khi nó phục vụ cho sự sống và chịu sự giám sát của đạo đức xã hội. Để giúp quý khán giả có thể bảo vệ bản thân và gia đình khi đi khám chữa bệnh, Chuyên gia tâm lý và Điều tra viên sẽ đúc kết các dấu hiệu cảnh báo đỏ cốt lõi.",
+  "sentences": [
+   {
+    "id": "5.06#1",
+    "text": "Đó chính là sự trưởng thành nhận thức vô cùng quý giá của mỗi công dân trong xã hội hiện đại.",
+    "words": 21
+   },
+   {
+    "id": "5.06#2",
+    "text": "Khi bệnh nhân trở thành những người có hiểu biết và có tư duy phản biện, họ không chỉ tự bảo vệ được chính mình, mà còn giúp bảo vệ sự liêm chính của toàn bộ hệ thống y tế.",
+    "words": 40
+   },
+   {
+    "id": "5.06#3",
+    "text": "Quyền lực chuyên môn chỉ thực sự có giá trị khi nó phục vụ cho sự sống và chịu sự giám sát của đạo đức xã hội.",
+    "words": 27
+   },
+   {
+    "id": "5.06#4",
+    "text": "Để giúp quý khán giả có thể bảo vệ bản thân và gia đình khi đi khám chữa bệnh, Chuyên gia tâm lý và Điều tra viên sẽ đúc kết các dấu hiệu cảnh báo đỏ cốt lõi.",
+    "words": 38
+   }
+  ]
+ },
+ {
+  "id": "5.07",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Đưa ra 3 cảnh báo đỏ tâm lý học",
+  "text": "Dưới góc độ tâm lý học hành vi, có ba tín hiệu cảnh báo đỏ quan trọng mà bạn cần đặc biệt lưu tâm khi tiếp xúc với các chuyên gia y tế: Thứ nhất là Thái độ độc đoán và né tránh giải thích minh bạch. Một bác sĩ luôn gạt phắt các câu hỏi chính đáng của người nhà, tỏ ra khó chịu hoặc dùng thuật ngữ y khoa phức tạp để thị uy quyền lực thường đang muốn che giấu sự thiếu sót hoặc những hành vi bất thường. Họ coi sự thắc mắc của bệnh nhân như một sự thách thức đối với cái tôi của họ. Thứ hai là Xu hướng cô lập bệnh nhân khỏi sự giám sát của gia đình và đồng nghiệp. Hãy cảnh giác khi một chuyên gia y tế luôn yêu cầu được ở một mình trong phòng kín với bệnh nhân trong những tình huống không thực sự cần thiết về mặt chuyên môn. Họ cố tình tạo ra không gian riêng tư không có người làm chứng để dễ dàng thực hiện các hành vi sai trái. Thứ ba là Phản ứng bất thường trước cái chết của bệnh nhân. Một người tỏ ra quá thản nhiên, lạnh lùng hoặc ngược lại, quá sốt sắng trong việc thúc ép gia đình làm thủ tục an táng, hỏa táng nhanh chóng mà không có sự giải thích cặn kẽ chính là dấu hiệu của sự bất thường về tâm lý. Khi nhận thấy những dấu hiệu này, hãy dừng lại và yêu cầu sự can thiệp của người giám sát chuyên môn cấp cao hơn.",
+  "sentences": [
+   {
+    "id": "5.07#1",
+    "text": "Dưới góc độ tâm lý học hành vi, có ba tín hiệu cảnh báo đỏ quan trọng mà bạn cần đặc biệt lưu tâm khi tiếp xúc với các chuyên gia y tế:",
+    "words": 33
+   },
+   {
+    "id": "5.07#2",
+    "text": "Thứ nhất là Thái độ độc đoán và né tránh giải thích minh bạch.",
+    "words": 14
+   },
+   {
+    "id": "5.07#3",
+    "text": "Một bác sĩ luôn gạt phắt các câu hỏi chính đáng của người nhà, tỏ ra khó chịu hoặc dùng thuật ngữ y khoa phức tạp để thị uy quyền lực thường đang muốn che giấu sự thiếu sót hoặc những hành vi bất thường.",
+    "words": 45
+   },
+   {
+    "id": "5.07#4",
+    "text": "Họ coi sự thắc mắc của bệnh nhân như một sự thách thức đối với cái tôi của họ.",
+    "words": 19
+   },
+   {
+    "id": "5.07#5",
+    "text": "Thứ hai là Xu hướng cô lập bệnh nhân khỏi sự giám sát của gia đình và đồng nghiệp.",
+    "words": 19
+   },
+   {
+    "id": "5.07#6",
+    "text": "Hãy cảnh giác khi một chuyên gia y tế luôn yêu cầu được ở một mình trong phòng kín với bệnh nhân trong những tình huống không thực sự cần thiết về mặt chuyên môn.",
+    "words": 35
+   },
+   {
+    "id": "5.07#7",
+    "text": "Họ cố tình tạo ra không gian riêng tư không có người làm chứng để dễ dàng thực hiện các hành vi sai trái.",
+    "words": 24
+   },
+   {
+    "id": "5.07#8",
+    "text": "Thứ ba là Phản ứng bất thường trước cái chết của bệnh nhân.",
+    "words": 13
+   },
+   {
+    "id": "5.07#9",
+    "text": "Một người tỏ ra quá thản nhiên, lạnh lùng hoặc ngược lại, quá sốt sắng trong việc thúc ép gia đình làm thủ tục an táng, hỏa táng nhanh chóng mà không có sự giải thích cặn kẽ chính là dấu hiệu của sự bất thường về tâm lý.",
+    "words": 49
+   },
+   {
+    "id": "5.07#10",
+    "text": "Khi nhận thấy những dấu hiệu này, hãy dừng lại và yêu cầu sự can thiệp của người giám sát chuyên môn cấp cao hơn.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "5.08",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Đưa ra 2 nguyên tắc phòng vệ nghiệp vụ thực chiến",
+  "text": "Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng mà mỗi bệnh nhân và gia đình cần ghi nhớ khi nằm viện là: Thứ nhất, Luôn thực hiện quyền xin Ý kiến chuyên môn độc lập thứ hai, tức Second Opinion. Khi đối diện với các ca bệnh nguy kịch, các phác đồ điều trị phức tạp hoặc các trường hợp tử vong đột ngột bất thường, đừng ngần ngại yêu cầu chuyển hồ sơ bệnh án sang một bệnh viện khác hoặc yêu cầu giám định pháp y độc lập trước khi tiến hành mai táng. Sự cẩn trọng trong các quyết định y khoa không bao giờ là thừa thãi đối với tính mạng con người. Thứ hai, Chủ động lưu giữ và đối chiếu nhật ký điều trị. Hãy ghi chép lại thời gian, tên các loại thuốc được tiêm, danh tính y tá, bác sĩ phụ trách ca trực và chụp ảnh các hồ sơ bệnh án xuất viện. Bằng chứng y khoa minh bạch chính là công cụ pháp lý mạnh mẽ nhất bảo vệ quyền lợi và sinh mệnh của bạn trước mọi sai phạm. Hãy nhớ rằng trong môi trường y tế, sự chính xác trên giấy tờ và sự giám sát chéo là chiếc phao cứu sinh duy nhất bảo vệ bệnh nhân.",
+  "sentences": [
+   {
+    "id": "5.08#1",
+    "text": "Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng mà mỗi bệnh nhân và gia đình cần ghi nhớ khi nằm viện là:",
+    "words": 28
+   },
+   {
+    "id": "5.08#2",
+    "text": "Thứ nhất, Luôn thực hiện quyền xin Ý kiến chuyên môn độc lập thứ hai, tức Second Opinion.",
+    "words": 18
+   },
+   {
+    "id": "5.08#3",
+    "text": "Khi đối diện với các ca bệnh nguy kịch, các phác đồ điều trị phức tạp hoặc các trường hợp tử vong đột ngột bất thường, đừng ngần ngại yêu cầu chuyển hồ sơ bệnh án sang một bệnh viện khác hoặc yêu cầu giám định pháp y độc lập trước khi tiến hành mai táng.",
+    "words": 56
+   },
+   {
+    "id": "5.08#4",
+    "text": "Sự cẩn trọng trong các quyết định y khoa không bao giờ là thừa thãi đối với tính mạng con người.",
+    "words": 21
+   },
+   {
+    "id": "5.08#5",
+    "text": "Thứ hai, Chủ động lưu giữ và đối chiếu nhật ký điều trị.",
+    "words": 13
+   },
+   {
+    "id": "5.08#6",
+    "text": "Hãy ghi chép lại thời gian, tên các loại thuốc được tiêm, danh tính y tá, bác sĩ phụ trách ca trực và chụp ảnh các hồ sơ bệnh án xuất viện.",
+    "words": 32
+   },
+   {
+    "id": "5.08#7",
+    "text": "Bằng chứng y khoa minh bạch chính là công cụ pháp lý mạnh mẽ nhất bảo vệ quyền lợi và sinh mệnh của bạn trước mọi sai phạm.",
+    "words": 28
+   },
+   {
+    "id": "5.08#8",
+    "text": "Hãy nhớ rằng trong môi trường y tế, sự chính xác trên giấy tờ và sự giám sát chéo là chiếc phao cứu sinh duy nhất bảo vệ bệnh nhân.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "5.09",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm ấm, đúc kết triết lý nhân sinh và kết thúc chương trình",
+  "text": "Chiếc áo blouse trắng muôn đời vẫn là biểu tượng cao quý của sự cứu rỗi và lòng nhân từ giữa trần gian. Nhưng giá trị thiêng liêng của chiếc áo ấy không tự nhiên sinh ra từ màu vải, mà được tôi luyện từ sự chính trực và lương tâm của người khoác nó. Hãy trao gửi niềm tin cho y học bằng một trái tim ấm áp, nhưng hãy giữ cho lý trí của mình sự tỉnh táo sáng suốt nhất. Đừng bao giờ để sự tôn kính biến thành sự mù quáng tước đi quyền tự vệ của chính mình. Bởi vì sinh mạng của bạn và những người thân yêu là tài sản vô giá duy nhất không thể làm lại trên cõi đời này. Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập hồ sơ tài liệu tâm lý học hôm nay. Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video đến gia đình và bạn bè để cùng nhau nâng cao nhận thức bảo vệ sức khỏe an toàn. Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những tập phim giải mã tâm lý tiếp theo. Xin chào tạm biệt và hẹn gặp lại quý vị trong chuyên đề sau.",
+  "sentences": [
+   {
+    "id": "5.09#1",
+    "text": "Chiếc áo blouse trắng muôn đời vẫn là biểu tượng cao quý của sự cứu rỗi và lòng nhân từ giữa trần gian.",
+    "words": 23
+   },
+   {
+    "id": "5.09#2",
+    "text": "Nhưng giá trị thiêng liêng của chiếc áo ấy không tự nhiên sinh ra từ màu vải, mà được tôi luyện từ sự chính trực và lương tâm của người khoác nó.",
+    "words": 32
+   },
+   {
+    "id": "5.09#3",
+    "text": "Hãy trao gửi niềm tin cho y học bằng một trái tim ấm áp, nhưng hãy giữ cho lý trí của mình sự tỉnh táo sáng suốt nhất.",
+    "words": 28
+   },
+   {
+    "id": "5.09#4",
+    "text": "Đừng bao giờ để sự tôn kính biến thành sự mù quáng tước đi quyền tự vệ của chính mình.",
+    "words": 20
+   },
+   {
+    "id": "5.09#5",
+    "text": "Bởi vì sinh mạng của bạn và những người thân yêu là tài sản vô giá duy nhất không thể làm lại trên cõi đời này.",
+    "words": 26
+   },
+   {
+    "id": "5.09#6",
+    "text": "Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập hồ sơ tài liệu tâm lý học hôm nay.",
+    "words": 24
+   },
+   {
+    "id": "5.09#7",
+    "text": "Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video đến gia đình và bạn bè để cùng nhau nâng cao nhận thức bảo vệ sức khỏe an toàn.",
+    "words": 33
+   },
+   {
+    "id": "5.09#8",
+    "text": "Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những tập phim giải mã tâm lý tiếp theo.",
+    "words": 23
+   },
+   {
+    "id": "5.09#9",
+    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong chuyên đề sau.",
+    "words": 14
+   }
+  ]
+ }
+]
