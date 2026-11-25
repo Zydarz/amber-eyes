@@ -1,0 +1,1514 @@
+[
+ {
+  "id": "1-001",
+  "act": 1,
+  "name": "t43_a1_01_brooklin_walled_upscale_district",
+  "codes": [
+   "1.02#1",
+   "1.02#2"
+  ],
+  "est": 18.4
+ },
+ {
+  "id": "1-002",
+  "act": 1,
+  "name": "t43_a1_02_electric_fences_security_cameras",
+  "codes": [
+   "1.02#3",
+   "1.02#4"
+  ],
+  "est": 19.0
+ },
+ {
+  "id": "1-003",
+  "act": 1,
+  "name": "t43_a1_03_neighbors_admiring_grand_mansion",
+  "codes": [
+   "1.02#5",
+   "1.02#6"
+  ],
+  "est": 18.1
+ },
+ {
+  "id": "1-004",
+  "act": 1,
+  "name": "t43_a1_04_mansion_pool_and_library",
+  "codes": [
+   "1.02#7",
+   "1.02#8"
+  ],
+  "est": 14.5
+ },
+ {
+  "id": "1-005",
+  "act": 1,
+  "name": "t43_a1_05_halo_gate_hidden_cracks",
+  "codes": [
+   "1.02#9",
+   "1.02#10"
+  ],
+  "est": 18.4
+ },
+ {
+  "id": "1-006",
+  "act": 1,
+  "name": "t43_a1_06_dark_hillside_vs_glowing_mansion",
+  "codes": [
+   "1.02#11",
+   "1.02#12"
+  ],
+  "est": 17.0
+ },
+ {
+  "id": "1-007",
+  "act": 1,
+  "name": "t43_a1_07_law_student_silhouette_campus",
+  "codes": [
+   "1.04#1"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "1-008",
+  "act": 1,
+  "name": "t43_a1_08_grand_piano_sunlit_room",
+  "codes": [
+   "1.04#2",
+   "1.04#3"
+  ],
+  "est": 17.0
+ },
+ {
+  "id": "1-009",
+  "act": 1,
+  "name": "t43_a1_09_gilded_cage_window_curtains",
+  "codes": [
+   "1.04#4"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "1-010",
+  "act": 1,
+  "name": "t43_a1_10_motorbike_outside_mansion_gate",
+  "codes": [
+   "1.04#5",
+   "1.04#6"
+  ],
+  "est": 17.0
+ },
+ {
+  "id": "1-011",
+  "act": 1,
+  "name": "t43_a1_11_cracked_mirror_dark_bedroom",
+  "codes": [
+   "1.06#1",
+   "1.06#2"
+  ],
+  "est": 19.2
+ },
+ {
+  "id": "1-012",
+  "act": 1,
+  "name": "t43_a1_12_moonlit_desk_hourglass",
+  "codes": [
+   "1.06#3"
+  ],
+  "est": 8.0
+ },
+ {
+  "id": "1-013",
+  "act": 1,
+  "name": "t43_a1_13_puppet_strings_two_silhouettes",
+  "codes": [
+   "1.06#4",
+   "1.06#5"
+  ],
+  "est": 17.8
+ },
+ {
+  "id": "1-014",
+  "act": 1,
+  "name": "t43_a1_14_mansion_door_ajar_night",
+  "codes": [
+   "1.06#6"
+  ],
+  "est": 8.2
+ },
+ {
+  "id": "1-015",
+  "act": 1,
+  "name": "t43_a1_15_alarm_flashing_lights_quiet_street",
+  "codes": [
+   "1.07#1",
+   "1.07#2"
+  ],
+  "est": 15.9
+ },
+ {
+  "id": "1-016",
+  "act": 1,
+  "name": "t43_a1_16_multilayer_security_checkpoints",
+  "codes": [
+   "1.07#3"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "1-017",
+  "act": 1,
+  "name": "t43_a1_17_figure_in_black_jacket_floodlit_yard",
+  "codes": [
+   "1.07#4",
+   "1.07#5"
+  ],
+  "est": 16.2
+ },
+ {
+  "id": "1-018",
+  "act": 1,
+  "name": "t43_a1_18_upstairs_hallway_closed_door",
+  "codes": [
+   "1.09#1",
+   "1.09#2"
+  ],
+  "est": 15.9
+ },
+ {
+  "id": "1-019",
+  "act": 1,
+  "name": "t43_a1_19_living_room_silhouettes_embracing",
+  "codes": [
+   "1.09#3"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "1-020",
+  "act": 1,
+  "name": "t43_a1_20_stage_curtain_staged_scene_study",
+  "codes": [
+   "1.09#4",
+   "1.09#5"
+  ],
+  "est": 16.2
+ },
+ {
+  "id": "1-021",
+  "act": 1,
+  "name": "t43_a1_21_detectives_at_disabled_alarm_gate",
+  "codes": [
+   "1.10#1",
+   "1.10#2"
+  ],
+  "est": 17.0
+ },
+ {
+  "id": "1-022",
+  "act": 1,
+  "name": "t43_a1_22_intact_window_latches_gate_lock",
+  "codes": [
+   "1.10#3"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "1-023",
+  "act": 1,
+  "name": "t43_a1_23_open_safe_valuables_untouched",
+  "codes": [
+   "1.10#4",
+   "1.10#5"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "1-024",
+  "act": 1,
+  "name": "t43_a1_24_detective_watching_calm_woman",
+  "codes": [
+   "1.10#6",
+   "1.10#7"
+  ],
+  "est": 17.8
+ },
+ {
+  "id": "1-025",
+  "act": 1,
+  "name": "t43_a1_25_chess_duel_velvet_curtain_tearing",
+  "codes": [
+   "1.11#1",
+   "1.11#2"
+  ],
+  "est": 16.5
+ },
+ {
+  "id": "1-026",
+  "act": 1,
+  "name": "t43_a1_26_brazil_justice_scales_cityscape",
+  "codes": [
+   "1.11#3"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "1-027",
+  "act": 1,
+  "name": "t43_a1_27_porcelain_mask_closed_case_file",
+  "codes": [
+   "1.11#4",
+   "1.11#5"
+  ],
+  "est": 11.2
+ },
+ {
+  "id": "2-028",
+  "act": 2,
+  "name": "t43_a2_01_night_car_leaving_taillights",
+  "codes": [
+   "2.02#1",
+   "2.02#2"
+  ],
+  "est": 18.4
+ },
+ {
+  "id": "2-029",
+  "act": 2,
+  "name": "t43_a2_02_upscale_hotel_exterior_night",
+  "codes": [
+   "2.02#3"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "2-030",
+  "act": 2,
+  "name": "t43_a2_03_room_service_tray_dim_suite",
+  "codes": [
+   "2.02#4"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "2-031",
+  "act": 2,
+  "name": "t43_a2_04_internet_cafe_glowing_screens",
+  "codes": [
+   "2.02#5"
+  ],
+  "est": 7.4
+ },
+ {
+  "id": "2-032",
+  "act": 2,
+  "name": "t43_a2_05_mansion_gate_dawn_returning",
+  "codes": [
+   "2.02#6"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "2-033",
+  "act": 2,
+  "name": "t43_a2_06_detectives_stakeout_parked_car",
+  "codes": [
+   "2.04#1"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "2-034",
+  "act": 2,
+  "name": "t43_a2_07_sunlit_pool_empty_lounger",
+  "codes": [
+   "2.04#2"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "2-035",
+  "act": 2,
+  "name": "t43_a2_08_phone_and_open_strongbox",
+  "codes": [
+   "2.04#3"
+  ],
+  "est": 8.0
+ },
+ {
+  "id": "2-036",
+  "act": 2,
+  "name": "t43_a2_09_cemetery_photographers_distance",
+  "codes": [
+   "2.04#4",
+   "2.04#5"
+  ],
+  "est": 15.9
+ },
+ {
+  "id": "2-037",
+  "act": 2,
+  "name": "t43_a2_10_two_silhouettes_leaning_cemetery_path",
+  "codes": [
+   "2.04#6"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "2-038",
+  "act": 2,
+  "name": "t43_a2_11_birthday_party_candles_silhouettes",
+  "codes": [
+   "2.04#7",
+   "2.04#8"
+  ],
+  "est": 18.7
+ },
+ {
+  "id": "2-039",
+  "act": 2,
+  "name": "t43_a2_12_tragedy_and_comedy_masks",
+  "codes": [
+   "2.04#9",
+   "2.04#10"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "2-040",
+  "act": 2,
+  "name": "t43_a2_13_empty_chair_porcelain_doll",
+  "codes": [
+   "2.05#1",
+   "2.05#2"
+  ],
+  "est": 16.5
+ },
+ {
+  "id": "2-041",
+  "act": 2,
+  "name": "t43_a2_14_hand_moving_chess_pawns",
+  "codes": [
+   "2.05#3"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "2-042",
+  "act": 2,
+  "name": "t43_a2_15_turned_frames_luxury_dream_window",
+  "codes": [
+   "2.05#4",
+   "2.05#5"
+  ],
+  "est": 17.8
+ },
+ {
+  "id": "2-043",
+  "act": 2,
+  "name": "t43_a2_16_dollhouse_sealed_rooms",
+  "codes": [
+   "2.06#1",
+   "2.06#2"
+  ],
+  "est": 14.8
+ },
+ {
+  "id": "2-044",
+  "act": 2,
+  "name": "t43_a2_17_stairs_to_dark_upper_floor",
+  "codes": [
+   "2.06#3"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "2-045",
+  "act": 2,
+  "name": "t43_a2_18_head_silhouette_vault_door",
+  "codes": [
+   "2.06#4"
+  ],
+  "est": 10.2
+ },
+ {
+  "id": "2-046",
+  "act": 2,
+  "name": "t43_a2_19_poolside_feast_champagne_dusk",
+  "codes": [
+   "2.06#5"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "2-047",
+  "act": 2,
+  "name": "t43_a2_20_silhouette_before_law_books_lamp_off",
+  "codes": [
+   "2.06#6",
+   "2.06#7"
+  ],
+  "est": 19.8
+ },
+ {
+  "id": "2-048",
+  "act": 2,
+  "name": "t43_a2_21_lone_chair_spotlight_empty_theater",
+  "codes": [
+   "2.06#8",
+   "2.06#9"
+  ],
+  "est": 16.7
+ },
+ {
+  "id": "2-049",
+  "act": 2,
+  "name": "t43_a2_22_masks_row_one_slipping",
+  "codes": [
+   "2.06#10",
+   "2.06#11"
+  ],
+  "est": 17.8
+ },
+ {
+  "id": "2-050",
+  "act": 2,
+  "name": "t43_a2_23_hedge_maze_aerial_lone_figure",
+  "codes": [
+   "2.06#12"
+  ],
+  "est": 5.5
+ },
+ {
+  "id": "2-051",
+  "act": 2,
+  "name": "t43_a2_24_two_silhouettes_sleepless_room",
+  "codes": [
+   "2.07#1",
+   "2.07#2"
+  ],
+  "est": 15.3
+ },
+ {
+  "id": "2-052",
+  "act": 2,
+  "name": "t43_a2_25_window_blinds_police_lights_outside",
+  "codes": [
+   "2.07#3",
+   "2.07#4"
+  ],
+  "est": 14.8
+ },
+ {
+  "id": "2-053",
+  "act": 2,
+  "name": "t43_a2_26_worn_apartment_unmarked_envelopes",
+  "codes": [
+   "2.08#1",
+   "2.08#2"
+  ],
+  "est": 13.1
+ },
+ {
+  "id": "2-054",
+  "act": 2,
+  "name": "t43_a2_27_motorcycle_showroom_gleaming_bikes",
+  "codes": [
+   "2.08#3"
+  ],
+  "est": 7.4
+ },
+ {
+  "id": "2-055",
+  "act": 2,
+  "name": "t43_a2_28_cash_counter_wary_clerk",
+  "codes": [
+   "2.08#4",
+   "2.08#5"
+  ],
+  "est": 17.6
+ },
+ {
+  "id": "2-056",
+  "act": 2,
+  "name": "t43_a2_29_last_puzzle_piece_investigator_hands",
+  "codes": [
+   "2.08#6",
+   "2.08#7"
+  ],
+  "est": 15.6
+ },
+ {
+  "id": "2-057",
+  "act": 2,
+  "name": "t43_a2_30_aerial_converging_police_lights",
+  "codes": [
+   "2.09#1",
+   "2.09#2"
+  ],
+  "est": 14.5
+ },
+ {
+  "id": "2-058",
+  "act": 2,
+  "name": "t43_a2_31_homicide_corridor_three_doors",
+  "codes": [
+   "2.09#3",
+   "2.09#4"
+  ],
+  "est": 12.8
+ },
+ {
+  "id": "2-059",
+  "act": 2,
+  "name": "t43_a2_32_gold_ring_on_cracked_tile",
+  "codes": [
+   "2.10#1",
+   "2.10#2"
+  ],
+  "est": 16.2
+ },
+ {
+  "id": "2-060",
+  "act": 2,
+  "name": "t43_a2_33_chessboard_pawns_fallen_queen_retreats",
+  "codes": [
+   "2.10#3",
+   "2.10#4"
+  ],
+  "est": 14.2
+ },
+ {
+  "id": "2-061",
+  "act": 2,
+  "name": "t43_a2_34_three_isolated_interrogation_rooms",
+  "codes": [
+   "2.10#5"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "2-062",
+  "act": 2,
+  "name": "t43_a2_35_lone_silhouette_ghost_shadow_wall",
+  "codes": [
+   "2.10#6"
+  ],
+  "est": 6.8
+ },
+ {
+  "id": "2-063",
+  "act": 2,
+  "name": "t43_a2_36_steel_door_closing_light_shaft",
+  "codes": [
+   "2.11#1",
+   "2.11#2"
+  ],
+  "est": 12.3
+ },
+ {
+  "id": "2-064",
+  "act": 2,
+  "name": "t43_a2_37_spotlight_empty_chair_one_way_mirror",
+  "codes": [
+   "2.11#3"
+  ],
+  "est": 5.2
+ },
+ {
+  "id": "3-065",
+  "act": 3,
+  "name": "t43_a3_01_soundproof_walls_three_doors",
+  "codes": [
+   "3.02#1",
+   "3.02#2"
+  ],
+  "est": 16.5
+ },
+ {
+  "id": "3-066",
+  "act": 3,
+  "name": "t43_a3_02_investigators_three_blank_folders",
+  "codes": [
+   "3.02#3",
+   "3.02#4"
+  ],
+  "est": 14.2
+ },
+ {
+  "id": "3-067",
+  "act": 3,
+  "name": "t43_a3_03_evidence_table_prison_bars_shadow",
+  "codes": [
+   "3.04#1",
+   "3.04#2"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "3-068",
+  "act": 3,
+  "name": "t43_a3_04_man_slumped_head_on_table",
+  "codes": [
+   "3.04#3",
+   "3.04#4"
+  ],
+  "est": 14.2
+ },
+ {
+  "id": "3-069",
+  "act": 3,
+  "name": "t43_a3_05_cassette_recorder_house_floorplan",
+  "codes": [
+   "3.05#1",
+   "3.05#2"
+  ],
+  "est": 15.3
+ },
+ {
+  "id": "3-070",
+  "act": 3,
+  "name": "t43_a3_06_observation_window_two_rooms",
+  "codes": [
+   "3.05#3",
+   "3.05#4"
+  ],
+  "est": 14.8
+ },
+ {
+  "id": "3-071",
+  "act": 3,
+  "name": "t43_a3_07_rose_dissolving_into_smoke",
+  "codes": [
+   "3.05#5",
+   "3.05#6"
+  ],
+  "est": 13.4
+ },
+ {
+  "id": "3-072",
+  "act": 3,
+  "name": "t43_a3_08_corridor_last_door_light_seam",
+  "codes": [
+   "3.05#7"
+  ],
+  "est": 6.8
+ },
+ {
+  "id": "3-073",
+  "act": 3,
+  "name": "t43_a3_09_upright_calm_silhouette_backlit",
+  "codes": [
+   "3.06#1",
+   "3.06#2"
+  ],
+  "est": 15.9
+ },
+ {
+  "id": "3-074",
+  "act": 3,
+  "name": "t43_a3_10_standing_woman_before_investigators",
+  "codes": [
+   "3.06#3",
+   "3.06#4"
+  ],
+  "est": 17.0
+ },
+ {
+  "id": "3-075",
+  "act": 3,
+  "name": "t43_a3_11_swapped_shadows_two_silhouettes",
+  "codes": [
+   "3.07#1",
+   "3.07#2"
+  ],
+  "est": 17.8
+ },
+ {
+  "id": "3-076",
+  "act": 3,
+  "name": "t43_a3_12_accusing_hand_shadow_over_desk",
+  "codes": [
+   "3.07#3"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "3-077",
+  "act": 3,
+  "name": "t43_a3_13_small_curled_figure_empty_room",
+  "codes": [
+   "3.07#4",
+   "3.07#5"
+  ],
+  "est": 16.2
+ },
+ {
+  "id": "3-078",
+  "act": 3,
+  "name": "t43_a3_14_narcissus_pond_reflection",
+  "codes": [
+   "3.07#6",
+   "3.07#7"
+  ],
+  "est": 17.6
+ },
+ {
+  "id": "3-079",
+  "act": 3,
+  "name": "t43_a3_15_shattered_mask_fragments_floor",
+  "codes": [
+   "3.07#8",
+   "3.07#9"
+  ],
+  "est": 15.3
+ },
+ {
+  "id": "3-080",
+  "act": 3,
+  "name": "t43_a3_16_cracking_glass_shield",
+  "codes": [
+   "3.07#10"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "3-081",
+  "act": 3,
+  "name": "t43_a3_17_actor_silhouette_empty_theater_bow",
+  "codes": [
+   "3.07#11"
+  ],
+  "est": 7.4
+ },
+ {
+  "id": "3-082",
+  "act": 3,
+  "name": "t43_a3_18_blank_binder_forensic_items_table",
+  "codes": [
+   "3.08#1"
+  ],
+  "est": 10.2
+ },
+ {
+  "id": "3-083",
+  "act": 3,
+  "name": "t43_a3_19_trembling_clasped_hands_closeup",
+  "codes": [
+   "3.08#2"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "3-084",
+  "act": 3,
+  "name": "t43_a3_20_rain_streaked_window_silhouette",
+  "codes": [
+   "3.08#3",
+   "3.08#4"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "3-085",
+  "act": 3,
+  "name": "t43_a3_21_tape_recorder_stunned_silhouettes",
+  "codes": [
+   "3.08#5"
+  ],
+  "est": 7.4
+ },
+ {
+  "id": "3-086",
+  "act": 3,
+  "name": "t43_a3_22_curtains_drawn_sunrise_mansion",
+  "codes": [
+   "3.08#6"
+  ],
+  "est": 6.6
+ },
+ {
+  "id": "3-087",
+  "act": 3,
+  "name": "t43_a3_23_crowd_silhouettes_outside_police_hq",
+  "codes": [
+   "3.08#7",
+   "3.08#8"
+  ],
+  "est": 14.8
+ },
+ {
+  "id": "3-088",
+  "act": 3,
+  "name": "t43_a3_24_three_cells_two_slumped_one_upright",
+  "codes": [
+   "3.09#1",
+   "3.09#2"
+  ],
+  "est": 15.6
+ },
+ {
+  "id": "3-089",
+  "act": 3,
+  "name": "t43_a3_25_gears_turning_head_silhouette",
+  "codes": [
+   "3.09#3",
+   "3.09#4"
+  ],
+  "est": 16.5
+ },
+ {
+  "id": "3-090",
+  "act": 3,
+  "name": "t43_a3_26_crumbling_brick_wall_lies",
+  "codes": [
+   "3.09#5"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "3-091",
+  "act": 3,
+  "name": "t43_a3_27_empty_courtroom_dock_rail",
+  "codes": [
+   "3.09#6"
+  ],
+  "est": 8.0
+ },
+ {
+  "id": "3-092",
+  "act": 3,
+  "name": "t43_a3_28_white_lamb_figurine_wolf_shadow",
+  "codes": [
+   "3.09#7"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "3-093",
+  "act": 3,
+  "name": "t43_a3_29_cornered_silhouette_dark_corridor",
+  "codes": [
+   "3.09#8"
+  ],
+  "est": 6.8
+ },
+ {
+  "id": "3-094",
+  "act": 3,
+  "name": "t43_a3_30_prison_cell_block_dusk",
+  "codes": [
+   "3.10#1"
+  ],
+  "est": 8.2
+ },
+ {
+  "id": "3-095",
+  "act": 3,
+  "name": "t43_a3_31_empty_teen_bedroom_rain_window",
+  "codes": [
+   "3.10#2"
+  ],
+  "est": 8.0
+ },
+ {
+  "id": "3-096",
+  "act": 3,
+  "name": "t43_a3_32_empty_mansion_hallway_single_lamp",
+  "codes": [
+   "3.10#3"
+  ],
+  "est": 8.2
+ },
+ {
+  "id": "4-097",
+  "act": 4,
+  "name": "t43_a4_01_sao_paulo_courthouse_crowds_2006",
+  "codes": [
+   "4.02#1",
+   "4.02#2"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "4-098",
+  "act": 4,
+  "name": "t43_a4_02_defendants_dock_separated_silhouettes",
+  "codes": [
+   "4.02#3"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "4-099",
+  "act": 4,
+  "name": "t43_a4_03_spotlight_on_mirror_dark_courtroom",
+  "codes": [
+   "4.02#4",
+   "4.02#5"
+  ],
+  "est": 16.7
+ },
+ {
+  "id": "4-100",
+  "act": 4,
+  "name": "t43_a4_04_defense_table_lawyers_whispering",
+  "codes": [
+   "4.03#1",
+   "4.03#2"
+  ],
+  "est": 16.2
+ },
+ {
+  "id": "4-101",
+  "act": 4,
+  "name": "t43_a4_05_jury_box_silhouettes_listening",
+  "codes": [
+   "4.03#3"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "4-102",
+  "act": 4,
+  "name": "t43_a4_06_two_men_pointing_across_courtroom",
+  "codes": [
+   "4.03#4",
+   "4.03#5"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "4-103",
+  "act": 4,
+  "name": "t43_a4_07_easels_with_flowers_head_bowed",
+  "codes": [
+   "4.03#6",
+   "4.03#7"
+  ],
+  "est": 16.7
+ },
+ {
+  "id": "4-104",
+  "act": 4,
+  "name": "t43_a4_08_frayed_rope_snapping_dark",
+  "codes": [
+   "4.03#8",
+   "4.03#9"
+  ],
+  "est": 15.9
+ },
+ {
+  "id": "4-105",
+  "act": 4,
+  "name": "t43_a4_09_school_backpack_on_staircase",
+  "codes": [
+   "4.04#1",
+   "4.04#2"
+  ],
+  "est": 15.3
+ },
+ {
+  "id": "4-106",
+  "act": 4,
+  "name": "t43_a4_10_handcuffs_on_wooden_table",
+  "codes": [
+   "4.04#3"
+  ],
+  "est": 9.9
+ },
+ {
+  "id": "4-107",
+  "act": 4,
+  "name": "t43_a4_11_frosted_window_empty_room",
+  "codes": [
+   "4.04#4"
+  ],
+  "est": 6.8
+ },
+ {
+  "id": "4-108",
+  "act": 4,
+  "name": "t43_a4_12_closed_front_door_press_lights_outside",
+  "codes": [
+   "4.04#5"
+  ],
+  "est": 8.2
+ },
+ {
+  "id": "4-109",
+  "act": 4,
+  "name": "t43_a4_13_hands_under_running_water_basin",
+  "codes": [
+   "4.05#1"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "4-110",
+  "act": 4,
+  "name": "t43_a4_14_dark_house_corridor_blue_night",
+  "codes": [
+   "4.05#2"
+  ],
+  "est": 7.4
+ },
+ {
+  "id": "4-111",
+  "act": 4,
+  "name": "t43_a4_15_empty_dining_table_untouched_plates",
+  "codes": [
+   "4.05#3",
+   "4.05#4"
+  ],
+  "est": 17.8
+ },
+ {
+  "id": "4-112",
+  "act": 4,
+  "name": "t43_a4_16_prison_window_bars_light_beam",
+  "codes": [
+   "4.05#5"
+  ],
+  "est": 7.1
+ },
+ {
+  "id": "4-113",
+  "act": 4,
+  "name": "t43_a4_17_silhouette_kneeling_distant_door",
+  "codes": [
+   "4.05#6"
+  ],
+  "est": 10.7
+ },
+ {
+  "id": "4-114",
+  "act": 4,
+  "name": "t43_a4_18_brass_scales_one_pan_empty_lantern",
+  "codes": [
+   "4.05#7",
+   "4.05#8"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "4-115",
+  "act": 4,
+  "name": "t43_a4_19_prison_gate_dawn_walking_out",
+  "codes": [
+   "4.07#1",
+   "4.07#2"
+  ],
+  "est": 16.7
+ },
+ {
+  "id": "4-116",
+  "act": 4,
+  "name": "t43_a4_20_sealed_blank_envelope_and_pen",
+  "codes": [
+   "4.07#3"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "4-117",
+  "act": 4,
+  "name": "t43_a4_21_fork_road_chapel_vs_tv_studio",
+  "codes": [
+   "4.07#4",
+   "4.07#5"
+  ],
+  "est": 15.9
+ },
+ {
+  "id": "4-118",
+  "act": 4,
+  "name": "t43_a4_22_prosecutor_silhouette_closing_speech",
+  "codes": [
+   "4.08#1",
+   "4.08#2"
+  ],
+  "est": 15.3
+ },
+ {
+  "id": "4-119",
+  "act": 4,
+  "name": "t43_a4_23_vanity_mirror_plain_clothes_dressing_room",
+  "codes": [
+   "4.08#3"
+  ],
+  "est": 11.6
+ },
+ {
+  "id": "4-120",
+  "act": 4,
+  "name": "t43_a4_24_scales_with_teardrop_on_pan",
+  "codes": [
+   "4.08#4"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "4-121",
+  "act": 4,
+  "name": "t43_a4_25_three_bell_jars_different_lights",
+  "codes": [
+   "4.09#1",
+   "4.09#2"
+  ],
+  "est": 10.9
+ },
+ {
+  "id": "4-122",
+  "act": 4,
+  "name": "t43_a4_26_mask_and_key_on_scales",
+  "codes": [
+   "4.09#3"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "4-123",
+  "act": 4,
+  "name": "t43_a4_27_vintage_tv_studio_empty_chair",
+  "codes": [
+   "4.09#4",
+   "4.09#5"
+  ],
+  "est": 18.1
+ },
+ {
+  "id": "4-124",
+  "act": 4,
+  "name": "t43_a4_28_broken_crown_on_courtroom_floor",
+  "codes": [
+   "4.09#6",
+   "4.09#7"
+  ],
+  "est": 11.7
+ },
+ {
+  "id": "4-125",
+  "act": 4,
+  "name": "t43_a4_29_prison_bars_shadow_across_floor",
+  "codes": [
+   "4.09#8"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "4-126",
+  "act": 4,
+  "name": "t43_a4_30_hands_cupping_small_flame",
+  "codes": [
+   "4.09#9",
+   "4.09#10"
+  ],
+  "est": 16.2
+ },
+ {
+  "id": "4-127",
+  "act": 4,
+  "name": "t43_a4_31_lantern_beside_mask_table",
+  "codes": [
+   "4.09#11"
+  ],
+  "est": 10.7
+ },
+ {
+  "id": "4-128",
+  "act": 4,
+  "name": "t43_a4_32_jury_room_door_light_under",
+  "codes": [
+   "4.10#1"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "4-129",
+  "act": 4,
+  "name": "t43_a4_33_judge_bench_empty_dawn",
+  "codes": [
+   "4.10#2",
+   "4.10#3"
+  ],
+  "est": 14.0
+ },
+ {
+  "id": "4-130",
+  "act": 4,
+  "name": "t43_a4_34_empty_courtroom_dusk_justice_statue",
+  "codes": [
+   "4.10#4",
+   "4.10#5"
+  ],
+  "est": 14.5
+ },
+ {
+  "id": "5-131",
+  "act": 5,
+  "name": "t43_a5_01_tremembe_prison_walls_dusk",
+  "codes": [
+   "5.02#1"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "5-132",
+  "act": 5,
+  "name": "t43_a5_02_sao_paulo_skyline_fog_distant_mansion",
+  "codes": [
+   "5.02#2",
+   "5.02#3"
+  ],
+  "est": 21.2
+ },
+ {
+  "id": "5-133",
+  "act": 5,
+  "name": "t43_a5_03_cracked_glass_dome_miniature_mansion",
+  "codes": [
+   "5.02#4",
+   "5.02#5"
+  ],
+  "est": 20.1
+ },
+ {
+  "id": "5-134",
+  "act": 5,
+  "name": "t43_a5_04_heavy_law_books_gavel_light",
+  "codes": [
+   "5.02#6"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "5-135",
+  "act": 5,
+  "name": "t43_a5_05_lone_tree_cracked_ground_long_shadow",
+  "codes": [
+   "5.02#7",
+   "5.02#8"
+  ],
+  "est": 21.2
+ },
+ {
+  "id": "5-136",
+  "act": 5,
+  "name": "t43_a5_06_prison_cell_bunk_closed_book",
+  "codes": [
+   "5.03#1"
+  ],
+  "est": 10.2
+ },
+ {
+  "id": "5-137",
+  "act": 5,
+  "name": "t43_a5_07_chemistry_lab_lone_scientist_silhouette",
+  "codes": [
+   "5.03#2"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "5-138",
+  "act": 5,
+  "name": "t43_a5_08_sao_paulo_street_dusk_lone_distant_figure",
+  "codes": [
+   "5.03#3"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "5-139",
+  "act": 5,
+  "name": "t43_a5_09_old_stone_wall_deep_cracks_ivy",
+  "codes": [
+   "5.03#4"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "5-140",
+  "act": 5,
+  "name": "t43_a5_10_circle_of_silhouettes_around_one",
+  "codes": [
+   "5.03#5"
+  ],
+  "est": 11.0
+ },
+ {
+  "id": "5-141",
+  "act": 5,
+  "name": "t43_a5_11_rows_of_candles_darkness_vigil",
+  "codes": [
+   "5.03#6"
+  ],
+  "est": 7.1
+ },
+ {
+  "id": "5-142",
+  "act": 5,
+  "name": "t43_a5_12_dawn_light_over_quiet_neighborhood",
+  "codes": [
+   "5.03#7"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "5-143",
+  "act": 5,
+  "name": "t43_a5_13_investigators_briefing_blank_boards",
+  "codes": [
+   "5.04#1",
+   "5.04#2"
+  ],
+  "est": 16.5
+ },
+ {
+  "id": "5-144",
+  "act": 5,
+  "name": "t43_a5_14_cut_alarm_sensor_wire_hanging",
+  "codes": [
+   "5.04#3"
+  ],
+  "est": 10.4
+ },
+ {
+  "id": "5-145",
+  "act": 5,
+  "name": "t43_a5_15_microscope_beside_open_blank_notebook",
+  "codes": [
+   "5.04#4",
+   "5.04#5"
+  ],
+  "est": 17.3
+ },
+ {
+  "id": "5-146",
+  "act": 5,
+  "name": "t43_a5_16_courthouse_columns_sunrise_city",
+  "codes": [
+   "5.04#6"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "5-147",
+  "act": 5,
+  "name": "t43_a5_17_three_red_lanterns_dark_corridor",
+  "codes": [
+   "5.05#1"
+  ],
+  "est": 10.7
+ },
+ {
+  "id": "5-148",
+  "act": 5,
+  "name": "t43_a5_18_lonely_playroom_untouched_toys",
+  "codes": [
+   "5.05#2",
+   "5.05#3"
+  ],
+  "est": 20.9
+ },
+ {
+  "id": "5-149",
+  "act": 5,
+  "name": "t43_a5_19_gold_bars_vs_small_stone_scales",
+  "codes": [
+   "5.05#4"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "5-150",
+  "act": 5,
+  "name": "t43_a5_20_dim_cafe_rigid_silhouette_long_shadow",
+  "codes": [
+   "5.05#5",
+   "5.05#6"
+  ],
+  "est": 22.0
+ },
+ {
+  "id": "5-151",
+  "act": 5,
+  "name": "t43_a5_21_rose_wrapped_in_thin_chain",
+  "codes": [
+   "5.05#7"
+  ],
+  "est": 6.3
+ },
+ {
+  "id": "5-152",
+  "act": 5,
+  "name": "t43_a5_22_family_table_warm_lamp_silhouettes",
+  "codes": [
+   "5.05#8"
+  ],
+  "est": 10.2
+ },
+ {
+  "id": "5-153",
+  "act": 5,
+  "name": "t43_a5_23_cracked_wall_behind_curtain",
+  "codes": [
+   "5.05#9"
+  ],
+  "est": 10.4
+ },
+ {
+  "id": "5-154",
+  "act": 5,
+  "name": "t43_a5_24_counselor_room_two_armchairs",
+  "codes": [
+   "5.05#10"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "5-155",
+  "act": 5,
+  "name": "t43_a5_25_glowing_amber_eyes_in_darkness",
+  "codes": [
+   "5.05#11"
+  ],
+  "est": 11.6
+ },
+ {
+  "id": "5-156",
+  "act": 5,
+  "name": "t43_a5_26_lighthouse_beacon_stormy_sea",
+  "codes": [
+   "5.05#12"
+  ],
+  "est": 10.2
+ },
+ {
+  "id": "5-157",
+  "act": 5,
+  "name": "t43_a5_27_warm_home_window_quiet_street_dusk",
+  "codes": [
+   "5.05#13"
+  ],
+  "est": 8.2
+ },
+ {
+  "id": "5-158",
+  "act": 5,
+  "name": "t43_a5_28_recording_studio_microphone_empty_chair",
+  "codes": [
+   "5.05#14"
+  ],
+  "est": 5.7
+ },
+ {
+  "id": "5-159",
+  "act": 5,
+  "name": "t43_a5_29_closed_dossier_amber_eyes_closing_card",
+  "codes": [
+   "5.05#15"
+  ],
+  "est": 4.9
+ }
+]

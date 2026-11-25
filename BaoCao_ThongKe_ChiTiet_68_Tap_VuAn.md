@@ -53,7 +53,7 @@
 | **Tap 23** | Hồ Sơ Richard Ramirez (Night Stalker) — Ám Ảnh Bệnh Hoạn & Hội Chứng Say Mê Tội Phạm | Mỹ | **245** | **150** | **136** | Bảng shot timeline đã neo audio master |
 | **Tap 24** | Hồ Sơ Lee Choon-jae — Ký Ức Kẻ Sát Nhân Hwaseong & Sự Thật 33 Năm Dưới Lớp Sương Mù | Hàn Quốc | **246** | **155** | **265** | Bảng shot timeline đã neo audio master |
 | **Tap 25** | Hồ Sơ Yoo Young-chul — Sát Nhân Áo Mưa & Cơn Cuồng Nộ Thù Hận Xã Hội | Hàn Quốc | **230** | **140** | **235** | Quy tắc chuẩn (230 câu + 5 thẻ chuyển/kết) |
-| **Tap 26** | Hồ Sơ Miyuki Ishikawa — Nữ Hộ Sinh Kotobuki & Tội Ác Dưới Vỏ Bọc Từ Thiện | Nhật Bản | **240** | **135** | **245** | Quy tắc chuẩn (240 câu + 5 thẻ chuyển/kết) |
+| **Tap 26** | Hồ Sơ Miyuki Ishikawa — Nữ Hộ Sinh Kotobuki & Tội Ác Dưới Vỏ Bọc Từ Thiện | Nhật Bản | **240** | **176** | **245** | Quy tắc chuẩn (240 câu + 5 thẻ chuyển/kết) · 25/11/2026: 167 → 176 ảnh (xem mục VI) |
 | **Tap 27** | Hồ Sơ Nguyễn Hải Dương — Thảm Án Bình Phước, Tổn Thương Ái Kỷ & Thao Túng Đồng Phạm | Việt Nam | **240** | **152** | **245** | Quy tắc chuẩn (240 câu + 5 thẻ chuyển/kết) |
 | **Tap 28** | Hồ Sơ Lê Văn Luyện — Cơn Cuồng Loạn Trong Đêm Mưa Bão & Bi Kịch Vị Thành Niên | Việt Nam | **240** | **152** | **245** | Quy tắc chuẩn (240 câu + 5 thẻ chuyển/kết) |
 | **Tap 29** | Hồ Sơ Jeffrey Dahmer — Nỗi Sợ Bị Bỏ Rơi Bệnh Lý & Ảo Tưởng Kiểm Soát Tuyệt Đối | Mỹ | **240** | **152** | **245** | Quy tắc chuẩn (240 câu + 5 thẻ chuyển/kết) |
@@ -195,3 +195,146 @@
      - Tap 54 (Điêu Ái Thanh - Trung Quốc)
      - Tap 58 (Thảm án Snowtown - Úc)
    - **Quy trình chuẩn hóa:** Lập bảng prompt graphic novel noir $ightarrow$ Chạy sinh ảnh hàng loạt qua Kaggle GPU (Flux / SDXL) $ightarrow$ Đánh số tiền tố `tXX_` $ightarrow$ Đưa vào `assets/bg/` và cập nhật `provenance.json`.
+
+## VI. CẬP NHẬT 25/11/2026 — KIỂM TRA PROMPT ẢNH & MAPPING SHOT TẬP 26–68
+
+### VI.1. Kết quả kiểm tra prompt sinh ảnh (`qc_bg_mapping.py`, cổng H27)
+- **Đạt (39 tập):** 26–48, 50–63, 65, 67 (mã câu hợp lệ, prompt không trùng, phủ 100% câu).
+- **Trượt:** Tập 49 (98/146 mã câu sai, 13/61 câu chưa phủ, chỉ 17/146 prompt khác nhau — bộ "mẫu chung"). *[Đính chính 25/11: số đo này lấy nhầm file `…_backup_61cau.md`; kịch bản thật 243 câu vẫn TRƯỢT (71/146 mã sai, 168/243 câu chưa phủ, 17/146 prompt khác nhau). Đã viết lại — xem VI.7.]* **Chưa có `bg_jobs`:** Tập 64, 66, 68. Bốn tập này **bị loại khỏi mapping** theo quyết định của người dùng.
+- **Ảnh thực tế trong `assets/bg/` (đo 25/11/2026):** đủ ảnh Tập 26–30; Tập 40 có 145/149 (thiếu `t40_a1_21…`, `t40_a2_14…`, `t40_a2_28…`, `t40_a5_02…`); Tập 31–39 và 41–67 **chưa có ảnh nào** theo đo này. ⚠ Số liệu này **không khớp** mục V ở trên (mục V ghi đã có ảnh Tập 01–32, 34, 35, 37–40) — cần đối chiếu lại thư mục ảnh/`kaggle_flux` trước khi sinh thêm.
+
+### VI.2. Bảng mapping shot ↔ ảnh
+- Script: `.work/map_shot_anh.py` (`py -3 .work/map_shot_anh.py [XX ...]`). Gán **từng câu → đúng 1 ảnh**, gộp các câu liên tiếp cùng ảnh thành 1 shot.
+- Đầu ra mỗi tập: `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX/Bang_Shot_Anh_TapXX.md` (bảng để dựng video) + `.work/shot_map_tapXX.json`.
+- Kết quả 39 tập: **37 tập không lỗi, mỗi ảnh đúng 1 shot**; Tập 26 (đã sửa, xem VI.3); Tập 40 còn 1 lỗi: câu `5.05#11` bị 2 ảnh cùng nhận (`t40_a5_23_closing_card…`, `t40_a5_27_final_amber_eyes_insignia_seal`) ⇒ ảnh `a5_27` chưa có shot.
+- Thời lượng shot là **ƯỚC LƯỢNG** (3,6 tiếng/s + nghỉ 0,45 s/câu); thời lượng thật lấy từ `timeline_s` sau khi có audio (H14). Phần lớn tập có 35–100 shot ước > 15 s (H10) — cần đo lại khi có timeline.
+
+### VI.3. Tập 26 — nguyên nhân lặp ảnh và cách sửa
+- **Nguyên nhân:** `bg_jobs_tap26.json` có 32 job `t26_aN_xNN_…` được chèn **vào giữa** đoạn câu mà job gốc đã phủ, nhưng job gốc **không được cắt lại**: nó chỉ còn 2 mã đầu mút (vd `"1.04#7,1.06#1"`), trong khi các câu giữa thuộc job "x". ⇒ 9 ảnh bị gán vào 2 vị trí cách quãng. **Không thiếu ảnh; prompt gốc đúng cảnh** — sai ở mã câu.
+- **Cách sửa (người dùng chọn 25/11/2026):** mỗi job gốc chỉ giữ mã câu đầu; mã câu thứ hai chuyển sang **job mới có prompt riêng** (đặt tên hậu tố `b`). Sao lưu trước khi sửa: `.work/_cu/bg_jobs_tap26_truoc_tach_lap_20261125.json`.
+- **Sau sửa:** 167 → **176 job/ảnh**; `qc_bg_mapping.py 26` ĐẠT (M1 0/176 · M5 0/240 · M4 176/176); `map_shot_anh.py 26`: 176 shot, **0 ảnh lặp**.
+
+| # | Ảnh gốc (giữ câu) | Ảnh mới (câu) | Cảnh mới |
+|---|---|---|---|
+| 1 | `t26_a1_07_midnight_interrogation_waseda_precinct` (1.04#7) | `t26_a1_07b_gravedigger_statement_lamplit_bench` (1.06#1) | Bàn thẩm vấn, mũ vải + cốc trà, bóng sĩ quan đối diện |
+| 2 | `t26_a1_13_forensic_detectives_assembling_dossier` (1.07#7) | `t26_a1_13b_police_hq_corridor_urgent_arrest_order` (1.09#1) | Hành lang trụ sở cảnh sát lúc rạng đông, bóng sĩ quan lên xe |
+| 3 | `t26_a1_16_arrest_of_ishikawa_collaborators` (1.09#6) | `t26_a1_16b_cold_clinic_hallway_unsettling_stillness` (1.10#1) | Hành lang nhà hộ sinh trống, bóng đèn trần, dãy cửa đóng |
+| 4 | `t26_a2_02_benevolent_facade_charity_trap` (2.02#3) | `t26_a2_02b_kind_offer_across_tea_table` (2.04#1) | Bóng người phụ nữ rót trà đối diện cặp vợ chồng, hơi trà bốc lên |
+| 5 | `t26_a2_05_heavy_door_locks_behind_victim` (2.04#6) | `t26_a2_05b_indifferent_empty_desk_no_adoption_search` (2.06#1) | Bàn làm việc trống, sổ trắng, điện thoại tắt, ghế phủ bụi |
+| 6 | `t26_a3_06_compartmentalization_dark_mind` (3.03#7) | `t26_a3_06b_compassion_mask_hairline_crack` (3.04#1) | Mặt nạ sứ nứt một đường mảnh trước gương tối |
+| 7 | `t26_a3_11_institutional_blindspot_complicity` (3.05#7) | `t26_a3_11b_spotless_hospital_corridor_hidden_rot` (3.06#1) | Hành lang bệnh viện sạch bóng, vài cánh cửa hé mở vào bóng tối |
+| 8 | `t26_a5_04_transparency_as_shield` (5.03#3) | `t26_a5_04b_predator_shadow_over_struggling_family` (5.04#1) | Bóng gia đình co ro dưới đèn đường, bóng người áo dài cúi xuống |
+| 9 | `t26_a5_08_amber_eyes_four_redflags_overview` (5.04#8) | `t26_a5_08b_amber_window_parent_vigilance` (5.05#1) | Bóng phụ huynh nắm tay trẻ nhìn ra phố tuyết, cửa sổ hổ phách |
+
+- **Trạng thái:** 9 prompt mới **đã ghi vào `bg_jobs_tap26.json`, CHƯA sinh ảnh** (tốn credit — chờ người dùng chạy Kaggle FLUX, H21). Sau khi sinh: soi 100% ảnh mới (H2/H19/H20, đặc biệt chữ AI vẽ), ghi `provenance.json` (L7), chạy lại `map_shot_anh.py 26` (cột "Có file" 176/176) và `qc_bg_usage.py`.
+- Prompt mới tuân thủ: không chữ/nhãn (H26), không vẽ nạn nhân/bạo lực (H1/V9), người chỉ ở dạng bóng.
+- **Bài học (ghi cho A11):** khi chèn job mới vào giữa đoạn câu của job cũ, **phải cắt lại mã câu của job cũ** — mã câu rời rạc (`a#7,b#1`) làm một ảnh lặp 2 vị trí; cổng `qc_bg_mapping.py` hiện chưa bắt lỗi này (M1/M4/M5 đều xanh).
+
+### VI.4. Rà các tập còn lại và xử lý Tập 40 (25/11/2026)
+- **Rà 39 tập** (mã câu rời rạc, câu bị 2 ảnh nhận, ảnh lặp): ngoài Tập 26 chỉ **Tập 40** có lỗi cùng loại. 37 tập còn lại sạch (mỗi ảnh đúng 1 shot).
+- **Tập 40 — câu `5.05#11` bị 2 ảnh cùng nhận: ĐÃ XỬ LÝ (25/11/2026).** `5.05#11` giữ ảnh `t40_a5_23_closing_card_amber_eyes_dossier`; job `a5_27` được viết lại thành cảnh mới cho câu `5.05#4` (xem VI.5). `qc_bg_mapping.py 40` ĐẠT; `map_shot_anh.py 40`: 154 shot, **0 lỗi, 0 ảnh lặp**.
+- **Tập 40 — tách 5 shot ước > 35 s (vi phạm H22 ≤ 30 s/nền)** thành 2 shot, mỗi shot một ảnh; job gốc giữ 2 câu đầu, job mới (hậu tố `b`) nhận câu còn lại. Sao lưu: `.work/_cu/bg_jobs_tap40_truoc_tach_shot_dai_20261125.json`. Sau sửa: 149 → **154 job**; `qc_bg_mapping.py 40` ĐẠT (M1 0/154 · M5 0/238 · M4 154/154); shot dài nhất ước 30 s.
+
+| # | Ảnh gốc (giữ câu) | Ảnh mới (câu) | Cảnh mới |
+|---|---|---|---|
+| 1 | `t40_a1_03_social_blindspot_concept_halo_effect` (1.02#3–4) | `t40_a1_03b_television_glow_charming_stranger_stereotype` (1.02#5–6) | Phòng khách thập niên 70 sáng bởi ti vi cũ, bóng gia đình, giá tạp chí bìa trống |
+| 2 | `t40_a2_14_political_campaign_office_posters` (2.02#4–5) | `t40_a2_14b_two_desks_dual_shadow_crisis_line` (2.02#6–7) | Hai bàn kề nhau ở đường dây nóng, bóng trên tường khác dáng người |
+| 3 | `t40_a4_15_fbi_agent_hagmaier_late_night_tapes` (4.08#1–2) | `t40_a4_15b_interview_room_door_ajar_amber_beam` (4.08#3–4) | Phòng vấn tối, cửa hé, vệt sáng hổ phách trên sàn |
+| 4 | `t40_a5_10_red_flag_survival_rule_2_trust_instincts` (5.03#5–6) | `t40_a5_10b_open_car_door_headlights_run_to_lit_houses` (5.03#7–8) | Ven đường đêm sương, cửa xe mở, bóng người chạy về phía nhà sáng đèn |
+| 5 | `t40_a5_12_fbi_vicap_modern_data_center` (5.04#1–2) | `t40_a5_12b_wall_map_linked_agencies_amber_threads` (5.04#3) | Bản đồ tường trơn không nhãn, chỉ hổ phách nối các cơ quan |
+
+- **Ảnh cần sinh cho Tập 40:** xem danh sách đầy đủ **10 ảnh** ở VI.5.
+- **Chưa xử lý (chỉ ghi nhận):** 8 shot ước 30–34 s ở Tập 27 (`3-066`), 29 (`4-107`), 36 (`5-148`, `5-151`, `5-156`), 37 (`3-064`, `4-082`), 47 (`1-023`). Mức vượt nhỏ (≤ 3,6 s) so với sai số của ước lượng ⇒ **chờ có `timeline_s` rồi đo thật**, chỉ tách nếu thật sự > 30 s.
+
+### VI.5. DANH SÁCH ẢNH TẬP 40 CẦN SINH LẠI (25/11/2026) — 10 ảnh
+Prompt đã ghi sẵn trong `.work/bg_jobs_tap40.json` (154 job; hiện có 144 file trong `assets/bg/`). Sao lưu: `.work/_cu/bg_jobs_tap40_truoc_sua_prompt_20261125.json`. Ảnh `a5_27` cũ đã sao vào `.work/_cu/bg_old_20261125/t40_replaced/` (file gốc trong `assets/bg/` vẫn còn — **sinh ảnh mới phải ghi đè đúng tên `t40_a5_27_guarded_open_heart_boundary_gate.png`, rồi xoá `t40_a5_27_final_amber_eyes_insignia_seal.png` khỏi `assets/bg/`** để H22 không còn ảnh thừa).
+
+| # | Tên ảnh (`assets/bg/<tên>.png`) | Câu | Lý do sinh | Nội dung prompt mới |
+|---|---|---|---|---|
+| 1 | `t40_a1_21_composite_sketch_pasted_on_walls` | 1.11#1 | Thiếu file | Góc phố đêm, cột đèn + tường gạch dán các tờ giấy trơn bay trong gió; viết lại theo H26 (mô tả "giấy trơn không dấu", bỏ mệnh đề phủ định) |
+| 2 | `t40_a2_14_crisis_hotline_headset_desk_night` *(ĐỔI TÊN từ `…political_campaign_office_posters`)* | 2.02#4–5 | Thiếu file + **prompt cũ sai nghĩa** (văn phòng chiến dịch, trong khi câu nói về đường dây nóng phòng chống tự tử) | Phòng đường dây nóng Seattle thập niên 70: bàn gỗ, điện thoại quay số, tai nghe, đèn ấm |
+| 3 | `t40_a2_28_nighttime_highway_lonely_motel_neon` | 2.08#8 | Thiếu file | Nhà nghỉ ven quốc lộ mưa đêm; biển hiệu thay bằng hộp đèn đỏ trơn (tránh AI vẽ chữ neon) |
+| 4 | `t40_a5_02_crowd_gathered_outside_prison_gates` | 5.02#2 | Thiếu file | Đám đông bóng người trước cổng nhà tù lúc tảng sáng; thêm pháo hoa nhỏ phía xa cho khớp lời |
+| 5 | `t40_a5_27_guarded_open_heart_boundary_gate` *(ĐỔI TÊN + viết lại từ `…insignia_seal`)* | 5.05#4 | Câu `5.05#11` đã có ảnh `a5_23` ⇒ `a5_27` thừa; chuyển sang câu `5.05#4` ("không đóng chặt trái tim nhưng có ranh giới an toàn") | Con đường vườn thắp đèn dẫn qua cổng sắt mở rộng trong tường đá thấp, hàng rào bao quanh |
+| 6 | `t40_a1_03b_television_glow_charming_stranger_stereotype` | 1.02#5–6 | Mới tách shot dài | Phòng khách thập niên 70 sáng ánh ti vi cũ |
+| 7 | `t40_a2_14b_two_desks_dual_shadow_crisis_line` | 2.02#6–7 | Mới tách shot dài | Hai bàn kề nhau, bóng trên tường khác dáng người |
+| 8 | `t40_a4_15b_interview_room_door_ajar_amber_beam` | 4.08#3–4 | Mới tách shot dài | Phòng vấn tối, cửa hé, vệt sáng hổ phách |
+| 9 | `t40_a5_10b_open_car_door_headlights_run_to_lit_houses` | 5.03#7–8 | Mới tách shot dài | Ven đường đêm sương, cửa xe mở, bóng người chạy về nhà sáng đèn |
+| 10 | `t40_a5_12b_wall_map_linked_agencies_amber_threads` | 5.04#3 | Mới tách shot dài | Bản đồ tường trơn không nhãn, sợi chỉ hổ phách nối các cơ quan |
+
+- **Sau khi sinh:** soi 100 % 10 ảnh (H2/H19/H20 — đặc biệt chữ AI vẽ ở ảnh #1, #3, #4), ghi `provenance.json` (L7), chạy lại `py -3 .work/map_shot_anh.py 40` (cột "Có file" phải 154/154).
+- ⚠ **Việc chưa làm (cần lưu ý):** `provenance.json` đang có dòng cho `t40_a2_14_political_campaign_office_posters` và `t40_a5_27_final_amber_eyes_insignia_seal` (tên cũ) — chưa sửa, cần cập nhật khi sinh ảnh mới. Thư mục `.work/_staging_bg_jobs/bg_jobs_tap40.json` là **bản cũ** (chưa có 5 job `b`, tên cũ) — nếu chạy `_sync_bg_jobs.py` có thể ghi đè bản mới.
+
+### VI.6. KIỂM KÊ ẢNH TRONG `assets/bg/` THEO TẬP (đo 25/11/2026, quét từng file `tNN_*.png|jpg`)
+- Thư mục `assets/bg/` có **3.637 file** ở gốc + `_raw/` (590), `_gemini_backup/` (3), `outputs/` (150, toàn `t15_*`). Đếm theo tiền tố tập và đối chiếu với `bg_jobs_tapXX.json`.
+- **Tập có đủ ảnh theo job:** 10–25 (đủ 100 %), 27, 28, 29, 30.
+- **Tập thiếu một phần:** **26** (167/176 — thiếu 9 ảnh `…b`), **40** (145/154 — cần sinh 10 ảnh, xem VI.5).
+- **Tập KHÔNG có ảnh nào trong `assets/bg/`:**
+  - **Có `bg_jobs` hợp lệ (33 tập, cần sinh toàn bộ 4,928 ảnh):** 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65, 67.
+  - **`bg_jobs` trượt cổng (1 tập):** 49 — *[25/11: ĐÃ viết lại 190 prompt, cần sinh 190 ảnh — xem VI.7]*.
+  - **Chưa có `bg_jobs` (3 tập):** 64, 66, 68.
+  - (Tập 02–09 chỉ còn ảnh gốc trong `assets/bg/_raw/`, không còn `t2_…t9_*.png` ở gốc; Tập 01 dùng ảnh tên cũ như `bedroom_door.png`, không theo tiền tố `tNN_`; Tập 07 không có `bg_jobs`. Ngoài phạm vi 26–68, ghi để tham khảo.)
+
+| Tập | Số ảnh cần sinh (= số job) | Ảnh hiện có | Ghi chú ảnh nằm nơi khác |
+|---|---|---|---|
+| 31 | 163 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 32 | 143 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 33 | 136 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 34 | 148 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 35 | 150 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 36 | 157 | 0 | — |
+| 37 | 122 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 38 | 188 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 39 | 135 | 0 | cũ trước xáo (sai vụ án), không dùng lại |
+| 41 | 157 | 0 | — |
+| 42 | 143 | 0 | — |
+| 43 | 159 | 0 | — |
+| 44 | 167 | 0 | — |
+| 45 | 143 | 0 | — |
+| 46 | 151 | 0 | — |
+| 47 | 152 | 0 | — |
+| 48 | 135 | 0 | — |
+| 50 | 190 | 0 | — |
+| 51 | 133 | 0 | — |
+| 52 | 153 | 0 | — |
+| 53 | 145 | 0 | — |
+| 54 | 158 | 0 | — |
+| 55 | 193 | 0 | — |
+| 56 | 116 | 0 | — |
+| 57 | 150 | 0 | — |
+| 58 | 150 | 0 | — |
+| 59 | 138 | 0 | — |
+| 60 | 169 | 0 | — |
+| 61 | 149 | 0 | — |
+| 62 | 130 | 0 | — |
+| 63 | 144 | 0 | — |
+| 65 | 134 | 0 | — |
+| 67 | 127 | 0 | — |
+
+- **Ảnh nằm ngoài `assets/bg/` — KHÔNG dùng được:**
+  - `.work/_backup_before_shuffle/assets_bg/` và `.work/_cu/bg_old_20261124/tXX/` có ảnh `t31–t35, t37–t39` (vài trăm file) — là ảnh sinh **trước khi xáo thứ tự tập 24/11/2026**, mô tả vụ án cũ (H27) ⇒ sai nội dung với kịch bản hiện tại.
+  - `.work/kaggle_flux/out_t37_k1|k2` có 148 ảnh `t37_*` nhưng **0/122 tên khớp job hiện tại** của Tập 37 ⇒ cũng là bộ cũ, không dùng.
+  - `kaggle_flux` của Tập 26 (32 file) đều đã nằm trong `assets/bg/`; Tập 27–30 có dư ảnh ở kaggle_flux so với số job (đã chép đủ vào `assets/bg/`).
+- **Đính chính mục V:** câu "đã có ảnh Tập 01–32, 34, 35, 37–40" **không đúng với đĩa hiện tại** — mục V viết trước khi xáo tập (24/11) và dọn đĩa. Hiện chỉ có ảnh dùng được cho Tập 10–30 và Tập 40 (145/154); 33 tập có prompt chưa có ảnh, 4 tập chưa có prompt hợp lệ.
+
+### VI.7. VIẾT LẠI PROMPT TẬP 49 & XÁC ĐỊNH TẬP CHƯA THỂ VIẾT (25/11/2026)
+- **Tập 49 — đã viết lại toàn bộ `bg_jobs_tap49.json`:** 190 job / 190 ảnh cho **243 câu** (nhóm 1–2 câu liên tiếp mỗi ảnh, đa số ≤ 15 s ước). Sao lưu bản cũ: `.work/_cu/bg_jobs_tap49_truoc_viet_lai_20261125.json`.
+  - Kiểm tra: `qc_bg_mapping.py 49` **ĐẠT** (M1 0/190 · M5 0/243 · M4 190/190); `scan_bg_content.py 49`: 0 job > 75 từ, 0 từ V9, 0 từ gợi chữ; `map_shot_anh.py 49`: 190 shot, 0 ảnh lặp, 10 shot ước > 15 s, 0 shot > 30 s.
+  - Quy ước prompt: không chữ/nhãn (mô tả bề mặt "trơn, không dấu" — H26); người chỉ ở dạng bóng, không lộ mặt (H1); không bạo lực/thi thể/nạn nhân (V9); hộ chiếu, thư, hồ sơ luôn là giấy trắng không chữ.
+  - Bảng để dựng: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap49/Bang_Shot_Anh_Tap49.md`. **190 ảnh chưa sinh** (cột "Có file" 0/190); sau khi sinh: soi 100 % (đặc biệt ảnh có hộ chiếu, thư, bản đồ, sổ — nguy cơ AI vẽ chữ), ghi `provenance.json`.
+  - ⚠ Cần kiểm lại: trong kịch bản có câu `3.04#6` nhắc "kim tiêm" và `2.06#3` nhắc thuốc gây mê — prompt đã né, nhưng nội dung kịch bản vẫn cần rà K4/V9 khi duyệt kịch bản (không thuộc phạm vi prompt ảnh).
+- **Tập 64, 66, 68 — CHƯA viết prompt (cố ý):** kịch bản hiện chỉ có **52 / 61 / 49 câu** (Tập 49 đầy đủ có 243; các tập 26–63 có 207–243 câu). Theo H23, kịch bản phải ở bản tốt nhất (≈ 240 câu, 5 hồi, đủ 10 chỉ dấu) **trước** khi lập ảnh; viết prompt lúc này sẽ phải làm lại khi kịch bản mở rộng. Cần mở rộng kịch bản (K1–K10) rồi mới sinh `bg_jobs`.
+- **Sửa công cụ:** `.work/qc_bg_mapping.py` và `.work/map_shot_anh.py` chọn nhầm file kịch bản `…_backup_61cau.md` cho Tập 49 (chọn file sắp xếp cuối theo tên). Đã loại file có chữ `backup` khỏi danh sách (sao lưu bản cũ: `.work/_cu/qc_bg_mapping_truoc_loc_backup_20261125.py`); chạy lại cổng cho 39 tập khác: kết quả không đổi (39 tập vẫn ĐẠT).
+- **Cập nhật tổng số ảnh cần sinh (Tập 26–67):** Tập 26 (9) + Tập 40 (10) + 33 tập có prompt sẵn (4.928) + **Tập 49 (190)** = **5.137 ảnh**; Tập 64, 66, 68 chưa tính (chờ kịch bản).
+
+### VI.8. HOÀN THIỆN MAPPING & LUẬT DỰNG VIDEO (25/11/2026)
+- **Mapping hoàn thiện cho 40 tập:** 26–63, 65, 67 (có cả Tập 49). Mỗi tập có `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX/Bang_Shot_Anh_TapXX.md` + `.work/shot_map_tapXX.json`; 40/40 tập **0 lỗi mapping, 0 ảnh lặp**. **Tập 64, 66, 68 để nguyên** (kịch bản chưa mở rộng).
+- **Luật mới H28 trong `AGENTS.md`** (CLAUDE.md/GEMINI.md đã `@AGENTS.md` nên mọi AI đều đọc): AI dựng video Tập 26–68 **phải đọc `Bang_Shot_Anh_TapXX.md`** và dựng đúng ảnh cho đúng câu; cổng bắt buộc `py -3 .work/map_shot_anh.py --check XX` ĐẠT trước ảnh tĩnh và dựng hình (0 lỗi mapping · bảng không cũ · mọi ảnh có file). Cập nhật thêm L1 (danh sách file phải đọc), bước 7 và bước 9 của quy trình; ghi bẫy vào `TIEU_CHUAN_DUNG_VIDEO.md` A11 #194. Bản sao lưu: `.work/_cu/AGENTS_truoc_H28_20261125.md`, `.work/_cu/TIEU_CHUAN_truoc_A11_194_20261125.md`.
+- **Hiện `--check` ĐẠT:** Tập 27–30 (đủ ảnh). **TRƯỢT vì thiếu ảnh:** Tập 26 (9), 40 (10), 49 (190) và 33 tập chưa sinh ảnh — đây là việc người dùng sinh ảnh, mapping không lỗi.
+
+### VI.9. NỐI MAPPING VÀO PIPELINE DỰNG (25/11/2026)
+- **Vấn đề:** `build_video3.py` đọc `shots_tXX.json` do `parse_shots.py` sinh từ bảng shot mục 6 của KeHoach; Tập 26+ không có bảng đó ⇒ luật H28 chưa có đường thực thi.
+- **Đã sửa:** `.work/map_shot_anh.py --shots XX [--lang vi|en|ja] [--endcard TÊN]` sinh thẳng `.work/shots[_EN|_JA]_tXX.json` từ bảng mapping + `timeline_s_tXX.json` đo thật. Schema giống hệt `shots_t10.json` (cùng bộ khoá, kể cả `flags`); mỗi shot dùng đúng ảnh trong `Bang_Shot_Anh_TapXX.md`; liền mạch; có shot thẻ kết (H12). Tự DỪNG khi: lỗi mapping, thiếu ảnh, thiếu timeline, timeline thiếu mã câu, thứ tự câu lệch. `AGENTS.md` H28 (f) + bước 7 đã cập nhật. Sao lưu: `.work/_cu/map_shot_anh_truoc_shots_20261125.py`.
+- **Đã kiểm (timeline GIẢ dựng từ số từ của Tập 27):** 153 shot (152 + thẻ kết), phủ 240/240 câu đúng thứ tự, ảnh khớp mapping 152/152, shot liền mạch, bộ khoá trùng `shots_t10.json`; cổng dừng đúng khi thiếu timeline / timeline lệch mã câu.
+- **CHƯA kiểm:** chưa render thật bằng `build_video3.py` (Tập 26+ chưa có audio/timeline thật). Đây là rủi ro còn lại — shot `template=None` + `role=None` theo H26 (khung chỉ ảnh + số) chưa được thử trên renderer; cần chạy ảnh tĩnh (bước 8) ngay khi có audio đầu tiên. Thẻ kết chưa có ảnh riêng (mặc định mượn ảnh shot cuối); EN/JA/KO của `edition.py` mới hỗ trợ tới Tập 29.
+

@@ -16,9 +16,16 @@
   {
     "name": "t40_a1_03_social_blindspot_concept_halo_effect",
     "act": 1,
-    "sentences": "1.02#3,1.02#4,1.02#5,1.02#6",
+    "sentences": "1.02#3,1.02#4",
     "desc": "Hình ảnh biểu tượng Điểm mù xã hội: Một bóng người đứng giữa vòng tròn ánh sáng hào quang rực rỡ che khuất mảng tối sâu thẳm phía sau.",
     "prompt": "High-contrast chiaroscuro concept: A sharp silhouette standing inside a bright radiant halo ring, casting an elongated menacing pitch-black shadow, symbolic psychological visual."
+  },
+  {
+    "name": "t40_a1_03b_television_glow_charming_stranger_stereotype",
+    "act": 1,
+    "sentences": "1.02#5,1.02#6",
+    "desc": "Truyền thông và văn hóa đại chúng xây dựng định kiến về kẻ ác; niềm tin ngây thơ ấy tạo nên Điểm mù xã hội.",
+    "prompt": "A dim 1970s living room lit only by the glow of an old cathode-ray television, a family's silhouettes watching from the sofa, a bare empty wall beside them with nothing hanging on it, warm domestic comfort, the comforting stereotype of the charming gentleman, completely blank and unmarked with no writing at all, no printed matter, no covers, no paper anywhere."
   },
   {
     "name": "t40_a1_04_brown_volkswagen_beetle_parking_lot",
@@ -143,8 +150,8 @@
     "name": "t40_a1_21_composite_sketch_pasted_on_walls",
     "act": 1,
     "sentences": "1.11#1",
-    "desc": "Cột đèn góc phố dán những tờ giấy trống bay trong gió lạnh.",
-    "prompt": "Street corner lamppost pasted with completely blank paper sheets fluttering in chilly wind, dark city intersection at night, graphic noir style, no writing or drawings of faces."
+    "desc": "Cột đèn và bức tường góc phố ban đêm dán những tờ giấy trống bay trong gió lạnh, ẩn dụ cuộc truy tìm.",
+    "prompt": "Dark city street corner at night, a lamppost and a brick wall pasted with several rectangular sheets of plain pale paper fluttering in a chilly wind, every sheet completely blank and unmarked, wet pavement catching amber lamplight, searching atmosphere, graphic noir."
   },
   {
     "name": "t40_a1_22_halo_effect_blinding_perception",
@@ -329,11 +336,18 @@
     "prompt": "Conceptual artwork: A sharp jagged block of solid ice sitting on black velvet, internal frozen crystal refractions, icy blue chiaroscuro."
   },
   {
-    "name": "t40_a2_14_political_campaign_office_posters",
+    "name": "t40_a2_14_crisis_hotline_headset_desk_night",
     "act": 2,
-    "sentences": "2.02#4,2.02#5,2.02#6,2.02#7",
-    "desc": "Văn phòng chiến dịch những năm 1970, bàn gỗ ngổn ngang giấy trơn.",
-    "prompt": "Interior of a 1970s campaign headquarters with wooden desks littered with completely blank paper stacks and rolled blank cloth, warm tungsten ceiling lights, no writing or lettering."
+    "sentences": "2.02#4,2.02#5",
+    "desc": "Căn phòng đường dây nóng phòng chống tự tử ở Seattle: bàn gỗ, điện thoại quay số, tai nghe, ngọn đèn ấm — nơi hắn ngồi lắng nghe.",
+    "prompt": "Small 1970s suicide-prevention hotline room at night in Seattle, a single wooden desk with a black rotary telephone and a headset, a desk lamp casting a warm pool of light, an empty swivel chair, rain streaking the window, quiet intimacy of a listening ear, plain bare walls with nothing on them."
+  },
+  {
+    "name": "t40_a2_14b_two_desks_dual_shadow_crisis_line",
+    "act": 2,
+    "sentences": "2.02#6,2.02#7",
+    "desc": "Người đồng nghiệp bên cạnh là Ann Rule; làm sao một người vừa cứu rỗi linh hồn đau khổ ban ngày, vừa là kẻ săn mồi ban đêm.",
+    "prompt": "Two adjacent wooden desks in a dim 1970s crisis hotline room, each with a black rotary telephone and a desk lamp, two silhouettes seated side by side, one silhouette's shadow on the wall standing in a different menacing posture, duality of rescuer and predator, no writing."
   },
   {
     "name": "t40_a2_15_handshake_with_prominent_officials",
@@ -430,8 +444,8 @@
     "name": "t40_a2_28_nighttime_highway_lonely_motel_neon",
     "act": 2,
     "sentences": "2.08#8",
-    "desc": "Nhà nghỉ ven đường vắng, ánh neon đỏ không chữ phản chiếu vũng nước mưa.",
-    "prompt": "Desolate roadside motel with a dim red neon glow without any letters reflecting in rain puddles on cracked asphalt, dark rainy highway night, no signage or lettering."
+    "desc": "Nhà nghỉ ven đường vắng, ánh đỏ mờ phản chiếu vũng nước mưa.",
+    "prompt": "Desolate roadside motel on a rainy highway at night, an empty rectangular sign box on a bare pole glowing a dim abstract red with no marks on its face, a plain corrugated roof edge, the red light shimmering in puddles on cracked asphalt, empty parking lot, a single telephone pole, lonely graphic noir, every surface plain and unmarked, completely blank and unmarked with no writing at all, no lettering, no signage, no fascia text."
   },
   {
     "name": "t40_a2_29_ted_writing_legal_briefs_at_desk",
@@ -772,9 +786,16 @@
   {
     "name": "t40_a4_15_fbi_agent_hagmaier_late_night_tapes",
     "act": 4,
-    "sentences": "4.08#1,4.08#2,4.08#3,4.08#4",
+    "sentences": "4.08#1,4.08#2",
     "desc": "Máy ghi âm cuộn băng cối quay chậm chạp trong phòng thẩm vấn: Những giờ phút cuối cùng ghi lại lời thú tội có tính toán.",
     "prompt": "Macro view of a reel-to-reel tape recorder spinning slowly in dim room, VU needle twitching with audio signals, amber reel reflections."
+  },
+  {
+    "name": "t40_a4_15b_interview_room_door_ajar_amber_beam",
+    "act": 4,
+    "sentences": "4.08#3,4.08#4",
+    "desc": "Khi nhu cầu được lắng nghe và công nhận được đáp ứng, Bundy tự nguyện mở toang cánh cửa bí mật.",
+    "prompt": "Dim prison interview room with two plain chairs facing each other across a small table, a heavy door slightly ajar letting a thin beam of amber light across the floor, a calm agent's silhouette leaning forward toward a seated silhouette with lowered head, trust slowly opening, no writing."
   },
   {
     "name": "t40_a4_16_confession_as_bargaining_chip_map",
@@ -885,8 +906,8 @@
     "name": "t40_a5_02_crowd_gathered_outside_prison_gates",
     "act": 5,
     "sentences": "5.02#2",
-    "desc": "Đám đông bóng người trước cổng nhà tù sáng đèn pha lúc tảng sáng.",
-    "prompt": "Crowd of citizen silhouettes gathered outside a floodlit prison perimeter gate in pre-dawn chill under amber security lamps, faces hidden, no banners or lettering."
+    "desc": "Đám đông bóng người thâu đêm trước cổng nhà tù sáng đèn pha, pháo hoa nhỏ phía xa lúc tảng sáng.",
+    "prompt": "Large crowd of silhouettes gathered outside a floodlit prison perimeter gate before dawn under amber security lamps, small distant bursts of sparkling fireworks above the wall, faces hidden, fence and gate plain and unmarked."
   },
   {
     "name": "t40_a5_05_witness_viewing_room_silent_reverence",
@@ -919,9 +940,16 @@
   {
     "name": "t40_a5_10_red_flag_survival_rule_2_trust_instincts",
     "act": 5,
-    "sentences": "5.03#5,5.03#6,5.03#7,5.03#8",
+    "sentences": "5.03#5,5.03#6",
     "desc": "Bài học Cảnh báo đỏ 2: Luôn lắng nghe tiếng chuông báo động của trực giác sinh tồn, món quà vô giá của tiến hóa loài người.",
     "prompt": "Symbolic visual: An ancient brass compass resting on dark slate stone, needle pointing steadily north amidst surrounding stormy mist."
+  },
+  {
+    "name": "t40_a5_10b_open_car_door_headlights_run_to_lit_houses",
+    "act": 5,
+    "sentences": "5.03#7,5.03#8",
+    "desc": "Carol DaRonch sống sót nhờ phá vỡ phép lịch sự; sự an toàn của sinh mạng đặt trên hòa nhã xã giao.",
+    "prompt": "Dark roadside at night in mist, an open car door left swung wide with headlights cutting through the fog, a lone silhouette running toward distant lit house windows, gravel dust kicked up, urgent escape toward safety, no faces, no violence shown."
   },
   {
     "name": "t40_a5_11_red_flag_survival_rule_3_refuse_compliance",
@@ -933,9 +961,16 @@
   {
     "name": "t40_a5_12_fbi_vicap_modern_data_center",
     "act": 5,
-    "sentences": "5.04#1,5.04#2,5.04#3",
+    "sentences": "5.04#1,5.04#2",
     "desc": "Hệ thống điều tra hiện đại ngày nay: Mạng lưới ViCAP của FBI kết nối dữ liệu tội phạm liên bang ngăn chặn kẻ săn mồi di chuyển.",
     "prompt": "Modern forensic command center: Glowing monitors displaying interconnected geographical crime data maps, sophisticated law enforcement."
+  },
+  {
+    "name": "t40_a5_12b_wall_map_linked_agencies_amber_threads",
+    "act": 5,
+    "sentences": "5.04#3",
+    "desc": "Cơ sở dữ liệu quốc gia cho phép các cơ quan thực thi pháp luật trên toàn nước Mỹ kết nối thông tin.",
+    "prompt": "Large wall map showing only abstract unlabelled state outlines in a dim federal command room, glowing amber threads linking dozens of pins across the whole country, rows of dark blank screens showing nothing but pure abstract glowing dots and line graphs, interconnected cooperation between agencies, completely blank and unmarked with no writing at all, no interface rows, no menus, no panels of text."
   },
   {
     "name": "t40_a5_13_forensic_odontology_legacy_archive",
@@ -1024,7 +1059,7 @@
   {
     "name": "t40_a5_25_eternal_vigilance_flame",
     "act": 5,
-    "sentences": "5.05#3,5.05#4",
+    "sentences": "5.05#3",
     "desc": "Ngọn lửa cảnh giác vĩnh cửu: Biểu tượng của sự thấu hiểu tâm lý và lá chắn sinh tồn bảo vệ con người trước cái ác ngụy trang.",
     "prompt": "Stylized artistic flame burning steadily inside an antique glass lantern atop a dark stone parapet overlooking misty valley."
   },
@@ -1036,10 +1071,10 @@
     "prompt": "Vast majestic sunrise panorama across plains and distant mountain ranges, warm golden amber light sweeping away dark night shadows."
   },
   {
-    "name": "t40_a5_27_final_amber_eyes_insignia_seal",
+    "name": "t40_a5_27_guarded_open_heart_boundary_gate",
     "act": 5,
-    "sentences": "5.05#11",
-    "desc": "Dấu triện sáp màu hổ phách của Amber Eyes in dấu trên trang bìa hồ sơ, lời cam kết về tri thức khoa học và sự thấu suốt nhân tâm.",
-    "prompt": "Macro view of a circular amber wax seal pressed firmly onto textured parchment, gleaming softly under warm directional desk light."
+    "sentences": "5.05#4",
+    "desc": "Không đóng chặt trái tim trước thế giới nhưng phải có ranh giới an toàn không thể xâm phạm: cánh cổng mở rộng nhưng có hàng rào bảo vệ.",
+    "prompt": "A warm lantern-lit garden path at dusk leading through a wide open wrought-iron gate set in a low sturdy stone wall, soft amber glow welcoming from within, a firm unbroken boundary line of fence around the garden, open heart yet protected, calm resolute noir mood, no writing."
   }
 ]

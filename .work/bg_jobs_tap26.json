@@ -44,9 +44,16 @@
   {
     "name": "t26_a1_07_midnight_interrogation_waseda_precinct",
     "act": 1,
-    "sentences": "1.04#7,1.06#1",
+    "sentences": "1.04#7",
     "desc": "Người phu xe bị áp giải về đồn cảnh sát Waseda thẩm vấn khẩn cấp trong đêm.",
     "prompt": "Interior of an austere postwar Japanese police interrogation room at night, bare plaster walls, stark tungsten lamp over a heavy wooden table, dark tense silhouettes in intense questioning."
+  },
+  {
+    "name": "t26_a1_07b_gravedigger_statement_lamplit_bench",
+    "act": 1,
+    "sentences": "1.06#1",
+    "desc": "Lời khai của người làm nghề mai táng tại đồn: ông chỉ là người được thuê chở các cháu bé tới nơi hỏa táng.",
+    "prompt": "Close-up noir of a bare police station interview table at night, a worn flat cap and a plain mug of steaming tea on scuffed wood, an officer's silhouette seated opposite in low tungsten lamplight, sparse plaster wall, tense quiet, no writing anywhere."
   },
   {
     "name": "t26_a1_x01_private_crematorium_van_night_frost",
@@ -100,9 +107,16 @@
   {
     "name": "t26_a1_13_forensic_detectives_assembling_dossier",
     "act": 1,
-    "sentences": "1.07#7,1.09#1",
+    "sentences": "1.07#7",
     "desc": "Các thám tử và pháp y bắt tay vào lập hồ sơ vụ án Kotobuki đầy u ám.",
     "prompt": "Detective workspace in a 1948 police office, stacks of plain unmarked Manila archive folders, vintage magnifying glass, solitary desk lamp pool of pale cold light."
+  },
+  {
+    "name": "t26_a1_13b_police_hq_corridor_urgent_arrest_order",
+    "act": 1,
+    "sentences": "1.09#1",
+    "desc": "Ba ngày sau phát hiện trên phố, cảnh sát Tokyo khẩn cấp triển khai lệnh bắt giữ những người điều hành nhà hộ sinh.",
+    "prompt": "Pale winter dawn in a 1948 Tokyo police headquarters corridor, a line of long-coated officer silhouettes hurrying toward waiting black sedans in the courtyard, breath fogging in the cold, urgency of a coordinated arrest, graphic novel noir."
   },
   {
     "name": "t26_a1_x03_patrol_lantern_silhouette_snowy_street",
@@ -128,9 +142,16 @@
   {
     "name": "t26_a1_16_arrest_of_ishikawa_collaborators",
     "act": 1,
-    "sentences": "1.09#6,1.10#1",
+    "sentences": "1.09#6",
     "desc": "Cảnh sát áp giải các đối tượng liên quan và đối diện người phụ nữ điều hành cơ sở.",
     "prompt": "Foreboding silhouette of a woman standing tall and rigid in a dark hallway, hands clasped, facing multiple shadowed detective figures, high contrast standoff."
+  },
+  {
+    "name": "t26_a1_16b_cold_clinic_hallway_unsettling_stillness",
+    "act": 1,
+    "sentences": "1.10#1",
+    "desc": "Bầu không khí lạnh lẽo, vô cảm đến rợn người khi bước vào nhà hộ sinh Kotobuki.",
+    "prompt": "Long bare hallway of a 1948 maternity clinic seen from the entrance, pale green plaster walls, a single bare bulb, a row of identical closed doors and an empty wooden bench, cold draught stirring dust, eerie emotionless stillness, no signs or writing."
   },
   {
     "name": "t26_a1_x04_clinic_doorway_warm_lamp_vs_bare_window",
@@ -268,9 +289,16 @@
   {
     "name": "t26_a2_02_benevolent_facade_charity_trap",
     "act": 2,
-    "sentences": "2.02#3,2.04#1",
+    "sentences": "2.02#3",
     "desc": "Miyuki Ishikawa dựng lên vỏ bọc mái ấm từ thiện để giăng bẫy những gia đình bế tắc.",
     "prompt": "Exterior entry of Kotobuki Maternity Clinic framed by neat potted winter shrubs, clean sliding door reflecting pale daylight, facade of respectability masking sinister secrets."
+  },
+  {
+    "name": "t26_a2_02b_kind_offer_across_tea_table",
+    "act": 2,
+    "sentences": "2.04#1",
+    "desc": "Bà ta tiếp cận cặp cha mẹ bế tắc và đưa ra lời đề nghị nghe vô cùng nhân ái.",
+    "prompt": "Warm lamplit parlor of a postwar clinic office with completely bare plaster walls and nothing hanging on them, an elegant woman's silhouette pouring tea across a low table toward a couple's hunched silhouettes, steam curling upward, a gentle smile of false kindness masking quiet menace, faces fully in shadow, completely blank and unmarked with no writing at all, no pictures on the walls."
   },
   {
     "name": "t26_a2_x01_blank_paper_notice_pinned_clinic_door",
@@ -296,9 +324,16 @@
   {
     "name": "t26_a2_05_heavy_door_locks_behind_victim",
     "act": 2,
-    "sentences": "2.04#6,2.06#1",
+    "sentences": "2.04#6",
     "desc": "Cánh cửa gỗ khép lại, khoản tiền rơi vào túi kẻ thủ ác và quy trình bỏ mặc bắt đầu.",
     "prompt": "Heavy wooden front door bolting shut from the inside, thick iron latch falling into place, pitch blackness swallowing the entrance hall."
+  },
+  {
+    "name": "t26_a2_05b_indifferent_empty_desk_no_adoption_search",
+    "act": 2,
+    "sentences": "2.06#1",
+    "desc": "Vợ chồng Ishikawa hoàn toàn không có ý định chăm sóc hay tìm gia đình nhận nuôi cho bất kỳ đứa trẻ nào.",
+    "prompt": "Bare clinic office desk at dusk, a single closed plain notebook with a completely blank unmarked cover, an unlit telephone and a cold untouched teacup, a dusty empty chair where adoptive families should sit, no visitors, heavy indifferent silence, completely blank and unmarked with no writing at all, no loose pages, no paper anywhere on the desk."
   },
   {
     "name": "t26_a2_x02_locked_wooden_gate_chain_winter_fog",
@@ -527,9 +562,16 @@
   {
     "name": "t26_a3_06_compartmentalization_dark_mind",
     "act": 3,
-    "sentences": "3.03#7,3.04#1",
+    "sentences": "3.03#7",
     "desc": "Cơ chế chia ngăn tâm lý: ban ngày làm nữ hộ sinh mẫu mực, ban đêm điều hành cỗ máy tử thần.",
     "prompt": "A two-faced Janus silhouette split down the center by a sharp vertical light beam, one side clinical and neat, the other consumed by heavy jagged ink shadow."
+  },
+  {
+    "name": "t26_a3_06b_compassion_mask_hairline_crack",
+    "act": 3,
+    "sentences": "3.04#1",
+    "desc": "Sự tự biện minh về lòng trắc ẩn chỉ là lớp vỏ bọc để xoa dịu lương tâm ban đầu.",
+    "prompt": "A smooth pale theatrical mask resting on a dim vanity table, a single hairline crack running through it, a dark mirror reflecting only a guttering candle flame, fragile pretence of compassion over an unquiet conscience."
   },
   {
     "name": "t26_a3_x02_white_healer_coat_long_black_shadow",
@@ -576,9 +618,16 @@
   {
     "name": "t26_a3_11_institutional_blindspot_complicity",
     "act": 3,
-    "sentences": "3.05#7,3.06#1",
+    "sentences": "3.05#7",
     "desc": "Sự đồng lõa của các cơ quan quản lý buông lỏng tạo điều kiện cho tội ác phát triển.",
     "prompt": "An empty municipal government office at dusk, rows of deserted wooden desks, dusty typewriters covered with covers, shadows lengthening across the floor."
+  },
+  {
+    "name": "t26_a3_11b_spotless_hospital_corridor_hidden_rot",
+    "act": 3,
+    "sentences": "3.06#1",
+    "desc": "Sự bình thường hóa cái ác trong tâm trí Ishikawa tạo nên nghịch lý rùng mình của lịch sử y khoa Nhật Bản.",
+    "prompt": "Spotless 1940s hospital corridor with a polished floor reflecting a single ceiling lamp, perfect order on the surface, several doors ajar onto pure darkness, an eerie paradox of cleanliness and rot, desaturated noir."
   },
   {
     "name": "t26_a3_x04_stack_of_blank_certificates_ink_stamp",
@@ -1024,9 +1073,16 @@
   {
     "name": "t26_a5_04_transparency_as_shield",
     "act": 5,
-    "sentences": "5.03#3,5.04#1",
+    "sentences": "5.03#3",
     "desc": "Sự minh bạch và thanh tra đột xuất chính là lá chắn vững chắc bảo vệ sinh mệnh mầm non.",
     "prompt": "A sturdy metal shield emblem mounted on a stone column, polished surface catching morning light, metaphorical fortress against corruption."
+  },
+  {
+    "name": "t26_a5_04b_predator_shadow_over_struggling_family",
+    "act": 5,
+    "sentences": "5.04#1",
+    "desc": "Kẻ trục lợi khai thác sự túng quẫn, mặc cảm tội lỗi và thiếu hiểu biết của các gia đình gặp biến cố.",
+    "prompt": "Small humble family silhouette huddled under one dim street lamp in a winter alley, a taller smooth silhouette in a long coat leaning in with an outstretched hand, cold mist and sleet, vulnerability and calculated exploitation, no faces."
   },
   {
     "name": "t26_a5_x02_blank_form_pen_warm_lamp_desk",
@@ -1059,9 +1115,16 @@
   {
     "name": "t26_a5_08_amber_eyes_four_redflags_overview",
     "act": 5,
-    "sentences": "5.04#8,5.05#1",
+    "sentences": "5.04#8",
     "desc": "Bảng tổng quan 4 Dấu hiệu Cảnh báo Đỏ sinh tồn đúc kết từ hồ sơ Miyuki Ishikawa.",
     "prompt": "A large dark cork analysis board hanging on an investigative office wall, four clean blank polaroid frames pinned with red string connections, analytical noir mood."
+  },
+  {
+    "name": "t26_a5_08b_amber_window_parent_vigilance",
+    "act": 5,
+    "sentences": "5.05#1",
+    "desc": "Kênh Amber Eyes chia sẻ bốn dấu hiệu cảnh báo đỏ để phụ huynh và cộng đồng nâng cao cảnh giác.",
+    "prompt": "Quiet home doorway at night, a parent's silhouette holding a child's hand and looking out over a snowy street lit by warm amber lamps, protective vigilance, glowing amber window behind them, calm resolute noir mood."
   },
   {
     "name": "t26_a5_x03_ring_of_linked_hands_around_small_toys",

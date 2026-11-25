@@ -23,7 +23,7 @@ pk = importlib.util.module_from_spec(spec); spec.loader.exec_module(pk)
 
 def script_file(n):
     fs = [f for f in glob.glob(str(ROOT / f"01_KICH_BAN/Ho_So_Toi_Pham/Tap{n:02d}/kichban_tap{n:02d}_*.md"))
-          if not re.search(r"_cu|_EN|_JA|_KO", f)]
+          if not re.search(r"_cu|_EN|_JA|_KO|backup", f)]
     return sorted(fs)[-1] if fs else None
 
 
