@@ -108,10 +108,13 @@ def main():
     # thu muc MiniMax giu nguyen khong bi ghi de.
     audio_dir = os.environ.get("AE_AUDIO_DIR", "audio_s")
     if audio_dir != "audio_s":
-        print("nguon audio:", ED.w(audio_dir))
+        print("nguon audio:", (WORK / audio_dir) if (WORK / audio_dir).exists() else ED.w(audio_dir))
 
     def audio_path(m):
-        p = ED.w(audio_dir) / m["file"]
+        if (WORK / audio_dir).exists():
+            p = WORK / audio_dir / m["file"]
+        else:
+            p = ED.w(audio_dir) / m["file"]
         if not p.exists():
             p = p.with_suffix(".wav")          # audio Higgs: .wav 24 kHz
         return p
@@ -311,7 +314,7 @@ def main():
           f"measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
           f"offset={m['target_offset']},aresample=48000")
     subprocess.run([str(FF), "-y", "-v", "error", "-i", str(wav), "-af", af, "-ac", "2",
-                    str(ED.w("audio_master.wav"))], check=True)
+                    "-rf64", "auto", str(ED.w("audio_master.wav"))], check=True)
     subprocess.run([str(FF), "-y", "-v", "error", "-i", str(ED.w("audio_master.wav")),
                     "-c:a", "libmp3lame", "-b:a", "192k", str(OUT_DIR / (ED.MASTER + ".mp3"))], check=True)
     # loudnorm linear khong ep duoc TP khi am co dinh nhon (Tap 03: wav -1,2 / mp3 -1,0 dBFS).

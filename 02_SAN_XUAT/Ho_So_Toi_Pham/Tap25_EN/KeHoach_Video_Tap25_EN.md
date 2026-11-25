@@ -1,46 +1,58 @@
-# PRODUCTION CASE FILE EPISODE 25 · "THE YELLOW RAINCOAT KILLER" — EN EDITION
+# PRODUCTION DOSSIER · EPISODE 20 · "ANNIHILATING HIS ENTIRE FAMILY TO 'SEND THEM TO HEAVEN' — JOHN LIST"
 
-## B1. Episode Information
+## B1. Episode Overview
 
-| Item | Content |
+| Field | Detail |
 |---|---|
-| Episode Title | **Episode 25: The Yellow Raincoat Killer & The Fury of Sociopathic Resentment — Inferiority Mask & The Atrocity of Fake Vigilantism (The Yoo Young-chul File)** |
-| True Case | The Seoul Serial Homicides by Yoo Young-chul (Seoul, South Korea, 2003–2004) |
-| Psychological Themes | Sociopathic Resentment · Narcissistic Injury · Displaced Aggression · Moral Vigilante Delusion · Moral Neutralization · Genuine Remorse vs. Pathological Self-Pity |
-| Format | Criminal Psychology Investigative Documentary (Host-Driven Documentary) — 5 Acts Standard A2/K10 |
-| Voice Cast | 4 Voices: **Host** (Owl - 95 sentences) · **Investigator** (Hound - 28 sentences) · **Psychological Expert** (Silver Fox - 27 sentences) · **Ordinary Person** (N1 Massage Parlor Owner: 7 sentences & N2 Victim Family Representative: 8 sentences) |
-| Script Scale | **165 sentences** · 51 elements · 32 speech turns |
-| Research Supplement | In-depth behavioral research & 10 psychological markers document (`01_KICH_BAN/Ho_So_Toi_Pham/Tap25/NghienCuu_TamLy_BoSung_KichBan_Tap25.md`) dated 2026-11-15 for 3 languages (VN / EN / JA) |
-| Safety Standard | **Strict Compliance with Rule V9 (YouTube Safe)**: 0% gore, graphic physical violence, blood, or mutilation; 100% focused on behavioral science and 4 practical warning red flags |
-| Visual Assets | **60 shared background images in 2112×1188 (16:9 2K)** with prefix `t25_` located at `assets/bg/` · Dark Graphic Novel Noir style |
-| BGM Progression | Somber Cello $\rightarrow$ Chilling Deep Ambient $\rightarrow$ Academic Minimalist Piano $\rightarrow$ Solemn Courtroom Violin $\rightarrow$ Warm Reflective Piano |
+| Title | **Ep. 20: Annihilating His Entire Family to 'Send Them to Heaven' — OCPD & The 18-Year Flight (The John List Case)** |
+| Case | John Emil List Familicide — Breeze Knoll, Westfield, New Jersey (Nov 9, 1971) |
+| Psychological Focus | Obsessive-Compulsive Personality Disorder (OCPD), Moral Neutralization & False Salvation, 18-Year Fugitive Flight as Robert Clark & Frank Bender's Forensic Bust |
+| Total Duration | **2059.3 s (~34 min 19 sec)** · 5 Acts · **230 cues** |
+| Voice Cast | Host (Owl) · Investigator (Wolf) · Expert (Fox) · N1 (East LA Resident · Drama Teacher) · N2 (Court Reporter · Colorado Neighbor) |
+| TTS Engine | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
+| Reference Dataset | **VoxCPM2 Voice Design (EN)** (H: `H_EN.wav`, D: `D_EN.wav`, C: `C_EN.wav`, N1: `N1_EN.wav`, N2: `N2_EN.wav`) |
+| Soundscape | 3-Layer Stereo: 5-Act BGM + Continuous Ambience + Dynamic SFX (`.work/sfx_tap20_EN.json`) |
+| Final Master Audio | `02_SAN_XUAT/Tap25_EN/xuat_ban/Tap25_EN_master.mp3` & `02_SAN_XUAT/Tap25_EN/xuat_ban/Tap25_EN_master.wav` |
 
 ---
 
-## B2. Production Pipeline & Multilingual Synchronization
+## B2. Audio Quality Control Metrics (QC Metrics)
 
-### 1. File Synchronization & Fact-Checking (Completed)
-- [x] Historical & judicial fact-checking verified with 100% accuracy via SMPA, Supreme Court of Korea, and Profiler Kwon Il-yong's memoirs (`01_KICH_BAN/Ho_So_Toi_Pham/Tap25/REVIEW_kichban_tap25.md`).
-- [x] Multi-perspective behavioral analysis across 5 subjects (Perpetrator, Unconscious Accomplice/Victims, Brave Witness, Victim Families, Society) and multilingual dialogue supplement (`01_KICH_BAN/Ho_So_Toi_Pham/Tap25/NghienCuu_TamLy_BoSung_KichBan_Tap25.md`).
-- [x] Updated YouTube video metadata (`description.txt`) and judicial source references (`nguon_tham_khao_EN.md`).
+### 1. Loudness Normalization (EBUR128 Standard)
+- **Integrated Loudness ($I$):** **** (Standard: $-20 \pm 1\text{ LUFS}$ — PASS ✅)
+- **True Peak ($TP$):** **** (Standard: $\le -1.5\text{ dBFS}$ — PASS ✅)
+- **Loudness Range ($LRA$):** ****
+- **Absolute Silence ($> 0.3\text{ s}$ at $-60\text{ dBFS}$):** **0 errors** (PASS ✅ Rule A1 / V4)
+- **First cue onset:** 23.0 s (after 22.41 s Intro — PASS ✅)
+- **Last cue end:** 2050.3 s, concluding total audio at 2059.3 s with smooth piano fade out (PASS ✅)
 
-### 2. Next Pipeline Milestones (Quality Gates per `AGENTS.md`)
-1. **Gate 1 (Script Approval):** User reviews and approves the psychological supplement; integrates into master scripts `kichban_tap25_23102026.md`, `kichban_tap25_EN.md`, `kichban_tap25_JA.md`.
-2. **Gate 2 (Script Parsing):** Parse into `.work/script_tap25_EN.json`.
-3. **Gate 3 (Acting & Pause Gate):** Generate acting file with pause gates (`qc_pause_gate.py`).
-4. **Gate 4 (TTS Voice Synthesis):** Synthesize voices using Higgs Audio v3 / MiniMax.
-5. **Gate 5 (Voice Role Check):** Run `voice_role_check.py` to ensure role consistency.
-6. **Gate 6 (Master Audio Mix):** Multi-track audio mix meeting EBUR128 standard (-16 LUFS, TP $\le -1.5$ dBFS).
-7. **Gate 7 (Shot List Matching):** Map all sentences to the 60 shared `t25_*` visual assets via `parse_shots.py`.
-8. **Gate 8 (Video Render & Mux):** Render picture track with `build_video3.py` and mux subtitles using `package.py --mux`.
+### 2. Pitch Separation & Speaker Differentiation (Rule G9)
+- **Host ($H$ · Owl):** Median F0 = **112.1 Hz**
+- **Investigator ($D$ · Wolf):** Median F0 = **82.3 Hz**
+- **Expert ($C$ · Fox):** Median F0 = **186.0 Hz**
+- **East LA Resident ($N1$ · Sheep):** Median F0 = **170.2 Hz**
+- **Court Reporter ($N2$ · Cat):** Median F0 = **242.5 Hz**
+- **Pitch Distance:**
+  - $\Delta_{D \to H} = \mathbf{5.35\text{ semitones}}$ (Target $\ge 4.0\text{ st}$ — PASS ✅)
+  - $\Delta_{H \to C} = \mathbf{8.76\text{ semitones}}$ (Target $\ge 4.0\text{ st}$ — PASS ✅)
+
+### 3. Speech Accuracy (Whisper Base CER) & Naturalness (UTMOSv2 MOS)
+- **ASR Engine:** `faster-whisper` (`base` model, CPU) with `en_cer` normalization.
+- **Median CER:** **0.00%** (Mean CER: **0.90%**).
+- **Multi-take Round 2:** Generated Variant 1 with fresh seed for cues with CER > 2% and selected optimal take.
+- **Naturalness UTMOSv2 MOS:** Mean **3.45 / 5.0** (Range: 1.40 – 4.17). Passed standard (>= 3.0 / 5.0).
+- **Human verification report:** [`02_SAN_XUAT/Tap25_EN/xuat_ban/CanNghe_Tap25_EN_higgs.md`](xuat_ban/CanNghe_Tap25_EN_higgs.md).
 
 ---
 
-## B3. 5-Act Structure & Associated Background Assets (60 Images)
+## B3. Deliverables Inventory
 
-All 60 shared visual assets (`assets/bg/t25_*.png`) are organized across 5 acts:
-- **Act 1 (12 images):** `t25_yoo_young_chul_a1_01_mapo_police` to `a1_12_escape_police_station_rain`
-- **Act 2 (12 images):** `t25_yoo_young_chul_a2_01_handcuff_interrogation` to `a2_12_raincoat_killer_myth`
-- **Act 3 (12 images):** `t25_yoo_young_chul_a3_01_profiler_dialogue` to `a3_12_pathological_self_pity`
-- **Act 4 (12 images):** `t25_yoo_young_chul_a4_01_seoul_central_court` to `a4_12_justice_restored`
-- **Act 5 (12 images):** `t25_yoo_young_chul_a5_01_modern_seoul_skyline` to `a5_12_outtro_subscribe_card`
+1. **Master Audio:**
+   - MP3: [`02_SAN_XUAT/Tap25_EN/xuat_ban/Tap25_EN_master.mp3`](xuat_ban/Tap25_EN_master.mp3)
+   - WAV: [`02_SAN_XUAT/Tap25_EN/xuat_ban/Tap25_EN_master.wav`](xuat_ban/Tap25_EN_master.wav)
+2. **Timeline & Subtitles:**
+   - Timeline: [`.work/timeline_s_EN_t25.json`](../../.work/timeline_s_EN_t25.json) (2059.3 s)
+   - Subtitles SRT: [`02_SAN_XUAT/Tap25_EN/xuat_ban/Tap25_EN.srt`](xuat_ban/Tap25_EN.srt) (230 cues)
+3. **Verification Reports:**
+   - QC Raw Data: [`.work/quality_qc_utmos_ep25_en.json`](../../.work/quality_qc_utmos_ep25_en.json)
+   - Verification Sheet: [`02_SAN_XUAT/Tap25_EN/xuat_ban/CanNghe_Tap25_EN_higgs.md`](xuat_ban/CanNghe_Tap25_EN_higgs.md)

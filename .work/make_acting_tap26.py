@@ -109,8 +109,8 @@ def build_pauses():
             PAUSES[sid] = 0.8
         elif s_num % 2 == 0:
             PAUSES[sid] = 0.6
-        elif sid in SPECIAL_EMOTIONS:
-            PAUSES[sid] = 0.7
+        else:
+            PAUSES[sid] = 0.45
 
 build_pauses()
 

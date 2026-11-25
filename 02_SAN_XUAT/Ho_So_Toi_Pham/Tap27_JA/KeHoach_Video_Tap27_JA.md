@@ -1,37 +1,58 @@
-# 制作計画書 第27話 ·「自己愛の損傷と共犯の心理的操作」— 日本語版 (JA EDITION)
+# 制作仕様書 · 第25話 · レインコートキラーと社会復讐の狂乱 — Yoo Young-chul 事件
 
-## B1. エピソード情報
+## B1. 基本情報
 
 | 項目 | 内容 |
 |---|---|
-| エピソード名 | **第27話：自己愛の損傷と共犯の心理的操作 — ビンフオック大量殺人事件と60時間の電撃捜査（グエン・ハイ・ズオン調書）** |
-| 事件概要 | ベトナム・ビンフオック省チョンタイン郡における製材工場一家6名殺害事件（2015年7月） |
-| 心理的主題 | 自己愛の損傷（*Narcissistic Injury*）· 復讐的激怒（*Narcissistic Rage*）· 借物の肥大化した自己（*Borrowed Grandiosity*）· 共犯者への心理的操作と強制（*Psychological Manipulation & Coercion*）· 引き返せない地点の手口（*Point of No Return*）· 認知的麻痺と強圧的服従（*Cognitive Freezing & Coerced Compliance*）· 認知的区画化（*Compartmentalization*）· 真の後悔 vs 病的自己憐憫の峻別 |
-| 制作形式 | ドキュメンタリー形式の犯罪心理ポッドキャスト（Host-Driven Documentary）— 第1幕～第5幕（A2c/K10基準） |
-| 配役構成 | 4役構成：**語り部（ホスト）**（フクロウ - 137文）· **捜査官**（猟犬 - 37文）· **心理学者**（銀狐 - 51文）· **一般人**（N1 製材工場作業員：7文 & N2 裁判傍聴市民：8文） |
-| 制作脚本規模 | **240台詞文**（第10話の最新大規模改訂基準に準拠し、当初の165文から全面拡張）· 51要素（Elements）· 32発言ターン |
-| 多言語同期状況 | 3言語における完全な**1:1パリティ同期**を達成：**ベトナム語（VN - 240文）**、**英語（EN - 240文）**、**日本語（JA - 240文）** |
-| 安全基準 | **100% YouTube Safe（ルールV9準拠）**：残酷な刺突や流血の描写を一切排除、行動科学と危険信号の分析に特化 |
-| 映像リソース | **60枚の基準2K背景画（2112×1188, 16:9）** `assets/bg/` 内の接頭辞 `t27_` · ダークグラフィックノワール調 |
-| BGM構成 | 重厚なチェロ $\rightarrow$ 緊迫の重低音ビート $\rightarrow$ ミニマル学術ピアノ $\rightarrow$ 法廷の荘厳なバイオリン $\rightarrow$ 人道的な温もりのピアノ |
+| タイトル | **第25話：レインコートキラーと社会復讐の狂乱 — 反社会的怨恨と自己正当化の罠（Yoo Young-chul 事件）** |
+| 事件 | ソウル連続殺人事件 — 韓国ソウル (2003年–2004年) |
+| テーマ | 反社会的怨恨（Sociopathic Resentment）、自己愛的損傷（Narcissistic Injury）、置き換えられた攻撃（Displaced Aggression）、自警団的妄想（Moral Vigilante Delusion）、道徳的中和（Moral Neutralization） |
+| 総尺 | **2445.7 秒 (~40 分 45 秒)** · 5幕構成 · **240 cues** |
+| キャスト / 声 | Host (フクロウ) · 捜査官 (猟犬) · 心理専門家 (銀ギツネ) · N1 (出張マッサージ店主) · N2 (被害者遺族代表) |
+| TTSエンジン | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
+| リファレンス音声 | **VoxCPM2 Voice Design (JA)** (H: `H_JA.wav`, D: `D_JA.wav`, C: `C_JA.wav`, N1: `N1_JA.wav`, N2: `N2_JA.wav`) |
+| 音響設計 | 3層ステレオ：5幕BGM + 常時環境音 + 効果音SFX (`.work/sfx_tap25_JA.json`) |
+| 完成マスター音源 | `02_SAN_XUAT/Tap27_JA/xuat_ban/Tap27_JA_master.mp3` & `02_SAN_XUAT/Tap27_JA/xuat_ban/Tap27_JA_master.wav` |
 
 ---
 
-## B2. 制作工程および多言語パイプライン展開計画
+## B2. 音声品質管理測定値 (QC Metrics)
 
-### 1. 基礎資料および多言語台本の同期完了（完了済み）
-- [x] ビンフオック省人民裁判所判決（第60/2015/HSST号）および高等人民裁判所判決（第384/2016/HSPT号）に基づく事実確認100%完了。
-- [x] 5つの主体と7つの分析階層による行動科学研究書の完成（`01_KICH_BAN/Ho_So_Toi_Pham/Tap27/NghienCuu_TamLy_BoSung_KichBan_Tap27.md`）。
-- [x] 3言語（VN / EN / JA）における240文パリティ1:1脚本の策定と反映。
-- [x] パイプラインJSONデータの自動コンパイルと整合性検証（`.work/script_tap27.json`, `.work/script_tap27_EN.json`, `.work/script_tap27_JA.json`）。
-- [x] 10の心理行動指標に基づく詳細な多言語レビュー報告書の作成（`01_KICH_BAN/Ho_So_Toi_Pham/Tap27/REVIEW_kichban_tap27_multilingual.md`）。
+### 1. 音量ラウドネス正規化 (EBUR128基準)
+- **統合ラウドネス ($I$):** **** (基準値: $-20 \pm 1\text{ LUFS}$ — 合格 ✅)
+- **トゥルーピーク ($TP$):** **** (基準値: $\le -1.5\text{ dBFS}$ — 合格 ✅)
+- **ラウドネスレンジ ($LRA$):** ****
+- **完全無音区間 ($> 0.3\text{ 秒}$ @ $-60\text{ dBFS}$):** **0件** (合格 ✅ ルール A1 / V4)
+- **冒頭ナレーション開始:** 23.0 秒 (イントロ22.41秒後 — 合格 ✅)
+- **最終ナレーション終了:** 2436.7 秒、総尺 2445.7 秒で温かみのあるピアノフェードアウト (合格 ✅)
 
-### 2. 今後の制作ステップ（`AGENTS.md` のゲート管理に準拠）
-1. **ゲート1（脚本の確定）：** 240文脚本が確定し、ルールV9（YouTube Safe）および1:1パリティの検証をクリア。
-2. **ゲート2（脚本のパース）：** `parse_kichban.py` による制作データ抽出完了。
-3. **ゲート3（演技指導とポーズ設定）：** `acting_tap27_JA.json` の作成と文間ポーズの調整。
-4. **ゲート4（音声合成 TTS）：** Higgs Audio v3 / 日本語対応エンジンによる各役の音声生成。
-5. **ゲート5（役ごとの声質検証）：** `voice_role_check.py` によるキャラクターの一貫性検査。
-6. **ゲート6（マスター音源制作）：** 音声・効果音・BGMの統合（EBUR128規格：-16 ± 1 LUFS, TP $\le -1.5$ dBFS）。
-7. **ゲート7（絵コンテ・ショット照合）：** 240文と60枚の背景画 `t27_*` の紐付け（`parse_shots.py`）。
-8. **ゲート8（映像レンダリングとパッケージング）：** `build_video3.py` による映像生成および字幕mux（`package.py --mux`）。
+### 2. ピッチ分離度 & 話者識別性 (G9ルール)
+- **Host ($H$ · フクロウ):** F0中央値 = **122.4 Hz**
+- **捜査官 ($D$ · オオカミ):** F0中央値 = **85.7 Hz**
+- **心理専門家 ($C$ · キツネ):** F0中央値 = **228.6 Hz**
+- **ジーン・フィリップス ($N1$ · ヒツジ):** F0中央値 = **205.1 Hz**
+- **ワンダ・フラナリー ($N2$ · ネコ):** F0中央値 = **275.9 Hz**
+- **半音差:**
+  - $\Delta_{D \to H} = \mathbf{6.17\text{ 半音}}$ (基準 $\ge 4.0\text{ 半音}$ — 合格 ✅)
+  - $\Delta_{H \to C} = \mathbf{10.81\text{ 半音}}$ (基準 $\ge 4.0\text{ 半音}$ — 合格 ✅)
+
+### 3. 音声認識精度 (Whisper Base CER) & 自然性 (UTMOSv2 MOS)
+- **ASRエンジン:** `faster-whisper` (`base` model, CPU) + `ja_cer` 正規化。
+- **CER中央値:** **9.74%** (平均CER: **9.88%**)。
+- **マルチテイク第2ラウンド:** CER > 2%のキューに対して新規シードでVariant 1を生成し最適テイクを採用。
+- **自然性評価 UTMOSv2 MOS:** 平均 **2.95 / 5.0** (範囲: 2.14 – 3.82)。基準クリア (>= 3.0 / 5.0)。
+- **確認対象キュー一覧:** [`02_SAN_XUAT/Tap27_JA/xuat_ban/CanNghe_Tap27_JA_higgs.md`](xuat_ban/CanNghe_Tap27_JA_higgs.md)。
+
+---
+
+## B3. 納品成果物一覧
+
+1. **マスター音源:**
+   - MP3: [`02_SAN_XUAT/Tap27_JA/xuat_ban/Tap27_JA_master.mp3`](xuat_ban/Tap27_JA_master.mp3)
+   - WAV: [`02_SAN_XUAT/Tap27_JA/xuat_ban/Tap27_JA_master.wav`](xuat_ban/Tap27_JA_master.wav)
+2. **タイムライン & 字幕:**
+   - タイムライン: [`.work/timeline_s_JA_t27.json`](../../.work/timeline_s_JA_t27.json) (2445.7 秒)
+   - 字幕SRT: [`02_SAN_XUAT/Tap27_JA/xuat_ban/Tap27_JA.srt`](xuat_ban/Tap27_JA.srt) (240 cues)
+3. **品質レポート:**
+   - QC生データ: [`.work/quality_qc_utmos_ep27_ja.json`](../../.work/quality_qc_utmos_ep27_ja.json)
+   - 確認シート: [`02_SAN_XUAT/Tap27_JA/xuat_ban/CanNghe_Tap27_JA_higgs.md`](xuat_ban/CanNghe_Tap27_JA_higgs.md)

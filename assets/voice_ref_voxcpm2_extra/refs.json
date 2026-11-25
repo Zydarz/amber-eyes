@@ -1,0 +1,21 @@
+{
+  "W_MALE_YOUNG": {
+    "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+    "control_instruction": "A young man in his early to mid twenties, medium-pitched and clear with a light youthful timbre, conversational and natural, Vietnamese Standard, strictly neutral tone, steady everyday pace",
+    "target_text": "Lúc tôi đi qua ngã tư thì đèn đường đã tắt gần hết, chỉ còn lại ánh sáng vàng mờ ở góc quán nước. Đường phố ban đêm khá yên tĩnh, thỉnh thoảng có vài người đi bộ hoặc xe máy chạy chậm qua. Mọi chuyện diễn ra rất bình thường, không có bất kỳ dấu hiệu xáo trộn hay tiếng động lạ nào xung quanh.",
+    "source_file": "assets/voice_ref_voxcpm2_extra/W_MALE_YOUNG.wav",
+    "seconds": 19.8,
+    "f0_median_hz": 177.8,
+    "f0_target_hz": [160, 175],
+    "sample_rate": 24000,
+    "channels": 1,
+    "lufs_target": -18.0,
+    "model": "openbmb/VoxCPM2",
+    "license": "Apache-2.0",
+    "attribution_required": false,
+    "separation": {
+      "vs_H_107Hz_semitones": 8.73,
+      "vs_D_88Hz_semitones": 12.18
+    }
+  }
+}

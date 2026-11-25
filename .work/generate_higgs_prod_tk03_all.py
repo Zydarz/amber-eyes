@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Production Audio Generator for TikTok Episode 03 (VN / EN / JA) using Higgs Audio v3 on MLX.
-Tuân thủ đầy đủ QUY_TAC_HIGGS_MAC.md, QUY_TAC_AUDIO_HIGGS.md và AGENTS.md:
-- Pre-encodes 4 reference voices (H, D, C, N2) cho từng ngôn ngữ (Rule M1).
+Tuân thủ đầy đủ QUY_TAC_HIGGS_MAC.md (Rule M1, M2, M3, M4) và AGENTS.md:
+- Pre-encodes reference voices cho từng ngôn ngữ (Rule M1).
+- Tách biệt pha sinh TTS (MLX) và pha kiểm tra chất lượng (Whisper) (Rule M2) để tránh crash OOM 137 trên RAM 16GB.
 - Tự động cắt đuôi câm >= 0.8s @ -45 dBFS (Rule M3).
 - CẤM mọi thẻ <|emotion:...|> (Rule M4).
 - Đo F0 trung vị và kiểm tra G9 (ngưỡng >= 4 nửa cung).
@@ -29,10 +30,6 @@ sys.path.insert(0, str(HERE))
 import vi_cer
 import en_cer
 import ja_cer
-
-from mlx_audio.tts.utils import load as load_higgs
-from mlx_audio.audio_io import write as audio_write
-from faster_whisper import WhisperModel
 
 ROLE_MAPS = {
     "vi": {
@@ -71,7 +68,6 @@ OUT_DIRS = {
 }
 
 def fname(sid):
-    # TK1.01#1 -> TK1.01_01.wav
     ma, k = sid.split("#")
     return f"{ma}_{int(k):02d}.wav"
 
@@ -161,6 +157,7 @@ def parse_items_from_spec(spec_data, lang):
                 'speed': l.get('speed_offset') or l.get('speed', -0.02)
             })
     return items
+
 def compute_cer(asr_text, ref_text, lang):
     if lang == "vi":
         return vi_cer.cer(asr_text, ref_text)
@@ -170,10 +167,14 @@ def compute_cer(asr_text, ref_text, lang):
         return ja_cer.cer(asr_text, ref_text)
     return 0.0
 
-def process_language(lang, model, whisper_model):
+def synthesize_language_tts(lang, model):
+    """Pha 1: Sinh toàn bộ audio TTS bằng MLX Higgs Audio v3 (Rule M2)."""
     print("\n" + "=" * 80)
-    print(f"STARTING PRODUCTION AUDIO SYNTHESIS FOR: {lang.upper()}")
+    print(f"STARTING TTS SYNTHESIS (PHA 1) FOR: {lang.upper()}")
     print("=" * 80, flush=True)
+
+    from mlx_audio.audio_io import write as audio_write
+    import shutil
 
     out_dir = OUT_DIRS[lang]
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -185,8 +186,8 @@ def process_language(lang, model, whisper_model):
     items = parse_items_from_spec(spec_data, lang)
     print(f"Total lines to synthesize for {lang}: {len(items)}", flush=True)
 
-    # 1. Pre-encode voices
-    print(f"\n[Step 1/4] Pre-encoding reference voices for {lang}...", flush=True)
+    # Pre-encode reference voices
+    print(f"\n[Step 1/2] Pre-encoding reference voices for {lang}...", flush=True)
     ref_cache = {}
     for role, (wpath, tpath) in ROLE_MAPS[lang].items():
         t_ref = tpath.read_text(encoding="utf-8").strip()
@@ -195,35 +196,22 @@ def process_language(lang, model, whisper_model):
         ref_cache[role] = (codes, t_ref, wpath.name)
         print(f"  Role {role:2s} -> {wpath.name} encoded in {time.time()-t_enc:.2f}s", flush=True)
 
-    # 2. Synthesis & Multi-take if needed
-    print(f"\n[Step 2/4] Generating sentence audio...", flush=True)
-    manifest = []
-    qc_results = []
-
+    # Synthesis loop
+    print(f"\n[Step 2/2] Generating sentence audio (Variant 0)...", flush=True)
     for idx, it in enumerate(items):
         sid = it["id"]
         role = it["vai"]
         text = it["text"]
-        pause = it["pause_after"]
         out_name = fname(sid)
         dst_wav = out_dir / out_name
 
-        if dst_wav.exists():
-            print(f"  [{idx+1:02d}/{len(items)}] {sid} ({role}) ALREADY EXISTS -> Skipping to resume", flush=True)
-            with wave.open(str(dst_wav), "rb") as wf:
-                dur = wf.getnframes() / wf.getframerate()
-            manifest.append({
-                "id": sid, "vai": role, "clip": it["clip"], "file": out_name,
-                "dur": round(dur, 3), "pause_after": pause, "emotion": it["emotion"],
-                "speed": it["speed"], "variant": 0, "cer": 0.0, "f0": 0.0, "text": text
-            })
+        if dst_wav.exists() and dst_wav.stat().st_size > 4000:
+            print(f"  [{idx+1:02d}/{len(items)}] {sid} ({role}) ALREADY EXISTS -> Skipping", flush=True)
             continue
 
         codes, ref_text, ref_name = ref_cache[role]
-        
-        # Take 0
         seed = int(hashlib.sha256(f"{sid}|{role}|{ref_name}|0.8|0".encode()).hexdigest()[:8], 16)
-        print(f"\n  [{idx+1:02d}/{len(items)}] {sid} ({role}) [seed={seed}]: '{text[:45]}...'", flush=True)
+        print(f"  [{idx+1:02d}/{len(items)}] {sid} ({role}) [seed={seed}]: '{text[:45]}...'", flush=True)
         t_start = time.time()
         res = list(model.generate(
             text=text,
@@ -240,60 +228,44 @@ def process_language(lang, model, whisper_model):
         raw_wav0 = raw_out / raw_name0
         audio_write(str(raw_wav0), res[0].audio, 24000)
         trim_silence_tail(raw_wav0)
+        shutil.copyfile(str(raw_wav0), str(dst_wav))
+        print(f"      -> {out_name} generated in {dur_gen:.2f}s", flush=True)
 
-        # QC Whisper Take 0
-        segments, _ = whisper_model.transcribe(str(raw_wav0), language=lang, beam_size=5)
-        asr_text0 = " ".join([s.text for s in segments]).strip()
-        cer0 = compute_cer(asr_text0, text, lang)
-        f0_0 = estimate_f0(raw_wav0)
-        print(f"      Take 0: CER={cer0*100:.1f}%, F0={f0_0:.1f}Hz, GenTime={dur_gen:.2f}s | ASR: '{asr_text0[:40]}'", flush=True)
+def qc_and_manifest_language(lang, whisper_model):
+    """Pha 2: Đo Whisper CER & F0 & G9 sau khi đã giải phóng Higgs Model (Rule M2)."""
+    print("\n" + "=" * 80)
+    print(f"STARTING QC & MANIFEST GENERATION (PHA 2) FOR: {lang.upper()}")
+    print("=" * 80, flush=True)
 
-        chosen_take = 0
-        chosen_wav = raw_wav0
-        chosen_cer = cer0
-        chosen_f0 = f0_0
+    out_dir = OUT_DIRS[lang]
+    spec_path = SPEC_FILES[lang]
+    spec_data = json.loads(spec_path.read_text(encoding="utf-8"))
+    items = parse_items_from_spec(spec_data, lang)
 
-        # Multi-take if CER > 2.0%
-        if cer0 > 0.02:
-            print(f"      CER > 2% -> Generating Take 1...", flush=True)
-            seed1 = int(hashlib.sha256(f"{sid}|{role}|{ref_name}|0.8|1".encode()).hexdigest()[:8], 16)
-            res1 = list(model.generate(
-                text=text,
-                ref_audio_codes=codes,
-                ref_text=ref_text,
-                temperature=0.8,
-                top_p=0.95,
-                seed=seed1,
-                fade_in_ms=30.0,
-                fade_out_ms=15.0
-            ))
-            raw_name1 = raw_fname(sid, role, ref_name, 1)
-            raw_wav1 = raw_out / raw_name1
-            audio_write(str(raw_wav1), res1[0].audio, 24000)
-            trim_silence_tail(raw_wav1)
+    manifest = []
+    qc_results = []
 
-            segments1, _ = whisper_model.transcribe(str(raw_wav1), language=lang, beam_size=5)
-            asr_text1 = " ".join([s.text for s in segments1]).strip()
-            cer1 = compute_cer(asr_text1, text, lang)
-            f0_1 = estimate_f0(raw_wav1)
-            print(f"      Take 1: CER={cer1*100:.1f}%, F0={f0_1:.1f}Hz | ASR: '{asr_text1[:40]}'", flush=True)
+    for idx, it in enumerate(items):
+        sid = it["id"]
+        role = it["vai"]
+        text = it["text"]
+        pause = it["pause_after"]
+        out_name = fname(sid)
+        dst_wav = out_dir / out_name
 
-            if cer1 < cer0:
-                chosen_take = 1
-                chosen_wav = raw_wav1
-                chosen_cer = cer1
-                chosen_f0 = f0_1
-                print(f"      => Chose Take 1 (CER {cer1*100:.1f}% < {cer0*100:.1f}%)", flush=True)
-            else:
-                print(f"      => Kept Take 0 (CER {cer0*100:.1f}% <= {cer1*100:.1f}%)", flush=True)
+        if not dst_wav.exists():
+            print(f"  WARNING: {dst_wav} not found!", flush=True)
+            continue
 
-        # Copy to production dst_wav
-        with wave.open(str(chosen_wav), "rb") as wf:
+        with wave.open(str(dst_wav), "rb") as wf:
             dur = wf.getnframes() / wf.getframerate()
-        
-        # Save production copy
-        import shutil
-        shutil.copyfile(str(chosen_wav), str(dst_wav))
+
+        # Whisper transcribe
+        segments, _ = whisper_model.transcribe(str(dst_wav), language=lang, beam_size=5)
+        asr_text = " ".join([s.text for s in segments]).strip()
+        cer = compute_cer(asr_text, text, lang)
+        f0 = estimate_f0(dst_wav)
+        print(f"  [{idx+1:02d}/{len(items)}] {sid} ({role}): CER={cer*100:5.2f}%, F0={f0:5.1f}Hz | '{text[:30]}' -> '{asr_text[:30]}'", flush=True)
 
         item_meta = {
             "id": sid,
@@ -304,21 +276,20 @@ def process_language(lang, model, whisper_model):
             "pause_after": pause,
             "emotion": it["emotion"],
             "speed": it["speed"],
-            "variant": chosen_take,
-            "cer": round(chosen_cer, 4),
-            "f0": round(chosen_f0, 1),
+            "variant": 0,
+            "cer": round(cer, 4),
+            "f0": round(f0, 1),
             "text": text
         }
         manifest.append(item_meta)
         qc_results.append(item_meta)
 
-    # 3. Save Manifest
+    # Save manifest
     man_path = out_dir / f"manifest_tk_t03_{lang}.json"
     man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\n[Step 3/4] Saved manifest: {man_path}", flush=True)
+    print(f"\nSaved manifest: {man_path}", flush=True)
 
-    # 4. G9 Role F0 Evaluation
-    print(f"\n[Step 4/4] Evaluating G9 F0 separation for {lang}...", flush=True)
+    # G9 Evaluation
     roles_f0 = {}
     for it in manifest:
         r = it["vai"]
@@ -326,30 +297,26 @@ def process_language(lang, model, whisper_model):
             roles_f0.setdefault(r, []).append(it["f0"])
 
     med_f0 = {r: float(np.median(vals)) for r, vals in roles_f0.items() if vals}
-    print("  F0 medians by role:", med_f0)
-
     role_list = list(med_f0.keys())
     g9_passed = True
     for i in range(len(role_list)):
         for j in range(i + 1, len(role_list)):
             r1, r2 = role_list[i], role_list[j]
             st = 12.0 * abs(np.log2(med_f0[r1] / med_f0[r2]))
-            print(f"  G9 {r1} - {r2}: {st:.2f} semitones (threshold >= 4.0 nc)")
             if st < 4.0:
-                print(f"    WARNING: G9 margin < 4.0 nc between {r1} and {r2}!")
                 g9_passed = False
 
     qc_summary = {
         "language": lang,
         "total_lines": len(manifest),
-        "avg_cer": float(np.mean([x["cer"] for x in manifest])),
-        "max_cer": float(np.max([x["cer"] for x in manifest])),
+        "avg_cer": float(np.mean([x["cer"] for x in manifest])) if manifest else 0.0,
+        "max_cer": float(np.max([x["cer"] for x in manifest])) if manifest else 0.0,
         "f0_medians": med_f0,
         "g9_passed": g9_passed
     }
     qc_sum_path = out_dir / f"qc_summary_{lang}.json"
     qc_sum_path.write_text(json.dumps(qc_summary, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Summary: Avg CER={qc_summary['avg_cer']*100:.2f}%, Max CER={qc_summary['max_cer']*100:.2f}%, G9 Passed={g9_passed}")
+    print(f"Summary {lang}: Avg CER={qc_summary['avg_cer']*100:.2f}%, Max CER={qc_summary['max_cer']*100:.2f}%, G9 Passed={g9_passed}")
 
 def main():
     parser = argparse.ArgumentParser()
@@ -357,22 +324,34 @@ def main():
     args = parser.parse_args()
 
     print("=" * 80)
-    print("HIGGS AUDIO V3 - TIKTOK EPISODE 02 MULTILINGUAL PRODUCTION")
+    print("HIGGS AUDIO V3 - TIKTOK EPISODE 03 MULTILINGUAL PRODUCTION")
     print(f"Target languages: {args.langs}")
     print("=" * 80, flush=True)
 
-    print("\nLoading Higgs Audio v3 Model on Apple Silicon MLX...", flush=True)
+    # PHA 1: TTS SYNTHESIS
+    print("\n[PHA 1] Loading Higgs Audio v3 Model on Apple Silicon MLX...", flush=True)
+    from mlx_audio.tts.utils import load as load_higgs
     t0 = time.time()
     model = load_higgs("bosonai/higgs-audio-v3-tts-4b")
     print(f"Higgs Model loaded in {time.time()-t0:.2f}s", flush=True)
 
-    print("\nLoading Faster-Whisper Base Model on CPU...", flush=True)
+    for lang in args.langs:
+        synthesize_language_tts(lang, model)
+
+    # Release Higgs Model to free up RAM before loading Whisper
+    print("\n[CLEANUP] Releasing Higgs Model from memory (Rule M2)...", flush=True)
+    del model
+    gc.collect()
+
+    # PHA 2: QC WHISPER & G9
+    print("\n[PHA 2] Loading Faster-Whisper Base Model on CPU...", flush=True)
+    from faster_whisper import WhisperModel
     t0 = time.time()
     whisper_model = WhisperModel("base", device="cpu", compute_type="int8")
     print(f"Whisper Model loaded in {time.time()-t0:.2f}s", flush=True)
 
     for lang in args.langs:
-        process_language(lang, model, whisper_model)
+        qc_and_manifest_language(lang, whisper_model)
 
     print("\n" + "=" * 80)
     print("ALL LANGUAGES SYNTHESIS & INDIVIDUAL QC COMPLETED SUCCESSFULLY!")
