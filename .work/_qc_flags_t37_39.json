@@ -1,0 +1,191 @@
+{
+  "note": "Round 3 (26/11/2026): prompt vòng 3 - bo han tu kich hoat chu, chi giu vat the + be mat tron, bo negation.",
+  "extra_negative": "",
+  "flags": [
+    {
+      "ep": 37,
+      "name": "t37_a2_05_ho_nai_beer_eatery_plastic_stools_night",
+      "reason": "v1 còn biển chữ"
+    },
+    {
+      "ep": 37,
+      "name": "t37_a2_22_backpack_flashlight_gloves_on_bed",
+      "reason": "v1 còn thẻ dán trên tường"
+    },
+    {
+      "ep": 37,
+      "name": "t37_a3_25_ambulance_misty_lane_rear_open_lights",
+      "reason": "v1 còn ký hiệu/char trên xe"
+    },
+    {
+      "ep": 37,
+      "name": "t37_a4_09_trembling_hands_pen_blank_form",
+      "reason": "v1 biên bản còn chữ"
+    },
+    {
+      "ep": 37,
+      "name": "t37_a4_14_blank_forms_pen_barred_window_desk",
+      "reason": "v1 giấy còn chữ"
+    },
+    {
+      "ep": 37,
+      "name": "t37_a4_19_courthouse_exterior_morning_crowd_steps",
+      "reason": "v1 còn huy hiệu chữ trên thành"
+    },
+    {
+      "ep": 37,
+      "name": "t37_a5_05_crowd_outside_courthouse_dusk_relief",
+      "reason": "v1 còn chữ Hán trên vòm"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a1_02_roadside_diner_night_empty_stools",
+      "reason": "v1 còn biển dọc"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a1_10_electronics_repair_shop_clearwater_bench",
+      "reason": "v1 còn giấy dán tường"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a1_13_detectives_map_table_pins_dim_office",
+      "reason": "v1 bản đồ còn nhãn"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_08_detective_before_board_blank_witness_notes",
+      "reason": "v1 khung tranh còn giấy chữ"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_10_empty_chair_desk_lamp_over_map",
+      "reason": "v1 bản đồ + biển tường còn chữ"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_13_pawn_shops_row_windows_night_unmarked",
+      "reason": "v1 còn biển Hán"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_14_pawn_counter_glass_case_camera_fishing_rod",
+      "reason": "v1 còn biển dọc"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_15_blank_receipt_pad_pen_on_counter",
+      "reason": "v1 còn biển lớn + giấy chữ"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_21_silhouette_at_curtain_anxious_motel_window",
+      "reason": "v1 còn chữ trên kính"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_31_roadside_biker_bar_exterior_motorcycles",
+      "reason": "v1 còn biển + biển số"
+    },
+    {
+      "ep": 38,
+      "name": "t38_a3_33_two_officers_silhouettes_doorway_calm",
+      "reason": "v1 còn biển Hán"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a1_19_imported_motorcycle_night_street",
+      "reason": "v1 biển số có ký tự"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a1_20_lavish_spending_night_market",
+      "reason": "v1 còn biển Hán"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a1_22_family_table_empty_chair",
+      "reason": "v1 còn chữ trên kính"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a1_26_greed_dim_stairwell_corners",
+      "reason": "v1 còn bảng số"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a2_02_nightclub_entrance_hostess_silhouette",
+      "reason": "v1 còn biển Hán lớn"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a2_08_wenzhou_alley_autumn_1997",
+      "reason": "v1 còn biển Hán"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a2_12_hefei_dance_hall_july_1999",
+      "reason": "v1 còn biển Hán + ANGEL"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a2_14_market_lane_carpenter_toolbox",
+      "reason": "v1 còn biển Hán dọc"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a2_20_police_at_rental_house_door",
+      "reason": "v1 còn giấy dán cửa"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a2_23_two_toolkits_dark_table",
+      "reason": "v1 còn ký tự trên nắp hộp"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a3_04_workplaces_cosmetics_eatery_bar",
+      "reason": "v1 còn nhiều biển Hán"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a3_13_cloud_sword_police_command_room",
+      "reason": "v1 màn hình còn chữ"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a4_01_nanchang_courthouse_exterior_dec_2020",
+      "reason": "v1 còn chữ Hán trên tòa"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a4_03_courtroom_witness_stand_empty",
+      "reason": "v1 còn chữ trên tường tòa"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a4_15_lone_woman_crowded_station_escape_chance",
+      "reason": "v1 còn biển Hán"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a4_16_rental_flat_cash_split_table",
+      "reason": "v1 tiền còn in chữ"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a4_17_hardware_shelf_rope_iron_bars_evening",
+      "reason": "v1 còn biển Hán"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a5_03_jiangxi_high_court_winter_exterior",
+      "reason": "v1 còn chữ Hán trên tòa"
+    },
+    {
+      "ep": 39,
+      "name": "t39_a5_10_nightlife_street_one_figure_turns_away",
+      "reason": "v1 còn nhiều biển neon chữ"
+    }
+  ]
+}

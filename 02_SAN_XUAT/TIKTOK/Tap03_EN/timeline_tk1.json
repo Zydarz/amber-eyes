@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TK1.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 2.6,
+    "pause": 0.5,
+    "text": "Stop me. I’m going to do it again.",
+    "bg": "tk03_phone_booth",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#2",
+    "vai": "H",
+    "start": 2.6,
+    "end": 8.54,
+    "pause": 0.6,
+    "text": "At four in the morning on April twenty-fourth, 1973, the desk phone rang at Santa Cruz police headquarters.",
+    "bg": "tk03_dispatch_desk",
+    "motion": "pull",
+    "match_ratio": 0.842,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#3",
+    "vai": "H",
+    "start": 9.3,
+    "end": 15.74,
+    "pause": 0.6,
+    "text": "On the line was Edmund Kemper, calling from a roadside payphone in Pueblo, Colorado, over a thousand miles away.",
+    "bg": "tk03_phone_booth",
+    "motion": "pan",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#4",
+    "vai": "H",
+    "start": 16.3,
+    "end": 23.96,
+    "pause": 0.6,
+    "text": "His voice was calm and deliberate: <#0.35#> I killed my mother and her friend. And I killed those college girls. Six of them.",
+    "bg": "tk03_phone_booth",
+    "motion": "push",
+    "match_ratio": 0.958,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#5",
+    "vai": "N1",
+    "start": 24.82,
+    "end": 29.78,
+    "pause": 0.6,
+    "text": "At first, dispatch assumed it was an intoxicated prank and told him to call back later.",
+    "bg": "tk03_dispatch_desk",
+    "motion": "still",
+    "match_ratio": 0.938,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#6",
+    "vai": "H",
+    "start": 30.54,
+    "end": 37.24,
+    "pause": 0.7,
+    "text": "Two hours later he called again, with words that chilled the room: <#0.35#> Stop me. I’m going to do it again.",
+    "bg": "tk03_phone_booth",
+    "motion": "push",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#7",
+    "vai": "H",
+    "start": 37.98,
+    "end": 42.44,
+    "pause": 0.6,
+    "text": "He didn’t call to boast. He called because he was terrified that he couldn’t stop himself.",
+    "bg": "tk03_phone_booth",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#8",
+    "vai": "D",
+    "start": 43.54,
+    "end": 51.58,
+    "pause": 0.7,
+    "text": "When patrol cars arrived, the six-foot-nine giant sat peacefully in the booth, with three rifles and hundreds of rounds in his car.",
+    "bg": "tk03_apartos_house",
+    "motion": "pan",
+    "match_ratio": 0.875,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#9",
+    "vai": "C",
+    "start": 51.58,
+    "end": 61.22,
+    "pause": 0.7,
+    "text": "With his ultimate target — his mother — dead, the omnipotent fantasy dissolved into profound emptiness, precipitating his psychological collapse.",
+    "bg": "tk03_brain_mirror",
+    "motion": "pull",
+    "match_ratio": 0.944,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#10",
+    "vai": "H",
+    "start": 61.98,
+    "end": 66.14,
+    "pause": 0.0,
+    "text": "Episode three of Amber Eyes. Watch the full dossier via the link in our bio.",
+    "bg": "tk03_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.933,
+    "interp": false
+  }
+]

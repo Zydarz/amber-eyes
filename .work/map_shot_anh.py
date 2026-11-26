@@ -15,6 +15,14 @@ spec = importlib.util.spec_from_file_location("pk", WORK / "parse_kichban.py")
 pk = importlib.util.module_from_spec(spec); spec.loader.exec_module(pk)
 DEFAULT = [n for n in range(26, 69) if n not in (64, 66, 68)]   # 64/66/68: kịch bản chưa mở rộng, để nguyên
 SPS, PAUSE = 3.6, 0.45
+# Ảnh đã soi, CÓ LỖI nhưng người dùng chốt GIỮ NGUYÊN (25/11/2026, không sinh lại) — ghi vào bảng để AI dựng biết.
+KNOWN = {
+    "t40_a5_10b_open_car_door_headlights_run_to_lit_houses": "viền giấy kem 4 mép + chữ/logo giả góc dưới trái (H2/H26)",
+    "t26_a1_13b_police_hq_corridor_urgent_arrest_order": "viền giấy kem 4 mép + tờ giấy dán có chữ giả trên tường trái (H2/H26)",
+    "t40_a5_02_crowd_gathered_outside_prison_gates": "biển nhỏ có nét giống chữ ở góc dưới phải (nghi, H26)",
+    "t26_a4_23_public_outcry_tokyo_streets": "MỚI 25/11 (soi lại): chữ AI trên đầu tàu điện \"RELAEL PASSEN\" + biển phản đối (H26) — CHỜ quyết định sinh lại",
+    "t40_a1_18_fleeing_taillights_in_the_rain": "MỚI 25/11 (soi lại): biển số xe có chữ AI \"T9Y 110\" (H2/H26) — CHỜ quyết định sinh lại",
+}
 
 def script_file(n):
     fs = [f for f in glob.glob(str(ROOT / f"01_KICH_BAN/Ho_So_Toi_Pham/Tap{n:02d}/kichban_tap{n:02d}_*.md")) if not re.search(r"_cu|_EN|_JA|_KO|backup", f)]
@@ -154,12 +162,13 @@ def main():
              f"- Ảnh đã có file `assets/bg/`: **{have}/{len(rows)}** · Tổng thời lượng ƯỚC LƯỢNG: {tot/60:.1f} phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)",
              f"- **LUẬT DỰNG (AGENTS.md H28):** AI dựng video PHẢI đọc file này (hoặc `.work/shot_map_tap{n:02d}.json`) và dùng **đúng ảnh ở cột Tên ảnh cho đúng câu ở cột Câu** — CẤM tự chọn ảnh theo chủ đề, CẤM lặp ảnh, CẤM đổi thứ tự. Trước khi dựng chạy `py -3 .work/map_shot_anh.py --check {n:02d}` phải ĐẠT.",
              f"- Cách dùng: dựng theo đúng thứ tự dòng; shot bắt đầu ở câu đầu của cột Câu và kéo tới hết câu cuối; ảnh = cột Tên ảnh.",
+             *([f"- ⚠ **Ảnh có lỗi đã biết (3 ảnh đầu GIỮ NGUYÊN theo quyết định người dùng 25/11/2026; ảnh ghi MỚI đang chờ quyết định):** " + "; ".join(f"`{k}` — {v}" for k, v in KNOWN.items() if k in {r['name'] for r in rows})] if any(k in {r['name'] for r in rows} for k in KNOWN) else []),
              f"- Lỗi mapping (cần xử lý): {len(crit)}" + ("" if not crit else " — " + "; ".join(crit[:20])),
              f"- Shot dài ước > 15 s (H10, chỉ ước lượng — kiểm lại khi có timeline): {sum('H10' in i for i in longs)} · > 30 s (H22): {sum('H22' in i for i in longs)}", "",
              "| Shot | Hồi | Câu (đầu – cuối) | Số câu | Ước (s) | Tên ảnh (`assets/bg/<tên>.png`) | Có file | Mô tả cảnh |", "|---|---|---|---|---|---|---|---|"]
         for r in rows:
             ok = "✅" if (ROOT / "assets/bg" / f"{r['name']}.png").exists() else "⏳"
-            L.append(f"| {r['id']} | {r['act']} | `{r['span']}` | {r['n']} | {r['est']} | `{r['name']}` | {ok} | {r['desc'].replace('|','/')} |")
+            L.append(f"| {r['id']} | {r['act']} | `{r['span']}` | {r['n']} | {r['est']} | `{r['name']}` | {ok}{' ⚠' if r['name'] in KNOWN else ''} | {r['desc'].replace('|','/')}{(' — ⚠ ' + KNOWN[r['name']]) if r['name'] in KNOWN else ''} |")
         (d / f"Bang_Shot_Anh_Tap{n:02d}.md").write_text("\n".join(L) + "\n", encoding="utf-8", newline="\n")
         json.dump([{k: r[k] for k in ("id", "act", "name", "codes", "est")} for r in rows], open(WORK / f"shot_map_tap{n:02d}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         mx = max(r["est"] for r in rows)

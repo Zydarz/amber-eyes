@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TK2.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 3.44,
+    "pause": 0.5,
+    "text": "警察官とビールを飲み、自らの事件について語る。",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#2",
+    "vai": "N2",
+    "start": 4.06,
+    "end": 11.96,
+    "pause": 0.6,
+    "text": "サンタクルーズ裁判所の真正面にあるバー「The Jury Room」は、当直を終えた刑事や警察官が集まる行きつけの店でした。",
+    "bg": "tk03_bar_jury_room",
+    "motion": "pull",
+    "match_ratio": 0.714,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#3",
+    "vai": "N2",
+    "start": 12.76,
+    "end": 22.0,
+    "pause": 0.6,
+    "text": "ビッグ・エドはいつもバーの隅の席に座っていました。身長2メートル06、メガネをかけ、法律に詳しく非常に礼儀正しい男でした。",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "pan",
+    "match_ratio": 0.964,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#4",
+    "vai": "D",
+    "start": 23.18,
+    "end": 32.02,
+    "pause": 0.6,
+    "text": "昼間、彼はバンパーに大学職員用駐車ステッカーを貼った、1969年型の黄色いフォード・ギャラクシーを運転していました。",
+    "bg": "tk03_galaxie",
+    "motion": "still",
+    "match_ratio": 0.926,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#5",
+    "vai": "D",
+    "start": 33.14,
+    "end": 41.52,
+    "pause": 0.6,
+    "text": "大学のステッカーと知的で物静かな外見は、ヒッチハイクをする女子学生たちに絶対的な安心感を与えていたのです。",
+    "bg": "tk03_hitchhiker",
+    "motion": "push",
+    "match_ratio": 0.804,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#6",
+    "vai": "N2",
+    "start": 42.4,
+    "end": 49.62,
+    "pause": 0.8,
+    "text": "刑事たちがエドと一緒にビールを飲みながら、女子大生殺人鬼の捜査が難航している苦悩を打ち明ける夜もありました。",
+    "bg": "tk03_bar_jury_room",
+    "motion": "still",
+    "match_ratio": 0.827,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#7",
+    "vai": "N2",
+    "start": 50.34,
+    "end": 57.64,
+    "pause": 0.8,
+    "text": "エドは相槌を打ちながら分析し、犯人の心理について鋭い仮説を捜査員たちに助言してくれたのです。",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "push",
+    "match_ratio": 0.886,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#8",
+    "vai": "N2",
+    "start": 58.68,
+    "end": 66.42,
+    "pause": 0.7,
+    "text": "思い返すと背筋が凍ります。街中が必死に追っていた怪物が、私たちの隣で捜査について笑っていたのです。",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "pull",
+    "match_ratio": 0.891,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#9",
+    "vai": "C",
+    "start": 66.98,
+    "end": 75.68,
+    "pause": 0.7,
+    "text": "ハロー効果。卓越した知性と温厚な態度は、法執行機関そのものを欺く不可視の偽装壁となったのです。",
+    "bg": "tk03_brain_mirror",
+    "motion": "still",
+    "match_ratio": 0.795,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#10",
+    "vai": "H",
+    "start": 77.36,
+    "end": 82.24,
+    "pause": 0.0,
+    "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+    "bg": "tk03_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.686,
+    "interp": false
+  }
+]

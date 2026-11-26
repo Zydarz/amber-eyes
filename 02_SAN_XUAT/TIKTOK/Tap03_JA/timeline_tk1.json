@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TK1.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 4.0,
+    "pause": 0.5,
+    "text": "私を止めてください。私はそれをもう一度するつもりです。",
+    "bg": "tk03_phone_booth",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#2",
+    "vai": "H",
+    "start": 4.88,
+    "end": 13.04,
+    "pause": 0.6,
+    "text": "1973年4月24日、午前4時。カリフォルニア州サンタクルーズ警察本部の当直電話が鳴り響きました。",
+    "bg": "tk03_dispatch_desk",
+    "motion": "pull",
+    "match_ratio": 0.935,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#3",
+    "vai": "H",
+    "start": 13.62,
+    "end": 21.12,
+    "pause": 0.6,
+    "text": "電話の主は、1,600キロ以上離れたコロラド州プエブロの公衆電話からかけてきたエドマンド・ケンパーでした。",
+    "bg": "tk03_phone_booth",
+    "motion": "pan",
+    "match_ratio": 0.959,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#4",
+    "vai": "H",
+    "start": 22.1,
+    "end": 32.64,
+    "pause": 0.6,
+    "text": "極めて落ち着いた声で、彼はこう告げました。<#0.35#> 私は母と、その友人を殺しました。そして、女子学生たちを殺しました。6人です。",
+    "bg": "tk03_phone_booth",
+    "motion": "push",
+    "match_ratio": 0.964,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#5",
+    "vai": "N1",
+    "start": 34.9,
+    "end": 38.98,
+    "pause": 0.6,
+    "text": "当初、当直係は酔っ払いのいたずら電話だと思い、かけ直すよう伝えました。",
+    "bg": "tk03_dispatch_desk",
+    "motion": "still",
+    "match_ratio": 0.75,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#6",
+    "vai": "H",
+    "start": 39.74,
+    "end": 51.0,
+    "pause": 0.7,
+    "text": "2時間後に彼が再び電話してきたとき、その警告は捜査員たちを凍りつかせました。<#0.35#> 私を止めてください。私はそれをもう一度するつもりです。",
+    "bg": "tk03_phone_booth",
+    "motion": "push",
+    "match_ratio": 0.906,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#7",
+    "vai": "H",
+    "start": 52.0,
+    "end": 58.02,
+    "pause": 0.6,
+    "text": "彼は犯行を自慢するために電話したのではありません。自分自身を止められなくなる恐怖から電話したのです。",
+    "bg": "tk03_phone_booth",
+    "motion": "still",
+    "match_ratio": 0.979,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#8",
+    "vai": "D",
+    "start": 58.64,
+    "end": 70.42,
+    "pause": 0.7,
+    "text": "パトカーが到着したとき、身長2メートル06の巨漢は公衆電話の中で静かに自首し、車内には銃3丁と数百発の実弾が積まれていました。",
+    "bg": "tk03_apartos_house",
+    "motion": "pan",
+    "match_ratio": 0.8,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#9",
+    "vai": "C",
+    "start": 71.7,
+    "end": 82.26,
+    "pause": 0.7,
+    "text": "究極の標的であった母親の死によって、彼の万能妄想は崩壊しました。極度の空虚感が、彼を心理的限界点へと追いやったのです。",
+    "bg": "tk03_brain_mirror",
+    "motion": "pull",
+    "match_ratio": 0.927,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#10",
+    "vai": "H",
+    "start": 83.9,
+    "end": 88.34,
+    "pause": 0.0,
+    "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+    "bg": "tk03_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.686,
+    "interp": false
+  }
+]

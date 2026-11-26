@@ -124,7 +124,7 @@ Backup trước khi sửa: `.work/_cu/tk03_bgname_20261120_2312/` (file kế ho�
 ## 6. Việc còn lại (người dùng / lần sau)
 
 1. **Nâng 16 nền dự phòng thành AI thật** khi bật credit auto-consumption (xem B1). Ưu tiên theo mức độ "cắt mất chủ thể": `two_agents` → `interview_room` → `mother_shadow` (đã crop lại nhưng vẫn là bản cắt) → `gift_drowned` → `life_sentence`.
-2. **Dựng 5 clip 9:16** — bước 4 của `KE_HOACH_CLIP_TAP03.md` (cần 51 file WAV theo `SPEC_AUDIO_CLIP_TAP03.json`).
+2. ~~**Dựng 5 clip 9:16** — bước 4 của `KE_HOACH_CLIP_TAP03.md` (cần 51 file WAV theo `SPEC_AUDIO_CLIP_TAP03.json`).~~ → **ĐÃ XONG 25/11/2026**: 5 clip `TK{1..5}_video.mp4` trong thư mục này, QC 51/51 shot đúng nền. Báo cáo: `BAO_CAO_DUNG_VIDEO_TAP03.md`. Timeline phải dựng lại bằng ASR + forced alignment vì file WAV từng câu đã bị dọn.
 3. **Điền link YouTube Tập 03** vào 5 file caption (đang placeholder) + profile.
 4. **Không commit media** (L10): 28 ảnh `assets/bg/tk03_*.png` bị `.gitignore` loại — chỉ commit tài liệu + script.
 

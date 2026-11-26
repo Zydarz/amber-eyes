@@ -1882,7 +1882,13 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("NIGHT STALKER", "SAY MÊ KẺ ÁC"),
+        # H11: nền CỦA TẬP 23 — ngôi sao năm cánh ngược là DẤU ẤN (signature) của
+        # Richard Ramirez để lại tại hiện trường (kịch bản Hồi 1). Nền sạch chữ.
+        "thumb_bg": "t23_a2_19_psychological_signature_pentagram_wall",
+        # A11 #148: phải rẽ nhánh theo ngôn ngữ — không được để EN/JA in chữ tiếng Việt.
+        "thumb": (("NIGHT STALKER", "HYBRISTOPHILIA") if EN else
+                  ("ナイト・ストーカー", "犯罪者愛好症") if JA else
+                  ("NIGHT STALKER", "SAY MÊ KẺ ÁC")),
         "title": "Ám Ảnh 'Night Stalker' & Bí Ẩn Hội Chứng Say Mê Tội Phạm (Hồ Sơ Richard Ramirez)",
         "act_titles": {1: "Hồi 1 · Mùa hè rực lửa 1985 & cơn ác mộng rình rập ban đêm", 2: "Hồi 2 · Phiên tòa cuồng loạn & những người hâm mộ kẻ sát nhân",
                        3: "Hồi 3 · Giải mã tâm lý: Chấn thương não bộ & hội chứng say mê tội phạm (Hybristophilia)", 4: "Hồi 4 · Di sản tư pháp & sự sụp đổ của một ảo tượng",
@@ -1899,7 +1905,7 @@ EPISODES = {
         "plan": "KeHoach_Video_Tap24_EN.md" if EN else ("KeHoach_Video_Tap24_JA.md" if JA else "KeHoach_Video_Tap24.md"),
         "master": "Tap24_EN_master" if EN else ("Tap24_JA_master" if JA else "Tap24_master"),
         "srt": "Tap24_EN.srt" if EN else ("Tap24_JA.srt" if JA else "Tap24.srt"),
-        "intro": "intro_kenh_EN.mov" if EN else ("intro_kenh_JA.mov" if JA else "intro_kenh.mov"),
+        "intro": "intro_kenh_EN.mov" if EN else ("intro_kenh_JA_t24.mov" if JA else "intro_kenh.mov"),
         "n_element": {"1.09": "N1", "4.11": "N2"},
         "acting": WORK / ("acting_tap24_EN.json" if EN else ("acting_tap24_JA.json" if JA else "acting_tap24.json")),
         "sfx_sheet": WORK / ("sfx_tap24_EN.json" if EN else ("sfx_tap24_JA.json" if JA else "sfx_tap24.json")),
@@ -1910,7 +1916,25 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("KÝ ỨC", "HWASEONG"),
+        # H11: nền CỦA TẬP 24 — bàn thêu hoa trong buồng giam Busan (dấu vật "ký ức"
+        # của hồ sơ Lee Choon-jae). Nền sạch chữ, tối, trung tâm trống cho chữ thumbnail.
+        "thumb_bg": "t24_a1_30_prison_cell_embroidery_desk_30",
+        # A11 #148: phải rẽ nhánh theo ngôn ngữ — không được để EN/JA in chữ tiếng Việt.
+        "thumb": (("MEMORIES", "HWASEONG") if EN else
+                  ("記憶", "ファセオン") if JA else
+                  ("KÝ ỨC", "HWASEONG")),
+        # Vai hiển thị trên thẻ giới thiệu (A11 #148): bản EN/JA không được dùng
+        # chuỗi tiếng Việt (và "Blanchard" của bản EN mặc định là của tập khác).
+        "roles_en": {"H": ("HOST", "Your narrator"),
+                     "D": ("INVESTIGATOR", "Hwaseong case file"),
+                     "C": ("PSYCHOLOGIST", "Criminal psychology"),
+                     "N1": ("HWASEONG RESIDENT", "Living in fear for decades"),
+                     "N2": ("EXONERATED MAN", "Wrongfully convicted for 20 years")},
+        "roles_ja": {"H": ("ホスト", "ストーリーテラー"),
+                     "D": ("捜査官", "ファセオン事件記録"),
+                     "C": ("心理学者", "犯罪心理学"),
+                     "N1": ("ファセオンの住民", "長年の不安に暮らす人"),
+                     "N2": ("無実の男", "20年、誤って服役した男")},
         "title": "Ký Ức Kẻ Sát Nhân Hwaseong — Sự Thật 33 Năm Dưới Lớp Sương Mù & Lời Thú Tội Muộn Màng (Hồ Sơ Lee Choon-jae)",
         "act_titles": {1: "Hồi 1 · Những cánh đồng đêm Hwaseong & 33 năm trong sương mù", 2: "Hồi 2 · Cuộc đấu trí tại Trại giam Busan & lời tự bạch lạnh gáy",
                        3: "Hồi 3 · Giải mã tâm lý: Kẻ sát nhân kiểm soát quyền lực (Power-Control) & nghịch lý thú tội", 4: "Hồi 4 · Phiên tòa giải oan thế kỷ & lời xin lỗi của công lý",

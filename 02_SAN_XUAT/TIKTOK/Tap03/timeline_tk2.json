@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TK2.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 3.32,
+    "pause": 0.5,
+    "text": "Uống bia cùng cảnh sát. Và bàn về chính vụ án của mình.",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "still",
+    "match_ratio": 0.923,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#2",
+    "vai": "N2",
+    "start": 3.82,
+    "end": 13.92,
+    "pause": 0.6,
+    "text": "Quán rượu The Jury Room nằm đối diện ngay Tòa án Quận Santa Cruz, là nơi thám tử và cảnh sát thường ghé uống bia sau giờ tuần tra.",
+    "bg": "tk03_bar_jury_room",
+    "motion": "pull",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#3",
+    "vai": "N2",
+    "start": 14.96,
+    "end": 24.42,
+    "pause": 0.6,
+    "text": "Big Ed luôn ngồi ở góc quầy quen thuộc. Cao hai mét không sáu, đeo kính cận, ăn nói nhỏ nhẹ và hiểu biết sâu sắc về luật pháp.",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "pan",
+    "match_ratio": 0.828,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#4",
+    "vai": "D",
+    "start": 25.18,
+    "end": 32.64,
+    "pause": 0.6,
+    "text": "Ban ngày, hắn lái chiếc Ford Galaxie màu vàng năm một nghìn chín trăm sáu mươi chín, dán nhãn bãi đỗ xe nhân viên đại học trên cản trước.",
+    "bg": "tk03_galaxie",
+    "motion": "still",
+    "match_ratio": 0.69,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#5",
+    "vai": "D",
+    "start": 33.32,
+    "end": 39.6,
+    "pause": 0.6,
+    "text": "Chính tấm nhãn trường cùng vẻ ngoài trí thức, lịch thiệp đã khiến các cô nữ sinh tin rằng chiếc xe tuyệt đối an toàn.",
+    "bg": "tk03_hitchhiker",
+    "motion": "push",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#6",
+    "vai": "N2",
+    "start": 40.42,
+    "end": 46.58,
+    "pause": 0.8,
+    "text": "Có những đêm cảnh sát ngồi uống bia cùng Ed, chia sẻ những bế tắc trong cuộc săn lùng hung thủ Co-ed Killer.",
+    "bg": "tk03_bar_jury_room",
+    "motion": "still",
+    "match_ratio": 0.917,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#7",
+    "vai": "N2",
+    "start": 47.84,
+    "end": 54.2,
+    "pause": 0.8,
+    "text": "Ed vừa uống bia vừa phân tích, thậm chí gợi ý những giả thuyết tâm lý sắc bén về kẻ thủ ác.",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "push",
+    "match_ratio": 0.955,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#8",
+    "vai": "N2",
+    "start": 54.94,
+    "end": 63.72,
+    "pause": 0.7,
+    "text": "Nghĩ lại khoảnh khắc đó, lưng chúng tôi lạnh toát: Kẻ cả thành phố đang ráo riết truy tìm lại ngồi cười đùa cùng chính những người đi săn.",
+    "bg": "tk03_bar_stool_shadow",
+    "motion": "pull",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#9",
+    "vai": "C",
+    "start": 64.76,
+    "end": 71.48,
+    "pause": 0.7,
+    "text": "Hiệu ứng hào quang: trí thông minh vượt trội và sự hòa nhã giả tạo đã tạo nên điểm mù tuyệt đối trước mắt lực lượng thực thi pháp luật.",
+    "bg": "tk03_brain_mirror",
+    "motion": "still",
+    "match_ratio": 0.967,
+    "interp": false
+  },
+  {
+    "id": "TK2.01#10",
+    "vai": "H",
+    "start": 72.7,
+    "end": 76.42,
+    "pause": 0.0,
+    "text": "Tập ba của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+    "bg": "tk03_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.786,
+    "interp": false
+  }
+]

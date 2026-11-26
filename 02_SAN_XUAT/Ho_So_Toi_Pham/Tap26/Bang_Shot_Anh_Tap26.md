@@ -1,9 +1,10 @@
 # BẢNG MAPPING SHOT ↔ ẢNH NỀN · TẬP 26
 
 - Nguồn: `.work/bg_jobs_tap26.json` + kịch bản VN hiện tại · **176 shot · 176 ảnh khác nhau · ảnh bị dùng lặp ở >1 shot: 0** · phủ 240/240 câu
-- Ảnh đã có file `assets/bg/`: **167/176** · Tổng thời lượng ƯỚC LƯỢNG: 35.0 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
+- Ảnh đã có file `assets/bg/`: **176/176** · Tổng thời lượng ƯỚC LƯỢNG: 35.0 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
 - **LUẬT DỰNG (AGENTS.md H28):** AI dựng video PHẢI đọc file này (hoặc `.work/shot_map_tap26.json`) và dùng **đúng ảnh ở cột Tên ảnh cho đúng câu ở cột Câu** — CẤM tự chọn ảnh theo chủ đề, CẤM lặp ảnh, CẤM đổi thứ tự. Trước khi dựng chạy `py -3 .work/map_shot_anh.py --check 26` phải ĐẠT.
 - Cách dùng: dựng theo đúng thứ tự dòng; shot bắt đầu ở câu đầu của cột Câu và kéo tới hết câu cuối; ảnh = cột Tên ảnh.
+- ⚠ **Ảnh có lỗi đã biết (3 ảnh đầu GIỮ NGUYÊN theo quyết định người dùng 25/11/2026; ảnh ghi MỚI đang chờ quyết định):** `t26_a1_13b_police_hq_corridor_urgent_arrest_order` — viền giấy kem 4 mép + tờ giấy dán có chữ giả trên tường trái (H2/H26); `t26_a4_23_public_outcry_tokyo_streets` — MỚI 25/11 (soi lại): chữ AI trên đầu tàu điện "RELAEL PASSEN" + biển phản đối (H26) — CHỜ quyết định sinh lại
 - Lỗi mapping (cần xử lý): 0
 - Shot dài ước > 15 s (H10, chỉ ước lượng — kiểm lại khi có timeline): 53 · > 30 s (H22): 0
 
@@ -17,7 +18,7 @@
 | 1-006 | 1 | `1.04#5 – 1.04#6` | 2 | 14.0 | `t26_a1_06_macabre_crates_grim_discovery` | ✅ | Nắp thùng gỗ hé mở trong ánh đèn pin của cảnh sát, phát hiện bàng hoàng chấn động. |
 | 1-007 | 1 | `1.04#7` | 1 | 7.4 | `t26_a1_07_midnight_interrogation_waseda_precinct` | ✅ | Người phu xe bị áp giải về đồn cảnh sát Waseda thẩm vấn khẩn cấp trong đêm. |
 | 1-008 | 1 | `1.04#8 – 1.04#9` | 2 | 17.6 | `t26_a1_x01_private_crematorium_van_night_frost` | ✅ | Xe tải dịch vụ hỏa táng tư nhân đỗ đêm giá rét, không người. |
-| 1-009 | 1 | `1.06#1` | 1 | 7.7 | `t26_a1_07b_gravedigger_statement_lamplit_bench` | ⏳ | Lời khai của người làm nghề mai táng tại đồn: ông chỉ là người được thuê chở các cháu bé tới nơi hỏa táng. |
+| 1-009 | 1 | `1.06#1` | 1 | 7.7 | `t26_a1_07b_gravedigger_statement_lamplit_bench` | ✅ | Lời khai của người làm nghề mai táng tại đồn: ông chỉ là người được thuê chở các cháu bé tới nơi hỏa táng. |
 | 1-010 | 1 | `1.06#2 – 1.06#3` | 2 | 15.9 | `t26_a1_08_kotobuki_clinic_facade_shinjuku` | ✅ | Căn nhà gỗ hai tầng của Nhà hộ sinh Kotobuki tại quận Shinjuku tĩnh lặng đáng ngờ. |
 | 1-011 | 1 | `1.06#4 – 1.06#5` | 2 | 15.1 | `t26_a1_09_tokyo_mpd_headquarters_mobilization` | ✅ | Sở Cảnh sát Thủ đô Tokyo kích hoạt cuộc điều tra khẩn cấp cùng đội ngũ pháp y. |
 | 1-012 | 1 | `1.06#6` | 1 | 8.2 | `t26_a1_x02_case_folders_connected_by_string` | ✅ | Tường hồ sơ với các tập giấy trống nối nhau bằng sợi chỉ. |
@@ -26,12 +27,12 @@
 | 1-015 | 1 | `1.07#5 – 1.07#6` | 2 | 10.1 | `t26_a1_12_decision_at_crossroads_justice` | ✅ | Khoảnh khắc quyết định giữ xe kiểm tra, ranh giới cứu vãn sự thật khỏi bị chôn vùi. |
 | 1-016 | 1 | `1.07#7` | 1 | 6.3 | `t26_a1_13_forensic_detectives_assembling_dossier` | ✅ | Các thám tử và pháp y bắt tay vào lập hồ sơ vụ án Kotobuki đầy u ám. |
 | 1-017 | 1 | `1.07#8` | 1 | 7.7 | `t26_a1_x03_patrol_lantern_silhouette_snowy_street` | ✅ | Bóng người tuần tra với chiếc đèn lồng trên con phố tuyết. |
-| 1-018 | 1 | `1.09#1` | 1 | 9.9 | `t26_a1_13b_police_hq_corridor_urgent_arrest_order` | ⏳ | Ba ngày sau phát hiện trên phố, cảnh sát Tokyo khẩn cấp triển khai lệnh bắt giữ những người điều hành nhà hộ sinh. |
+| 1-018 | 1 | `1.09#1` | 1 | 9.9 | `t26_a1_13b_police_hq_corridor_urgent_arrest_order` | ✅ ⚠ | Ba ngày sau phát hiện trên phố, cảnh sát Tokyo khẩn cấp triển khai lệnh bắt giữ những người điều hành nhà hộ sinh. — ⚠ viền giấy kem 4 mép + tờ giấy dán có chữ giả trên tường trái (H2/H26) |
 | 1-019 | 1 | `1.09#2 – 1.09#3` | 2 | 20.1 | `t26_a1_14_kotobuki_raid_dawn_descent` | ✅ | Lực lượng cảnh sát và bác sĩ giám định bất ngờ đột kích vào Nhà hộ sinh Kotobuki. |
 | 1-020 | 1 | `1.09#4 – 1.09#5` | 2 | 16.7 | `t26_a1_15_squalid_nursery_ward_neglect` | ✅ | Điều kiện tồi tàn bên trong cơ sở với nôi tre lạnh lẽo và không khí ẩm mốc tang thương. |
 | 1-021 | 1 | `1.09#6` | 1 | 8.0 | `t26_a1_16_arrest_of_ishikawa_collaborators` | ✅ | Cảnh sát áp giải các đối tượng liên quan và đối diện người phụ nữ điều hành cơ sở. |
 | 1-022 | 1 | `1.09#7` | 1 | 9.9 | `t26_a1_x04_clinic_doorway_warm_lamp_vs_bare_window` | ✅ | Cửa phòng khám sáng đèn ấm đối lập khung cửa sổ trống trải. |
-| 1-023 | 1 | `1.10#1` | 1 | 8.0 | `t26_a1_16b_cold_clinic_hallway_unsettling_stillness` | ⏳ | Bầu không khí lạnh lẽo, vô cảm đến rợn người khi bước vào nhà hộ sinh Kotobuki. |
+| 1-023 | 1 | `1.10#1` | 1 | 8.0 | `t26_a1_16b_cold_clinic_hallway_unsettling_stillness` | ✅ | Bầu không khí lạnh lẽo, vô cảm đến rợn người khi bước vào nhà hộ sinh Kotobuki. |
 | 1-024 | 1 | `1.10#2` | 1 | 8.5 | `t26_a1_17_arrogant_matron_defiant_gaze` | ✅ | Thái độ bình thản, trơ tráo và tự tin kỳ lạ của nữ hộ sinh trước cơ quan điều tra. |
 | 1-025 | 1 | `1.10#3` | 1 | 9.6 | `t26_a1_18_charity_facade_false_benevolence` | ✅ | Lời bao biện trơ tráo về cái gọi là 'hành động nhân đạo cưu mang trẻ thơ'. |
 | 1-026 | 1 | `1.10#4` | 1 | 6.0 | `t26_a1_19_autopsy_table_scientific_truth` | ✅ | Bàn giám định pháp y của Đại học Tokyo bóc trần nguyên nhân tử vong do bỏ mặc cố ý. |
@@ -52,13 +53,13 @@
 | 2-041 | 2 | `2.02#1 – 2.02#2` | 2 | 20.6 | `t26_a2_01_wartime_black_market_deals` | ✅ | Quy trình trục lợi tinh vi hình thành trong bối cảnh luật cấm phá thai gắt gao thời chiến. |
 | 2-042 | 2 | `2.02#3` | 1 | 10.4 | `t26_a2_02_benevolent_facade_charity_trap` | ✅ | Miyuki Ishikawa dựng lên vỏ bọc mái ấm từ thiện để giăng bẫy những gia đình bế tắc. |
 | 2-043 | 2 | `2.02#4 – 2.02#5` | 2 | 17.6 | `t26_a2_x01_blank_paper_notice_pinned_clinic_door` | ✅ | Tờ giấy trắng ghim trên cửa phòng khám hợp pháp. |
-| 2-044 | 2 | `2.04#1` | 1 | 8.2 | `t26_a2_02b_kind_offer_across_tea_table` | ⏳ | Bà ta tiếp cận cặp cha mẹ bế tắc và đưa ra lời đề nghị nghe vô cùng nhân ái. |
+| 2-044 | 2 | `2.04#1` | 1 | 8.2 | `t26_a2_02b_kind_offer_across_tea_table` | ✅ | Bà ta tiếp cận cặp cha mẹ bế tắc và đưa ra lời đề nghị nghe vô cùng nhân ái. |
 | 2-045 | 2 | `2.04#2 – 2.04#3` | 2 | 21.5 | `t26_a2_03_transaction_of_despair_yen_notes` | ✅ | Khoản tiền phí hỗ trợ 4.000 - 5.000 yên được trao tay trong nước mắt và sự tuyệt vọng. |
 | 2-046 | 2 | `2.04#4 – 2.04#5` | 2 | 18.1 | `t26_a2_04_tearful_mother_leaving_clinic` | ✅ | Người mẹ nghèo nuốt nước mắt quay lưng rời khỏi nhà hộ sinh, tin vào lời hứa tương lai tốt đẹp. |
 | 2-047 | 2 | `2.04#6` | 1 | 8.8 | `t26_a2_05_heavy_door_locks_behind_victim` | ✅ | Cánh cửa gỗ khép lại, khoản tiền rơi vào túi kẻ thủ ác và quy trình bỏ mặc bắt đầu. |
 | 2-048 | 2 | `2.04#7` | 1 | 7.7 | `t26_a2_x02_locked_wooden_gate_chain_winter_fog` | ✅ | Cổng gỗ khóa xích trong sương mù mùa đông. |
 | 2-049 | 2 | `2.04#8` | 1 | 9.3 | `t26_a2_x03_lavish_room_tea_set_empty_coin_purse` | ✅ | Căn phòng xa hoa với bộ trà, bên cạnh túi tiền rỗng. |
-| 2-050 | 2 | `2.06#1` | 1 | 9.6 | `t26_a2_05b_indifferent_empty_desk_no_adoption_search` | ⏳ | Vợ chồng Ishikawa hoàn toàn không có ý định chăm sóc hay tìm gia đình nhận nuôi cho bất kỳ đứa trẻ nào. |
+| 2-050 | 2 | `2.06#1` | 1 | 9.6 | `t26_a2_05b_indifferent_empty_desk_no_adoption_search` | ✅ | Vợ chồng Ishikawa hoàn toàn không có ý định chăm sóc hay tìm gia đình nhận nuôi cho bất kỳ đứa trẻ nào. |
 | 2-051 | 2 | `2.06#2 – 2.06#3` | 2 | 12.0 | `t26_a2_06_deprived_cribs_unheated_room` | ✅ | Những đứa trẻ bị dồn vào căn phòng ẩm thấp, bị tước đoạt hoàn toàn nguồn sữa và chăm sóc. |
 | 2-052 | 2 | `2.06#4 – 2.06#5` | 2 | 19.8 | `t26_a2_07_husband_takeshi_financial_ledger` | ✅ | Người chồng Takeshi Ishikawa quản lý sổ sách tài chính trục lợi tàn nhẫn. |
 | 2-053 | 2 | `2.06#6 – 2.06#7` | 2 | 15.9 | `t26_a2_08_corrupt_doctor_nakayama_desk` | ✅ | Bác sĩ Shiro Nakayama ký khống hàng loạt giấy chứng tử để hợp thức hóa các cái chết. |
@@ -91,7 +92,7 @@
 | 3-080 | 3 | `3.03#5 – 3.03#6` | 2 | 19.2 | `t26_a3_05_god_complex_fatal_delusion` | ✅ | Ảo tưởng bản thân có quyền quyết định ai được sống, ai nên ra đi vì lợi ích chung. |
 | 3-081 | 3 | `3.03#7` | 1 | 8.8 | `t26_a3_06_compartmentalization_dark_mind` | ✅ | Cơ chế chia ngăn tâm lý: ban ngày làm nữ hộ sinh mẫu mực, ban đêm điều hành cỗ máy tử thần. |
 | 3-082 | 3 | `3.03#8` | 1 | 9.9 | `t26_a3_x02_white_healer_coat_long_black_shadow` | ✅ | Chiếc áo choàng trắng treo trên móc đổ bóng đen dài. |
-| 3-083 | 3 | `3.04#1` | 1 | 7.1 | `t26_a3_06b_compassion_mask_hairline_crack` | ⏳ | Sự tự biện minh về lòng trắc ẩn chỉ là lớp vỏ bọc để xoa dịu lương tâm ban đầu. |
+| 3-083 | 3 | `3.04#1` | 1 | 7.1 | `t26_a3_06b_compassion_mask_hairline_crack` | ✅ | Sự tự biện minh về lòng trắc ẩn chỉ là lớp vỏ bọc để xoa dịu lương tâm ban đầu. |
 | 3-084 | 3 | `3.04#2 – 3.04#3` | 2 | 19.2 | `t26_a3_07_desensitization_habitual_evil` | ✅ | Hiện tượng khử nhạy cảm: khi cái ác lặp lại nhiều lần, sự cắn rứt lương tâm biến mất hoàn toàn. |
 | 3-085 | 3 | `3.04#4` | 1 | 7.4 | `t26_a3_x03_abacus_blank_ledger_coins` | ✅ | Bàn tính, quyển sổ trống và những đồng xu. |
 | 3-086 | 3 | `3.05#1 – 3.05#2` | 2 | 17.8 | `t26_a3_08_narcissistic_entitlement_greed` | ✅ | Lòng tham trục lợi xâm lấn và lấn át hoàn toàn những vỏ bọc trắc ẩn ban đầu. |
@@ -100,7 +101,7 @@
 | 3-089 | 3 | `3.05#7` | 1 | 10.4 | `t26_a3_11_institutional_blindspot_complicity` | ✅ | Sự đồng lõa của các cơ quan quản lý buông lỏng tạo điều kiện cho tội ác phát triển. |
 | 3-090 | 3 | `3.05#8` | 1 | 7.7 | `t26_a3_x04_stack_of_blank_certificates_ink_stamp` | ✅ | Chồng giấy trống và con dấu mực đặt trên bàn. |
 | 3-091 | 3 | `3.05#9 – 3.05#10` | 2 | 14.2 | `t26_a3_x05_interlocking_gears_coin_shaped` | ✅ | Bánh răng khớp nhau, một bánh hình đồng xu. |
-| 3-092 | 3 | `3.06#1` | 1 | 7.7 | `t26_a3_11b_spotless_hospital_corridor_hidden_rot` | ⏳ | Sự bình thường hóa cái ác trong tâm trí Ishikawa tạo nên nghịch lý rùng mình của lịch sử y khoa Nhật Bản. |
+| 3-092 | 3 | `3.06#1` | 1 | 7.7 | `t26_a3_11b_spotless_hospital_corridor_hidden_rot` | ✅ | Sự bình thường hóa cái ác trong tâm trí Ishikawa tạo nên nghịch lý rùng mình của lịch sử y khoa Nhật Bản. |
 | 3-093 | 3 | `3.06#2 – 3.06#3` | 2 | 17.8 | `t26_a3_12_perverted_maternal_archetype` | ✅ | Hình tượng 'người mẹ đen tối' (The Dark Mother) trong tâm lý học cổ mẫu Jungian. |
 | 3-094 | 3 | `3.06#4 – 3.06#5` | 2 | 16.5 | `t26_a3_13_callous_unemotional_traits` | ✅ | Đặc điểm nhân cách ái kỷ lạnh lùng triệt tiêu khả năng đồng cảm tự nhiên. |
 | 3-095 | 3 | `3.07#1 – 3.07#2` | 2 | 21.5 | `t26_a3_14_societal_indifference_mirror` | ✅ | Tội ác phản chiếu sự thờ ơ của toàn xã hội trước số phận của những đứa trẻ yếu thế. |
@@ -148,7 +149,7 @@
 | 4-137 | 4 | `4.10#1` | 1 | 12.1 | `t26_a4_20_controversial_lenient_sentence` | ✅ | Phán quyết 8 năm tù giam sơ thẩm gây ra làn sóng phẫn nộ và tranh cãi dữ dội trong dư luận. |
 | 4-138 | 4 | `4.10#2` | 1 | 8.2 | `t26_a4_21_legal_loophole_omission_vs_commission` | ✅ | Lỗ hổng pháp lý thời bấy giờ: khó khăn trong việc quy kết tội giết người trực tiếp cho hành vi bỏ mặc. |
 | 4-139 | 4 | `4.10#3` | 1 | 9.1 | `t26_a4_22_high_court_appeal_reduction` | ✅ | Tòa Cấp cao Tokyo sau đó tiếp tục giảm án xuống còn 4 năm tù giam, đỉnh điểm bất bình. |
-| 4-140 | 4 | `4.10#4` | 1 | 10.7 | `t26_a4_23_public_outcry_tokyo_streets` | ✅ | Làn sóng biểu tình và những bài báo phản đối bản án quá nhẹ khắp các nẻo đường Tokyo. |
+| 4-140 | 4 | `4.10#4` | 1 | 10.7 | `t26_a4_23_public_outcry_tokyo_streets` | ✅ ⚠ | Làn sóng biểu tình và những bài báo phản đối bản án quá nhẹ khắp các nẻo đường Tokyo. — ⚠ MỚI 25/11 (soi lại): chữ AI trên đầu tàu điện "RELAEL PASSEN" + biển phản đối (H26) — CHỜ quyết định sinh lại |
 | 4-141 | 4 | `4.10#5` | 1 | 8.2 | `t26_a4_24_wake_up_call_for_japanese_society` | ✅ | Bản án trở thành cú hích buộc toàn bộ hệ thống lập pháp và xã hội Nhật Bản phải thức tỉnh. |
 | 4-142 | 4 | `4.10#6` | 1 | 10.2 | `t26_a4_x06_gavel_ripples_still_water` | ✅ | Chiếc búa tòa và những gợn sóng lan trên mặt nước tĩnh. |
 | 4-143 | 4 | `4.11#1` | 1 | 9.9 | `t26_a4_25_eugenic_protection_act_passage` | ✅ | Quốc hội Nhật Bản thông qua Luật Bảo vệ Thể chất năm 1948 hợp pháp hóa việc kiểm soát sinh sản. |
@@ -164,13 +165,13 @@
 | 5-153 | 5 | `5.03#1 – 5.03#2` | 2 | 22.8 | `t26_a5_03_governance_and_uncompromising_oversight` | ✅ | Bài học quản lý nhà nước: tuyệt đối không buông lỏng việc giám sát và thanh tra các cơ sở bảo trợ. |
 | 5-154 | 5 | `5.03#3` | 1 | 8.2 | `t26_a5_04_transparency_as_shield` | ✅ | Sự minh bạch và thanh tra đột xuất chính là lá chắn vững chắc bảo vệ sinh mệnh mầm non. |
 | 5-155 | 5 | `5.03#4` | 1 | 9.6 | `t26_a5_x02_blank_form_pen_warm_lamp_desk` | ✅ | Tờ giấy trắng và cây bút dưới ngọn đèn ấm. |
-| 5-156 | 5 | `5.04#1` | 1 | 10.7 | `t26_a5_04b_predator_shadow_over_struggling_family` | ⏳ | Kẻ trục lợi khai thác sự túng quẫn, mặc cảm tội lỗi và thiếu hiểu biết của các gia đình gặp biến cố. |
+| 5-156 | 5 | `5.04#1` | 1 | 10.7 | `t26_a5_04b_predator_shadow_over_struggling_family` | ✅ | Kẻ trục lợi khai thác sự túng quẫn, mặc cảm tội lỗi và thiếu hiểu biết của các gia đình gặp biến cố. |
 | 5-157 | 5 | `5.04#2 – 5.04#3` | 2 | 18.1 | `t26_a5_05_wolves_in_sheeps_clothing` | ✅ | Cảnh giác nhận diện những kẻ trục lợi khoác áo nhà từ thiện hảo tâm. |
 | 5-158 | 5 | `5.04#4 – 5.04#5` | 2 | 18.7 | `t26_a5_06_independent_verification_principle` | ✅ | Nguyên tắc sinh tồn: không phó thác mù quáng sinh mệnh con em mình cho bất kỳ ai. |
 | 5-159 | 5 | `5.04#6 – 5.04#7` | 2 | 18.7 | `t26_a5_07_community_responsibility_network` | ✅ | Xây dựng mạng lưới hỗ trợ cộng đồng chính thống để không ai bị đẩy vào đường cùng. |
 | 5-160 | 5 | `5.04#8` | 1 | 15.7 | `t26_a5_08_amber_eyes_four_redflags_overview` | ✅ | Bảng tổng quan 4 Dấu hiệu Cảnh báo Đỏ sinh tồn đúc kết từ hồ sơ Miyuki Ishikawa. |
 | 5-161 | 5 | `5.04#9` | 1 | 8.5 | `t26_a5_x03_ring_of_linked_hands_around_small_toys` | ✅ | Vòng tay nối nhau bao quanh vài món đồ chơi nhỏ. |
-| 5-162 | 5 | `5.05#1` | 1 | 16.0 | `t26_a5_08b_amber_window_parent_vigilance` | ⏳ | Kênh Amber Eyes chia sẻ bốn dấu hiệu cảnh báo đỏ để phụ huynh và cộng đồng nâng cao cảnh giác. |
+| 5-162 | 5 | `5.05#1` | 1 | 16.0 | `t26_a5_08b_amber_window_parent_vigilance` | ✅ | Kênh Amber Eyes chia sẻ bốn dấu hiệu cảnh báo đỏ để phụ huynh và cộng đồng nâng cao cảnh giác. |
 | 5-163 | 5 | `5.05#2 – 5.05#3` | 2 | 24.0 | `t26_a5_09_redflag1_opaque_unlicensed_operations` | ✅ | Cảnh báo đỏ 1: Cơ sở hoạt động mập mờ, thiếu cấp phép và giám sát độc lập của nhà nước. |
 | 5-164 | 5 | `5.05#4 – 5.05#5` | 2 | 20.9 | `t26_a5_10_redflag1_refusal_of_legal_scrutiny` | ✅ | Từ chối cung cấp giấy tờ pháp lý hoặc yêu cầu giao dịch bí mật là dấu hiệu nguy hiểm chết người. |
 | 5-165 | 5 | `5.05#6 – 5.05#7` | 2 | 21.2 | `t26_a5_11_redflag2_package_deals_without_accountability` | ✅ | Cảnh báo đỏ 2: Cơ chế thu phí trọn gói với lời hứa hẹn dễ dàng nhưng lảng tránh minh bạch tài chính. |

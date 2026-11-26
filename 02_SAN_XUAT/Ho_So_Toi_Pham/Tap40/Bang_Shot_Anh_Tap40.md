@@ -1,9 +1,10 @@
 # BẢNG MAPPING SHOT ↔ ẢNH NỀN · TẬP 40
 
 - Nguồn: `.work/bg_jobs_tap40.json` + kịch bản VN hiện tại · **154 shot · 154 ảnh khác nhau · ảnh bị dùng lặp ở >1 shot: 0** · phủ 238/238 câu
-- Ảnh đã có file `assets/bg/`: **144/154** · Tổng thời lượng ƯỚC LƯỢNG: 34.6 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
+- Ảnh đã có file `assets/bg/`: **154/154** · Tổng thời lượng ƯỚC LƯỢNG: 34.6 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
 - **LUẬT DỰNG (AGENTS.md H28):** AI dựng video PHẢI đọc file này (hoặc `.work/shot_map_tap40.json`) và dùng **đúng ảnh ở cột Tên ảnh cho đúng câu ở cột Câu** — CẤM tự chọn ảnh theo chủ đề, CẤM lặp ảnh, CẤM đổi thứ tự. Trước khi dựng chạy `py -3 .work/map_shot_anh.py --check 40` phải ĐẠT.
 - Cách dùng: dựng theo đúng thứ tự dòng; shot bắt đầu ở câu đầu của cột Câu và kéo tới hết câu cuối; ảnh = cột Tên ảnh.
+- ⚠ **Ảnh có lỗi đã biết (3 ảnh đầu GIỮ NGUYÊN theo quyết định người dùng 25/11/2026; ảnh ghi MỚI đang chờ quyết định):** `t40_a5_10b_open_car_door_headlights_run_to_lit_houses` — viền giấy kem 4 mép + chữ/logo giả góc dưới trái (H2/H26); `t40_a5_02_crowd_gathered_outside_prison_gates` — biển nhỏ có nét giống chữ ở góc dưới phải (nghi, H26); `t40_a1_18_fleeing_taillights_in_the_rain` — MỚI 25/11 (soi lại): biển số xe có chữ AI "T9Y 110" (H2/H26) — CHỜ quyết định sinh lại
 - Lỗi mapping (cần xử lý): 0
 - Shot dài ước > 15 s (H10, chỉ ước lượng — kiểm lại khi có timeline): 63 · > 30 s (H22): 0
 
@@ -11,7 +12,7 @@
 |---|---|---|---|---|---|---|---|
 | 1-001 | 1 | `1.02#1 – 1.02#2` | 2 | 20.6 | `t40_a1_31_innocence_lost_era_of_seventies` | ✅ | Sự chấm dứt của kỷ nguyên ngây thơ: Chiếc xe đạp trẻ em ngã nghiêng trên bãi cỏ dưới ánh trăng lạnh lẽo, dự cảm bất an. |
 | 1-002 | 1 | `1.02#3 – 1.02#4` | 2 | 19.2 | `t40_a1_03_social_blindspot_concept_halo_effect` | ✅ | Hình ảnh biểu tượng Điểm mù xã hội: Một bóng người đứng giữa vòng tròn ánh sáng hào quang rực rỡ che khuất mảng tối sâu thẳm phía sau. |
-| 1-003 | 1 | `1.02#5 – 1.02#6` | 2 | 19.0 | `t40_a1_03b_television_glow_charming_stranger_stereotype` | ⏳ | Truyền thông và văn hóa đại chúng xây dựng định kiến về kẻ ác; niềm tin ngây thơ ấy tạo nên Điểm mù xã hội. |
+| 1-003 | 1 | `1.02#5 – 1.02#6` | 2 | 19.0 | `t40_a1_03b_television_glow_charming_stranger_stereotype` | ✅ | Truyền thông và văn hóa đại chúng xây dựng định kiến về kẻ ác; niềm tin ngây thơ ấy tạo nên Điểm mù xã hội. |
 | 1-004 | 1 | `1.02#7 – 1.02#8` | 2 | 23.1 | `t40_a1_01_pacific_northwest_lake_sammamish_summer` | ✅ | Quang cảnh mùa hè thanh bình rực rỡ bên hồ Lake Sammamish năm 1974, vẻ đẹp yên ả đối lập với tai ương ngầm ẩn. |
 | 1-005 | 1 | `1.02#9 – 1.02#11` | 3 | 26.9 | `t40_a1_02_1970s_crowded_sunbathing_beach` | ✅ | Bãi cỏ công viên ven hồ ngập tràn bóng người đi dã ngoại thập niên 1970, không khí thư thái ngây thơ không chút phòng bị. |
 | 1-006 | 1 | `1.02#12` | 1 | 9.3 | `t40_a1_29_lake_sammamish_sunset_silhouette` | ✅ | Hoàng hôn buông đỏ rực trên mặt hồ Sammamish, mặt nước phản chiếu ánh hoàng hôn đỏ như máu giữa những hàng thông đen thẫm. |
@@ -32,22 +33,22 @@
 | 1-021 | 1 | `1.09#2` | 1 | 7.7 | `t40_a1_17_passing_car_headlights_rescue` | ✅ | Hai luồng ánh sáng đèn pha xe hơi của người qua đường xuyên thủng màn đêm, cứu thoát nạn nhân khỏi nanh vuốt kẻ săn mồi. |
 | 1-022 | 1 | `1.09#3 – 1.09#4` | 2 | 18.1 | `t40_a1_27_daronch_trauma_and_resilience_shadows` | ✅ | Bóng dáng cô gái trẻ ngồi bên khung cửa sổ mờ sương, ánh mắt kiên định dù mang nặng sang chấn sau cuộc đào thoát sinh tử. |
 | 1-023 | 1 | `1.09#5` | 1 | 7.1 | `t40_a1_33_gathering_storm_clouds_over_cascades` | ✅ | Những đám mây giông đen kịt vần vũ trên đỉnh dãy núi Cascade, báo hiệu cơn ác mộng đang lan rộng khắp nước Mỹ. |
-| 1-024 | 1 | `1.09#6` | 1 | 8.0 | `t40_a1_18_fleeing_taillights_in_the_rain` | ✅ | Cặp đèn hậu đỏ rực của chiếc xe Volkswagen Beetle lẩn khuất phóng vội vào màn đêm u tối mịt mùng. |
+| 1-024 | 1 | `1.09#6` | 1 | 8.0 | `t40_a1_18_fleeing_taillights_in_the_rain` | ✅ ⚠ | Cặp đèn hậu đỏ rực của chiếc xe Volkswagen Beetle lẩn khuất phóng vội vào màn đêm u tối mịt mùng. — ⚠ MỚI 25/11 (soi lại): biển số xe có chữ AI "T9Y 110" (H2/H26) — CHỜ quyết định sinh lại |
 | 1-025 | 1 | `1.10#1` | 1 | 7.4 | `t40_a1_19_dangling_handcuffs_evidence_counter` | ✅ | Chiếc còng số tám bằng thép còn lủng lẳng một bên khóa được đặt trên bàn thu thập vật chứng của sở cảnh sát. |
 | 1-026 | 1 | `1.10#2 – 1.10#3` | 2 | 18.1 | `t40_a1_25_cognitive_empathy_hunting_tool` | ✅ | Sự thấu cảm nhận thức săn mồi: Khả năng đọc vị cảm xúc và nỗi đau của người khác để làm vũ khí thao túng thay vì sẻ chia. |
 | 1-027 | 1 | `1.10#4 – 1.10#5` | 2 | 20.1 | `t40_a1_26_crowded_seattle_coffee_shop_booth` | ✅ | Góc quán cà phê Seattle thập niên 1970: Người thanh niên hào hoa cười nói giữa bạn bè trí thức, không ai mảy may nghi ngờ. |
 | 1-028 | 1 | `1.10#6` | 1 | 11.6 | `t40_a1_32_investigative_board_connecting_victims` | ✅ | Bảng điều tra sơ khởi của cảnh sát: Bản đồ bờ Tây nước Mỹ nối các địa điểm mất tích bằng những sợi dây dù đỏ căng thẳng. |
 | 1-029 | 1 | `1.10#7` | 1 | 11.6 | `t40_a1_28_missed_red_flags_and_societal_cost` | ✅ | Những chiếc chuông báo động bị bỏ quên: Hàng loạt đầu mối cảnh sát bị nghẽn lại vì sự phân mảnh thông tin giữa các bang. |
 | 1-030 | 1 | `1.10#8` | 1 | 6.8 | `t40_a1_20_police_sketch_artist_drawing_ted` | ✅ | Người họa sĩ pháp y cẩn trọng phác thảo từng đường nét chân dung của kẻ mang nẹp tay tên Ted trên tờ giấy trắng. |
-| 1-031 | 1 | `1.11#1` | 1 | 8.8 | `t40_a1_21_composite_sketch_pasted_on_walls` | ⏳ | Cột đèn và bức tường góc phố ban đêm dán những tờ giấy trống bay trong gió lạnh, ẩn dụ cuộc truy tìm. |
+| 1-031 | 1 | `1.11#1` | 1 | 8.8 | `t40_a1_21_composite_sketch_pasted_on_walls` | ✅ | Cột đèn và bức tường góc phố ban đêm dán những tờ giấy trống bay trong gió lạnh, ẩn dụ cuộc truy tìm. |
 | 1-032 | 1 | `1.11#2` | 1 | 9.9 | `t40_a1_22_halo_effect_blinding_perception` | ✅ | Biểu tượng Hiệu ứng hào quang: Chiếc mặt nạ mạ vàng che đậy vết nứt nẻ gớm ghiếc bên dưới, nghệ thuật ẩn dụ tâm lý. |
 | 1-033 | 1 | `1.11#3` | 1 | 9.3 | `t40_a1_24_crisis_clinic_telephone_volunteer_desk` | ✅ | Bàn làm việc tại trung tâm tư vấn khủng hoảng tâm lý: Chiếc điện thoại bàn cổ điển bên cạnh ngọn đèn bàn ấm áp. |
 | 1-034 | 1 | `1.11#4` | 1 | 6.8 | `t40_a1_23_university_of_washington_law_hall` | ✅ | Hành lang cổ kính trang nghiêm của khoa Luật Đại học Washington, nơi Ted Bundy từng hòa mình như một sinh viên kiểu mẫu. |
 | 1-035 | 1 | `1.11#5` | 1 | 8.0 | `t40_a1_34_act1_closing_chilling_smile_in_shadow` | ✅ | Nụ cười quyến rũ nửa khuôn mặt chìm trong bóng tối dày đặc, khép lại Hồi 1 với cảm giác rợn ngợp về chiếc mặt nạ quỷ quyệt. |
 | 2-036 | 2 | `2.02#1 – 2.02#2` | 2 | 18.1 | `t40_a2_01_psychology_class_notes_and_pen` | ✅ | Giáo trình tâm lý học và bút máy sang trọng trên bàn gỗ bóng, hình ảnh người sinh viên xuất sắc hoàn hảo. |
 | 2-037 | 2 | `2.02#3` | 1 | 8.5 | `t40_a2_29_ted_writing_legal_briefs_at_desk` | ✅ | Bàn học luật đêm khuya: Tập tài liệu tố tụng hình sự bên cạnh ấm cà phê đen đặc, sự đam mê quyền lực tư pháp lệch lạc. |
-| 2-038 | 2 | `2.02#4 – 2.02#5` | 2 | 19.5 | `t40_a2_14_crisis_hotline_headset_desk_night` | ⏳ | Căn phòng đường dây nóng phòng chống tự tử ở Seattle: bàn gỗ, điện thoại quay số, tai nghe, ngọn đèn ấm — nơi hắn ngồi lắng nghe. |
-| 2-039 | 2 | `2.02#6 – 2.02#7` | 2 | 18.1 | `t40_a2_14b_two_desks_dual_shadow_crisis_line` | ⏳ | Người đồng nghiệp bên cạnh là Ann Rule; làm sao một người vừa cứu rỗi linh hồn đau khổ ban ngày, vừa là kẻ săn mồi ban đêm. |
+| 2-038 | 2 | `2.02#4 – 2.02#5` | 2 | 19.5 | `t40_a2_14_crisis_hotline_headset_desk_night` | ✅ | Căn phòng đường dây nóng phòng chống tự tử ở Seattle: bàn gỗ, điện thoại quay số, tai nghe, ngọn đèn ấm — nơi hắn ngồi lắng nghe. |
+| 2-039 | 2 | `2.02#6 – 2.02#7` | 2 | 18.1 | `t40_a2_14b_two_desks_dual_shadow_crisis_line` | ✅ | Người đồng nghiệp bên cạnh là Ann Rule; làm sao một người vừa cứu rỗi linh hồn đau khổ ban ngày, vừa là kẻ săn mồi ban đêm. |
 | 2-040 | 2 | `2.04#1 – 2.04#2` | 2 | 17.8 | `t40_a2_03_compartmentalization_mental_vault` | ✅ | Cơ chế chia ngăn tâm trí (Compartmentalization): Những cánh cửa sắt phòng ngân khố kiên cố khóa kín từng mảng nhân cách độc lập. |
 | 2-041 | 2 | `2.04#3` | 1 | 11.0 | `t40_a2_02_double_life_mirror_reflection` | ✅ | Tấm gương cổ nứt đôi phản chiếu hai nửa khuôn mặt: Một bên cười ấm áp trí thức, một bên chìm vào bóng tối vô hồn. |
 | 2-042 | 2 | `2.04#4 – 2.04#5` | 2 | 20.3 | `t40_a2_12_stalker_silhouette_outside_window` | ✅ | Bóng kẻ săn mồi đứng bất động dưới tán cây phong phủ đầy tuyết, dõi mắt nhìn vào căn phòng nữ sinh trên tầng hai. |
@@ -72,7 +73,7 @@
 | 2-061 | 2 | `2.08#4` | 1 | 6.8 | `t40_a2_17_highway_map_interstate_80_spanning` | ✅ | Tấm bản đồ cao tốc Interstate 80 nối dài từ bờ Tây qua dãy núi Rocky, con đường dịch chuyển săn mồi liên bang. |
 | 2-062 | 2 | `2.08#5` | 1 | 10.7 | `t40_a2_11_coed_sorority_quiet_winter_night` | ✅ | Khu nhà ký túc xá nữ sinh trong đêm đông yên tĩnh, ánh đèn vàng ấm áp hắt qua ô cửa sổ giữa trời tuyết rơi lất phất. |
 | 2-063 | 2 | `2.08#6 – 2.08#7` | 2 | 17.3 | `t40_a2_26_creeping_paranoia_in_pacific_nw` | ✅ | Bầu không khí hoang mang bao trùm vùng Tây Bắc: Những cánh cửa nhà được khóa ba lớp then, phụ nữ không dám ra đường một mình. |
-| 2-064 | 2 | `2.08#8` | 1 | 6.6 | `t40_a2_28_nighttime_highway_lonely_motel_neon` | ⏳ | Nhà nghỉ ven đường vắng, ánh đỏ mờ phản chiếu vũng nước mưa. |
+| 2-064 | 2 | `2.08#8` | 1 | 6.6 | `t40_a2_28_nighttime_highway_lonely_motel_neon` | ✅ | Nhà nghỉ ven đường vắng, ánh đỏ mờ phản chiếu vũng nước mưa. |
 | 2-065 | 2 | `2.09#1 – 2.09#2` | 2 | 15.6 | `t40_a2_23_elizabeth_weeping_in_dark_room` | ✅ | Bóng dáng người phụ nữ ngồi gục đầu trên mép giường trong căn phòng tối, sự giằng xé giữa tình yêu và sự nghi ngờ kinh hoàng. |
 | 2-066 | 2 | `2.09#3 – 2.09#4` | 2 | 17.6 | `t40_a2_10_colorado_aspen_snowy_mountains` | ✅ | Thung lũng tuyết trắng lạnh giá của vùng núi Aspen, bang Colorado năm 1975, bóng ma bạo lực vươn vòi sang tiểu bang mới. |
 | 2-067 | 2 | `2.09#5` | 1 | 8.5 | `t40_a2_27_chiaroscuro_mask_cracking_open` | ✅ | Vết nứt trên chiếc mặt nạ: Sự ngạo mạn leo thang đẩy kẻ thủ ác đến những hành vi liều lĩnh và bất cẩn hơn. |
@@ -131,31 +132,31 @@
 | 4-120 | 4 | `4.07#11` | 1 | 9.1 | `t40_a4_26_solitary_lightbulb_buzzing_in_death_cell` | ✅ | Bóng đèn dây tóc trần phát ra tiếng vo ve nhỏ trong đêm cuối cùng: Nỗi cô đơn tuyệt đối của kẻ sống ngoài vòng xã hội loài người. |
 | 4-121 | 4 | `4.07#12` | 1 | 6.0 | `t40_a4_22_empty_defense_table_papers_abandoned` | ✅ | Bàn biện hộ giờ đây trống trơn: Những tập hồ sơ bỏ lại trong phòng xử án vắng ngắt sau khi phiên tòa bế mạc. |
 | 4-122 | 4 | `4.08#1 – 4.08#2` | 2 | 17.3 | `t40_a4_15_fbi_agent_hagmaier_late_night_tapes` | ✅ | Máy ghi âm cuộn băng cối quay chậm chạp trong phòng thẩm vấn: Những giờ phút cuối cùng ghi lại lời thú tội có tính toán. |
-| 4-123 | 4 | `4.08#3 – 4.08#4` | 2 | 18.7 | `t40_a4_15b_interview_room_door_ajar_amber_beam` | ⏳ | Khi nhu cầu được lắng nghe và công nhận được đáp ứng, Bundy tự nguyện mở toang cánh cửa bí mật. |
+| 4-123 | 4 | `4.08#3 – 4.08#4` | 2 | 18.7 | `t40_a4_15b_interview_room_door_ajar_amber_beam` | ✅ | Khi nhu cầu được lắng nghe và công nhận được đáp ứng, Bundy tự nguyện mở toang cánh cửa bí mật. |
 | 4-124 | 4 | `4.08#5 – 4.08#7` | 3 | 21.6 | `t40_a4_20_victim_families_solemn_unity_hands` | ✅ | Những gia đình nạn nhân nắm chặt tay nhau trong trang nghiêm: Mười lăm năm đau đớn chờ đợi công lý được thực thi trọn vẹn. |
 | 4-125 | 4 | `4.09#1 – 4.09#2` | 2 | 12.0 | `t40_a4_21_gavel_final_blow_verdict_guilty` | ✅ | Tiếng búa phán quyết cuối cùng giáng xuống: Bản án tử hình được tuyên cho mọi tội ác không thể dung thứ. |
 | 4-126 | 4 | `4.09#3` | 1 | 5.7 | `t40_a4_27_external_world_awaiting_closure` | ✅ | Thế giới bên ngoài rạng sáng: Những ngọn nến thắp sáng trong đêm của người dân tưởng niệm các cô gái trẻ đã khuất. |
 | 4-127 | 4 | `4.09#4` | 1 | 6.3 | `t40_a4_24_ticking_clock_on_prison_brick_wall` | ✅ | Chiếc đồng hồ tròn kim loại trên tường gạch nhà tù: Từng giây từng phút trôi qua không thể đảo ngược dẫn về thời khắc định mệnh. |
 | 4-128 | 4 | `4.09#5` | 1 | 4.6 | `t40_a4_29_act4_closing_heavy_iron_door_closing` | ✅ | Cánh cửa sắt phòng tử tội từ từ khép lại nặng nề, tiếng then cài rít vang khép lại Hồi 4 để bước vào hồi kết lịch sử ở Hồi 5. |
 | 5-129 | 5 | `5.02#1` | 1 | 7.7 | `t40_a5_01_starke_florida_prison_dawn_1989` | ✅ | Nhà tù Bang Florida ở Raiford, thị trấn Starke rạng sáng ngày 24 tháng 1 năm 1989: Sương mù lạnh lẽo phủ kín hàng rào thép gai. |
-| 5-130 | 5 | `5.02#2` | 1 | 10.7 | `t40_a5_02_crowd_gathered_outside_prison_gates` | ⏳ | Đám đông bóng người thâu đêm trước cổng nhà tù sáng đèn pha, pháo hoa nhỏ phía xa lúc tảng sáng. |
+| 5-130 | 5 | `5.02#2` | 1 | 10.7 | `t40_a5_02_crowd_gathered_outside_prison_gates` | ✅ ⚠ | Đám đông bóng người thâu đêm trước cổng nhà tù sáng đèn pha, pháo hoa nhỏ phía xa lúc tảng sáng. — ⚠ biển nhỏ có nét giống chữ ở góc dưới phải (nghi, H26) |
 | 5-131 | 5 | `5.02#3` | 1 | 9.9 | `t40_a5_07_prison_chimney_white_smoke_release` | ✅ | Làn khói mỏng bốc lên từ ống khói nhà tù giữa bình minh buốt giá: Tiếng reo hò của đám đông bên ngoài vỡ òa sự giải tỏa. |
 | 5-132 | 5 | `5.02#4 – 5.02#6` | 3 | 28.9 | `t40_a5_05_witness_viewing_room_silent_reverence` | ✅ | Phòng quan sát nhân chứng qua lớp kính dày: Các thân nhân nạn nhân và điều tra viên đứng trang nghiêm trong tĩnh lặng. |
 | 5-133 | 5 | `5.02#7 – 5.02#8` | 2 | 17.8 | `t40_a5_08_survivor_carol_daronch_tears_of_peace` | ✅ | Nạn nhân sống sót Carol DaRonch: Giọt nước mắt bình an sau mười lăm năm mang gánh nặng của nhân chứng dũng cảm. |
 | 5-134 | 5 | `5.03#1` | 1 | 9.9 | `t40_a5_18_scales_of_justice_in_golden_equilibrium` | ✅ | Cán cân công lý bằng đồng thau tỏa sáng thăng bằng trong ánh ban mai: Bài học muôn đời về sự chiến thắng tất yếu của lẽ phải. |
 | 5-135 | 5 | `5.03#2 – 5.03#4` | 3 | 28.3 | `t40_a5_09_red_flag_survival_rule_1_halo_effect` | ✅ | Bài học Cảnh báo đỏ 1: Tuyệt đối không đánh đồng ngoại hình bảnh bao, học thức hay địa vị xã hội với sự an toàn đạo đức. |
 | 5-136 | 5 | `5.03#5 – 5.03#6` | 2 | 23.1 | `t40_a5_10_red_flag_survival_rule_2_trust_instincts` | ✅ | Bài học Cảnh báo đỏ 2: Luôn lắng nghe tiếng chuông báo động của trực giác sinh tồn, món quà vô giá của tiến hóa loài người. |
-| 5-137 | 5 | `5.03#7 – 5.03#8` | 2 | 14.8 | `t40_a5_10b_open_car_door_headlights_run_to_lit_houses` | ⏳ | Carol DaRonch sống sót nhờ phá vỡ phép lịch sự; sự an toàn của sinh mạng đặt trên hòa nhã xã giao. |
+| 5-137 | 5 | `5.03#7 – 5.03#8` | 2 | 14.8 | `t40_a5_10b_open_car_door_headlights_run_to_lit_houses` | ✅ ⚠ | Carol DaRonch sống sót nhờ phá vỡ phép lịch sự; sự an toàn của sinh mạng đặt trên hòa nhã xã giao. — ⚠ viền giấy kem 4 mép + chữ/logo giả góc dưới trái (H2/H26) |
 | 5-138 | 5 | `5.03#9 – 5.03#11` | 3 | 30.0 | `t40_a5_11_red_flag_survival_rule_3_refuse_compliance` | ✅ | Bài học Cảnh báo đỏ 3: Kiên quyết từ chối tuân thủ khi đối tượng yêu cầu di chuyển đến địa điểm thứ hai vắng vẻ hơn. |
 | 5-139 | 5 | `5.04#1 – 5.04#2` | 2 | 20.9 | `t40_a5_12_fbi_vicap_modern_data_center` | ✅ | Hệ thống điều tra hiện đại ngày nay: Mạng lưới ViCAP của FBI kết nối dữ liệu tội phạm liên bang ngăn chặn kẻ săn mồi di chuyển. |
-| 5-140 | 5 | `5.04#3` | 1 | 14.3 | `t40_a5_12b_wall_map_linked_agencies_amber_threads` | ⏳ | Cơ sở dữ liệu quốc gia cho phép các cơ quan thực thi pháp luật trên toàn nước Mỹ kết nối thông tin. |
+| 5-140 | 5 | `5.04#3` | 1 | 14.3 | `t40_a5_12b_wall_map_linked_agencies_amber_threads` | ✅ | Cơ sở dữ liệu quốc gia cho phép các cơ quan thực thi pháp luật trên toàn nước Mỹ kết nối thông tin. |
 | 5-141 | 5 | `5.04#4 – 5.04#5` | 2 | 16.5 | `t40_a5_13_forensic_odontology_legacy_archive` | ✅ | Di sản khoa học pháp y: Hồ sơ nha khoa và dấu vết cắn lưu trữ vĩnh viễn trong biên niên sử tư pháp thế giới. |
 | 5-142 | 5 | `5.04#6 – 5.04#7` | 2 | 16.7 | `t40_a5_16_memorial_bench_for_innocent_victims` | ✅ | Chiếc ghế đá tưởng niệm các cô gái trẻ vô tội: Đặt dưới bóng cây râm mát ven hồ, nơi người qua đường dừng chân mặc niệm. |
 | 5-143 | 5 | `5.04#8` | 1 | 7.7 | `t40_a5_17_candlelight_flickering_for_lost_dreams` | ✅ | Ngọn nến trắng thắp sáng trong đêm tĩnh lặng: Tưởng nhớ những ước mơ, hoài bão và tương lai tươi đẹp đã bị cướp đi quá sớm. |
 | 5-144 | 5 | `5.05#1` | 1 | 13.2 | `t40_a5_14_pacific_northwest_pines_in_sunlight` | ✅ | Những cánh rừng thông Tây Bắc trở lại với vẻ đẹp nguyên sơ: Nắng mai rọi sáng những con đường mòn từng bị bóng ma ám ảnh. |
 | 5-145 | 5 | `5.05#2` | 1 | 14.1 | `t40_a5_15_lake_sammamish_calm_waters_today` | ✅ | Mặt hồ Sammamish ngày nay: Sóng nước trong xanh êm ả, tiếng cười đùa của trẻ thơ xóa nhòa vết tích đen tối của quá khứ. |
 | 5-146 | 5 | `5.05#3` | 1 | 10.4 | `t40_a5_25_eternal_vigilance_flame` | ✅ | Ngọn lửa cảnh giác vĩnh cửu: Biểu tượng của sự thấu hiểu tâm lý và lá chắn sinh tồn bảo vệ con người trước cái ác ngụy trang. |
-| 5-147 | 5 | `5.05#4` | 1 | 9.1 | `t40_a5_27_guarded_open_heart_boundary_gate` | ⏳ | Không đóng chặt trái tim trước thế giới nhưng phải có ranh giới an toàn không thể xâm phạm: cánh cổng mở rộng nhưng có hàng rào bảo vệ. |
+| 5-147 | 5 | `5.05#4` | 1 | 9.1 | `t40_a5_27_guarded_open_heart_boundary_gate` | ✅ | Không đóng chặt trái tim trước thế giới nhưng phải có ranh giới an toàn không thể xâm phạm: cánh cổng mở rộng nhưng có hàng rào bảo vệ. |
 | 5-148 | 5 | `5.05#5` | 1 | 11.6 | `t40_a5_26_sunrise_over_american_continent` | ✅ | Bình minh rực rỡ ló rạng trên đường chân trời nước Mỹ: Ánh sáng đẩy lùi mọi bóng ma của thập niên 1970 đen tối. |
 | 5-149 | 5 | `5.05#6` | 1 | 6.8 | `t40_a5_20_closing_dossier_ribbon_tie` | ✅ | Dải ruy-băng đen thắt chặt tập hồ sơ chuyên án Ted Bundy, hoàn tất cuộc giải phẫu tâm lý học về chiếc bẫy lòng trắc ẩn. |
 | 5-150 | 5 | `5.05#7 – 5.05#8` | 2 | 17.3 | `t40_a5_19_host_closing_dossier_tap32` | ✅ | Bàn làm việc của Host Amber Eyes: Cuốn hồ sơ số 32 khép lại trang nghiêm bên cạnh tách trà ấm và ngọn đèn dầu cổ điển. |

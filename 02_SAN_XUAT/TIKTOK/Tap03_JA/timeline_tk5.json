@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TK5.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 3.94,
+    "pause": 0.5,
+    "text": "4つの初期警告サイン。犠牲者を二度と出さないために。",
+    "bg": "tk03_red_flags",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#2",
+    "vai": "C",
+    "start": 3.94,
+    "end": 13.48,
+    "pause": 0.6,
+    "text": "第1の兆候：幼少期のマクドナルドの3徴候。10歳の頃から始まった意図的かつ計画的な動物虐待。",
+    "bg": "tk03_gift_drowned",
+    "motion": "push",
+    "match_ratio": 0.907,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#3",
+    "vai": "C",
+    "start": 14.16,
+    "end": 22.54,
+    "pause": 0.6,
+    "text": "これは共感能力の著しい欠如と暴力のエスカレーションを示す、見逃してはならない重大な警告でした。",
+    "bg": "tk03_gift_drowned",
+    "motion": "pull",
+    "match_ratio": 0.956,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#4",
+    "vai": "C",
+    "start": 23.12,
+    "end": 33.0,
+    "pause": 0.6,
+    "text": "第2の兆候：家庭内での極端な精神的虐待。子どもを閉鎖空間に隔離し、長期間にわたり尊厳を否定すること。",
+    "bg": "tk03_coal_furnace",
+    "motion": "pan",
+    "match_ratio": 0.913,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#5",
+    "vai": "D",
+    "start": 34.1,
+    "end": 42.58,
+    "pause": 0.6,
+    "text": "第3の兆候：現実から切り離された支配の妄想世界に一人で深く没頭し、武器に異常な関心を持つこと。",
+    "bg": "tk03_fantasy_spiral",
+    "motion": "still",
+    "match_ratio": 0.909,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#6",
+    "vai": "D",
+    "start": 42.58,
+    "end": 53.3,
+    "pause": 0.7,
+    "text": "そして第4の兆候：高い知性と感情の冷たさ。大人を言い負かし操る能力を持ちながら、他人の痛みに涙を流せないこと。",
+    "bg": "tk03_self_observation",
+    "motion": "push",
+    "match_ratio": 0.941,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#7",
+    "vai": "H",
+    "start": 54.1,
+    "end": 61.46,
+    "pause": 0.7,
+    "text": "エドマンド・ケンパーは天才的な頭脳と体力を与えられながら、虐待のるつぼの中で破壊兵器へと変貌しました。",
+    "bg": "tk03_life_sentence",
+    "motion": "pull",
+    "match_ratio": 0.896,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#8",
+    "vai": "H",
+    "start": 61.46,
+    "end": 71.94,
+    "pause": 0.8,
+    "text": "悪を鉄格子の向こうに閉じ込めるのは法の役目です。しかし、子どもの心の傷を家庭で癒すことこそが悪を防ぐ唯一の道です。",
+    "bg": "tk03_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.963,
+    "interp": false
+  },
+  {
+    "id": "TK5.01#9",
+    "vai": "H",
+    "start": 73.6,
+    "end": 78.14,
+    "pause": 0.0,
+    "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+    "bg": "tk03_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.686,
+    "interp": false
+  }
+]
