@@ -51,6 +51,9 @@ Thấy người ta thành công và thịnh vượng thì phải học hỏi, ch
 Kẻ lừa đảo không cần phải vất vả đi gõ cửa từng nhà hay chạy theo chèo kéo con mồi; chúng chỉ cần xây dựng một bức tường nhung ngăn cách đầy bí ẩn và phát đi tín hiệu rằng: chỉ những kẻ đặc quyền nhất mới được bước qua cánh cửa danh giá đó.
 Càng khó tiếp cận, con mồi lại càng khao khát được dâng hiến tài sản chỉ để khẳng định đẳng cấp và vị thế xã hội của chính mình.
 Nhiều nạn nhân thậm chí còn tự hào khoe khoang với bạn bè rằng mình đã phải nhờ vả các mối quan hệ ngoại giao phức tạp mới được gửi tiền vào quỹ.
+Nguy hiểm hơn nữa, các đường dây lừa đảo tài chính tinh vi luôn khai thác triệt để một hiện tượng gọi là Lừa đảo gắn kết cộng đồng, hay Affinity Fraud.
+Chúng nhắm thẳng vào các nhóm xã hội có sự tin tưởng nội bộ cao như câu lạc bộ doanh nhân, cộng đồng đồng hương, hội cựu sinh viên hay các tổ chức tôn giáo và từ thiện.
+Chỉ cần thuyết phục được một vài nhân vật có uy tín nhất trong cộng đồng đó, toàn bộ những người còn lại sẽ tự động hạ thấp hàng rào cảnh giác và đổ tiền vào mà không cần bất kỳ bước thẩm định độc lập nào.
 Lòng tham của con người khi kết hợp với hiệu ứng bầy đàn và sự tôn sùng chức danh mù quáng sẽ tạo ra một điểm mù nhận thức khổng lồ.
 Họ quên mất một nguyên tắc kinh tế học sơ đẳng nhất: Tiền bạc không bao giờ tự sinh sôi từ những lời hứa hẹn trong phòng kín.
 Để hiểu rõ ma lực ghê gớm của ảo ảnh thịnh vượng này, chúng ta cần sự soi chiếu đa chiều từ khoa học tâm lý hành vi.
@@ -63,6 +66,9 @@ Nguy hiểm hơn, những kẻ chủ mưu của các đại án tài chính thư
 Chúng có khả năng thấu cảm nhận thức cực kỳ nhạy bén: chúng biết chính xác sự tự ti, sự khao khát khẳng định bản thân và lòng tham của nạn nhân nằm ở đâu để kích hoạt.
 Bằng cách tạo ra vẻ ngoài điềm đạm, không màng tiền bạc và từ chối một cách kiêu kỳ các nhà đầu tư nhỏ lẻ, chúng đã khéo léo đảo ngược vị thế tâm lý trong giao dịch:
 Nạn nhân từ vị thế của người có tiền trở thành kẻ đi cầu xin, năn nỉ để được giao tài sản cho kẻ lừa đảo.
+Khi một người đã tự mình thuyết phục bản thân để được tham gia vào một vòng tròn đặc quyền, họ sẽ kích hoạt Cơ chế thiên kiến xác nhận, chỉ tìm kiếm những thông tin tích cực để bảo vệ quyết định của mình.
+Ngay cả khi có những dấu hiệu bất thường xuất hiện, cái tôi bị tổn thương sẽ ngăn cản họ thừa nhận rằng mình có thể đã bị lừa.
+Chính lòng tự tôn của giới tinh hoa lại trở thành bức tường thành kiên cố nhất bảo vệ cho kẻ lừa đảo khỏi mọi sự chất vấn.
 Và biểu tượng vĩ đại nhất, tàn nhẫn nhất của cỗ máy ảo ảnh tài chính này trong lịch sử nhân loại không ai khác chính là cựu Chủ tịch sàn chứng khoán NASDAQ: Bernard Madoff.
 
 **HOST** *(Tiếp nối mạch kịch tính, mở ra hồ sơ án)*:
@@ -83,10 +89,18 @@ Bernard Lawrence Madoff sinh năm một nghìn chín trăm ba mươi tám, từn
 Năm 1960, hắn thành lập công ty môi giới chứng khoán Bernard L. Madoff Investment Securities.
 Hắn là người tiên phong trong việc phát triển công nghệ giao dịch điện tử, đóng vai trò then chốt trong sự ra đời của sàn giao dịch chứng khoán NASDAQ danh tiếng, và từng ba lần đảm nhiệm cương vị Chủ tịch Hội đồng Quản trị của sàn này.
 Với uy tín lẫy lừng đó, Madoff đã thành lập một nhánh quản lý tài sản bí mật đặt tại tầng mười bảy của tòa nhà Lipstick Building sang trọng ở Manhattan.
+Trong khi tầng mười tám và tầng mười chín là trụ sở công ty môi giới chứng khoán hợp pháp và nhộn nhịp, thì tầng mười bảy lại là một khu vực biệt lập hoàn toàn, có lối vào kín đáo và chỉ một nhóm nhỏ nhân viên thân tín nhất mới được phép bước chân vào.
 Trong suốt gần ba mươi năm, quỹ đầu tư của Madoff duy trì một thành tích phi thường: mức sinh lời đều đặn từ mười đến mười hai phần trăm mỗi năm, bất chấp thị trường tài chính toàn cầu trải qua các cuộc khủng hoảng như Ngày Thứ Hai Đen Tối năm 1987 hay bong bóng Dot-com năm 2000.
 Các tỷ phú thế giới, các ngôi sao điện ảnh như Steven Spielberg, các ngân hàng khổng lồ như HSBC, BNP Paribas và hàng trăm quỹ từ thiện giáo dục, y tế danh tiếng đã tranh nhau gửi gắm hàng chục tỷ đô la cho Madoff.
+Đặc biệt, Madoff đã tận dụng triệt để mạng lưới các quỹ vệ tinh, còn gọi là feeder funds, trong đó lớn nhất là tập đoàn Fairfield Greenwich Group.
+Những quỹ vệ tinh này đóng vai trò như những chiếc vòi bạch tuộc khổng lồ, huy động hàng tỷ đô la từ các định chế tài chính và giới siêu giàu trên khắp thế giới để đổ thẳng vào quỹ của Madoff, đổi lại họ thu về những khoản phí quản lý béo bở.
+Nạn nhân của hắn không chỉ là các nhà đầu tư cá nhân mà còn có cả những tổ chức nhân đạo uy tín bậc nhất.
+Quỹ Elie Wiesel do người đoạt giải Nobel Hòa bình Elie Wiesel sáng lập đã mất gần như toàn bộ mười lăm triệu đô la tài sản quỹ, khiến ông phải cay đắng gọi Madoff là một tên trộm và một kẻ bất lương.
+Quỹ từ thiện JEHT Foundation chuyên tài trợ cho các chương trình cải cách tư pháp và nhân quyền cũng mất sạch vốn hoạt động, buộc phải tuyên bố đóng cửa đột ngột vào tháng 1 năm 2009, gây ra cú sốc dây chuyền cho hàng loạt tổ chức trợ giúp pháp lý tại Mỹ.
 Thế nhưng, toàn bộ câu chuyện thành công thần kỳ đó là một lời nói dối vĩ đại nhất mọi thời đại.
 Chi nhánh đầu tư tại tầng mười bảy chưa từng thực hiện bất kỳ giao dịch mua bán chứng khoán thực tế nào trên thị trường trong suốt nhiều thập kỷ.
+Cánh tay phải đắc lực nhất của Madoff là Frank DiPascali cùng nhóm nhân viên tầng mười bảy chỉ sử dụng một chiếc máy tính IBM AS/400 lỗi thời để vận hành toàn bộ màn kịch.
+Họ chọn lại các mức giá cổ phiếu thực tế đã xảy ra trong quá khứ, nhập ngược vào máy tính để tạo ra những giao dịch giả mạo sinh lời hoàn hảo, rồi dùng phần mềm cơ bản phân bổ lợi nhuận ảo lên hàng nghìn tài khoản khách hàng.
 Toàn bộ hệ thống máy tính tại đó chỉ làm một nhiệm vụ duy nhất: in ra hàng triệu bản sao kê tài khoản giả mạo, bịa đặt các giao dịch cổ phiếu đã xảy ra trong quá khứ để tạo ra mức lợi nhuận giả tạo hoàn hảo.
 Madoff chỉ đơn giản lấy tiền gửi của các nhà đầu tư mới để chi trả lợi nhuận và tiền rút gốc cho các nhà đầu tư cũ.
 Đó là một mô hình kim tự tháp Ponzi cổ điển, nhưng được ngụy trang bằng chiếc áo choàng công nghệ cao và uy danh của một cựu lãnh đạo sàn giao dịch quốc gia.
@@ -109,6 +123,8 @@ Thứ hai, hắn thuê một công ty kiểm toán vô danh mang tên Friehling 
 Không một ngân hàng đầu tư hay tổ chức tài chính lớn nào từng đặt câu hỏi nghi vấn tại sao một đế chế khổng lồ lại không dùng dịch vụ của nhóm Big Four kiểm toán toàn cầu.
 Thứ ba, sự thất bại kinh hoàng và đáng xấu hổ của cơ quan quản lý nhà nước:
 Từ năm một nghìn chín trăm chín mươi chín, nhà phân tích tài chính độc lập Harry Markopolos đã gửi những bản báo cáo chi tiết dày hàng chục trang tới Ủy ban Chứng khoán và Giao dịch Hoa Kỳ SEC.
+Chỉ mất vài phút nhìn vào biểu đồ lợi nhuận thẳng tắp bất thường của Madoff, Markopolos đã lập tức nhận ra chiến lược quyền chọn mà Madoff tuyên bố là hoàn toàn phi lý về mặt toán học.
+Ông chỉ ra rằng khối lượng hợp đồng quyền chọn cần thiết để tạo ra mức lợi nhuận cho quỹ của Madoff còn lớn hơn tổng khối lượng giao dịch có thật trên toàn bộ thị trường chứng khoán Hoa Kỳ lúc bấy giờ.
 Bằng các mô hình toán học và phân tích dòng tiền phái sinh, Markopolos đã chứng minh không thể chối cãi rằng các con số lợi nhuận của Madoff là bất khả thi về mặt thống kê trên toàn bộ thị trường chứng khoán Mỹ.
 Ông khẳng định với SEC rằng Madoff chắc chắn đang vận hành một đường dây Ponzi khổng lồ, hoặc đang thực hiện các giao dịch nội gián phi pháp quy mô lớn.
 Thế nhưng, trong suốt gần mười năm với năm lần thanh tra riêng biệt, các thanh tra viên trẻ tuổi của SEC khi đến làm việc tại văn phòng của Madoff đã bị choáng ngợp hoàn toàn bởi phong thái tự tin, các mối quan hệ chính trị sâu rộng và vị thế cựu Chủ tịch sàn NASDAQ của hắn.
@@ -121,6 +137,10 @@ Dấu ấn Chữ ký tâm lý của Madoff không nằm ở việc phô trương
 Chữ ký độc nhất vô nhị của hắn là Cơn nghiện cảm giác thống trị và kiểm soát tuyệt đối niềm tin của giới tinh hoa tài chính và xã hội thượng lưu.
 Hắn say sưa với vị thế một bậc thầy thông thái được cả Phố Wall ngước nhìn, người có quyền năng tối thượng ban phát sự giàu có và quyết định ai được phép bước chân vào vòng tròn danh giá của mình.
 Hắn lạnh lùng nhìn những người bạn thân thiết lâu năm, những người họ hàng ruột thịt gắn bó từ thời thơ ấu, và cả những quỹ từ thiện cứu trợ trẻ em nghèo hay bệnh nhân ung thư dồn toàn bộ gia sản vào tay hắn, trong khi hắn biết rõ rằng từng đồng xu đó đang bốc hơi vào hư không và sẽ không bao giờ quay trở lại.
+Đó là đỉnh cao tàn nhẫn của nghệ thuật Lừa đảo gắn kết cộng đồng: Madoff biến chính bản sắc văn hóa, lòng tin tôn giáo và tinh thần tương trợ của cộng đồng thành công cụ trục lợi.
+Khi một nhà trí thức lỗi lạc như Elie Wiesel cũng gửi gắm toàn bộ quỹ từ thiện của mình cho hắn, điều đó chứng minh rằng trí thông minh học thuật hoàn toàn không thể miễn nhiễm trước thao túng cảm xúc.
+Con người thường có xu hướng dùng cảm tính để đánh giá những người cùng nhóm với mình, rồi sau đó mới dùng lý trí để biện minh cho niềm tin ấy.
+Madoff hiểu quá rõ quy luật này, nên hắn chưa bao giờ cần phải chứng minh năng lực bằng những báo cáo kiểm toán minh bạch; hắn chỉ cần hiện diện như một nhà hảo tâm mẫu mực tại các buổi tiệc gây quỹ.
 Cơ chế phòng vệ tâm lý Phân ngăn cảm xúc, tức Compartmentalization, của Madoff đạt đến mức độ bệnh lý kỳ dị:
 Hắn hoàn toàn tách rời công việc lừa đảo hàng ngày tại tầng mười bảy đầy rẫy dối trá với đời sống gia đình mẫu mực, êm ấm ở các tầng trên và trong căn hộ sang trọng.
 Hắn tự huyễn hoặc và xây dựng hệ thống tự bào chữa rằng mình không hề ăn cắp, mà chỉ đang giúp thị trường vận hành trơn tru và sẽ tìm cách kiếm lại tiền để bù đắp trước khi quả bong bóng nổ tung.
@@ -150,6 +170,8 @@ Người giàu thật sự thường rất kín tiếng, nên khi một người
 Làm sao các ngân hàng lớn với hàng ngũ thẩm định chuyên nghiệp lại có thể bị một cô gái trẻ lừa gạt dễ dàng như vậy?
 Đâu là ranh giới giữa một lối sống thượng lưu đích thực và một màn kịch lừa đảo dàn dựng trên mạng xã hội?
 Phải chăng chính chúng ta đang quá dễ dãi khi đánh giá giá trị của một con người qua vẻ bề ngoài lộng lẫy?
+Và liệu những thuật toán mạng xã hội ngày nay có đang vô tình tiếp tay cho những kẻ lừa đảo khi liên tục ưu tiên hiển thị sự xa hoa và giàu có giả tạo?
+Khi hàng triệu lượt thích và bình luận ngưỡng mộ được đếm bằng tiền và danh tiếng, ranh giới giữa sự thật và màn kịch dường như đã bị xóa nhòa hoàn toàn.
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích Cơ chế Thao túng hình tượng và Hội chứng Tự biến thành vai diễn)*:
 Sự băn khoăn của bạn đã bóc tách chính xác căn bệnh tâm lý của thời đại số: Hiện tượng Ngụy tạo thân phận xã hội, hay Social Imposture Syndrome.
@@ -157,6 +179,9 @@ Những kẻ lừa đảo như Anna Sorokin khai thác triệt để quy luật 
 Trong giới thượng lưu, sự giàu có thường đi kèm với tính lập dị và thái độ kiêu kỳ.
 Bằng cách cư xử trịch thượng, đối xử thô lỗ với nhân viên khách sạn và thường xuyên quên mang ví để người khác trả tiền hộ, kẻ lừa đảo tạo ra một ảo tưởng tâm lý nghịch lý:
 Người khác sẽ nghĩ rằng: Chỉ có những kẻ quá giàu, quá quen với việc người khác phục vụ mới có thể cư xử ngạo mạn và bất cẩn với tiền bạc như vậy.
+Không dừng lại ở đó, những kẻ lừa đảo thượng lưu còn sử dụng thuần thục chiến thuật Gây áp lực xã hội tại hiện trường.
+Khi thẻ tín dụng bị từ chối trước mặt nhân viên khách sạn năm sao hay nhà hàng sang trọng, chúng tỏ ra bình thản như thể đó chỉ là sự cố nhỏ của ngân hàng quốc tế, rồi quay sang nhờ bạn bè quẹt thẻ tạm giúp.
+Trong hoàn cảnh đó, nạn nhân bị rơi vào thế tiến thoái lưỡng nan: nếu từ chối, họ sợ mình bị đánh giá là hẹp hòi, thiếu đẳng cấp hoặc làm mất mặt người bạn giàu có, nên họ đành cắn răng quẹt thẻ mà không ngờ mình đang sập bẫy.
 Hiện tượng này còn được gọi là Thuyết phát tín hiệu xã hội, tức Costly Signaling Theory.
 Bằng việc chi tiêu những khoản tiền boa khổng lồ và diện đồ hiệu đắt tiền, kẻ lừa đảo phát đi tín hiệu về một nguồn tài nguyên vô tận.
 Hơn thế nữa, những kẻ này thường mắc chứng Rối loạn nhân cách ái kỷ kịch tính, tức Histrionic Narcissistic Personality.
@@ -179,10 +204,15 @@ Khoản tiền này theo kế hoạch của cô ta sẽ được dùng để thu
 Khi Peter Hennecke bị nghi ngờ qua đời vì một căn bệnh đột ngột theo lời kể của chính cô ta, Anna lập tức bịa ra một người quản lý tài sản mới mang tên Olaf Jansen để tiếp tục trì hoãn việc cung cấp giấy tờ gốc.
 Đến khi ngân hàng Fortress bắt đầu cử một đoàn thanh tra bay sang Thụy Sĩ để thẩm định trực tiếp nguồn gốc số tiền sáu mươi triệu euro tại ngân hàng Credit Suisse, Anna nhận ra trò lừa sắp bị lật tẩy nên đã vội vàng rút hồ sơ vay tiền.
 Thế nhưng, trước đó cô ta đã kịp thời chiếm đoạt một trăm nghìn đô la tiền thấu chi ứng trước từ ngân hàng City National Bank bằng cách dùng các séc khống không có tiền bảo chứng.
-Cô ta dùng chính số tiền chiếm đoạt được này để tiếp tục chi trả cho các kỳ nghỉ xa hoa tại khu nghỉ dưỡng La Mamounia ở Morocco với giá hơn sáu mươi nghìn đô la một tuần, và chiêu đãi các bữa tiệc tối đắt đỏ cho bạn bè giới thượng lưu.
+Để củng cố hình ảnh một nữ tài phiệt quyền lực, Anna còn thuê cả máy bay phản lực tư nhân thông qua dịch vụ đặt chuyến Blade bằng các biên lai chuyển khoản ngân hàng giả mạo và séc không có tiền bảo chứng.
+Đỉnh điểm của màn kịch lừa dối là chuyến nghỉ dưỡng xa hoa vào tháng 5 năm 2017 tại khu nghỉ dưỡng danh tiếng La Mamounia ở Marrakech, Morocco.
+Anna mời cô bạn thân Rachel DeLoache Williams, khi đó là một biên tập viên ảnh của tạp chí Vanity Fair, cùng đi với lời hứa bao trọn toàn bộ chi phí.
+Thế nhưng khi thẻ tín dụng của Anna liên tục bị từ chối và nhân viên khách sạn yêu cầu một chiếc thẻ hợp lệ để thanh toán, Anna đã thuyết phục Rachel dùng cả thẻ tín dụng cá nhân lẫn thẻ công ty để gánh tạm khoản hóa đơn khổng lồ lên tới khoảng sáu mươi hai nghìn đô la.
+Số tiền đó còn lớn hơn cả mức lương một năm của Rachel, và bất chấp những lời hứa hẹn sẽ chuyển khoản trả lại ngay lập tức, phần lớn khoản nợ ấy chưa bao giờ được Anna hoàn trả.
 Cô ta liên tục di chuyển giữa các khách sạn năm sao đắt đỏ bậc nhất New York như 11 Howard, The Beekman và The Mercer.
+Tại đây, cô ta thường xuyên phát tiền boa hào phóng hàng trăm đô la cho nhân viên lễ tân để mua lấy sự phục vụ tận tụy và lòng tin tuyệt đối, đồng thời che mắt ban quản lý khách sạn trước những hóa đơn tiền phòng ngày một chồng chất.
 Cô ta tích lũy các hóa đơn nợ phòng và dịch vụ ăn uống lên tới hàng chục nghìn đô la, rồi viện cớ thẻ tín dụng quốc tế gặp sự cố trục trặc đường truyền để âm thầm dọn đồ biến mất trước khi bị nhân viên an ninh khách sạn chặn lại.
-Tháng 10 năm 2017, trong một chiến dịch giăng bẫy phối hợp chặt chẽ giữa Văn phòng Công tố Quận Manhattan và Sở Cảnh sát New York, được hỗ trợ bởi chính một người bạn từng bị cô ta lừa gạt tiền bạc, Anna Delvey đã bị bắt giữ bên ngoài một trung tâm cai nghiện tại Malibu, California.
+Tháng 10 năm 2017, trong một chiến dịch giăng bẫy phối hợp chặt chẽ giữa Văn phòng Công tố Quận Manhattan và Sở Cảnh sát New York, với sự hỗ trợ trực tiếp từ chính Rachel DeLoache Williams, Anna Delvey đã bị bắt giữ bên ngoài một trung tâm cai nghiện tại Malibu, California.
 Màn kịch nữ thừa kế quý tộc kéo dài suốt bốn năm chính thức khép lại, phơi bày một kẻ lừa đảo rỗng túi không có lấy một đồng xu tài sản thừa kế hay bất kỳ quỹ tín thác nào ở châu Âu.
 
 ---
@@ -205,6 +235,9 @@ Tại phiên tòa xét xử liên bang ở New York, đối diện với hàng t
 Tháng 6 năm 2009, Thẩm phán Tòa án Quận Hoa Kỳ Denny Chin đã tuyên phạt Bernard Madoff bản án tối đa một trăm năm mươi năm tù giam.
 Thẩm phán nhấn mạnh rằng đây là một bản án mang tính biểu tượng trừng phạt nghiêm khắc nhất, nhằm gửi đi một thông điệp đanh thép tới toàn bộ Phố Wall rằng không ai có thể đứng trên luật pháp.
 Madoff phải thi hành án tại Trại giam Liên bang Butner ở Bắc Carolina cho đến khi qua đời vì bệnh tật vào năm 2021 ở tuổi tám mươi hai.
+Cánh tay phải của hắn là Frank DiPascali cũng đã cúi đầu nhận tội vào năm 2009 và hợp tác với cơ quan công tố để bóc trần toàn bộ đường dây, trước khi qua đời vì bệnh ung thư phổi vào năm 2015 khi chưa kịp nhận bản án chính thức.
+Song song với các phiên tòa hình sự, tòa án đã chỉ định Ủy thác viên Irving Picard đứng đầu chiến dịch thanh lý tài sản và truy thu dòng tiền quy mô lớn nhất lịch sử tư pháp Hoa Kỳ.
+Ông Picard đã khởi kiện hàng loạt quỹ vệ tinh lớn như Fairfield Greenwich Group cùng những nhà đầu tư từng rút lợi nhuận ảo trước ngày sụp đổ, qua đó thu hồi thành công hơn mười lăm tỷ đô la để bồi hoàn cho các nạn nhân bị mất tiền gốc.
 Còn đối với Anna Delvey, tại phiên tòa xét xử kéo dài một tháng ở Tòa án Tối cao Bang New York năm 2019, cô ta vẫn tiếp tục thể hiện sự ngạo mạn bệnh lý khi biến phòng xử án thành sàn diễn thời trang cá nhân.
 Cô ta thuê stylist riêng chuẩn bị trang phục hàng hiệu cao cấp mỗi ngày và từ chối xuất hiện trước bồi thẩm đoàn nếu trang phục không đạt tiêu chuẩn sang trọng của mình, khiến phiên tòa nhiều lần bị hoãn lại.
 Cô ta cho rằng mình chỉ là một người phụ nữ tham vọng muốn khẳng định bản thân trong một thế giới tài chính do nam giới thống trị.
@@ -221,7 +254,7 @@ Liệu những kẻ lừa đảo tài chính có bao giờ thực sự thấu c�
 Hậu quả tâm lý của những vụ lừa đảo tài chính quy mô lớn thường mang tính hủy diệt vượt xa những tổn thất vật chất đơn thuần.
 Nó phá hủy tận gốc rễ niềm tin của con người vào các định chế xã hội và hủy hoại chính những mối quan hệ ruột thịt thiêng liêng nhất.
 Đối với gia đình của Bernie Madoff, bản án pháp lý đã mở màn cho một chuỗi bi kịch gia đình kinh hoàng và đau đớn tột cùng:
-Đúng hai năm sau ngày Madoff bị bắt giữ, vào ngày 11 tháng 12 năm 2010, người con trai cả Mark Madoff đã tự sát tại căn hộ riêng ở New York bằng cách thắt cổ, để lại đứa con thơ mới hai tuổi.
+Đúng hai năm sau ngày Madoff bị bắt giữ, vào ngày 11 tháng 12 năm 2010, người con trai cả Mark Madoff đã tự kết liễu đời mình tại căn hộ riêng ở New York, để lại đứa con thơ mới hai tuổi.
 Anh không thể nào chịu đựng nổi áp lực từ sự khinh miệt của công chúng, những vụ kiện tụng kéo dài và sự sụp đổ danh dự của gia tộc.
 Bốn năm sau đó, vào năm hai nghìn không trăm mười bốn, người con trai thứ hai Andrew Madoff cũng qua đời ở tuổi bốn mươi tám vì căn bệnh ung thư hạch tái phát trong sự dằn vặt, cô độc và tuyệt vọng.
 Vợ của Madoff, bà Ruth Madoff, bị cộng đồng thượng lưu New York tẩy chay hoàn toàn, phải chuyển đến sống ẩn dật trong một căn hộ nhỏ ở bang Connecticut.
@@ -230,9 +263,14 @@ Hắn đổ lỗi ngược lại cho sự tham lam vô đáy của các nhà đ�
 Hắn khẳng định rằng chính họ đã liên tục nài nỉ hắn nhận tiền, ép hắn phải duy trì mức lợi nhuận bất khả thi đó, và nếu không có cuộc khủng hoảng tài chính năm 2008 thì hắn đã có thể gỡ lại toàn bộ số tiền.
 Đó là dấu hiệu điển hình của cơ chế Phóng chiếu và Chuyển giao cảm giác tội lỗi của những kẻ ái kỷ ác tính bệnh hoạn: Chúng không bao giờ có khả năng tự soi xét bản thân; chúng luôn tự biến mình thành nạn nhân của hoàn cảnh và của sự tham lam từ người khác.
 Về phía Anna Delvey, sau khi mãn hạn tù vào năm 2021, cô ta không hề thể hiện một chút ăn năn hay hổ thẹn nào trước xã hội.
-Trái lại, cô ta tiếp tục tận dụng sự nổi tiếng tai tiếng để bán bản quyền câu chuyện cuộc đời mình cho tập đoàn truyền thông Netflix với giá hơn ba trăm nghìn đô la để dựng thành bộ phim truyền hình ăn khách.
-Cô ta tổ chức các buổi triển lãm nghệ thuật ngay tại căn hộ bị quản thúc tại gia ở East Village, xuất hiện trên các chương trình podcast hàng đầu và tiếp tục thu hút hàng triệu người theo dõi trên mạng xã hội.
+Trái lại, cô ta tiếp tục tận dụng sự nổi tiếng tai tiếng để bán bản quyền câu chuyện cuộc đời mình cho tập đoàn truyền thông Netflix với giá khoảng ba trăm hai mươi nghìn đô la để dựng thành loạt phim truyền hình ăn khách Inventing Anna.
+Tuy nhiên, chính quyền bang New York đã lập tức kích hoạt Luật Son of Sam nhằm ngăn chặn tội phạm trục lợi từ chính hành vi phạm pháp của mình.
+Phần lớn khoản tiền bản quyền từ Netflix đã bị tòa án phong tỏa và chuyển thẳng vào quỹ bồi thường thiệt hại cho các ngân hàng và nạn nhân của cô ta.
+Dù vậy, Anna vẫn tổ chức các buổi triển lãm nghệ thuật ngay tại căn hộ bị quản thúc tại gia ở East Village, xuất hiện trên các chương trình podcast hàng đầu và tiếp tục thu hút hàng triệu người theo dõi trên mạng xã hội.
 Kẻ lừa đảo không bao giờ cảm thấy mình có lỗi; chúng chỉ nhìn thấy những cơ hội mới để tiếp tục khai thác sự tò mò của công chúng nhằm nuôi dưỡng cơn khát hào quang vô tận của bản thân.
+Hiện tượng này trong tâm lý học truyền thông được gọi là Hiệu ứng Tội phạm nổi tiếng, nơi ranh giới giữa tai tiếng và danh tiếng bị xóa nhòa bởi nền kinh tế chú ý.
+Công chúng vừa phẫn nộ trước hành vi lừa đảo, nhưng đồng thời lại bị cuốn hút bởi sự táo bạo và lối sống hào nhoáng mà kẻ thủ ác từng dàn dựng.
+Chính sự chú ý khổng lồ đó lại vô tình trở thành nguồn nhiên liệu mới, giúp kẻ ái kỷ tiếp tục sống trong ảo tưởng rằng mình là một biểu tượng văn hóa thay vì một phạm nhân.
 Hào quang đối với những kẻ mang nhân cách ái kỷ là một thứ ma túy tinh thần gây nghiện nặng nề, một khi đã nếm trải, chúng sẵn sàng chà đạp lên mọi chuẩn mực đạo đức và pháp luật để duy trì nó suốt cả cuộc đời.
 
 ---
@@ -278,6 +316,8 @@ Thứ hai là Chiến thuật tạo cảm giác khan hiếm và áp lực độc
 Họ đang cố tình kích hoạt nỗi sợ bỏ lỡ FOMO để làm tê liệt tư duy phân tích của bạn.
 Thứ ba là Sự phức tạp hóa ngôn từ một cách cố ý. Những kẻ lừa đảo thường dùng những thuật ngữ tài chính bí hiểm, công nghệ lượng tử hay thuật toán độc quyền để khiến bạn cảm thấy tự ti về hiểu biết của mình và phó mặc tiền bạc cho chúng.
 Một mô hình kinh doanh chân chính luôn có thể giải thích một cách đơn giản, dễ hiểu cho bất kỳ người bình thường nào.
+Và hãy luôn tỉnh táo trước cái bẫy Lừa đảo gắn kết cộng đồng: đừng bao giờ bỏ qua bước kiểm chứng chỉ vì người giới thiệu là bạn bè thân thiết, người cùng hội nhóm hay một nhân vật nổi tiếng mà bạn ngưỡng mộ.
+Trong tài chính, lòng tin mù quáng vào mối quan hệ cá nhân chính là kẽ hở chết người nhất mà mọi kẻ lừa đảo đều tìm cách khoét sâu.
 
 **ĐIỀU TRA VIÊN** *(Đưa ra 2 nguyên tắc nghiệp vụ phòng vệ tài sản)*:
 Và dưới góc độ nghiệp vụ điều tra tài chính thực chiến, hai nguyên tắc vàng bất di bất dịch để bảo toàn tài sản của bạn là:
@@ -286,11 +326,14 @@ Tiền đầu tư phải được giữ tại các ngân hàng giám sát uy tí
 Thứ hai, Tự trang bị kiến thức và Không bao giờ đầu tư vào những gì bạn không hiểu rõ. Nếu bạn không biết nguồn lợi nhuận đến từ sản phẩm thực tế nào, thì rất có thể chính bạn đang là sản phẩm trong chuỗi lừa đảo.
 Khi phát hiện bất kỳ dấu hiệu trì hoãn trả tiền, sao kê không rõ ràng hoặc yêu cầu nộp thêm phí để rút vốn, hãy lập tức lưu giữ toàn bộ chứng từ giao dịch và trình báo cơ quan công an để phong tỏa tài khoản kẻ lừa đảo kịp thời.
 Sự chủ động kiểm chứng là cách duy nhất để bạn không trở thành con mồi tiếp theo.
+Hãy nhớ bài học từ cuộc điều tra Madoff: ngay cả những cơ quan quản lý quyền lực nhất cũng có thể bị đánh lừa khi họ tin vào danh tiếng thay vì đối chiếu sổ sách gốc.
+Do đó, tuyến phòng thủ đầu tiên và quan trọng nhất bảo vệ tài sản của gia đình bạn không phải là bất kỳ tổ chức nào bên ngoài, mà chính là tư duy hoài nghi lành mạnh của bản thân bạn.
 
 **HOST** *(Giọng trầm ấm, đúc kết triết lý nhân sinh và kết thúc chương trình)*:
 Đồng tiền kiếm được bằng mồ hôi, công sức và trí tuệ chân chính muôn đời vẫn là thước đo của giá trị lao động đích thực.
 Đừng bao giờ để những ảo ảnh thịnh vượng phù phiếm và sự nôn nóng làm giàu biến bạn thành nạn nhân của những kẻ buôn bán giấc mơ lừa dối.
 Hãy luôn giữ cho mình một cái đầu lạnh trước những lời mời chào mật ngọt, và một trái tim tỉnh thức trước ánh hào quang giả tạo của danh vọng.
+Bởi vì trong thế giới tài chính cũng như trong cuộc sống, mọi thứ lấp lánh nhất chưa chắc đã là vàng, và mọi lời hứa hẹn dễ dàng nhất thường ẩn chứa cái giá đắt đỏ nhất.
 Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập hồ sơ tài liệu tâm lý học tội phạm hôm nay.
 Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video đến bạn bè và người thân để cùng nhau bảo vệ thành quả lao động của mình.
 Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những tập phim phân tích chuyên sâu tiếp theo.

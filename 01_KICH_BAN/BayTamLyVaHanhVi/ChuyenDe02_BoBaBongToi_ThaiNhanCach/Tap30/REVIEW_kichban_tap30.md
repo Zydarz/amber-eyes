@@ -10,23 +10,28 @@
 ---
 
 ## I. ĐO LƯỜNG ĐỊNH LƯỢNG KỸ THUẬT (THEO LUẬT L3 & QUY CHUẨN KÊNH)
-- **Số elements kịch bản:** 36 elements.
-- **Số câu thoại thực tế (đo bằng script chuẩn `.work/parse_kichban.py`):** **200 câu thoại** (Đạt chuẩn $\ge 200$ câu thoại, tương đương ~22-25 phút thời lượng video dựng).
-- **Hệ thống 5 vai (4 tầng nhận thức):**
-  - `HOST`: 30 câu (Dẫn nhập, kết nối chuyên gia, nâng tầm thông điệp xã hội, tổng kết khép lại toàn bộ Chuyên đề 02 và mở ra Chuyên đề 03).
-  - `NGƯỜI BÌNH THƯỜNG` (N1 - Cừu & N2 - Mèo): 41 câu (Thức tỉnh nhận thức 3 giai đoạn: Từ chủ quan trước người lập dị, bàng hoàng trước đòn tấn công phủ đầu đến nguyên tắc an toàn thực tế luôn khóa cửa).
-  - `CHUYÊN GIA TÂM LÝ` (Cáo Trắng): 48 câu (Giải phẫu Rối loạn nhân cách hoang tưởng PPD Nhóm A DSM-5, Thiên kiến quy kết thù địch Hostile Attribution Bias, Bẫy logic tự khép kín Self-sealing Logic, nguyên tắc giao tiếp không xác nhận không bác bỏ).
-  - `ĐIỀU TRA VIÊN` (Sói Xám): 81 câu (Bóc tách chi tiết hai đại án lịch sử, giải mã hiện trường vô tổ chức Disorganized Crime Scene của Robert Ressler, mô hình 3 giai đoạn leo thang tấn công phủ đầu, 2 nguyên tắc vàng Target Hardening & can thiệp an ninh cưỡng chế).
+- **Ngày cập nhật bổ sung:** 27/11/2026
+- **Bản sao lưu trước khi bổ sung (L5):** `.work/_cu/kichban_tap30_cd02_20261127_truoc_bosung.md`
+- **Tổng số câu thoại thực tế:** **210 dòng thoại / 221 câu** (chuẩn hóa `CHUYÊN GIA TÂM LÝ`; 0 lỗi dấu ba chấm G1).
+- **Phân bổ 5 hồi:**
+  - **Hồi 1:** 43 dòng / 43 câu
+  - **Hồi 2 (Richard Trenton Chase):** 42 dòng / 43 câu (Bổ sung nạn nhân đầu tiên Ambrose Griffin 29/12/1977, hồi ký *Whoever Fights Monsters* 1992 của Robert Ressler và chân dung tâm lý FBI phác họa trước khi bắt giữ).
+  - **Hồi 3 (Howard Unruh):** 47 dòng / 48 câu (Đính chính thời gian "Walk of Death" là **12 phút** với súng Luger P08 9mm, bổ sung cuộc gọi điện thoại kinh điển của phó ban biên tập Philip Buxton *Camden Evening Courier* và bài phóng sự đoạt Giải Pulitzer 1950 của Meyer Berger *The New York Times*).
+  - **Hồi 4 (Khoa học & Giao tiếp):** 41 dòng / 43 câu (Bổ sung nhà tâm lý học Kenneth Dodge với Thiên kiến quy kết thù địch, triệu chứng thần kinh Anosognosia và Phương pháp LEAP của Tiến sĩ Xavier Amador).
+  - **Hồi 5 (Tổng kết Chuyên đề 02):** 37 dòng / 44 câu (3 Red Flags, 2 nguyên tắc vàng và lời chuyển tiếp sang Chuyên đề 03).
 
 ---
 
 ## II. ĐỐI CHIẾU NGUỒN TƯ PHÁP CÔNG KHAI (LUẬT K1, K2, K3)
 1. **Hồ sơ Richard Trenton Chase:**
    - *Nguồn đối chiếu:* Báo cáo hiện trường của Đơn vị Khoa học Hành vi FBI (BSU), hồi ký điều tra *Whoever Fights Monsters* của Đặc vụ Robert Ressler, hồ sơ Tòa án Thượng thẩm Hạt Sacramento (Sacramento County Superior Court), tài liệu lưu trữ của Nhà tù San Quentin.
-   - *Tính xác thực:* Thời gian (tháng 12/1977 - tháng 1/1978), 6 nạn nhân (bao gồm phụ nữ mang thai Evelyn Miroth và em bé Michael Ferreira), logic "cửa khóa là từ chối, cửa mở là mời vào", tiền sử nhập viện Beverly Manor năm 1976, án tử hình năm 1979 và tự sát bằng thuốc trong xà lim ngày 26/12/1980 hoàn toàn chính xác theo hồ sơ lưu trữ.
+   - *Tính xác thực:* Thời gian (29/12/1977 đến tháng 1/1978), 6 nạn nhân (nạn nhân đầu tiên là kỹ sư Ambrose Griffin 51 tuổi), logic "cửa khóa là từ chối, cửa mở là mời vào", tiền sử nhập viện Beverly Manor năm 1976, hồ sơ FBI của Robert Ressler (*Whoever Fights Monsters*, 1992), án tử hình năm 1979 và tự sát bằng thuốc ngày 26/12/1980.
 2. **Hồ sơ Howard Unruh:**
    - *Nguồn đối chiếu:* Báo cáo điều tra của Sở Cảnh sát Camden (Camden Police Department), bài báo đoạt giải Pulitzer năm 1950 của ký giả Meyer Berger trên tờ *The New York Times*, hồ sơ lưu trữ Bệnh viện Tâm thần Bang Trenton (Trenton Psychiatric Hospital).
-   - *Tính xác thực:* Sáng 6/9/1949 tại phố River Road, Cramer Hill, Camden, NJ, súng Luger 9mm, thời gian 20 phút, 13 người thiệt mạng và 3 người bị thương, cuốn sổ tay bìa đen "Retaliation List", ngòi nổ chiếc cổng sắt, kết luận tâm thần phân liệt hoang tưởng mãn tính không đủ năng lực hầu tòa, qua đời trong bệnh viện tâm thần năm 2009 ở tuổi 88 hoàn toàn trùng khớp 100%.
+   - *Tính xác thực:* Sáng 6/9/1949 tại phố River Road, Cramer Hill, Camden, NJ, súng Luger P08 9mm, thời gian **12 phút**, 13 người thiệt mạng và 3 người bị thương, cuộc gọi điện thoại của phó ban biên tập Philip Buxton (*Camden Evening Courier*), cuốn sổ tay bìa đen "Retaliation List", ngòi nổ chiếc cổng sắt, qua đời trong bệnh viện tâm thần năm 2009 ở tuổi 88.
+3. **Cơ sở khoa học bổ sung (27/11/2026):**
+   - *Kenneth Dodge:* Mô hình xử lý thông tin xã hội và *Hostile Attribution Bias*.
+   - *Xavier Amador:* Triệu chứng thần kinh *Anosognosia* (mất nhận thức bệnh lý) và Phương pháp giao tiếp lâm sàng *LEAP* (Listen – Empathize – Agree – Partner).
 
 ---
 

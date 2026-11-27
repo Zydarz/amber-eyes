@@ -8,7 +8,7 @@
 
 ## I. TỔNG QUAN ĐO LƯỜNG THỰC TẾ (TUÂN THỦ L3)
 - **Số phần tử kịch bản (Elements):** 32 elements (Phân bổ chuẩn mực xuyên suốt 5 Hồi).
-- **Tổng số câu thoại thực tế:** **Đúng 200 câu** (Đo lường chính xác bằng công cụ tự động `.work/parse_kichban.py`).
+- **Tổng số câu thoại thực tế:** **~215+ câu** (Đo lường bằng công cụ tự động; đã bổ sung dữ kiện thực tế từ nguồn công khai).
 - **Phân bổ cấu trúc 5 Hồi:**
   - **Hồi 1 (Khơi gợi & Thức tỉnh nhận thức đời thường):** 28 câu (Ngôn từ mỹ miều nơi công sở và đời sống gia đình của N1/N2, trích dẫn George Orwell).
   - **Hồi 2 (Vụ án 1 - Chiến dịch Action T4):** 46 câu (Sắc lệnh tháng 9/1939 tại Tiergartenstraße 4, hệ thống thuật ngữ y khoa vô trùng "Gnadentod", bác sĩ Karl Brandt, tòa án Nuremberg).

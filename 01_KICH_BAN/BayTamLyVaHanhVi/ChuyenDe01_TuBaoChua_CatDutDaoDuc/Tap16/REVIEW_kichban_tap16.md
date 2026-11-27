@@ -8,7 +8,7 @@
 - **Đường dẫn kịch bản:** `01_KICH_BAN/BayTamLyVaHanhVi/ChuyenDe01_TuBaoChua_CatDutDaoDuc/Tap16/kichban_tap16.md`
 - **Công cụ kiểm tra:** `.work/parse_kichban.py`
 - **Tổng số Elements:** 34 elements
-- **Tổng số câu thoại thực tế:** 200 câu (Đạt chuẩn kênh $\ge 200$ câu)
+- **Tổng số dòng thoại / câu thoại:** ~220+ dòng thoại (~230+ câu tách theo dấu kết câu; đã xóa đoạn lặp 4 câu cuối file, hiệu đính tên không dấu chấm theo K9 và bổ sung dữ kiện thực tế).
 - **Cấu trúc:** Đủ 5 Hồi chuẩn hóa theo Tiêu chuẩn A2c & K10.
 - **Phân bổ nhân vật (4 Tầng nhận thức — 5 Vai):**
   - `HOST`: Mở đầu nghịch lý đạo đức giả, chuyển tiếp 5 hồi, tổng kết triết lý sống thượng tôn pháp luật (~52 câu).

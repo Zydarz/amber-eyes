@@ -2,19 +2,19 @@
 **Chuyên đề:** Bộ Ba Bóng Tối & Phổ Thái Nhân Cách (Dark Triad & Psychopathy Spectrum Series)  
 **Tiêu đề tập:** Thuật Thao Túng Machiavelli (Machiavellianism) — Biến Con Người Thành Những Quân Cờ Vô Cảm  
 **Mã vụ án nghiên cứu:** Louis Jay "Lou" Pearlman (Đại án Ponzi Boyband nước Mỹ) & Pamela Hupp (Án mạng Betsy Faria & Louis Gumpenberger, Missouri)  
-**Ngày hoàn thiện:** 24/11/2026  
+**Ngày hoàn thiện:** 24/11/2026 (Cập nhật bổ sung mở rộng: 27/11/2026)  
 
 ---
 
 ## I. TỔNG QUAN ĐO LƯỜNG THỰC TẾ (TUÂN THỦ L3)
-- **Số phần tử kịch bản (Elements):** 32 elements (Phân bổ chuẩn mực xuyên suốt 5 Hồi).
-- **Tổng số câu thoại thực tế:** **Đúng 200 câu** (Đo lường chính xác bằng công cụ tự động `.work/parse_kichban.py`).
+- **Bản sao lưu trước khi bổ sung (L5):** `.work/_cu/kichban_tap24_cd02_20261127_truoc_bosung.md`
+- **Tổng số câu thoại thực tế:** **224 dòng thoại / 235 câu** (tăng từ 200 câu lên 235 câu; 0 lỗi dấu ba chấm G1).
 - **Phân bổ cấu trúc 5 Hồi:**
-  - **Hồi 1 (Khởi nguyên & Thức tỉnh đời thường):** 28 câu (Triết lý thực dụng của Niccolò Machiavelli trong *The Prince*; trải nghiệm của N1 về đồng nghiệp đâm sau lưng cướp ý tưởng vs. góc nhìn của N2 về kẻ thao túng ngụy trang tử tế).
-  - **Hồi 2 (Vụ án 1 - Lou Pearlman):** 46 câu (Đế chế boyband Backstreet Boys, 'N Sync; hợp đồng bẫy thành viên thứ sáu; bóc lột hơn 300 triệu USD; đường dây Ponzi hàng không ma Trans Continental 500 triệu USD; trốn chạy và bản án 25 năm tù).
-  - **Hồi 3 (Vụ án 2 - Pam Hupp):** 48 câu (Vụ án sát hại Betsy Faria 2011; hợp đồng bảo hiểm nhân thọ 150.000 USD; gài bẫy người chồng Russell Faria; vụ dàn dựng sát hại Louis Gumpenberger 2016; bản án chung thân).
-  - **Hồi 4 (Giải mã tâm thần học pháp y):** 42 câu (Thang đo Mach-IV của Christie & Geis; 3 đặc tính: Morally Disengaged Pragmatism, Cynical View of Human Nature, Strategic Manipulation; Kỹ thuật hỏi cung SUE; phân biệt kỹ năng xã hội vs. thao túng).
-  - **Hồi 5 (Tổng kết, Chuyển biến nhận thức & Phòng vệ sinh tồn):** 36 câu (Chuyển biến nhận thức N1/N2; 3 cảnh báo đỏ tâm lý học: Khai thác thông tin một chiều, Đổi thái độ theo vị thế, Ân huệ nhỏ đòi lợi ích lớn; 2 nguyên tắc sinh tồn: Hợp đồng hóa pháp lý & Kiểm chứng nguồn lực độc lập).
+  - **Hồi 1 (Khởi nguyên & Thức tỉnh đời thường):** 34 dòng / 34 câu (Bổ sung công trình *The Dark Triad* 2002 của Delroy Paulhus & Kevin Williams bên cạnh Niccolò Machiavelli).
+  - **Hồi 2 (Vụ án 1 - Lou Pearlman):** 46 dòng / 49 câu (Bổ sung chi tiết anh họ Art Garfunkel, công ty kiểm toán ma Cohen & Siegel đặt tên theo Mickey Cohen & Bugsy Siegel, trụ sở Trans Continental Records tại Orlando với O-Town & LFO, vụ bắt giữ tại Bali nhờ du khách Đức năm 2007 và phim tài liệu *The Boy Band Con* với Lance Bass).
+  - **Hồi 3 (Vụ án 2 - Pam Hupp):** 48 dòng / 48 câu (Bổ sung cái chết nghi vấn của mẹ ruột Shirley Neumann ngày 31/10/2013 tại Fenton, Missouri, bằng chứng ngoại phạm của Russell Faria trong phiên tòa 2013, vụ án Louis Gumpenberger ngày 16/08/2016 tại O'Fallon và loạt phim *The Thing About Pam* 2022).
+  - **Hồi 4 (Giải mã tâm lý học hành vi):** 41 dòng / 44 câu (Bổ sung kết quả thí nghiệm phòng thí nghiệm của Christie & Geis 1970, tác giả kỹ thuật thẩm vấn SUE Pär Anders Granhag & Maria Hartwig, cơ chế bất cân xứng thông tin và so sánh 3 đỉnh Bộ Ba Bóng Tối).
+  - **Hồi 5 (Tổng kết, Chuyển biến nhận thức & Phòng vệ sinh tồn):** 55 dòng / 60 câu (Chuyển biến nhận thức N1/N2, 3 cảnh báo đỏ tâm lý học và 2 nguyên tắc sinh tồn).
 
 ---
 
@@ -35,6 +35,11 @@
   - Vụ án Louis Gumpenberger (2016): Hupp dàn dựng một vụ bắt cóc giả mạo, bắn chết người đàn ông thiểu năng trí tuệ Louis Gumpenberger tại nhà riêng và khai man là kẻ đột nhập do Russell Faria thuê. Nhận tội theo Alford plea năm 2019 và chịu án tù chung thân không ân xá tại Nhà tù Nữ Chillicothe.
   - Năm 2021, Hupp chính thức bị khởi tố tội giết người cấp độ một đối với Betsy Faria.
 - **Tính xác thực:** Khớp 100% hồ sơ của Tòa án Hạt Lincoln (Missouri), tài liệu phóng sự điều tra của NBC News (*The Thing About Pam*) và báo cáo điều tra của Cảnh sát Bang Missouri.
+
+### 3. Nguồn đối chiếu bổ sung từ internet (27/11/2026)
+- **Paulhus & Williams (2002), Christie & Geis (1970), Granhag & Hartwig:** *The Dark Triad of personality* (2002); *Studies in Machiavellianism* (1970 — Mach-IV & thí nghiệm phòng thí nghiệm); khung thẩm vấn *Strategic Use of Evidence (SUE)*.
+- **Lou Pearlman:** Em họ Art Garfunkel; công ty kiểm toán ma *Cohen & Siegel* (đặt tên theo Mickey Cohen & Bugsy Siegel); bị bắt tại Bali (Indonesia) năm 2007 sau khi một du khách Đức nhận ra; phim tài liệu *The Boy Band Con: The Lou Pearlman Story* (Lance Bass).
+- **Pam Hupp:** Cái chết nghi vấn của mẹ ruột Shirley Neumann (31/10/2013, Fenton, Missouri); án mạng Louis Gumpenberger ngày 16/08/2016 tại O'Fallon, Missouri; loạt phim *The Thing About Pam* (2022, Renée Zellweger).
 
 ---
 

@@ -1,412 +1,134 @@
 [
  {
-  "id": "1-001",
-  "act": 1,
-  "name": "t44_a1_01_oregon_suburb_aerial_pines",
-  "codes": [
-   "1.02#1"
-  ],
-  "est": 9.6
- },
- {
-  "id": "1-002",
-  "act": 1,
-  "name": "t44_a1_02_cascade_range_misty_forest",
-  "codes": [
-   "1.02#2"
-  ],
-  "est": 8.8
- },
- {
-  "id": "1-003",
-  "act": 1,
-  "name": "t44_a1_03_white_picket_fence_street",
-  "codes": [
-   "1.02#3"
-  ],
-  "est": 8.5
- },
- {
-  "id": "1-004",
-  "act": 1,
-  "name": "t44_a1_04_neighbors_talking_over_fence_dusk",
-  "codes": [
-   "1.02#4",
-   "1.02#5"
-  ],
-  "est": 13.4
- },
- {
-  "id": "1-005",
-  "act": 1,
-  "name": "t44_a1_05_thurston_high_school_morning_exterior",
-  "codes": [
-   "1.02#6"
-  ],
-  "est": 8.2
- },
- {
-  "id": "1-006",
-  "act": 1,
-  "name": "t44_a1_06_one_dark_window_among_lit_ones",
-  "codes": [
-   "1.02#7"
-  ],
-  "est": 6.3
- },
- {
-  "id": "1-007",
-  "act": 1,
-  "name": "t44_a1_07_porch_light_sleepy_town_evening",
-  "codes": [
-   "1.02#8",
-   "1.02#9"
-  ],
-  "est": 17.8
- },
- {
-  "id": "1-008",
-  "act": 1,
-  "name": "t44_a1_08_curtained_windows_family_homes_night",
-  "codes": [
-   "1.02#10"
-  ],
-  "est": 9.3
- },
- {
-  "id": "1-009",
-  "act": 1,
-  "name": "t44_a1_09_school_long_shadow_empty_lawn_dusk",
-  "codes": [
-   "1.02#11",
-   "1.02#12"
-  ],
-  "est": 17.3
- },
- {
-  "id": "1-010",
-  "act": 1,
-  "name": "t44_a1_10_foggy_morning_school_parking_lot_1998",
-  "codes": [
-   "1.04#1"
-  ],
-  "est": 8.5
- },
- {
-  "id": "1-011",
-  "act": 1,
-  "name": "t44_a1_11_busy_school_cafeteria_silhouettes",
-  "codes": [
-   "1.04#2",
-   "1.04#3"
-  ],
-  "est": 16.5
- },
- {
-  "id": "1-012",
-  "act": 1,
-  "name": "t44_a1_12_hourglass_on_empty_cafeteria_table",
-  "codes": [
-   "1.04#4"
-  ],
-  "est": 10.2
- },
- {
-  "id": "1-013",
-  "act": 1,
-  "name": "t44_a1_13_long_hallway_silhouette_back_turned",
-  "codes": [
-   "1.04#5"
-  ],
-  "est": 8.2
- },
- {
-  "id": "1-014",
-  "act": 1,
-  "name": "t44_a1_14_heavy_dark_coat_on_hallway_bench",
-  "codes": [
-   "1.04#6"
-  ],
-  "est": 9.1
- },
- {
-  "id": "1-015",
-  "act": 1,
-  "name": "t44_a1_15_cafeteria_doors_haze_light_flare",
-  "codes": [
-   "1.06#1",
-   "1.06#2"
-  ],
-  "est": 16.5
- },
- {
-  "id": "1-016",
-  "act": 1,
-  "name": "t44_a1_16_overturned_chairs_empty_cafeteria",
-  "codes": [
-   "1.06#3",
-   "1.06#4"
-  ],
-  "est": 14.8
- },
- {
-  "id": "1-017",
-  "act": 1,
-  "name": "t44_a1_17_long_shadow_on_concrete_wall",
-  "codes": [
-   "1.06#5",
-   "1.06#6"
-  ],
-  "est": 16.2
- },
- {
-  "id": "1-018",
-  "act": 1,
-  "name": "t44_a1_18_cafeteria_corner_table_glass_shards_light",
-  "codes": [
-   "1.07#1",
-   "1.07#2"
-  ],
-  "est": 11.7
- },
- {
-  "id": "1-019",
-  "act": 1,
-  "name": "t44_a1_19_distant_backlit_figure_dim_cafeteria",
-  "codes": [
-   "1.07#3",
-   "1.07#4"
-  ],
-  "est": 15.3
- },
- {
-  "id": "1-020",
-  "act": 1,
-  "name": "t44_a1_20_frozen_students_backs_to_camera",
-  "codes": [
-   "1.07#5"
-  ],
-  "est": 8.5
- },
- {
-  "id": "1-021",
-  "act": 1,
-  "name": "t44_a1_21_dropped_backpack_doorway_light_sliver",
-  "codes": [
-   "1.09#1",
-   "1.09#2"
-  ],
-  "est": 15.1
- },
- {
-  "id": "1-022",
-  "act": 1,
-  "name": "t44_a1_22_empty_wrestling_mat_gym_high_window",
-  "codes": [
-   "1.09#3"
-  ],
-  "est": 10.2
- },
- {
-  "id": "1-023",
-  "act": 1,
-  "name": "t44_a1_23_backlit_students_moving_together_doorway",
-  "codes": [
-   "1.09#4"
-  ],
-  "est": 8.2
- },
- {
-  "id": "1-024",
-  "act": 1,
-  "name": "t44_a1_24_closed_wooden_box_light_seeping",
-  "codes": [
-   "1.09#5"
-  ],
-  "est": 7.1
- },
- {
-  "id": "1-025",
-  "act": 1,
-  "name": "t44_a1_25_patrol_cars_flashing_lights_fog_school",
-  "codes": [
-   "1.10#1"
-  ],
-  "est": 7.4
- },
- {
-  "id": "1-026",
-  "act": 1,
-  "name": "t44_a1_26_taped_off_cafeteria_floodlight",
-  "codes": [
-   "1.10#2",
-   "1.10#3"
-  ],
-  "est": 16.2
- },
- {
-  "id": "1-027",
-  "act": 1,
-  "name": "t44_a1_27_slumped_silhouette_police_holding_bench",
-  "codes": [
-   "1.10#4"
-  ],
-  "est": 8.5
- },
- {
-  "id": "1-028",
-  "act": 1,
-  "name": "t44_a1_28_evidence_table_plain_paper_bags",
-  "codes": [
-   "1.10#5",
-   "1.10#6"
-  ],
-  "est": 17.6
- },
- {
-  "id": "1-029",
-  "act": 1,
-  "name": "t44_a1_29_patrol_car_rear_window_rain_night",
-  "codes": [
-   "1.10#7"
-  ],
-  "est": 7.7
- },
- {
-  "id": "1-030",
-  "act": 1,
-  "name": "t44_a1_30_patrol_car_forest_road_dusk",
-  "codes": [
-   "1.11#1",
-   "1.11#2"
-  ],
-  "est": 14.0
- },
- {
-  "id": "1-031",
-  "act": 1,
-  "name": "t44_a1_31_log_house_deep_pine_forest_dim_windows",
-  "codes": [
-   "1.11#3",
-   "1.11#4"
-  ],
-  "est": 15.1
- },
- {
-  "id": "1-032",
-  "act": 1,
-  "name": "t44_a1_32_blank_case_folder_opening_lamplight",
-  "codes": [
-   "1.11#5"
-  ],
-  "est": 8.2
- },
- {
-  "id": "2-033",
+  "id": "2-001",
   "act": 2,
-  "name": "t44_a2_01_front_door_ajar_flashlight_beams",
+  "name": "t44_a2_05",
   "codes": [
    "2.02#1"
   ],
   "est": 8.0
  },
  {
-  "id": "2-034",
+  "id": "2-002",
   "act": 2,
-  "name": "t44_a2_02_record_player_spinning_dim_living_room",
+  "name": "t44_a2_06",
   "codes": [
    "2.02#2"
   ],
   "est": 7.4
  },
  {
-  "id": "2-035",
+  "id": "2-003",
   "act": 2,
-  "name": "t44_a2_03_basement_stairs_empty_folded_white_cloth",
+  "name": "t44_a2_07",
   "codes": [
-   "2.02#3",
+   "2.02#3"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "2-004",
+  "act": 2,
+  "name": "t44_a2_08",
+  "codes": [
    "2.02#4"
   ],
-  "est": 18.1
+  "est": 9.1
  },
  {
-  "id": "2-036",
+  "id": "2-005",
   "act": 2,
-  "name": "t44_a2_04_cordoned_wooded_yard_flashlights_night",
+  "name": "t44_a2_09",
   "codes": [
-   "2.02#5",
+   "2.02#5"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "2-006",
+  "act": 2,
+  "name": "t44_a2_10",
+  "codes": [
    "2.02#6"
   ],
-  "est": 16.5
+  "est": 8.0
  },
  {
-  "id": "2-037",
+  "id": "2-007",
   "act": 2,
-  "name": "t44_a2_05_empty_college_classroom_blank_chalkboard",
+  "name": "t44_a2_31",
   "codes": [
-   "2.04#1",
+   "2.04#1"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "2-008",
+  "act": 2,
+  "name": "t44_a2_32",
+  "codes": [
    "2.04#2"
   ],
-  "est": 15.9
+  "est": 8.2
  },
  {
-  "id": "2-038",
+  "id": "2-009",
   "act": 2,
-  "name": "t44_a2_06_sunny_whitewashed_spanish_village_plaza",
+  "name": "t44_a2_33",
   "codes": [
    "2.04#3"
   ],
   "est": 7.7
  },
  {
-  "id": "2-039",
+  "id": "2-010",
   "act": 2,
-  "name": "t44_a2_07_trophy_shelf_and_graduation_cap",
+  "name": "t44_a2_34",
   "codes": [
    "2.04#4"
   ],
   "est": 7.1
  },
  {
-  "id": "2-040",
+  "id": "2-011",
   "act": 2,
-  "name": "t44_a2_08_towering_shelves_shadow_over_small_chair",
+  "name": "t44_a2_35",
   "codes": [
    "2.04#5"
   ],
   "est": 7.7
  },
  {
-  "id": "2-041",
+  "id": "2-012",
   "act": 2,
-  "name": "t44_a2_09_open_blank_books_child_desk_lamp",
+  "name": "t44_a2_01",
   "codes": [
    "2.04#6"
   ],
   "est": 8.2
  },
  {
-  "id": "2-042",
+  "id": "2-013",
   "act": 2,
-  "name": "t44_a2_10_teen_bedroom_desk_stack_of_notebooks",
+  "name": "t44_a2_02",
   "codes": [
    "2.04#7"
   ],
   "est": 8.8
  },
  {
-  "id": "2-043",
+  "id": "2-014",
   "act": 2,
-  "name": "t44_a2_11_single_blank_sheet_desk_lamp",
+  "name": "t44_a2_03",
   "codes": [
    "2.04#8"
   ],
   "est": 7.1
  },
  {
-  "id": "2-044",
+  "id": "2-015",
   "act": 2,
-  "name": "t44_a2_12_seated_silhouette_head_in_hands_desk",
+  "name": "t44_a2_04",
   "codes": [
    "2.04#9",
    "2.04#10"
@@ -414,1165 +136,349 @@
   "est": 17.8
  },
  {
-  "id": "2-045",
+  "id": "2-016",
   "act": 2,
-  "name": "t44_a2_13_skateboard_driveway_quiet_morning_garden",
+  "name": "t44_a2_05",
   "codes": [
-   "2.05#1",
+   "2.05#1"
+  ],
+  "est": 6.6
+ },
+ {
+  "id": "2-017",
+  "act": 2,
+  "name": "t44_a2_06",
+  "codes": [
    "2.05#2"
   ],
-  "est": 14.2
+  "est": 7.7
  },
  {
-  "id": "2-046",
+  "id": "2-018",
   "act": 2,
-  "name": "t44_a2_14_calm_house_reflected_in_dark_puddle",
+  "name": "t44_a2_07",
   "codes": [
-   "2.05#3"
-  ],
-  "est": 6.6
- },
- {
-  "id": "2-047",
-  "act": 2,
-  "name": "t44_a2_15_head_profile_silhouette_storm_inside",
-  "codes": [
-   "2.05#4"
-  ],
-  "est": 8.8
- },
- {
-  "id": "2-048",
-  "act": 2,
-  "name": "t44_a2_16_hallway_many_closed_doors_one_ajar",
-  "codes": [
-   "2.05#5"
-  ],
-  "est": 8.0
- },
- {
-  "id": "2-049",
-  "act": 2,
-  "name": "t44_a2_17_empty_psychiatrist_office_leather_chair",
-  "codes": [
+   "2.05#3",
+   "2.05#4",
+   "2.05#5",
    "2.06#1",
-   "2.06#2"
-  ],
-  "est": 16.7
- },
- {
-  "id": "2-050",
-  "act": 2,
-  "name": "t44_a2_18_child_silhouette_bed_whispering_shadows",
-  "codes": [
-   "2.06#3"
-  ],
-  "est": 6.6
- },
- {
-  "id": "2-051",
-  "act": 2,
-  "name": "t44_a2_19_black_ribbons_swirling_around_empty_chair",
-  "codes": [
-   "2.06#4"
-  ],
-  "est": 8.5
- },
- {
-  "id": "2-052",
-  "act": 2,
-  "name": "t44_a2_20_institutional_corridor_boy_turned_away",
-  "codes": [
-   "2.06#5"
-  ],
-  "est": 9.3
- },
- {
-  "id": "2-053",
-  "act": 2,
-  "name": "t44_a2_21_small_figure_in_huge_room_rainy_window",
-  "codes": [
-   "2.06#6"
-  ],
-  "est": 8.8
- },
- {
-  "id": "2-054",
-  "act": 2,
-  "name": "t44_a2_22_curtain_silhouette_watching_dark_car_street",
-  "codes": [
-   "2.06#7"
-  ],
-  "est": 8.8
- },
- {
-  "id": "2-055",
-  "act": 2,
-  "name": "t44_a2_23_small_silhouette_huge_shadow_empty_field",
-  "codes": [
+   "2.06#2",
+   "2.06#3",
+   "2.06#4",
+   "2.06#5",
+   "2.06#6",
+   "2.06#7",
    "2.06#8",
-   "2.06#9"
-  ],
-  "est": 18.4
- },
- {
-  "id": "2-056",
-  "act": 2,
-  "name": "t44_a2_24_coiled_spring_on_dark_table",
-  "codes": [
-   "2.06#10"
-  ],
-  "est": 9.1
- },
- {
-  "id": "2-057",
-  "act": 2,
-  "name": "t44_a2_25_frosted_glass_pane_two_silhouettes",
-  "codes": [
-   "2.06#11"
-  ],
-  "est": 7.4
- },
- {
-  "id": "2-058",
-  "act": 2,
-  "name": "t44_a2_26_fence_line_fading_into_fog",
-  "codes": [
-   "2.06#12"
-  ],
-  "est": 8.0
- },
- {
-  "id": "2-059",
-  "act": 2,
-  "name": "t44_a2_27_clinic_waiting_room_pill_bottle",
-  "codes": [
+   "2.06#9",
+   "2.06#10",
+   "2.06#11",
+   "2.06#12",
    "2.07#1",
-   "2.07#2"
-  ],
-  "est": 14.0
- },
- {
-  "id": "2-060",
-  "act": 2,
-  "name": "t44_a2_28_smiling_porcelain_mask_consulting_desk",
-  "codes": [
-   "2.07#3"
-  ],
-  "est": 8.0
- },
- {
-  "id": "2-061",
-  "act": 2,
-  "name": "t44_a2_29_long_hall_single_dark_doorway",
-  "codes": [
-   "2.07#4"
-  ],
-  "est": 7.1
- },
- {
-  "id": "2-062",
-  "act": 2,
-  "name": "t44_a2_30_pacifist_study_ceramic_dove_books",
-  "codes": [
-   "2.08#1"
-  ],
-  "est": 7.7
- },
- {
-  "id": "2-063",
-  "act": 2,
-  "name": "t44_a2_31_forest_edge_practice_field_two_long_shadows",
-  "codes": [
+   "2.07#2",
+   "2.07#3",
+   "2.07#4",
+   "2.08#1",
    "2.08#2",
-   "2.08#3"
-  ],
-  "est": 17.8
- },
- {
-  "id": "2-064",
-  "act": 2,
-  "name": "t44_a2_32_plain_cardboard_box_ribbon_kitchen_table",
-  "codes": [
-   "2.08#4"
-  ],
-  "est": 8.5
- },
- {
-  "id": "2-065",
-  "act": 2,
-  "name": "t44_a2_33_padlock_on_sturdy_cabinet_key_on_hook",
-  "codes": [
-   "2.08#5"
-  ],
-  "est": 8.2
- },
- {
-  "id": "2-066",
-  "act": 2,
-  "name": "t44_a2_34_cabinet_door_splintered_open_black_void",
-  "codes": [
+   "2.08#3",
+   "2.08#4",
+   "2.08#5",
    "2.08#6",
-   "2.08#7"
-  ],
-  "est": 15.3
- },
- {
-  "id": "2-067",
-  "act": 2,
-  "name": "t44_a2_35_warm_kitchen_window_dark_lawn_dusk",
-  "codes": [
+   "2.08#7",
    "2.09#1",
-   "2.09#2"
-  ],
-  "est": 13.1
- },
- {
-  "id": "2-068",
-  "act": 2,
-  "name": "t44_a2_36_fraying_rope_about_to_snap_fog",
-  "codes": [
+   "2.09#2",
    "2.09#3",
-   "2.09#4"
-  ],
-  "est": 14.8
- },
- {
-  "id": "2-069",
-  "act": 2,
-  "name": "t44_a2_37_silent_living_room_curtains_cold_tea",
-  "codes": [
+   "2.09#4",
    "2.10#1",
-   "2.10#2"
-  ],
-  "est": 15.9
- },
- {
-  "id": "2-070",
-  "act": 2,
-  "name": "t44_a2_38_house_walled_by_books_fortress_fog",
-  "codes": [
-   "2.10#3"
-  ],
-  "est": 7.7
- },
- {
-  "id": "2-071",
-  "act": 2,
-  "name": "t44_a2_39_unmarked_amber_vials_clinic_shelf",
-  "codes": [
-   "2.10#4"
-  ],
-  "est": 6.8
- },
- {
-  "id": "2-072",
-  "act": 2,
-  "name": "t44_a2_40_marionette_hanging_dark_hand_above",
-  "codes": [
-   "2.10#5"
-  ],
-  "est": 8.8
- },
- {
-  "id": "2-073",
-  "act": 2,
-  "name": "t44_a2_41_crack_spreading_window_school_hall",
-  "codes": [
-   "2.10#6"
-  ],
-  "est": 8.0
- },
- {
-  "id": "2-074",
-  "act": 2,
-  "name": "t44_a2_42_thunderheads_over_pine_forest_twilight",
-  "codes": [
-   "2.11#1"
-  ],
-  "est": 5.5
- },
- {
-  "id": "2-075",
-  "act": 2,
-  "name": "t44_a2_43_school_entrance_twilight_may_1998",
-  "codes": [
-   "2.11#2"
-  ],
-  "est": 8.0
- },
- {
-  "id": "2-076",
-  "act": 2,
-  "name": "t44_a2_44_wooden_blocks_toppling_chain_reaction_dark",
-  "codes": [
+   "2.10#2",
+   "2.10#3",
+   "2.10#4",
+   "2.10#5",
+   "2.10#6",
+   "2.11#1",
+   "2.11#2",
    "2.11#3",
    "2.11#4"
   ],
-  "est": 10.9
+  "est": 310.8
  },
  {
-  "id": "3-077",
+  "id": "3-019",
   "act": 3,
-  "name": "t44_a3_01_school_buses_arriving_foggy_morning",
+  "name": "t44_a3_29",
   "codes": [
    "3.02#1"
   ],
   "est": 6.8
  },
  {
-  "id": "3-078",
+  "id": "3-020",
   "act": 3,
-  "name": "t44_a3_02_street_unnatural_long_shadows_pale_sun",
+  "name": "t44_a3_30",
   "codes": [
-   "3.02#2"
-  ],
-  "est": 7.4
- },
- {
-  "id": "3-079",
-  "act": 3,
-  "name": "t44_a3_03_disciplinary_office_door_frosted_glass",
-  "codes": [
+   "3.02#2",
    "3.02#3",
-   "3.02#4"
-  ],
-  "est": 14.2
- },
- {
-  "id": "3-080",
-  "act": 3,
-  "name": "t44_a3_04_principal_office_silhouette_phone",
-  "codes": [
-   "3.04#1"
-  ],
-  "est": 7.4
- },
- {
-  "id": "3-081",
-  "act": 3,
-  "name": "t44_a3_05_single_chair_facing_empty_desk_discipline",
-  "codes": [
-   "3.04#2"
-  ],
-  "est": 7.7
- },
- {
-  "id": "3-082",
-  "act": 3,
-  "name": "t44_a3_06_locker_row_one_ajar_paper_bag",
-  "codes": [
-   "3.04#3"
-  ],
-  "est": 8.5
- },
- {
-  "id": "3-083",
-  "act": 3,
-  "name": "t44_a3_07_steel_handcuffs_on_desk_hallway_onlookers",
-  "codes": [
-   "3.04#4"
-  ],
-  "est": 7.1
- },
- {
-  "id": "3-084",
-  "act": 3,
-  "name": "t44_a3_08_two_teen_silhouettes_campus_lawn_exchange",
-  "codes": [
+   "3.02#4",
+   "3.04#1",
+   "3.04#2",
+   "3.04#3",
+   "3.04#4",
    "3.05#1",
-   "3.05#2"
-  ],
-  "est": 13.4
- },
- {
-  "id": "3-085",
-  "act": 3,
-  "name": "t44_a3_09_police_station_front_cars_fog",
-  "codes": [
-   "3.05#3"
-  ],
-  "est": 7.7
- },
- {
-  "id": "3-086",
-  "act": 3,
-  "name": "t44_a3_10_empty_disciplinary_board_table_blank_folders",
-  "codes": [
-   "3.05#4"
-  ],
-  "est": 9.3
- },
- {
-  "id": "3-087",
-  "act": 3,
-  "name": "t44_a3_11_police_lobby_empty_door_open_idling_car",
-  "codes": [
-   "3.05#5"
-  ],
-  "est": 8.5
- },
- {
-  "id": "3-088",
-  "act": 3,
-  "name": "t44_a3_12_windshield_view_rural_road_empty_seat_dusk",
-  "codes": [
+   "3.05#2",
+   "3.05#3",
+   "3.05#4",
+   "3.05#5",
    "3.05#6",
-   "3.05#7"
-  ],
-  "est": 15.6
- },
- {
-  "id": "3-089",
-  "act": 3,
-  "name": "t44_a3_13_rotary_wall_phone_kitchen_dusk",
-  "codes": [
-   "3.06#1"
-  ],
-  "est": 8.5
- },
- {
-  "id": "3-090",
-  "act": 3,
-  "name": "t44_a3_14_boy_silhouette_dark_hallway_doorway_listening",
-  "codes": [
-   "3.06#2"
-  ],
-  "est": 8.8
- },
- {
-  "id": "3-091",
-  "act": 3,
-  "name": "t44_a3_15_reform_school_fence_dusk_wire",
-  "codes": [
-   "3.06#3"
-  ],
-  "est": 8.2
- },
- {
-  "id": "3-092",
-  "act": 3,
-  "name": "t44_a3_16_open_birdcage_dark_room",
-  "codes": [
-   "3.06#4"
-  ],
-  "est": 7.1
- },
- {
-  "id": "3-093",
-  "act": 3,
-  "name": "t44_a3_17_shattered_mirror_faint_outline",
-  "codes": [
+   "3.05#7",
+   "3.06#1",
+   "3.06#2",
+   "3.06#3",
+   "3.06#4",
    "3.07#1",
-   "3.07#2"
-  ],
-  "est": 19.2
- },
- {
-  "id": "3-094",
-  "act": 3,
-  "name": "t44_a3_18_black_ink_swirling_in_glass_of_water",
-  "codes": [
+   "3.07#2",
    "3.07#3",
-   "3.07#4"
-  ],
-  "est": 17.0
- },
- {
-  "id": "3-095",
-  "act": 3,
-  "name": "t44_a3_19_two_empty_armchairs_lit_lamp_dust",
-  "codes": [
+   "3.07#4",
    "3.07#5",
    "3.07#6",
-   "3.07#7"
-  ],
-  "est": 24.4
- },
- {
-  "id": "3-096",
-  "act": 3,
-  "name": "t44_a3_20_steaming_coffee_cup_kitchen_table_empty_chair",
-  "codes": [
-   "3.07#8"
-  ],
-  "est": 8.8
- },
- {
-  "id": "3-097",
-  "act": 3,
-  "name": "t44_a3_21_closed_door_end_of_dim_hall_light_beneath",
-  "codes": [
+   "3.07#7",
+   "3.07#8",
    "3.07#9",
-   "3.07#10"
-  ],
-  "est": 15.1
- },
- {
-  "id": "3-098",
-  "act": 3,
-  "name": "t44_a3_22_woman_coat_and_keys_by_door_dusk",
-  "codes": [
-   "3.07#11"
-  ],
-  "est": 7.7
- },
- {
-  "id": "3-099",
-  "act": 3,
-  "name": "t44_a3_23_forest_house_night_one_dim_window",
-  "codes": [
+   "3.07#10",
+   "3.07#11",
    "3.08#1",
-   "3.08#2"
-  ],
-  "est": 15.3
- },
- {
-  "id": "3-100",
-  "act": 3,
-  "name": "t44_a3_24_vinyl_grooves_tonearm_amber_lamp_macro",
-  "codes": [
-   "3.08#3"
-  ],
-  "est": 8.0
- },
- {
-  "id": "3-101",
-  "act": 3,
-  "name": "t44_a3_25_desk_lamp_pen_on_blank_paper_tears",
-  "codes": [
-   "3.08#4"
-  ],
-  "est": 8.0
- },
- {
-  "id": "3-102",
-  "act": 3,
-  "name": "t44_a3_26_dark_hall_deadbolts_night_chain_door",
-  "codes": [
-   "3.08#5"
-  ],
-  "est": 9.1
- },
- {
-  "id": "3-103",
-  "act": 3,
-  "name": "t44_a3_27_silhouette_on_bed_ears_covered_shadow_tendrils",
-  "codes": [
+   "3.08#2",
+   "3.08#3",
+   "3.08#4",
+   "3.08#5",
    "3.08#6",
-   "3.08#7"
-  ],
-  "est": 14.5
- },
- {
-  "id": "3-104",
-  "act": 3,
-  "name": "t44_a3_28_lone_car_forest_road_dawn_headlights_fog",
-  "codes": [
-   "3.08#8"
-  ],
-  "est": 7.7
- },
- {
-  "id": "3-105",
-  "act": 3,
-  "name": "t44_a3_29_silhouette_walking_toward_white_light_tunnel",
-  "codes": [
+   "3.08#7",
+   "3.08#8",
    "3.09#1",
-   "3.09#2"
-  ],
-  "est": 15.1
- },
- {
-  "id": "3-106",
-  "act": 3,
-  "name": "t44_a3_30_thunderstorm_lightning_over_school_roof",
-  "codes": [
+   "3.09#2",
    "3.09#3",
-   "3.09#4"
-  ],
-  "est": 14.2
- },
- {
-  "id": "3-107",
-  "act": 3,
-  "name": "t44_a3_31_backlit_line_of_teen_silhouettes_hallway",
-  "codes": [
+   "3.09#4",
    "3.09#5",
-   "3.09#6"
-  ],
-  "est": 15.6
- },
- {
-  "id": "3-108",
-  "act": 3,
-  "name": "t44_a3_32_boy_curled_in_cell_high_window_light",
-  "codes": [
+   "3.09#6",
    "3.09#7",
-   "3.09#8"
-  ],
-  "est": 14.2
- },
- {
-  "id": "3-109",
-  "act": 3,
-  "name": "t44_a3_33_candles_flowers_school_lawn_dusk_fog",
-  "codes": [
+   "3.09#8",
    "3.10#1",
-   "3.10#2"
-  ],
-  "est": 15.1
- },
- {
-  "id": "3-110",
-  "act": 3,
-  "name": "t44_a3_34_heavy_steel_door_closing_cold_corridor",
-  "codes": [
+   "3.10#2",
    "3.10#3"
   ],
-  "est": 10.2
+  "est": 378.5
  },
  {
-  "id": "4-111",
+  "id": "4-021",
   "act": 4,
-  "name": "t44_a4_01_reel_tape_recorder_spinning_bare_table",
+  "name": "t44_a4_04",
   "codes": [
    "4.02#1"
   ],
   "est": 6.6
  },
  {
-  "id": "4-112",
+  "id": "4-022",
   "act": 4,
-  "name": "t44_a4_02_interrogation_room_two_silhouettes_floor_ring",
+  "name": "t44_a4_05",
   "codes": [
-   "4.02#2",
+   "4.02#2"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "4-023",
+  "act": 4,
+  "name": "t44_a4_06",
+  "codes": [
    "4.02#3"
   ],
-  "est": 13.7
+  "est": 6.0
  },
  {
-  "id": "4-113",
+  "id": "4-024",
   "act": 4,
-  "name": "t44_a4_03_chess_game_mid_play_toppled_king",
+  "name": "t44_a4_07",
   "codes": [
-   "4.02#4",
+   "4.02#4"
+  ],
+  "est": 6.6
+ },
+ {
+  "id": "4-025",
+  "act": 4,
+  "name": "t44_a4_08",
+  "codes": [
    "4.02#5"
   ],
-  "est": 13.7
+  "est": 7.1
  },
  {
-  "id": "4-114",
+  "id": "4-026",
   "act": 4,
-  "name": "t44_a4_04_detective_silhouette_desk_lamp_late_night",
+  "name": "t44_a4_23",
   "codes": [
    "4.03#1"
   ],
   "est": 7.7
  },
  {
-  "id": "4-115",
+  "id": "4-027",
   "act": 4,
-  "name": "t44_a4_05_hunched_silhouette_hands_over_ears_table",
+  "name": "t44_a4_24",
   "codes": [
-   "4.03#2",
-   "4.03#3"
+   "4.03#2"
   ],
-  "est": 14.2
+  "est": 7.1
  },
  {
-  "id": "4-116",
+  "id": "4-028",
   "act": 4,
-  "name": "t44_a4_06_barred_window_rain_grey_dawn",
+  "name": "t44_a4_25",
+  "codes": [
+   "4.03#3"
+  ],
+  "est": 7.1
+ },
+ {
+  "id": "4-029",
+  "act": 4,
+  "name": "t44_a4_26",
   "codes": [
    "4.03#4"
   ],
   "est": 7.7
  },
  {
-  "id": "4-117",
+  "id": "4-030",
   "act": 4,
-  "name": "t44_a4_07_small_child_silhouette_forest_path_night_lost",
+  "name": "t44_a4_27",
   "codes": [
-   "4.03#5",
-   "4.03#6"
-  ],
-  "est": 16.5
- },
- {
-  "id": "4-118",
-  "act": 4,
-  "name": "t44_a4_08_overturned_chair_single_shoe_door_ajar",
-  "codes": [
-   "4.03#7",
-   "4.03#8",
-   "4.03#9"
-  ],
-  "est": 16.4
- },
- {
-  "id": "4-119",
-  "act": 4,
-  "name": "t44_a4_09_white_haze_drifting_empty_interrogation_room",
-  "codes": [
-   "4.03#10"
-  ],
-  "est": 7.1
- },
- {
-  "id": "4-120",
-  "act": 4,
-  "name": "t44_a4_10_forensic_archive_shelves_blank_boxes",
-  "codes": [
-   "4.04#1"
-  ],
-  "est": 8.2
- },
- {
-  "id": "4-121",
-  "act": 4,
-  "name": "t44_a4_11_rain_streaked_glass_silhouette_behind",
-  "codes": [
-   "4.04#2"
+   "4.03#5"
   ],
   "est": 7.4
  },
  {
-  "id": "4-122",
+  "id": "4-031",
   "act": 4,
-  "name": "t44_a4_12_empty_brass_scales_soft_light",
+  "name": "t44_a4_01",
   "codes": [
-   "4.04#3",
-   "4.04#4"
-  ],
-  "est": 15.6
- },
- {
-  "id": "4-123",
-  "act": 4,
-  "name": "t44_a4_13_stacked_translucent_glass_panes_faint_shapes",
-  "codes": [
-   "4.04#5"
-  ],
-  "est": 6.8
- },
- {
-  "id": "4-124",
-  "act": 4,
-  "name": "t44_a4_14_prison_corridor_cell_bars_cold_blue_2021",
-  "codes": [
-   "4.05#1",
-   "4.05#2"
-  ],
-  "est": 15.9
- },
- {
-  "id": "4-125",
-  "act": 4,
-  "name": "t44_a4_15_cell_window_moonlight_bar_shadows_ribbons",
-  "codes": [
-   "4.05#3"
-  ],
-  "est": 7.7
- },
- {
-  "id": "4-126",
-  "act": 4,
-  "name": "t44_a4_16_sunlight_through_barred_window_dust_motes",
-  "codes": [
-   "4.05#4",
-   "4.05#5"
-  ],
-  "est": 13.7
- },
- {
-  "id": "4-127",
-  "act": 4,
-  "name": "t44_a4_17_hunched_silhouette_carrying_boulder_dusk_road",
-  "codes": [
-   "4.05#6",
-   "4.05#7"
-  ],
-  "est": 16.5
- },
- {
-  "id": "4-128",
-  "act": 4,
-  "name": "t44_a4_18_prison_yard_high_walls_lone_bench",
-  "codes": [
-   "4.05#8"
-  ],
-  "est": 7.1
- },
- {
-  "id": "4-129",
-  "act": 4,
-  "name": "t44_a4_19_visiting_room_glass_partition_hanging_handset",
-  "codes": [
-   "4.07#1",
-   "4.07#2"
-  ],
-  "est": 16.5
- },
- {
-  "id": "4-130",
-  "act": 4,
-  "name": "t44_a4_20_thick_prison_door_narrow_slot",
-  "codes": [
-   "4.07#3"
-  ],
-  "est": 6.6
- },
- {
-  "id": "4-131",
-  "act": 4,
-  "name": "t44_a4_21_green_sprout_through_cracked_concrete_dawn",
-  "codes": [
-   "4.07#4",
-   "4.07#5",
-   "4.07#6"
-  ],
-  "est": 23.6
- },
- {
-  "id": "4-132",
-  "act": 4,
-  "name": "t44_a4_22_wooden_courtroom_empty_benches_gavel_1999",
-  "codes": [
-   "4.08#1"
-  ],
-  "est": 10.7
- },
- {
-  "id": "4-133",
-  "act": 4,
-  "name": "t44_a4_23_conference_table_thick_blank_case_files",
-  "codes": [
-   "4.08#2"
-  ],
-  "est": 8.2
- },
- {
-  "id": "4-134",
-  "act": 4,
-  "name": "t44_a4_24_empty_courtroom_benches_white_lilies",
-  "codes": [
-   "4.08#3",
-   "4.08#4"
-  ],
-  "est": 19.2
- },
- {
-  "id": "4-135",
-  "act": 4,
-  "name": "t44_a4_25_night_neuroscience_lab_microscope_model_brain",
-  "codes": [
-   "4.09#1",
-   "4.09#2"
-  ],
-  "est": 15.6
- },
- {
-  "id": "4-136",
-  "act": 4,
-  "name": "t44_a4_26_fog_lifting_pine_forest_window_dawn",
-  "codes": [
-   "4.09#3",
-   "4.09#4"
-  ],
-  "est": 16.5
- },
- {
-  "id": "4-137",
-  "act": 4,
-  "name": "t44_a4_27_young_sapling_beside_mature_tree_soft_light",
-  "codes": [
-   "4.09#5"
-  ],
-  "est": 11.0
- },
- {
-  "id": "4-138",
-  "act": 4,
-  "name": "t44_a4_28_unfinished_stone_bridge_over_ravine_dusk",
-  "codes": [
-   "4.09#6"
-  ],
-  "est": 9.6
- },
- {
-  "id": "4-139",
-  "act": 4,
-  "name": "t44_a4_29_completed_stone_bridge_morning_light",
-  "codes": [
-   "4.09#7"
+   "4.03#6"
   ],
   "est": 9.1
  },
  {
-  "id": "4-140",
+  "id": "4-032",
   "act": 4,
-  "name": "t44_a4_30_silhouette_bowing_head_still_water_dawn",
+  "name": "t44_a4_02",
   "codes": [
-   "4.09#8",
-   "4.09#9"
+   "4.03#7"
   ],
-  "est": 19.8
+  "est": 8.8
  },
  {
-  "id": "4-141",
+  "id": "4-033",
   "act": 4,
-  "name": "t44_a4_31_extinguished_candles_one_flame_wax_trails",
+  "name": "t44_a4_03",
   "codes": [
-   "4.10#1",
-   "4.10#2"
+   "4.03#8"
   ],
-  "est": 18.1
+  "est": 2.4
  },
  {
-  "id": "4-142",
+  "id": "4-034",
   "act": 4,
-  "name": "t44_a4_32_lady_justice_statue_dusk_courthouse_steps",
+  "name": "t44_a4_04",
   "codes": [
-   "4.10#3"
-  ],
-  "est": 9.1
- },
- {
-  "id": "4-143",
-  "act": 4,
-  "name": "t44_a4_33_red_beacon_lamp_over_foggy_road",
-  "codes": [
-   "4.10#4"
-  ],
-  "est": 7.7
- },
- {
-  "id": "5-144",
-  "act": 5,
-  "name": "t44_a5_01_lane_county_courthouse_autumn_leaves_1999",
-  "codes": [
-   "5.02#1"
-  ],
-  "est": 7.7
- },
- {
-  "id": "5-145",
-  "act": 5,
-  "name": "t44_a5_02_gavel_resting_on_wooden_bench",
-  "codes": [
-   "5.02#2"
-  ],
-  "est": 7.7
- },
- {
-  "id": "5-146",
-  "act": 5,
-  "name": "t44_a5_03_empty_prison_cell_bare_bunk",
-  "codes": [
-   "5.02#3"
-  ],
-  "est": 8.0
- },
- {
-  "id": "5-147",
-  "act": 5,
-  "name": "t44_a5_04_courthouse_corridor_empty_chairs_jackets",
-  "codes": [
-   "5.02#4"
-  ],
-  "est": 7.7
- },
- {
-  "id": "5-148",
-  "act": 5,
-  "name": "t44_a5_05_empty_classroom_stacked_chairs_dust_light",
-  "codes": [
-   "5.02#5"
-  ],
-  "est": 8.5
- },
- {
-  "id": "5-149",
-  "act": 5,
-  "name": "t44_a5_06_padlocked_iron_gate_school_fog_beyond",
-  "codes": [
-   "5.02#6",
-   "5.02#7"
-  ],
-  "est": 18.7
- },
- {
-  "id": "5-150",
-  "act": 5,
-  "name": "t44_a5_07_school_under_storm_one_lit_window",
-  "codes": [
-   "5.02#8"
-  ],
-  "est": 6.8
- },
- {
-  "id": "5-151",
-  "act": 5,
-  "name": "t44_a5_08_three_lit_lanterns_dark_wooden_table",
-  "codes": [
-   "5.03#1",
-   "5.03#2"
-  ],
-  "est": 17.3
- },
- {
-  "id": "5-152",
-  "act": 5,
-  "name": "t44_a5_09_closed_teen_bedroom_door_light_beneath",
-  "codes": [
-   "5.03#3"
-  ],
-  "est": 12.4
- },
- {
-  "id": "5-153",
-  "act": 5,
-  "name": "t44_a5_10_heavy_steel_home_safe_closed_garage",
-  "codes": [
-   "5.03#4",
-   "5.03#5"
-  ],
-  "est": 18.1
- },
- {
-  "id": "5-154",
-  "act": 5,
-  "name": "t44_a5_11_counselor_office_open_door_warm_light",
-  "codes": [
-   "5.03#6"
-  ],
-  "est": 9.6
- },
- {
-  "id": "5-155",
-  "act": 5,
-  "name": "t44_a5_12_misty_forest_fork_one_path_lit",
-  "codes": [
-   "5.03#7"
-  ],
-  "est": 12.1
- },
- {
-  "id": "5-156",
-  "act": 5,
-  "name": "t44_a5_13_round_table_staff_police_silhouettes",
-  "codes": [
-   "5.04#1",
-   "5.04#2"
-  ],
-  "est": 15.6
- },
- {
-  "id": "5-157",
-  "act": 5,
-  "name": "t44_a5_14_bronze_medal_blue_ribbon_wooden_stand",
-  "codes": [
-   "5.04#3",
-   "5.04#4"
-  ],
-  "est": 18.1
- },
- {
-  "id": "5-158",
-  "act": 5,
-  "name": "t44_a5_15_law_library_blank_spines_lamp",
-  "codes": [
-   "5.04#5",
-   "5.04#6"
-  ],
-  "est": 19.0
- },
- {
-  "id": "5-159",
-  "act": 5,
-  "name": "t44_a5_16_memorial_garden_bench_flowers_autumn_school",
-  "codes": [
-   "5.05#1",
-   "5.05#2"
-  ],
-  "est": 16.2
- },
- {
-  "id": "5-160",
-  "act": 5,
-  "name": "t44_a5_17_lantern_in_fog_on_dark_road",
-  "codes": [
-   "5.05#3",
-   "5.05#4"
-  ],
-  "est": 15.6
- },
- {
-  "id": "5-161",
-  "act": 5,
-  "name": "t44_a5_18_lone_armchair_vast_empty_room_whispers",
-  "codes": [
-   "5.05#5",
-   "5.05#6"
-  ],
-  "est": 17.3
- },
- {
-  "id": "5-162",
-  "act": 5,
-  "name": "t44_a5_19_dawn_rays_over_pine_forest_after_storm",
-  "codes": [
-   "5.05#7",
-   "5.05#8"
-  ],
-  "est": 14.8
- },
- {
-  "id": "5-163",
-  "act": 5,
-  "name": "t44_a5_20_umbrella_shielding_sapling_in_rain",
-  "codes": [
-   "5.05#9",
-   "5.05#10"
-  ],
-  "est": 17.6
- },
- {
-  "id": "5-164",
-  "act": 5,
-  "name": "t44_a5_21_lighthouse_beam_over_night_sea",
-  "codes": [
-   "5.05#11",
-   "5.05#12"
-  ],
-  "est": 16.2
- },
- {
-  "id": "5-165",
-  "act": 5,
-  "name": "t44_a5_22_dark_podcast_studio_warm_lamp_microphone",
-  "codes": [
-   "5.05#13"
-  ],
-  "est": 7.7
- },
- {
-  "id": "5-166",
-  "act": 5,
-  "name": "t44_a5_23_family_dinner_table_warm_window_night",
-  "codes": [
-   "5.05#14"
-  ],
-  "est": 5.7
- },
- {
-  "id": "5-167",
-  "act": 5,
-  "name": "t44_a5_24_amber_tiger_eyes_closing_dossier_dark",
-  "codes": [
-   "5.05#15"
+   "4.03#9"
   ],
   "est": 5.2
+ },
+ {
+  "id": "4-035",
+  "act": 4,
+  "name": "t44_a4_05",
+  "codes": [
+   "4.03#10",
+   "4.04#1",
+   "4.04#2",
+   "4.04#3",
+   "4.04#4",
+   "4.04#5",
+   "4.05#1",
+   "4.05#2",
+   "4.05#3",
+   "4.05#4",
+   "4.05#5",
+   "4.05#6",
+   "4.05#7",
+   "4.05#8",
+   "4.07#1",
+   "4.07#2",
+   "4.07#3",
+   "4.07#4",
+   "4.07#5",
+   "4.07#6",
+   "4.08#1",
+   "4.08#2",
+   "4.08#3",
+   "4.08#4",
+   "4.09#1",
+   "4.09#2",
+   "4.09#3",
+   "4.09#4",
+   "4.09#5",
+   "4.09#6",
+   "4.09#7",
+   "4.09#8",
+   "4.09#9",
+   "4.10#1",
+   "4.10#2",
+   "4.10#3",
+   "4.10#4"
+  ],
+  "est": 307.2
+ },
+ {
+  "id": "5-036",
+  "act": 5,
+  "name": "t44_a4_05",
+  "codes": [
+   "5.02#1",
+   "5.02#2",
+   "5.02#3",
+   "5.02#4",
+   "5.02#5",
+   "5.02#6",
+   "5.02#7",
+   "5.02#8",
+   "5.03#1",
+   "5.03#2",
+   "5.03#3",
+   "5.03#4",
+   "5.03#5",
+   "5.03#6",
+   "5.03#7",
+   "5.04#1",
+   "5.04#2",
+   "5.04#3",
+   "5.04#4",
+   "5.04#5",
+   "5.04#6",
+   "5.05#1",
+   "5.05#2",
+   "5.05#3",
+   "5.05#4",
+   "5.05#5",
+   "5.05#6",
+   "5.05#7",
+   "5.05#8",
+   "5.05#9",
+   "5.05#10",
+   "5.05#11",
+   "5.05#12",
+   "5.05#13",
+   "5.05#14",
+   "5.05#15"
+  ],
+  "est": 303.4
  }
 ]

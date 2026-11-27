@@ -46,6 +46,8 @@ Xã hội bây giờ phức tạp, lòng người khó đoán, kẻ xấu thì r
 Các cụ ngày xưa đã đúc kết rồi, không có lửa thì làm sao có khói bốc lên được?
 Nếu người bị hại sống chuẩn mực, biết giữ gìn khuôn phép, chịu khó ở nhà vào buổi tối thì kẻ xấu làm sao có cơ hội tiếp cận mà gây hại được chứ?
 Nhiều khi chính sự bất cẩn, chủ quan và lối sống buông thả của họ đã vô tình tạo điều kiện thuận lợi cho tội ác nảy sinh.
+Nói ra thì nghe có vẻ khắt khe, nhưng đó là cách tôi thường dặn dò con gái mình để nó biết giữ mình tránh xa rắc rối.
+Mình sống đàng hoàng, đi đứng cẩn thận thì mới mong yên ổn được, chứ trông chờ vào lòng tốt của người lạ ngoài đường thì khó lắm.
 
 **HOST** *(Tiếp tục dẫn dắt bóc trần chiếc bẫy nhận thức)*:
 Đó là suy nghĩ vô cùng phổ biến của hàng triệu người dân, một phản xạ tự vệ tâm lý tưởng chừng như rất hợp lý và có thiện chí khuyên răn bảo ban thế hệ trẻ.
@@ -66,13 +68,17 @@ Kẻ sát nhân bám vào định kiến đạo đức giả của xã hội đ�
 Để hiểu rõ cách thức bộ não kẻ thủ ác bẻ cong đạo đức qua cơ chế đổ lỗi này, chúng ta cần sự phân tích chuyên sâu từ khoa học tâm lý học pháp y.
 
 **CHUYÊN GIA TÂM LÝ** *(Giọng nữ sắc sảo, tự tin, mang chiều sâu học thuật)*:
-Hiện tượng mà người bình thường vừa bộc lộ minh họa chính xác cho Giả thuyết Thế giới Công bằng, tức The Just-World Hypothesis của nhà tâm lý học Melvin Lerner, kết hợp với Cơ chế Đổ lỗi cho nạn nhân, tức Attribution of Blame theo Albert Bandura.
+Hiện tượng mà người bình thường vừa bộc lộ minh họa chính xác cho Giả thuyết Thế giới Công bằng, tức The Just-World Hypothesis của nhà tâm lý học xã hội Melvin Lerner, kết hợp với Cơ chế Đổ lỗi cho nạn nhân, tức Attribution of Blame theo Albert Bandura.
+Theo Melvin Lerner, con người có nhu cầu tâm lý mãnh liệt muốn tin rằng thế giới này vốn công bằng và trật tự, rằng người tốt sẽ gặp điều lành còn ai gặp tai họa ắt hẳn phải có lỗi lầm nào đó.
+Khi một người vô tội bất ngờ trở thành nạn nhân của tội ác, niềm tin an toàn đó bị đe dọa vỡ vụn, khiến người ngoài cuộc vô thức đi tìm lỗi ở nạn nhân để tự trấn an mình.
+Và chính lỗ hổng tâm lý này của đám đông lại bị kẻ thủ ác khai thác triệt để thông qua một chiến thuật thao túng mà nhà tâm lý học Jennifer Freyd đã định danh vào năm 1997 là DARVO: Chối bỏ, Tấn công và Đảo ngược vai trò Nạn nhân với Thủ phạm.
 Trong tâm lý học tội phạm, Đổ lỗi cho nạn nhân là kỹ thuật tâm lý tinh vi và phổ biến nhất giúp kẻ thủ ác chuyển dịch toàn bộ gánh nặng đạo đức từ bản thân sang đối tượng bị hại.
 Quy trình này vận hành qua ba bước biến dạng nhận thức được củng cố liên tục:
 Bước thứ nhất là Tìm kiếm và Phóng đại lỗi lầm ở đối phương: Kẻ thủ ác chủ động quan sát và soi mói những hành vi đời thường của nạn nhân — từ nghề nghiệp mưu sinh, trang phục mặc trên người, lời nói giao tiếp, cho đến sự bất cẩn hay sự ngây thơ — rồi biến chúng thành những bằng chứng không thể chối cãi về sự suy đồi đạo đức.
 Bước thứ hai là Tự hợp thức hóa hành vi trừng phạt: Hắn tự nhủ rằng nạn nhân đã tự chuốc lấy số phận; hành động tấn công bằng vũ lực của hắn không phải là tội ác, mà chỉ là một phản ứng tất yếu trước sự khiêu khích hoặc sự lệch chuẩn của đối phương.
 Bước thứ ba là Tự phong thánh cho bản thân: Hắn nâng hành vi phạm tội bạo lực cá nhân lên thành một nghĩa vụ đạo đức cao cả, tự coi mình là công cụ thanh tẩy xã hội, một người dọn dẹp rác rưởi cho cộng đồng.
 Hắn không còn nhìn thấy mình là một kẻ sát nhân máu lạnh nữa; trong mắt hắn, hắn trở thành một người phán xử thay trời hành đạo.
+Càng nguy hiểm hơn, khi dư luận bên ngoài cũng vô tình lặp lại những định kiến tương tự về lối sống của nạn nhân, bộ não kẻ thủ ác sẽ coi đó là sự xác nhận từ xã hội.
 Và biểu tượng đen tối nhất cho ảo tưởng phán xét tự phong này trong lịch sử tư pháp phương Tây chính là Peter Sutcliffe — Kẻ đồ tể vùng Yorkshire tại nước Anh.
 
 **HOST** *(Tiếp nối mạch kịch tính, mở ra hồ sơ án)*:
@@ -96,9 +102,14 @@ Từ năm 1975 đến cuối năm 1980, toàn bộ miền bắc nước Anh rơi
 Một bóng ma vô hình liên tục tấn công phụ nữ bằng búa và vật nhọn trong đêm tối tại các thành phố Leeds, Bradford, Manchester và Huddersfield.
 Cảnh sát Anh đã mở chiến dịch điều tra lớn nhất thế kỷ hai mươi mang tên Chiến dịch Truy lùng Kẻ đồ tể vùng Yorkshire (The Yorkshire Ripper):
 Hơn hai trăm năm mươi nghìn người bị thẩm vấn, hàng triệu giờ tuần tra được triển khai, nhưng kẻ thủ ác vẫn thoắt ẩn thoắt hiện.
+Điều gây bàng hoàng nhất trong lịch sử điều tra nước Anh là bản thân Peter Sutcliffe đã từng bị cảnh sát West Yorkshire gọi lên thẩm vấn tới chín lần riêng biệt trong suốt quá trình truy lùng.
+Thậm chí có lần một tờ tiền năm bảng Anh mới tinh trùng khớp với lô tiền lương tại công ty của hắn được tìm thấy ngay gần hiện trường thi thể nạn nhân.
+Thế nhưng, hắn vẫn liên tục lọt lưới vì một kẻ lừa đảo có biệt danh Wearside Jack đã gửi những lá thư và cuộn băng ghi âm giả mạo giọng địa phương vùng Sunderland đến cảnh sát, khiến toàn bộ ban chuyên án tin mù quáng rằng hung thủ không phải người địa phương vùng Yorkshire.
+Hồ sơ giấy chất cao như núi tại phòng chỉ huy mà không có hệ thống đối chiếu chéo hiệu quả, khiến cái tên Peter Sutcliffe bị chôn vùi giữa hàng trăm nghìn phiếu điều tra.
+Mãi đến hơn hai thập kỷ sau, kẻ giả mạo Wearside Jack mới bị công nghệ DNA lật tẩy danh tính thật là John Humble và phải nhận án tù vì tội cản trở công lý.
 Đến tối ngày 2 tháng 1 năm 1981, tại thành phố Sheffield, hai sĩ quan cảnh sát tuần tra tình cờ phát hiện một chiếc xe ô tô cá nhân đậu trong một con ngõ tối, bên trong có một người đàn ông râu quai nón rậm rạp và một người phụ nữ.
 Kiểm tra biển số xe, các sĩ quan phát hiện chiếc xe sử dụng biển số giả mạo.
-Người đàn ông lập tức bị bắt giữ về đồn cảnh sát vì hành vi gian lận phương tiện: Tên hắn là Peter William Sutcliffe, ba mươi lăm tuổi, một tài xế xe tải đường dài sống tại thành phố Bradford.
+Người đàn ông lập tức bị bắt giữ về đồn cảnh sát vì hành vi gian lận phương tiện: Tên hắn là Peter William Sutcliffe, ba mươi bốn tuổi, một tài xế xe tải đường dài sống tại thành phố Bradford.
 Sáng hôm sau, khi quay lại hiện trường con ngõ nơi Sutcliffe bị chặn lại, một điều tra viên tinh ý đã tìm thấy một chiếc búa kim loại và một con dao găm được giấu kỹ dưới một bụi cây gần đó, nơi Sutcliffe xin phép đi vệ sinh trước khi bị giải đi.
 Khám xét xe tải và nhà riêng của Sutcliffe, cảnh sát phát hiện các vết máu và sợi vải trùng khớp hoàn hảo với các hiện trường án mạng cũ.
 Trước những chứng cứ vật chất không thể chối cãi, sau hai ngày thẩm vấn căng thẳng, Peter Sutcliffe đã cúi đầu thú nhận toàn bộ mười ba vụ án mạng và bảy vụ tấn công bất thành.
@@ -122,6 +133,8 @@ Các tuyên bố trước báo giới của một số lãnh đạo cảnh sát 
 Khi Sutcliffe ra tay sát hại nữ sinh viên đại học Jacqueline Hill mười chín tuổi và nhân viên văn phòng Josephine Whitaker, cảnh sát đã lúng túng và bế tắc, cho rằng kẻ thủ ác đã thay đổi đối tượng mục tiêu.
 Trong khi thực tế tâm lý học pháp y chỉ ra rằng: Hắn chỉ đơn giản là một kẻ săn mồi bạo lực mang lòng căm thù mù quáng đối với toàn bộ phái nữ, bất kể họ làm nghề nghiệp gì.
 Chính sự phân biệt định kiến đó của xã hội đã khiến Sutcliffe càng tin tưởng tuyệt đối vào sứ mệnh thanh tẩy tự phong của mình: Hắn tự huyễn hoặc rằng xã hội đang ngầm ủng hộ việc hắn loại bỏ những đối tượng mà đám đông coi là lệch chuẩn đạo đức.
+Sau này, Báo cáo Điều tra chính thức của Thanh tra Lawrence Byford — văn bản bị giữ mật suốt hai mươi lăm năm trước khi công bố năm 2006 — đã chỉ trích gay gắt sự hỗn loạn hồ sơ và sai lầm định kiến chết người này của lực lượng cảnh sát thời bấy giờ.
+Báo cáo khẳng định nếu cảnh sát không bị cuốn theo định kiến phân loại nạn nhân và cuộn băng giả mạo, Sutcliffe hoàn toàn có thể bị bắt giữ sớm hơn rất nhiều để cứu sống hàng loạt phụ nữ vô tội.
 Tại phòng thẩm vấn, hắn hoàn toàn không thể hiện sự ăn năn hay hối hận nào đối với những nạn nhân đầu tiên, mà chỉ tỏ vẻ tiếc nuối giả tạo đối với những nạn nhân mà hắn cho là vô tội.
 Đó là sự thể hiện trần trụi và kinh tởm nhất của một tâm trí bệnh hoạn bị tha hóa bởi cơ chế đổ lỗi cho đối phương.
 
@@ -135,6 +148,9 @@ Cơ chế Đổ lỗi cho nạn nhân hoạt động như một chiếc van xả
 Thay vì dũng cảm đối diện với sự yếu hèn, bất lực, mặc cảm tự ti và thú tính bệnh hoạn của chính bản thân mình, hắn phóng chiếu toàn bộ nguyên nhân của tội ác sang phía các nạn nhân.
 Hắn tự huyễn hoặc rằng chính sự tồn tại, trang phục, cử chỉ và lối sống của họ đã khiêu khích và ép buộc hắn phải ra tay hành động.
 Bằng cách biến mình từ một kẻ giết người hèn hạ tấn công lén lút sau lưng thành một chiến binh công lý thực thi mệnh lệnh siêu nhiên, hắn bảo vệ cái tôi mục rỗng của mình khỏi cảm giác tội lỗi và sự phán xét của tòa án lương tâm.
+Đáng chú ý hơn cả, sự giả vờ nghe thấy tiếng nói từ nghĩa trang cho thấy mức độ tỉnh táo và tính toán cực cao của hắn trong việc thao túng hệ thống tư pháp.
+Khi không thể đổ lỗi cho nạn nhân trước tòa, hắn lập tức chuyển sang đổ lỗi cho một thế lực siêu nhiên vô hình để tiếp tục chối bỏ trách nhiệm cá nhân.
+Đó là vòng xoáy tự bào chữa khép kín điển hình của những kẻ mang nhân cách ái kỷ ác tính.
 
 ---
 
@@ -159,11 +175,13 @@ Ai mà ngờ được người phụ nữ trông có vẻ bạt mạng, đáng t
 Khi nghe cô ta tuyên bố trước tòa rằng tất cả những người đàn ông đó đều định tấn công, cưỡng bức cô ta nên cô ta mới phải bắn để tự vệ, ban đầu tôi cũng thấy có một chút băn khoăn.
 Liệu có phải những người đàn ông đó đã có hành vi sai trái trước thật không?
 Nhưng khi số nạn nhân lên tới bảy người, tất cả đều bị bắn nhiều phát đạn và bị cướp sạch xe cộ, ví tiền, thì tôi hiểu rằng đó không thể nào là sự tự vệ tình cờ được nữa.
+Một người thực sự bị tấn công sẽ tìm cách chạy trốn và báo cảnh sát, chứ không ai lại lặp đi lặp lại kịch bản nổ súng rồi lấy sạch tài sản suốt một năm trời như vậy.
 Đó là một sự ngụy biện có tính toán để che đậy tội ác cướp của giết người hàng loạt.
+Nghe những lời bào chữa đó, tôi mới thấy rùng mình trước cách một kẻ phạm tội có thể tự biến mình thành người bị hại trước ống kính truyền thông.
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích Hiện tượng Đóng vai Nạn nhân và Phóng chiếu Thù địch)*:
 Sự băn khoăn của người tài xế vừa rồi đã bóc tách chính xác Hiện tượng Đóng vai Nạn nhân vĩnh viễn, tức Chronic Victim Playing, kết hợp với Thiên kiến Phóng chiếu Thù địch (Hostile Attribution Bias) trong tâm thần học pháp y.
-Aileen Wuornos có một quá khứ tuổi thơ đầy rẫy những sang chấn và bi kịch kinh hoàng: bị cha mẹ bỏ rơi từ thuở lọt lòng, bị ông ngoại bạo hành thể xác tàn tệ, bị lạm dụng tình dục từ năm mười một tuổi và mang thai ở tuổi mười ba.
+Aileen Wuornos có một quá khứ tuổi thơ đầy rẫy những sang chấn và bi kịch kinh hoàng: bị cha mẹ bỏ rơi từ thuở lọt lòng, bị ông ngoại bạo hành thể xác tàn tệ và phải chịu đựng những tổn thương xâm hại nghiêm trọng từ thời thơ ấu.
 Cô ta bị đuổi ra khỏi nhà và phải sống lang bạt đầu đường xó chợ, ngủ trong rừng hoặc xe rác suốt hàng chục năm trời.
 Những tổn thương tâm lý trầm trọng và kéo dài đó đã phá hủy hoàn toàn khả năng xây dựng niềm tin của cô ta vào xã hội loài người, hình thành nên cấu trúc nhân cách Rối loạn Nhân cách Ranh giới (BPD) kết hợp với Thái nhân cách thứ phát.
 Bộ não của Wuornos luôn ở trong trạng thái kích hoạt báo động sinh học cực đoan:
@@ -173,13 +191,16 @@ Cơ chế Đổ lỗi cho nạn nhân ở trường hợp của Wuornos đạt �
 Cô ta chủ động biến mọi cử chỉ vô tình, mọi ánh nhìn tò mò hay lời nói bâng quơ của người lái xe thành một hành vi đe dọa sinh tử, từ đó tự cấp phép đạo đức tuyệt đối cho mình quyền rút súng nổ nhiều phát đạn vào ngực đối phương.
 Sau khi bắn chết nạn nhân, cô ta thản nhiên lục túi lấy sạch ví tiền, điện thoại, cướp luôn chiếc xe ô tô để bán lấy tiền tiêu xài cùng người bạn tình Tyria Moore, nhưng trong thâm tâm cô ta vẫn khăng khăng tự coi mình là một nạn nhân đáng thương của một xã hội đàn ông đầy rẫy sự bất công và bạo lực.
 Đó là chiếc bẫy tự bào chữa nguy hiểm nhất: Kẻ thủ ác đã hoán đổi hoàn toàn vị trí nhận thức, biến tội ác săn mồi cướp của giết người thành một bản anh hùng ca tự vệ chính đáng giả tạo.
+Trong tâm lý học pháp y, đây là minh chứng kinh điển cho thấy sang chấn quá khứ có thể lý giải nguồn gốc của sự méo mó nhận thức, nhưng tuyệt đối không thể là giấy phép đạo đức cho hành vi tước đoạt sinh mạng người khác.
+Sự nhập nhằng giữa lý giải nguyên nhân và biện minh cho tội ác chính là kẽ hở mà những kẻ đóng vai nạn nhân luôn tìm cách khai thác.
 
 **HOST** *(Tiếp tục dẫn dắt sang phần bóc tách chuyên môn)*:
 Những chia sẻ của người tài xế phản ánh sự giằng xé nội tâm rất tự nhiên khi xã hội đối diện với một thủ phạm liên tục kêu gào rằng mình là người bị hại.
 Chúng ta dễ dàng rơi vào sự hoang mang, tự hỏi liệu công lý có đang bỏ sót những uất ức chính đáng của một người phụ nữ bị dồn vào chân tường hay không.
 Thế nhưng, khoa học pháp y và tâm lý học hành vi không bao giờ nhìn nhận một vụ án chỉ qua những lời tự bào chữa một chiều.
 Để vạch trần cơ chế đóng vai nạn nhân và sự ngụy biện tự vệ giả tạo này, chúng ta cần sự phân tích chuyên sâu từ khoa học tâm lý học tội phạm.
-Từ tháng 11 năm 1989 đến tháng 11 năm 1990, trong vòng đúng một năm, lần lượt thi thể của bảy người đàn ông trung niên được phát hiện vứt bỏ rải rác dọc theo các con đường rừng hẻo lánh của bang Florida.
+Từ cuối năm 1989 đến cuối năm 1990, trong vòng đúng một năm, lần lượt thi thể của bảy người đàn ông trung niên được phát hiện vứt bỏ rải rác dọc theo các con đường rừng hẻo lánh của bang Florida.
+Nạn nhân đầu tiên là ông Richard Mallory, năm mươi mốt tuổi, chủ một cửa hàng sửa chữa điện tử địa phương, bị sát hại sau khi cho Wuornos đi nhờ xe dọc tuyến xa lộ liên bang I-75.
 Họ đều là những người đàn ông có gia đình, công việc ổn định, bị bắn ở cự ly rất gần bằng một khẩu súng lục cỡ nòng hai mươi hai, phương tiện ô tô và toàn bộ tài sản cá nhân đều bị biến mất không dấu vết.
 Vụ án đã làm rúng động toàn bộ nước Mỹ và đặt ra một thách thức pháp lý chưa từng có về ranh giới giữa tự vệ chính đáng và tội ác giết người hàng loạt.
 Chúng ta hãy cùng Điều tra viên nhìn lại chiến dịch trinh sát kiên trì và cuộc đấu trí vạch trần màn kịch tự vệ của Wuornos.
@@ -189,6 +210,10 @@ Chiến dịch truy bắt kẻ sát nhân đường cao tốc Florida là một 
 Bước ngoặt quyết định của chuyên án xuất hiện khi các điều tra viên rà soát các hiệu cầm đồ trong vùng và phát hiện một người phụ nữ đã để lại dấu vân tay cùng tên giả Cammie Marsh Greene khi đem chiếc máy ảnh đắt tiền và hộp dụng cụ câu cá của nạn nhân đầu tiên Richard Mallory đi cầm đồ tại một cửa hiệu ở thành phố Daytona Beach.
 Đối chiếu dấu vân tay thu được với cơ sở dữ liệu tàng thư căn cước quốc gia, cảnh sát bàng hoàng xác định nghi phạm là Aileen Wuornos — một người phụ nữ lang thang có một bản lý lịch tiền án dày đặc về các tội danh trộm cắp, giả mạo séc và tàng trữ vũ khí trái phép.
 Ngày 9 tháng 1 năm 1991, các đặc vụ chìm đã bí mật bao vây và bắt giữ Wuornos tại một quán bar dành cho dân chạy xe mô tô phân khối lớn mang tên The Last Resort ở hạt Volusia.
+Để phá vỡ bức tường im lặng của Wuornos, cảnh sát đã tìm thấy người tình của cô ta là Tyria Moore đang lẩn trốn ở bang khác và đề nghị miễn truy tố để đổi lấy sự hợp tác.
+Các điều tra viên đã thiết lập một cuộc gọi điện thoại được ghi âm hợp pháp giữa Tyria Moore và Wuornos khi cô ta đang ở trong phòng giam.
+Khi nghe Tyria Moore lo lắng nói rằng cảnh sát đang truy tìm mình, Wuornos vì muốn bảo vệ người tình đã lập tức sụp đổ phòng tuyến và tuyên bố theo bản ghi cuộc gọi: Tôi sẽ không để cô phải vào tù đâu, nếu phải thú nhận tất cả để giữ an toàn cho cô thì tôi sẽ làm.
+Tyria Moore sau đó đã quay về Florida trở thành nhân chứng chủ chốt của bên công tố, kể lại việc Wuornos từng thú nhận các vụ nổ súng ngay sau khi trở về nhà nghỉ.
 Tại phòng thẩm vấn, cuộc đấu trí pháp lý và tâm lý xoay quanh luận điểm tự vệ chính đáng đã diễn ra vô cùng gay gắt:
 Wuornos liên tục khẳng định người đàn ông đầu tiên Richard Mallory đã lộ rõ bộ mặt thú tính, trói cô ta vào ghế xe và có hành vi bạo lực tàn bạo, nên cô ta buộc phải nổ súng để tự cứu mạng mình.
 Thế nhưng, các điều tra viên đã chỉ ra những lỗ hổng logic chết người không thể nào chối cãi trong lập luận tự bào chữa đó:
@@ -196,6 +221,10 @@ Nếu thực sự là một vụ tự vệ chính đáng trong hoảng loạn, t
 Tại sao cô ta lại lục lọi lấy sạch toàn bộ tiền bạc, lái chiếc xe của nạn nhân đi chơi suốt nhiều ngày rồi thản nhiên mang tài sản cá nhân của người chết đi bán lấy tiền tiêu xài?
 Và quan trọng hơn cả: Làm sao cả bảy người đàn ông hoàn toàn xa lạ, thuộc các ngành nghề khác nhau, ở những thời điểm và địa điểm cách xa nhau hàng trăm dặm, lại cùng có hành vi tấn công cưỡng bức một cách giống hệt nhau để cô ta phải bắn từ bốn đến sáu phát đạn vào mỗi người?
 Trước những chứng cứ khoa học đanh thép về đường đạn từ cùng một khẩu súng lục cỡ nòng 22 và hành vi tiêu thụ tài sản có tổ chức, toàn bộ lập luận tự vệ của kẻ thủ ác đã bị bóc trần là một màn kịch tự bào chữa trơ trẽn nhằm che đậy động cơ cướp của giết người.
+Mỗi nạn nhân đều là một con người có gia đình đang chờ đợi, nhưng trong lời khai của Wuornos, họ bị biến thành những kẻ xâm hại ẩn danh không có quyền tự bào chữa.
+Chính sự đối chiếu lạnh lùng giữa dấu vân tay tại hiệu cầm đồ, lời khai của Tyria Moore và kết quả giám định đường đạn đã khôi phục lại sự thật khách quan cho các nạn nhân.
+Sự thật khoa học không bao giờ bị lay chuyển bởi những giọt nước mắt giả tạo hay những lời tự bào chữa kịch tính trong phòng thẩm vấn.
+Mọi lỗ hổng trong câu chuyện tự vệ của Wuornos đều bị phơi bày rõ mồn một trước những chứng cứ vật chất không biết nói dối.
 
 ---
 
@@ -208,15 +237,18 @@ Trước những chứng cứ khoa học đanh thép về đường đạn từ 
 Trước vành móng ngựa công lý, mọi kịch bản tự bào chữa đổ lỗi cho nạn nhân của Peter Sutcliffe và Aileen Wuornos đều bị bóc trần toàn diện và phải nhận sự trừng phạt nghiêm khắc nhất của pháp luật.
 Tại Tòa án Hình sự Trung ương Old Bailey ở London vào tháng 5 năm 1981, trong một phiên tòa kéo dài hai tuần thu hút sự chú ý theo dõi của hàng triệu người dân trên khắp thế giới, Peter Sutcliffe đã cố gắng nhận tội ngộ sát vì lý do giảm trách nhiệm năng lực hành vi do nghe thấy tiếng nói của Chúa chỉ đạo.
 Hắn hy vọng rằng bồi thẩm đoàn sẽ tin vào câu chuyện tâm thần để đưa hắn vào bệnh viện thay vì một bản án tù chung thân thực sự.
-Thế nhưng, Tổng Chưởng lý Sir Michael Havers đã kiên quyết bác bỏ thỏa thuận nhận tội đó, yêu cầu một phiên tòa xét xử công khai tội danh Giết người cấp độ cao nhất trước bồi thẩm đoàn độc lập.
-Bằng những chứng cứ pháp y rõ ràng về việc Sutcliffe đã lên kế hoạch tấn công có tính toán từ trước, chuẩn bị vũ khí búa và dao giấu sẵn trên xe, và có hành vi xâm hại thi thể để thỏa mãn tình dục sau khi gây án, bồi thẩm đoàn đã nhất trí tuyên phạt Peter Sutcliffe phạm tội Giết người đối với mười ba nạn nhân và Cố sát đối với bảy nạn nhân khác.
-Thẩm phán Mr. Justice Boreham đã tuyên phạt Sutcliffe hai mươi bản án tù chung thân liên tiếp, với khuyến cáo thụ án tối thiểu ba mươi năm — sau đó vào năm 2010, Tòa án Tối cao Hoàng gia Anh đã chính thức nâng lên thành bản án Tù chung thân toàn bộ, đồng nghĩa với việc hắn sẽ phải chết sau song sắt nhà tù mà không bao giờ có cơ hội được xem xét ân xá.
+Thế nhưng, chính Thẩm phán Leslie Boreham đã kiên quyết bác bỏ thỏa thuận nhận tội ngộ sát đó, yêu cầu toàn bộ lập luận tâm thần phải được kiểm chứng công khai trước bồi thẩm đoàn độc lập cho tội danh Giết người cấp độ cao nhất.
+Tổng Chưởng lý Sir Michael Havers đã trình bày trước tòa những chứng cứ pháp y đanh thép về việc Sutcliffe đã lên kế hoạch tấn công có tính toán từ trước, chuẩn bị vũ khí búa và dao giấu sẵn trên xe, và thực hiện những hành vi tàn bạo có chủ đích sau khi gây án.
+Bồi thẩm đoàn đã nhất trí tuyên phạt Peter Sutcliffe phạm tội Giết người đối với mười ba nạn nhân và Cố sát đối với bảy nạn nhân khác.
+Thẩm phán Leslie Boreham đã tuyên phạt Sutcliffe hai mươi bản án tù chung thân liên tiếp, tuyên bố hắn là một kẻ nguy hiểm bất thường không bao giờ nên được trả tự do — và đến năm 2010, Tòa án Tối cao Hoàng gia Anh đã chính thức nâng lên thành bản án Tù chung thân toàn bộ không ân xá.
 Sutcliffe bị giam giữ nghiêm ngặt tại Bệnh viện An ninh Cao Broadmoor và sau đó là Nhà tù An ninh Tối đa Frankland ở Durham cho đến khi qua đời vì bệnh tật vào tháng 11 năm 2020 ở tuổi bảy mươi tư.
 Còn tại Florida, trong các phiên tòa xét xử liên tiếp kéo dài từ năm 1992 đến năm 1993, bồi thẩm đoàn đã lần lượt xem xét và bác bỏ dứt khoát toàn bộ luận điểm tự vệ của Aileen Wuornos.
 Họ xác định các hành vi nổ súng liên tiếp nhiều phát vào ngực và đầu nạn nhân ở cự ly gần, rồi lục soát cướp xe cộ và tài sản là hành vi giết người cướp của có chủ đích và có tổ chức từ trước.
 Wuornos đã bị bồi thẩm đoàn kết tội và tòa án tuyên phạt sáu bản án tử hình cho sáu vụ án mạng được đưa ra xét xử chính thức.
 Khi nghe thẩm phán tuyên đọc bản án tử hình, Wuornos đã bộc lộ sự giận dữ tột cùng, gào thét, nguyền rủa bồi thẩm đoàn và thẩm phán trước khi bị các nhân viên an ninh cưỡng chế áp giải về khu xà lim tử tù.
 Ngày 9 tháng 10 năm 2002, sau hơn mười năm chờ đợi thi hành án trong sự cô đơn và tuyệt vọng, Aileen Wuornos đã chính thức bị thi hành án tử hình bằng hình thức tiêm thuốc độc tại Nhà tù Bang Florida ở Raiford.
+Điều trớ trêu là trước khi bị thi hành án, Wuornos từng có lúc thừa nhận mình không hề hành động vì tự vệ mà vì sự giận dữ và lòng căm thù tích tụ, nhưng rồi lại nhanh chóng quay về với những lời cáo buộc hệ thống tư pháp.
+Cả hai bản án lịch sử tại London và Florida đều gửi đi một thông điệp dứt khoát rằng: Không một lời ngụy biện đổ lỗi nào có thể đứng vững trước chứng cứ pháp y khách quan.
 
 **HOST** *(Dẫn dắt phân tích diễn biến tâm lý của kẻ thủ ác)*:
 Cả hai kẻ thủ ác, một kẻ tự xưng là sứ giả của Chúa thanh tẩy xã hội, một kẻ tự cho mình là nữ chiến binh tự vệ chống lại sự áp bức, cho đến những giây phút cuối cùng của cuộc đời vẫn kiên quyết bám víu vào cơ chế đổ lỗi cho nạn nhân.
@@ -232,6 +264,9 @@ Do đó, để bảo toàn sự tỉnh táo mong manh, chúng buộc phải ti�
 Sutcliffe phải kiên quyết tin rằng mình là một sứ giả của Chúa trời để không phải đối diện với sự thật nhục nhã rằng hắn là một kẻ căm ghét phụ nữ bệnh hoạn và yếu đuối;
 Wuornos phải kiên quyết tin rằng mình là một nữ chiến binh tự vệ chống lại một xã hội bất công để không phải nhìn thấy hình ảnh một kẻ cướp của giết người tàn bạo bên trong chiếc gương lương tâm.
 Đó là sự bi kịch tột cùng của sự ngắt kết nối đạo đức: Kẻ thủ ác tự giam cầm linh hồn mình trong nhà tù của sự dối trá vĩnh viễn, tước đoạt đi cơ hội sám hối chân chính cuối cùng của một kiếp người trước khi bước vào cõi vĩnh hằng.
+Hơn thế nữa, cơ chế đổ lỗi cho nạn nhân còn để lại một vết thương thứ cấp cực kỳ sâu sắc cho những người sống sót và gia đình người bị hại.
+Khi nạn nhân phải nghe những câu hỏi chất vấn về lối sống của mình thay vì nhận được sự đồng cảm, nỗi đau tâm lý của họ bị nhân đôi và niềm tin vào công lý bị lung lay dữ dội.
+Chính vì vậy, việc vạch trần cơ chế tự bào chữa này không chỉ là nhiệm vụ của phòng xử án, mà là trách nhiệm đạo đức của toàn xã hội.
 
 ---
 
@@ -260,7 +295,9 @@ Không một ai có quyền tự phong mình làm quan tòa hay đấng cứu th
 Khi nghe những kẻ sát nhân hàng loạt như Sutcliffe hay Wuornos đổ lỗi ngược lại cho nạn nhân để tự bào chữa, tôi mới thực sự rùng mình nhận ra rằng:
 Chính những lời nói xì xào, những câu bình luận định kiến vô tâm của đám đông trên mạng xã hội hay ngoài đời thực lại chính là tấm lá chắn tâm lý hoàn hảo nhất mà kẻ xấu lợi dụng để trốn tránh tội lỗi và ru ngủ lương tâm của chúng.
 Từ nay trở đi, tôi sẽ không bao giờ dung túng hay hùa theo bất kỳ lời nói mang tính đổ lỗi nạn nhân nào xuất hiện xung quanh mình nữa.
+Mỗi khi thấy ai đó buông lời phán xét người bị hại trên mạng xã hội hay ngoài đời thực, tôi sẽ bình tĩnh lên tiếng nhắc nhở rằng người phải chịu trách nhiệm duy nhất là kẻ gây ra tội ác.
 Tôi học cách nhìn nhận mọi sự việc bằng sự công bằng, lòng trắc ẩn bao dung và luôn kiên quyết đứng về phía người bị hại.
+Tôi cũng sẽ dạy con cái mình rằng sự cảnh giác để tự bảo vệ bản thân là cần thiết, nhưng không bao giờ được phép dùng sự bất cẩn của người khác để biện minh cho hành vi xấu xa của kẻ thủ ác.
 Một xã hội thực sự văn minh và an toàn là nơi phụ nữ, trẻ em và những người yếu thế có thể tự do, tự tin bước đi trên bất kỳ con đường nào mà không phải lo sợ những ánh mắt phán xét hay những cạm bẫy tội ác rình rập.
 
 **HOST** *(Tổng kết và chuyển sang phần giải pháp phòng vệ)*:
@@ -275,8 +312,11 @@ Thứ nhất là Xu hướng tuyệt đối không bao giờ nhận lỗi về b
 Thứ hai là Ảo tưởng phán xét đạo đức cực đoan (Moral Superiority Complex). Những cá nhân thường xuyên tự cho mình quyền phán xét lối sống, cách ăn mặc và phẩm giá của người khác bằng giọng điệu cay nghiệt, thù hằn, tự coi mình là chuẩn mực đạo đức duy nhất của xã hội.
 Họ thường sử dụng mạng xã hội để công kích, hạ nhục người khác nhân danh chính nghĩa.
 Sự thù hằn định kiến này rất dễ biến thành hành vi tấn công bạo lực thực tế khi họ có cơ hội thuận lợi.
-Thứ ba là Chiến thuật đảo ngược vai trò nạn nhân và thủ phạm (Kỹ thuật DARVO: Deny, Attack, Reverse Victim and Offender). Khi bạn lên tiếng góp ý, đối chất hoặc tố cáo hành vi sai trái của họ, họ lập tức chối bỏ, quay sang tấn công uy tín cá nhân của bạn và đóng vai một người bị tổn thương sâu sắc, khóc lóc hoặc giận dữ để thao túng khiến bạn cảm thấy tội lỗi và phải xin lỗi ngược lại họ.
+Thứ ba là Chiến thuật đảo ngược vai trò nạn nhân và thủ phạm, hay Kỹ thuật DARVO do nhà tâm lý học Jennifer Freyd định danh năm 1997: Chối bỏ, Tấn công và Đảo ngược vai trò Nạn nhân với Thủ phạm. Khi bạn lên tiếng góp ý, đối chất hoặc tố cáo hành vi sai trái của họ, họ lập tức chối bỏ, quay sang tấn công uy tín cá nhân của bạn và đóng vai một người bị tổn thương sâu sắc, khóc lóc hoặc giận dữ để thao túng khiến bạn cảm thấy tội lỗi và phải xin lỗi ngược lại họ.
 Đó là sự thao túng tâm lý độc hại bậc thầy nhằm vô hiệu hóa sự thật và biến nạn nhân thành kẻ có tội.
+Nhận diện sớm ba tín hiệu báo động đỏ này giúp bạn giữ vững ranh giới nhận thức, không bao giờ tự dằn vặt bản thân trước những lời đổ lỗi độc hại của đối phương.
+Khi bạn không còn bị thao túng bởi cảm giác tội lỗi giả tạo, chiếc mặt nạ phán xét của kẻ thủ ác sẽ lập tức mất hết quyền lực.
+Hãy luôn giữ cho mình một tư duy phản biện tỉnh táo để phân biệt rõ đâu là góp ý xây dựng chân thành, đâu là chiêu trò đổ lỗi thao túng tâm lý.
 
 **ĐIỀU TRA VIÊN** *(Đưa ra 2 nguyên tắc nghiệp vụ thực chứng tự bảo vệ)*:
 Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng bất di bất dịch mà mỗi người dân cần ghi nhớ để bảo vệ an toàn cho bản thân và người thân là:
@@ -285,6 +325,7 @@ Hãy luôn chủ động thông báo lịch trình di chuyển cho người thâ
 Thứ hai, Lưu giữ Toàn bộ Chứng cứ Độc lập và Kiên quyết Bác bỏ Mọi Luận điệu Đổ lỗi khi Trình báo Cơ quan Chức năng. Khi không may trở thành nạn nhân của bất kỳ hành vi quấy rối, đe dọa, lừa đảo hay bạo lực nào, hãy kiên quyết lưu giữ nguyên vẹn toàn bộ tin nhắn, bản ghi âm, hình ảnh hiện trường và các chứng cứ y tế pháp y.
 Đừng bao giờ để sự tự ti, cảm giác xấu hổ hay nỗi sợ hãi dư luận phán xét làm bạn ngần ngại bước đến cơ quan công an để tố giác tội phạm.
 Hãy nhớ rằng cơ quan điều tra luôn làm việc dựa trên chứng cứ thực tế và tinh thần bảo vệ quyền con người.
+Đồng thời, khi chứng kiến người khác bị xâm hại hoặc bị bạo lực tinh thần, sự lên tiếng kịp thời của nhân chứng khách quan có thể thay đổi hoàn toàn cục diện một vụ án.
 Tiếng nói dũng cảm và dứt khoát của bạn chính là đòn giáng mạnh mẽ nhất đập tan mọi luận điệu ngụy biện tự bào chữa của kẻ thủ ác, bảo vệ sự bình yên cho chính bạn và cộng đồng.
 
 **HOST** *(Giọng trầm ấm, đúc kết triết lý nhân sinh và kết thúc chương trình)*:

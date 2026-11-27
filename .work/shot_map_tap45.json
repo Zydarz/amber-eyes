@@ -2,1385 +2,985 @@
  {
   "id": "1-001",
   "act": 1,
-  "name": "t45_a1_01_hk_neon_night_1982",
+  "name": "t45_a1_02",
   "codes": [
-   "1.02#1",
-   "1.02#2"
+   "1.02#1"
   ],
-  "est": 18.1
+  "est": 9.1
  },
  {
   "id": "1-002",
   "act": 1,
-  "name": "t45_a1_02_women_after_night_shift_rain",
+  "name": "t45_a1_03",
+  "codes": [
+   "1.02#2"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "1-003",
+  "act": 1,
+  "name": "t45_a1_04",
   "codes": [
    "1.02#3"
   ],
   "est": 10.7
  },
  {
-  "id": "1-003",
-  "act": 1,
-  "name": "t45_a1_03_licensed_taxi_trust_cabin",
-  "codes": [
-   "1.02#4",
-   "1.02#5"
-  ],
-  "est": 14.5
- },
- {
   "id": "1-004",
   "act": 1,
-  "name": "t45_a1_04_halo_blind_spot_taxi",
+  "name": "t45_a1_05",
   "codes": [
-   "1.02#6",
-   "1.02#7"
+   "1.02#4"
   ],
-  "est": 15.1
+  "est": 7.4
  },
  {
   "id": "1-005",
   "act": 1,
-  "name": "t45_a1_05_ghost_over_harbour_city",
+  "name": "t45_a1_06",
+  "codes": [
+   "1.02#5"
+  ],
+  "est": 7.1
+ },
+ {
+  "id": "1-006",
+  "act": 1,
+  "name": "t45_a1_07",
+  "codes": [
+   "1.02#6"
+  ],
+  "est": 6.6
+ },
+ {
+  "id": "1-007",
+  "act": 1,
+  "name": "t45_a1_08",
+  "codes": [
+   "1.02#7"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "1-008",
+  "act": 1,
+  "name": "t45_a1_09",
   "codes": [
    "1.02#8"
   ],
   "est": 8.0
  },
  {
-  "id": "1-006",
+  "id": "1-009",
   "act": 1,
-  "name": "t45_a1_06_empty_rear_seat_rain_window",
+  "name": "t45_a1_10",
   "codes": [
    "1.02#9"
   ],
   "est": 9.3
  },
  {
-  "id": "1-007",
+  "id": "1-010",
   "act": 1,
-  "name": "t45_a1_07_shing_mun_river_dawn_mist",
+  "name": "t45_a1_11",
   "codes": [
    "1.02#10"
   ],
   "est": 9.3
  },
  {
-  "id": "1-008",
+  "id": "1-011",
   "act": 1,
-  "name": "t45_a1_08_deserted_taxi_stand_after_eleven",
+  "name": "t45_a1_12",
   "codes": [
    "1.02#11"
   ],
   "est": 9.1
  },
  {
-  "id": "1-009",
-  "act": 1,
-  "name": "t45_a1_09_anxious_city_police_rumours",
-  "codes": [
-   "1.02#12",
-   "1.02#13"
-  ],
-  "est": 14.2
- },
- {
-  "id": "1-010",
-  "act": 1,
-  "name": "t45_a1_10_dredging_crew_riverbank_dawn",
-  "codes": [
-   "1.03#1",
-   "1.03#2"
-  ],
-  "est": 15.9
- },
- {
-  "id": "1-011",
-  "act": 1,
-  "name": "t45_a1_11_nightclub_corridor_empty_neon",
-  "codes": [
-   "1.03#3"
-  ],
-  "est": 8.5
- },
- {
   "id": "1-012",
   "act": 1,
-  "name": "t45_a1_12_task_force_briefing_room",
+  "name": "t45_a1_13",
   "codes": [
-   "1.03#4"
+   "1.02#12"
   ],
-  "est": 9.9
+  "est": 6.3
  },
  {
   "id": "1-013",
   "act": 1,
-  "name": "t45_a1_13_empty_street_taillights_may",
+  "name": "t45_a1_14",
   "codes": [
-   "1.03#5"
-  ],
-  "est": 9.6
- },
- {
-  "id": "1-014",
-  "act": 1,
-  "name": "t45_a1_14_cashier_desk_and_restaurant_chairs",
-  "codes": [
+   "1.02#13",
+   "1.03#1",
+   "1.03#2",
+   "1.03#3",
+   "1.03#4",
+   "1.03#5",
    "1.03#6",
-   "1.03#7"
-  ],
-  "est": 16.7
- },
- {
-  "id": "1-015",
-  "act": 1,
-  "name": "t45_a1_15_tropical_hillside_rain_washout",
-  "codes": [
-   "1.03#8"
-  ],
-  "est": 8.0
- },
- {
-  "id": "1-016",
-  "act": 1,
-  "name": "t45_a1_16_lone_detective_desk_lamp",
-  "codes": [
+   "1.03#7",
+   "1.03#8",
    "1.03#9",
-   "1.03#10"
-  ],
-  "est": 17.8
- },
- {
-  "id": "1-017",
-  "act": 1,
-  "name": "t45_a1_17_taxi_depot_rows_rain",
-  "codes": [
-   "1.03#11"
-  ],
-  "est": 8.8
- },
- {
-  "id": "1-018",
-  "act": 1,
-  "name": "t45_a1_18_tropical_downpour_curtain",
-  "codes": [
+   "1.03#10",
+   "1.03#11",
    "1.04#1",
-   "1.04#2"
-  ],
-  "est": 15.3
- },
- {
-  "id": "1-019",
-  "act": 1,
-  "name": "t45_a1_19_bus_shelter_thunder_empty",
-  "codes": [
+   "1.04#2",
    "1.04#3",
-   "1.04#4"
-  ],
-  "est": 16.5
- },
- {
-  "id": "1-020",
-  "act": 1,
-  "name": "t45_a1_20_taxi_cabin_sealed_fortress",
-  "codes": [
+   "1.04#4",
    "1.04#5",
-   "1.04#6"
-  ],
-  "est": 16.5
- },
- {
-  "id": "1-021",
-  "act": 1,
-  "name": "t45_a1_21_profiler_rain_window_study",
-  "codes": [
-   "1.04#7"
-  ],
-  "est": 9.3
- },
- {
-  "id": "1-022",
-  "act": 1,
-  "name": "t45_a1_22_stalled_investigation_rain_crowd",
-  "codes": [
+   "1.04#6",
+   "1.04#7",
    "1.05#1",
-   "1.05#2"
-  ],
-  "est": 14.8
- },
- {
-  "id": "1-023",
-  "act": 1,
-  "name": "t45_a1_23_small_photo_shop_kowloon_night",
-  "codes": [
+   "1.05#2",
    "1.05#3",
-   "1.05#4"
-  ],
-  "est": 18.1
- },
- {
-  "id": "1-024",
-  "act": 1,
-  "name": "t45_a1_24_photo_shop_counter_film_canisters",
-  "codes": [
+   "1.05#4",
    "1.06#1",
-   "1.06#2"
-  ],
-  "est": 18.4
- },
- {
-  "id": "1-025",
-  "act": 1,
-  "name": "t45_a1_25_darkroom_red_light_negatives",
-  "codes": [
+   "1.06#2",
    "1.06#3",
-   "1.06#4"
-  ],
-  "est": 17.0
- },
- {
-  "id": "1-026",
-  "act": 1,
-  "name": "t45_a1_26_technician_running_to_office",
-  "codes": [
-   "1.06#5"
-  ],
-  "est": 8.2
- },
- {
-  "id": "1-027",
-  "act": 1,
-  "name": "t45_a1_27_undercover_detectives_in_shop",
-  "codes": [
+   "1.06#4",
+   "1.06#5",
    "1.07#1",
-   "1.07#2"
-  ],
-  "est": 17.0
- },
- {
-  "id": "1-028",
-  "act": 1,
-  "name": "t45_a1_28_young_man_enters_shop_door",
-  "codes": [
+   "1.07#2",
    "1.07#3",
-   "1.07#4"
-  ],
-  "est": 13.4
- },
- {
-  "id": "1-029",
-  "act": 1,
-  "name": "t45_a1_29_arrest_blur_shop_floor",
-  "codes": [
+   "1.07#4",
    "1.07#5",
    "1.07#6"
   ],
-  "est": 15.1
+  "est": 282.8
  },
  {
-  "id": "2-030",
+  "id": "2-014",
   "act": 2,
-  "name": "t45_a2_01_police_van_tenement_dusk",
+  "name": "t45_a2_02",
   "codes": [
    "2.02#1"
   ],
   "est": 9.6
  },
  {
-  "id": "2-031",
+  "id": "2-015",
   "act": 2,
-  "name": "t45_a2_02_to_kwa_wan_tenement_ground_floor",
+  "name": "t45_a2_03",
   "codes": [
    "2.02#2"
   ],
   "est": 10.2
  },
  {
-  "id": "2-032",
+  "id": "2-016",
   "act": 2,
-  "name": "t45_a2_03_cramped_flat_family_belongings",
+  "name": "t45_a2_04",
   "codes": [
-   "2.02#3",
-   "2.02#4"
+   "2.02#3"
   ],
-  "est": 17.3
+  "est": 7.7
  },
  {
-  "id": "2-033",
+  "id": "2-017",
   "act": 2,
-  "name": "t45_a2_04_wooden_bunk_bed_narrow_room",
+  "name": "t45_a2_05",
   "codes": [
+   "2.02#4",
    "2.02#5",
-   "2.02#6"
-  ],
-  "est": 12.0
- },
- {
-  "id": "2-034",
-  "act": 2,
-  "name": "t45_a2_05_question_hangs_over_tenement",
-  "codes": [
+   "2.02#6",
    "2.02#7",
-   "2.02#8"
-  ],
-  "est": 18.1
- },
- {
-  "id": "2-035",
-  "act": 2,
-  "name": "t45_a2_06_two_worlds_split_flat",
-  "codes": [
-   "2.02#9"
-  ],
-  "est": 9.3
- },
- {
-  "id": "2-036",
-  "act": 2,
-  "name": "t45_a2_07_police_cordon_tenement_night",
-  "codes": [
+   "2.02#8",
+   "2.02#9",
    "2.02#10",
-   "2.02#11"
-  ],
-  "est": 15.6
- },
- {
-  "id": "2-037",
-  "act": 2,
-  "name": "t45_a2_08_flashlight_across_bare_floor",
-  "codes": [
+   "2.02#11",
    "2.02#12"
   ],
-  "est": 6.8
+  "est": 71.5
  },
  {
-  "id": "2-038",
+  "id": "2-018",
   "act": 2,
-  "name": "t45_a2_09_search_tension_father_shock",
+  "name": "t45_a2_06",
   "codes": [
-   "2.03#1",
+   "2.03#1"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "2-019",
+  "act": 2,
+  "name": "t45_a2_07",
+  "codes": [
    "2.03#2"
   ],
-  "est": 15.6
+  "est": 8.0
  },
  {
-  "id": "2-039",
+  "id": "2-020",
   "act": 2,
-  "name": "t45_a2_10_forensic_team_bedroom_corner",
+  "name": "t45_a2_08",
   "codes": [
    "2.03#3"
   ],
   "est": 9.6
  },
  {
-  "id": "2-040",
+  "id": "2-021",
   "act": 2,
-  "name": "t45_a2_11_glass_jars_wardrobe_bottom",
+  "name": "t45_a2_09",
   "codes": [
-   "2.03#4",
-   "2.03#5"
+   "2.03#4"
   ],
-  "est": 16.2
+  "est": 9.1
  },
  {
-  "id": "2-041",
+  "id": "2-022",
   "act": 2,
-  "name": "t45_a2_12_evidence_table_camera_saw_tape",
+  "name": "t45_a2_10",
+  "codes": [
+   "2.03#5"
+  ],
+  "est": 7.1
+ },
+ {
+  "id": "2-023",
+  "act": 2,
+  "name": "t45_a2_11",
   "codes": [
    "2.03#6"
   ],
   "est": 10.4
  },
  {
-  "id": "2-042",
+  "id": "2-024",
   "act": 2,
-  "name": "t45_a2_13_father_brother_frozen_in_doorway",
+  "name": "t45_a2_12",
   "codes": [
    "2.03#7"
   ],
   "est": 8.8
  },
  {
-  "id": "2-043",
+  "id": "2-025",
   "act": 2,
-  "name": "t45_a2_14_family_alibi_timeline_verified",
+  "name": "t45_a2_13",
   "codes": [
    "2.03#8"
   ],
   "est": 10.4
  },
  {
-  "id": "2-044",
+  "id": "2-026",
   "act": 2,
-  "name": "t45_a2_15_evidence_sealed_boxes",
+  "name": "t45_a2_14",
   "codes": [
-   "2.03#9",
+   "2.03#9"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "2-027",
+  "act": 2,
+  "name": "t45_a2_15",
+  "codes": [
    "2.03#10"
   ],
-  "est": 16.5
+  "est": 8.0
  },
  {
-  "id": "2-045",
+  "id": "2-028",
   "act": 2,
-  "name": "t45_a2_16_numbered_photos_calm_suspect",
+  "name": "t45_a2_16",
   "codes": [
-   "2.03#11",
+   "2.03#11"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "2-029",
+  "act": 2,
+  "name": "t45_a2_17",
+  "codes": [
    "2.03#12"
   ],
-  "est": 15.9
+  "est": 8.2
  },
  {
-  "id": "2-046",
+  "id": "2-030",
   "act": 2,
-  "name": "t45_a2_17_two_worlds_personality_split",
+  "name": "t45_a2_21",
   "codes": [
-   "2.04#1",
+   "2.04#1"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "2-031",
+  "act": 2,
+  "name": "t45_a2_22",
+  "codes": [
    "2.04#2"
   ],
-  "est": 16.7
+  "est": 7.7
  },
  {
-  "id": "2-047",
+  "id": "2-032",
   "act": 2,
-  "name": "t45_a2_18_obedient_son_daytime",
+  "name": "t45_a2_23",
   "codes": [
    "2.04#3"
   ],
   "est": 10.7
  },
  {
-  "id": "2-048",
+  "id": "2-033",
   "act": 2,
-  "name": "t45_a2_19_night_taxi_shift_cycle",
+  "name": "t45_a2_24",
   "codes": [
    "2.04#4"
   ],
   "est": 8.8
  },
  {
-  "id": "2-049",
+  "id": "2-034",
   "act": 2,
-  "name": "t45_a2_20_locked_room_daytime_empty_flat",
+  "name": "t45_a2_25",
   "codes": [
-   "2.04#5",
+   "2.04#5"
+  ],
+  "est": 9.3
+ },
+ {
+  "id": "2-035",
+  "act": 2,
+  "name": "t45_a2_26",
+  "codes": [
    "2.04#6"
   ],
-  "est": 18.7
+  "est": 9.3
  },
  {
-  "id": "2-050",
+  "id": "2-036",
   "act": 2,
-  "name": "t45_a2_21_emotional_detachment_door_closing",
+  "name": "t45_a2_27",
   "codes": [
-   "2.04#7",
+   "2.04#7"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "2-037",
+  "act": 2,
+  "name": "t45_a2_28",
+  "codes": [
    "2.04#8"
   ],
-  "est": 19.0
+  "est": 9.3
  },
  {
-  "id": "2-051",
+  "id": "2-038",
   "act": 2,
-  "name": "t45_a2_22_obedience_and_cold_mask",
+  "name": "t45_a2_29",
   "codes": [
-   "2.04#9",
+   "2.04#9"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "2-039",
+  "act": 2,
+  "name": "t45_a2_30",
+  "codes": [
    "2.04#10"
   ],
-  "est": 15.1
+  "est": 7.4
  },
  {
-  "id": "2-052",
+  "id": "2-040",
   "act": 2,
-  "name": "t45_a2_23_childhood_tenement_stairwell",
+  "name": "t45_a2_34",
   "codes": [
    "2.05#1"
   ],
   "est": 10.4
  },
  {
-  "id": "2-053",
+  "id": "2-041",
   "act": 2,
-  "name": "t45_a2_24_strict_father_shadow_wall",
+  "name": "t45_a2_35",
   "codes": [
-   "2.05#2",
-   "2.05#3"
+   "2.05#2"
   ],
-  "est": 17.8
+  "est": 9.3
  },
  {
-  "id": "2-054",
+  "id": "2-042",
   "act": 2,
-  "name": "t45_a2_25_child_cowering_doorway_shadow",
+  "name": "t45_a2_36",
+  "codes": [
+   "2.05#3"
+  ],
+  "est": 8.5
+ },
+ {
+  "id": "2-043",
+  "act": 2,
+  "name": "t45_a2_37",
   "codes": [
    "2.05#4"
   ],
   "est": 11.0
  },
  {
-  "id": "2-055",
+  "id": "2-044",
   "act": 2,
-  "name": "t45_a2_26_imaginary_world_paper_mask",
+  "name": "t45_a2_38",
   "codes": [
-   "2.05#5",
-   "2.05#6"
+   "2.05#5"
   ],
-  "est": 16.5
+  "est": 9.6
  },
  {
-  "id": "2-056",
+  "id": "2-045",
   "act": 2,
-  "name": "t45_a2_27_pressure_gauge_simmering_dark",
+  "name": "t45_a2_39",
   "codes": [
+   "2.05#6",
    "2.05#7",
-   "2.05#8"
-  ],
-  "est": 16.5
- },
- {
-  "id": "2-057",
-  "act": 2,
-  "name": "t45_a2_28_cracked_wall_cold_father_son",
-  "codes": [
+   "2.05#8",
    "2.05#9",
    "2.05#10"
   ],
-  "est": 15.6
+  "est": 38.9
  },
  {
-  "id": "2-058",
+  "id": "2-046",
   "act": 2,
-  "name": "t45_a2_29_teen_sees_father_outside",
+  "name": "t45_a2_40",
   "codes": [
-   "2.06#1",
-   "2.06#2"
+   "2.06#1"
   ],
-  "est": 17.8
+  "est": 8.5
  },
  {
-  "id": "2-059",
+  "id": "2-047",
   "act": 2,
-  "name": "t45_a2_30_fallen_father_portrait_frame",
+  "name": "t45_a2_41",
   "codes": [
-   "2.06#3"
-  ],
-  "est": 7.4
- },
- {
-  "id": "2-060",
-  "act": 2,
-  "name": "t45_a2_31_family_altar_neglected_dust",
-  "codes": [
-   "2.06#4"
-  ],
-  "est": 8.2
- },
- {
-  "id": "2-061",
-  "act": 2,
-  "name": "t45_a2_32_rear_courtyard_clothesline_night",
-  "codes": [
-   "2.06#5"
-  ],
-  "est": 8.8
- },
- {
-  "id": "2-062",
-  "act": 2,
-  "name": "t45_a2_33_powerless_boy_to_control",
-  "codes": [
+   "2.06#2",
+   "2.06#3",
+   "2.06#4",
+   "2.06#5",
    "2.06#6",
-   "2.06#7"
-  ],
-  "est": 18.7
- },
- {
-  "id": "2-063",
-  "act": 2,
-  "name": "t45_a2_34_personality_distortion_stairs_down",
-  "codes": [
+   "2.06#7",
    "2.06#8",
-   "2.06#9"
-  ],
-  "est": 15.6
- },
- {
-  "id": "2-064",
-  "act": 2,
-  "name": "t45_a2_35_last_boundary_door_shut",
-  "codes": [
+   "2.06#9",
    "2.06#10",
    "2.06#11"
   ],
-  "est": 14.8
+  "est": 82.8
  },
  {
-  "id": "3-065",
+  "id": "3-048",
   "act": 3,
-  "name": "t45_a3_01_taxi_rolling_rainy_street_night",
+  "name": "t45_a3_02",
   "codes": [
-   "3.02#1",
+   "3.02#1"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "3-049",
+  "act": 3,
+  "name": "t45_a3_03",
+  "codes": [
    "3.02#2"
   ],
-  "est": 19.0
+  "est": 9.3
  },
  {
-  "id": "3-066",
+  "id": "3-050",
   "act": 3,
-  "name": "t45_a3_02_predator_cruising_slow_streets",
+  "name": "t45_a3_04",
   "codes": [
    "3.02#3"
   ],
   "est": 7.7
  },
  {
-  "id": "3-067",
+  "id": "3-051",
   "act": 3,
-  "name": "t45_a3_03_empty_mountain_road_parked_taxi",
+  "name": "t45_a3_05",
   "codes": [
-   "3.02#4",
+   "3.02#4"
+  ],
+  "est": 8.2
+ },
+ {
+  "id": "3-052",
+  "act": 3,
+  "name": "t45_a3_06",
+  "codes": [
    "3.02#5"
   ],
-  "est": 16.5
+  "est": 8.2
  },
  {
-  "id": "3-068",
+  "id": "3-053",
   "act": 3,
-  "name": "t45_a3_04_taxi_outside_tenement_dark_dash",
+  "name": "t45_a3_07",
   "codes": [
-   "3.02#6",
+   "3.02#6"
+  ],
+  "est": 8.0
+ },
+ {
+  "id": "3-054",
+  "act": 3,
+  "name": "t45_a3_08",
+  "codes": [
    "3.02#7"
   ],
-  "est": 15.9
+  "est": 8.0
  },
  {
-  "id": "3-069",
+  "id": "3-055",
   "act": 3,
-  "name": "t45_a3_05_repeated_route_map_blank",
+  "name": "t45_a3_09",
   "codes": [
-   "3.02#8",
+   "3.02#8"
+  ],
+  "est": 6.8
+ },
+ {
+  "id": "3-056",
+  "act": 3,
+  "name": "t45_a3_10",
+  "codes": [
    "3.02#9"
   ],
-  "est": 13.1
+  "est": 6.3
  },
  {
-  "id": "3-070",
+  "id": "3-057",
   "act": 3,
-  "name": "t45_a3_06_mo_vs_signature_split_concept",
+  "name": "t45_a3_30",
   "codes": [
    "3.03#1",
-   "3.03#2"
-  ],
-  "est": 18.4
- },
- {
-  "id": "3-071",
-  "act": 3,
-  "name": "t45_a3_07_taxi_roof_lamp_meter_dark",
-  "codes": [
+   "3.03#2",
    "3.03#3",
-   "3.03#4"
-  ],
-  "est": 16.5
- },
- {
-  "id": "3-072",
-  "act": 3,
-  "name": "t45_a3_08_camera_tripod_dark_room",
-  "codes": [
+   "3.03#4",
    "3.03#5",
-   "3.03#6"
-  ],
-  "est": 18.4
- },
- {
-  "id": "3-073",
-  "act": 3,
-  "name": "t45_a3_09_specimen_jars_shelf_cold_light",
-  "codes": [
+   "3.03#6",
    "3.03#7",
-   "3.03#8"
-  ],
-  "est": 16.2
- },
- {
-  "id": "3-074",
-  "act": 3,
-  "name": "t45_a3_10_scales_two_factors_profile",
-  "codes": [
+   "3.03#8",
    "3.03#9",
    "3.03#10"
   ],
-  "est": 15.9
+  "est": 85.3
  },
  {
-  "id": "3-075",
+  "id": "3-058",
   "act": 3,
-  "name": "t45_a3_11_psychoanalytic_dark_mirror",
+  "name": "t45_a3_31",
   "codes": [
    "3.04#1"
   ],
   "est": 9.6
  },
  {
-  "id": "3-076",
+  "id": "3-059",
   "act": 3,
-  "name": "t45_a3_12_lonely_figure_fear_of_living",
+  "name": "t45_a3_32",
   "codes": [
    "3.04#2"
   ],
   "est": 11.0
  },
  {
-  "id": "3-077",
+  "id": "3-060",
   "act": 3,
-  "name": "t45_a3_13_still_objects_control_power",
+  "name": "t45_a3_33",
   "codes": [
-   "3.04#3",
+   "3.04#3"
+  ],
+  "est": 8.0
+ },
+ {
+  "id": "3-061",
+  "act": 3,
+  "name": "t45_a3_34",
+  "codes": [
    "3.04#4"
   ],
-  "est": 16.2
+  "est": 8.2
  },
  {
-  "id": "3-078",
+  "id": "3-062",
   "act": 3,
-  "name": "t45_a3_14_frozen_moment_photographs_blank",
+  "name": "t45_a3_35",
   "codes": [
-   "3.04#5",
+   "3.04#5"
+  ],
+  "est": 8.2
+ },
+ {
+  "id": "3-063",
+  "act": 3,
+  "name": "t45_a3_36",
+  "codes": [
    "3.04#6"
   ],
-  "est": 17.6
+  "est": 9.3
  },
  {
-  "id": "3-079",
+  "id": "3-064",
   "act": 3,
-  "name": "t45_a3_15_escalation_spiral_loop",
+  "name": "t45_a3_37",
   "codes": [
-   "3.04#7",
+   "3.04#7"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "3-065",
+  "act": 3,
+  "name": "t45_a3_38",
+  "codes": [
    "3.04#8"
   ],
-  "est": 16.7
+  "est": 7.7
  },
  {
-  "id": "3-080",
+  "id": "3-066",
   "act": 3,
-  "name": "t45_a3_16_rising_demand_dark_staircase",
+  "name": "t45_a3_39",
   "codes": [
-   "3.04#9"
-  ],
-  "est": 6.3
- },
- {
-  "id": "3-081",
-  "act": 3,
-  "name": "t45_a3_17_mechanical_routine_july_night",
-  "codes": [
+   "3.04#9",
    "3.05#1",
-   "3.05#2"
-  ],
-  "est": 16.5
- },
- {
-  "id": "3-082",
-  "act": 3,
-  "name": "t45_a3_18_graduation_party_empty_ballroom",
-  "codes": [
+   "3.05#2",
    "3.05#3",
-   "3.05#4"
-  ],
-  "est": 15.3
- },
- {
-  "id": "3-083",
-  "act": 3,
-  "name": "t45_a3_19_hopeful_night_street_taxi_waiting",
-  "codes": [
-   "3.05#5"
-  ],
-  "est": 10.2
- },
- {
-  "id": "3-084",
-  "act": 3,
-  "name": "t45_a3_20_calmer_rain_unusual_decision",
-  "codes": [
+   "3.05#4",
+   "3.05#5",
    "3.05#6",
-   "3.05#7"
-  ],
-  "est": 14.2
- },
- {
-  "id": "3-085",
-  "act": 3,
-  "name": "t45_a3_21_parked_taxi_riverside_lot",
-  "codes": [
+   "3.05#7",
    "3.06#1",
-   "3.06#2"
-  ],
-  "est": 17.6
- },
- {
-  "id": "3-086",
-  "act": 3,
-  "name": "t45_a3_22_dome_light_cabin_rain_hours",
-  "codes": [
+   "3.06#2",
    "3.06#3",
-   "3.06#4"
-  ],
-  "est": 15.1
- },
- {
-  "id": "3-087",
-  "act": 3,
-  "name": "t45_a3_23_topics_school_dreams_notes",
-  "codes": [
+   "3.06#4",
    "3.06#5",
-   "3.06#6"
-  ],
-  "est": 16.7
- },
- {
-  "id": "3-088",
-  "act": 3,
-  "name": "t45_a3_24_dawn_rain_riverside_window",
-  "codes": [
+   "3.06#6",
    "3.06#7",
-   "3.06#8"
-  ],
-  "est": 15.3
- },
- {
-  "id": "3-089",
-  "act": 3,
-  "name": "t45_a3_25_innocence_touches_humanity",
-  "codes": [
+   "3.06#8",
    "3.07#1",
-   "3.07#2"
-  ],
-  "est": 17.6
- },
- {
-  "id": "3-090",
-  "act": 3,
-  "name": "t45_a3_26_dehumanization_cracks_fear",
-  "codes": [
+   "3.07#2",
    "3.07#3",
-   "3.07#4"
-  ],
-  "est": 17.8
- },
- {
-  "id": "3-091",
-  "act": 3,
-  "name": "t45_a3_27_fear_crushes_conscience_dawn",
-  "codes": [
+   "3.07#4",
    "3.07#5",
-   "3.07#6"
-  ],
-  "est": 15.1
- },
- {
-  "id": "3-092",
-  "act": 3,
-  "name": "t45_a3_28_tears_late_remorse_empty_room",
-  "codes": [
+   "3.07#6",
    "3.07#7",
    "3.07#8"
   ],
-  "est": 18.7
+  "est": 196.4
  },
  {
-  "id": "4-093",
+  "id": "4-067",
   "act": 4,
-  "name": "t45_a4_01_wan_chai_police_station_night",
+  "name": "t45_a4_02",
   "codes": [
    "4.02#1"
   ],
   "est": 10.2
  },
  {
-  "id": "4-094",
+  "id": "4-068",
   "act": 4,
-  "name": "t45_a4_02_interrogation_room_duel",
+  "name": "t45_a4_03",
   "codes": [
-   "4.02#2",
-   "4.02#3"
+   "4.02#2"
   ],
-  "est": 14.8
+  "est": 9.1
  },
  {
-  "id": "4-095",
+  "id": "4-069",
   "act": 4,
-  "name": "t45_a4_03_motionless_stare_sailor_story",
+  "name": "t45_a4_04",
   "codes": [
+   "4.02#3",
    "4.02#4",
-   "4.02#5"
-  ],
-  "est": 16.2
- },
- {
-  "id": "4-096",
-  "act": 4,
-  "name": "t45_a4_04_right_to_silence_hours",
-  "codes": [
+   "4.02#5",
    "4.02#6",
-   "4.02#7"
-  ],
-  "est": 16.7
- },
- {
-  "id": "4-097",
-  "act": 4,
-  "name": "t45_a4_05_prepared_stubborn_wall",
-  "codes": [
+   "4.02#7",
    "4.02#8",
    "4.02#9"
   ],
-  "est": 15.3
+  "est": 54.0
  },
  {
-  "id": "4-098",
+  "id": "4-070",
   "act": 4,
-  "name": "t45_a4_06_ordinary_methods_useless_change",
+  "name": "t45_a4_05",
   "codes": [
-   "4.03#1",
+   "4.03#1"
+  ],
+  "est": 10.4
+ },
+ {
+  "id": "4-071",
+  "act": 4,
+  "name": "t45_a4_06",
+  "codes": [
    "4.03#2"
   ],
-  "est": 19.2
+  "est": 8.8
  },
  {
-  "id": "4-099",
+  "id": "4-072",
   "act": 4,
-  "name": "t45_a4_07_father_weakness_meeting_arranged",
+  "name": "t45_a4_07",
   "codes": [
-   "4.03#3",
+   "4.03#3"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "4-073",
+  "act": 4,
+  "name": "t45_a4_08",
+  "codes": [
    "4.03#4"
   ],
-  "est": 18.1
+  "est": 8.5
  },
  {
-  "id": "4-100",
+  "id": "4-074",
   "act": 4,
-  "name": "t45_a4_08_white_haired_father_enters",
+  "name": "t45_a4_09",
   "codes": [
    "4.03#5"
   ],
   "est": 11.0
  },
  {
-  "id": "4-101",
+  "id": "4-075",
   "act": 4,
-  "name": "t45_a4_09_father_stern_words_eye_contact",
+  "name": "t45_a4_10",
   "codes": [
    "4.03#6"
   ],
   "est": 12.1
  },
  {
-  "id": "4-102",
+  "id": "4-076",
   "act": 4,
-  "name": "t45_a4_10_decisive_blow_head_bowed",
+  "name": "t45_a4_11",
   "codes": [
-   "4.03#7",
+   "4.03#7"
+  ],
+  "est": 9.6
+ },
+ {
+  "id": "4-077",
+  "act": 4,
+  "name": "t45_a4_12",
+  "codes": [
    "4.03#8"
   ],
-  "est": 16.5
+  "est": 6.8
  },
  {
-  "id": "4-103",
+  "id": "4-078",
   "act": 4,
-  "name": "t45_a4_11_paper_pen_map_scattered_sites",
+  "name": "t45_a4_13",
   "codes": [
-   "4.03#9",
+   "4.03#9"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "4-079",
+  "act": 4,
+  "name": "t45_a4_14",
+  "codes": [
    "4.03#10"
   ],
-  "est": 13.4
+  "est": 5.7
  },
  {
-  "id": "4-104",
+  "id": "4-080",
   "act": 4,
-  "name": "t45_a4_12_composure_collapse_flat_monotone",
+  "name": "t45_a4_15",
   "codes": [
-   "4.03#11",
+   "4.03#11"
+  ],
+  "est": 7.7
+ },
+ {
+  "id": "4-081",
+  "act": 4,
+  "name": "t45_a4_27",
+  "codes": [
    "4.04#1"
   ],
-  "est": 17.0
+  "est": 9.3
  },
  {
-  "id": "4-105",
+  "id": "4-082",
   "act": 4,
-  "name": "t45_a4_13_detailed_confession_typewriter",
+  "name": "t45_a4_28",
   "codes": [
-   "4.04#2",
+   "4.04#2"
+  ],
+  "est": 9.1
+ },
+ {
+  "id": "4-083",
+  "act": 4,
+  "name": "t45_a4_29",
+  "codes": [
    "4.04#3"
   ],
-  "est": 17.8
+  "est": 8.8
  },
  {
-  "id": "4-106",
+  "id": "4-084",
   "act": 4,
-  "name": "t45_a4_14_night_rain_avenger_self_image",
+  "name": "t45_a4_30",
   "codes": [
    "4.04#4"
   ],
   "est": 10.7
  },
  {
-  "id": "4-107",
+  "id": "4-085",
   "act": 4,
-  "name": "t45_a4_15_manuscript_request_specimens",
+  "name": "t45_a4_31",
   "codes": [
    "4.04#5"
   ],
   "est": 11.0
  },
  {
-  "id": "4-108",
+  "id": "4-086",
   "act": 4,
-  "name": "t45_a4_16_rationalization_distorting_mirror",
+  "name": "t45_a4_32",
   "codes": [
-   "4.04#6"
-  ],
-  "est": 12.4
- },
- {
-  "id": "4-109",
-  "act": 4,
-  "name": "t45_a4_17_noble_mission_halo_purge",
-  "codes": [
+   "4.04#6",
    "4.04#7",
-   "4.04#8"
-  ],
-  "est": 17.8
- },
- {
-  "id": "4-110",
-  "act": 4,
-  "name": "t45_a4_18_judge_role_supreme_court_exterior",
-  "codes": [
+   "4.04#8",
    "4.04#9",
-   "4.05#1"
-  ],
-  "est": 17.6
- },
- {
-  "id": "4-111",
-  "act": 4,
-  "name": "t45_a4_19_crowd_outside_courthouse_media",
-  "codes": [
-   "4.05#2"
-  ],
-  "est": 9.3
- },
- {
-  "id": "4-112",
-  "act": 4,
-  "name": "t45_a4_20_defense_counsel_courtroom_wide",
-  "codes": [
+   "4.05#1",
+   "4.05#2",
    "4.05#3",
-   "4.05#4"
-  ],
-  "est": 17.0
- },
- {
-  "id": "4-113",
-  "act": 4,
-  "name": "t45_a4_21_legal_battlefield_courtroom",
-  "codes": [
+   "4.05#4",
    "4.05#5",
-   "4.05#6"
-  ],
-  "est": 17.6
- },
- {
-  "id": "4-114",
-  "act": 4,
-  "name": "t45_a4_22_public_anger_experts_clash",
-  "codes": [
+   "4.05#6",
    "4.05#7",
-   "4.06#1"
-  ],
-  "est": 17.3
- },
- {
-  "id": "4-115",
-  "act": 4,
-  "name": "t45_a4_23_psychiatrist_expert_witness_stand",
-  "codes": [
-   "4.06#2"
-  ],
-  "est": 8.5
- },
- {
-  "id": "4-116",
-  "act": 4,
-  "name": "t45_a4_24_planning_proves_logic_tools",
-  "codes": [
-   "4.06#3"
-  ],
-  "est": 12.1
- },
- {
-  "id": "4-117",
-  "act": 4,
-  "name": "t45_a4_25_six_months_precision_concealment",
-  "codes": [
+   "4.06#1",
+   "4.06#2",
+   "4.06#3",
    "4.06#4",
-   "4.06#5"
-  ],
-  "est": 19.5
- },
- {
-  "id": "4-118",
-  "act": 4,
-  "name": "t45_a4_26_fetish_not_incapacity",
-  "codes": [
+   "4.06#5",
    "4.06#6",
-   "4.06#7"
-  ],
-  "est": 17.0
- },
- {
-  "id": "4-119",
-  "act": 4,
-  "name": "t45_a4_27_prosecution_breaks_defense_gavel",
-  "codes": [
+   "4.06#7",
    "4.06#8",
-   "4.06#9"
-  ],
-  "est": 14.5
- },
- {
-  "id": "4-120",
-  "act": 4,
-  "name": "t45_a4_28_jury_seven_men_verdict",
-  "codes": [
+   "4.06#9",
    "4.07#1",
-   "4.07#2"
-  ],
-  "est": 15.6
- },
- {
-  "id": "4-121",
-  "act": 4,
-  "name": "t45_a4_29_sentence_pronounced_commuted",
-  "codes": [
+   "4.07#2",
    "4.07#3",
-   "4.07#4"
-  ],
-  "est": 17.6
- },
- {
-  "id": "4-122",
-  "act": 4,
-  "name": "t45_a4_30_shek_pik_prison_island_dusk",
-  "codes": [
+   "4.07#4",
    "4.07#5",
    "4.07#6"
   ],
-  "est": 15.6
+  "est": 229.5
  },
  {
-  "id": "5-123",
+  "id": "5-087",
   "act": 5,
-  "name": "t45_a5_01_prison_old_man_decades_later",
+  "name": "t45_a5_02",
   "codes": [
-   "5.02#1",
+   "5.02#1"
+  ],
+  "est": 9.9
+ },
+ {
+  "id": "5-088",
+  "act": 5,
+  "name": "t45_a5_03",
+  "codes": [
    "5.02#2"
   ],
-  "est": 17.8
+  "est": 8.0
  },
  {
-  "id": "5-124",
+  "id": "5-089",
   "act": 5,
-  "name": "t45_a5_02_scars_reform_taxi_licensing",
+  "name": "t45_a5_04",
   "codes": [
-   "5.02#3",
+   "5.02#3"
+  ],
+  "est": 8.8
+ },
+ {
+  "id": "5-090",
+  "act": 5,
+  "name": "t45_a5_05",
+  "codes": [
    "5.02#4"
   ],
-  "est": 17.6
+  "est": 8.8
  },
  {
-  "id": "5-125",
+  "id": "5-091",
   "act": 5,
-  "name": "t45_a5_03_police_psych_unit_new_age",
+  "name": "t45_a5_06",
   "codes": [
    "5.02#5"
   ],
   "est": 9.9
  },
  {
-  "id": "5-126",
+  "id": "5-092",
   "act": 5,
-  "name": "t45_a5_04_academy_lecture_hall_lesson",
+  "name": "t45_a5_07",
   "codes": [
-   "5.02#6",
-   "5.02#7"
+   "5.02#6"
   ],
-  "est": 16.2
+  "est": 9.9
  },
  {
-  "id": "5-127",
+  "id": "5-093",
   "act": 5,
-  "name": "t45_a5_05_generation_after_shift_red_taxi_safe",
+  "name": "t45_a5_08",
   "codes": [
+   "5.02#7",
    "5.03#1",
-   "5.03#2"
-  ],
-  "est": 14.5
- },
- {
-  "id": "5-128",
-  "act": 5,
-  "name": "t45_a5_06_fear_of_drivers_rearview_mirror",
-  "codes": [
+   "5.03#2",
    "5.03#3",
-   "5.03#4"
-  ],
-  "est": 18.1
- },
- {
-  "id": "5-129",
-  "act": 5,
-  "name": "t45_a5_07_vigilance_second_nature",
-  "codes": [
+   "5.03#4",
    "5.03#5",
-   "5.03#6"
-  ],
-  "est": 16.2
- },
- {
-  "id": "5-130",
-  "act": 5,
-  "name": "t45_a5_08_grandmother_warns_grandchild",
-  "codes": [
+   "5.03#6",
    "5.03#7",
-   "5.03#8"
-  ],
-  "est": 14.0
- },
- {
-  "id": "5-131",
-  "act": 5,
-  "name": "t45_a5_09_three_survival_principles_night_city",
-  "codes": [
-   "5.04#1"
-  ],
-  "est": 11.0
- },
- {
-  "id": "5-132",
-  "act": 5,
-  "name": "t45_a5_10_share_live_location_friend",
-  "codes": [
+   "5.03#8",
+   "5.04#1",
    "5.04#2",
-   "5.04#3"
-  ],
-  "est": 15.9
- },
- {
-  "id": "5-133",
-  "act": 5,
-  "name": "t45_a5_11_phone_call_driver_aware",
-  "codes": [
+   "5.04#3",
    "5.04#4",
-   "5.04#5"
-  ],
-  "est": 19.0
- },
- {
-  "id": "5-134",
-  "act": 5,
-  "name": "t45_a5_12_stay_alert_no_phone_sleep",
-  "codes": [
+   "5.04#5",
    "5.04#6",
-   "5.04#7"
-  ],
-  "est": 12.6
- },
- {
-  "id": "5-135",
-  "act": 5,
-  "name": "t45_a5_13_detour_darker_street_alley",
-  "codes": [
-   "5.04#8"
-  ],
-  "est": 13.8
- },
- {
-  "id": "5-136",
-  "act": 5,
-  "name": "t45_a5_14_ask_stop_where_crowd_lights",
-  "codes": [
+   "5.04#7",
+   "5.04#8",
    "5.04#9",
-   "5.04#10"
-  ],
-  "est": 13.7
- },
- {
-  "id": "5-137",
-  "act": 5,
-  "name": "t45_a5_15_rear_diagonal_seat_position",
-  "codes": [
+   "5.04#10",
    "5.04#11",
-   "5.04#12"
-  ],
-  "est": 15.6
- },
- {
-  "id": "5-138",
-  "act": 5,
-  "name": "t45_a5_16_golden_seconds_escape_distance",
-  "codes": [
+   "5.04#12",
    "5.04#13",
-   "5.04#14"
-  ],
-  "est": 15.9
- },
- {
-  "id": "5-139",
-  "act": 5,
-  "name": "t45_a5_17_self_defense_preparation_umbrella_shield",
-  "codes": [
+   "5.04#14",
    "5.04#15",
-   "5.05#1"
-  ],
-  "est": 19.0
- },
- {
-  "id": "5-140",
-  "act": 5,
-  "name": "t45_a5_18_truth_finds_light_dawn_city",
-  "codes": [
+   "5.05#1",
    "5.05#2",
-   "5.05#3"
-  ],
-  "est": 16.5
- },
- {
-  "id": "5-141",
-  "act": 5,
-  "name": "t45_a5_19_lesson_lamp_safer_society",
-  "codes": [
-   "5.05#4"
-  ],
-  "est": 8.2
- },
- {
-  "id": "5-142",
-  "act": 5,
-  "name": "t45_a5_20_thanks_podcast_studio",
-  "codes": [
+   "5.05#3",
+   "5.05#4",
    "5.05#5",
-   "5.05#6"
-  ],
-  "est": 12.0
- },
- {
-  "id": "5-143",
-  "act": 5,
-  "name": "t45_a5_21_amber_eyes_closing_case_file",
-  "codes": [
+   "5.05#6",
    "5.05#7"
   ],
-  "est": 4.9
+  "est": 247.0
  }
 ]

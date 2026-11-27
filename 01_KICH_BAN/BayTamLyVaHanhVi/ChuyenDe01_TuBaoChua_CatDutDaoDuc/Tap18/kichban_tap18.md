@@ -64,8 +64,11 @@ Vào năm 1961 tại Đại học Yale, nhà tâm lý học Stanley Milgram đã
 Ông yêu cầu những người tham gia bình thường đóng vai giáo viên và nhấn nút phát ra các luồng điện trừng phạt một học sinh mỗi khi người đó trả lời sai, với mức điện áp tăng dần từ mười lăm vôn lên tới bốn trăm năm mươi vôn — mức có thể gây chết người.
 Mặc dù nghe thấy tiếng la hét van xin đau đớn từ phòng bên cạnh, nhưng khi người giám sát mặc áo blouse trắng đanh thép ra lệnh: "Thí nghiệm yêu cầu bạn phải tiếp tục, tôi sẽ chịu hoàn toàn trách nhiệm", có tới sáu mươi lăm phần trăm số người tham gia đã nhấn nút điện ở mức tối đa bốn trăm năm mươi vôn!
 Họ không hề có thù oán với nạn nhân; họ thậm chí còn toát mồ hôi, run rẩy và cắn môi vì căng thẳng; nhưng họ vẫn tiếp tục nhấn nút chỉ vì có người đứng ra chịu trách nhiệm thay họ.
+Đáng chú ý hơn, trong các biến thể khác của thí nghiệm, khi người giám sát rời khỏi phòng và chỉ ra lệnh qua điện thoại, tỷ lệ người tuân lệnh đến mức tối đa đã sụt giảm mạnh xuống chỉ còn khoảng hai mươi phần trăm.
+Điều đó chứng minh rằng sự hiện diện trực tiếp của quyền lực là chất xúc tác cực mạnh khiến con người dễ dàng giao nộp quyền tự chủ đạo đức.
 Milgram gọi hiện tượng này là Trạng thái Thừa hành — Agentic State:
 Khi một cá nhân nhìn nhận mình là công cụ thực thi ý chí của một quyền lực chính danh, người đó sẽ dịch chuyển toàn bộ gánh nặng trách nhiệm đạo đức sang cho người ra lệnh.
+Theo Albert Bandura, cơ chế này làm mờ đi vai trò chủ thể của cá nhân, giúp họ hành động trái với chuẩn mực đạo đức của chính mình mà không phải chịu sự tự dằn vặt nội tâm.
 Họ không còn bận tâm về tính đúng sai của hành vi; mối bận tâm duy nhất của họ lúc này chỉ là: Làm thế nào để thực hiện mệnh lệnh đó một cách chính xác, mẫn cán và làm hài lòng cấp trên nhất.
 Ý thức cá nhân bị hòa tan hoàn toàn vào cấu trúc quyền lực của tổ chức.
 Đó là khởi nguồn của hiện tượng mà triết gia Hannah Arendt gọi là Banality of Evil — Sự tầm thường của cái ác.
@@ -82,16 +85,19 @@ Năm 1961, tại phòng xử án của Tòa án Tối cao Jerusalem, toàn bộ 
 Người đàn ông đó tên là Adolf Eichmann — Trung tá SS, Trưởng ban IV B4 của Cơ quan An ninh Trung ương Đức Quốc Xã.
 Dưới sự chỉ đạo của Hitler và Reinhard Heydrich, Eichmann chính là người được giao trọng trách điều phối toàn bộ mạng lưới hậu cần khổng lồ cho "Giải pháp Cuối cùng", vận chuyển hơn sáu triệu người Do Thái từ khắp các quốc gia châu Âu bị chiếm đóng tới các trại tập trung hủy diệt Auschwitz, Treblinka và Sobibor.
 Mười lăm năm sau khi Thế chiến thứ hai kết thúc, Eichmann đã sống dưới vỏ bọc giả mang tên Ricardo Klement tại một vùng ngoại ô nghèo ở Buenos Aires, Argentina.
+Trước đó, sau khi Đức Quốc Xã sụp đổ, hắn đã trốn thoát khỏi trại giam tù binh của Mỹ, ẩn náu tại Đức rồi vượt biên sang Argentina vào năm 1950 bằng giấy tờ thông hành do Hội Chữ thập đỏ cấp dưới danh tính giả.
 Thế nhưng, các điệp viên của Cơ quan Tình báo Mossad Israel đã thực hiện một chiến dịch bắt cóc táo bạo chưa từng có mang tên Chiến dịch Garibaldi, bí mật đưa Eichmann về Israel để đối diện với công lý.
 Điều khiến cả thế giới bàng hoàng nhất tại phiên tòa không phải là sự xuất hiện của một con quái vật man rợ gầm thét, mà là sự nhạt nhòa, tầm thường và phong thái của một viên chức mẫn cán.
 Eichmann không hề phủ nhận các chuyến tàu chở người chết; nhưng hắn ngồi sau buồng kính và liên tục lặp đi lặp lại một câu nói: Tôi chỉ là một người lính làm theo mệnh lệnh!
 Điều tra viên sẽ tái hiện lại hồ sơ chứng cứ và chuyên án lịch sử bóc trần bộ óc quan liêu giết người này.
 
 **ĐIỀU TRA VIÊN** *(Tái hiện Chiến dịch Garibaldi của Mossad và diễn biến phiên tòa Jerusalem 1961)*:
-Chiến dịch Garibaldi vào tháng 5 năm 1960 là một chiến công tình báo kinh điển của Mossad dưới sự chỉ đạo trực tiếp của Giám đốc Isser Harel.
+Chiến dịch Garibaldi vào ngày 11 tháng 5 năm 1960 là một chiến công tình báo kinh điển của Mossad dưới sự chỉ đạo trực tiếp của Giám đốc Isser Harel.
 Sau khi xác định được danh tính thật của Ricardo Klement nhờ thông tin từ một người sống sót mù lòa tại Argentina, đội đặc nhiệm Mossad do Rafi Eitan chỉ huy đã phục kích bắt cóc Eichmann khi hắn vừa bước xuống từ xe buýt sau giờ tan làm tại nhà máy Mercedes-Benz.
 Hắn bị giam giữ tại một ngôi nhà an toàn, bị gây mê và cải trang thành một tiếp viên hàng không của hãng El Al để đưa lên máy bay về Israel an toàn.
-Tại phiên tòa Jerusalem năm 1961, Công tố viên Gideon Hausner đã đưa ra hàng nghìn tấn tài liệu, bản đồ đường sắt, biên bản các cuộc họp Hội nghị Wannsee năm 1942 và lời khai đẫm nước mắt của hàng trăm nhân chứng sống sót.
+Phiên tòa chính thức khai mạc vào ngày 11 tháng 4 năm 1961 tại nhà hát Beit Ha'am ở Jerusalem, xét xử Eichmann theo Đạo luật Trừng phạt Đức Quốc Xã và Cộng tác viên năm 1950 của Israel.
+Tại phiên tòa, Công tố viên Gideon Hausner đã triệu tập tới một trăm mười hai nhân chứng trong suốt năm mươi sáu ngày xét xử, cùng hàng nghìn tài liệu, bản đồ đường sắt, biên bản Hội nghị Wannsee năm 1942.
+Chiến lược của Hausner không chỉ nhằm kết tội một cá nhân, mà còn để ghi lại toàn bộ lịch sử thảm họa diệt chủng qua lời kể trực tiếp của những người sống sót trước toàn thế giới.
 Các tài liệu đã chứng minh: Adolf Eichmann không đơn thuần là một người chuyển thư hay ký giấy tờ thụ động;
 Hắn là một chuyên gia hậu cần cực kỳ tận tụy, sáng tạo và cuồng nhiệt trong công việc:
 Hắn chủ động tính toán dung lượng các toa tàu chở gia súc, tối ưu hóa thời gian quay đầu của các đoàn tàu hỏa để chở được nhiều nạn nhân nhất trong thời gian ngắn nhất.
@@ -109,7 +115,8 @@ Tại sao bộ não của Eichmann có thể tự bảo vệ bản thân trướ
 Triết gia Hannah Arendt khi trực tiếp theo dõi phiên tòa đã nhận định về bản chất thực sự của sự tha hóa này ra sao?
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích Khái niệm "Sự tầm thường của cái ác" của Hannah Arendt và Sự Phân mảnh Lương tâm)*:
-Bản tường trình phiên tòa của triết gia Hannah Arendt với tác phẩm bất hủ Eichmann ở Jerusalem: Một báo cáo về sự tầm thường của cái ác đã làm thay đổi hoàn toàn cách nhân loại nhìn nhận về bản chất của tội ác.
+Bản tường trình phiên tòa của triết gia Hannah Arendt — người tham dự phiên tòa với tư cách đặc phái viên của tạp chí The New Yorker — qua tác phẩm bất hủ Eichmann ở Jerusalem: Một báo cáo về sự tầm thường của cái ác xuất bản năm 1963 đã làm thay đổi hoàn toàn cách nhân loại nhìn nhận về bản chất của tội ác.
+Cuốn sách của bà từng gây ra những cuộc tranh luận dữ dội trên toàn cầu khi chỉ ra một sự thật khó chấp nhận.
 Arendt chỉ ra rằng: Bi kịch lớn nhất của Eichmann không phải là hắn là một con quái vật khát máu mang nhân cách thái nhân cách (Psychopath), mà là hắn là một kẻ hoàn toàn bình thường, thậm chí là tầm thường đến mức đáng sợ.
 Hắn là hiện thân của Sự thiếu vắng khả năng suy nghĩ độc lập (Thoughtlessness):
 Hắn không có động cơ thù hận cá nhân sâu sắc đối với người Do Thái; động cơ duy nhất thúc đẩy hắn làm việc điên cuồng là Khao khát thăng tiến trong hệ thống cấp bậc của chế độ Đức Quốc Xã.
@@ -176,7 +183,13 @@ Khi phát hiện lính của Calley đang xả súng vào thường dân, Chuẩ
 Ông bước ra khỏi máy bay, đối đầu trực diện với Calley và ra lệnh cho hai xạ thủ súng máy Lawrence Colburn và Glenn Andreotta sẵn sàng nổ súng vào chính đồng đội nếu binh sĩ mặt đất tiếp tục tiến lại gần sát hại dân lành.
 Họ đã giải cứu thành công mười một thường dân vô tội và đưa một em bé bị thương lên trực thăng bay về bệnh viện dã chiến.
 Hành động dũng cảm của Hugh Thompson là bằng chứng thực tế đanh thép nhất chứng minh rằng: Ngay cả giữa chiến trường khốc liệt nhất, một người lính vẫn có quyền và có nghĩa vụ lựa chọn đạo đức để từ chối một mệnh lệnh phi pháp!
-Tại phiên tòa binh thẩm ở Fort Benning vào tháng 3 năm 1971, Bồi thẩm đoàn gồm sáu sĩ quan đã kết tội William Calley về tội sát hại có chủ mưu ít nhất hai mươi hai thường dân vô tội và tuyên phạt mức án tù khổ sai chung thân.
+Ngay sau chuyến bay, Thompson đã báo cáo giận dữ lên cấp trên về vụ thảm sát, nhưng giới chỉ huy quân sự cấp cao đã tìm cách bưng bít sự việc suốt hơn một năm trời.
+Trong suốt nhiều thập kỷ sau đó, Thompson, Andreotta và Colburn thậm chí phải đối mặt với sự thù địch, tẩy chay và những lời đe dọa tính mạng từ những người coi họ là kẻ phản bội đồng đội.
+Xạ thủ Glenn Andreotta đã tử trận tại Việt Nam chỉ vài tuần sau sự kiện Mỹ Lai vào tháng 4 năm 1968, không kịp chứng kiến ngày sự thật được phơi bày.
+Phải đến năm 1998, ba mươi năm sau thảm kịch, Hugh Thompson và Lawrence Colburn mới chính thức được trao tặng Huân chương Quân nhân — phần thưởng cao quý nhất của Lục quân Hoa Kỳ dành cho lòng dũng cảm phi thường không trong giao tranh.
+Tại phiên tòa binh thẩm ở Fort Benning bắt đầu từ tháng 11 năm 1970 và kết thúc vào ngày 29 tháng 3 năm 1971, Bồi thẩm đoàn gồm sáu sĩ quan đã kết tội William Calley về tội sát hại có chủ mưu ít nhất hai mươi hai thường dân vô tội và tuyên phạt mức án tù khổ sai chung thân.
+Calley là quân nhân Hoa Kỳ duy nhất bị kết án trong toàn bộ vụ thảm sát Mỹ Lai.
+Tuy nhiên, chỉ vài ngày sau phán quyết, Tổng thống Richard Nixon đã can thiệp chuyển Calley từ trại giam sang quản thúc tại gia, và sau các đơn kháng cáo, hắn chỉ thụ án khoảng ba năm quản thúc trước khi được trả tự do vào năm 1974.
 Phán quyết của Tòa án Binh Hoa Kỳ đã tái khẳng định một nguyên tắc pháp lý bất biến của nền văn minh: Mệnh lệnh cấp trên không bao giờ là sự biện hộ hợp pháp cho một hành vi phạm tội chiến tranh rõ ràng và hiển nhiên trái với lương tri nhân loại.
 Không có một quân đội nào dung thứ cho hành vi tàn sát thường dân không vũ khí.
 
@@ -195,10 +208,12 @@ Một mệnh lệnh tiêu diệt hàng triệu con người vô tội là một 
 Lá cờ đen của sự bất hợp pháp tung bay rõ ràng trên mệnh lệnh đó, và không ai có thể lấy lý do phục tùng để chà đạp lên quyền sống của nhân loại.
 Bị cáo không những không từ chối, mà đã thực hiện nó với một sự nhiệt tình, sáng tạo và tận tụy vượt xa cả những gì được yêu cầu.
 Tòa án đã kết tội Adolf Eichmann trên tất cả mười lăm tội danh về tội ác chống lại loài người, tội ác chống lại người Do Thái và tội phạm chiến tranh, tuyên phạt mức án tử hình bằng hình thức treo cổ.
-Vào nửa đêm ngày 31 tháng 5 năm 1962, tại Nhà tù Ramla, bản án tử hình đã được thi hành.
+Vào nửa đêm ngày 31 tháng 5 rạng sáng ngày 1 tháng 6 năm 1962, tại Nhà tù Ramla, bản án tử hình đã được thi hành; đây cũng là vụ hành quyết dân sự duy nhất trong lịch sử Israel.
 Tro cốt của Eichmann được rải xuống vùng biển quốc tế bên ngoài lãnh hải Israel để đảm bảo không có bất kỳ một ngôi mộ nào có thể trở thành nơi tưởng niệm cho chủ nghĩa phát xít.
 Phán quyết này là sự tiếp nối và củng cố vững chắc cho Nguyên tắc IV của Hiến chương Tòa án Quân sự Quốc tế Nuremberg năm 1945:
 "Việc một cá nhân hành động theo mệnh lệnh của chính phủ hoặc của cấp trên không giải trừ trách nhiệm của cá nhân đó theo luật pháp quốc tế, miễn là cá nhân đó thực tế vẫn có sự lựa chọn về mặt đạo đức".
+Ngay từ các phiên tòa Nuremberg lịch sử diễn ra từ năm 1945 đến năm 1946, các tướng lĩnh Đức Quốc Xã đã cố gắng sử dụng luận điệu "Mệnh lệnh là mệnh lệnh" để chối bỏ tội ác.
+Tòa án Quân sự Quốc tế đã dứt khoát bác bỏ lời biện hộ này, khẳng định rằng không một bộ quân phục hay chức vụ nào có thể che chắn cho tội ác chống lại loài người.
 Nguyên tắc đó đã trở thành nền tảng thép của luật hình sự quốc tế hiện đại.
 
 **HOST** *(Dẫn dắt phân tích sự tan rã của luận điệu phục tùng)*:
@@ -248,6 +263,8 @@ Hành động anh hùng của viên phi công Hugh Thompson tại Mỹ Lai đã 
 Ông ấy đã chấp nhận nguy hiểm đến tính mạng và sự nghiệp để làm điều đúng đắn.
 Ông ấy đã cứu lấy nhân tính của chính mình và mang lại niềm hy vọng cho toàn thể nhân loại.
 Từ hôm nay, tôi học cách chịu trách nhiệm một trăm phần trăm cho mọi hành động và chữ ký của chính mình.
+Tôi nhận ra rằng lòng dũng cảm đạo đức không phải là điều gì quá xa vời, mà bắt đầu từ việc dám đặt câu hỏi và từ chối những yêu cầu sai trái nhỏ nhất ngay trong công việc hàng ngày.
+Chỉ khi mỗi người giữ được ranh giới liêm chính của riêng mình, những cỗ máy bất công mới không thể vận hành.
 Tôi sẽ không bao giờ để bất kỳ một mệnh lệnh sai trái nào làm hoen ố đi la bàn lương tri bên trong trái tim mình.
 Sự liêm chính trong công việc mới là giá trị đích thực bảo vệ phẩm giá của mỗi chúng ta.
 
@@ -288,5 +305,4 @@ Hãy sống can đảm, có trách nhiệm với từng quyết định của ch
 Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập hồ sơ tài liệu tâm lý học tội phạm hôm nay.
 Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video rộng rãi đến cộng đồng để cùng nhau nâng cao nhận thức, tôn trọng pháp quyền và xây dựng một xã hội văn minh, nhân ái.
 Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những tập phim phân tích chuyên sâu tiếp theo trong Chuyên đề Cơ chế Tự Bào Chữa.
-Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ sau.
 Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ sau.

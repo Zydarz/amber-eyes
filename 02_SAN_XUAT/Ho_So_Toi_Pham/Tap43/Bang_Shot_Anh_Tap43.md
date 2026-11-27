@@ -1,7 +1,7 @@
 # BẢNG MAPPING SHOT ↔ ẢNH NỀN · TẬP 43
 
 - Nguồn: `.work/bg_jobs_tap43.json` + kịch bản VN hiện tại · **159 shot · 159 ảnh khác nhau · ảnh bị dùng lặp ở >1 shot: 0** · phủ 240/240 câu
-- Ảnh đã có file `assets/bg/`: **0/159** · Tổng thời lượng ƯỚC LƯỢNG: 33.4 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
+- Ảnh đã có file `assets/bg/`: **2/159** · Tổng thời lượng ƯỚC LƯỢNG: 33.4 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
 - **LUẬT DỰNG (AGENTS.md H28):** AI dựng video PHẢI đọc file này (hoặc `.work/shot_map_tap43.json`) và dùng **đúng ảnh ở cột Tên ảnh cho đúng câu ở cột Câu** — CẤM tự chọn ảnh theo chủ đề, CẤM lặp ảnh, CẤM đổi thứ tự. Trước khi dựng chạy `py -3 .work/map_shot_anh.py --check 43` phải ĐẠT.
 - Cách dùng: dựng theo đúng thứ tự dòng; shot bắt đầu ở câu đầu của cột Câu và kéo tới hết câu cuối; ảnh = cột Tên ảnh.
 - Lỗi mapping (cần xử lý): 0
@@ -9,8 +9,8 @@
 
 | Shot | Hồi | Câu (đầu – cuối) | Số câu | Ước (s) | Tên ảnh (`assets/bg/<tên>.png`) | Có file | Mô tả cảnh |
 |---|---|---|---|---|---|---|---|
-| 1-001 | 1 | `1.02#1 – 1.02#2` | 2 | 18.4 | `t43_a1_01_brooklin_walled_upscale_district` | ⏳ | Khu Brooklin giàu có của São Paulo đầu những năm 2000, tường cao và cây xanh bao quanh các dinh thự. |
-| 1-002 | 1 | `1.02#3 – 1.02#4` | 2 | 19.0 | `t43_a1_02_electric_fences_security_cameras` | ⏳ | Hàng rào điện, camera an ninh khiến dinh thự như một ốc đảo bất khả xâm phạm. |
+| 1-001 | 1 | `1.02#1 – 1.02#2` | 2 | 18.4 | `t43_a1_01_brooklin_walled_upscale_district` | ✅ | Khu Brooklin giàu có của São Paulo đầu những năm 2000, tường cao và cây xanh bao quanh các dinh thự. |
+| 1-002 | 1 | `1.02#3 – 1.02#4` | 2 | 19.0 | `t43_a1_02_electric_fences_security_cameras` | ✅ | Hàng rào điện, camera an ninh khiến dinh thự như một ốc đảo bất khả xâm phạm. |
 | 1-003 | 1 | `1.02#5 – 1.02#6` | 2 | 18.1 | `t43_a1_03_neighbors_admiring_grand_mansion` | ⏳ | Những bóng người dân phố nhìn từ xa với vẻ ngưỡng mộ về phía dinh thự danh giá của gia đình kỹ sư và bác sĩ. |
 | 1-004 | 1 | `1.02#7 – 1.02#8` | 2 | 14.5 | `t43_a1_04_mansion_pool_and_library` | ⏳ | Hồ bơi xanh ngắt và thư viện gia đình đầy sách, bề ngoài của một gia đình trí thức hoàn hảo. |
 | 1-005 | 1 | `1.02#9 – 1.02#10` | 2 | 18.4 | `t43_a1_05_halo_gate_hidden_cracks` | ⏳ | Cánh cổng sắt trong vầng hào quang rực rỡ, phía sau là những vết rạn âm thầm trên bức tường. |

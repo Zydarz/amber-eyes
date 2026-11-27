@@ -6,12 +6,12 @@
 ### 1. THÔNG SỐ ĐO LƯỜNG KỸ THUẬT (Quy tắc L3 & K1-K10)
 - **Tập:** Tập 10 — Vỏ Bọc Của Người Bảo Vệ (Ảo Tưởng An Toàn Mặc Định Theo Chức Trách Và Kẻ Thủ Ác Mang Phù Hiệu Công Lý).
 - **Tổng số elements:** 36 elements chuẩn.
-- **Tổng số câu thoại:** 200 câu (Đạt chuẩn dung lượng phân tích chuyên sâu 200–250 câu, thời lượng dự kiến ~21–24 phút).
+- **Tổng số câu thoại:** 237 dòng thoại (đã bổ sung +43 dòng từ bản gốc 194 dòng, đạt chuẩn ~240 câu, thời lượng dự kiến ~25–28 phút).
 - **Phân bổ thời lượng vai diễn:**
-  - **HOST:** ~29% (Mở màn khế ước xã hội, kết nối các hồi, câu hỏi nghiệp vụ, đúc kết kết thúc Chuyên đề 0).
-  - **ĐIỀU TRA VIÊN:** ~32% (Bóc tách nghiệp vụ truy vết CCTV và định vị xe ANPR, công nghệ phả hệ di truyền DNA GEDmatch, phán quyết tù chung thân toàn bộ).
-  - **CHUYÊN GIA TÂM LÝ:** ~26% (Bóc tách Bẫy quyền lực ép buộc Coercive Authority Bias, Thí nghiệm Milgram, Hội chứng God Complex, Phân đôi nhân cách Dr. Jekyll & Mr. Hyde, Cảnh báo đỏ).
-  - **NGƯỜI BÌNH THƯỜNG (N1/N2):** ~13% (Chu trình 3 giai đoạn: Tuyệt đối tuân phục ban đầu $\rightarrow$ Sốc tâm lý khi phù hiệu bị hoen ố $\rightarrow$ Thức tỉnh quyền công dân và kỹ năng tự bảo vệ).
+  - **HOST:** 72 câu (30,4%) — Mở màn khế ước xã hội, kết nối các hồi, câu hỏi nghiệp vụ, đúc kết tổng kết Chuyên đề 0 (10 tập).
+  - **ĐIỀU TRA VIÊN:** 79 câu (33,3%) — Bóc tách nghiệp vụ truy vết CCTV và định vị xe ANPR, vụ McDonald's Kent (2/2021), Báo cáo Casey Review (2023) & Angiolini Inquiry (2024), hướng dẫn xác minh 999 tại Anh, công nghệ phả hệ di truyền DNA GEDmatch (Paul Holes, Barbara Rae-Venter, Michelle McNamara), phán quyết tù chung thân toàn bộ.
+  - **CHUYÊN GIA TÂM LÝ:** 60 câu (25,3%) — Bóc tách Coercive Authority Bias, Thí nghiệm Milgram, The Blue Wall of Silence, God Complex, quỹ đạo leo thang lệch chuẩn, Dr. Jekyll & Mr. Hyde, Hiệu ứng sụp đổ niềm tin công chúng & Cảnh báo đỏ.
+  - **NGƯỜI BÌNH THƯỜNG (N1/N2):** 26 câu (11,0%) — Chu trình 3 giai đoạn: Tuyệt đối tuân phục ban đầu $\rightarrow$ Sốc tâm lý khi phù hiệu bị hoen ố $\rightarrow$ Thức tỉnh quyền công dân và kỹ năng tự bảo vệ.
 
 ---
 
@@ -25,6 +25,8 @@
 | **Joseph James DeAngelo (GSK)** | Sinh năm 1945, cựu quân nhân Hải quân, tốt nghiệp tư pháp hình sự, cựu cảnh sát tuần tra tại Sở Cảnh sát Exeter và Auburn (California). Sát hại 13 người, tấn công hơn 50 người (1974–1986). | - Báo cáo FBI & Sở Tư pháp Bang California (California DOJ).<br>- Sách chuyên khảo *I'll Be Gone in the Dark* (Michelle McNamara). | **Chính xác 100%**. Bị sa thải năm 1979 vì trộm búa và bình xịt chó. |
 | **Đột phá Phả hệ học Di truyền DNA** | Điều tra viên Paul Holes dùng mẫu ADN hiện trường 1980 tải lên GEDmatch, dựng cây phả hệ 5 thế hệ, tìm ra DeAngelo tại Citrus Heights. Lấy mẫu ADN đối chiếu từ tay nắm cửa xe và khăn giấy. | - Ventura County DA & Sacramento County DA.<br>- Thông cáo báo chí chính thức bắt giữ Golden State Killer (April 2018). | **Chính xác 100%**. |
 | **Bản án DeAngelo** | Tuyên án tháng 8/2020 tại Đại học Sacramento State: 11 án tù chung thân liên tiếp không ân xá + 8 năm tù giam (Thẩm phán Michael Bowman). Thụ án tại Corcoran State Prison. | - Bản án Tòa án Thượng thẩm Bang California tại Sacramento (August 2020). | **Chính xác 100%**. |
+| **Thanh tra độc lập Anh quốc (Casey Review 2023 & Angiolini Inquiry 2024)** | Vụ phơi bày khiêu dâm tại McDonald's Swanley, Kent (2/2021) nối tiếp cáo buộc 2015 bị bỏ lọt do thiếu liên thông cảnh báo. Casey Review (3/2023) & Angiolini Inquiry Phần 1 (29/2/2024) kết luận Couzens đáng lẽ không bao giờ vượt qua vòng thẩm tra lý lịch. Met Police ban hành hướng dẫn gọi 999 xác minh. | - Independent Office for Police Conduct (IOPC).<br>- Angiolini Inquiry Part 1 Report (Feb 29, 2024).<br>- Baroness Louise Casey Review (March 2023). | **Chính xác 100%**. |
+| **Đóng góp của Michelle McNamara & Barbara Rae-Venter** | Nhà báo điều tra Michelle McNamara đặt tên "Golden State Killer", tác giả *I'll Be Gone in the Dark* (mất 2016, sách xuất bản 2018). Nhà phả hệ học di truyền Barbara Rae-Venter phối hợp Paul Holes dựng cây phả hệ từ GEDmatch. Công nghệ IGG sau đó giúp phá hàng trăm vụ án tồn đọng. | - Newsweek, Marie Claire, Wikipedia, Sacramento County DA. | **Chính xác 100%**. |
 
 ---
 

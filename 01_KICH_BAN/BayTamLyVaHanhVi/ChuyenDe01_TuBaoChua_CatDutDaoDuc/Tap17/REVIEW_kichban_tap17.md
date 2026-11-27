@@ -8,7 +8,7 @@
 - **Đường dẫn kịch bản:** `01_KICH_BAN/BayTamLyVaHanhVi/ChuyenDe01_TuBaoChua_CatDutDaoDuc/Tap17/kichban_tap17.md`
 - **Công cụ kiểm tra:** `.work/parse_kichban.py`
 - **Tổng số Elements:** 34 elements
-- **Tổng số câu thoại thực tế:** 200 câu (Đạt chuẩn kênh $\ge 200$ câu)
+- **Tổng số dòng thoại / câu thoại:** ~230+ dòng thoại (~240 câu tách theo dấu kết câu; đã hiệu đính tên không dấu chấm theo K9 và bổ sung dữ kiện thực tế từ nguồn công khai).
 - **Cấu trúc:** Đủ 5 Hồi chuẩn hóa theo Tiêu chuẩn A2c & K10.
 - **Phân bổ nhân vật (4 Tầng nhận thức — 5 Vai):**
   - `HOST`: Dẫn dắt dòng chảy tâm lý, mở đầu nghịch lý lòng trung thành bị thao túng, chuyển tiếp 5 hồi, tổng kết triết lý sống độc lập tự chủ (~50 câu).

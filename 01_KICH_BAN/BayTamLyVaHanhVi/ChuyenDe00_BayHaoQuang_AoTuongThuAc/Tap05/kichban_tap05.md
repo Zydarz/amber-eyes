@@ -72,7 +72,11 @@ Và kẻ đã biến chiến thuật tâm lý tàn độc này thành một ngh�
 **HOST** *(Tiếp nối nhịp kịch tính, mở ra hồ sơ án)*:
 Một sinh viên luật điển trai, ăn nói duyên dáng và có tương lai chính trị xán lạn.
 Một người đàn ông đã dùng một dải băng vải treo cánh tay giả gãy và một đôi nạng gỗ để biến một công viên đông đúc hàng nghìn người thành nơi săn lùng những thiếu nữ xinh đẹp giữa ban ngày ban mặt.
+Trong bối cảnh xã hội Mỹ thập niên 1970, khi người trẻ vẫn còn giữ thói quen tin tưởng vào vẻ ngoài tri thức và sự tử tế nơi công cộng, vỏ bọc của hắn gần như hoàn hảo tuyệt đối.
+Không ai có thể ngờ rằng đằng sau nụ cười thân thiện và dáng vẻ cần giúp đỡ kia lại là một kẻ săn mồi đang tính toán từng bước đi.
 Chiếc xe Volkswagen nhỏ bé của hắn đã trở thành một nhà tù di động gieo rắc nỗi kinh hoàng trên khắp các tiểu bang miền Tây nước Mỹ.
+Sự việc này cũng cho thấy một nghịch lý đáng sợ: càng ở nơi đông người, chúng ta càng dễ chủ quan vì tin rằng đám đông sẽ bảo vệ mình.
+Nhưng thực tế, chính sự ồn ào và náo nhiệt của đám đông lại giúp kẻ thủ ác dễ dàng hòa lẫn và che giấu hành vi phạm tội.
 Chúng ta hãy cùng Điều tra viên lật mở hồ sơ về một trong những ngày đen tối nhất tại Công viên Tiểu bang Lake Sammamish.
 
 ---
@@ -129,7 +133,12 @@ Nạn nhân bước theo hắn không phải vì sợ hãi, mà vì họ cảm t
 Sự ngạo mạn đó khiến hắn liên tục lặp lại thủ đoạn này tại nhiều tiểu bang khác nhau mà không hề run sợ.
 
 **ĐIỀU TRA VIÊN** *(Tiếp tục hồ sơ nghiệp vụ phá án)*:
-Cảnh sát bang Washington sau đó đã phỏng vấn hàng trăm nhân chứng và phác thảo được chân dung của một người đàn ông mang đai treo tay tên là Ted lái xe Volkswagen Beetle.
+Thực tế, trong suốt buổi chiều ngày 14 tháng 7 năm 1974, Janice Ott và Denise Naslund không phải là những người duy nhất được gã đàn ông tên Ted tiếp cận.
+Hồ sơ điều tra ghi nhận hắn đã thử áp dụng cùng một kịch bản chiếc thuyền buồm với nhiều phụ nữ trẻ khác tại công viên Lake Sammamish.
+Tuy nhiên, một số phụ nữ đã từ chối lời nhờ vả vì cảm thấy có điều gì đó bất ổn hoặc đơn giản là không tiện đi cùng người lạ.
+Thậm chí, có một nhân chứng đã đi bộ cùng hắn ra tận bãi đỗ xe, nhưng khi nhìn thấy không hề có chiếc thuyền buồm nào ở đó, cô lập tức sinh nghi và quay lưng bỏ đi ngay lập tức.
+Chính những nhân chứng may mắn từ chối và sống sót này sau đó đã dũng cảm trình báo với cảnh sát về người đàn ông đeo đai treo tay tên Ted.
+Cảnh sát bang Washington đã phỏng vấn hàng trăm nhân chứng và phác thảo được chân dung của nghi phạm lái xe Volkswagen Beetle màu đồng.
 Tuy nhiên, vì hình ảnh kẻ thủ ác quá đỗi lịch lãm và bình thường, cảnh sát ban đầu đã loại bỏ hàng nghìn cái tên khả nghi, trong đó có cả Ted Bundy, người khi đó đang là trợ lý chiến dịch tranh cử của Đảng Cộng hòa và là sinh viên tâm lý học danh giá.
 Bundy tiếp tục di chuyển sang bang Utah để tiếp tục chuỗi tội ác của mình.
 Hắn tin rằng sự tinh vi của mình sẽ mãi mãi qua mặt được các cơ quan chức năng.
@@ -157,8 +166,11 @@ Chúng ta hãy lắng nghe sự bàng hoàng từ một người phụ nữ đ�
 Khi nghe những phân tích này, tôi thực sự nhận ra mình đã từng rơi vào những tình huống tương tự mà không hề hay biết.
 Đôi khi ở bãi đỗ xe hoặc trạm xăng ban đêm, có những người lạ đột nhiên xuất hiện, nhiệt tình chỉ cho tôi rằng lốp xe của tôi dường như bị non hơi hoặc đèn xe bị hỏng.
 Họ xông xáo cúi xuống kiểm tra hộ, rồi chủ động đề nghị chở tôi đến một gara quen gần đó để sửa chữa.
+Thậm chí có người còn nói những câu như: Chúng ta cùng gặp rắc rối với xe cộ rồi, để tôi giúp cô một tay cho nhanh.
 Lúc đó, một phần trong tôi cảm thấy rất ngại ngùng vì người ta đã mất công giúp mình nhiệt tình như vậy, nếu mình từ chối thẳng thừng thì có vẻ bất lịch sự và phụ lòng tốt của họ.
 Tôi sợ bị người ta đánh giá là kiêu kỳ hoặc thiếu tôn trọng người khác.
+Tôi cũng từng gặp những người lạ cố tình tỏ ra rất thân thiện, kể lể hàng loạt chi tiết về gia đình hay công việc của họ để tạo cảm giác gần gũi.
+Khi tôi tỏ ý muốn tự giải quyết, họ lại tỏ vẻ tự ái hoặc nói những câu khiêu khích nhẹ khiến tôi cảm thấy mình thật nhỏ nhen.
 Nhưng một phần trực giác bên trong lại cảm thấy có điều gì đó rất bất an và vội vã bất thường.
 Làm sao chúng ta có thể phân biệt được đâu là một người tốt thực lòng muốn giúp đỡ, và đâu là một kẻ đang cố tình giăng bẫy sự cả nể của chúng ta?
 Làm thế nào để từ chối một sự giúp đỡ mà không cảm thấy tội lỗi hay xấu hổ?
@@ -168,12 +180,17 @@ Làm thế nào để từ chối một sự giúp đỡ mà không cảm thấy
 Nỗi sợ bị xem là bất lịch sự chính là đồng minh đắc lực nhất của những kẻ săn mồi.
 Chuyên gia an ninh hàng đầu thế giới Gavin de Becker trong tác phẩm kinh điển Món quà của sự sợ hãi, tức The Gift of Fear, đã đúc kết một chân lý sâu sắc:
 Sự tử tế và lịch thiệp bề ngoài thường là một chiến lược hành vi, chứ không nhất thiết là một phẩm chất đạo đức.
-De Becker đã chỉ ra hai kỹ thuật thao túng tâm lý cực kỳ phổ biến được gọi là các Tiền chỉ dấu nguy hiểm, hay Pre-Incident Indicators:
+De Becker đã chỉ ra bảy kỹ thuật thao túng tâm lý cực kỳ phổ biến được gọi là các Tiền chỉ dấu nguy hiểm, hay Pre-Incident Indicators:
 Kỹ thuật thứ nhất là Ép buộc kết bạn, hay Forced Teaming. Kẻ thao túng sử dụng các đại từ như chúng ta, hai đứa mình để tạo ra một ảo tưởng về sự đồng cảnh ngộ (ví dụ: Chúng ta cùng bị kẹt xe rồi, để tôi giúp bạn).
 Nó ép nạn nhân phải chấp nhận một mối quan hệ đối tác giả tạo mà nạn nhân chưa từng yêu cầu.
 Kỹ thuật thứ hai là Ban ơn ép buộc, hay Loan Sharking. Kẻ săn mồi tự nguyện giúp đỡ bạn một việc nhỏ mà bạn không hề nhờ vả (như xách đồ, kiểm tra xe), nhằm tạo ra một món nợ tâm lý vô hình.
 Bộ não con người vốn được lập trình để trả ơn.
 Khi kẻ thao túng yêu cầu bạn làm theo một chỉ dẫn tiếp theo, bạn sẽ cảm thấy rất khó từ chối vì cảm giác mang ơn.
+Kỹ thuật thứ ba là Sự duyên dáng có chủ đích, hay Charm and Niceness. Sự lịch thiệp quá mức và nụ cười thân thiện ở đây không phải là phẩm chất đạo đức, mà là công cụ gây mê cảnh giác.
+Kỹ thuật thứ tư là Giải thích thừa thãi, hay Too Many Details. Kẻ nói dối thường vô thức cung cấp hàng loạt chi tiết vụn vặt không cần thiết để câu chuyện bịa đặt nghe có vẻ đáng tin hơn.
+Kỹ thuật thứ năm là Gắn nhãn khiêu khích, hay Typecasting. Kẻ thao túng đưa ra một lời chê trách nhẹ (như: Chắc cô kiêu kỳ lắm nên mới không thèm nói chuyện với người như tôi) để kích thích nạn nhân tương tác nhằm chứng minh điều ngược lại.
+Kỹ thuật thứ sáu là Lời hứa không được yêu cầu, hay Unsolicited Promise. Khi một người lạ đột ngột nói Tôi hứa sẽ không làm hại bạn đâu, đó thường là dấu hiệu cảnh báo ngược lại hoàn toàn.
+Và kỹ thuật thứ bảy nguy hiểm nhất là Phớt lờ chữ Không, hay Discounting the Word No. Kẻ săn mồi từ chối chấp nhận ranh giới ban đầu của bạn để thăm dò xem bạn có dễ dàng khuất phục trước sự kiểm soát hay không.
 Và minh chứng rõ ràng nhất cho việc bẻ gãy các kỹ thuật thao túng này chính là vụ thoát hiểm ngoạn mục của cô gái Carol DaRonch trước chính Ted Bundy.
 
 **HOST** *(Mở rộng sang vụ án Carol DaRonch tại Utah)*:
@@ -210,9 +227,11 @@ Bundy rút ra một thanh xà beng đe dọa sẽ đập vỡ đầu cô nếu c
 Hắn dùng toàn bộ thể lực của một người đàn ông to khỏe để đè bẹp sự kháng cự của cô gái trẻ.
 Nhưng Carol đã không chấp nhận làm một con mồi ngoan ngoãn.
 Cô lăn mình ra khỏi chiếc xe đang chạy chậm, rơi xuống mặt đường nhựa lạnh buốt với một chiếc còng số tám vẫn còn lủng lẳng trên cổ tay.
-Bundy hoảng loạn đuổi theo, nhưng Carol đã kịp thời vẫy được một chiếc xe ô tô của một cặp vợ chồng đi ngang qua để cầu cứu.
+Bundy hoảng loạn đuổi theo, nhưng Carol đã kịp thời vẫy được chiếc xe ô tô của cặp vợ chồng Wilbur và Mary Walsh đi ngang qua để cầu cứu.
 Bundy buộc phải quay đầu xe tẩu thoát trong đêm tối.
 Carol DaRonch đã sống sót kỳ diệu, trở thành nhân chứng sống quý giá nhất trong toàn bộ cuộc đời tội ác của Ted Bundy.
+Tháng 8 năm 1975, khi lực lượng tuần tra đường cao tốc Utah dừng xe kiểm tra Ted Bundy và phát hiện dụng cụ đột nhập cùng mặt nạ trượt tuyết bên trong, mắt xích điều tra lập tức được kết nối.
+Tại buổi nhận diện của sở cảnh sát, Carol DaRonch đã không hề do dự chỉ thẳng vào Bundy và xác nhận hắn chính là kẻ tấn công mình.
 Lòng dũng cảm của cô đã chặn đứng chuỗi ngày săn mồi tự do của một con quái vật.
 
 **HOST** *(Dẫn dắt đến thời khắc đối đầu pháp lý)*:
@@ -233,7 +252,12 @@ Hắn nhận ra rằng hào quang trí thức và vẻ ngoài bóng bẩy không
 Ảo tưởng về sự miễn nhiễm pháp lý của hắn đã hoàn toàn tan vỡ trước tòa án nhân dân.
 
 **ĐIỀU TRA VIÊN** *(Mô tả bản án và sự sụp đổ cuối cùng của Bundy)*:
-Tháng 3 năm 1976, Ted Bundy bị tòa án bang Utah tuyên có tội bắt cóc tăng nặng đối với Carol DaRonch và bị tuyên phạt bản án một đến mười lăm năm tù giam.
+Tháng 2 năm 1976, Ted Bundy chính thức bước ra vành móng ngựa tại bang Utah trong phiên tòa xét xử vụ bắt cóc Carol DaRonch.
+Hắn tự tin đến mức chọn tự làm đồng luật sư bào chữa cho chính mình, tin rằng khả năng hùng biện sẽ giúp hắn thoát tội.
+Tuy nhiên, lời khai đanh thép và sự nhận diện chính xác tuyệt đối của Carol DaRonch đã bác bỏ hoàn toàn mọi lập luận ngụy biện của hắn.
+Ngày 1 tháng 3 năm 1976, thẩm phán tuyên bố Ted Bundy phạm tội bắt cóc tăng nặng đối với Carol DaRonch.
+Hắn bị tuyên phạt bản án từ một đến mười lăm năm tù giam tại Nhà tù Bang Utah.
+Đây chính là bản án hình sự đầu tiên trong cuộc đời của Ted Bundy, chính thức chấm dứt chuỗi ngày hắn tự do đi lại như một công dân mẫu mực.
 Bản án này chính là mắt xích quyết định mở đường cho các cơ quan điều tra tại Washington, Colorado và sau này là Florida liên kết các vụ án mạng hàng loạt lại với nhau.
 Dù Bundy sau đó đã hai lần vượt ngục táo tợn và tiếp tục gây ra những tội ác tày trời tại Florida, nhưng hắn cuối cùng đã bị bắt giữ lại và bị tuyên án tử hình trên ghế điện vào năm 1979.
 Trước khi bị thi hành án tử hình vào tháng 1 năm 1989 tại Nhà tù Bang Florida, Ted Bundy đã phải thú nhận đã sát hại hơn ba mươi phụ nữ trên khắp nước Mỹ.
@@ -274,14 +298,19 @@ Tôi sẽ không bao giờ để lòng tốt của mình bị lợi dụng như 
 Đó chính là sự thức tỉnh nhận thức mang tính giải phóng cho mỗi cá nhân.
 Học cách nói lời từ chối một cách dứt khoát và không cảm thấy tội lỗi chính là kỹ năng sinh tồn quan trọng bậc nhất trong xã hội hiện đại.
 Khi chúng ta biết thiết lập ranh giới an toàn, chúng ta mới thực sự có đủ năng lượng và sự bình an để giúp đỡ đúng những người thực sự cần được giúp đỡ.
+Lòng tốt chỉ thực sự có giá trị khi nó đi kèm với sự tỉnh táo và khả năng tự bảo vệ bản thân.
+Sự tử tế không đồng nghĩa với việc bạn phải giao nộp quyền kiểm soát sự an toàn của mình cho một người hoàn toàn xa lạ.
 Để giúp quý khán giả có thể tự tin bảo vệ bản thân trước những kẻ săn mồi đội lốt người yếu thế, Chuyên gia tâm lý và Điều tra viên sẽ đúc kết các dấu hiệu cảnh báo đỏ cốt lõi.
 
 **CHUYÊN GIA TÂM LÝ** *(Đưa ra 3 cảnh báo đỏ tâm lý học)*:
 Dưới góc độ tâm lý học hành vi, có ba tín hiệu cảnh báo đỏ nguy hiểm mà bạn cần ghi nhớ khi gặp những tình huống xin giúp đỡ nơi công cộng:
 Thứ nhất là Sự bất đối xứng trong việc lựa chọn người giúp đỡ. Hãy tự hỏi tại sao một người lạ lại chọn nhờ vả một người có vóc dáng nhỏ bé, yếu thế hơn họ thay vì nhờ những người đàn ông to khỏe hoặc lực lượng bảo vệ đang đứng gần đó. Đó là dấu hiệu rõ ràng của việc chọn mồi có chủ đích.
 Thứ hai là Yêu cầu di chuyển vào không gian kín hoặc không gian chuyển tiếp. Bất kỳ yêu cầu nào đòi hỏi bạn phải bước vào xe ô tô, góc khuất, chân cầu thang hay con hẻm vắng để giúp đỡ đều là cạm bẫy cực kỳ nguy hiểm.
+Một người thực sự cần sự giúp đỡ sẽ luôn muốn sự việc diễn ra ở nơi sáng sủa, đông người qua lại để đảm bảo an toàn cho cả hai bên.
 Thứ ba là Phản ứng khó chịu hoặc thúc ép dồn dập khi bị từ chối. Một người thực sự lương thiện sẽ luôn tôn trọng lời từ chối của bạn và tìm kiếm sự giúp đỡ khác. Kẻ săn mồi sẽ lập tức tỏ thái độ phật ý, mỉa mai hoặc cố gắng dùng cảm giác tội lỗi để ép bạn phải đổi ý.
+Chúng cũng có thể liên tục đưa ra những lời hứa hẹn không được yêu cầu để xoa dịu sự nghi ngờ của bạn.
 Khi nhận thấy một trong ba dấu hiệu này, hãy lập tức lùi lại và thoát khỏi không gian đó ngay lập tức.
+Đừng bao giờ để nỗi sợ bị đánh giá là bất lịch sự lấn át tiếng chuông cảnh báo của trực giác.
 
 **ĐIỀU TRA VIÊN** *(Đưa ra 2 nguyên tắc phòng vệ nghiệp vụ thực chiến)*:
 Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng mà mỗi người cần thực hành ngay hôm nay là:
@@ -297,6 +326,8 @@ Nhưng hãy giữ cho ngọn lửa ấy được bảo bọc bởi chiếc đèn
 Đừng bao giờ để lòng tốt của bạn trở thành vũ khí để kẻ xấu quay lại làm tổn thương chính bạn và những người thân yêu.
 Sự an toàn của bạn bắt đầu từ chính khoảnh khắc bạn dám tin vào trực giác của mình và dũng cảm nói lời từ chối trước cái ác.
 Một xã hội văn minh không phải là một xã hội ngây thơ, mà là một xã hội biết bảo vệ những giá trị nhân văn bằng sự sáng suốt và dũng cảm.
+Hãy nhớ rằng, sự lịch thiệp chỉ dành cho những người tôn trọng ranh giới của bạn.
+Còn đối với những kẻ cố tình bước qua ranh giới an toàn, sự dứt khoát chính là lá chắn vững chắc nhất.
 Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập hồ sơ tài liệu tâm lý học tội phạm hôm nay.
 Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video đến những người phụ nữ, những người trẻ thân yêu để cùng nhau trang bị những khiên chắn sinh tồn vững chắc trong cuộc sống.
 Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những tập phim phân tích chuyên sâu tiếp theo.

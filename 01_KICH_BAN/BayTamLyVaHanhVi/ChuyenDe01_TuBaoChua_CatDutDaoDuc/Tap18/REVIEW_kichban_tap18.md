@@ -8,7 +8,7 @@
 - **Đường dẫn kịch bản:** `01_KICH_BAN/BayTamLyVaHanhVi/ChuyenDe01_TuBaoChua_CatDutDaoDuc/Tap18/kichban_tap18.md`
 - **Công cụ kiểm tra:** `.work/parse_kichban.py`
 - **Tổng số Elements:** 34 elements
-- **Tổng số câu thoại thực tế:** 200 câu (Đạt chuẩn kênh $\ge 200$ câu)
+- **Tổng số câu thoại thực tế:** ~212 dòng thoại (~221 câu tách theo dấu kết câu; đã bổ sung dữ kiện thực tế từ nguồn công khai).
 - **Cấu trúc:** Đủ 5 Hồi chuẩn hóa theo Tiêu chuẩn A2c & K10.
 - **Phân bổ nhân vật (4 Tầng nhận thức — 5 Vai):**
   - `HOST`: Mở đầu nghịch lý phục tùng quan liêu, chuyển tiếp 5 hồi, tổng kết triết lý sống trách nhiệm cá nhân (~53 câu).

@@ -8,7 +8,7 @@
 
 ## I. TỔNG QUAN ĐO LƯỜNG THỰC TẾ (TUÂN THỦ L3)
 - **Số phần tử kịch bản (Elements):** 34 elements (Phân bổ chuẩn mực xuyên suốt 5 Hồi).
-- **Tổng số câu thoại thực tế:** **201 câu** (Đo lường bằng công cụ tự động `.work/parse_kichban.py`).
+- **Tổng số câu thoại thực tế:** **~220+ câu** (Đo lường bằng công cụ tự động; đã bổ sung dữ kiện thực tế từ nguồn công khai).
 - **Phân bổ cấu trúc 5 Hồi:**
   - **Hồi 1 (Khơi gợi & Thức tỉnh nhận thức đời thường):** 28 câu (Dẫn dắt tâm lý so sánh tương đối thường ngày của N1/N2 đến cơ chế tâm lý tội phạm học).
   - **Hồi 2 (Vụ án 1 - Carl Panzram):** 46 câu (Hồ sơ ngục Leavenworth, lời tự thú trong hồi ký và sự so sánh tội ác cá nhân với chiến tranh thế giới thứ nhất).

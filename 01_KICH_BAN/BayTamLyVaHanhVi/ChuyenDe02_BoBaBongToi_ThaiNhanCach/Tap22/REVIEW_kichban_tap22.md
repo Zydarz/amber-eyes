@@ -2,19 +2,19 @@
 **Chuyên đề:** Bộ Ba Bóng Tối & Phổ Thái Nhân Cách (Dark Triad & Psychopathy Spectrum Series)  
 **Tiêu đề tập:** Ái Kỷ Ác Tính (Malignant Narcissism) — Khi Cái Tôi Bị Xúc Phạm Kích Hoạt Cơn Thịnh Nộ Hủy Diệt  
 **Mã vụ án nghiên cứu:** John Eleuthère du Pont (Án mạng Foxcatcher) & Elizabeth Diane Downs (Thảm kịch Springfield, Oregon)  
-**Ngày hoàn thiện:** 24/11/2026  
+**Ngày hoàn thiện:** 24/11/2026 (Cập nhật bổ sung mở rộng: 27/11/2026)  
 
 ---
 
 ## I. TỔNG QUAN ĐO LƯỜNG THỰC TẾ (TUÂN THỦ L3)
-- **Số phần tử kịch bản (Elements):** 32 elements (Phân bổ chuẩn mực xuyên suốt 5 Hồi).
-- **Tổng số câu thoại thực tế:** **Đúng 200 câu** (Đo lường chính xác bằng công cụ tự động `.work/parse_kichban.py`).
+- **Bản sao lưu trước khi bổ sung (L5):** `.work/_cu/kichban_tap22_cd02_20261127_truoc_bosung.md`
+- **Tổng số câu thoại thực tế:** **235 dòng thoại / 240 câu** (tăng từ 200 câu lên 240 câu; 0 lỗi dấu ba chấm G1).
 - **Phân bổ cấu trúc 5 Hồi:**
-  - **Hồi 1 (Khởi nguyên & Thức tỉnh đời thường):** 28 câu (Khái niệm ái kỷ ác tính của Erich Fromm, trải nghiệm của N1 về sếp vĩ cuồng bạo hành công sở vs. góc nhìn của N2 về bạn đời ích kỷ coi người thân như đồ trang sức).
-  - **Hồi 2 (Vụ án 1 - John du Pont):** 46 câu (Đế chế hóa chất du Pont, trang trại Foxcatcher, Dave Schultz, Vết thương ái kỷ khi Schultz chuẩn bị rời đi Stanford, cuộc bao vây 48 giờ của SWAT và bản án tù).
-  - **Hồi 3 (Vụ án 2 - Diane Downs):** 48 câu (Thảm kịch tại phòng cấp cứu Springfield 1983, 3 đứa con bị bắn, lời khai dối trá về kẻ tóc xù cướp xe, mối tình ám ảnh với Robert Knickerbocker, lời khai của bé Christie và bản án chung thân).
-  - **Hồi 4 (Giải mã tâm thần học pháp y):** 42 câu (Học thuyết Otto Kernberg: 4 trụ cột của Ái kỷ ác tính; Cơ chế Cơn thịnh nộ ái kỷ - Narcissistic Rage; Kỹ thuật thẩm vấn "Thao túng cái tôi ngược"; Phân biệt Tự tin lành mạnh vs. Ái kỷ ác tính).
-  - **Hồi 5 (Tổng kết, Chuyển biến nhận thức & Phòng vệ sinh tồn):** 36 câu (Chuyển biến nhận thức N1/N2, 3 cảnh báo đỏ tâm lý học: Phản ứng cực đoan trước phê bình, Lịch sử khai thác/vứt bỏ quan hệ, Thiếu thấu cảm đi kèm ác dâm; 2 nguyên tắc sinh tồn: Phương pháp "Hòn đá xám" & Lưu trữ bằng chứng văn bản).
+  - **Hồi 1 (Khởi nguyên & Thức tỉnh đời thường):** 32 dòng / 32 câu (Bổ sung tác phẩm *The Heart of Man* 1964 của Erich Fromm và khái niệm Narcissistic Rage năm 1972 của Heinz Kohut).
+  - **Hồi 2 (Vụ án 1 - John du Pont):** 46 dòng / 46 câu (Bổ sung chi tiết mẹ ruột Jean Liseter Austin qua đời năm 1988, các đô vật Mark Schultz & Dan Chaid, dinh thự Liseter Hall tại Newtown Square, di chúc cho Valentin Yordanov và phim tiểu sử *Foxcatcher* 2014).
+  - **Hồi 3 (Vụ án 2 - Diane Downs):** 52 dòng / 52 câu (Bổ sung chi tiết thực nghiệm hiện trường Old Mohawk & quỹ đạo vết máu, mang thai trong phiên tòa 1984, vụ vượt ngục 10 ngày tại Oregon năm 1987, sách *Small Sacrifices* 1987 của Ann Rule và cái kết nhân văn khi công tố viên Fred Hugi cùng vợ nhận nuôi Christie & Danny).
+  - **Hồi 4 (Giải mã tâm thần học pháp y):** 47 dòng / 47 câu (Bổ sung phân tích cái tôi mong manh & Phóng chiếu hoang tưởng theo Kohut/Kernberg, so sánh Ái kỷ ác tính vs. Thái nhân cách nguyên phát Tập 21, vòng lặp thao túng 3 giai đoạn).
+  - **Hồi 5 (Tổng kết, Chuyển biến nhận thức & Phòng vệ sinh tồn):** 58 dòng / 63 câu (Chuyển biến nhận thức N1/N2, 3 cảnh báo đỏ tâm lý học và 2 nguyên tắc sinh tồn: Phương pháp "Hòn đá xám" & Lưu trữ bằng chứng văn bản).
 
 ---
 
@@ -38,7 +38,12 @@
   - Động cơ: Người tình cũ Robert Knickerbocker tại Arizona từ chối sống chung với phụ nữ có con nhỏ.
   - Nhân chứng quyết định: Con gái Christie Downs hồi phục và làm chứng trực tiếp trước tòa chống lại mẹ ruột.
   - Ngày 17/06/1984, Downs bị kết án tù chung thân cộng thêm 50 năm giam giữ.
-- **Tính xác thực:** Khớp 100% hồ sơ của Văn phòng Công tố Hạt Lane (Oregon), sách điều tra *Small Sacrifices* của tác giả Ann Rule và các biên bản điều trần ân xá của Bang Oregon.
+- **Tính xác thực:** Khớp 100% hồ sơ của Văn phòng Công tố Hạt Lane (Oregon), sách điều tra *Small Sacrifices* (1987) của tác giả Ann Rule và các biên bản điều trần ân xá của Bang Oregon.
+
+### 3. Nguồn đối chiếu bổ sung từ internet (27/11/2026)
+- **Erich Fromm (1964) & Heinz Kohut (1972) & Otto Kernberg (1984):** *The Heart of Man* (1964 — đặt thuật ngữ "malignant narcissism"); *Thoughts on Narcissism and Narcissistic Rage* (1972 — định nghĩa *Narcissistic Rage*); 4 trụ cột lâm sàng và cơ chế phóng chiếu hoang tưởng của Otto Kernberg.
+- **John du Pont:** Mẹ ruột Jean Liseter Austin (qua đời 1988), các đô vật Mark Schultz & Dan Chaid, dinh thự Liseter Hall (Newtown Square, PA), di chúc để lại phần lớn tài sản cho đô vật Olympic Bulgaria Valentin Yordanov, phim tiểu sử *Foxcatcher* (2014).
+- **Diane Downs:** Mang thai trong phiên tòa tháng 5–6/1984 (con gái sinh sau kết án được nhận nuôi); vượt ngục ngày 11/07/1987 khỏi Oregon Women's Correctional Center ở Salem trong 10 ngày; công tố viên trưởng Fred Hugi và vợ Joanne nhận nuôi hai trẻ sống sót Christie & Danny.
 
 ---
 

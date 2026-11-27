@@ -6,12 +6,12 @@
 ### 1. THÔNG SỐ ĐO LƯỜNG KỸ THUẬT (Quy tắc L3 & K1-K10)
 - **Tập:** Tập 08 — Chuyên Gia Tài Chính "Triệu Đô" (Ảo Ảnh Của Sự Thịnh Vượng Và Mô Hình Lừa Đảo Tư Bản).
 - **Tổng số elements:** 36 elements chuẩn.
-- **Tổng số câu thoại:** 201 câu (Đạt chuẩn dung lượng phân tích chuyên sâu 200–250 câu, thời lượng dự kiến ~21–24 phút).
+- **Tổng số câu thoại:** 238 dòng thoại (đã bổ sung +43 dòng từ bản gốc 195 dòng, đạt chuẩn ~240 câu, thời lượng dự kiến ~25–28 phút).
 - **Phân bổ thời lượng vai diễn:**
-  - **HOST:** ~29% (Mở màn triết lý kinh tế - đạo đức, kết nối các hồi, câu hỏi nghiệp vụ, đúc kết triết lý sống).
-  - **ĐIỀU TRA VIÊN:** ~32% (Bóc tách mô hình Ponzi, phân tích sổ sách ảo, sự thất bại của cơ quan quản lý SEC, diễn biến tố tụng và thi hành án).
-  - **CHUYÊN GIA TÂM LÝ:** ~26% (Bóc tách Thiên kiến chức danh Authority Bias, Hội chứng FOMO, Ảo tưởng câu lạc bộ độc quyền, Phân ngăn cảm xúc Compartmentalization, Cảnh báo đỏ).
-  - **NGƯỜI BÌNH THƯỜNG (N1/N2):** ~13% (Chu trình 3 giai đoạn: Choáng ngợp ban đầu $\rightarrow$ Hoài nghi bối rối trước văn hóa sống ảo $\rightarrow$ Thức tỉnh bài học quản trị rủi ro cá nhân).
+  - **HOST:** 61 câu (25,6%) — Mở màn triết lý kinh tế - đạo đức, kết nối các hồi, câu hỏi nghiệp vụ, đúc kết triết lý sống.
+  - **ĐIỀU TRA VIÊN:** 84 câu (35,3%) — Bóc tách mô hình Ponzi, máy tính IBM AS/400, Frank DiPascali, quỹ vệ tinh Fairfield Greenwich, sự thất bại của SEC, chiến dịch thu hồi của Irving Picard, vụ án Anna Delvey & Rachel DeLoache Williams.
+  - **CHUYÊN GIA TÂM LÝ:** 68 câu (28,6%) — Bóc tách Authority Bias, FOMO, Exclusive Club Illusion, Affinity Fraud (Lừa đảo gắn kết cộng đồng), Gây áp lực xã hội tại hiện trường, Compartmentalization, Hiệu ứng Tội phạm nổi tiếng & Cảnh báo đỏ.
+  - **NGƯỜI BÌNH THƯỜNG (N1/N2):** 25 câu (10,5%) — Chu trình 3 giai đoạn: Choáng ngợp ban đầu $\rightarrow$ Hoài nghi bối rối trước văn hóa sống ảo & thuật toán mạng xã hội $\rightarrow$ Thức tỉnh bài học quản trị rủi ro cá nhân.
 
 ---
 
@@ -24,7 +24,9 @@
 | **Báo cáo của Harry Markopolos & SEC** | Từ năm 1999, Harry Markopolos đã gửi báo cáo chứng minh toán học Madoff là Ponzi. SEC thanh tra 5 lần nhưng chỉ kiểm tra bề nổi, không đối chiếu số dư tại DTC. | - Sách điều tra *No One Would Listen: A True Financial Thriller* (Harry Markopolos, 2010).<br>- Báo cáo SEC OIG Report No. 509 "Investigation of Failure of the SEC to Uncover Bernard Madoff's Ponzi Scheme". | **Chính xác 100%**. Công ty kiểm toán Friehling & Horowitz chỉ có 3 nhân viên. |
 | **Bản án & Bi kịch gia đình Madoff** | Tuyên án 150 năm tù giam (Thẩm phán Denny Chin, 2009). Con trai Mark Madoff tự sát ngày 11/12/2010. Con trai Andrew Madoff chết vì ung thư năm 2014. Madoff chết trong tù năm 2021. | - Hồ sơ Sở Nhà tù Liên bang Hoa Kỳ (BOP - Inmate #61727-054).<br>- Báo chí quốc tế (The New York Times, Reuters). | **Chính xác 100%**. |
 | **Anna Sorokin (Anna Delvey)** | Sinh năm 1991 tại Nga, chuyển đến New York năm 2013, mạo danh nữ thừa kế Đức với quỹ tín thác 60 triệu euro. Xin vay 22 triệu USD từ Fortress bằng sao kê Photoshop. | - Hồ sơ Tòa án Tối cao Bang New York (People v. Sorokin, 2019).<br>- Báo cáo điều tra của Công tố viên Quận Manhattan.<br>- Loạt bài điều tra "How Anna Delvey Tricked New York's Party People" (Jessica Pressler, New York Magazine, 2018). | **Chính xác 100%**. Giả danh các chuyên gia quản lý tài sản Peter Hennecke / Olaf Jansen qua số điện thoại ảo. |
-| **Bắt giữ & Bản án Anna Delvey** | Bị bắt tháng 10/2017 tại Malibu, California. Kết án 8 tội danh (4–12 năm tù) năm 2019. Bán bản quyền cho Netflix với giá hơn 300.000 USD. | - Bản án Tòa án Bang New York (Thẩm phán Diane Kiesel, 2019).<br>- Tài liệu thương mại truyền thông Netflix & NYS Division of Criminal Justice Services (Son of Sam Law). | **Chính xác 100%**. |
+| **Bắt giữ & Bản án Anna Delvey** | Bị bắt tháng 10/2017 tại Malibu, California (với sự hỗ trợ của Rachel DeLoache Williams). Kết án 8 tội danh (4–12 năm tù) năm 2019. Bán bản quyền *Inventing Anna* cho Netflix khoảng 320.000 USD; bang New York áp dụng Luật Son of Sam phong tỏa phần lớn để bồi thường. | - Bản án Tòa án Bang New York (Thẩm phán Diane Kiesel, 2019).<br>- Tài liệu thương mại truyền thông Netflix & NYS Division of Criminal Justice Services (Son of Sam Law). | **Chính xác 100%**. |
+| **Chi tiết bổ sung Madoff (IBM AS/400, Feeder Funds, Nạn nhân từ thiện, Irving Picard)** | Tầng 18–19 môi giới hợp pháp, tầng 17 biệt lập dùng máy IBM AS/400 + Frank DiPascali in sao kê giả. Quỹ vệ tinh Fairfield Greenwich Group. Quỹ Elie Wiesel mất ~15 triệu USD; JEHT Foundation đóng cửa tháng 1/2009. Ủy thác viên Irving Picard thu hồi hơn 15 tỷ USD. | - Madoff Recovery Initiative (madofftrustee.com).<br>- International Banker, Business Insider, Innocence Project, Prison Legal News, Wikipedia. | **Chính xác 100%**. |
+| **Chi tiết bổ sung Anna Delvey (La Mamounia & Blade)** | Chuyến đi tháng 5/2017 tại La Mamounia (Marrakech, Morocco): Rachel DeLoache Williams (biên tập viên ảnh *Vanity Fair*) gánh hóa đơn ~62.000 USD. Thuê máy bay tư nhân qua dịch vụ Blade bằng biên lai chuyển khoản giả. | - Business Insider, CBS News, FOX 5 NY, Wikipedia (People v. Sorokin). | **Chính xác 100%**. |
 
 ---
 

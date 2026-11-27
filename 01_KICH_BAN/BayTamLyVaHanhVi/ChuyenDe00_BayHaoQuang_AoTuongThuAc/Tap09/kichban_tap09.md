@@ -55,10 +55,15 @@ Hắn khéo léo biến mình thành đồng minh duy nhất, thành ốc đảo
 Khi một đứa trẻ cảm thấy cô đơn và kiệt sức, bất kỳ một cử chỉ quan tâm, một chiếc kẹo hay một lời an ủi dịu dàng của người thầy y tế cũng trở thành một chiếc phao cứu sinh quý giá.
 Bằng cách đó, kẻ săn mồi đã làm tê liệt hoàn toàn hệ thống cảnh báo nguy hiểm tự nhiên của cả nạn nhân lẫn gia đình.
 Các bậc cha mẹ thậm chí còn cảm thấy may mắn vì con mình tìm được một người thầy tâm lý và tận tụy đến như vậy.
+Họ không chỉ đặt niềm tin vào một cá nhân đơn lẻ, mà còn tin vào cả bộ máy danh giá đứng sau lưng người đó: những liên đoàn thể thao quốc gia, những trường đại học trăm năm tuổi và những chiếc cúp vô địch chói lọi.
+Sự ủy thác lòng tin có hệ thống này tạo ra một ảo giác an toàn tuyệt đối, khiến mọi câu hỏi nghi vấn đều bị xem là sự thiếu tôn trọng đối với chuyên môn.
 Họ không thể ngờ rằng, đằng sau sự ân cần mẫu mực đó là một kế hoạch thao túng tâm lý được tính toán lạnh lùng đến từng bước.
 **HOST** *(Tiếp tục dẫn dắt sang phần bóc tách chuyên môn)*:
 Những băn khoăn và niềm tin của người mẹ cũng chính là tâm lý chung của hàng triệu phụ huynh trên toàn thế giới khi gửi gắm con em mình cho thể thao.
 Chúng ta luôn tin rằng chiếc áo blouse trắng và những tấm huy chương là tấm bảo chứng danh dự không thể bị vấy bẩn.
+Trong tâm trí của các bậc cha mẹ, việc nghi ngờ một chuyên gia y tế từng đồng hành cùng các nhà vô địch thế giới dường như là một điều vô lý, thậm chí là vô ơn.
+Họ sợ rằng chỉ một câu hỏi thiếu khéo léo có thể làm phật lòng người thầy, từ đó ảnh hưởng đến cơ hội thi đấu và tương lai thể thao của con mình.
+Chính nỗi sợ mất suất thi đấu ấy đã vô tình trở thành chiếc khóa miệng hữu hiệu nhất đối với cả gia đình lẫn vận động viên.
 Thế nhưng, chính niềm tin tuyệt đối ấy lại là mảnh đất màu mỡ nhất để kẻ săn mồi gieo rắc sự tha hóa.
 Để hiểu rõ quá trình thao túng tâm lý tinh vi kéo dài hàng thập kỷ này, chúng ta cần sự phân tích chuyên sâu từ khoa học tâm lý hành vi.
 
@@ -73,6 +78,9 @@ Giai đoạn thứ ba là Từng bước bình thường hóa hành vi tiếp x�
 Chúng khiến đứa trẻ tin rằng cảm giác đau đớn hay khó chịu của mình chỉ là do sự thiếu hiểu biết về y học thể thao chuyên nghiệp.
 Giai đoạn thứ tư là Thiết lập sự đồng lõa và ép buộc giữ im lặng: Chúng cô lập nhận thức của nạn nhân bằng những lời rỉ tai đường mật: Đây là phương pháp điều trị bí mật chỉ dành riêng cho những nhà vô địch Olympic tương lai, không được kể cho cha mẹ hay đồng đội vì họ sẽ ghen tị hoặc không hiểu chuyên môn.
 Đứa trẻ khi đó rơi vào trạng thái Rối loạn bất hòa nhận thức nghiêm trọng: Chúng vừa cảm thấy biết ơn vì được bác sĩ chăm sóc đặc biệt, vừa cảm thấy ghê sợ, nhục nhã và tội lỗi mà không dám cất lên lời nói với bất kỳ ai.
+Điều đáng sợ hơn nữa là những kẻ săn mồi đỉnh cao không chỉ thao túng đứa trẻ, mà còn thực hiện quy trình Thao túng cả hệ thống, tức Institutional Grooming.
+Chúng dành nhiều năm xây dựng hình ảnh người đồng nghiệp hoàn hảo, luôn sẵn sàng làm việc không công, tận tụy với ban lãnh đạo và hào phóng với phụ huynh.
+Khi cả tập thể đều tin rằng hắn là người tốt bụng nhất thế giới, thì bất kỳ lời tố cáo nào từ một đứa trẻ cũng sẽ lập tức bị phủ nhận và coi là sự hiểu lầm hoặc vu khống.
 Và hiện thân kinh hoàng nhất của quy trình thao túng độc hại này trong lịch sử thể thao thế giới chính là đại án Larry Nassar tại Mỹ.
 
 **HOST** *(Mở ra hồ sơ vụ án chấn động)*:
@@ -105,6 +113,7 @@ Hơn năm trăm vận động viên nữ đã chính thức nộp đơn tố cá
 Năm trăm nạn nhân, ba mươi năm hoạt động công khai ngay trong các cơ quan thể thao và giáo dục lớn nhất nước Mỹ.
 Tại sao những lá đơn khiếu nại đầu tiên của các vận động viên từ những năm một nghìn chín trăm chín mươi bảy lại biến mất không dấu vết?
 Tại sao ban giám hiệu trường đại học và ban lãnh đạo Liên đoàn Thể dục dụng cụ lại chọn cách làm ngơ trước tiếng kêu cứu của các em?
+Và điều gì đã xảy ra khi ngay cả những cơ quan thực thi pháp luật liên bang quyền lực nhất cũng trì hoãn việc bảo vệ những đứa trẻ vô tội?
 Hệ thống thể chế đã thất bại như thế nào trước một kẻ săn mồi đội lốt thầy thuốc?
 
 **ĐIỀU TRA VIÊN** *(Bóc tách thủ đoạn MO nghiệp vụ và sự phản bội của thể chế)*:
@@ -121,7 +130,15 @@ Thế nhưng, câu trả lời mà họ nhận được luôn là sự gạt b�
 Các nhà quản lý thể thao lo sợ rằng việc công khai bê bối tình dục của bác sĩ đội tuyển sẽ làm mất đi các hợp đồng tài trợ triệu đô từ các tập đoàn lớn, làm sụp đổ hình ảnh trong sạch của đội tuyển Olympic Mỹ trước công chúng.
 Họ đã chọn cách bảo vệ thương hiệu thể thao và chiếc ghế quyền lực của mình thay vì bảo vệ thân thể và tâm hồn của những đứa trẻ vô tội.
 Họ âm thầm chuyển giao các lá đơn khiếu nại vào ngăn kéo bảo mật, đe dọa các nạn nhân không được tiết lộ ra ngoài nếu không muốn bị gạch tên khỏi danh sách thi đấu quốc tế.
-Thậm chí, khi cựu Chủ tịch USAG Steve Penny nhận được thông tin tố cáo chính thức vào năm 2015, ông ta đã trì hoãn báo cáo cho FBI suốt nhiều tuần và bí mật tiêu hủy các tài liệu điều tra nội bộ tại trại huấn luyện Texas.
+Thậm chí, khi cựu Chủ tịch USAG Steve Penny nhận được thông tin tố cáo chính thức vào mùa hè năm 2015 từ nữ vận động viên đội tuyển quốc gia Maggie Nichols, người sau này được biết đến với mật danh Vận động viên A, cùng huấn luyện viên của cô, ông ta đã trì hoãn báo cáo suốt nhiều tuần và bí mật tiêu hủy các tài liệu điều tra nội bộ tại trại huấn luyện Texas.
+Nhưng sự phản bội thể chế chưa dừng lại ở đó: ngay cả khi báo cáo cuối cùng được chuyển tới Văn phòng Cục Điều tra Liên bang FBI tại Indianapolis vào tháng 7 năm 2015, các đặc vụ phụ trách tại đây đã phạm phải những sai lầm không thể dung thứ.
+Họ không tiến hành điều tra kịp thời, không thông báo cho cơ quan chức năng bang Michigan, thậm chí còn làm sai lệch hồ sơ và bỏ mặc vụ án suốt hơn một năm trời.
+Sự tắc trách nghiêm trọng đó đã để cho Larry Nassar tiếp tục tự do hành nghề và xâm hại thêm hàng chục vận động viên trẻ tuổi khác trước khi báo chí vào cuộc vào năm 2016.
+Năm 2021, Văn phòng Tổng Thanh tra Bộ Tư pháp Hoa Kỳ đã công bố báo cáo điều tra phơi bày toàn bộ sự thất bại hệ thống này, dẫn tới phiên điều trần đầy nước mắt trước Thượng viện Mỹ của Simone Biles, McKayla Maroney, Aly Raisman và Maggie Nichols.
+Cái giá mà các thể chế phải trả cho sự dung túng kéo dài hàng thập kỷ lên tới gần một tỷ đô la tiền bồi thường lịch sử:
+Đại học Bang Michigan buộc phải chi trả năm trăm triệu đô la vào năm 2018 để giải quyết các đơn kiện từ hàng trăm nạn nhân.
+Liên đoàn Thể dục dụng cụ Hoa Kỳ cùng Ủy ban Olympic và Paralympic Mỹ phải đạt thỏa thuận bồi thường ba trăm tám mươi triệu đô la vào cuối năm 2021.
+Và đến tháng 4 năm 2024, Bộ Tư pháp Hoa Kỳ cũng chính thức đồng ý chi trả một trăm ba mươi tám phẩy bảy triệu đô la cho hơn một trăm nạn nhân vì sự tắc trách nghiêm trọng của các đặc vụ FBI.
 Chính sự dung túng vô trách nhiệm và có hệ thống đó của bộ máy quản lý đã tiếp tay cho con quái vật săn mồi tiếp tục hủy hoại thêm hàng trăm nạn nhân trong suốt hai thập kỷ sau đó.
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích dấu ấn Chữ ký tâm lý và cấu trúc Ái kỷ bệnh hoạn)*:
@@ -133,6 +150,8 @@ Hắn khao khát được nhìn thấy sự lệ thuộc tuyệt đối của nh
 Hắn tự tạo ra một cơ chế phòng vệ tâm lý tự bào chữa méo mó đến mức kỳ dị: Hắn tin rằng mình thực sự đang giúp đỡ các vận động viên, rằng các hành vi của mình là một phần của liệu pháp y khoa bác ái được xã hội công nhận.
 Hắn viết những lá thư đầy nước mắt gửi cho gia đình các nạn nhân, tự mô tả mình là một người cha tận tụy, một người bác sĩ nhân từ đang bị xã hội hiểu lầm và vu khống.
 Sự phân liệt tâm lý sâu sắc đó cho phép hắn duy trì một cuộc sống gia đình êm ấm mẫu mực, đi nhà thờ đều đặn mỗi chủ nhật, trong khi vẫn tiếp tục hủy hoại tuổi thơ của những đứa trẻ vô tội mỗi ngày trong tuần.
+Đối với các nạn nhân, nỗi đau không chỉ đến từ bàn tay của kẻ săn mồi, mà còn đến từ hiện tượng Sự bội phản kép.
+Khi họ gom hết lòng dũng cảm để báo cáo lên liên đoàn, trường đại học và thậm chí cả cơ quan điều tra liên bang FBI nhưng vẫn bị bỏ rơi, niềm tin căn bản của họ vào công lý và sự an toàn của thế giới bị nghiền nát hoàn toàn.
 Hắn là hiện thân của sự nguy hiểm tột cùng khi chiếc áo blouse y tế bị biến thành công cụ phục vụ cho sự đồi bại có tính toán.
 
 ---
@@ -160,6 +179,8 @@ Không chỉ tài năng trên sân cỏ, ông ấy còn thành lập tổ chức
 Mọi người nhìn ông ấy như một vị thánh sống, một tấm gương mẫu mực về sự cống hiến cho thế hệ trẻ.
 Làm sao một con người vĩ đại như vậy lại có thể làm những điều kinh tởm với chính những đứa trẻ mà mình nhận đỡ đầu?
 Khi vụ việc vỡ lở, cả trường đại học như rơi vào một cơn địa chấn tâm lý, không ai dám tin đó là sự thật.
+Thậm chí lúc ban đầu, nhiều người hâm mộ cuồng nhiệt vẫn còn kéo nhau xuống đường phản đối việc sa thải ban huấn luyện, bởi họ không thể chấp nhận rằng biểu tượng tinh thần của mình lại dính líu tới sự che đậy tàn nhẫn đến thế.
+Mãi cho đến khi các bản báo cáo điều tra độc lập được công bố, chúng tôi mới thực sự rùng mình nhận ra rằng sự tôn sùng mù quáng của đám đông cũng là một phần của bức tường che chắn cho tội ác.
 Phải chăng danh tiếng thể thao và những khoản tiền tài trợ khổng lồ đã khiến cả một ban giám hiệu trường đại học nhắm mắt làm ngơ trước tội ác suốt nhiều thập kỷ?
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích Cơ chế Văn hóa Thờ phụng thể thao và Hiệu ứng Tẩy não cộng đồng)*:
@@ -167,6 +188,8 @@ Sự bàng hoàng của bạn phản ánh chính xác tác động hủy diệt 
 Trong các tổ chức có nền văn hóa sùng bái thành tích thể thao cực đoan, danh tiếng của đội bóng được đặt cao hơn mọi chuẩn mực đạo đức và pháp lý thông thường.
 Cộng đồng xung quanh tự động hình thành một cơ chế phòng vệ tâm lý tập thể:
 Họ từ chối tiếp nhận bất kỳ thông tin tiêu cực nào có thể làm tổn hại đến hình tượng của đội bóng hay vị huấn luyện viên thần tượng.
+Trong tâm lý học xã hội, đây là sự kết hợp nguy hiểm giữa Tâm lý sùng bái anh hùng và Tư duy tập thể mù quáng, tức Groupthink.
+Bất kỳ cá nhân nào dám đặt câu hỏi về đạo đức của biểu tượng chung đều bị cộng đồng cô lập và coi là kẻ phản bội niềm tự hào địa phương.
 Jerry Sandusky đã khai thác triệt để điểm mù văn hóa này:
 Hắn sáng lập tổ chức từ thiện The Second Mile vào năm 1977 không phải để làm việc thiện, mà để tạo ra một bãi săn con mồi hoàn hảo.
 Hắn nhắm vào những cậu bé nghèo khó, thiếu thốn tình thương của người cha, mang các em về nhà, tặng vé xem bóng bầu dục VIP, cho các em mặc đồng phục của đội bóng và đưa vào phòng thay đồ của trường đại học.
@@ -193,6 +216,11 @@ Tháng 11 năm 2011, bản cáo trạng lịch sử gồm hai mươi ba trang đ
 Vụ bê bối đã gây ra một cơn chấn động chưa từng có trong lịch sử giáo dục đại học Hoa Kỳ:
 Hội đồng Quản trị trường đại học đã sa thải Huấn luyện viên trưởng Joe Paterno sau bốn mươi sáu năm gắn bó vinh quang, bức tượng đồng của ông trước sân vận động bị kéo sập trong đêm;
 Hiệu trưởng trường đại học Graham Spanier cùng hai lãnh đạo cấp cao là Curley và Schultz bị truy tố hình sự và sau đó đều phải chấp hành án tù vì tội gây nguy hiểm cho trẻ em và cản trở công lý.
+Tháng 7 năm 2012, bản Báo cáo điều tra độc lập Freeh do cựu Giám đốc FBI Louis Freeh đứng đầu đã công bố kết luận chấn động:
+Báo cáo khẳng định ban lãnh đạo cao nhất của Penn State đã chủ động che giấu hành vi phạm tội của Sandusky suốt nhiều năm chỉ vì nỗi sợ truyền thông tiêu cực và văn hóa tôn sùng đội bóng bầu dục, thể hiện sự coi thường hoàn toàn đối với sự an toàn của các nạn nhân nhỏ tuổi.
+Cùng tháng đó, Hiệp hội Thể thao Đại học Quốc gia Hoa Kỳ NCAA đã giáng xuống Penn State án phạt tài chính chưa từng có tiền lệ lên tới sáu mươi triệu đô la.
+Khoản tiền phạt khổng lồ này sau đó được giữ lại tại bang Pennsylvania để tài trợ cho các chương trình bảo vệ trẻ em và hỗ trợ nạn nhân bị xâm hại.
+Song song với các bản án hình sự, Đại học Bang Pennsylvania cũng phải chi trả tổng cộng hơn một trăm triệu đô la tiền bồi thường dân sự cho các nạn nhân của Sandusky.
 Hệ thống thể chế bóng bầu dục hùng mạnh nhất nước Mỹ đã hoàn toàn sụp đổ về mặt đạo đức.
 
 ---
@@ -215,10 +243,16 @@ Vào ngày 24 tháng 1 năm 2018, Thẩm phán Aquilina đã tuyên đọc bản
 Bà tuyên phạt Larry Nassar mức án lên tới một trăm bảy mươi lăm năm tù giam tại hệ thống nhà tù bang Michigan, cộng thêm sáu mươi năm tù liên bang vì tội tàng trữ văn hóa phẩm xâm hại trẻ em.
 Bà đanh thép tuyên bố trước phòng xử án đang nghẹn ngào nước mắt: Ta vừa ký vào bản án tử hình của ngươi. Ngươi không xứng đáng được bước chân ra khỏi cánh cửa nhà tù một lần nào nữa trong suốt cuộc đời này.
 Còn tại Pennsylvania, Jerry Sandusky cũng bị kết án bốn mươi lăm tội danh xâm hại nghiêm trọng và nhận bản án từ ba mươi đến sáu mươi năm tù giam, đảm bảo hắn sẽ phải mục nát và kết thúc cuộc đời sau song sắt nhà tù an ninh tối đa SCI Laurel Highlands.
+Từ đống tro tàn của những bi kịch thể chế đó, một cuộc cải cách lập pháp lịch sử cuối cùng đã được thúc đẩy tại Hoa Kỳ.
+Ngày 14 tháng 2 năm 2018, Đạo luật Bảo vệ Nạn nhân Trẻ tuổi và Thể thao An toàn, gọi tắt là Safe Sport Act, chính thức được ký ban hành.
+Đạo luật này bắt buộc mọi người lớn làm việc trong các tổ chức thể thao thanh thiếu niên phải báo cáo mọi nghi vấn xâm hại trẻ em cho cơ quan thực thi pháp luật trong vòng hai mươi bốn giờ.
+Đồng thời, luật yêu cầu hạn chế tối đa các tương tác một đối một không có giám sát giữa người lớn và vận động viên vị thành niên, và trao thẩm quyền cho cơ quan độc lập mang tên Trung tâm Thể thao An toàn Hoa Kỳ điều tra, ban hành lệnh cấm hành nghề suốt đời đối với các cá nhân vi phạm.
 
 **HOST** *(Dẫn dắt phân tích sự chuyển biến tâm lý của các nạn nhân)*:
 Khoảnh khắc hai trăm linh tư người phụ nữ cùng nhau đứng lên tại phòng xử án Michigan đã trở thành một biểu tượng bất diệt cho sự thức tỉnh của công lý và lòng dũng cảm của con người trước sự áp chế của thể chế.
 Họ đã nắm chặt tay nhau, biến phòng xử án thành nơi phán xét đạo đức tối cao đối với toàn bộ hệ thống thể thao Hoa Kỳ.
+Từ những lời khai đầy nước mắt đó, Quốc hội Mỹ đã buộc phải hành động bằng những đạo luật mới, chấm dứt kỷ nguyên mà các liên đoàn thể thao được quyền tự xử lý nội bộ mọi bê bối.
+Những khoản bồi thường hàng trăm triệu đô la dù không thể nào trả lại tuổi thơ đã mất cho các nạn nhân, nhưng đã gióng lên hồi chuông cảnh tỉnh đanh thép cho mọi tổ chức giáo dục và thể thao trên toàn cầu.
 Sức mạnh tâm lý nào đã giúp những đứa trẻ từng bị thao túng, sợ hãi và cô lập suốt hàng chục năm có thể cùng nhau đập tan bức tường im lặng kiên cố của những thể chế quyền lực khổng lồ như USAG và MSU?
 Khoa học tâm lý chấn thương nhìn nhận cuộc cách mạng thức tỉnh này như thế nào?
 
@@ -229,6 +263,8 @@ Sự cô lập tâm lý đó khiến nạn nhân tự trách bản thân, rơi v
 Thế nhưng, khi một người dũng cảm như Rachael Denhollander bước ra ánh sáng và cất lên tiếng nói đầu tiên, hiệu ứng domino tâm lý giải phóng đã được kích hoạt trên toàn quốc:
 Các nạn nhân nhận ra họ không hề đơn độc; họ không phải là những kẻ có lỗi hay những kẻ yếu đuối, mà họ chính là những nhân chứng sống của một tội ác có tổ chức được bảo kê bởi thể chế.
 Khi nỗi sợ hãi được chia sẻ giữa hàng trăm con người, nó không còn là nỗi sợ nữa, mà nó biến thành một sức mạnh công lý tập thể mãnh liệt, đủ sức quét sạch mọi bức tường quyền lực và buộc các chủ tịch liên đoàn, hiệu trưởng đại học phải từ chức và chịu trách nhiệm trước pháp luật.
+Sự ra đời của các cơ quan giám sát độc lập bên ngoài thể chế cũng mang ý nghĩa tâm lý vô cùng to lớn: nó xóa bỏ cơ chế tự điều tra khép kín đầy xung đột lợi ích.
+Khi một đứa trẻ biết rằng tiếng nói của mình sẽ được chuyển thẳng tới một đơn vị bảo vệ độc lập thay vì rơi vào ngăn kéo của ban lãnh đạo sợ mất danh tiếng, bức tường im lặng sẽ không còn cơ hội tồn tại.
 Ngược lại, tâm lý của những kẻ thủ ác trong giây phút phán xét đã phơi bày toàn bộ sự trống rỗng, ích kỷ và hèn nhát tột cùng:
 Khi bị tước đoạt chiếc áo blouse y tế và sự bảo vệ của các chức danh danh giá, chúng hoàn toàn mất đi quyền năng thao túng, chỉ còn là những kẻ thảm hại run rẩy trước sự thật trần trụi.
 Ảo tưởng cứu thế của chúng hoàn toàn tan vỡ, để lại một bản án lương tâm và pháp lý vĩnh viễn không thể nào dung thứ.
@@ -259,6 +295,7 @@ Chúng ta đã vô tình dạy con cái mình phải luôn vâng lời người 
 Từ nay trở đi, tôi sẽ luôn là người đồng hành sát sao nhất bên cạnh con trong mọi buổi tập luyện và thăm khám y tế.
 Tôi sẽ luôn tôn trọng và lắng nghe từng lời chia sẻ, từng biểu hiện khó chịu hay thay đổi tâm lý dù là nhỏ nhất của con gái mình.
 Nếu con cảm thấy không thoải mái với bất kỳ hành vi tiếp xúc nào của huấn luyện viên hay bác sĩ, tôi sẽ lập tức can thiệp và yêu cầu làm rõ ngay, không bao giờ để con phải chịu đựng một mình trong im lặng.
+Tôi cũng sẽ dạy con hiểu rõ rằng không có bất kỳ người lớn tử tế nào lại yêu cầu một đứa trẻ phải giữ bí mật về cơ thể mình trước cha mẹ.
 Không có tấm huy chương nào đáng giá bằng sự bình an và nụ cười hồn nhiên của con cái chúng ta.
 
 **HOST** *(Tổng kết và chuyển sang phần giải pháp phòng vệ)*:
@@ -288,11 +325,14 @@ Thứ hai, Thiết lập Kênh tố giác độc lập bên ngoài thể chế v
 Đừng bao giờ để chính những người có xung đột lợi ích về danh tiếng đứng ra tự điều tra sai phạm của tổ chức mình.
 Sự quyết liệt của pháp luật là biện pháp duy nhất để bảo vệ thế hệ tương lai.
 Hãy nhớ rằng tiếng nói kịp thời của bạn không chỉ cứu con mình, mà còn có thể ngăn chặn hàng trăm đứa trẻ khác trở thành nạn nhân tiếp theo.
+Đồng thời, các tổ chức giáo dục và thể thao cần áp dụng nghiêm ngặt việc kiểm tra lý lịch tư pháp định kỳ và đào tạo kỹ năng nhận diện xâm hại cho toàn bộ đội ngũ nhân sự.
+Chỉ khi minh bạch trở thành luật lệ bắt buộc chứ không phải lời hứa suông, những bãi săn ẩn dưới ánh hào quang mới thực sự bị xóa sổ.
 
 **HOST** *(Giọng trầm ấm, đúc kết triết lý nhân sinh và kết thúc chương trình)*:
 Sự vĩ đại của một nền thể thao hay một nền giáo dục không được đo đếm bằng số lượng huy chương vàng trên bục vinh quang, mà được đo đếm bằng sự an toàn, hạnh phúc và phẩm giá của từng đứa trẻ bước ra từ những lò đào tạo đó.
 Hãy luôn là người bảo vệ trung thành và dũng cảm nhất cho những ước mơ trong sáng của con trẻ.
 Đừng bao giờ để ánh hào quang của thành tích làm lu mờ đi trách nhiệm thiêng liêng của lương tri và tình phụ mẫu.
+Bởi vì khi người lớn đủ tỉnh táo để đặt câu hỏi và đủ bản lĩnh để giám sát, không một chiếc áo blouse hay chiếc cúp vô địch nào có thể che giấu được bóng tối.
 Cảm ơn quý vị và các bạn đã đồng hành cùng Amber Eyes trong tập hồ sơ tài liệu tâm lý học tội phạm hôm nay.
 Nếu quý vị thấy những kiến thức này hữu ích, hãy chia sẻ video đến cộng đồng phụ huynh và các thầy cô giáo để cùng nhau xây dựng một môi trường thể thao an toàn và lành mạnh cho con em chúng ta.
 Đừng quên bấm đăng ký kênh và nhấn chuông thông báo để đón xem những tập phim phân tích chuyên sâu tiếp theo.

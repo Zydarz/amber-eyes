@@ -10,13 +10,15 @@
 ---
 
 ## I. ĐO LƯỜNG ĐỊNH LƯỢNG KỸ THUẬT (THEO LUẬT L3 & QUY CHUẨN KÊNH)
-- **Số elements kịch bản:** 34 elements.
-- **Số câu thoại thực tế (đo bằng script chuẩn `.work/parse_kichban.py`):** **200 câu thoại** (Đạt chuẩn $\ge 200$ câu thoại, tương đương ~22-25 phút thời lượng video dựng).
-- **Hệ thống 5 vai (4 tầng nhận thức):**
-  - `HOST`: 29 câu (Dẫn nhập, kết nối chuyên gia, nâng tầm thông điệp xã hội).
-  - `NGƯỜI BÌNH THƯỜNG` (N1 - Cừu & N2 - Mèo): 41 câu (Thức tỉnh nhận thức 3 giai đoạn: Từ chịu đựng kiểm soát, bàng hoàng đến dứt khoát chấm dứt độc hại).
-  - `CHUYÊN GIA TÂM LÝ` (Cáo Trắng): 47 câu (Giải mã học thuyết gắn bó Bowlby, cơ chế thần kinh nghiện dopamine/oxytocin của Helen Fisher, BPD, phân ly cảm xúc).
-  - `ĐIỀU TRA VIÊN` (Sói Xám): 83 câu (Bóc tách chi tiết hai vụ án, phân loại 4 nhóm rình rập Mullen & Pathé, bóc trần cạm bẫy "gặp lần cuối", 2 nguyên tắc vàng).
+- **Ngày cập nhật bổ sung:** 27/11/2026
+- **Bản sao lưu trước khi bổ sung (L5):** `.work/_cu/kichban_tap26_cd02_20261127_truoc_bosung.md`
+- **Tổng số câu thoại thực tế:** **219 dòng thoại / 232 câu** (tăng từ 200 câu lên 232 câu; chuẩn hóa toàn bộ tên vai `CHUYÊN GIA TÂM LÝ`; 0 lỗi dấu ba chấm G1).
+- **Phân bổ 5 hồi:**
+  - **Hồi 1:** 47 dòng / 47 câu (Bổ sung công trình mở rộng Học thuyết Gắn bó sang tình yêu trưởng thành năm 1987 của Cindy Hazan & Phillip Shaver, so sánh gắn bó an toàn vs. gắn bó lo âu).
+  - **Hồi 2 (Jodi Arias):** 47 dòng / 47 câu (Bổ sung ngòi nổ tin nhắn tranh cãi ngày 26/05/2008 dẫn đến vụ trộm súng ngày 28/05/2008).
+  - **Hồi 3 (Jennifer San Marco):** 47 dòng / 47 câu (Bổ sung địa danh Milan & Grants ở New Mexico, tờ bản tin hoang tưởng *The Racist Press*, đính chính mốc mua súng Smith & Wesson 9mm vào tháng 8/2005 qua lọt hệ thống NICS do chưa có phán quyết cưỡng bức điều trị lâu dài, và cải tổ an ninh bưu chính Mỹ).
+  - **Hồi 4 (Thần kinh học & Rình rập):** 41 dòng / 47 câu (Bổ sung nghiên cứu fMRI năm 2010 của Helen Fisher trên *Journal of Neurophysiology*, cập nhật thang phân loại năm 1999 của Mullen & Pathé thành **5 nhóm** với nhóm *The Resentful Stalker* khớp Jennifer San Marco, và phòng vệ kỹ thuật số).
+  - **Hồi 5 (Tổng kết & Phòng vệ):** 37 dòng / 44 câu (Mở rộng vai trò mạng lưới hỗ trợ gia đình/bạn bè, 3 Red Flags và 2 nguyên tắc vàng).
 
 ---
 
@@ -26,7 +28,11 @@
    - *Tính xác thực:* Thời gian (4/6/2008 - phát hiện 9/6/2008), địa điểm (Mesa, Arizona), phục hồi thẻ nhớ máy ảnh trong máy giặt, hành vi chuẩn bị mượn can xăng, tắt điện thoại, trộm súng .25 caliber, mức án tù chung thân không ân xá năm 2015 hoàn toàn trùng khớp 100%.
 2. **Hồ sơ Jennifer San Marco (2006):**
    - *Nguồn đối chiếu:* Báo cáo điều tra của Sở Cảnh sát Hạt Santa Barbara (Santa Barbara County Sheriff's Office), Cục Điều tra Bưu chính Mỹ (U.S. Postal Inspection Service), tài liệu lưu trữ của *Los Angeles Times*.
-   - *Tính xác thực:* Đêm 30/1/2006, địa điểm Goleta Mail Processing Center, nạn nhân hàng xóm Beverly Graham (54 tuổi) và 6 đồng nghiệp bưu điện, lịch sử bị sa thải năm 2003 vì bất ổn tâm thần, súng ngắn 9mm mua hợp pháp tại Grants, New Mexico.
+   - *Tính xác thực:* Đêm 30/1/2006, địa điểm Goleta Mail Processing Center, nạn nhân hàng xóm Beverly Graham (54 tuổi) và 6 đồng nghiệp bưu điện, lịch sử bị sa thải năm 2003 vì bất ổn tâm thần, sinh sống tại Milan & Grants (New Mexico), tự xuất bản *The Racist Press*, mua hợp pháp súng ngắn Smith & Wesson 9mm tại tiệm cầm đồ tháng 8/2005 qua lọt hệ thống kiểm tra lý lịch NICS.
+3. **Cơ sở khoa học bổ sung (27/11/2026):**
+   - *Hazan & Shaver (1987):* "Romantic Love Conceptualized as an Attachment Process" (*Journal of Personality and Social Psychology*).
+   - *Helen Fisher et al. (2010):* "Reward, addiction, and emotion regulation systems associated with rejection in love" (*Journal of Neurophysiology*).
+   - *Mullen, Pathé, Purcell & Stuart (1999):* "Study of Stalkers" (*American Journal of Psychiatry*, 145 hồ sơ, 5 nhóm rình rập bao gồm *The Resentful Stalker*).
 
 ---
 

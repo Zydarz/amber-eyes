@@ -44,6 +44,7 @@ Tôi sẽ cảm thấy mình được an toàn tuyệt đối, vì cảnh sát s
 Nếu một cảnh sát yêu cầu tôi dừng lại để kiểm tra hành chính, dù là giữa đêm khuya vắng người, tôi chắc chắn sẽ ngoan ngoãn chấp hành ngay mà không nghĩ ngợi gì.
 Một người đã vượt qua các kỳ sát hạch đạo đức khắt khe, được nhà nước trao súng và thẻ ngành thì làm sao có thể là kẻ phạm tội được?
 Từ chối một mệnh lệnh của cảnh sát chẳng khác nào hành vi chống người thi hành công vụ.
+Từ nhỏ đến lớn, tôi chưa bao giờ nghĩ rằng mình cần phải đặt câu hỏi hay kiểm tra lại danh tính của một người đang cầm thẻ ngành trên tay.
 Sự an tâm của chúng tôi hoàn toàn đặt vào niềm tin rằng những người mang phù hiệu là hiện thân của sự chính trực và luật pháp.
 
 **HOST** *(Trầm giọng, phân tích sự đối lập tàn khốc)*:
@@ -53,6 +54,8 @@ Hắn chỉ cần kích hoạt phản xạ phục tùng vô thức của nạn n
 Nạn nhân tự nguyện dừng bước, tự nguyện xuất trình giấy tờ tùy thân và tự nguyện tra tay vào chiếc còng số tám lạnh ngắt chỉ vì họ tin rằng mình đang hợp tác với một quy trình pháp lý chuẩn mực của cơ quan công quyền.
 Họ lo sợ rằng một hành vi ngần ngại hay thắc mắc có thể bị quy kết là chống người thi hành công vụ.
 Chính sự lương thiện, lòng tự trọng và ý thức thượng tôn pháp luật của công dân đã bị kẻ săn mồi vũ khí hóa một cách tàn nhẫn để tước đoạt hoàn toàn cơ hội tự vệ và kêu cứu của họ.
+Trong xã hội dân chủ, cơ chế Niềm tin mặc định vào lực lượng hành pháp là điều kiện cần để duy trì trật tự công cộng.
+Thế nhưng, khi quy trình tuyển dụng và thẩm tra lý lịch xuất hiện kẽ hở, để lọt một kẻ săn mồi đội lốt sĩ quan công vụ, thì chính niềm tin mặc định ấy lại biến thành một cái bẫy tử thần.
 Kẻ thủ ác đã biến chính hệ thống tư pháp mà xã hội tôn kính thành chiếc thòng lọng siết chặt số phận của những người vô tội.
 Để bóc tách cấu trúc tâm lý méo mó và sự tha hóa quyền lực tột cùng này, chúng ta cần cái nhìn sâu sắc từ khoa học tâm lý học pháp y.
 
@@ -65,6 +68,9 @@ Nguy hiểm hơn, những kẻ săn mồi khoác áo công quyền thường m�
 Chúng lựa chọn công việc cảnh sát không phải vì lý tưởng cao đẹp phụng sự cộng đồng hay bảo vệ công lý, mà vì một khao khát bệnh hoạn được nắm giữ quyền lực sinh sát trong tay một cách hợp pháp.
 Chúng say sưa với cảm giác được người khác kính sợ, phục tùng tuyệt đối và run rẩy trước từng cử chỉ, mệnh lệnh của mình.
 Chúng khai thác triệt để những quy định kiểm tra hành chính ngặt nghèo, lợi dụng các khoảng trống giám sát nghiệp vụ để biến quyền lực công cộng thành công cụ phục vụ cho thú tính đen tối của cá nhân.
+Tệ hại hơn nữa, trong nhiều tổ chức hành pháp khép kín còn tồn tại một hiện tượng tâm lý xã hội mang tên Bức tường xanh im lặng, tức The Blue Wall of Silence.
+Đó là tâm lý bao che nội bộ, nơi các đồng nghiệp ngại tố giác những hành vi lệch lạc ban đầu của đồng đội vì sợ bị coi là kẻ phản bội tập thể.
+Chính sự im lặng dung túng đó đã vô tình cấp giấy thông hành cho những kẻ biến chất tiếp tục nắm giữ quyền lực và leo thang hành vi phạm tội.
 Và minh chứng kinh hoàng nhất cho sự phản bội phù hiệu này trong lịch sử hiện đại phương Tây chính là vụ bắt cóc và sát hại Sarah Everard bởi sĩ quan cảnh sát Wayne Couzens tại London năm 2021.
 
 **HOST** *(Mở ra hồ sơ vụ án chấn động toàn cầu)*:
@@ -93,7 +99,7 @@ Sarah Everard, một công dân mẫu mực và lương thiện, đã hoàn toà
 Cô ngoan ngoãn tra tay vào chiếc còng kim loại nghiệp vụ mà Couzens mang theo, rồi bước lên băng ghế sau của chiếc xe ô tô thuê mà không có bất kỳ hành động phản kháng hay kêu cứu nào.
 Đó là lần cuối cùng người ta nhìn thấy Sarah Everard còn sống.
 Couzens lập tức lái chiếc xe chạy thẳng một mạch hơn một trăm mười kilomet về vùng nông thôn hẻo lánh thuộc hạt Kent.
-Tại một khu rừng rậm vắng vẻ gần thị trấn Ashford, nơi hắn sở hữu một mảnh đất nhỏ, Couzens đã thực hiện hành vi xâm hại nghiêm trọng và sát hại dã man nạn nhân bằng cách siết cổ bằng chính chiếc dây đai nghiệp vụ của mình.
+Tại một khu rừng rậm vắng vẻ gần thị trấn Ashford, nơi hắn sở hữu một mảnh đất nhỏ, Couzens đã thực hiện hành vi xâm hại nghiêm trọng và sát hại nạn nhân.
 Sau đó, hắn phi tang chứng cứ và vứt bỏ thi thể nạn nhân trong một hồ nước nhỏ bên trong khu rừng trước khi thản nhiên quay trở về nhà sinh hoạt cùng vợ con như không có chuyện gì xảy ra.
 
 **HOST** *(Tiếp nối nhịp kịch tính, mở ra hồ sơ án)*:
@@ -118,6 +124,17 @@ Ngày 9 tháng 3 năm 2021, chỉ sáu ngày sau khi vụ án xảy ra, các đ�
 Khi bị tra tay vào còng, Couzens ban đầu cố gắng dựng lên một câu chuyện hoang đường rằng hắn bị một băng nhóm tội phạm có tổ chức người Đông Âu đe dọa, ép buộc phải bắt cóc một phụ nữ để trừ món nợ tài chính của gia đình.
 Thế nhưng, trước những chứng cứ khoa học pháp y đanh thép: ADN của Sarah được tìm thấy trên ghế sau của xe thuê và dấu vết định vị trùng khớp tuyệt đối tại hiện trường khu rừng rậm ở Ashford, toàn bộ màn kịch dối trá vụng về của kẻ thủ ác đã hoàn toàn sụp đổ.
 Chính sự kết hợp chuẩn xác giữa công nghệ giám sát kỹ thuật số và nghiệp vụ điều tra hiện trường kiên định đã vạch trần bộ mặt của một con quái vật mang thẻ ngành cảnh sát.
+Nhưng cuộc điều tra không dừng lại ở việc kết án một cá nhân; nó đã kích hoạt những cuộc thanh tra độc lập chấn động nhất trong lịch sử ngành cảnh sát Vương quốc Anh.
+Hồ sơ điều tra phơi bày một sự thật gây phẫn nộ: ngay vào tháng 2 năm 2021, chỉ vài tuần trước khi sát hại Sarah Everard, Couzens từng bị trình báo về hành vi phơi bày khiêu dâm tại một cửa hàng McDonald's ở Swanley, hạt Kent, nối tiếp một cáo buộc tương tự từ năm 2015.
+Thế nhưng, do thiếu một hệ thống cảnh báo liên thông toàn quốc giữa các lực lượng cảnh sát địa phương, Cảnh sát Đô thành London chỉ nhận được thông tin về vụ việc này vài ngày trước thảm kịch.
+Tháng 3 năm 2023, bản Báo cáo Casey Review do Nam tước Louise Casey thực hiện đã giáng một đòn mạnh vào Cảnh sát Đô thành London, vạch trần một hệ thống thẩm tra lý lịch rệu rã, văn hóa nội bộ bao che và quy trình xử lý kỷ luật yếu kém.
+Tiếp đó, vào ngày 29 tháng 2 năm 2024, Phần một của Báo cáo Độc lập Angiolini Inquiry do Nữ công tố viên Lady Elish Angiolini đứng đầu đã công bố kết luận đanh thép:
+Báo cáo khẳng định Wayne Couzens là một kẻ săn mồi tình dục nguy hiểm đáng lẽ không bao giờ được vượt qua vòng thẩm tra lý lịch để khoác lên mình bộ sắc phục cảnh sát.
+Hàng loạt dấu hiệu cảnh báo đỏ nghiêm trọng từ nợ nần tài chính kéo dài đến các hành vi tình dục lệch lạc trong quá khứ đều đã bị bỏ lọt qua nhiều vòng tuyển dụng và luân chuyển công tác.
+Sau thảm kịch này, Cảnh sát Đô thành London đã buộc phải ban hành hướng dẫn an toàn khẩn cấp cho công chúng:
+Nếu một người dân bị một sĩ quan mặc thường phục đi một mình chặn lại và cảm thấy bất an, họ có toàn quyền yêu cầu gọi điện trực tiếp đến tổng đài khẩn cấp chín chín chín để xác minh danh tính và ca trực của sĩ quan đó.
+Thậm chí, họ có thể tìm kiếm sự trợ giúp từ người đi đường hoặc vẫy một chiếc xe buýt đang chạy qua để đảm bảo có nhân chứng khách quan tại hiện trường.
+Đây là một thay đổi mang tính lịch sử, thừa nhận rằng sự an toàn của người dân phải được đặt lên trên quyền mặc nhiên tuân phục.
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích dấu ấn Chữ ký tâm lý và Sự biến chất của quyền lực)*:
 Dưới lăng kính tâm lý học pháp y chuyên sâu, Wayne Couzens là hiện thân rùng rợn của một kẻ Ái kỷ ác tính mang chứng Thị dâm và Kích dục bạo lực, kẻ đã biến chính quyền lực nhà nước thành công cụ phục vụ cho thú tính đen tối của mình.
@@ -129,6 +146,9 @@ Hắn lợi dụng sự sợ hãi của đại dịch và sự nghiêm minh củ
 Đáng sợ và nhức nhối hơn cả, quá trình điều tra mở rộng sau đó đã phát hiện ra rằng Couzens từng nhiều lần thực hiện các hành vi phơi bày khiêu dâm tại các quán cà phê thức ăn nhanh và trạm xăng trong nhiều năm trước đó, thậm chí bị các đồng nghiệp đặt biệt danh là Kẻ quấy rối.
 Thế nhưng, các cấp chỉ huy và cơ quan chủ quản đã xem nhẹ các dấu hiệu cảnh báo đỏ đó, coi đó chỉ là những trò đùa thô thiển hoặc sự lập dị cá nhân vô hại.
 Văn hóa dung túng nội bộ, thói bảo bọc đồng đội mù quáng và sự lỏng lẻo trong quy trình rà soát an ninh định kỳ đã tạo điều kiện cho một con quái vật săn mồi tiếp tục được mang súng, mang thẻ ngành đi tuần tra giữa lòng thủ đô.
+Trong tâm lý học tội phạm, những hành vi phơi bày khiêu dâm lặp đi lặp lại không bao giờ là trò đùa vô hại, mà thường là nấc thang khởi đầu của một quỹ đạo leo thang bạo lực nguy hiểm.
+Khi kẻ thủ ác liên tục vi phạm mà không phải chịu bất kỳ hậu quả pháp lý nào, cảm giác bất khả xâm phạm trong hắn ngày càng phình to, thúc đẩy hắn bước qua lằn ranh cuối cùng để thực hiện tội ác kinh hoàng nhất.
+Nói cách khác, sự thờ ơ của hệ thống trước những hành vi lệch chuẩn nhỏ chính là bệ phóng tâm lý nuôi dưỡng những thảm kịch không thể cứu vãn.
 Tấm phù hiệu công lý đã bị biến thành chiếc mặt nạ che giấu bóng tối hủy diệt của một kẻ suy đồi nhân tính hoàn toàn.
 
 ---
@@ -155,6 +175,7 @@ Chúng tôi luôn hy vọng lực lượng cảnh sát sẽ sớm bắt được
 Mỗi khi nhìn thấy xe cảnh sát đi tuần qua ngõ, chúng tôi đều vẫy tay chào và thở phào nhẹ nhõm vì nghĩ rằng những người bảo vệ đang canh gác cho giấc ngủ của mình.
 Không một ai có thể tưởng tượng nổi rằng, người cảnh sát tuần tra cần mẫn mỉm cười chào chúng tôi ban ngày lại chính là con quái vật cạy cửa đột nhập vào phòng ngủ ban đêm.
 Sự thật đó khi được phơi bày sau bốn mươi năm thực sự là một cú sốc hủy diệt niềm tin đối với cả một thế hệ.
+Nó khiến chúng tôi nhận ra rằng kẻ thù đáng sợ nhất không phải lúc nào cũng đến từ bên ngoài cánh cổng khu phố, mà đôi khi lại chính là người đang cầm chìa khóa bảo vệ khu phố đó.
 Làm sao một con người có thể sống hai cuộc đời hoàn toàn trái ngược nhau một cách trơn tru suốt cả cuộc đời như vậy?
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích Hiện tượng Phân đôi nhân cách Dr. Jekyll & Mr. Hyde và Sự vũ khí hóa nghiệp vụ)*:
@@ -166,12 +187,16 @@ Là một cảnh sát tuần tra, hắn có quyền đi lại tự do trong các
 Thứ hai là Sự miễn nhiễm tâm lý trước sự nghi ngờ của xã hội:
 Không một đồng đội nào lại nghĩ rằng người đồng nghiệp cùng uống cà phê, cùng thảo luận về hồ sơ vụ án vào buổi sáng lại chính là kẻ vừa thực hiện vụ đột nhập kinh hoàng vào đêm hôm trước.
 Hắn tận hưởng cảm giác thượng đẳng của một kẻ nắm giữ bí mật kép: Hắn vừa là người đi săn, vừa là người giả vờ đi tìm chính mình.
+Suốt bốn thập kỷ sau đó, khi ngồi trong căn nhà ngoại ô bình yên theo dõi báo chí và các đồng nghiệp cũ vẫn đang bế tắc trước hồ sơ vụ án, hắn nuôi dưỡng một cơn nghiện cảm giác vô hình đầy bệnh hoạn.
+Hắn tin rằng trí tuệ và kinh nghiệm nghiệp vụ của mình đã giúp hắn đánh bại hoàn toàn hệ thống pháp luật hiện đại.
 Sự hiểu biết sâu sắc về các quy trình pháp y thời bấy giờ cho phép hắn dọn sạch hiện trường, vô hiệu hóa mọi nỗ lực điều tra của lực lượng cảnh sát trong suốt hơn bốn thập kỷ.
 
 **HOST** *(Mở rộng sang hồ sơ Golden State Killer)*:
 Joseph James DeAngelo sinh năm 1945, từng phục vụ trong lực lượng Hải quân Hoa Kỳ và tham chiến tại Việt Nam trước khi giải ngũ với thành tích tốt.
 Sau đó, hắn tốt nghiệp ngành tư pháp hình sự tại Đại học Bang Sacramento và chính thức trở thành sĩ quan cảnh sát tuần tra tại Sở Cảnh sát Exeter và sau đó là Sở Cảnh sát Auburn, California.
 Hắn là một sĩ quan mẫn cán, được đồng đội đánh giá cao về sự chính xác và kỷ luật quân đội.
+Nhưng ít ai biết rằng ngay trong thời gian khoác sắc phục cảnh sát, hắn đã lợi dụng từng ca trực đêm để lập bản đồ chi tiết các con hẻm, lối thoát hiểm và thói quen sinh hoạt của hàng trăm gia đình trong địa bàn.
+Hắn còn được phân công trực tiếp vào tổ công tác chuyên trách chống trộm cắp đột nhập — một sự trớ trêu rùng rợn khi kẻ đi săn lại ngồi ngay trong phòng họp bàn kế hoạch truy bắt chính mình.
 Thế nhưng, từ năm 1974 đến năm 1986, dưới vỏ bọc một người bảo vệ pháp luật mẫu mực, hắn đã thực hiện ít nhất mười ba vụ án mạng dã man và hơn năm mươi vụ tấn công bạo lực khắp bang California dưới những cái tên kinh hoàng như Kẻ đột nhập Visalia, Kẻ săn mồi khu vực phía Đông và Sát nhân Golden State.
 Hắn đã biến kiến thức điều tra thành công cụ gieo rắc nỗi kinh hoàng cho toàn bộ xã hội thời bấy giờ.
 Chúng ta hãy cùng Điều tra viên nhìn lại hành trình truy lùng bốn mươi năm lịch sử và cuộc đột phá công nghệ phả hệ học DNA đã lật tẩy bộ mặt thật của kẻ thủ ác hai mặt.
@@ -184,13 +209,16 @@ Hắn lập tức bị sa thải khỏi sở cảnh sát Auburn sau một phiên
 Thế nhưng, điều đáng tiếc nhất là không một ai tại thời điểm đó kết nối vụ trộm vặt này với kẻ sát nhân hàng loạt đang làm rung chuyển toàn bang.
 Sau khi bị đuổi khỏi ngành cảnh sát, DeAngelo chuyển sang làm thợ cơ khí xe tải suốt hai mươi bảy năm, sống một cuộc đời lặng lẽ, khép kín bên cạnh vợ con và hàng xóm tại khu ngoại ô bình yên.
 Bước ngoặt lịch sử mở ra ánh sáng công lý chỉ xuất hiện vào đầu năm 2018, nhờ sự kiên trì phi thường kéo dài hàng chục năm của điều tra viên kỳ cựu Paul Holes và cuộc cách mạng của Công nghệ Phả hệ học Di truyền điều tra, tức Investigative Genetic Genealogy.
-Các điều tra viên đã lấy mẫu ADN tinh dịch thu thập được từ một hiện trường vụ giết người năm 1980 và tải hồ sơ di truyền lên cơ sở dữ liệu phả hệ phả hệ nguồn mở GEDmatch — nơi hàng triệu người dân tự nguyện chia sẻ ADN để tìm kiếm nguồn gốc tổ tiên.
-Bằng cách xây dựng lại cây phả hệ gia đình khổng lồ trải dài qua năm thế hệ với hàng nghìn nhánh họ hàng xa, các nhà phân tích di truyền học pháp y cuối cùng đã khoanh vùng được một đối tượng duy nhất phù hợp hoàn hảo về độ tuổi, địa bàn sinh sống và lý lịch làm việc:
+Trước đó, nhà báo điều tra Michelle McNamara, người đã đặt ra cái tên Sát nhân Golden State, cũng đã dành trọn tâm huyết nghiên cứu hồ sơ và tin chắc rằng công nghệ ADN sẽ là chìa khóa lật tẩy kẻ thủ ác.
+Dù bà đã qua đời đáng tiếc vào năm 2016 trước ngày vụ án được phá, cuốn sách I'll Be Gone in the Dark xuất bản năm 2018 của bà đã thổi bùng trở lại sự chú ý của công chúng toàn cầu.
+Phối hợp chặt chẽ cùng Paul Holes là nhà phả hệ học di truyền tiên phong Barbara Rae-Venter, một cựu luật sư sáng chế đã nghỉ hưu.
+Các điều tra viên đã lấy mẫu ADN sinh học thu thập được từ một hiện trường vụ giết người năm 1980 và tải hồ sơ di truyền lên cơ sở dữ liệu phả hệ nguồn mở GEDmatch — nơi hàng triệu người dân tự nguyện chia sẻ ADN để tìm kiếm nguồn gốc tổ tiên.
+Từ những manh mối trùng khớp với các người họ hàng bậc ba và bậc bốn trên GEDmatch, Barbara Rae-Venter cùng nhóm điều tra đã kiên trì dựng lại cây phả hệ gia đình khổng lồ trải dài qua năm thế hệ với hàng nghìn nhánh họ hàng xa, cuối cùng khoanh vùng được một đối tượng duy nhất phù hợp hoàn hảo về độ tuổi, địa bàn sinh sống và lý lịch làm việc:
 Cựu sĩ quan cảnh sát Joseph James DeAngelo, khi đó đã bảy mươi hai tuổi, đang sống ẩn dật tại vùng ngoại ô Citrus Heights gần Sacramento.
 Các thám tử bí mật theo dõi đối tượng suốt nhiều ngày đêm và thu thập mẫu ADN sót lại từ tay nắm cửa chiếc xe ô tô của hắn và một mẩu khăn giấy mà DeAngelo vứt vào thùng rác công cộng bên ngoài một siêu thị.
 Kết quả xét nghiệm ADN pháp y đem lại sự chính xác tuyệt đối: Một sự trùng khớp một trăm phần trăm không thể chối cãi.
 Chiều ngày 24 tháng 4 năm 2018, các đặc vụ vũ trang tinh nhuệ đã ập vào khống chế và bắt giữ DeAngelo ngay tại hiên nhà khi hắn vừa bước ra ngoài dắt xe.
-Vụ bắt giữ lịch sử này đã chấm dứt bốn mươi bốn năm lẩn trốn trong bóng tối của kẻ săn mồi hai mặt nguy hiểm bậc nhất trong biên niên sử tội phạm Hoa Kỳ.
+Vụ bắt giữ lịch sử này không chỉ chấm dứt bốn mươi bốn năm lẩn trốn trong bóng tối của kẻ săn mồi hai mặt nguy hiểm bậc nhất nước Mỹ, mà còn mở ra một kỷ nguyên pháp y mới: kể từ năm 2018 đến nay, chính công nghệ phả hệ học di truyền này đã giúp lực lượng chức năng phá giải hàng trăm vụ án tồn đọng tưởng chừng đã chìm vào quên lãng.
 
 ---
 
@@ -211,10 +239,13 @@ Joseph James DeAngelo ở tuổi bảy mươi tư, ngồi trên chiếc xe lăn 
 Trước những chứng cứ di truyền học DNA không thể chối cãi, hắn đã phải cúi đầu nhận tội đối với mười ba tội danh giết người cấp độ một và gần năm mươi tội danh bắt cóc nghiêm trọng để đổi lấy việc không bị kết án tử hình.
 Thẩm phán Tòa án Thượng thẩm Michael Bowman đã tuyên phạt DeAngelo mười một bản án tù chung thân liên tiếp không có cơ hội ân xá, cộng thêm tám năm tù giam.
 Thẩm phán đanh thép tuyên bố trước hội trường: Bị cáo không xứng đáng nhận được bất kỳ sự thương hại nào từ xã hội. Ngươi sẽ phải sống phần đời còn lại trong sự cô độc tột cùng sau bức tường nhà tù an ninh tối đa Corcoran State Prison, nơi ngươi sẽ mục rữa cùng tội ác của mình.
+Cả hai phán quyết lịch sử ở hai bờ Đại Tây Dương đều gửi đi một thông điệp chung không thể khoan nhượng:
+Khi một người được xã hội trao cho thanh gươm và chiếc khiên của công lý lại quay mũi gươm về phía người dân vô tội, bản án dành cho họ phải là bản án nghiêm khắc nhất để bảo vệ sự tồn vong của pháp quyền.
 
 **HOST** *(Dẫn dắt phân tích sự chuyển biến tâm lý của kẻ thủ ác)*:
 Cả hai kẻ thủ ác, một ở London hiện đại, một ở California suốt bốn thập kỷ, khi đối diện với sự trừng phạt tuyệt đối của công lý đã bộc lộ những diễn biến tâm lý ra sao?
 Cái tôi ngạo mạn của những kẻ từng tự cho mình quyền năng sinh sát đằng sau phù hiệu đã sụp đổ như thế nào khi chúng trở thành những tù nhân bị cả xã hội khinh miệt nhất?
+Và làm thế nào các lực lượng hành pháp có thể hàn gắn lại khế ước niềm tin thiêng liêng với người dân sau những vết thương sâu sắc mà các cá nhân biến chất này gây ra?
 Khoa học tâm lý pháp y giải mã sự hèn hạ sau tấm áo giáp quyền lực này như thế nào?
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích Sự sụp đổ của cái tôi quyền lực và Tâm lý hèn nhát bệnh hoạn)*:
@@ -227,6 +258,10 @@ Hắn nói chuyện một mình với bức tường, liên tục lẩm bẩm r�
 Hắn đóng giả một ông già lẩm cẩm, run rẩy, đi lại không vững nhằm đánh lừa các giám định viên tâm thần pháp y để trốn tránh trách nhiệm hình sự.
 Thế nhưng, các đoạn băng ghi hình bí mật trong phòng giam đã vạch trần bộ mặt thật của hắn: Khi ở một mình không có ai quan sát, DeAngelo đứng dậy leo lên bàn tập thể dục, dọn dẹp phòng giam một cách vô cùng nhanh nhẹn, dẻo dai và hoàn toàn minh mẫn.
 Cái tôi ảo tưởng của những kẻ săn mồi quyền lực hoàn toàn tan vỡ khi sự thật bị phơi bày:
+Về phía cộng đồng, những vụ án mà người thực thi pháp luật trở thành thủ phạm luôn gây ra Hiệu ứng sụp đổ niềm tin sâu sắc hơn gấp nhiều lần so với tội phạm thông thường.
+Để hàn gắn vết rạn nứt đó, sự minh bạch tuyệt đối, việc sẵn sàng tự phanh phui sai phạm thông qua các cuộc điều tra độc lập như Angiolini hay Casey, và việc đặt quyền an toàn của công dân lên trên danh dự nội bộ là con đường duy nhất.
+Khi người dân thấy rằng hệ thống sẵn sàng tự thanh lọc một cách không khoan nhượng, niềm tin vào công lý mới có thể từng bước được khôi phục.
+Trái lại, bất kỳ nỗ lực che đậy nào nhân danh uy tín tập thể cũng chỉ khiến vết thương lòng tin trong xã hội thêm sâu rộng và khó chữa lành.
 Phù hiệu công lý không bao giờ là tấm bùa hộ mệnh cho tội ác, mà trái lại, nó là bản cáo trạng nặng nề nhất nhân đôi hình phạt và sự phán xét của lịch sử đối với những kẻ phản bội lời thề.
 
 ---
@@ -256,6 +291,7 @@ Nhưng giờ đây tôi hiểu rằng, sự cả tin và nỗi sợ hãi quyền
 Tôi vẫn luôn tôn trọng những người cảnh sát chân chính đang ngày đêm bảo vệ bình yên cho thành phố.
 Nhưng từ nay trở đi, nếu có một người tự xưng là cảnh sát chặn tôi lại trên đường vắng vào ban đêm, tôi sẽ không vội vàng bước lên xe của họ ngay lập tức.
 Tôi sẽ yêu cầu người đó cho tôi gọi điện đến tổng đài khẩn cấp của cảnh sát để xác minh danh tính và ca trực của họ ngay tại chỗ, hoặc đề nghị di chuyển đến một địa điểm công cộng có đông người và có camera giám sát.
+Tôi cũng tạo thói quen chia sẻ định vị trực tiếp với người thân mỗi khi phải di chuyển một mình vào ban đêm để luôn có một kênh kết nối an toàn.
 Bảo vệ sự an toàn của chính mình không phải là hành vi chống đối, mà là quyền cơ bản và trách nhiệm của mỗi công dân có hiểu biết pháp luật.
 
 **HOST** *(Tổng kết và chuyển sang phần giải pháp phòng vệ)*:
@@ -274,6 +310,8 @@ Thứ hai là Thái độ đe dọa áp đảo cảm xúc và từ chối các q
 Một cảnh sát chuyên nghiệp luôn giữ thái độ điềm tĩnh, xưng hô chuẩn mực, giải thích rõ ràng lỗi vi phạm và tôn trọng quyền được hỏi của công dân.
 Thứ ba là Phản ứng tức giận và né tránh việc xác minh danh tính độc lập. Nếu người đó tỏ ra bực bội, giằng lấy điện thoại, cấm đoán bạn gọi điện thoại cho người thân hoặc cấm bạn gọi về tổng đài cảnh sát để kiểm tra ca trực, hãy chuẩn bị ngay phương án tự vệ và kêu cứu.
 Sự minh bạch là phẩm chất hàng đầu của người bảo vệ chân chính.
+Hãy nhớ rằng bất kỳ ai cố tình dùng nỗi sợ hãi pháp lý để ngăn cản bạn xác minh danh tính đều đang tự phơi bày ý đồ bất chính của mình.
+Trong mọi tình huống khẩn cấp, việc giữ bình tĩnh và lắng nghe trực giác bất an của bản thân có thể tạo ra ranh giới giữa sự sống và cái chết.
 
 **ĐIỀU TRA VIÊN** *(Đưa ra 2 nguyên tắc nghiệp vụ tự bảo vệ hợp pháp)*:
 Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng bất di bất dịch mà mỗi người dân cần ghi nhớ để bảo vệ mình là:
@@ -284,11 +322,16 @@ Thứ hai, Yêu cầu di chuyển đến Địa điểm Công cộng sáng đèn
 Bạn hoàn toàn có quyền đề nghị được đi bộ hoặc lái xe chậm đến trạm xăng gần nhất, cửa hàng tiện lợi có đông người hoặc trụ sở công an phường gần nhất để làm việc.
 Nếu đối tượng có hành vi sử dụng vũ lực để cưỡng ép trái pháp luật, hãy lập tức la lớn, bấm còi xe liên tục để phát tín hiệu khẩn cấp và tạo ra sự chú ý tối đa của những người xung quanh để tự giải thoát.
 Sự tỉnh táo và kiên quyết thực thi quyền công dân chính là tấm khiên phòng vệ tốt nhất trước những kẻ thủ ác đội lốt người bảo vệ.
+Đồng thời, về phía các cơ quan hành pháp, việc siết chặt quy trình thẩm tra lý lịch định kỳ, xây dựng hệ thống cảnh báo liên thông toàn quốc và xóa bỏ văn hóa bao che nội bộ là điều kiện sống còn để giữ gìn sự trong sạch của tấm phù hiệu.
+Một nền công lý mạnh mẽ không phải là nền công lý không bao giờ có sai sót, mà là nền công lý dám đối diện và loại bỏ những cá nhân biến chất một cách triệt để nhất.
 
 **HOST** *(Giọng trầm ấm, đúc kết triết lý nhân sinh và kết thúc chuyên đề Bẫy Hào Quang)*:
 Tấm phù hiệu công lý hay bộ sắc phục chỉ thực sự mang lại sự an toàn khi nó được khoác lên những con người có trái tim chính trực, tinh thần thượng tôn pháp luật và lòng tôn trọng sinh mạng con người.
 Hãy luôn giữ cho mình một niềm tin sáng suốt vào công lý đích thực, nhưng đừng bao giờ từ bỏ sự tỉnh táo và trách nhiệm tự bảo vệ bản thân trước những bóng ma tha hóa quyền lực.
 Tập phim hôm nay cũng chính thức khép lại Chuyên đề mười tập về Bẫy Hào Quang Và Ảo Tưởng Thủ Ác của Amber Eyes.
+Nhìn lại chặng đường mười tập vừa qua, từ những thiên tài công nghệ, những bậc thầy tài chính, những người thầy y tế và huấn luyện viên tận tụy, cho đến những người khoác lên mình tấm phù hiệu công lý, chúng ta nhận ra một sợi chỉ đỏ xuyên suốt:
+Cái ác nguy hiểm nhất hiếm khi xuất hiện trong bộ dạng hung dữ dễ nhận biết, mà thường ẩn nấp sau những chiếc mặt nạ hào nhoáng nhất của trí tuệ, sự giàu sang, lòng bác ái và quyền lực.
+Vũ khí duy nhất có thể bảo vệ chúng ta trước mọi chiếc bẫy hào quang không phải là sự đa nghi cực đoan, mà là tư duy phản biện tỉnh táo, thói quen kiểm chứng độc lập và lòng dũng cảm dám đặt câu hỏi trước mọi uy quyền.
 Chúng tôi hy vọng rằng chuỗi hồ sơ phân tích tâm lý học tội phạm chuyên sâu này đã mang lại cho quý vị những góc nhìn đa chiều, khoa học và những bài học sinh tồn thiết thực nhất giữa đời sống hiện đại.
 Cảm ơn quý vị và các bạn đã luôn đồng hành, ủng hộ Amber Eyes trong suốt thời gian qua.
 Nếu quý vị thấy những nội dung này hữu ích, hãy chia sẻ rộng rãi đến cộng đồng để cùng nhau lan tỏa tri thức, nâng cao cảnh giác và xây dựng một xã hội an toàn, nhân văn hơn.

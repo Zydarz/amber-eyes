@@ -42,6 +42,7 @@ Với lại, những bức tranh cổ vật đó vốn dĩ thuộc về các b�
 Còn các ngân hàng lớn thì mất tiền đã có các quỹ bảo hiểm quốc tế đứng ra bảo lãnh và hoàn tiền cho khách hàng một trăm phần trăm sau vài thủ tục tra soát.
 Người tiêu dùng bình thường như chúng tôi nếu có bị hack thẻ thì ra ngân hàng khai báo là được cấp lại thẻ mới và hủy các giao dịch gian lận ngay tức khắc.
 Rõ ràng là không có ai phải chịu đau đớn về mặt thể xác, cũng không có gia đình nào bị phá sản hay mất mạng vì những vụ trộm đó cả.
+Thậm chí trên mạng xã hội, nhiều người còn tung hô những kẻ trộm tranh hay hacker là những bộ óc thiên tài biết cách lấy của người giàu chia cho chính mình.
 Tội ác đó nếu có sai thì cũng chỉ là vi phạm các quy định hành chính về sở hữu trí tuệ hay luật sở hữu tài sản thôi, chứ sao so sánh được với những vụ cướp của giết người ngoài đời thực được?
 
 **HOST** *(Tiếp tục dẫn dắt bóc trần chiếc bẫy nhận thức)*:
@@ -49,6 +50,7 @@ Tội ác đó nếu có sai thì cũng chỉ là vi phạm các quy định hà
 Chúng ta dễ dàng bị mê hoặc bởi sự hào nhoáng của trí tuệ công nghệ mà quên mất rằng: Bất kỳ sự chiếm đoạt nào cũng để lại những nạn nhân thực tế trong đời thực.
 Khi một hành vi sai trái được hợp thức hóa bằng lập luận không ai bị thương, nó sẽ từ từ ăn mòn nền tảng liêm chính của cả một cộng đồng.
 Sự phủ nhận thiệt hại chính là chiếc cầu nối nguy hiểm nhất đưa một con người từ những vi phạm nhỏ bước vào thế giới của tội phạm chuyên nghiệp mà không hề cảm thấy cắn rứt lương tâm.
+Khi một xã hội dễ dãi với những hành vi gian lận không đổ máu, nó vô tình gửi đi thông điệp rằng sự trung thực là điều không cần thiết nếu biết cách lách luật.
 Và câu hỏi đặt ra là: Điều gì đã thực sự diễn ra bên trong hệ thần kinh của những kẻ thủ ác khi chúng thản nhiên biến tài sản của xã hội thành chiến lợi phẩm của riêng mình?
 
 **HOST** *(Trầm giọng, phân tích sự đối lập sâu sắc)*:
@@ -60,18 +62,20 @@ Chúng tự biến mình thành những chàng hiệp sĩ Robin Hood hiện đ�
 Để hiểu rõ cách thức cơ chế Phủ nhận thiệt hại vận hành và làm tê liệt lương tâm con người ra sao, chúng ta cần sự phân tích chuyên sâu từ khoa học tâm lý học tội phạm.
 
 **CHUYÊN GIA TÂM LÝ** *(Giọng nữ sắc sảo, tự tin, mang chiều sâu học thuật)*:
-Phát biểu của người bình thường vừa rồi đã chạm vào cốt lõi của Kỹ thuật Trung hòa — Phủ nhận Thiệt hại, tức Denial of Injury, một trong năm kỹ thuật trung hòa kinh điển do hai nhà tội phạm học Gresham Sykes và David Matza phát triển, sau đó được Albert Bandura tích hợp vào học thuyết Cắt đứt đạo đức.
+Phát biểu của người bình thường vừa rồi đã chạm vào cốt lõi của Kỹ thuật Trung hòa — Phủ nhận Thiệt hại, tức Denial of Injury, do hai nhà tội phạm học Gresham Sykes và David Matza công bố năm 1957, sau đó được Albert Bandura phát triển thành cơ chế Bóp méo Hậu quả trong học thuyết Cắt đứt đạo đức.
+Theo Sykes và Matza, những kẻ phạm tội không hẳn là thiếu hiểu biết về chuẩn mực đạo đức của xã hội; trái lại, chúng vẫn hiểu rõ điều gì là sai trái, nhưng chúng dùng kỹ thuật trung hòa để tạm thời vô hiệu hóa lương tâm trước khi hành động.
 Về mặt tâm lý học nhận thức, hành vi gây hại chỉ kích hoạt cảm giác cắn rứt lương tâm khi kẻ gây hại nhìn thấy hoặc hình dung được nỗi đau đớn thể xác cụ thể của đối tượng bị hại.
 Nếu thiệt hại không thể nhìn thấy bằng mắt thường, hoặc được trung gian hóa qua một tổ chức vô danh như công ty bảo hiểm hay ngân hàng, khoảng cách tâm lý (Psychological Distance) sẽ tăng lên mức tối đa.
 Kẻ thủ ác đã thực hiện một thủ thuật ngôn từ nhận thức:
 Hắn không coi hành vi của mình là Trộm cắp hay Lừa đảo; hắn gọi đó là Sự mượn tạm, Sự tái phân phối tài sản, hoặc Sự trải nghiệm nghệ thuật độc quyền.
 Hắn tự thuyết phục bản thân rằng: Nếu đối phương có thể dễ dàng bù đắp thiệt hại bằng tiền bảo hiểm, thì hành vi của hắn hoàn toàn không gây ra bất kỳ vết thương thực tế nào cho xã hội.
 Hắn tước bỏ vị thế nạn nhân của những người bị cướp đoạt, biến hành vi phạm tội nghiêm trọng thành một trò chơi trí tuệ vô hại.
-Và minh chứng kinh điển nhất cho sự tha hóa nhận thức phủ nhận thiệt hại này trong lịch sử nghệ thuật thế giới chính là siêu trộm Stephane Breitwieser tại châu Âu.
+Và khi thiệt hại bị thu nhỏ xuống bằng không trong tâm trí, chiếc phanh đạo đức cuối cùng bên trong con người hắn cũng chính thức bị tháo gỡ.
+Và minh chứng kinh điển nhất cho sự tha hóa nhận thức phủ nhận thiệt hại này trong lịch sử nghệ thuật thế giới chính là Stephane Breitwieser tại châu Âu.
 
 **HOST** *(Tiếp nối mạch kịch tính, mở ra hồ sơ án)*:
 Stephane Breitwieser, một người bồi bàn bình thường người Pháp nhưng đã trở thành nỗi kinh hoàng lớn nhất và khó nắm bắt nhất trong lịch sử các bảo tàng châu Âu.
-Trong suốt sáu năm từ năm một nghìn chín trăm chín mươi lăm đến năm hai nghìn không trăm lẻ một, hắn đã đột nhập gần hai trăm bảo tàng danh giá khắp bảy quốc gia châu Âu.
+Trong suốt sáu năm từ năm một nghìn chín trăm chín mươi lăm đến năm hai nghìn không trăm lẻ một, hắn đã đột nhập một trăm bảy mươi hai bảo tàng danh giá khắp bảy quốc gia châu Âu.
 Hắn đã đánh cắp trót lọt hai trăm ba mươi chín tác phẩm nghệ thuật vô giá với tổng trị giá ước tính hơn một tỷ bốn trăm triệu đô la Mỹ.
 Thế nhưng, hắn không bán một bức tranh nào; hắn cất giấu toàn bộ trong căn phòng ngủ nhỏ của mẹ mình để ngắm nhìn mỗi ngày trong bóng tối.
 Hắn luôn miệng khẳng định với các điều tra viên rằng: Hắn không phải là kẻ trộm, hắn là một người cứu rỗi nghệ thuật khỏi sự giam cầm.
@@ -90,7 +94,8 @@ Từ năm 1995 đến cuối năm 2001, các cơ quan an ninh bảo tàng và c�
 Hàng trăm cổ vật quý giá, những bức tranh sơn dầu của các danh họa thế kỷ mười sáu, mười bảy như Pieter Brueghel, Antoine Watteau, những chiếc hộp bạc cổ và vũ khí thời Phục hưng liên tục biến mất ngay giữa ban ngày tại các bảo tàng công lập và tư nhân.
 Kẻ trộm không dùng đến bom khói, không đột kích ban đêm hay dùng súng đe dọa bảo vệ như trong phim ảnh Hollywood.
 Hắn hành động với sự điềm tĩnh và chính xác đến kinh ngạc:
-Mặc những bộ vest lịch lãm, đi cùng người bạn gái Anne-Catherine Kleinklaus, hắn mua vé bước vào bảo tàng như một du khách say mê nghệ thuật.
+Mặc những bộ vest lịch lãm, đi cùng người bạn gái Anne-Catherine Kleinklaus đóng vai người cảnh giới, hắn mua vé bước vào bảo tàng như một du khách say mê nghệ thuật.
+Hắn chủ động nhắm vào những bảo tàng địa phương nhỏ lẻ ở các tỉnh lẻ châu Âu, nơi hệ thống camera giám sát còn thưa thớt và nhân viên bảo vệ thường chủ quan trước vẻ ngoài trí thức.
 Lợi dụng những giây phút người bảo vệ đổi ca hoặc đi tuần sang phòng khác, hắn dùng một con dao nhỏ khéo léo rạch lớp keo dán khung kính, tháo rời bức tranh khỏi khung gỗ, cuộn lại giấu vào trong chiếc áo khoác rộng thùng thình, rồi thản nhiên bước qua cửa kiểm soát trước mắt nhân viên bảo vệ.
 Trung bình cứ mười lăm ngày, hắn lại thực hiện thành công một vụ trộm báu vật.
 Ngày 20 tháng 11 năm 2001, tại Bảo tàng Nghệ thuật Richard Wagner ở Lucerne, Thụy Sĩ, sau khi đánh cắp một chiếc kèn săn cổ từ thế kỷ mười sáu, Breitwieser đã phạm phải một sai lầm chết người:
@@ -98,6 +103,7 @@ Hai ngày sau, hắn tò mò quay trở lại bảo tàng để quan sát phản
 Cảnh sát Thụy Sĩ lập tức thông báo cho Cảnh sát Quốc gia Pháp tiến hành khám xét khẩn cấp căn hộ của mẹ Breitwieser tại thị trấn Mulhouse, miền đông nước Pháp.
 Khi các điều tra viên bước vào căn phòng ngủ trên tầng áp mái, họ đã chứng kiến một cảnh tượng chấn động toàn bộ giới khảo cổ và nghệ thuật toàn cầu:
 Căn phòng nhỏ bé ngập tràn những kiệt tác nghệ thuật vô giá từ thời Trung cổ và Phục hưng được treo kín các bức tường và đặt la liệt trên giường ngủ, tổng trị giá ước tính lên tới hơn một tỷ bốn trăm triệu đô la Mỹ.
+Không có bất kỳ hệ thống bảo quản độ ẩm hay ánh sáng tiêu chuẩn nào; những bức tranh hàng trăm năm tuổi nằm chen chúc giữa đồ đạc sinh hoạt thường ngày.
 Thế nhưng, điều khiến các thẩm phán và điều tra viên kinh ngạc nhất chính là thái độ tự bào chữa của Breitwieser tại phòng thẩm vấn.
 
 **HOST** *(Đặt câu hỏi khai thác nghiệp vụ chuyên sâu)*:
@@ -118,7 +124,7 @@ Hắn nói rằng hắn mang các bức tranh về nhà để chăm sóc chúng 
 Hắn liên tục nhấn mạnh trước tòa rằng: Tôi không làm ai bị thương, tôi không đe dọa bất kỳ mạng người nào, các bảo tàng đều được các hãng bảo hiểm bồi thường gấp đôi giá trị, vậy thì tôi làm hại ai chứ?
 Thế nhưng, sự thật tàn khốc và đáng ghê tởm đằng sau lời ngụy biện vô hại đó đã lộ diện trong một bi kịch đau đớn nhất của lịch sử văn hóa:
 Khi Breitwieser bị bắt giữ tại Thụy Sĩ, mẹ của hắn là bà Mireille Stengel vì quá hoảng sợ trước cuộc điều tra của cảnh sát đã dùng máy cắt cỏ, kéo và dao để tiêu hủy, xé nát hơn sáu mươi bức tranh vô giá của các danh họa thế kỷ mười sáu, đập nát các bình gốm cổ rồi ném toàn bộ mảnh vụn xuống lòng kênh đào Rhone-Rhine.
-Hàng chục kiệt tác độc bản của các bậc thầy hội họa thế giới đã vĩnh viễn biến mất khỏi lịch sử văn minh nhân loại chỉ vì sự ngụy biện ích kỷ của một kẻ nhân danh tình yêu nghệ thuật để chối bỏ trách nhiệm đạo đức.
+Dù lực lượng chức năng sau đó đã nỗ lực nạo vét lòng kênh và thu hồi được khoảng một trăm hiện vật trong tình trạng hư hại nặng nề, nhưng hàng chục kiệt tác độc bản của các bậc thầy hội họa thế giới đã vĩnh viễn biến mất khỏi lịch sử văn minh nhân loại chỉ vì sự ngụy biện ích kỷ của một kẻ nhân danh tình yêu nghệ thuật để chối bỏ trách nhiệm đạo đức.
 
 **CHUYÊN GIA TÂM LÝ** *(Phân tích dấu ấn Chữ ký tâm lý và Sự ngắt kết nối thấu cảm văn hóa)*:
 Dưới lăng kính tâm lý học tội phạm chuyên sâu, Stephane Breitwieser là hiện thân hoàn hảo của một kẻ Ái kỷ thẩm mỹ bệnh lý (Aesthetic Narcissism) kết hợp với Cơ chế Phủ nhận thiệt hại cực đoan.
@@ -133,6 +139,7 @@ Hắn không hề hiểu rằng một bức tranh bị đánh cắp không chỉ
 Sự phủ nhận thiệt hại đã biến một tên trộm bạt mạng thành một kẻ tự phong thánh cho lòng tham bệnh hoạn của chính mình.
 Khi kẻ phạm tội tách rời hành vi của mình khỏi những nỗi đau đớn cụ thể của con người, mọi ranh giới đạo đức đều sẽ bị xóa nhòa trong chớp mắt.
 Hắn không còn nhìn thấy những giọt nước mắt của người phụ trách bảo tàng, không còn thấy sự hụt hẫng của những người yêu cái đẹp, mà chỉ nhìn thấy chiến lợi phẩm trong căn phòng ngủ khép kín.
+Hơn thế nữa, chính sự tự phụ rằng mình yêu nghệ thuật hơn cả những người quản lý bảo tàng đã khiến hắn mù quáng trước rủi ro hủy diệt mà hành vi trộm cắp của mình gây ra cho các cổ vật mỏng manh.
 Đó chính là khởi đầu của sự mù lòa lương tâm toàn diện.
 
 ---
@@ -159,6 +166,7 @@ Tôi cảm thấy như có một kẻ vô hình đang theo dõi từng bữa ăn
 Nhiều người nói với tôi rằng: Ngân hàng đền tiền rồi thì thôi, có mất gì đâu mà phải lo lắng.
 Nhưng sự thật đâu phải đơn giản như vậy!
 Chúng tôi đã phải mất bao nhiêu thời gian, công sức, sự lo sợ và căng thẳng tâm lý để đi chứng minh mình vô tội và đòi lại tiền mồ hôi nước mắt của mình.
+Nhiều giao dịch tự động thiết yếu như tiền điện nước hay học phí của con cái bị đình trệ hoàn toàn trong thời gian chờ đợi ngân hàng xác minh lại toàn bộ lịch sử tài chính.
 Những kẻ ngồi gõ phím đánh cắp thông tin thẻ tín dụng của người khác không bao giờ hiểu được nỗi khổ sở và sự hoảng loạn tinh thần mà chúng đã gây ra cho hàng triệu gia đình vô tội.
 Chúng đã biến sự bình yên của người khác thành những khoản tiền bẩn phục vụ cho lối sống xa hoa, hưởng lạc ích kỷ của riêng mình.
 Sự ngụy biện về một tội ác không có nạn nhân thực chất là sự nhẫn tâm cao độ của những kẻ hèn nhát không dám đối mặt với hậu quả do mình gây ra.
@@ -172,6 +180,7 @@ Cơ chế Phủ nhận thiệt hại ở đây được củng cố mạnh mẽ 
 Kẻ thủ ác tự thuyết phục bản thân rằng các ngân hàng, các công ty thẻ tín dụng và các tập đoàn bán lẻ khổng lồ là những thực thể tư bản tham lam, kiếm hàng tỷ đô la mỗi năm từ phí dịch vụ và tiền lãi của người dân.
 Hắn tự coi hành vi đánh cắp dữ liệu của mình như một dạng thuế phạt công nghệ giáng vào sự lỏng lẻo của các hệ thống an ninh mạng tập đoàn, và tự nhủ rằng các hợp đồng bảo hiểm rủi ro hàng trăm triệu đô la sẽ luôn là tấm đệm hoàn hảo hấp thụ toàn bộ thiệt hại tài chính.
 Hắn tự cho rằng mình không hề ăn cắp của người nghèo, mà chỉ đang lấy tiền từ những két sắt bảo hiểm không bao giờ cạn kiệt.
+Sự ẩn danh của không gian mạng đóng vai trò như một lớp kính một chiều: kẻ tấn công nhìn thấy lợi ích tài chính ngay trước mắt, nhưng hoàn toàn mù lòa trước nỗi khốn khổ của nạn nhân ở đầu dây bên kia.
 Đó là sự mù quáng đạo đức điển hình của thời đại số: Kẻ thủ ác hoàn toàn tê liệt trước những tổn thương tâm lý, sự xáo trộn đời sống thực tế và sự bất an kéo dài mà hàng triệu con người phải gánh chịu gián tiếp từ hành vi bấm chuột vô cảm của hắn.
 
 **HOST** *(Mở rộng sang hồ sơ vụ án Albert Gonzalez)*:
@@ -194,6 +203,7 @@ Ngày 7 tháng 5 năm 2008, các đặc vụ Mật vụ Mỹ đã đột kích v
 Hắn bị bắt quả tang cùng hai chiếc máy tính xách tay mã hóa cao cấp và một chiếc vali chứa hai mươi hai nghìn đô la tiền mặt.
 Khám xét sân sau nhà của cha mẹ hắn, các điều tra viên đã đào lên một chiếc thùng nhựa kín chôn sâu dưới đất chứa một triệu sáu trăm nghìn đô la tiền mặt mà Gonzalez giấu sẵn để phòng thân.
 Tại phiên tòa, các điều tra viên đã chứng minh Gonzalez đã tiêu xài hàng triệu đô la chiếm đoạt được cho những bữa tiệc xa hoa, mua xe thể thao BMW, đồng hồ Rolex đắt tiền và tổ chức sinh nhật mừng tuổi hai mươi bảy với chi phí hơn bảy mươi lăm nghìn đô la cho bạn bè.
+Không hề có bất kỳ lý tưởng chống lại tập đoàn tư bản nào như lời ngụy biện của các tin tặc; đằng sau những dòng mã độc chỉ là lòng tham vật chất thuần túy.
 Toàn bộ lập luận về việc không gây thiệt hại cho ai đã hoàn toàn sụp đổ trước những tổn thất thực tế khổng lồ và sự hoang phí vô đạo đức của kẻ thủ ác.
 
 ---
@@ -212,7 +222,7 @@ Thế nhưng, các công tố viên nhà nước và hội đồng thẩm phán 
 Họ chỉ ra rằng Breitwieser hành động với một sự tính toán cực kỳ tỉnh táo, có phương pháp nghiên cứu hệ thống an ninh chu đáo, có kế hoạch tẩu thoát chuyên nghiệp, và sự ích kỷ thẩm mỹ tột cùng của hắn đã trực tiếp dẫn đến việc phá hủy vĩnh viễn hơn sáu mươi kiệt tác nghệ thuật vô giá của văn minh nhân loại dưới lòng kênh đào.
 Tòa án đã tuyên phạt Stephane Breitwieser ba năm tù giam tại Pháp, cộng thêm hai năm tù giam mà hắn đã phải chấp hành tại Thụy Sĩ, đồng thời buộc hắn và mẹ phải chịu trách nhiệm dân sự bồi thường hàng triệu euro cho các bảo tàng bị hại.
 Còn tại Tòa án Liên bang ở Boston, Hoa Kỳ vào tháng 3 năm 2010, Albert Gonzalez đã phải đứng trước phiên tòa tuyên án hình sự liên bang lớn nhất trong lịch sử chống tội phạm công nghệ cao của nước Mỹ.
-Trước những chứng cứ điều tra số học không thể chối cãi của Mật vụ Mỹ, Thẩm phán Tòa án Quận Douglas Woodlock đã tuyên phạt Albert Gonzalez mức án kỷ lục hai mươi năm tù giam cho vụ án xâm nhập Heartland Payment Systems và hai mươi năm tù giam cho vụ án TJX Companies, thi hành đồng thời tại nhà tù an ninh nghiêm ngặt liên bang.
+Trước những chứng cứ điều tra số học không thể chối cãi của Mật vụ Mỹ, Thẩm phán Tòa án Quận Douglas Woodlock đã tuyên phạt Albert Gonzalez mức án kỷ lục hai mươi năm và một ngày tù giam cho vụ án xâm nhập Heartland Payment Systems, chạy song song với bản án hai mươi năm tù giam do Thẩm phán Patti Saris tuyên phạt cho vụ án TJX Companies tại nhà tù an ninh nghiêm ngặt liên bang.
 Đây là bản án tù dài nhất từng được tuyên phạt đối với một tội phạm mạng tại Mỹ vào thời điểm đó, một lời cảnh tỉnh đanh thép gửi tới toàn bộ thế giới ngầm kỹ thuật số.
 Thẩm phán Woodlock đanh thép tuyên bố trước phòng xử án: Bị cáo đã gây ra một tổn thất tài chính, sự xáo trộn kinh tế và sự hủy hoại niềm tin xã hội vô cùng khủng khiếp. Tội ác của ngươi không hề vô hại như những dòng mã trên màn hình; nó đã xâm phạm sự an toàn và đời sống của hàng triệu con người lương thiện và ngươi phải trả một cái giá tương xứng cho sự ngạo mạn công nghệ của mình.
 
@@ -235,6 +245,7 @@ Hắn hiểu ra một cách đau đớn rằng: Những dòng tiền ảo, nhữ
 Đó là sự trả giá tất yếu của những bộ óc thông minh nhưng thiếu vắng nền tảng đạo đức, sự thấu cảm và trách nhiệm đối với đồng loại.
 Công lý không bao giờ để cho sự tinh vi của công nghệ hay những lập luận xảo biện che mờ bản chất của cái ác.
 Mọi hành vi gieo rắc sự tổn thương cho xã hội đều sẽ phải gánh chịu những chế tài trừng phạt tương xứng.
+Không một khoảng cách kỹ thuật số nào, không một hợp đồng bảo hiểm nào có thể xóa nhòa trách nhiệm đạo đức của kẻ trực tiếp gây ra sự mất mát cho cộng đồng.
 
 ---
 
@@ -259,16 +270,19 @@ Theo dõi toàn bộ hai vụ án này từ đầu đến cuối, tôi thực s�
 Trước đây, tôi đã quá ngây thơ và thiếu hiểu biết khi nghĩ rằng những vụ trộm cắp nghệ thuật hay tội phạm mạng là vô hại vì đã có các công ty bảo hiểm và ngân hàng lớn đứng ra chi trả đền bù.
 Nhưng giờ đây tôi đã hiểu một cách sâu sắc rằng: Không có một khoản tiền bảo hiểm nào dù khổng lồ đến đâu có thể mua lại được những kiệt tác hội họa vô giá đã bị cắt nát và hủy hoại vĩnh viễn dưới lòng kênh đào tăm tối.
 Đó là sự mất mát vĩnh viễn không thể bù đắp của lịch sử và văn hóa nhân loại.
+Mỗi bức tranh bị xé nát là một phần ký ức chung của thế giới bị xóa sổ, không một đồng tiền nào có thể phục hồi nguyên vẹn được nữa.
 Và những tổn thất hàng trăm triệu đô la của các ngân hàng cuối cùng cũng sẽ được phân bổ lại vào phí dịch vụ, phí thường niên và lãi suất vay mượn mà chính những người tiêu dùng bình thường như chúng tôi phải è cổ gánh chịu mỗi ngày.
 Đáng sợ hơn cả là sự bất an, lo lắng tột cùng và nỗi hoang mang tinh thần của hàng triệu nạn nhân bị xâm phạm thông tin cá nhân riêng tư.
 Từ nay trở đi, tôi sẽ không bao giờ nhìn nhận tội phạm kinh tế hay tội phạm công nghệ cao như một trò chơi trí tuệ đáng ngưỡng mộ nữa.
 Tôi học cách tôn trọng tuyệt đối bản quyền, bảo vệ di sản văn hóa và nâng cao ý thức cảnh giác bảo vệ dữ liệu cá nhân của chính mình.
 Sự trung thực, tôn trọng công sức của người khác và tinh thần thượng tôn pháp luật mới là thước đo giá trị đích thực của trí tuệ con người.
+Tôi cũng sẽ chia sẻ những hiểu biết này với bạn bè xung quanh để không còn ai cổ vũ cho những hành vi gian lận công nghệ hay xâm phạm tài sản công nữa.
 
 **HOST** *(Tổng kết và chuyển sang phần giải pháp phòng vệ)*:
 Đó là sự trưởng thành nhận thức vô cùng lớn lao và quý giá mà mỗi công dân trong xã hội hiện đại cần phải tự trang bị cho mình.
 Khi chúng ta hiểu rõ bản chất của những sự tổn thương vô hình trong đời sống, chúng ta sẽ có ý thức trách nhiệm cao hơn trong việc bảo vệ thành quả lao động của bản thân và tôn trọng di sản của cộng đồng.
 Sự thịnh vượng bền vững của một quốc gia không thể dung dưỡng những hành vi trộm cắp được khoác lên mình chiếc áo choàng vô hại.
+Mỗi đồng tiền mồ hôi nước mắt và mỗi tác phẩm nghệ thuật đều mang trong mình giá trị thiêng liêng cần được pháp luật và lương tri bảo vệ.
 Để giúp quý khán giả có thể nhận diện sớm những biểu hiện của cơ chế phủ nhận thiệt hại và biết cách tự bảo vệ an toàn tài sản cá nhân trong kỷ nguyên số, Chuyên gia tâm lý và Điều tra viên sẽ đúc kết các bài học cảnh báo đỏ cốt lõi nhất.
 
 **CHUYÊN GIA TÂM LÝ** *(Đưa ra 3 cảnh báo đỏ tâm lý học nhận diện xu hướng phủ nhận thiệt hại)*:
@@ -278,7 +292,8 @@ Thứ nhất là Thói quen hợp thức hóa những vi phạm nhỏ bằng l�
 Thứ hai là Xu hướng lãng mạn hóa các hành vi phạm tội trí tuệ cao (Romanticizing White-Collar Crime). Những cá nhân luôn thể hiện sự ngưỡng mộ mù quáng đối với các tin tặc đánh cắp dữ liệu, các siêu trộm cổ vật hoặc những kẻ lừa đảo tài chính tinh vi, coi họ như những người hùng Robin Hood phá vỡ trật tự xã hội nhàm chán.
 Sự lệch lạc nhận thức này khiến họ dễ dàng đồng lõa và thỏa hiệp với cái ác khi có cơ hội trục lợi cho bản thân.
 Thứ ba là Sự vô cảm hoàn toàn trước những tổn thương gián tiếp của người khác (Lack of Indirect Empathy). Khi một người chỉ cảm thấy có lỗi nếu trực tiếp nhìn thấy ai đó chảy máu, nhưng hoàn toàn dửng dưng khi hành vi của mình khiến người khác bị mất việc làm, bị trừ lương, bị căng thẳng tinh thần kéo dài hoặc mất uy tín xã hội.
-Đó là sự thiếu hụt nghiêm trọng về trí tuệ cảm xúc và sự thấu cảm đạo đức xã hội.
+Sự thiếu hụt nghiêm trọng về trí tuệ cảm xúc và sự thấu cảm đạo đức xã hội này chính là mảnh đất màu mỡ cho tội phạm cổ cồn trắng phát triển.
+Khi bạn nghe ai đó cười cợt trước nỗi mất mát tài chính hoặc tinh thần của người khác chỉ vì không có máu đổ, hãy coi đó là một lời cảnh báo đỏ thực sự.
 
 **ĐIỀU TRA VIÊN** *(Đưa ra 2 nguyên tắc nghiệp vụ thực chứng tự bảo vệ tài sản và dữ liệu)*:
 Và dưới góc độ nghiệp vụ điều tra thực chứng, hai nguyên tắc vàng bất di bất dịch mà mỗi người dân cần thực hiện nghiêm ngặt để bảo vệ tài sản và an toàn thông tin trong thời đại số là:
@@ -286,6 +301,8 @@ Thứ nhất, Quản trị Rủi ro Dữ liệu Cá nhân và Kích hoạt Hệ 
 Bọn tội phạm mạng thường thử nghiệm bằng các giao dịch số tiền rất nhỏ trước khi thực hiện các đợt rút tiền quy mô lớn làm cạn kiệt tài khoản của bạn.
 Thứ hai, Tôn trọng và Kiên quyết Bảo vệ Bản quyền Di sản Văn hóa trong Không gian Sống. Hãy kiên quyết nói không với việc tiêu thụ, mua bán các sản phẩm văn hóa, nghệ thuật sao chép lậu, các tài liệu không rõ nguồn gốc xuất xứ; và chủ động báo cáo các hành vi xâm nhập hệ thống, phát tán mã độc tống tiền hoặc buôn bán cổ vật trái phép cho cơ quan công an phòng chống tội phạm công nghệ cao.
 Sự cảnh giác, ý thức tự giác và hành động kiên quyết của mỗi người dân chính là bức tường thành vững chắc nhất ngăn chặn các dòng tội phạm vô hình hủy hoại nền tảng đạo đức của xã hội.
+Đừng bao giờ tiếp tay cho những hành vi xâm phạm bản quyền hay gian lận nhỏ lẻ chỉ vì nghĩ rằng chúng không gây hại cho ai.
+Bởi chính sự dễ dãi đó sẽ tạo điều kiện cho những kẻ coi thường pháp luật ngày càng lấn tới và gây ra những hậu quả khôn lường cho toàn xã hội.
 
 **HOST** *(Giọng trầm ấm, đúc kết triết lý nhân sinh và kết thúc chương trình)*:
 Sự văn minh của nhân loại không chỉ được xây dựng bằng những công trình bê tông đồ sộ hay những thành tựu công nghệ choáng ngợp, mà được gìn giữ bằng sự tôn trọng thiêng liêng đối với phẩm giá, công sức lao động và sự an toàn của từng con người.

@@ -10,23 +10,28 @@
 ---
 
 ## I. ĐO LƯỜNG ĐỊNH LƯỢNG KỸ THUẬT (THEO LUẬT L3 & QUY CHUẨN KÊNH)
-- **Số elements kịch bản:** 33 elements.
-- **Số câu thoại thực tế (đo bằng script chuẩn `.work/parse_kichban.py`):** **201 câu thoại** (Đạt chuẩn $\ge 200$ câu thoại, tương đương ~22-25 phút thời lượng video dựng).
-- **Hệ thống 5 vai (4 tầng nhận thức):**
-  - `HOST`: 30 câu (Dẫn nhập, kết nối chuyên gia, nâng tầm thông điệp xã hội và pháp lý).
-  - `NGƯỜI BÌNH THƯỜNG` (N1 - Cừu & N2 - Mèo): 41 câu (Thức tỉnh nhận thức 3 giai đoạn: Từ sùng bái sếp tài giỏi, bàng hoàng trước sự sụp đổ đến trang bị kỹ năng phòng vệ công sở & an toàn tài chính).
-  - `CHUYÊN GIA TÂM LÝ` (Cáo Trắng): 49 câu (Giải phẫu khái niệm Successful Psychopath theo Robert Hare & Paul Babiak, nghiên cứu Surrey của Board & Fritzon, phân biệt Cognitive Empathy vs. Emotional Empathy, Vỏ não trước trán PFC).
-  - `ĐIỀU TRA VIÊN` (Sói Xám): 81 câu (Bóc tách chi tiết hai đại án kinh tế, mô hình 3 giai đoạn xâm chiếm tổ chức "Snakes in Suits", 2 nguyên tắc vàng Paper Trail & Kênh tố giác).
+- **Ngày cập nhật bổ sung:** 27/11/2026
+- **Bản sao lưu trước khi bổ sung (L5):** `.work/_cu/kichban_tap28_cd02_20261127_truoc_bosung.md`
+- **Tổng số câu thoại thực tế:** **216 dòng thoại / 226 câu** (đạt mục tiêu ≥ 225 câu thoại; chuẩn hóa `CHUYÊN GIA TÂM LÝ` và `Bernard Madoff`; 0 lỗi dấu ba chấm G1).
+- **Phân bổ 5 hồi:**
+  - **Hồi 1:** Bổ sung số liệu nghiên cứu năm 2010 của Paul Babiak, Craig Neumann & Robert Hare (*Behavioral Sciences & the Law* — 203 lãnh đạo doanh nghiệp, tỷ lệ 3,9%, cơ chế "talking the walk").
+  - **Hồi 2 (Jeffrey Skilling & Enron):** Bổ sung người tố giác Sherron Watkins (8/2001), Chủ tịch Kenneth Lay (qua đời 7/2006), sách *The Smartest Guys in the Room* (Bethany McLean & Peter Elkind), và cập nhật **Skilling được giảm án xuống 14 năm (6/2013) và trả tự do tháng 2/2019**.
+  - **Hồi 3 (Bernie Madoff):** Đính chính **"tầng hầm bí mật"** thành **Tầng 17 tòa nhà Lipstick Building** (Manhattan) với máy tính **IBM AS/400**; bổ sung việc hai con trai Mark & Andrew Madoff trình báo FBI (12/2008), Andrew Madoff qua đời năm 2014, và nhận định **"độc ác phi thường"** của Thẩm phán Denny Chin (6/2009).
+  - **Hồi 4 (Thần kinh học & Quản trị):** Bổ sung chi tiết nghiên cứu năm 2005 của Board & Fritzon (39 lãnh đạo doanh nghiệp Anh), cảnh báo toán học của Harry Markopolos từ năm 2000 và cơ chế đánh giá đa chiều 360 độ.
+  - **Hồi 5 (Tổng kết & Phòng vệ):** 3 Red Flags nơi công sở và 2 nguyên tắc vàng.
 
 ---
 
 ## II. ĐỐI CHIẾU NGUỒN TƯ PHÁP CÔNG KHAI (LUẬT K1, K2, K3)
 1. **Hồ sơ Jeffrey Skilling & Enron:**
    - *Nguồn đối chiếu:* Hồ sơ Tòa án Quận phía Nam Texas (U.S. District Court for the Southern District of Texas), báo cáo điều tra của Ủy ban Điều tra Đặc biệt của Hội đồng Quản trị Enron (Powers Report), tác phẩm *The Smartest Guys in the Room* của Bethany McLean và Peter Elkind.
-   - *Tính xác thực:* Tên các công ty ma SPE (LJM, Chewco), phương pháp Mark-to-Market, hệ thống nhân sự "Rank and Yank" (sa thải 20% nhóm dưới mỗi năm), cuộc khủng hoảng năng lượng California 2000-2001, từ chức tháng 8/2001 và bán 60 triệu USD cổ phiếu, bản án 24 năm tù giam và 45 triệu USD bồi thường hoàn toàn chính xác.
+   - *Tính xác thực:* Tên các công ty ma SPE (LJM, Chewco), phương pháp Mark-to-Market, hệ thống nhân sự "Rank and Yank" (sa thải 20% nhóm dưới mỗi năm), người tố giác Sherron Watkins (8/2001), Chủ tịch Kenneth Lay (qua đời 7/2006), bản án ban đầu 24 năm (2006), giảm còn 14 năm (6/2013) và được trả tự do tháng 2/2019 ở tuổi 65.
 2. **Hồ sơ Bernie Madoff:**
    - *Nguồn đối chiếu:* Cáo trạng của Văn phòng Công tố viên Liên bang Quận Nam New York (SDNY), Báo cáo Thanh tra Nội bộ của SEC (OIG-509), phán quyết của Thẩm phán Denny Chin, các cuộc phỏng vấn tù nhân Butner của Steve Fishman.
-   - *Tính xác thực:* Bắt giữ 11/12/2008 tại penthouse Manhattan, quy mô 64,8 tỷ đô la, chức danh cựu Chủ tịch NASDAQ, không thực hiện giao dịch chứng khoán nào trong hơn 15 năm (sao kê giả tại tầng 17 tòa nhà Lipstick Building), câu nói trần trụi về lòng tham nạn nhân, mức án 150 năm tù và qua đời tại nhà tù Butner 4/2021.
+   - *Tính xác thực:* Bắt giữ 11/12/2008 sau khi hai con trai Mark & Andrew Madoff trình báo FBI, quy mô ~65 tỷ đô la, chức danh cựu Chủ tịch NASDAQ, sao kê giả in bằng máy tính IBM AS/400 tại **tầng 17 tòa nhà Lipstick Building** (Manhattan), nhận định "extraordinarily evil" của Thẩm phán Denny Chin (6/2009), mức án 150 năm tù và qua đời tại nhà tù Butner tháng 4/2021.
+3. **Cơ sở khoa học bổ sung (27/11/2026):**
+   - *Babiak, Neumann & Hare (2010):* "Corporate Psychopathy: Talking the Walk" (*Behavioral Sciences & the Law* — 203 lãnh đạo, tỷ lệ 3,9%).
+   - *Board & Fritzon (2005):* "Disordered personalities at work" (*Psychology, Crime & Law* — 39 lãnh đạo doanh nghiệp cấp cao người Anh).
 
 ---
 

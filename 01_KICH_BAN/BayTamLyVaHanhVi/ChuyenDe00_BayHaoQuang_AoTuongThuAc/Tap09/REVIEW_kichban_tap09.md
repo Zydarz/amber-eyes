@@ -6,12 +6,12 @@
 ### 1. THÔNG SỐ ĐO LƯỜNG KỸ THUẬT (Quy tắc L3 & K1-K10)
 - **Tập:** Tập 09 — Huấn Luyện Viên Tận Tụy (Quyền Lực Đằng Sau Ánh Hào Quang Thể Thao Và Sự Bảo Kê Của Thể Chế).
 - **Tổng số elements:** 36 elements chuẩn.
-- **Tổng số câu thoại:** 202 câu (Đạt chuẩn dung lượng phân tích chuyên sâu 200–250 câu, thời lượng dự kiến ~22–25 phút).
+- **Tổng số câu thoại:** 236 dòng thoại (đã bổ sung +40 dòng từ bản gốc 196 dòng, đạt chuẩn ~240 câu, thời lượng dự kiến ~25–28 phút).
 - **Phân bổ thời lượng vai diễn:**
-  - **HOST:** ~29% (Mở màn triết lý thể thao và sự ủy thác gia đình, kết nối các hồi, câu hỏi nghiệp vụ, đúc kết triết lý nhân sinh).
-  - **ĐIỀU TRA VIÊN:** ~32% (Bóc tách thủ đoạn lạm dụng chuyên môn y tế, sự phản bội thể chế Institutional Betrayal tại USAG và Penn State, phiên tòa lịch sử 204 nhân chứng).
-  - **CHUYÊN GIA TÂM LÝ:** ~26% (Bóc tách quy trình 4 giai đoạn Grooming, Ảo ảnh người cha thứ hai Paternal Mirage, Sức mạnh xác thực tập thể Collective Validation, Cảnh báo đỏ).
-  - **NGƯỜI BÌNH THƯỜNG (N1/N2):** ~13% (Chu trình 3 giai đoạn: Tin tưởng tự hào ban đầu $\rightarrow$ Bàng hoàng trước sự sụp đổ thần tượng $\rightarrow$ Thức tỉnh bài học đồng hành bảo vệ con trẻ).
+  - **HOST:** 75 câu (31,8%) — Mở màn triết lý thể thao và sự ủy thác gia đình, kết nối các hồi, câu hỏi nghiệp vụ, đúc kết triết lý nhân sinh.
+  - **ĐIỀU TRA VIÊN:** 78 câu (33,1%) — Bóc tách thủ đoạn lạm dụng chuyên môn y tế, sự phản bội thể chế tại USAG/MSU/FBI Indianapolis và Penn State, Báo cáo Freeh, án phạt NCAA, các khoản bồi thường gần 1 tỷ USD, Đạo luật Safe Sport Act 2017.
+  - **CHUYÊN GIA TÂM LÝ:** 57 câu (24,2%) — Bóc tách quy trình 4 giai đoạn Grooming, Institutional Grooming, Sự bội phản kép, Groupthink thể thao, Collective Validation & Cảnh báo đỏ.
+  - **NGƯỜI BÌNH THƯỜNG (N1/N2):** 26 câu (11,0%) — Chu trình 3 giai đoạn: Tin tưởng tự hào ban đầu $\rightarrow$ Bàng hoàng trước sự sụp đổ thần tượng và phản ứng đám đông $\rightarrow$ Thức tỉnh bài học đồng hành bảo vệ con trẻ.
 
 ---
 
@@ -24,7 +24,9 @@
 | **Phản bội thể chế USAG & MSU** | Tố cáo từ các năm 1997, 1998, 2004, 2014 bị gạt bỏ. Cựu Chủ tịch USAG Steve Penny trì hoãn báo cáo FBI và tiêu hủy tài liệu tại Karolyi Ranch. | - Hồ sơ điều tra FBI & Texas Rangers.<br>- Bản cáo trạng truy tố Steve Penny tại Texas (2018).<br>- MSU đồng ý bồi thường 500 triệu USD cho các nạn nhân (2018). | **Chính xác 100%**. |
 | **Phiên tòa Thẩm phán Rosemarie Aquilina** | Tháng 1/2018 tại Michigan, 204 phụ nữ trực tiếp khai báo suốt 7 ngày. Bác bỏ thư tay 6 trang của Nassar. Tuyên phạt 175 năm tù bang + 60 năm tù liên bang. | - Biên bản Tòa án Hạt Ingham (Judge Rosemarie Aquilina, Jan 24, 2018).<br>- Trực tiếp truyền hình quốc gia (Court TV, CNN, C-SPAN). | **Chính xác 100%**. |
 | **Jerry Sandusky & ĐH Penn State** | Cựu HLV phó bóng bầu dục Penn State, sáng lập tổ chức từ thiện The Second Mile (1977). Xâm hại trẻ em nghèo trong phòng tắm sân vận động Beaver suốt hơn 15 năm. | - Báo cáo điều tra độc lập Freeh Report (Cựu Giám đốc FBI Louis Freeh, 2012).<br>- Bản án Tòa án Bang Pennsylvania (Commonwealth v. Sandusky, 2012). | **Chính xác 100%**. |
-| **Sự sụp đổ của lãnh đạo Penn State** | Trợ lý Mike McQueary chứng kiến năm 2001, báo cáo Joe Paterno, Curley, Schultz nhưng bị che giấu. Joe Paterno bị sa thải, tượng bị dỡ bỏ. Hiệu trưởng Graham Spanier cùng 2 lãnh đạo bị phạt tù. Sandusky nhận án 30–60 năm tù. | - Hồ sơ Tòa án Hạt Dauphin & Tòa án Tối cao Bang Pennsylvania.<br>- The New York Times, ESPN Investigation. | **Chính xác 100%**. |
+| **Sự sụp đổ của lãnh đạo Penn State** | Trợ lý Mike McQueary chứng kiến năm 2001, báo cáo Joe Paterno, Curley, Schultz nhưng bị che giấu. Báo cáo Freeh (7/2012) kết luận lãnh đạo cố tình che giấu. NCAA phạt 60 triệu USD; Penn State bồi thường hơn 100 triệu USD. Hiệu trưởng Graham Spanier cùng 2 lãnh đạo bị phạt tù. Sandusky nhận án 30–60 năm tù. | - Báo cáo Freeh (2012), AP News, Courthouse News, The Guardian.<br>- Hồ sơ Tòa án Hạt Dauphin & Tòa án Tối cao Bang Pennsylvania. | **Chính xác 100%**. |
+| **Sai phạm FBI Indianapolis & Bồi thường lịch sử vụ Nassar** | Maggie Nichols ("Athlete A") báo cáo hè 2015. FBI Indianapolis nhận báo cáo tháng 7/2015 nhưng trì hoãn hơn 1 năm (Báo cáo DOJ OIG 2021). Bồi thường: MSU 500 triệu USD (2018), USAG & USOPC 380 triệu USD (2021), DOJ/FBI 138,7 triệu USD (4/2024). | - Báo cáo DOJ OIG (2021), Senate Judiciary Committee.<br>- CBS News, CNN, The Guardian, Wikipedia. | **Chính xác 100%**. |
+| **Cải cách lập pháp Safe Sport Act** | Đạo luật *Protecting Young Victims from Sexual Abuse and Safe Sport Authorization Act of 2017* ký ban hành ngày 14/02/2018; bắt buộc báo cáo trong 24 giờ, hạn chế tiếp xúc 1-1 và trao quyền cho U.S. Center for SafeSport. | - U.S. Congress, USOPC, Child Welfare League of America (CWLA). | **Chính xác 100%**. |
 
 ---
 

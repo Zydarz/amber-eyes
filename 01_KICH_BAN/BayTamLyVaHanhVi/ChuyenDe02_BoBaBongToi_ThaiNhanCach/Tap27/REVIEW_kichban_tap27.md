@@ -10,23 +10,29 @@
 ---
 
 ## I. ĐO LƯỜNG ĐỊNH LƯỢNG KỸ THUẬT (THEO LUẬT L3 & QUY CHUẨN KÊNH)
-- **Số elements kịch bản:** 34 elements.
-- **Số câu thoại thực tế (đo bằng script chuẩn `.work/parse_kichban.py`):** **200 câu thoại** (Đạt chuẩn $\ge 200$ câu thoại, tương đương ~22-25 phút thời lượng video dựng).
-- **Hệ thống 5 vai (4 tầng nhận thức):**
-  - `HOST`: 29 câu (Dẫn nhập, kết nối chuyên gia, nâng tầm thông điệp xã hội).
-  - `NGƯỜI BÌNH THƯỜNG` (N1 - Cừu & N2 - Mèo): 41 câu (Thức tỉnh nhận thức 3 giai đoạn: Từ định kiến ngoại hình, bàng hoàng đến dứt khoát ranh giới phòng vệ).
-  - `CHUYÊN GIA TÂM LÝ` (Cáo Trắng): 48 câu (Giải phẫu 20 tiêu chí PCL-R, 2 nhân tố 4 khía cạnh, cơ chế quét não fMRI của Kent Kiehl, suy giảm hạch hạnh nhân).
-  - `ĐIỀU TRA VIÊN` (Sói Xám): 82 câu (Bóc tách hai đại án lịch sử, giải mã "Mặt nạ tỉnh táo", phân loại Dangerous Offender, 2 nguyên tắc vàng).
+- **Ngày cập nhật bổ sung:** 27/11/2026
+- **Bản sao lưu trước khi bổ sung (L5):** `.work/_cu/kichban_tap27_cd02_20261127_truoc_bosung.md`
+- **Tổng số câu thoại thực tế:** **210 dòng thoại / 229 câu** (tăng từ 200 câu lên 229 câu; chuẩn hóa `CHUYÊN GIA TÂM LÝ` và `Robert Hare`; 0 lỗi dấu ba chấm G1).
+- **Phân bổ 5 hồi:**
+  - **Hồi 1:** 49 dòng / 49 câu (Bổ sung cuốn sách *Without Conscience* 1993 của Robert Hare).
+  - **Hồi 2 (Gary Ridgway):** 43 dòng / 48 câu (Đính chính năm vượt qua máy phát hiện nói dối thành **1984**, bổ sung chi tiết thám tử Robert Keppel phỏng vấn Ted Bundy năm 1984, bước ngoặt ADN 2001 từ mẫu năm 1987, sách *Green River, Running Red* của Ann Rule, và khoảnh khắc ông Robert Rule tha thứ tại phiên tòa tháng 12/2003).
+  - **Hồi 3 (Paul Bernardo & Karla Homolka):** 46 dòng / 52 câu (Bổ sung "Thỏa thuận với Quỷ dữ" năm 1993 của Karla Homolka — án 12 năm, ra tù tháng 7/2005, bài học tồn đọng mẫu ADN năm 1990 và lần bác đơn ân xá mới nhất ngày **26/11/2024** ở tuổi 60 của Bernardo).
+  - **Hồi 4 (PCL-R & Thần kinh học):** 37 dòng / 38 câu (Bổ sung máy quét fMRI di động lắp trên xe đầu kéo của Kent Kiehl, nghiên cứu Oak Ridge của Marnie Rice, Grant Harris & Catherine Cormier đầu thập niên 1990, và quy chuẩn chấm điểm chéo độc lập).
+  - **Hồi 5 (Tổng kết & Phòng vệ):** 35 dòng / 42 câu (3 Red Flags và 2 nguyên tắc vàng).
 
 ---
 
 ## II. ĐỐI CHIẾU NGUỒN TƯ PHÁP CÔNG KHAI (LUẬT K1, K2, K3)
 1. **Hồ sơ Gary Ridgway (Green River Killer):**
    - *Nguồn đối chiếu:* Hồ sơ Tòa án Thượng thẩm Hạt King (King County Superior Court, Washington), tài liệu lưu trữ Đội đặc nhiệm sông Green (*Green River Task Force*), tác phẩm tài liệu pháp y *Defending Gary* của Mark Prothero và *Green River, Running Red* của Ann Rule.
-   - *Tính xác thực:* Thời gian gây án (thập niên 1980–1990), thời điểm bắt giữ (11/2001 nhờ ADN xưởng Kenworth), 49 bản án chung thân không ân xá, IQ 82, lời khai vô cảm và sự kiện vượt qua bài kiểm tra đa nghiệm FBI năm 1987 hoàn toàn trùng khớp 100%.
+   - *Tính xác thực:* Thời gian gây án (thập niên 1980–1990), thời điểm bắt giữ (11/2001 nhờ đối chiếu ADN từ mẫu năm 1987 tại xưởng Kenworth), 49 bản án chung thân không ân xá, IQ 82, vượt qua máy phát hiện nói dối năm **1984**, thám tử Robert Keppel tham vấn Ted Bundy (1984) và khoảnh khắc ông Robert Rule tha thứ tại phiên tòa tháng 12/2003.
 2. **Hồ sơ Paul Bernardo & Karla Homolka:**
    - *Nguồn đối chiếu:* Phán quyết của Tòa án Công lý Ontario (Ontario Court of Justice), tài liệu điều tra của Cảnh sát Vùng Niagara và Toronto Police, báo cáo tâm thần học pháp y của Bác sĩ Stephen Hucker và Ủy ban Ân xá Canada (Parole Board of Canada).
-   - *Tính xác thực:* Điểm số PCL-R 35/40, danh hiệu pháp lý "Dangerous Offender" (Tội phạm nguy hiểm tối hậu), các nạn nhân Tammy Homolka, Leslie Mahaffy, Kristen French, băng video giấu trên trần nhà vệ sinh, các lần bác đơn ân xá 2018, 2021, 2023 hoàn toàn chính xác.
+   - *Tính xác thực:* Điểm số PCL-R 35/40, danh hiệu pháp lý "Dangerous Offender", "Thỏa thuận với Quỷ dữ" năm 1993 (Karla Homolka án 12 năm, ra tù 07/2005), mẫu ADN tồn đọng năm 1990, và các lần bác đơn ân xá 2018, 2021 và **26/11/2024** ở tuổi 60.
+3. **Cơ sở khoa học bổ sung (27/11/2026):**
+   - *Robert Hare (1993):* *Without Conscience: The Disturbing World of the Psychopaths Among Us*.
+   - *Marnie Rice, Grant Harris & Catherine Cormier (đầu thập niên 1990):* Đánh giá chương trình cộng đồng trị liệu Oak Ridge (Canada).
+   - *Kent Kiehl:* Dự án máy quét fMRI di động lắp trên xe đầu kéo trong nhà tù an ninh tối đa.
 
 ---
 

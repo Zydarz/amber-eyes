@@ -10,23 +10,29 @@
 ---
 
 ## I. ĐO LƯỜNG ĐỊNH LƯỢNG KỸ THUẬT (THEO LUẬT L3 & QUY CHUẨN KÊNH)
-- **Số elements kịch bản:** 33 elements.
-- **Số câu thoại thực tế (đo bằng script chuẩn `.work/parse_kichban.py`):** **200 câu thoại** (Đạt chuẩn $\ge 200$ câu thoại, tương đương ~22-25 phút thời lượng video dựng).
-- **Hệ thống 5 vai (4 tầng nhận thức):**
-  - `HOST`: 29 câu (Dẫn nhập, kết nối chuyên gia, nâng tầm thông điệp xã hội).
-  - `NGƯỜI BÌNH THƯỜNG` (N1 - Cừu & N2 - Mèo): 40 câu (Thức tỉnh nhận thức 3 giai đoạn: Từ ngây thơ, bàng hoàng đến thiết lập ranh giới phòng vệ).
-  - `CHUYÊN GIA TÂM LÝ` (Cáo Trắng): 48 câu (Giải mã biến thể nhân cách cận lâm sàng, bản đồ não bộ fMRI, thể vân bụng ventral striatum, hiệu ứng bầy đàn).
-  - `ĐIỀU TRA VIÊN` (Sói Xám): 83 câu (Bóc tách chi tiết hai đại án, phân tích động cơ pháp y, bóc trần 3 mặt nạ ngụy trang, 2 nguyên tắc vàng sinh tồn).
+- **Ngày cập nhật bổ sung:** 27/11/2026
+- **Bản sao lưu trước khi bổ sung (L5):** `.work/_cu/kichban_tap25_cd02_20261127_truoc_bosung.md`
+- **Tổng số câu thoại thực tế:** **222 dòng thoại / 231 câu** (tăng từ 200 câu lên 231 câu; chuẩn hóa toàn bộ tên vai `CHUYÊN GIA TÂM LÝ`; 0 lỗi dấu ba chấm G1).
+- **Phân bổ 5 hồi:**
+  - **Hồi 1:** 52 dòng / 52 câu (Bổ sung thí nghiệm "máy nghiền bọ" và "tiếng ồn trắng" của Buckels, Jones & Paulhus 2013 trên *Psychological Science*).
+  - **Hồi 2 (Shanda Sharer):** 57 dòng / 57 câu (Đính chính mức án Hope Rippey 35 năm, bổ sung mốc phóng thích của cả 4 hung thủ: Toni Lawrence 2000, Hope Rippey 2006, Laurie Tackett 2018, Melinda Loveless 2019 và sách *Cruel Sacrifice* của Aphrodite Jones).
+  - **Hồi 3 (Kenneth Law):** 44 dòng / 46 câu (Đính chính tên các trang web thành *Imtime Cuisine*, *Escape Mode*, *AmbuCA*, *Academic*; bổ sung 14 nạn nhân Ontario tuổi 16–36, diễn biến thỏa thuận nhận tội tiếp tay tự sát và chiến dịch truy vết cứu sống nạn nhân xuyên quốc gia).
+  - **Hồi 4 (Thần kinh học & 3 lớp mặt nạ):** 38 dòng / 38 câu (Bổ sung khảo sát >1.200 người trong *Trolls just want to have fun* 2014 của Buckels, Trapnell & Paulhus, Hiệu ứng Giải ức chế Trực tuyến của John Suler và tổng kết Bộ Tứ Bóng Tối).
+  - **Hồi 5 (Tổng kết & Phòng vệ):** 31 dòng / 38 câu (Mở rộng chuyển biến nhận thức N1/N2, 3 Red Flags và 2 nguyên tắc vàng).
 
 ---
 
 ## II. ĐỐI CHIẾU NGUỒN TƯ PHÁP CÔNG KHAI (LUẬT K1, K2, K3)
 1. **Hồ sơ Shanda Sharer (1992):**
    - *Nguồn đối chiếu:* Phán quyết của Tòa án Tối cao Bang Indiana (Indiana Supreme Court records), hồ sơ Sở Cải huấn Bang Indiana (Indiana Department of Correction), tác phẩm tài liệu pháp y *Cruel Sacrifice* của Aphrodite Jones.
-   - *Tính xác thực:* Thời gian (đêm 10/1/1992 - rạng sáng 11/1/1992), địa điểm (Madison, Hạt Jefferson, Indiana), danh tính nạn nhân và 4 hung thủ (Melinda Loveless, Laurie Tackett, Hope Rippey, Toni Lawrence), mức án tuyên xử (60 năm, 50 năm, 20 năm) hoàn toàn chính xác theo hồ sơ lưu trữ công khai.
+   - *Tính xác thực:* Thời gian (đêm 10/1/1992 - rạng sáng 11/1/1992), địa điểm (Madison, Hạt Jefferson, Indiana), danh tính nạn nhân và 4 hung thủ (Melinda Loveless, Laurie Tackett, Hope Rippey, Toni Lawrence), mức án tuyên xử (60 năm, 60 năm, 35 năm, 20 năm) và các mốc phóng thích (2000, 2006, 2018, 2019) hoàn toàn chính xác theo hồ sơ lưu trữ công khai.
 2. **Hồ sơ Kenneth Law (2023):**
    - *Nguồn đối chiếu:* Thông cáo báo chí của Cảnh sát Vùng Peel (Peel Regional Police, Ontario), Cơ quan Phòng chống Tội phạm Quốc gia Anh (National Crime Agency - NCA), loạt phóng sự điều tra của tờ *The Times* (UK, 4/2023), cáo trạng của Tòa án Thượng thẩm Ontario.
-   - *Tính xác thực:* Hóa chất Sodium Nitrite độ tinh khiết >99%, số lượng hơn 1.200 bưu kiện, hơn 40 quốc gia, 88 trường hợp tử vong liên quan tại Anh, 14 tội danh giết người cấp độ hai tại Canada, câu trích đối chất "I'm not forcing anyone..." hoàn toàn đúng nguyên văn theo bản ghi âm của The Times.
+   - *Tính xác thực:* Các trang web ngụy trang (*Imtime Cuisine*, *Escape Mode*, *AmbuCA*, *Academic*), hóa chất Sodium Nitrite độ tinh khiết >99%, số lượng hơn 1.200 bưu kiện, hơn 40 quốc gia, 88 trường hợp tử vong liên quan tại Anh, 14 tội danh giết người cấp độ hai (nạn nhân Ontario tuổi 16–36) và thỏa thuận nhận tội tiếp tay tự sát.
+3. **Cơ sở khoa học bổ sung (27/11/2026):**
+   - *Buckels, Jones & Paulhus (2013):* "Behavioral Confirmation of Everyday Sadism" (*Psychological Science* — thí nghiệm nghiền bọ & tiếng ồn trắng).
+   - *Buckels, Trapnell & Paulhus (2014):* "Trolls just want to have fun" (*Personality and Individual Differences*, khảo sát >1.200 người).
+   - *John Suler (2004):* Hiệu ứng Giải ức chế Trực tuyến (*Online Disinhibition Effect*).
 
 ---
 
