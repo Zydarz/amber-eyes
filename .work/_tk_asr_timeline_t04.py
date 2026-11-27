@@ -164,7 +164,7 @@ def align(spec_tokens, asr_tokens, gap=-0.35, min_sim=0.45):
     return mapping
 
 
-def build_timeline(lang, cid, write=False, refresh=False):
+def build_timeline(lang, cid, write=False, refresh=False, audio_override=None):
     mode = MODE[lang]
     d = ROOT / "02_SAN_XUAT" / "TIKTOK" / LANGDIR[lang]
     spec = json.loads((d / "SPEC_AUDIO_CLIP_TAP04.json").read_text(encoding="utf-8-sig"))
@@ -176,11 +176,19 @@ def build_timeline(lang, cid, write=False, refresh=False):
     if dw and dm and abs(dw - dm) > 0.05:
         warn = (f"  [CANH BAO] wav ({dw:.2f}s) <> mp3 ({dm:.2f}s) LECH PHIEN BAN "
                 f"({dw - dm:+.2f}s) - dung mp3")
-    audio = decode_mp3(mp3)
+    # audio_override: dung file KHAC (vd voice stem khong co BGM) de chay ASR.
+    # BGM/amience lam ASR nhieu manh (do 27/11/2026: master da tron -> 9/11 dong loi).
+    # Moc thoi gian van dung audio nay vi trong lai khong doi thoi luong.
+    asr_src = pathlib.Path(audio_override) if audio_override else mp3
+    if audio_override:
+        da = dur_of(asr_src)
+        print(f"  [ASR] dung file giong rieng: {asr_src}  ({da:.2f}s)" if da else
+              f"  [ASR] dung file giong rieng: {asr_src}")
+    audio = decode_mp3(asr_src)
     cache = WORK / f"_tk_asr_tk04_{cid}_{lang}.json"
     asr = run_asr(audio, cache, LANG_CODE[lang], refresh=refresh)
     words = asr["words"]
-    total = asr["duration"]
+    total = dm if dm else asr["duration"]
 
     spec_tokens, owner = [], []
     for li, l in enumerate(lines):
@@ -282,6 +290,12 @@ def main():
         lang = args[args.index("--lang") + 1].upper()
     write = "--write" in args
     refresh = "--refresh" in args
+    audio_override = None
+    if "--audio" in args:
+        i = args.index("--audio")
+        audio_override = args[i + 1]
+        if audio_override.startswith("--"):
+            audio_override = None
     clips = list(CLIPS)
     if "--clip" in args:
         i = args.index("--clip")
@@ -292,7 +306,8 @@ def main():
             clips.append(a.upper())
     total_bad = 0
     for cid in clips:
-        total_bad += build_timeline(lang, cid, write=write, refresh=refresh)
+        total_bad += build_timeline(lang, cid, write=write, refresh=refresh,
+                                    audio_override=audio_override)
     print(f"\nTONG DONG CO VAN DE: {total_bad}")
 
 
