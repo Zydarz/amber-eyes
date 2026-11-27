@@ -52,10 +52,13 @@
 | 2-041 | 2 | `2.03#5 – 2.03#6` | 2 | 17.3 | `t31_a2_05_late_night_keyboard_glow` | ✅ | Đôi tay bóng đen gõ phím trong căn phòng tối, ánh sáng xanh lạnh hắt lên bức tường trống. |
 | 2-042 | 2 | `2.03#7` | 1 | 9.6 | `t31_a2_06_anonymous_screen_five_years` | ✅ | Màn hình điện thoại đặt cạnh đồng hồ cát chảy chậm trong bóng tối, biểu tượng năm năm tương tác ẩn danh. |
 | 2-043 | 2 | `2.05#1 – 2.05#2` | 2 | 19.2 | `t31_a2_07_victimology_broken_bridge` | ✅ | Một bóng người đứng một mình trên con đường vắng giữa sương mù, biểu tượng cho sự cô lập xã hội sâu sắc. |
-| 2-044 | 2 | `2.05#3 – 2.05#4` | 2 | 16.7 | `t31_a2_08_empty_dinner_table_home` | ✅ | Bàn ăn gia đình với một chiếc ghế trống dưới ánh đèn vàng dịu, ẩn dụ cho sợi dây kết nối đời thực bị đứt gãy. |
-| 2-045 | 2 | `2.05#5 – 2.05#6` | 2 | 16.2 | `t31_a2_09_echo_chamber_dark_room` | ✅ | Căn phòng kín với bốn bức tường gương tối phản chiếu vô tận, ẩn dụ cho chiếc buồng vang tâm lý trên không gian mạng. |
-| 2-046 | 2 | `2.05#7` | 1 | 10.7 | `t31_a2_10_power_asymmetry_chess_board` | ✅ | Bàn cờ gỗ trong bóng tối với một quân cờ lớn đổ bóng dài trùm lên quân cờ nhỏ hơn, biểu tượng bất đối xứng quyền lực. |
-| 2-047 | 2 | `2.05#8` | 1 | 9.6 | `t31_a2_10b_echo_chamber_red_ripple` | ✅ | Ánh sáng xanh lạnh dội lại liên tục giữa hai bức tường tối, minh họa sự bình thường hóa ý nghĩ lệch lạc trong buồng vang. |
+| 2-043b | 2 | `2.05#3 – 2.05#4` | 2 | 16.0 | `t31_a2_07b_rejected_messages_dark_screen` | ⏳ | Nhiều cửa sổ tin nhắn tắt dần trong bóng tối chỉ còn một màn hình sáng, ẩn dụ nhiều người từ chối và chỉ một kẻ đồng ý. |
+| 2-044 | 2 | `2.05#5 – 2.05#6` | 2 | 16.7 | `t31_a2_08_empty_dinner_table_home` | ✅ | Bàn ăn gia đình với một chiếc ghế trống dưới ánh đèn vàng dịu, ẩn dụ cho sợi dây kết nối đời thực bị đứt gãy. |
+| 2-044b | 2 | `2.05#7 – 2.05#8` | 2 | 16.5 | `t31_a2_08b_fragile_glass_threads_dark` | ⏳ | Những sợi chỉ đỏ mỏng manh đứt lìa trong bóng tối cạnh chiếc mặt nạ vỡ, ẩn dụ cơ chế tự hủy hoại và tê liệt bản năng tự vệ. |
+| 2-045 | 2 | `2.05#9 – 2.05#10` | 2 | 16.2 | `t31_a2_09_echo_chamber_dark_room` | ✅ | Căn phòng kín với bốn bức tường gương tối phản chiếu vô tận, ẩn dụ cho chiếc buồng vang tâm lý trên không gian mạng. |
+| 2-046 | 2 | `2.05#11 – 2.05#12` | 2 | 15.5 | `t31_a2_10_power_asymmetry_chess_board` | ✅ | Bàn cờ gỗ trong bóng tối với một quân cờ lớn đổ bóng dài trùm lên quân cờ nhỏ hơn, biểu tượng bất đối xứng quyền lực. |
+| 2-046b | 2 | `2.05#13 – 2.05#14` | 2 | 15.8 | `t31_a2_10c_pathological_lock_and_key` | ⏳ | Ổ khóa sắt cổ và chiếc chìa khóa khớp vào nhau dưới ánh đèn lạnh, ẩn dụ hiện tượng khớp khóa bệnh lý giữa hai tâm trí lệch lạc. |
+| 2-047 | 2 | `2.05#15 – 2.05#16` | 2 | 15.0 | `t31_a2_10b_echo_chamber_red_ripple` | ✅ | Ánh sáng xanh lạnh dội lại liên tục giữa hai bức tường tối, minh họa ranh giới pháp lý và sự bình thường hóa ý nghĩ lệch lạc. |
 | 2-048 | 2 | `2.06#1 – 2.06#2` | 2 | 16.2 | `t31_a2_11_calendar_pages_2020_to_2025` | ✅ | Đống lịch cũ xếp chồng bên cạnh chiếc đèn bàn mờ, đánh dấu quãng thời gian năm năm âm ỉ. |
 | 2-049 | 2 | `2.07#1 – 2.07#2` | 2 | 18.7 | `t31_a2_12_escalation_spiral_staircase` | ✅ | Cầu thang xoắn ốc tối dẫn xuống sâu trong bóng mờ, ẩn dụ cho chu kỳ nghiện ảo tưởng và cơ chế dung nạp kích thích. |
 | 2-050 | 2 | `2.07#3 – 2.07#4` | 2 | 19.2 | `t31_a2_13_fading_screen_fantasy_starvation` | ✅ | Bóng người ngồi bất động trước màn hình máy tính nhạt ánh sáng, diễn tả trạng thái đói ảo tưởng khi quen liều. |
