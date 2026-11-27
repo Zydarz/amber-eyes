@@ -132,17 +132,28 @@ Cổng T13 quét từng clip theo danh sách A9.2 (`máu` ngoại trừ "ung th�
 
 ---
 
-## 6. Việc còn lại (người dùng)
+## 6. Quyết định của người dùng (27/11/2026) + việc còn lại
 
-1. **EN TK2 — ĐÃ XONG** (trộn lại master + dựng lại clip + QC 14 cổng ĐẠT). Còn 2 việc nhỏ: **(a)** xác nhận `bgm_ambient_deep.mp3` (MiniMax) là bed được phép dùng cho TikTok — **EN TK2 dùng file này**; **(b)** cho phép tạo lại `.wav` từ mp3 — **đã làm** (wav/mp3 hiện đồng bộ 72,34 s).
-2. **Quyết định về từ cấm `sát hại`** ở VN TK1/TK3 — có thay câu trong kịch bản (cần duyệt) hay chấp nhận ngoại lệ cho clip TikTok.
-3. **Xác nhận nguồn nhạc nền** (mục 5.3 #1).
-4. **Hủy kernel Kaggle** đã push (nếu không dùng): `chiduong2026/amber-eyes-higgs-fix-en-tk02-t04-kaggle-gpu`.
+### 6.1. Ba quyết định đã chốt
+
+| # | Việc | Quyết định của người dùng | Hệ quả cho AI |
+|---|---|---|---|
+| 1 | **Từ cấm `sát hại` ở VN TK1/TK3** (cổng T13 trượt) | **Người dùng sẽ tự duyệt kịch bản** | AI **KHÔNG tự sửa kịch bản** (L2/L4). Khi người dùng đổi câu ⇒ phải **chạy lại TTS cho câu đó** (engine Higgs Audio v3 của dự án chỉ chạy trên Kaggle GPU/Apple MLX — máy này không có) ⇒ phải chạy lại ASR + timeline + render + QC cho clip bị ảnh hưởng |
+| 2 | **Nguồn nhạc nền 14 clip còn lại** (T9/L7 — bed đã mất file nguồn) | **Người dùng sẽ xác nhận** | Chờ xác nhận. **EN TK2 đã tách riêng**: dùng `bgm_ambient_deep.mp3` (có trên đĩa + có dòng provenance đầy đủ) ⇒ EN TK2 **không còn** vướng T9/L7 |
+| 3 | **Kernel Kaggle đã push** (`chiduong2026/amber-eyes-higgs-fix-en-tk02-t04-kaggle-gpu` + dataset `...-t04`) | **GIỮ, KHÔNG HỦY** | Không gọi API Kaggle để hủy. Kernel này **không còn cần thiết** vì EN TK2 đã vá xong bằng cách trộn lại master (không cần sinh lại TTS) — nhưng người dùng chọn giữ. AI **không push/không chạy** kernel đó |
+
+> Ghi nhận cho lượt sau: quyết định "giữ kernel" **không** có nghĩa cho phép chạy/push Kaggle. Lệnh đang có hiệu lực vẫn là **dừng kết nối Kaggle** — chỉ được phép hủy khi có yêu cầu riêng, và chưa có yêu cầu đó.
+
+### 6.2. Việc còn lại
+
+1. **EN TK2 — ĐÃ XONG** (trộn lại master + dựng lại clip + QC 14 cổng **ĐẠT**). Xác nhận nhỏ còn treo: `bgm_ambient_deep.mp3` (MiniMax) có được phép dùng cho TikTok không — **người dùng sẽ xác nhận cùng lượt với #2**.
+2. **VN TK1 / TK3** — chờ người dùng duyệt kịch bản (xem 6.1 #1).
+3. **14 clip còn lại** — chờ người dùng xác nhận nguồn nhạc nền (xem 6.1 #2).
+4. **Kernel Kaggle** — giữ, không hủy (xem 6.1 #3). Dataset `chiduong2026/amber-eyes-higgs-fix-en-tk02-t04` cũng giữ.
 5. **Caption/mô tả**: 5 file caption mỗi ngôn ngữ vẫn là placeholder — chưa điền link YouTube Tập 04 (Bước 8 của kế hoạch).
 6. **Không commit media** (L10): 15 mp4 + 15 timeline + ảnh QC đều bị `.gitignore` loại — chỉ commit tài liệu + script.
 
 ---
-
 ## 7. Script đã tạo (`.work/`)
 
 `_audit_tk04_assets.py` (kiểm ảnh nền) · `_tk_asr_timeline_t04.py` (dựng timeline — **ASR cửa sổ + đọc mp3 + `--audio` trỏ voice stem**, A11 #200/#201) · `_build_tk_tap04_video_notext.py` (dựng clip + logo H29) · `_remix_entk2.py` (**trộn lại master**: voice + BGM ducking + ambience + loudnorm 2 lượt) · `_audit_audio_tk04.py` (quét audio 15 master) · `_qc_tk_tap04_clip.py` (14 cổng T1–T14 + H26 + H29) · `_check_tail_coverage.py` (kiểm phủ đuôi 15 clip) · `_clip_scan.py` (đếm mẫu clip) · `_silence_scan_mp3.py` (đếm khoảng câm) · `_identify_bed.py` / `_match_bed_full.py` / `_match_bed_wave.py` (truy vết bed) · `_qc_tk04_frames/` (khung hình QC)
