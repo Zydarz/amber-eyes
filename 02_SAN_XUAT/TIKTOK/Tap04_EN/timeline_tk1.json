@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TK1.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 3.08,
+    "pause": 0.5,
+    "text": "Ordered lethal drugs. Then hit cancel one second later.",
+    "bg": "tk04_pyxis_station",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#2",
+    "vai": "D",
+    "start": 3.88,
+    "end": 12.88,
+    "pause": 0.6,
+    "text": "By the early 2000s, hospitals nationwide began adopting automated dispensing cabinets known as Pyxis MedStation systems to regulate pharmaceuticals.",
+    "bg": "tk04_pyxis_station",
+    "motion": "pull",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#3",
+    "vai": "D",
+    "start": 13.82,
+    "end": 19.2,
+    "pause": 0.6,
+    "text": "However, Charles Cullen quickly discovered a critical software vulnerability within the terminal's architecture.",
+    "bg": "tk04_pyxis_station",
+    "motion": "pan",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#4",
+    "vai": "D",
+    "start": 20.14,
+    "end": 29.1,
+    "pause": 0.6,
+    "text": "He would enter requests for dangerous medications like Digoxin, Insulin, or Norepinephrine, but the moment the physical drawer released, he pressed the cancel button.",
+    "bg": "tk04_pyxis_drawer_ajar",
+    "motion": "push",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#5",
+    "vai": "D",
+    "start": 30.1,
+    "end": 37.54,
+    "pause": 0.7,
+    "text": "The terminal logged the transaction as canceled and avoided billing the patient, yet the lethal vial was already concealed inside Cullen's pocket.",
+    "bg": "tk04_pyxis_drawer_ajar",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#6",
+    "vai": "D",
+    "start": 38.52,
+    "end": 47.08,
+    "pause": 0.7,
+    "text": "At Somerset Medical Center, his behavioral inhibition collapsed entirely, leading him to target young, recovering patients slated for discharge.",
+    "bg": "tk04_pyxis_printout",
+    "motion": "push",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#7",
+    "vai": "C",
+    "start": 47.98,
+    "end": 56.18,
+    "pause": 0.7,
+    "text": "In contrast, his psychological signature—the unchanging emotional gratification compelling his crimes—was his profound “God Complex”.",
+    "bg": "tk04_neutral_letter",
+    "motion": "pull",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#8",
+    "vai": "C",
+    "start": 56.18,
+    "end": 64.84,
+    "pause": 0.7,
+    "text": "He experienced a fleeting sense of omnipotence, imagining himself elevated above medicine and destiny as the sole arbiter of who survived.",
+    "bg": "tk04_institutional_bystander",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#9",
+    "vai": "H",
+    "start": 65.48,
+    "end": 69.82,
+    "pause": 0.0,
+    "text": "Episode four of Amber Eyes. Watch the full documentary via the bio link.",
+    "bg": "tk04_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.923,
+    "interp": false
+  }
+]

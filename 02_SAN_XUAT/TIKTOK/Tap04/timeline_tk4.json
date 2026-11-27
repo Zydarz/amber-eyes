@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TK4.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 4.38,
+    "pause": 0.5,
+    "text": "Chín bệnh viện biết hắn có vấn đề. Nhưng tất cả đều chọn im lặng.",
+    "bg": "tk04_ten_hospitals_map",
+    "motion": "still",
+    "match_ratio": 0.933,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#2",
+    "vai": "D",
+    "start": 5.1,
+    "end": 8.4,
+    "pause": 0.6,
+    "text": "Trung tâm Y tế Somerset hoàn toàn không phải là hiện trường đầu tiên.",
+    "bg": "tk04_somerset_exterior",
+    "motion": "pan",
+    "match_ratio": 0.929,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#3",
+    "vai": "D",
+    "start": 9.2,
+    "end": 21.32,
+    "pause": 0.6,
+    "text": "Trong suốt 16 năm, từ năm 1988 đến năm 2003, Charles Cullen đã làm việc qua 9 bệnh viện và 1 viện dưỡng lão khác nhau trên khắp hai bang New Jersey và Pennsylvania.",
+    "bg": "tk04_ten_hospitals_map",
+    "motion": "pull",
+    "match_ratio": 0.912,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#4",
+    "vai": "D",
+    "start": 22.26,
+    "end": 30.14,
+    "pause": 0.6,
+    "text": "Ở bất cứ nơi nào hắn đặt chân đến, tỷ lệ bệnh nhân tử vong vì ngưng tim đột ngột vào ca trực đêm đều tăng vọt theo một đồ thị bất thường.",
+    "bg": "tk04_ten_hospitals_map",
+    "motion": "push",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#5",
+    "vai": "D",
+    "start": 31.06,
+    "end": 39.34,
+    "pause": 0.7,
+    "text": "Hắn bị nghi ngờ ở nơi này, liền bị buộc thôi việc trong im lặng, rồi lại dễ dàng cầm thư giới thiệu chuyển sang một bệnh viện khác để tiếp tục hành vi săn mồi.",
+    "bg": "tk04_neutral_letter",
+    "motion": "still",
+    "match_ratio": 0.944,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#6",
+    "vai": "D",
+    "start": 40.3,
+    "end": 49.44,
+    "pause": 0.7,
+    "text": "Tuy nhiên, dựa trên hồ sơ theo dõi dịch tễ và lượng thuốc mất tích bí ẩn, các chuyên gia điều tra nhận định con số thực tế có thể lên tới 400 nạn nhân.",
+    "bg": "tk04_case_file_open",
+    "motion": "push",
+    "match_ratio": 0.971,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#7",
+    "vai": "C",
+    "start": 49.44,
+    "end": 56.64,
+    "pause": 0.7,
+    "text": "Sự im lặng có hệ thống của các nhà quản lý đã biến chính những cơ sở chữa bệnh thành nơi đồng lõa cho cái ác tiếp diễn suốt 16 năm.",
+    "bg": "tk04_institutional_bystander",
+    "motion": "still",
+    "match_ratio": 0.968,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#8",
+    "vai": "D",
+    "start": 56.64,
+    "end": 66.18,
+    "pause": 0.7,
+    "text": "Năm 2004, Thống đốc bang New Jersey đã ký ban hành “Đạo luật Cullen” nhằm bẻ gãy vĩnh viễn sự im lặng thể chế nguy hiểm này.",
+    "bg": "tk04_courtroom_bench",
+    "motion": "still",
+    "match_ratio": 0.963,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#9",
+    "vai": "H",
+    "start": 66.9,
+    "end": 71.6,
+    "pause": 0.0,
+    "text": "Tập bốn của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+    "bg": "tk04_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.929,
+    "interp": false
+  }
+]

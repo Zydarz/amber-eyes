@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TK1.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 3.84,
+    "pause": 0.5,
+    "text": "Nhập lệnh lấy thuốc độc. Rồi nhấn hủy chỉ sau một giây.",
+    "bg": "tk04_pyxis_station",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#2",
+    "vai": "D",
+    "start": 4.84,
+    "end": 13.0,
+    "pause": 0.6,
+    "text": "Vào đầu những năm 2000, các bệnh viện bắt đầu sử dụng tủ cấp phát thuốc tự động Pyxis MedStation để quản lý dược phẩm chặt chẽ hơn.",
+    "bg": "tk04_pyxis_station",
+    "motion": "pull",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#3",
+    "vai": "D",
+    "start": 14.06,
+    "end": 19.46,
+    "pause": 0.6,
+    "text": "Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng nghiêm trọng trong thiết kế phần mềm của hệ thống này.",
+    "bg": "tk04_pyxis_station",
+    "motion": "pan",
+    "match_ratio": 0.955,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#4",
+    "vai": "D",
+    "start": 20.1,
+    "end": 31.0,
+    "pause": 0.6,
+    "text": "Hắn nhập lệnh yêu cầu lấy những loại thuốc độc bảng A như Digoxin, Insulin hay Norepinephrine, nhưng ngay khi ngăn kéo máy vừa mở ra, hắn lập tức nhấn nút hủy lệnh.",
+    "bg": "tk04_pyxis_drawer_ajar",
+    "motion": "push",
+    "match_ratio": 0.97,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#5",
+    "vai": "D",
+    "start": 31.74,
+    "end": 39.96,
+    "pause": 0.7,
+    "text": "Hệ thống máy tính ghi nhận giao dịch đã bị hủy và không trừ thuốc vào tài khoản bệnh nhân, nhưng trên thực tế, viên thuốc độc đã nằm gọn trong túi áo của Cullen.",
+    "bg": "tk04_pyxis_drawer_ajar",
+    "motion": "still",
+    "match_ratio": 0.914,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#6",
+    "vai": "D",
+    "start": 41.28,
+    "end": 48.22,
+    "pause": 0.7,
+    "text": "Tại bệnh viện Somerset, hắn mất hoàn toàn khả năng kiềm chế, sát hại cả những bệnh nhân trẻ tuổi đang bình phục khỏe mạnh.",
+    "bg": "tk04_pyxis_printout",
+    "motion": "push",
+    "match_ratio": 0.96,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#7",
+    "vai": "C",
+    "start": 49.12,
+    "end": 55.4,
+    "pause": 0.7,
+    "text": "Ngược lại, chữ ký tâm lý Signature – thứ nhu cầu cảm xúc bất biến thúc đẩy hắn gây án – chính là “Phức cảm Chúa trời”.",
+    "bg": "tk04_neutral_letter",
+    "motion": "pull",
+    "match_ratio": 0.96,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#8",
+    "vai": "C",
+    "start": 55.4,
+    "end": 63.62,
+    "pause": 0.7,
+    "text": "Hắn cảm thấy bản thân mình trở nên vĩ đại, đứng trên cả y học và số phận khi có quyền quyết định ai được thở và ai phải dừng lại.",
+    "bg": "tk04_institutional_bystander",
+    "motion": "still",
+    "match_ratio": 0.968,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#9",
+    "vai": "H",
+    "start": 64.84,
+    "end": 69.9,
+    "pause": 0.0,
+    "text": "Tập bốn của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+    "bg": "tk04_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.857,
+    "interp": false
+  }
+]

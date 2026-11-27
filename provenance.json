@@ -105435,5 +105435,245 @@
     "dieu_khoan": "Cloudflare Workers AI Terms of Service",
     "kiem_tra_thuong_mai": "đạt",
     "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, chuẩn Deep Noir H21/H25/H26, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04/TK1_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Việt)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Việt). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04/TK1_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json. LƯU Ý: clip có từ cấm A9.2 'sát hại' ở câu TK1.01#6 (cổng T13 trượt) — cần người dùng duyệt kịch bản."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04/TK2_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Việt)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Việt). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04/TK2_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04/TK3_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Việt)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Việt). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04/TK3_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json. LƯU Ý: clip có từ cấm A9.2 'sát hại' ở câu TK3.01#9 (cổng T13 trượt) — cần người dùng duyệt kịch bản."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04/TK4_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Việt)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Việt). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04/TK4_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04/TK5_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Việt)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Việt). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04/TK5_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_EN/TK1_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Anh)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Anh). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_EN/TK1_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_EN/TK2_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Anh)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Anh). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_EN/TK2_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json. LƯU Ý: master audio EN TK2 chỉ có 9/11 câu — thiếu TK2.01#10 (vai C) và TK2.01#11 (CTA vai H), đuôi 14,76 s chỉ có nhạc nền (đo bằng ASR + kiểm RMS). Cần người dùng quyết định cách sửa."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_EN/TK3_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Anh)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Anh). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_EN/TK3_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_EN/TK4_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Anh)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Anh). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_EN/TK4_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_EN/TK5_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Anh)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Anh). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_EN/TK5_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_JA/TK1_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Nhật)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Nhật). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_JA/TK1_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_JA/TK2_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Nhật)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Nhật). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_JA/TK2_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_JA/TK3_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Nhật)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Nhật). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_JA/TK3_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_JA/TK4_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Nhật)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Nhật). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_JA/TK4_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
+  },
+  {
+    "file": "02_SAN_XUAT/TIKTOK/Tap04_JA/TK5_video.mp4",
+    "loai": "clip TikTok dọc 9:16 cho Tập 04 (tiếng Nhật)",
+    "cong_cu": "Pillow + ffmpeg/libopenh264 trên máy (script .work/_build_tk_tap04_video_notext.py); mốc thời gian dựng lại bằng faster-whisper small + Needleman–Wunsch (.work/_tk_asr_timeline_t04.py) vì WAV từng câu đã bị xoá",
+    "ngay": "2026-11-27",
+    "prompt": "",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      1080,
+      1920
+    ],
+    "dieu_khoan": "Logo + nền do dự án tự vẽ (không dùng tài sản bên thứ ba). Giọng đọc: Higgs Audio v3 (giọng nội bộ). Nhạc nền: theo SPEC (bgm_ambient_tension.mp3) — file gốc KHÔNG còn trên đĩa, chưa truy vết được nguồn ⇒ cần người dùng xác nhận T9.",
+    "kiem_tra_thuong_mai": "cần xác nhận: nguồn nhạc nền/SFX của clip chưa truy vết được (T9/L7) — chưa đủ điều kiện đăng",
+    "ghi_chu": "Dung clip TikTok 9:16 cho Tap 04 (tiếng Nhật). Nguon hinh: nen doc goc assets/bg/tk04_*.png (23 nen, 1080x1920, co dong provenance rieng) + camera still/push/pull/pan. Logo kenh ghep theo H29 (assets/brand/watermark.png, 96 px, do mo 35%) tai x 684-780, y 60-156 (A11 #198). Am thanh: master san co Tap04_JA/TK5_master_audio.mp3 (Higgs Audio v3 + BGM/SFX tap). Khong co chu tren hinh (H26). QC 14 cong T1-T14: xuat .work/_qc_tk04_clip.json."
   }
 ]

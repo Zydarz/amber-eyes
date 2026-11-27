@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TK1.01#1",
+    "vai": "H",
+    "start": 0.0,
+    "end": 3.76,
+    "pause": 0.5,
+    "text": "劇薬を出庫し、わずか1秒後に取り消しボタンを押す。",
+    "bg": "tk04_pyxis_station",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#2",
+    "vai": "D",
+    "start": 4.32,
+    "end": 14.3,
+    "pause": 0.6,
+    "text": "2000年代初頭、医薬品の厳格な追跡管理のため、病院群は自動薬剤分配機「Pyxis MedStation」を導入し始めました。",
+    "bg": "tk04_pyxis_station",
+    "motion": "pull",
+    "match_ratio": 0.702,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#3",
+    "vai": "D",
+    "start": 15.22,
+    "end": 20.7,
+    "pause": 0.6,
+    "text": "ところがCharles Cullenは、このシステムのソフトウェア設計における重大な抜け穴を見つけ出しました。",
+    "bg": "tk04_pyxis_station",
+    "motion": "pan",
+    "match_ratio": 0.692,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#4",
+    "vai": "D",
+    "start": 21.62,
+    "end": 31.92,
+    "pause": 0.6,
+    "text": "彼はDigoxin、Insulin、Norepinephrineといった劇薬の出庫を要求しますが、機械の引き出しが開いた瞬間に取り消しボタンを押したのです。",
+    "bg": "tk04_pyxis_drawer_ajar",
+    "motion": "push",
+    "match_ratio": 0.595,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#5",
+    "vai": "D",
+    "start": 32.5,
+    "end": 41.8,
+    "pause": 0.7,
+    "text": "コンピューターは取引を「キャンセル済み」と記録し患者への請求は発生しませんが、劇薬のアンプルはすでにCullenのポケットへ収まっていました。",
+    "bg": "tk04_pyxis_drawer_ajar",
+    "motion": "still",
+    "match_ratio": 0.91,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#6",
+    "vai": "D",
+    "start": 42.8,
+    "end": 52.12,
+    "pause": 0.7,
+    "text": " サマセット病院に至ると彼の抑制機能は完全に崩壊し、回復期にある健康な若い患者までも無差別に標的としました。",
+    "bg": "tk04_pyxis_printout",
+    "motion": "push",
+    "match_ratio": 0.961,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#7",
+    "vai": "C",
+    "start": 52.76,
+    "end": 62.12,
+    "pause": 0.7,
+    "text": "これに対し、心理的シグネチャー――犯行を突き動かした不変の感情的欲求――こそがまさに「神コンプレックス」でした。",
+    "bg": "tk04_neutral_letter",
+    "motion": "pull",
+    "match_ratio": 0.896,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#8",
+    "vai": "C",
+    "start": 62.8,
+    "end": 74.3,
+    "pause": 0.7,
+    "text": "誰を生かし誰を終わらせるかを決定する権利を持つことで、彼は自らが医学や運命すら超越した偉大な存在になったと錯覚しました。",
+    "bg": "tk04_institutional_bystander",
+    "motion": "still",
+    "match_ratio": 1.0,
+    "interp": false
+  },
+  {
+    "id": "TK1.01#9",
+    "vai": "H",
+    "start": 76.08,
+    "end": 80.62,
+    "pause": 0.0,
+    "text": "Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。",
+    "bg": "tk04_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.78,
+    "interp": false
+  }
+]

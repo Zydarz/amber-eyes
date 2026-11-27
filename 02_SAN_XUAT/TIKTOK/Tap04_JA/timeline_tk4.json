@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TK4.01#1",
+    "vai": "H",
+    "start": 0.3,
+    "end": 4.78,
+    "pause": 0.5,
+    "text": "9つの病院が彼を疑っていた。しかし全員が沈黙を選んだ。",
+    "bg": "tk04_ten_hospitals_map",
+    "motion": "still",
+    "match_ratio": 0.92,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#2",
+    "vai": "D",
+    "start": 5.38,
+    "end": 9.76,
+    "pause": 0.6,
+    "text": "サマセット医療センターは決して最初の犯行現場ではなかったのです。",
+    "bg": "tk04_somerset_exterior",
+    "motion": "pan",
+    "match_ratio": 0.968,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#3",
+    "vai": "D",
+    "start": 10.7,
+    "end": 24.22,
+    "pause": 0.6,
+    "text": "1988年から2003年までの16年間にわたり、Charles Cullenはニュージャージー州とペンシルベニア州にまたがる9つの病院と1つの養護施設を渡り歩いていました。",
+    "bg": "tk04_ten_hospitals_map",
+    "motion": "pull",
+    "match_ratio": 0.735,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#4",
+    "vai": "D",
+    "start": 25.16,
+    "end": 33.78,
+    "pause": 0.6,
+    "text": "彼が足を踏み入れたあらゆる病院において、夜勤時間帯の心停止による急死者の数は異常な統計的跳ね上がりを示していました。",
+    "bg": "tk04_ten_hospitals_map",
+    "motion": "push",
+    "match_ratio": 0.839,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#5",
+    "vai": "D",
+    "start": 34.92,
+    "end": 45.62,
+    "pause": 0.7,
+    "text": "一つの病院で疑念が生じると彼は秘密裏に退職させられ、何の警告もない推薦状を手にして次の病院へ移り、捕食を再開していたのです。",
+    "bg": "tk04_neutral_letter",
+    "motion": "still",
+    "match_ratio": 0.932,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#6",
+    "vai": "D",
+    "start": 45.62,
+    "end": 57.92,
+    "pause": 0.7,
+    "text": "しかし、疫学調査データと原因不明の医薬品消失量に基づき、捜査専門家らは実際の犠牲者が400名に達する可能性があると推計しています。",
+    "bg": "tk04_case_file_open",
+    "motion": "push",
+    "match_ratio": 0.935,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#7",
+    "vai": "C",
+    "start": 59.32,
+    "end": 67.9,
+    "pause": 0.7,
+    "text": "管理者たちの組織的な沈黙こそが、人を癒やすべき病院を16年間もの間、凶行の温床へと変貌させました。",
+    "bg": "tk04_institutional_bystander",
+    "motion": "still",
+    "match_ratio": 0.87,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#8",
+    "vai": "D",
+    "start": 68.62,
+    "end": 76.06,
+    "pause": 0.7,
+    "text": "2004年、ニュージャージー州知事は、この危険な沈黙の連鎖を永久に断ち切るため「カレン法」に署名しました。",
+    "bg": "tk04_courtroom_bench",
+    "motion": "still",
+    "match_ratio": 0.896,
+    "interp": false
+  },
+  {
+    "id": "TK4.01#9",
+    "vai": "H",
+    "start": 77.76,
+    "end": 82.34,
+    "pause": 0.0,
+    "text": "Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。",
+    "bg": "tk04_closing_desk",
+    "motion": "still",
+    "match_ratio": 0.78,
+    "interp": false
+  }
+]
