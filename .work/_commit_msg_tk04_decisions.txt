@@ -1,0 +1,16 @@
+docs(tiktok): ghi 3 quyet dinh cua nguoi dung cho Tap 04 (27/11/2026)
+
+1. Tu cam 'sat hai' o VN TK1/TK3 (cong T13 truot): nguoi dung se TU DUYET KICH BAN
+   => AI khong tu sua (L2/L4). Luu y khi doi cau => phai chay lai TTS cho cau do
+   (Higgs Audio v3 chi chay tren Kaggle GPU/Apple MLX - may nay khong co) => chay lai
+   ASR + timeline + render + QC cho clip bi anh huong.
+2. Nguon nhac nen cho 14 clip con lai (T9/L7 - bed da mat file nguon): nguoi dung se
+   XAC NHAN. EN TK2 da tach rieng (bgm_ambient_deep.mp3 co tren dia + co dong
+   provenance day du) => EN TK2 khong con vuong T9/L7.
+3. Kernel Kaggle da push: GIU, KHONG HUY (kernel + dataset
+   chiduong2026/amber-eyes-higgs-fix-en-tk02-t04[-kaggle-gpu]). KHONG goi API de huy.
+
+Ghi chuan: A11 #202 (quyet dinh nguoi dung phai ghi vao ho so kem he qua cho AI; phan
+biet "duoc phep HANH DONG" voi "duoc phep GIU" - khong suy dien quyen goi API tu quyet
+dinh giu; lenh "dung ket noi Kaggle" van con hieu luc) + bao cao QC Tap04 muc 6.1 +
+CSV theo doi + provenance.json.

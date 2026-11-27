@@ -1,0 +1,30 @@
+feat(tiktok): dung 15 clip Tap 04 (VN/EN/JA) co logo kenh H29 + bao cao QC
+
+Dung 15 clip TikTok 9:16 cho Tap 04 (5 clip x 3 ngon ngu), tat ca deu co
+logo kenh theo H29 (assets/brand/watermark.png, 96 px, do mo 35%).
+
+Da do thuc te:
+- 23/23 nen doc tk04_*.png dung chung: 48/48 shot x 3 ngon ngu, 0 thieu
+- 15/15 timeline_tkN.json dung lai bang ASR (faster-whisper small) + can
+  Needleman-Wunsch (WAV tung cau da bi xoa trong dot don media)
+- 15/15 mp4: 1080x1920, h264+aac, 30,00 fps, 68,83-88,28 s,
+  -16,4..-16,0 LUFS, TP -4,4..-4,0 dBFS, 0 khoang cam >0,3s, 0 loi giai ma
+- H29 kiem bang pixel: ngoai vung logo chi 0,000-0,001% pixel lech (>40/255)
+  => khong co chu/overlay nao them vao (H26); trong vung logo lech 84-96/255
+  => logo that su co mat, khop dung file + do mo
+- Logo 9:16 dat o goc tren-phai trong safe zone T6 (x 684-780, y 60-156):
+  goc duoi-phai cua khung 16:9 bi UI TikTok che kin => khong ai thay
+  (A11 #198, sua H29)
+- 13/15 clip dat tron 14 cong T1-T14; 2 clip VN truot T13 (tu cam co san)
+
+VIEC CON LAI (da bao cao, cho nguoi dung quyet - khong tu sua):
+- EN TK2 thieu 2 cau (TK2.01#10 vai C, TK2.01#11 CTA vai H): loi dung dung o
+  56,14s roi 14,76s chi co nhac nen; khong con WAV nao de va tren dia =>
+  cach sua dung la sinh lai bang Higgs Audio v3 tren Kaggle GPU
+- Tu cam "sat hai" o VN TK1.01#6 va TK3.01#9 - co san trong kich ban tap
+  chinh, sua kich ban can nguoi dung duyet
+- Nhac nen: spec tro bgm_ambient_tension.mp3 nhung file da bi xoa, khong
+  truy viet duoc nguon audio cua clip (T9/L7)
+
+Khong commit media (L10). Bao cao day du:
+02_SAN_XUAT/TIKTOK/Tap04/BAO_CAO_QC_TIKTOK_TAP04.md

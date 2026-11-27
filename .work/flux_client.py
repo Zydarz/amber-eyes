@@ -96,7 +96,8 @@ def get_credentials():
     return "", ""
 
 # Track the index of the currently active working account
-_ACTIVE_ACCOUNT_INDEX = 5
+# 2026-11-27: ACCOUNT_7 (index 6) added — fresh quota, tried first; failover walks back to 5,4,...0
+_ACTIVE_ACCOUNT_INDEX = 6
 
 def generate_image(prompt, steps=4, timeout=60, max_retries=3, model=DEFAULT_MODEL):
     """Call Cloudflare Workers AI FLUX.1 with automatic multi-account failover on 429 quota exhaustion."""

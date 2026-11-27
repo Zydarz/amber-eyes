@@ -1,174 +1,176 @@
 # BẢNG MAPPING SHOT ↔ ẢNH NỀN · TẬP 31
 
-- Nguồn: `.work/bg_jobs_tap31.json` + kịch bản VN hiện tại · **163 shot · 163 ảnh khác nhau · ảnh bị dùng lặp ở >1 shot: 0** · phủ 240/240 câu
-- Ảnh đã có file `assets/bg/`: **0/163** · Tổng thời lượng ƯỚC LƯỢNG: 32.9 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
+- Nguồn: `.work/bg_jobs_tap31.json` + kịch bản VN hiện tại · **165 shot · 165 ảnh khác nhau · ảnh bị dùng lặp ở >1 shot: 0** · phủ 234/234 câu
+- Ảnh đã có file `assets/bg/`: **159/165** · Tổng thời lượng ƯỚC LƯỢNG: 37.1 phút (chỉ để tham khảo; thời lượng thật lấy từ `timeline_s` sau khi có audio, H14)
 - **LUẬT DỰNG (AGENTS.md H28):** AI dựng video PHẢI đọc file này (hoặc `.work/shot_map_tap31.json`) và dùng **đúng ảnh ở cột Tên ảnh cho đúng câu ở cột Câu** — CẤM tự chọn ảnh theo chủ đề, CẤM lặp ảnh, CẤM đổi thứ tự. Trước khi dựng chạy `py -3 .work/map_shot_anh.py --check 31` phải ĐẠT.
 - Cách dùng: dựng theo đúng thứ tự dòng; shot bắt đầu ở câu đầu của cột Câu và kéo tới hết câu cuối; ảnh = cột Tên ảnh.
 - Lỗi mapping (cần xử lý): 0
-- Shot dài ước > 15 s (H10, chỉ ước lượng — kiểm lại khi có timeline): 60 · > 30 s (H22): 0
+- Shot dài ước > 15 s (H10, chỉ ước lượng — kiểm lại khi có timeline): 62 · > 30 s (H22): 0
 
 | Shot | Hồi | Câu (đầu – cuối) | Số câu | Ước (s) | Tên ảnh (`assets/bg/<tên>.png`) | Có file | Mô tả cảnh |
 |---|---|---|---|---|---|---|---|
-| 1-001 | 1 | `1.02#1` | 1 | 7.1 | `t31_a1_01_frederick_suburb_dawn_aerial` | ⏳ | Toàn cảnh ngoại ô Frederick, Colorado lúc rạng sáng thanh bình. |
-| 1-002 | 1 | `1.02#2 – 1.02#3` | 2 | 17.8 | `t31_a1_02_saratoga_trail_manicured_lawns` | ⏳ | Dãy biệt thự với bãi cỏ xanh mướt, một buổi sáng thứ Hai bình thường. |
-| 1-003 | 1 | `1.02#4` | 1 | 9.3 | `t31_a1_03_empty_kitchen_morning_light` | ⏳ | Căn bếp trống trải, ánh sáng buổi sáng, cuộc sống thường nhật bỗng thiếu vắng chủ nhân. |
-| 1-004 | 1 | `1.02#5 – 1.02#6` | 2 | 17.8 | `t31_a1_04_friend_silhouette_anxious_car` | ⏳ | Người bạn thân lo lắng trong xe, đợi hồi âm không đến. |
-| 1-005 | 1 | `1.02#7 – 1.02#8` | 2 | 16.7 | `t31_a1_05_uniform_houses_velvet_calm` | ⏳ | Dãy nhà giống hệt nhau, đèn ấm sau rèm, ru ngủ cảm giác an toàn. |
-| 1-006 | 1 | `1.02#9 – 1.02#10` | 2 | 14.5 | `t31_a1_06_neighbors_waving_storm_behind` | ⏳ | Hàng xóm vẫy chào qua hàng rào, mây giông đang ùn lên phía sau mái nhà. |
-| 1-007 | 1 | `1.02#11` | 1 | 7.7 | `t31_a1_07_friend_ringing_doorbell_silhouette` | ⏳ | Nickole bấm chuông liên hồi trước cánh cửa đóng kín. |
-| 1-008 | 1 | `1.02#12` | 1 | 7.7 | `t31_a1_08_house_facade_heavy_clouds` | ⏳ | Mặt tiền ngôi nhà im lặng dưới bầu trời nặng nề, điềm gở bắt đầu. |
-| 1-009 | 1 | `1.04#1 – 1.04#2` | 2 | 13.4 | `t31_a1_09_pill_bottles_blank_counter` | ⏳ | Thuốc men thiết yếu bỏ lại trên bàn bếp, dấu hiệu không ai rời nhà tự nguyện. |
-| 1-010 | 1 | `1.04#3 – 1.04#4` | 2 | 14.8 | `t31_a1_10_garage_car_shoes_by_door` | ⏳ | Chiếc xe còn trong gara, đôi giày ngay ngắn bên thềm. |
-| 1-011 | 1 | `1.04#5 – 1.04#6` | 2 | 15.9 | `t31_a1_11_window_slit_bag_on_table` | ⏳ | Qua khe cửa sổ thấy túi xách còn nguyên, mọi dấu hiệu vật lý đều ngược với việc bỏ đi. |
-| 1-012 | 1 | `1.06#1` | 1 | 7.1 | `t31_a1_12_patrol_car_arriving_curb` | ⏳ | Xe tuần tra của cảnh sát địa phương dừng bên lề đường nhà Watts. |
-| 1-013 | 1 | `1.06#2 – 1.06#3` | 2 | 17.3 | `t31_a1_13_white_truck_arrives_calm_silhouette` | ⏳ | Chiếc xe bán tải về nhà, người chồng bước ra điềm tĩnh khác thường. |
-| 1-014 | 1 | `1.06#4` | 1 | 7.7 | `t31_a1_14_front_door_opened_alone` | ⏳ | Cánh cửa mở hé, bóng người bước vào nhà một mình trong bóng tối hành lang. |
-| 1-015 | 1 | `1.06#5 – 1.06#6` | 2 | 16.7 | `t31_a1_15_footprints_threshold_pause` | ⏳ | Ngưỡng cửa và khoảnh khắc ngập ngừng: kiểm tra hiện trường trước khi người khác vào. |
-| 1-016 | 1 | `1.07#1 – 1.07#3` | 3 | 19.1 | `t31_a1_16_friend_silhouette_porch_dread` | ⏳ | Bóng người bạn thân đứng nơi hiên nhà, linh cảm nặng trĩu. |
-| 1-017 | 1 | `1.07#4 – 1.07#5` | 2 | 14.2 | `t31_a1_17_friend_whispering_to_officer` | ⏳ | Nỗi bất an lớn dần khi người chồng chậm chạp, thờ ơ. |
-| 1-018 | 1 | `1.09#1 – 1.09#2` | 2 | 14.8 | `t31_a1_18_stripped_bed_ring_on_nightstand` | ⏳ | Giường ngủ bị lột trần ga, chiếc nhẫn cưới lẻ loi trên bàn đầu giường. |
-| 1-019 | 1 | `1.09#3 – 1.09#4` | 2 | 17.3 | `t31_a1_19_couple_argument_story_cracks` | ⏳ | Lời giải thích về cuộc cãi vã để lộ những vết rạn đầu tiên. |
-| 1-020 | 1 | `1.09#5` | 1 | 8.0 | `t31_a1_20_mother_would_not_leave_empty_nursery_doorway` | ⏳ | Chiếc xe bán tải về nhà, Chris Watts bước ra điềm tĩnh khác thường. |
-| 1-021 | 1 | `1.10#1 – 1.10#2` | 2 | 14.2 | `t31_a1_21_neighbor_living_room_camera_replay` | ⏳ | Phòng khách nhà hàng xóm, mọi người xem lại băng camera an ninh. |
-| 1-022 | 1 | `1.10#3` | 1 | 9.3 | `t31_a1_22_truck_backing_dawn_garage` | ⏳ | Chiếc xe bán tải lùi sát cửa gara trong ánh bình minh sớm. |
-| 1-023 | 1 | `1.10#4 – 1.10#5` | 2 | 17.3 | `t31_a1_23_silhouette_fidgeting_hands_cctv` | ⏳ | Người đàn ông bồn chồn, đứng ngồi không yên khi xem băng ghi hình. |
-| 1-024 | 1 | `1.10#6 – 1.10#7` | 2 | 17.8 | `t31_a1_24_neighbor_whisper_shadow_phone` | ⏳ | Người hàng xóm thì thầm với viên cảnh sát trong khi nghi phạm ra ngoài nghe điện thoại. |
-| 1-025 | 1 | `1.11#1 – 1.11#2` | 2 | 15.6 | `t31_a1_25_tv_cameras_on_porch_steps` | ⏳ | Máy quay truyền hình chĩa vào bậc thềm nhà, bóng người đứng khoanh tay. |
-| 1-026 | 1 | `1.11#3` | 1 | 8.2 | `t31_a1_26_empty_house_hollow_rooms` | ⏳ | Ngôi nhà trống rỗng ma quái mà người đàn ông mô tả bằng ánh mắt khô khốc. |
-| 1-027 | 1 | `1.11#4 – 1.11#5` | 2 | 15.9 | `t31_a1_27_micro_expression_shadow_closeup` | ⏳ | Nụ cười thoáng qua trong bóng tối, vi biểu cảm bị giới chuyên gia nhận ra. |
-| 2-028 | 2 | `2.02#1` | 1 | 7.4 | `t31_a2_01_dark_analysis_room_case_folder` | ⏳ | Căn phòng phân tích tối mờ, chồng hồ sơ trống trên bàn dưới ánh đèn. |
-| 2-029 | 2 | `2.02#2 – 2.02#3` | 2 | 15.3 | `t31_a2_02_perfect_family_house_golden_hour` | ⏳ | Căn biệt thự năm phòng ngủ lung linh giờ vàng, vẻ hoàn hảo bề ngoài. |
-| 2-030 | 2 | `2.02#4` | 1 | 7.4 | `t31_a2_03_ring_light_phone_living_room` | ⏳ | Vòng đèn và điện thoại đặt trên chân đế trong phòng khách rực rỡ, hình ảnh gia đình được dựng lên. |
-| 2-031 | 2 | `2.02#5` | 1 | 6.8 | `t31_a2_04_quiet_man_back_garage_door` | ⏳ | Bóng người đàn ông lặng lẽ quay lưng đứng nơi cửa gara. |
-| 2-032 | 2 | `2.02#6` | 1 | 7.7 | `t31_a2_05_gilded_frame_cracking_wall` | ⏳ | Khung tranh mạ vàng rạn nứt trên bức tường tối, vỏ bọc đối lập hiện thực. |
-| 2-033 | 2 | `2.04#1` | 1 | 8.2 | `t31_a2_06_phones_laptop_forensic_desk` | ⏳ | Điện thoại và máy tính bị thu giữ trên bàn giám định, các bóng điều tra viên xung quanh. |
-| 2-034 | 2 | `2.04#2` | 1 | 8.5 | `t31_a2_07_lone_dinner_empty_house_june` | ⏳ | Một mình trong ngôi nhà vắng suốt mùa hè, bữa ăn một người. |
-| 2-035 | 2 | `2.04#3` | 1 | 7.7 | `t31_a2_08_woman_silhouette_oilfield_distance` | ⏳ | Bóng người phụ nữ đội mũ bảo hộ đứng xa giữa mỏ dầu lúc hoàng hôn. |
-| 2-036 | 2 | `2.04#4 – 2.04#5` | 2 | 14.2 | `t31_a2_09_two_silhouettes_sand_dunes_dusk` | ⏳ | Hai bóng người trên cồn cát hoàng hôn, cảm giác được tôn sùng. |
-| 2-037 | 2 | `2.04#6` | 1 | 7.4 | `t31_a2_10_gym_barbells_silhouette_man` | ⏳ | Bóng người đàn ông tập thể hình điên cuồng, mặt chìm hoàn toàn trong bóng tối. |
-| 2-038 | 2 | `2.04#7` | 1 | 9.6 | `t31_a2_11_wedding_shop_mannequin_window` | ⏳ | Cửa kính tiệm váy cưới với những ma-nơ-canh, ảo tưởng về tương lai. |
-| 2-039 | 2 | `2.04#8` | 1 | 8.5 | `t31_a2_12_dream_house_tour_empty_rooms` | ⏳ | Căn nhà trống sáng đèn, bóng người ngắm nhìn tương lai tưởng tượng. |
-| 2-040 | 2 | `2.04#9` | 1 | 7.7 | `t31_a2_13_corridor_bright_door_family_frames` | ⏳ | Hành lang tối với cánh cửa sáng chói ở cuối, những khung ảnh xoay vào bóng tối. |
-| 2-041 | 2 | `2.04#10` | 1 | 8.0 | `t31_a2_14_brick_wall_between_man_and_city` | ⏳ | Bức tường gạch chắn giữa bóng người đàn ông và thành phố sáng đèn phía xa. |
-| 2-042 | 2 | `2.05#1 – 2.05#2` | 2 | 15.3 | `t31_a2_15_oilfield_workers_dawn_pumpjacks` | ⏳ | Công nhân mỏ dầu ở bình minh, một người thợ lành nghề trầm tính. |
-| 2-043 | 2 | `2.05#3 – 2.05#4` | 2 | 15.6 | `t31_a2_16_tidy_garage_workbench_gauge` | ⏳ | Gara ngăn nắp và chiếc đồng hồ áp suất rạn nứt, ẩn dụ khối u ái kỷ âm ỉ. |
-| 2-044 | 2 | `2.05#5` | 1 | 8.0 | `t31_a2_17_sealed_pressure_vessel_valve` | ⏳ | Bình áp suất kín van nổi gân thép, quả bom chờ nổ. |
-| 2-045 | 2 | `2.06#1 – 2.06#2` | 2 | 18.1 | `t31_a2_18_plain_white_mask_on_table` | ⏳ | Chiếc mặt nạ thạch cao trơn đặt trên bàn trong căn phòng tối, kẻ ái kỷ kín đáo. |
-| 2-046 | 2 | `2.06#3 – 2.06#4` | 2 | 16.2 | `t31_a2_19_hunched_silhouette_big_shadows` | ⏳ | Bóng người đàn ông co rúm dưới những cái bóng khổng lồ, nuốt oán giận vào lòng. |
-| 2-047 | 2 | `2.06#5 – 2.06#6` | 2 | 15.9 | `t31_a2_20_pressure_cooker_sealed_stove` | ⏳ | Nồi áp suất đậy kín trên bếp, cái tôi mong manh được ve vuốt rồi bốc hơi. |
-| 2-048 | 2 | `2.06#7 – 2.06#8` | 2 | 14.2 | `t31_a2_21_two_drawers_filing_cabinet` | ⏳ | Tủ hồ sơ có hai ngăn kéo, ngăn thứ nhất chật cứng phong bì trống. |
-| 2-049 | 2 | `2.06#9` | 1 | 8.2 | `t31_a2_22_drawer_pouring_amber_light` | ⏳ | Ngăn kéo thứ hai mở ra, ánh hổ phách ấm tràn xuống sàn: thế giới tự do tưởng tượng. |
-| 2-050 | 2 | `2.06#10 – 2.06#11` | 2 | 16.5 | `t31_a2_23_chess_pawns_shadow_hand` | ⏳ | Hàng quân tốt gỗ vô danh dưới cái bóng bàn tay khổng lồ, người thân bị giáng thành vật cản. |
-| 2-051 | 2 | `2.06#12` | 1 | 8.0 | `t31_a2_24_descending_staircase_into_dark` | ⏳ | Cầu thang dẫn xuống bóng tối, quỹ đạo leo thang của ảo tưởng. |
-| 2-052 | 2 | `2.07#1` | 1 | 8.0 | `t31_a2_25_bedroom_window_rain_lamp_books` | ⏳ | Cửa sổ phòng ngủ đẫm mưa, ngọn đèn ngủ và chồng sách đầu giường. |
-| 2-053 | 2 | `2.07#2 – 2.07#3` | 2 | 15.1 | `t31_a2_26_books_ribbon_letters_doorstep` | ⏳ | Chồng sách ràng ruy-băng và những phong bì trống trước cửa, nỗ lực hàn gắn. |
-| 2-054 | 2 | `2.07#4` | 1 | 8.5 | `t31_a2_27_closed_door_envelope_underneath` | ⏳ | Cánh cửa khép kín cuối hành lang, bức thư lọt qua khe nhận lại sự lạnh nhạt. |
-| 2-055 | 2 | `2.08#1 – 2.08#2` | 2 | 15.9 | `t31_a2_28_dashboard_glow_pickup_cab` | ⏳ | Bóng người trong cabin xe bán tải, chỉ ánh bảng đồng hồ hắt lên. |
-| 2-056 | 2 | `2.08#3 – 2.08#4` | 2 | 18.4 | `t31_a2_29_remote_oil_site_isolated_plain` | ⏳ | Địa điểm khai thác dầu hẻo lánh giữa đồng bằng Colorado, đìu hiu và biệt lập. |
-| 2-057 | 2 | `2.08#5` | 1 | 8.5 | `t31_a2_30_two_steel_crude_tanks_tall` | ⏳ | Hai bồn chứa dầu thô bằng thép cao vút hiện lên trên nền trời xám. |
-| 2-058 | 2 | `2.08#6` | 1 | 7.7 | `t31_a2_31_tank_top_hatch_ladder` | ⏳ | Thang sắt dẫn lên nắp kiểm tra tròn trên đỉnh bồn dầu. |
-| 2-059 | 2 | `2.08#7` | 1 | 8.5 | `t31_a2_32_lone_pickup_far_empty_road` | ⏳ | Một chiếc xe đơn độc trên con đường đất trống, lịch làm việc đơn độc đã tính trước. |
-| 2-060 | 2 | `2.09#1 – 2.09#2` | 2 | 15.9 | `t31_a2_33_night_plane_over_denver_porchlight` | ⏳ | Máy bay hạ cánh trong đêm, ánh đèn hiên căn nhà vắng vào hai giờ sáng. |
-| 2-061 | 2 | `2.09#3` | 1 | 8.5 | `t31_a2_34_hallway_closed_door_moonlight` | ⏳ | Hành lang im ắng, một cánh cửa khép kín với vệt ánh trăng. |
-| 2-062 | 2 | `2.09#4` | 1 | 7.4 | `t31_a2_35_door_closing_in_darkness` | ⏳ | Cánh cửa phòng khép lại trong bóng đêm đặc quánh. |
-| 2-063 | 2 | `2.10#1 – 2.10#2` | 2 | 15.6 | `t31_a2_36_hollow_man_silhouette_empty_room` | ⏳ | Bóng người đứng bất động trong căn phòng trống, sự tê liệt thấu cảm. |
-| 2-064 | 2 | `2.10#3` | 1 | 8.0 | `t31_a2_37_corridor_one_exit_door_light` | ⏳ | Hành lang tối với duy nhất một cửa thoát sáng đèn, 'giải pháp' méo mó. |
-| 2-065 | 2 | `2.10#4 – 2.10#5` | 2 | 17.0 | `t31_a2_38_bell_jar_candle_rain` | ⏳ | Chiếc chuông thủy tinh úp lên ngọn nến, tiếng van xin bị bóp nghẹt. |
-| 2-066 | 2 | `2.10#6` | 1 | 8.0 | `t31_a2_39_cage_door_swinging_shut` | ⏳ | Cửa lồng sắt đóng sập, cái bẫy thực tế sập xuống. |
-| 2-067 | 2 | `2.11#1` | 1 | 6.8 | `t31_a2_40_dawn_mist_frederick_peaceful` | ⏳ | Bình minh ngày mười ba tháng tám phủ sương trên Frederick, yên bình đến lạnh người. |
-| 2-068 | 2 | `2.11#2 – 2.11#3` | 2 | 14.2 | `t31_a2_41_pickup_leaving_garage_fog_interrogation` | ⏳ | Xe bán tải rời gara trong sương sớm; phòng thẩm vấn với hai chiếc ghế đối diện. |
-| 3-069 | 3 | `3.02#1` | 1 | 8.0 | `t31_a3_01_investigation_agency_office_dawn` | ⏳ | Tòa nhà cơ quan điều tra xám lạnh trong buổi sáng ngày mười lăm tháng tám. |
-| 3-070 | 3 | `3.02#2` | 1 | 9.1 | `t31_a3_02_windowless_interrogation_room` | ⏳ | Căn phòng thẩm vấn nhỏ không cửa sổ, một bàn và hai ghế dưới ánh đèn gắt. |
-| 3-071 | 3 | `3.02#3` | 1 | 9.3 | `t31_a3_03_two_silhouettes_across_table` | ⏳ | Nữ đặc vụ và nghi phạm đối diện nhau, hai bóng người trên bàn thẩm vấn. |
-| 3-072 | 3 | `3.02#4` | 1 | 8.0 | `t31_a3_04_pen_blank_notepad_lamp` | ⏳ | Cây bút trên cuốn sổ trống dưới đèn: từng câu hỏi tính toán như dao mổ tâm lý. |
-| 3-073 | 3 | `3.04#1 – 3.04#2` | 2 | 16.5 | `t31_a3_05_man_relaxed_posture_chair` | ⏳ | Bóng người đàn ông ngồi thả lỏng trên ghế, tự tin sẽ qua mặt được cỗ máy. |
-| 3-074 | 3 | `3.04#3 – 3.04#4` | 2 | 15.6 | `t31_a3_06_agent_leaning_forward_tense` | ⏳ | Nữ đặc vụ nghiêng người về phía trước, không khí trong phòng đặc quánh. |
-| 3-075 | 3 | `3.05#1 – 3.05#2` | 2 | 17.0 | `t31_a3_07_coffee_water_safe_illusion` | ⏳ | Cốc cà phê và ly nước đặt trên bàn, cảm giác an toàn giả tạo. |
-| 3-076 | 3 | `3.05#3` | 1 | 8.0 | `t31_a3_08_man_gesturing_complaining_agent_listening` | ⏳ | Người đàn ông than thở với tay chuyển động, người điều tra viên lắng nghe. |
-| 3-077 | 3 | `3.05#4` | 1 | 11.0 | `t31_a3_09_polygraph_cables_metal_table` | ⏳ | Dây cảm biến đa ký cuộn trên mặt bàn kim loại, thiết bị đo trống mặt số. |
-| 3-078 | 3 | `3.05#5` | 1 | 7.7 | `t31_a3_10_paper_chart_jagged_spikes` | ⏳ | Dải giấy ghi biểu đồ với những đường mực vọt nhọn dữ dội. |
-| 3-079 | 3 | `3.05#6 – 3.05#7` | 2 | 17.0 | `t31_a3_11_face_down_result_sheet_table` | ⏳ | Tờ kết quả úp mặt trên bàn thẩm vấn, mức điểm gian dối tuyệt đối. |
-| 3-080 | 3 | `3.06#1` | 1 | 8.5 | `t31_a3_12_folder_slid_across_table_shadow` | ⏳ | Bàn tay bóng đen đẩy tập hồ sơ qua mặt bàn, chiếc mặt nạ bắt đầu rạn. |
-| 3-081 | 3 | `3.06#2` | 1 | 7.7 | `t31_a3_13_bowed_head_clasped_hands` | ⏳ | Người đàn ông cúi gầm mặt, hai tay đan chặt vào nhau. |
-| 3-082 | 3 | `3.06#3 – 3.06#4` | 2 | 16.2 | `t31_a3_14_cracked_plaster_mask_falling` | ⏳ | Mặt nạ thạch cao nứt vỡ rơi xuống nền, cái bản ngã mong manh bị lột trần. |
-| 3-083 | 3 | `3.07#1 – 3.07#2` | 2 | 14.8 | `t31_a3_15_cracked_mirror_silhouette` | ⏳ | Tấm gương vỡ phản chiếu bóng người, hình ảnh đạo đức giả tan thành mảnh. |
-| 3-084 | 3 | `3.07#3 – 3.07#4` | 2 | 17.0 | `t31_a3_16_man_crumpling_against_wall` | ⏳ | Bóng người đàn ông co rúm sát tường dưới ngọn đèn đơn độc. |
-| 3-085 | 3 | `3.07#5 – 3.07#6` | 2 | 18.4 | `t31_a3_17_agent_offers_scenario_two_chairs` | ⏳ | Nữ đặc vụ nghiêng về phía trước tung ra kịch bản thay thế. |
-| 3-086 | 3 | `3.07#7 – 3.07#8` | 2 | 19.0 | `t31_a3_18_rope_over_dark_abyss` | ⏳ | Sợi dây buông xuống vực tối, kẻ đang chới với chộp lấy câu chuyện ngụy tạo. |
-| 3-087 | 3 | `3.07#9` | 1 | 9.6 | `t31_a3_19_empty_chair_pointing_shadow` | ⏳ | Chiếc ghế trống trong góc phòng và cái bóng ngón tay chỉ trỏ trên tường. |
-| 3-088 | 3 | `3.07#10 – 3.07#11` | 2 | 17.0 | `t31_a3_20_tattered_cloak_over_chair` | ⏳ | Chiếc áo choàng danh dự rách tả tơi vắt trên ghế, tàn dư danh dự giả tạo. |
-| 3-089 | 3 | `3.08#1` | 1 | 8.0 | `t31_a3_21_detectives_map_table_lamp` | ⏳ | Văn phòng điều tra thứ hai: các bóng thám tử quanh bàn bản đồ trống. |
-| 3-090 | 3 | `3.08#2` | 1 | 8.2 | `t31_a3_22_father_daughter_entering_station` | ⏳ | Hai bóng người, một người cha và con gái, bước vào đồn cảnh sát lúc hoàng hôn. |
-| 3-091 | 3 | `3.08#3 – 3.08#4` | 2 | 18.1 | `t31_a3_23_woman_hesitating_in_parked_car` | ⏳ | Bóng người phụ nữ do dự trong xe đậu ban đêm, cơ chế tự vệ chứ không phải ăn năn. |
-| 3-092 | 3 | `3.08#5` | 1 | 8.8 | `t31_a3_24_blue_tv_flicker_dark_living_room` | ⏳ | Ánh xanh ti vi chập chờn trong phòng khách tối, bóng người ngồi xem tin vụ mất tích. |
-| 3-093 | 3 | `3.08#6 – 3.08#7` | 2 | 17.8 | `t31_a3_25_phone_face_down_head_in_hands` | ⏳ | Điện thoại úp mặt trên bàn, người phụ nữ ôm đầu hoảng loạn xóa dấu vết. |
-| 3-094 | 3 | `3.08#8` | 1 | 8.8 | `t31_a3_26_glass_partition_two_figures` | ⏳ | Tấm kính ngăn đôi hai bóng người: chiến lược pháp lý tách rời bản thân. |
-| 3-095 | 3 | `3.09#1 – 3.09#2` | 2 | 14.8 | `t31_a3_27_crossroads_two_lit_doors` | ⏳ | Bóng người đứng giữa hai cánh cửa sáng đèn, bất hòa nhận thức dằn vặt. |
-| 3-096 | 3 | `3.09#3 – 3.09#4` | 2 | 14.2 | `t31_a3_28_iron_bar_shadows_on_floor` | ⏳ | Những vệt bóng song sắt trải trên sàn nhà, nỗi sợ nhà tù. |
-| 3-097 | 3 | `3.09#5 – 3.09#6` | 2 | 16.5 | `t31_a3_29_evidence_boxes_prosecutor_office` | ⏳ | Chồng hộp tài liệu trong văn phòng công tố dưới đèn bàn, lời khai bất lợi. |
-| 3-098 | 3 | `3.09#7 – 3.09#8` | 2 | 19.5 | `t31_a3_30_frayed_rope_snapping` | ⏳ | Sợi dây thừng sờn đứt phựt trong khoảnh khắc chậm, các mối quan hệ phân rã. |
-| 3-099 | 3 | `3.10#1 – 3.10#2` | 2 | 15.6 | `t31_a3_31_pencil_blank_sketch_pad_hand_shadow` | ⏳ | Bàn tay bóng đen cầm bút trên tờ giấy phác thảo trống. |
-| 3-100 | 3 | `3.10#3` | 1 | 8.0 | `t31_a3_32_police_convoy_dusk_dirt_road` | ⏳ | Đoàn xe cảnh sát tối màu chạy trên con đường đất về phía mỏ dầu lúc chạng vạng. |
-| 4-101 | 4 | `4.02#1 – 4.02#2` | 2 | 14.8 | `t31_a4_01_oil_site_two_tanks_dusk` | ⏳ | Mỏ dầu hẻo lánh với hai bồn thép khổng lồ lúc chạng vạng. |
-| 4-102 | 4 | `4.02#3` | 1 | 8.2 | `t31_a4_02_dust_cloud_rusty_valves` | ⏳ | Bụi cát mù mịt quanh những van sắt gỉ sét. |
-| 4-103 | 4 | `4.02#4` | 1 | 6.8 | `t31_a4_03_investigators_white_suits_path` | ⏳ | Các bóng điều tra viên mặc đồ bảo hộ trắng tiến vào theo lối đất. |
-| 4-104 | 4 | `4.02#5` | 1 | 7.4 | `t31_a4_04_storm_curtain_over_tanks` | ⏳ | Màn mây giông đen kéo như tấm rèm nhung phía trên hai bồn dầu. |
-| 4-105 | 4 | `4.03#1` | 1 | 8.8 | `t31_a4_05_survey_flags_dry_earth` | ⏳ | Cờ đánh dấu cắm trên khoảng đất khô cằn gần bồn dầu. |
-| 4-106 | 4 | `4.03#2 – 4.03#3` | 2 | 18.7 | `t31_a4_06_forensic_tent_dusty_plain` | ⏳ | Lều pháp y trắng giữa bình nguyên bụi, công việc khai quật im lặng bên trong. |
-| 4-107 | 4 | `4.03#4` | 1 | 8.0 | `t31_a4_07_tank_ladder_ascending_dusk` | ⏳ | Thang sắt vươn lên đỉnh bồn dầu trong ánh hoàng hôn xám. |
-| 4-108 | 4 | `4.03#5 – 4.03#6` | 2 | 18.7 | `t31_a4_08_narrow_hatch_metal_rim` | ⏳ | Nắp kiểm tra tròn chật hẹp trên đỉnh bồn, mép kim loại xỉn. |
-| 4-109 | 4 | `4.03#7 – 4.03#8` | 2 | 18.1 | `t31_a4_09_empty_field_wind_dusk` | ⏳ | Cánh đồng trống gió thổi, câu chuyện ngụy tạo sụp đổ. |
-| 4-110 | 4 | `4.03#9` | 1 | 8.5 | `t31_a4_10_tape_fluttering_flat_plains` | ⏳ | Dải băng vàng phong tỏa tung bay giữa bình nguyên phẳng. |
-| 4-111 | 4 | `4.04#1` | 1 | 10.2 | `t31_a4_11_reel_recorder_interview_room` | ⏳ | Máy ghi âm cuộn đặt trên bàn phòng phỏng vấn trống. |
-| 4-112 | 4 | `4.04#2` | 1 | 8.0 | `t31_a4_12_single_chair_shadow_bare_wall` | ⏳ | Một chiếc ghế dưới đèn gắt, bóng người đàn ông đổ dài trên tường. |
-| 4-113 | 4 | `4.04#3` | 1 | 8.2 | `t31_a4_13_bedroom_lamp_off_moonlit_door` | ⏳ | Đèn ngủ tắt và cánh cửa gỗ khép, vệt ánh trăng trên sàn. |
-| 4-114 | 4 | `4.04#4 – 4.04#5` | 2 | 15.9 | `t31_a4_14_pickup_night_highway_headlights` | ⏳ | Xe bán tải chạy trên xa lộ đêm, hai đèn pha cắt vào bóng tối. |
-| 4-115 | 4 | `4.05#1 – 4.05#2` | 2 | 14.8 | `t31_a4_15_courtroom_gallery_bowed_silhouettes` | ⏳ | Hàng ghế phòng xử với những cái đầu cúi, giọng người thân vang lên. |
-| 4-116 | 4 | `4.05#3 – 4.05#4` | 2 | 14.8 | `t31_a4_16_two_small_beds_child_room` | ⏳ | Căn phòng trẻ em với hai chiếc giường nhỏ gọn gàng, ánh sáng sớm dịu. |
-| 4-117 | 4 | `4.05#5 – 4.05#6` | 2 | 15.1 | `t31_a4_17_white_feathers_dark_sky` | ⏳ | Hai chiếc lông trắng bay trong bầu trời tối, những thiên thần nhỏ. |
-| 4-118 | 4 | `4.05#7 – 4.05#8` | 2 | 16.7 | `t31_a4_18_prison_cell_block_corridor` | ⏳ | Hành lang dãy buồng giam với song sắt và một bóng người đơn độc. |
-| 4-119 | 4 | `4.07#1` | 1 | 6.6 | `t31_a4_19_candles_stone_steps_night` | ⏳ | Hàng nến cháy trên bậc đá đêm tối, nỗi đau không bản án nào xoa dịu. |
-| 4-120 | 4 | `4.07#2` | 1 | 8.8 | `t31_a4_20_courthouse_exterior_november` | ⏳ | Toà án trong buổi sáng tháng mười một u ám. |
-| 4-121 | 4 | `4.07#3` | 1 | 8.0 | `t31_a4_21_scales_of_justice_soft_light` | ⏳ | Cán cân công lý bằng đồng trong ánh sáng nhạt phòng xử. |
-| 4-122 | 4 | `4.07#4` | 1 | 9.3 | `t31_a4_22_heavy_courtroom_doors` | ⏳ | Cánh cửa gỗ nặng nề của phòng xử, năm bản án chung thân. |
-| 4-123 | 4 | `4.07#5` | 1 | 8.8 | `t31_a4_23_defendant_silhouette_judge_bench` | ⏳ | Bóng bị cáo cúi đầu trước ghế quan toà, mặt chìm trong bóng tối. |
-| 4-124 | 4 | `4.07#6` | 1 | 8.2 | `t31_a4_24_gavel_on_wood_echo` | ⏳ | Chiếc búa công lý đặt trên mặt gỗ, tiếng vang khép lại. |
-| 4-125 | 4 | `4.08#1 – 4.08#2` | 2 | 18.4 | `t31_a4_25_surveillance_camera_eave_dusk` | ⏳ | Camera an ninh gắn dưới mái hiên nhà ngoại ô lúc chạng vạng, bằng chứng số. |
-| 4-126 | 4 | `4.08#3 – 4.08#4` | 2 | 16.7 | `t31_a4_26_command_center_silhouettes_table` | ⏳ | Các bóng điều tra viên quanh bàn dài trong trung tâm chỉ huy phối hợp. |
-| 4-127 | 4 | `4.09#1 – 4.09#2` | 2 | 14.8 | `t31_a4_27_rain_droplets_courthouse_window` | ⏳ | Hạt mưa chảy trên ô cửa sổ toà án, nước mắt và sự thật. |
-| 4-128 | 4 | `4.09#3 – 4.09#4` | 2 | 17.0 | `t31_a4_28_hand_reaching_across_gap` | ⏳ | Bàn tay vươn qua khoảng trống tối, sự thấu cảm thật sự. |
-| 4-129 | 4 | `4.09#5 – 4.09#6` | 2 | 15.6 | `t31_a4_29_man_looking_at_dark_window_reflection` | ⏳ | Bóng người nhìn phản chiếu chính mình trong ô cửa sổ tối. |
-| 4-130 | 4 | `4.09#7` | 1 | 8.5 | `t31_a4_30_bare_cell_wall_blank_paper` | ⏳ | Bức tường buồng giam trống với một mảnh giấy trắng ghim trên tường. |
-| 4-131 | 4 | `4.09#8 – 4.09#9` | 2 | 19.8 | `t31_a4_31_closed_book_on_metal_bunk` | ⏳ | Cuốn sách bìa da trơn đặt trên giường sắt: tôn giáo như tấm khiên. |
-| 4-132 | 4 | `4.10#1` | 1 | 7.7 | `t31_a4_32_prison_exterior_wisconsin_dawn` | ⏳ | Nhà tù bê tông ở Wisconsin lúc bình minh lạnh, dây thép gai. |
-| 4-133 | 4 | `4.10#2 – 4.10#3` | 2 | 16.2 | `t31_a4_33_narrow_cell_slit_window_light` | ⏳ | Buồng giam hẹp, một vệt sáng từ khe cửa sổ, hai mươi ba giờ biệt giam. |
-| 4-134 | 4 | `4.10#4 – 4.10#5` | 2 | 17.3 | `t31_a4_34_lone_streetlight_empty_road` | ⏳ | Cột đèn đường lẻ loi trên con đường ngoại ô vắng, xã hội tự vấn. |
-| 4-135 | 4 | `4.10#6` | 1 | 7.7 | `t31_a4_35_closed_file_lamp_switched_off` | ⏳ | Tập hồ sơ khép lại, ngọn đèn bàn vụt tắt. |
-| 5-136 | 5 | `5.02#1` | 1 | 8.8 | `t31_a5_01_sunrise_plains_after_storm` | ⏳ | Bình minh sau cơn bão trên bình nguyên Colorado, bản án đã được tuyên. |
-| 5-137 | 5 | `5.02#2 – 5.02#3` | 2 | 18.7 | `t31_a5_02_quiet_street_lit_windows_evening` | ⏳ | Con phố ngoại ô yên tĩnh với những ô cửa sáng đèn, dư chấn trong lòng xã hội. |
-| 5-138 | 5 | `5.02#4` | 1 | 9.1 | `t31_a5_03_backyard_empty_lawn_chairs_grill` | ⏳ | Sân sau với ghế xếp trống và bếp nướng, sự chủ quan của chúng ta. |
-| 5-139 | 5 | `5.02#5` | 1 | 8.5 | `t31_a5_04_bench_in_flower_garden_dawn` | ⏳ | Chiếc ghế đá giữa vườn hoa lúc bình minh, tưởng nhớ nhẹ nhàng. |
-| 5-140 | 5 | `5.02#6` | 1 | 10.4 | `t31_a5_05_community_hall_packing_boxes` | ⏳ | Các bóng người đóng gói thùng quyên góp trong hội trường ấm áp. |
-| 5-141 | 5 | `5.02#7` | 1 | 8.2 | `t31_a5_06_seedlings_pot_sunlight` | ⏳ | Mầm cây non trong chậu gỗ dưới nắng sớm, biến nỗi đau thành điều tốt. |
-| 5-142 | 5 | `5.02#8` | 1 | 7.7 | `t31_a5_07_sapling_through_cracked_asphalt` | ⏳ | Cây non mọc xuyên nhựa đường nứt, sự hồi sinh của niềm tin. |
-| 5-143 | 5 | `5.03#1` | 1 | 9.6 | `t31_a5_08_hand_shadow_broken_mirror` | ⏳ | Bóng bàn tay bóp mảnh gương vỡ, hội chứng kẻ hủy diệt gia đình. |
-| 5-144 | 5 | `5.03#2` | 1 | 9.9 | `t31_a5_09_man_turning_from_bright_window` | ⏳ | Bóng người quay lưng với khung cửa sổ sáng, không dám đối diện nỗi hổ thẹn. |
-| 5-145 | 5 | `5.03#3` | 1 | 8.2 | `t31_a5_10_corridor_identical_closed_doors` | ⏳ | Hành lang dài với hàng cửa giống hệt nhau đều đóng, tâm trí phân ngăn. |
-| 5-146 | 5 | `5.03#4` | 1 | 8.2 | `t31_a5_11_group_walking_trail_dawn` | ⏳ | Nhóm bóng người cùng bước đi trên đường mòn lúc bình minh, cộng đồng đồng hành. |
-| 5-147 | 5 | `5.03#5` | 1 | 8.8 | `t31_a5_12_paper_lanterns_released_hands` | ⏳ | Những bàn tay thả đèn lồng giấy lên bầu trời tối, buông bỏ hận thù. |
-| 5-148 | 5 | `5.03#6` | 1 | 11.3 | `t31_a5_13_lone_tree_prairie_hill_sunrise` | ⏳ | Cái cây đơn độc trên đồi cỏ lúc mặt trời mọc, sự kiên cường. |
-| 5-149 | 5 | `5.03#7` | 1 | 6.8 | `t31_a5_14_lighthouse_beam_through_fog` | ⏳ | Chùm sáng hải đăng xuyên qua màn sương, chiến thắng của tình yêu. |
-| 5-150 | 5 | `5.04#1` | 1 | 9.1 | `t31_a5_15_patrol_car_parked_dusk_lit` | ⏳ | Xe tuần tra đỗ lúc chạng vạng, đèn cabin sáng ấm. |
-| 5-151 | 5 | `5.04#2 – 5.04#3` | 2 | 19.2 | `t31_a5_16_investigator_desk_blank_cards_string` | ⏳ | Bàn điều tra với tấm bảng thẻ trống nối dây đỏ, phát hiện sớm. |
-| 5-152 | 5 | `5.04#4` | 1 | 9.3 | `t31_a5_17_officer_silhouette_at_door_dusk` | ⏳ | Bóng sĩ quan đứng kiên quyết trước cửa một ngôi nhà lúc chạng vạng. |
-| 5-153 | 5 | `5.04#5` | 1 | 9.9 | `t31_a5_18_local_federal_agents_handshake_silhouette` | ⏳ | Hai bóng người bắt tay, cảnh sát địa phương và liên bang phối hợp. |
-| 5-154 | 5 | `5.04#6` | 1 | 7.7 | `t31_a5_19_courthouse_light_empty_benches` | ⏳ | Ánh sáng chiếu qua cửa sổ toà án xuống hàng ghế trống, công lý trọn vẹn. |
-| 5-155 | 5 | `5.05#1` | 1 | 10.4 | `t31_a5_20_amber_warning_lamp_dark_road` | ⏳ | Đèn cảnh báo hổ phách nhấp nháy trên con đường tối, bốn dấu hiệu. |
-| 5-156 | 5 | `5.05#2 – 5.05#3` | 2 | 17.8 | `t31_a5_21_dinner_table_chair_pushed_away` | ⏳ | Bàn ăn tối với một chiếc ghế bị đẩy lùi xa, sự thay đổi của bạn đời. |
-| 5-157 | 5 | `5.05#4 – 5.05#5` | 2 | 16.5 | `t31_a5_22_two_masks_hanging_wall` | ⏳ | Hai chiếc mặt nạ trơn treo trên tường, thụ động cam chịu không phải hiền lành. |
-| 5-158 | 5 | `5.05#6 – 5.05#7` | 2 | 16.5 | `t31_a5_23_balloon_floating_over_fence` | ⏳ | Quả bóng bay trôi lên khỏi hàng rào nhà, ảo tưởng hạnh phúc. |
-| 5-159 | 5 | `5.05#8` | 1 | 5.7 | `t31_a5_24_compass_in_hand_dark` | ⏳ | Chiếc la bàn trong bàn tay bóng đen, tin vào trực giác. |
-| 5-160 | 5 | `5.05#9 – 5.05#10` | 2 | 20.3 | `t31_a5_25_closed_book_nightstand_lamp` | ⏳ | Cuốn sách bìa trơn và ngọn đèn trên bàn đầu giường, sức mạnh của nỗi sợ. |
-| 5-161 | 5 | `5.05#11 – 5.05#12` | 2 | 17.0 | `t31_a5_26_warm_door_opening_welcoming_hall` | ⏳ | Cánh cửa mở ra hành lang ấm áp, tìm sự giúp đỡ. |
-| 5-162 | 5 | `5.05#13 – 5.05#14` | 2 | 15.1 | `t31_a5_27_recording_studio_desk_microphone_lamp` | ⏳ | Bàn thu âm với micro và đèn hổ phách trong phòng thu tối. |
-| 5-163 | 5 | `5.05#15` | 1 | 5.5 | `t31_a5_28_amber_eyes_glowing_closed_dossier` | ⏳ | Đôi mắt hổ phách sáng trong bóng tối trên hồ sơ khép lại. |
+| 1-001 | 1 | `1.02#1 – 1.02#2` | 2 | 19.2 | `t31_a1_01_langson_misty_office_corridor` | ✅ | Hành lang cơ quan công quyền tại Lạng Sơn trong sương lạnh miền núi, chiếc mặt nạ trơn đặt trên bàn làm việc. |
+| 1-002 | 1 | `1.02#3` | 1 | 10.7 | `t31_a1_02_langson_city_dusk_announcement` | ✅ | Toàn cảnh thành phố Lạng Sơn lúc chạng vạng tháng 11/2025, ánh đèn đường bật sáng giữa bầu không khí bàng hoàng. |
+| 1-003 | 1 | `1.02#4` | 1 | 12.1 | `t31_a1_02b_arrest_order_dark_desk` | ✅ | Bàn làm việc tối với bản lệnh tố tụng trắng không chữ và đèn bàn lạnh, đánh dấu quyết định khởi tố và bắt tạm giam. |
+| 1-004 | 1 | `1.02#5` | 1 | 10.2 | `t31_a1_03_ten_month_calendar_shadow` | ✅ | Lịch tường trắng không chữ lật qua mười tháng, bóng người đàn ông mặc sơ mi chỉnh tề ngồi trước màn hình điện thoại. |
+| 1-005 | 1 | `1.02#6` | 1 | 11.6 | `t31_a1_03b_daily_commute_normal_mask` | ✅ | Bóng người đàn ông mặc sơ mi chỉnh tề bước đi bình thản trên vỉa hè sáng sủa suốt mười tháng sau biến cố. |
+| 1-006 | 1 | `1.02#7 – 1.02#8` | 2 | 17.8 | `t31_a1_04_quiet_neighborhood_tet_eve` | ✅ | Con phố yên bình tại Lạng Sơn với đèn lồng mờ dịp cận Tết, tương phản với bóng tối bên trong cánh cổng đóng kín. |
+| 1-007 | 1 | `1.02#9` | 1 | 17.1 | `t31_a1_05_daylight_office_night_phone` | ✅ | Khung hình chia đôi: bên trái là bàn làm việc công sở sáng sủa ban ngày, bên phải là màn hình điện thoại phát sáng trong phòng tối. |
+| 1-008 | 1 | `1.04#1` | 1 | 9.6 | `t31_a1_06_official_case_folder_desk` | ✅ | Bàn làm việc điều tra viên với bìa hồ sơ giấy kraft trơn và đèn bàn chiếu sáng, tách biệt sự thật khỏi tin đồn. |
+| 1-009 | 1 | `1.04#2` | 1 | 12.9 | `t31_a1_06b_tam_thanh_street_address` | ✅ | Con đường yên tĩnh tại phường Tam Thanh, Lạng Sơn dưới ánh đèn đường chiều muộn. |
+| 1-010 | 1 | `1.04#3 – 1.04#4` | 2 | 15.1 | `t31_a1_07_market_management_building_exterior` | ✅ | Mặt ngoài trụ sở cơ quan nhà nước cấp huyện với hàng rào sắt và sân vắng dưới bầu trời xám mùa đông. |
+| 1-011 | 1 | `1.04#5` | 1 | 9.9 | `t31_a1_08_hung_yen_rural_road_dusk` | ✅ | Con đường làng yên ả ở vùng đồng bằng Bắc Bộ lúc hoàng hôn, gợi nhớ quê hương Hưng Yên của nạn nhân. |
+| 1-012 | 1 | `1.04#6` | 1 | 11.8 | `t31_a1_08b_tet_eve_date_calendar_mist` | ✅ | Cành hoa đào mùa đông rung nhẹ trong gió lạnh ngày 26 tháng Chạp trước cửa sổ mờ sương. |
+| 1-013 | 1 | `1.04#7` | 1 | 9.9 | `t31_a1_09_lunar_new_year_empty_courtyard` | ✅ | Sân trụ sở cơ quan vắng tanh vào ngày 26 tháng Chạp, vài cánh hoa đào rụng trên nền bê tông lạnh. |
+| 1-014 | 1 | `1.04#8` | 1 | 9.9 | `t31_a1_09b_huu_lung_headquarters_gate` | ✅ | Cánh cổng trụ sở Đội Quản lý thị trường số bốn tại Hữu Lũng im lìm giữa buổi chiều mùa đông. |
+| 1-015 | 1 | `1.04#9` | 1 | 11.0 | `t31_a1_10_four_seasons_clock_silence` | ✅ | Chiếc đồng hồ kim mặt trơn trên tường hành lang vắng, ánh sáng chuyển từ đông sang thu biểu trưng gần một năm im lặng. |
+| 1-016 | 1 | `1.06#1 – 1.06#2` | 2 | 16.5 | `t31_a1_11_neighbor_looking_at_closed_gate` | ✅ | Bóng người dân đứng bên lề đường nhìn sang cánh cổng cơ quan đóng kín trong buổi chiều sương mù. |
+| 1-017 | 1 | `1.07#1 – 1.07#2` | 2 | 14.2 | `t31_a1_12_shocked_town_street_dusk` | ✅ | Con phố nhỏ thị trấn Hữu Lũng lúc chạng vạng, vài bóng người đứng nói chuyện nhỏ trước cửa nhà. |
+| 1-018 | 1 | `1.07#3 – 1.07#4` | 2 | 19.0 | `t31_a1_13_empty_office_gate_winter` | ✅ | Cánh cổng sắt cơ quan khóa chặt dịp cận Tết, lá khô cuốn theo gió dọc vỉa hè vắng. |
+| 1-019 | 1 | `1.07#5` | 1 | 6.0 | `t31_a1_14_dark_road_evening_chills` | ✅ | Con đường vắng đi ngang qua trụ sở vào buổi tối, đèn đường vàng hắt bóng dài lạnh lẽo. |
+| 1-020 | 1 | `1.08#1 – 1.08#2` | 2 | 19.5 | `t31_a1_15_halo_effect_suit_silhouette` | ✅ | Bóng người mặc áo sơ mi chỉnh tề đứng dưới quầng sáng vàng ấm, ẩn dụ cho Hiệu ứng Hào quang che mắt cộng đồng. |
+| 1-021 | 1 | `1.08#3 – 1.08#4` | 2 | 16.7 | `t31_a1_16_invisible_shield_office_desk` | ✅ | Tấm kính trong suốt chắn trước chiếc bàn làm việc ngăn nắp, biểu tượng cho tấm khiên tàng hình của chức danh. |
+| 1-022 | 1 | `1.08#5` | 1 | 13.8 | `t31_a1_17_normalcy_bias_foggy_window` | ✅ | Ô cửa sổ phủ sương mờ nhìn ra khu phố yên bình, ẩn dụ cho thành kiến bình thường hóa khiến mọi người bỏ qua bất thường. |
+| 1-023 | 1 | `1.08#6` | 1 | 8.8 | `t31_a1_17b_collective_trauma_town_night` | ✅ | Khu dân cư chìm trong đêm lạnh với những ô cửa rèm kéo kín, diễn tả chấn thương tập thể về niềm tin. |
+| 1-024 | 1 | `1.08#7` | 1 | 12.1 | `t31_a1_18_cracked_glass_trust_shattered` | ✅ | Mặt kính trong suốt nứt rạn từ tâm, phản chiếu ánh đèn đêm của thành phố, biểu tượng niềm tin xã hội rạn vỡ. |
+| 1-025 | 1 | `1.09#1 – 1.09#2` | 2 | 15.3 | `t31_a1_19_dark_smartphone_glow_night` | ✅ | Chiếc điện thoại đặt trên bàn tối phát sáng giữa căn phòng im ắng, khởi nguồn của cơn địa chấn từ không gian mạng. |
+| 1-026 | 1 | `1.09#3` | 1 | 7.7 | `t31_a1_20_tangled_data_threads_city` | ✅ | Những luồng sáng mảnh đan chéo trên bầu trời đêm thành phố, tượng trưng cho tin đồn và sự thật đan xen trên mạng. |
+| 1-027 | 1 | `1.10#1` | 1 | 11.0 | `t31_a1_21_hidden_chat_glow_shadows` | ✅ | Góc phòng tối với màn hình máy tính tỏa ánh sáng lạnh và chồng giấy trắng dày khoảng tám mươi tám trang không chữ. |
+| 1-028 | 1 | `1.10#2` | 1 | 12.4 | `t31_a1_21b_eighty_eight_page_stack` | ✅ | Chồng giấy trắng dày tám mươi tám trang kẹp sắt đặt trên bàn tối cạnh màn hình xanh mờ. |
+| 1-029 | 1 | `1.10#3 – 1.10#4` | 2 | 19.5 | `t31_a1_22_viral_screens_dark_room` | ✅ | Nhiều màn hình điện thoại phát sáng cùng lúc trong bóng tối của đám đông không lộ mặt, diễn tả cơn bão mạng. |
+| 1-030 | 1 | `1.10#5` | 1 | 12.9 | `t31_a1_23_police_cyber_desk_warning` | ✅ | Phòng làm việc lực lượng chức năng sáng đèn đêm khuya, hai màn hình trống và đèn bàn ấm thể hiện cuộc vào cuộc song song. |
+| 1-031 | 1 | `1.10#6` | 1 | 13.5 | `t31_a1_23b_malware_link_shield_warning` | ✅ | Màn hình điện thoại tối với biểu tượng cảnh báo trừu tượng ánh hổ phách, khuyến cáo không bấm link lạ chứa mã độc. |
+| 1-032 | 1 | `1.11#1 – 1.11#2` | 2 | 15.3 | `t31_a1_24_crowd_shadows_paradox` | ✅ | Đám đông bóng đen đứng trước bức tường ánh sáng, thể hiện sự phẫn nộ xen lẫn tò mò của tâm lý học đám đông. |
+| 1-033 | 1 | `1.11#3 – 1.11#4` | 2 | 19.2 | `t31_a1_25_scattered_blank_papers_wind` | ✅ | Những tờ giấy trắng bay tán loạn trong gió đêm trước ngõ vắng, ẩn dụ cho thông tin chưa kiểm chứng làm nhiễu loạn dư luận. |
+| 1-034 | 1 | `1.11#5 – 1.11#6` | 2 | 14.8 | `t31_a1_26_magnifying_glass_calm_desk` | ✅ | Chiếc kính lúp và cuốn sổ tay bìa da trơn trên bàn gỗ dưới ánh đèn vàng ấm, biểu tượng cho lăng kính khoa học hành vi. |
+| 1-035 | 1 | `1.11#7` | 1 | 9.6 | `t31_a1_27_long_dark_hallway_opening` | ✅ | Hành lang dài sâu hút với một tia sáng mảnh ở cuối đường, mở ra hành trình đi tìm gốc rễ tâm lý của bi kịch. |
+| 2-036 | 2 | `2.02#1 – 2.02#2` | 2 | 13.7 | `t31_a2_01_five_year_timeline_thread` | ✅ | Sợi dây đỏ mảnh nối hai điểm xa nhau trên tấm bản đồ địa hình miền Bắc Việt Nam hoàn toàn trơn không chữ. |
+| 2-037 | 2 | `2.02#3 – 2.02#4` | 2 | 19.2 | `t31_a2_02_two_distant_windows_night` | ✅ | Hai ô cửa sổ sáng đèn ở hai đầu khung hình tối, tượng trưng cho hai người đàn ông xa lạ ở hai tỉnh khác nhau. |
+| 2-038 | 2 | `2.03#1` | 1 | 11.3 | `t31_a2_03_tam_thanh_ward_evening` | ✅ | Khu dân cư yên tĩnh tại phường Tam Thanh, Lạng Sơn buổi tối với dãy nhà phố sáng đèn ấm. |
+| 2-039 | 2 | `2.03#2` | 1 | 9.6 | `t31_a2_03b_senior_official_office_window` | ✅ | Bóng người đàn ông ngoài năm mươi tuổi đứng bên cửa sổ văn phòng ngăn nắp tại Lạng Sơn. |
+| 2-040 | 2 | `2.03#3 – 2.03#4` | 2 | 16.7 | `t31_a2_04_hung_yen_empty_bus_stop` | ✅ | Bến xe nhỏ ven làng quê đồng bằng Bắc Bộ lúc sáng sớm vắng người, gợi hình ảnh người trẻ rời quê biệt tích nhiều năm. |
+| 2-041 | 2 | `2.03#5 – 2.03#6` | 2 | 17.3 | `t31_a2_05_late_night_keyboard_glow` | ✅ | Đôi tay bóng đen gõ phím trong căn phòng tối, ánh sáng xanh lạnh hắt lên bức tường trống. |
+| 2-042 | 2 | `2.03#7` | 1 | 9.6 | `t31_a2_06_anonymous_screen_five_years` | ✅ | Màn hình điện thoại đặt cạnh đồng hồ cát chảy chậm trong bóng tối, biểu tượng năm năm tương tác ẩn danh. |
+| 2-043 | 2 | `2.05#1 – 2.05#2` | 2 | 19.2 | `t31_a2_07_victimology_broken_bridge` | ✅ | Một bóng người đứng một mình trên con đường vắng giữa sương mù, biểu tượng cho sự cô lập xã hội sâu sắc. |
+| 2-044 | 2 | `2.05#3 – 2.05#4` | 2 | 16.7 | `t31_a2_08_empty_dinner_table_home` | ✅ | Bàn ăn gia đình với một chiếc ghế trống dưới ánh đèn vàng dịu, ẩn dụ cho sợi dây kết nối đời thực bị đứt gãy. |
+| 2-045 | 2 | `2.05#5 – 2.05#6` | 2 | 16.2 | `t31_a2_09_echo_chamber_dark_room` | ✅ | Căn phòng kín với bốn bức tường gương tối phản chiếu vô tận, ẩn dụ cho chiếc buồng vang tâm lý trên không gian mạng. |
+| 2-046 | 2 | `2.05#7` | 1 | 10.7 | `t31_a2_10_power_asymmetry_chess_board` | ✅ | Bàn cờ gỗ trong bóng tối với một quân cờ lớn đổ bóng dài trùm lên quân cờ nhỏ hơn, biểu tượng bất đối xứng quyền lực. |
+| 2-047 | 2 | `2.05#8` | 1 | 9.6 | `t31_a2_10b_echo_chamber_red_ripple` | ✅ | Ánh sáng xanh lạnh dội lại liên tục giữa hai bức tường tối, minh họa sự bình thường hóa ý nghĩ lệch lạc trong buồng vang. |
+| 2-048 | 2 | `2.06#1 – 2.06#2` | 2 | 16.2 | `t31_a2_11_calendar_pages_2020_to_2025` | ✅ | Đống lịch cũ xếp chồng bên cạnh chiếc đèn bàn mờ, đánh dấu quãng thời gian năm năm âm ỉ. |
+| 2-049 | 2 | `2.07#1 – 2.07#2` | 2 | 18.7 | `t31_a2_12_escalation_spiral_staircase` | ✅ | Cầu thang xoắn ốc tối dẫn xuống sâu trong bóng mờ, ẩn dụ cho chu kỳ nghiện ảo tưởng và cơ chế dung nạp kích thích. |
+| 2-050 | 2 | `2.07#3 – 2.07#4` | 2 | 19.2 | `t31_a2_13_fading_screen_fantasy_starvation` | ✅ | Bóng người ngồi bất động trước màn hình máy tính nhạt ánh sáng, diễn tả trạng thái đói ảo tưởng khi quen liều. |
+| 2-051 | 2 | `2.07#5 – 2.07#6` | 2 | 17.3 | `t31_a2_14_crossing_threshold_doorway` | ✅ | Cánh cửa hé mở từ căn phòng tối bước ra hành lang lạnh, biểu tượng kéo thế giới ảo bước qua lằn ranh đời thực. |
+| 2-052 | 2 | `2.07#7` | 1 | 10.7 | `t31_a2_15_tipping_point_falling_domino` | ✅ | Hàng domino đen đứng nối tiếp nhau trong ánh đèn nghiêng, quân đầu tiên bắt đầu đổ xuống. |
+| 2-053 | 2 | `2.09#1 – 2.09#2` | 2 | 18.1 | `t31_a2_16_huu_lung_winter_evening_26_tet` | ✅ | Đường phố Hữu Lũng chiều 26 tháng Chạp thưa vắng người qua lại, ánh đèn vàng mờ trong sương lạnh. |
+| 2-054 | 2 | `2.09#3` | 1 | 11.6 | `t31_a2_17_phone_call_dark_office_window` | ✅ | Bóng người đứng bên cửa sổ văn phòng tối cầm điện thoại gọi đi, bên ngoài là sân cơ quan vắng tanh. |
+| 2-055 | 2 | `2.09#4` | 1 | 10.4 | `t31_a2_17b_empty_holiday_trigger_clock` | ✅ | Hành lang cơ quan vắng lặng dịp giáp Tết với ánh nắng đông hắt xiên, điểm kích hoạt trực tiếp của hành vi phạm tội. |
+| 2-056 | 2 | `2.09#5 – 2.09#6` | 2 | 18.4 | `t31_a2_18_blueprint_empty_headquarters` | ✅ | Bản vẽ sơ đồ mặt bằng trống không chữ đặt trên bàn, đèn pin nhỏ chiếu qua hành lang văn phòng vắng. |
+| 2-057 | 2 | `2.09#7` | 1 | 13.2 | `t31_a2_19_cleaned_empty_room_aftermath` | ✅ | Căn phòng văn phòng trống trơn, sàn gạch sạch bóng lạnh lẽo và cánh cửa đóng kín, ẩn dụ cho hành vi xóa dấu vết. |
+| 2-058 | 2 | `2.09#8` | 1 | 9.1 | `t31_a2_19b_facade_uniform_coat_hanger` | ✅ | Chiếc áo khoác công sở treo ngay ngắn trên móc gỗ trong căn phòng gọn gàng, mục tiêu bảo toàn vỏ bọc công quyền. |
+| 2-059 | 2 | `2.10#1 – 2.10#2` | 2 | 12.6 | `t31_a2_20_mo_vs_signature_two_keys` | ✅ | Chiếc chìa khóa sắt lạnh đặt cạnh một dấu vân tay mờ trên mặt kính, biểu tượng sự đối lập giữa Thủ đoạn và Chữ ký tâm lý. |
+| 2-060 | 2 | `2.11#1 – 2.11#2` | 2 | 18.7 | `t31_a2_21_digital_footprint_dark_water` | ✅ | Mặt nước đen gợn sóng từ một chấm sáng xanh, biểu tượng nhu cầu lưu giữ dấu ấn trong thế giới ngầm. |
+| 2-061 | 2 | `2.11#3` | 1 | 10.4 | `t31_a2_22_cracked_mask_phone_reflection` | ✅ | Chiếc mặt nạ đặt trước màn hình phát sáng, tạo nên vết nứt nhỏ giữa đời thực và thế giới ảo. |
+| 2-062 | 2 | `2.11#4` | 1 | 9.3 | `t31_a2_22b_fatal_crack_glass_screen` | ✅ | Vết rạn sáng chạy dọc mặt kính điện thoại tối, biểu tượng kẽ hở chí mạng giữa đời thực và thế giới ảo. |
+| 2-063 | 2 | `2.11#5 – 2.11#6` | 2 | 16.2 | `t31_a2_23_spark_in_dark_server_room` | ✅ | Một tia sáng hổ phách bùng lên giữa dãy đèn tín hiệu tối, tượng trưng mồi lửa đầu tiên rò rỉ từ không gian mạng. |
+| 2-064 | 2 | `2.12#1` | 1 | 10.4 | `t31_a2_24_empty_office_desk_overconfidence` | ✅ | Chiếc ghế xoay trống sau bàn làm việc lớn trong văn phòng tối, ánh sáng hắt từ cửa sổ chớp. |
+| 2-065 | 2 | `2.12#2` | 1 | 9.6 | `t31_a2_24b_familiar_brick_wall_shadow` | ✅ | Bức tường gạch và hành lang quen thuộc của trụ sở cũ chìm trong bóng tối, nơi kẻ gây án tin mình kiểm soát mọi ngóc ngách. |
+| 2-066 | 2 | `2.12#3 – 2.12#4` | 2 | 16.7 | `t31_a2_25_deserted_courtyard_mist_silence` | ✅ | Sân trụ sở chìm trong sương dày, tưởng chừng mọi bí mật đã bị chôn vùi hoàn toàn. |
+| 2-067 | 2 | `2.12#5 – 2.12#6` | 2 | 15.3 | `t31_a2_26_faint_footprint_dusty_floor` | ✅ | Một dấu giày mờ in lại trên nền bụi dưới ánh đèn pin nghiêng, khẳng định không tội ác nào biến mất hoàn toàn. |
+| 3-068 | 3 | `3.02#1 – 3.02#2` | 2 | 17.3 | `t31_a3_01_psychology_books_balanced_scale` | ✅ | Bàn làm việc nhà tâm lý với những cuốn sách bìa trơn và chiếc cân nhỏ, nhấn mạnh nguyên tắc khoa học không chẩn đoán thay giám định. |
+| 3-069 | 3 | `3.02#3` | 1 | 9.9 | `t31_a3_02_two_faced_sculpture_shadow` | ✅ | Bức tượng bán thân bằng đá không nét mặt quay về hai hướng sáng và tối, ẩn dụ cho con người hai mặt. |
+| 3-070 | 3 | `3.02#4` | 1 | 14.1 | `t31_a3_02b_tet_table_and_dark_hallway` | ✅ | Khung cảnh mâm cơm Tết ấm cúng nhìn qua khung cửa tối, đặt câu hỏi làm sao có thể bình thản đón xuân sau biến cố. |
+| 3-071 | 3 | `3.02#5` | 1 | 11.6 | `t31_a3_03_washing_hands_cold_sink` | ✅ | Đôi bàn tay bóng đen dưới vòi nước lạnh trong phòng rửa tối, rồi bước ra bàn làm việc gọn gàng. |
+| 3-072 | 3 | `3.03#1` | 1 | 11.3 | `t31_a3_04_dehumanization_wooden_mannequin` | ✅ | Một hình nộm gỗ không gương mặt đứng trong góc phòng tối, ẩn dụ cho quá trình phi nhân hóa và vật hóa nạn nhân. |
+| 3-073 | 3 | `3.03#2` | 1 | 11.6 | `t31_a3_04b_warm_empathy_two_silhouettes` | ✅ | Hai bóng người đứng đối diện trong ánh sáng vàng ấm, biểu tượng trạng thái thấu cảm cảm xúc bình thường. |
+| 3-074 | 3 | `3.03#3 – 3.03#4` | 2 | 16.5 | `t31_a3_05_severed_empathy_light_circuit` | ✅ | Hai bóng đèn ấm bị ngắt kết nối bởi một công tắc tối ở giữa, biểu tượng sự thiếu hụt thấu cảm cảm xúc. |
+| 3-075 | 3 | `3.03#5 – 3.03#6` | 2 | 18.4 | `t31_a3_06_chess_piece_objectification` | ✅ | Bàn tay bóng đen di chuyển một quân cờ nhỏ trên bàn gỗ tối, ẩn dụ việc giáng cấp con người thành đạo cụ. |
+| 3-076 | 3 | `3.03#7 – 3.03#8` | 2 | 18.4 | `t31_a3_07_empty_horizon_silence_isolation` | ✅ | Con đường đồng quê vắng lặng không bóng người trong sương chiều, thể hiện ảo tưởng của hung thủ rằng sẽ không ai tìm kiếm. |
+| 3-077 | 3 | `3.05#1 – 3.05#2` | 2 | 14.0 | `t31_a3_08_tet_fireworks_dark_window` | ✅ | Pháo hoa đêm giao thừa mờ xa ngoài ô cửa sổ, bên trong là bóng người đứng quay lưng lặng lẽ. |
+| 3-078 | 3 | `3.05#3 – 3.05#4` | 2 | 12.8 | `t31_a3_09_office_meeting_table_calm_facade` | ✅ | Phòng họp công sở đầu xuân với tách trà ấm và ghế xếp ngay ngắn, nơi bí mật được khóa chặt suốt mười tháng. |
+| 3-079 | 3 | `3.06#1 – 3.06#2` | 2 | 12.8 | `t31_a3_10_ship_watertight_compartments` | ✅ | Cánh cửa thép kín nước dày nặng đóng chặt giữa hai khoang tối sáng, ẩn dụ cho Cơ chế Chia ngăn nhận thức. |
+| 3-080 | 3 | `3.06#3` | 1 | 11.0 | `t31_a3_11_two_worlds_home_and_dark_room` | ✅ | Khung hình chia đôi: bên trái là phòng khách gia đình ấm cúng, bên phải là căn phòng tối chỉ có ánh đèn xanh lạnh. |
+| 3-081 | 3 | `3.06#4` | 1 | 10.2 | `t31_a3_11b_dark_chamber_closed_group` | ✅ | Khoang thứ hai chìm trong bóng tối hoàn toàn với ánh sáng xanh lạnh từ góc khuất màn hình. |
+| 3-082 | 3 | `3.06#5` | 1 | 12.9 | `t31_a3_12_closed_iron_door_no_leak` | ✅ | Ổ khóa sắt nặng đóng chặt cánh cửa thép, không một tia sáng hay cảm xúc nào lọt qua khe hở. |
+| 3-083 | 3 | `3.06#6` | 1 | 9.9 | `t31_a3_12b_family_home_shield_dusk` | ✅ | Ngôi nhà gia đình ấm áp nhìn từ bên ngoài như một tấm lá chắn bình thường hóa che giấu bóng tối bên trong. |
+| 3-084 | 3 | `3.06#7 – 3.06#8` | 2 | 18.4 | `t31_a3_13_normal_family_dinner_shield` | ✅ | Bữa cơm gia đình ấm ánh đèn vàng và chiếc điện thoại đặt úp trên bàn, hình ảnh lá chắn bình thường hóa. |
+| 3-085 | 3 | `3.07#1 – 3.07#2` | 2 | 17.6 | `t31_a3_14_secondary_victims_colleagues_shadows` | ✅ | Bóng những người thân và đồng nghiệp đứng lặng trong hành lang sáng mờ, biểu tượng cho những nạn nhân thứ hai. |
+| 3-086 | 3 | `3.07#3` | 1 | 8.8 | `t31_a3_15_shattered_family_frame_floor` | ✅ | Khung ảnh gỗ trống bị vỡ mặt kính nằm trên sàn nhà, biểu tượng cho cú sốc sụp đổ niềm tin của gia đình. |
+| 3-087 | 3 | `3.07#4` | 1 | 12.4 | `t31_a3_15b_morning_raid_doorstep_shock` | ✅ | Bóng đèn xe công vụ hắt sáng lên cánh cửa nhà dân lúc sáng sớm, khoảnh khắc niềm tin của gia đình sụp đổ. |
+| 3-088 | 3 | `3.07#5` | 1 | 10.4 | `t31_a3_16_mirror_identity_question` | ✅ | Chiếc gương soi trên tường phản chiếu một bóng người mờ nhòe, đặt câu hỏi đau đớn về con người thật. |
+| 3-089 | 3 | `3.07#6` | 1 | 12.1 | `t31_a3_16b_fear_of_shame_closed_curtains` | ✅ | Bóng người đứng khuất sau tấm rèm dày, biểu tượng nỗi sợ mất mặt và sụp đổ hình tượng trước chính người thân. |
+| 3-090 | 3 | `3.08#1 – 3.08#2` | 2 | 14.2 | `t31_a3_17_conscience_candle_flicker` | ✅ | Ngọn nến nhỏ le lói trong phòng tối sắp bị chụp kính úp lại, đặt câu hỏi về cách ru ngủ lương tâm. |
+| 3-091 | 3 | `3.09#1 – 3.09#2` | 2 | 19.2 | `t31_a3_18_moral_disengagement_brick_wall` | ✅ | Bức tường gạch xám dựng cao che khuất ánh sáng, ẩn dụ cho hệ thống tự bào chữa và trung hòa đạo đức. |
+| 3-092 | 3 | `3.09#3` | 1 | 10.2 | `t31_a3_19_distorted_chat_reflection` | ✅ | Mặt kính cong làm biến dạng ánh sáng xanh từ màn hình điện thoại, ẩn dụ cho sự hợp lý hóa méo mó. |
+| 3-093 | 3 | `3.09#4` | 1 | 10.7 | `t31_a3_19b_shifted_blame_tilted_scale` | ✅ | Chiếc cân đồng bị nghiêng lệch hẳn về một phía trong phòng tối, ẩn dụ cho lý lẽ đổ lỗi hoàn cảnh để giảm trách nhiệm. |
+| 3-094 | 3 | `3.09#5` | 1 | 9.3 | `t31_a3_20_detached_shadow_on_wall` | ✅ | Một bóng người đứng thẳng nhưng cái bóng trên tường lại quay sang hướng khác, ẩn dụ cho ngoại hóa trách nhiệm. |
+| 3-095 | 3 | `3.09#6` | 1 | 10.4 | `t31_a3_20b_blurred_distant_village_memory` | ✅ | Khung cảnh làng quê mờ nhạt sau lớp kính đục, biểu tượng cơ chế cố tình né tránh suy nghĩ về nỗi đau của gia đình nạn nhân. |
+| 3-096 | 3 | `3.09#7` | 1 | 9.9 | `t31_a3_21_calm_sleep_dark_bedroom` | ✅ | Phòng ngủ yên tĩnh với chiếc giường gọn gàng và rèm kéo kín, minh họa khả năng ngủ yên nhờ lý lẽ giả tạo. |
+| 3-097 | 3 | `3.09#8` | 1 | 10.7 | `t31_a3_21b_split_mind_light_dark_prism` | ✅ | Lăng kính thủy tinh đặt trên bàn tối tách một tia sáng thành hai hướng ngược nhau, biểu tượng trí tuệ tách rời đạo đức. |
+| 3-098 | 3 | `3.09#9 – 3.09#10` | 2 | 17.6 | `t31_a3_22_brain_vs_heart_cold_gears` | ✅ | Những bánh răng kim loại lạnh quay đều đặn bên cạnh chiếc đồng hồ quả lắc đứng im, biểu tượng trí tuệ tách rời đạo đức. |
+| 3-099 | 3 | `3.09#11 – 3.09#12` | 2 | 15.9 | `t31_a3_23_calculated_desk_ledger` | ✅ | Cuốn sổ kế hoạch mở trang trắng với cây bút đặt thẳng tắp, nhấn mạnh sự tỉnh táo hoàn toàn khi tính toán. |
+| 3-100 | 3 | `3.09#13` | 1 | 9.1 | `t31_a3_24_cold_defense_fortress` | ✅ | Pháo đài đá xám lạnh đứng cô độc trong sương đêm, biểu tượng cấu trúc phòng vệ tâm lý lạnh lùng. |
+| 3-101 | 3 | `3.09#14` | 1 | 11.6 | `t31_a3_24b_calm_face_cold_mask_table` | ✅ | Chiếc mặt nạ đá xám đặt ngay ngắn trên bàn làm việc sạch sẽ, vẻ ngoài điềm đạm của một cấu trúc phòng vệ lạnh lùng. |
+| 3-102 | 3 | `3.10#1` | 1 | 11.8 | `t31_a3_25_watching_through_blinds` | ✅ | Bóng người hé rèm cửa sổ văn phòng quan sát con phố bên dưới để thăm dò phản ứng xung quanh. |
+| 3-103 | 3 | `3.10#2` | 1 | 11.3 | `t31_a3_25b_social_media_scroll_probe` | ✅ | Ngón tay bóng đen lướt nhẹ trên màn hình điện thoại sáng mờ trong đêm, vừa tạo vỏ bọc vừa thăm dò dư luận. |
+| 3-104 | 3 | `3.10#3` | 1 | 6.6 | `t31_a3_26_false_safety_calm_days` | ✅ | Ánh nắng chiều yên ả rọi qua bàn làm việc không người, củng cố ảo tưởng đã hoàn toàn thoát tội. |
+| 3-105 | 3 | `3.11#1 – 3.11#2` | 2 | 19.2 | `t31_a3_27_porcelain_mask_faint_crack` | ✅ | Chiếc mặt nạ trắng đặt giữa bàn tối bắt đầu xuất hiện một đường nứt nhỏ dưới ánh sáng đầu tiên. |
+| 4-106 | 4 | `4.02#1 – 4.02#2` | 2 | 13.4 | `t31_a4_01_seasons_passing_langson_hills` | ✅ | Dãy núi đá vôi Lạng Sơn chuyển từ sắc xuân sang gió lạnh đầu đông, mười tháng im lặng trôi qua. |
+| 4-107 | 4 | `4.02#3 – 4.02#4` | 2 | 19.2 | `t31_a4_02_pandora_box_blue_light` | ✅ | Chiếc hộp gỗ tối hé nắp để lộ luồng sáng xanh chói lòa, ẩn dụ chiếc hộp Pandora trên không gian mạng mở ra. |
+| 4-108 | 4 | `4.03#1` | 1 | 12.4 | `t31_a4_03_police_hq_night_lights` | ✅ | Trụ sở cơ quan công an sáng đèn xuyên đêm giữa thành phố miền núi, chuyên án đặc biệt được xác lập. |
+| 4-109 | 4 | `4.03#2` | 1 | 9.1 | `t31_a4_03b_urgent_report_red_phone` | ✅ | Bàn chỉ huy công an tỉnh đêm khuya với chiếc điện thoại bàn và ánh đèn vàng ấm, báo cáo khẩn lên Bộ Công an. |
+| 4-110 | 4 | `4.03#3` | 1 | 9.1 | `t31_a4_04_task_force_briefing_table` | ✅ | Bàn họp ban chuyên án với đèn chiếu sáng, tập hồ sơ giấy và kính lúp, tương phản với tin đồn cảm tính trên mạng. |
+| 4-111 | 4 | `4.03#4` | 1 | 11.6 | `t31_a4_04b_microscope_forensic_rigor` | ✅ | Kính hiển vi và các ống mẫu sạch đặt gọn gàng trong phòng giám định, khẳng định chứng cứ khoa học khách quan. |
+| 4-112 | 4 | `4.03#5` | 1 | 9.6 | `t31_a4_05_digital_forensics_cross_check` | ✅ | Trinh sát ngồi trước màn hình phân tích dữ liệu điện tử và tuyến đường nối Hưng Yên với Lạng Sơn. |
+| 4-113 | 4 | `4.03#6` | 1 | 11.3 | `t31_a4_05b_surveillance_night_sedan` | ✅ | Chiếc xe trinh sát đỗ lặng lẽ dưới tán cây bên phố đêm, bí mật theo dõi lịch trình đối tượng. |
+| 4-114 | 4 | `4.05#1 – 4.05#2` | 2 | 15.1 | `t31_a4_06_tam_thanh_night_search` | ✅ | Xe công vụ đỗ trước con phố yên tĩnh ở phường Tam Thanh lúc chạng vạng cuối tháng 11/2025. |
+| 4-115 | 4 | `4.05#3 – 4.05#4` | 2 | 19.5 | `t31_a4_07_cordon_tape_old_headquarters` | ✅ | Dải băng phong tỏa vàng đen căng ngang cổng trụ sở cũ tại Hữu Lũng, đèn pha chiếu sáng khu sân. |
+| 4-116 | 4 | `4.05#5 – 4.05#6` | 2 | 18.4 | `t31_a4_08_forensic_lights_inside_courtyard` | ✅ | Ánh đèn khám nghiệm rọi sáng từng góc sân và hành lang trụ sở cũ trong đêm đông lạnh. |
+| 4-117 | 4 | `4.05#7` | 1 | 11.8 | `t31_a4_09_official_stamp_warrant_desk` | ✅ | Tờ lệnh tố tụng trắng không chữ với dấu son đỏ mờ và chiếc còng số tám đặt ngay ngắn trên bàn gỗ. |
+| 4-118 | 4 | `4.05#8` | 1 | 12.9 | `t31_a4_09b_prosecutor_approval_corridor` | ✅ | Hành lang cơ quan kiểm sát buổi sáng với ánh nắng xiên qua cột đá, quyết định khởi tố bị can và bắt tạm giam được phê chuẩn. |
+| 4-119 | 4 | `4.06#1` | 1 | 9.6 | `t31_a4_10_huu_lung_afternoon_crowd_distance` | ✅ | Bóng người dân đứng từ xa bên kia đường nhìn về phía trụ sở cũ đang được phong tỏa trong chiều sương. |
+| 4-120 | 4 | `4.07#1 – 4.07#2` | 2 | 16.2 | `t31_a4_11_neighbors_realization_dusk` | ✅ | Góc phố Hữu Lũng lúc hoàng hôn, ánh đèn công vụ hắt lên tường nhà dân xung quanh. |
+| 4-121 | 4 | `4.07#3 – 4.07#4` | 2 | 18.1 | `t31_a4_12_night_investigation_relief` | ✅ | Khu trụ sở sáng đèn làm việc xuyên đêm dưới bầu trời sao mờ, mang lại cảm giác sự thật đang được làm sáng tỏ. |
+| 4-122 | 4 | `4.08#1 – 4.08#2` | 2 | 16.7 | `t31_a4_13_detention_door_closing` | ✅ | Cánh cửa sắt phòng tạm giam khép lại nặng nề, kết thúc mười tháng ảo giác kiểm soát tuyệt đối. |
+| 4-123 | 4 | `4.08#3 – 4.08#4` | 2 | 13.7 | `t31_a4_14_crumbling_wall_collapse` | ✅ | Bức tường vôi cũ nứt vỡ từng mảng rơi xuống, biểu tượng cấu trúc chia ngăn nhận thức hoàn toàn sụp đổ. |
+| 4-124 | 4 | `4.08#5 – 4.08#6` | 2 | 15.1 | `t31_a4_15_shattered_mask_and_badge_shadow` | ✅ | Chiếc mặt nạ sứ vỡ tan thành nhiều mảnh trên nền bê tông lạnh, tấm khiên chức danh bị tước bỏ hoàn toàn. |
+| 4-125 | 4 | `4.08#7` | 1 | 11.8 | `t31_a4_16_empty_interrogation_chair_self_pity` | ✅ | Chiếc ghế kim loại trống trong phòng làm việc lạnh lẽo và chiếc gương tối, phân biệt hối hận giả tạo với tự thương hại. |
+| 4-126 | 4 | `4.08#8` | 1 | 12.4 | `t31_a4_16b_shattered_trophy_self_pity` | ✅ | Chiếc cúp danh vọng vỡ nằm trong bóng tối góc phòng, biểu tượng nỗi đau tự thương hại vì mất tự do và danh tiếng. |
+| 4-127 | 4 | `4.08#9 – 4.08#10` | 2 | 18.4 | `t31_a4_17_grasping_shadow_evasion` | ✅ | Đôi bàn tay bóng đen đặt trên mặt bàn kim loại lạnh, cố níu giữ chút quyền kiểm soát cuối cùng. |
+| 4-128 | 4 | `4.08#11` | 1 | 12.4 | `t31_a4_18_institutional_betrayal_cracked_pillar` | ✅ | Cột đá trắng trước tòa nhà công quyền có vết rạn sâu, biểu tượng vết sẹo của sự phản bội niềm tin thể chế. |
+| 4-129 | 4 | `4.08#12` | 1 | 7.7 | `t31_a4_18b_heavy_rain_public_square` | ✅ | Quảng trường trước tòa nhà công quyền dưới cơn mưa lạnh chiều đông, vết sẹo sâu của sự phản bội niềm tin. |
+| 4-130 | 4 | `4.09#1` | 1 | 14.3 | `t31_a4_19_rule_of_law_no_forbidden_zone` | ✅ | Cán cân công lý bằng đồng đứng vững giữa phòng tối được rọi sáng bởi luồng sáng thẳng đứng, không có vùng cấm. |
+| 4-131 | 4 | `4.09#2` | 1 | 10.2 | `t31_a4_19b_spotlight_piercing_fog` | ✅ | Luồng sáng mạnh mẽ xuyên thủng màn sương dày đêm đông, khẳng định không có vùng cấm hay vỏ bọc nào đứng trên pháp luật. |
+| 4-132 | 4 | `4.09#3` | 1 | 12.9 | `t31_a4_20_expanding_investigation_files` | ✅ | Chồng hồ sơ điều tra mở rộng xếp ngay ngắn trên bàn cùng đèn bàn sáng, thể hiện sự chặt chẽ của tố tụng hình sự. |
+| 4-133 | 4 | `4.09#4` | 1 | 10.4 | `t31_a4_20b_criminal_code_book_lamp` | ✅ | Cuốn sách luật dày bìa sẫm không chữ đặt trang nghiêm dưới đèn bàn ấm, tuân thủ chặt chẽ Bộ luật Tố tụng hình sự. |
+| 4-134 | 4 | `4.09#5` | 1 | 11.0 | `t31_a4_21_clean_digital_shield_order` | ✅ | Màn hình nhiễu loạn dần trở nên phẳng lặng và sạch sẽ, biểu tượng bảo vệ trật tự thông tin và sự tôn nghiêm nạn nhân. |
+| 4-135 | 4 | `4.09#6` | 1 | 10.4 | `t31_a4_21b_calm_memorial_light_screen` | ✅ | Ngọn đèn ấm tỏa sáng dịu nhẹ bên cạnh màn hình tắt tối, bảo vệ trật tự thông tin và sự tôn nghiêm của nạn nhân. |
+| 4-136 | 4 | `4.10#1 – 4.10#2` | 2 | 18.7 | `t31_a4_22_empty_courtroom_waiting` | ✅ | Phòng xử án trống yên tĩnh trong ánh sáng buổi sáng, chờ ngày hoàn tất điều tra và xét xử công khai. |
+| 4-137 | 4 | `4.10#3` | 1 | 12.7 | `t31_a4_23_gavel_and_mirror_conscience` | ✅ | Chiếc búa gỗ tòa án đặt bên cạnh tấm gương nứt tối, biểu tượng cho bản án lương tri đã hiện hữu. |
+| 4-138 | 4 | `4.10#4` | 1 | 11.3 | `t31_a4_23b_cracked_mirror_two_halves` | ✅ | Tấm gương vỡ đôi phản chiếu hai mảnh bóng tối trống rỗng, bản án lương tri của nhân cách hai mặt đã hiện hữu. |
+| 5-139 | 5 | `5.02#1` | 1 | 11.6 | `t31_a5_01_memorial_candle_dignity` | ✅ | Ngọn nến trắng ấm cháy yên bình trên nền tối, trả lại sự tôn nghiêm cho nạn nhân Nguyễn Xuân Đạt. |
+| 5-140 | 5 | `5.02#2` | 1 | 10.7 | `t31_a5_01b_clean_white_flower_dark_wood` | ✅ | Một đóa hoa trắng tinh khiết đặt trang trọng trên bàn gỗ tối, gạt bỏ sự hiếu kỳ để tôn trọng nhân phẩm nạn nhân. |
+| 5-141 | 5 | `5.02#3` | 1 | 11.8 | `t31_a5_02_hung_yen_dawn_rice_fields` | ✅ | Cánh đồng quê Hưng Yên yên bình trong ánh bình minh dịu nhẹ, gợi nhớ quê hương và phẩm giá trọn vẹn của một con người. |
+| 5-142 | 5 | `5.02#4` | 1 | 11.0 | `t31_a5_02b_empty_footpath_long_absence` | ✅ | Con đường đất nhỏ dẫn về cổng làng quê trong sương sớm vắng lặng, nỗi xót xa của nhiều năm đứt gãy kết nối. |
+| 5-143 | 5 | `5.02#5` | 1 | 11.6 | `t31_a5_03_unbroken_thread_home_light` | ✅ | Ngôi nhà nhỏ sáng đèn ấm áp giữa hoàng hôn, lời nhắc nhở về giá trị của sợi dây kết nối gia đình. |
+| 5-144 | 5 | `5.04#1 – 5.04#2` | 2 | 19.0 | `t31_a5_04_dark_web_corners_lighthouse` | ✅ | Tia sáng hải đăng quét qua vùng biển đêm mù sương, ẩn dụ cho yêu cầu kiểm soát những góc tối trên không gian mạng. |
+| 5-145 | 5 | `5.04#3 – 5.04#4` | 2 | 18.7 | `t31_a5_05_office_security_gate_night_watch` | ✅ | Cổng trụ sở cơ quan sáng đèn bảo vệ rõ ràng vào buổi tối, biểu tượng cho yêu cầu siết chặt kỷ cương quản lý cơ sở vật chất. |
+| 5-146 | 5 | `5.04#5` | 1 | 13.2 | `t31_a5_06_responsible_citizen_phone_down` | ✅ | Bàn tay đặt úp chiếc điện thoại xuống bàn gỗ, từ chối chia sẻ tin giả và tôn trọng công lý. |
+| 5-147 | 5 | `5.04#6` | 1 | 9.3 | `t31_a5_06b_gavel_and_evidence_light` | ✅ | Chiếc búa gỗ tòa án và tập hồ sơ chứng cứ đặt dưới ánh sáng trong trẻo, công lý đến từ chứng cứ khoa học và pháp luật. |
+| 5-148 | 5 | `5.05#1` | 1 | 10.4 | `t31_a5_07_crossroads_amber_signal` | ✅ | Ngã tư thành phố về đêm với ánh đèn hổ phách nổi bật, mở ra ba bài học sinh tồn thực tiễn cho khán giả. |
+| 5-149 | 5 | `5.06#1 – 5.06#2` | 2 | 18.1 | `t31_a5_08_red_flag_one_halo_unmasked` | ✅ | Vòng sáng hào quang tắt dần phía sau một bóng áo vest, nhắc nhở không để chức danh làm mờ trực giác. |
+| 5-150 | 5 | `5.06#3` | 1 | 8.2 | `t31_a5_09_intuition_compass_hand` | ✅ | Chiếc la bàn đồng nhỏ nằm trong lòng bàn tay dưới ánh đèn ấm, biểu tượng lắng nghe trực giác bất an và cắt đứt ranh giới xấu. |
+| 5-151 | 5 | `5.06#4` | 1 | 15.2 | `t31_a5_09b_firm_hand_closing_door` | ✅ | Bàn tay dứt khoát khép lại cánh cửa trước luồng sáng lạnh, biểu tượng cắt đứt liên lạc ngay khi thấy tín hiệu cảnh báo đỏ. |
+| 5-152 | 5 | `5.06#5 – 5.06#6` | 2 | 18.7 | `t31_a5_10_red_flag_two_isolated_meeting_warning` | ✅ | Con hẻm tối vắng người có ánh đèn đỏ cảnh báo nhẹ ở đầu ngõ, cảnh giác với cuộc hẹn một mình nơi kín đáo. |
+| 5-153 | 5 | `5.06#7 – 5.06#8` | 2 | 19.0 | `t31_a5_11_safe_public_cafe_daylight` | ✅ | Quán cà phê công cộng sáng sủa đông người ban ngày bên phố lớn, minh họa nguyên tắc gặp gỡ an toàn. |
+| 5-154 | 5 | `5.06#9 – 5.06#10` | 2 | 18.1 | `t31_a5_12_red_flag_three_family_anchor` | ✅ | Cả gia đình quây quần bóng dáng ấm áp sau khung cửa sáng, biểu tượng vòng bảo vệ từ kết nối đời thực. |
+| 5-155 | 5 | `5.06#11` | 1 | 9.3 | `t31_a5_13_reaching_out_warm_phone_call` | ✅ | Bóng hai người bạn ngồi trò chuyện chân thành bên bàn trà sáng ấm, chủ động kéo người thân khỏi sự cô lập. |
+| 5-156 | 5 | `5.06#12` | 1 | 15.4 | `t31_a5_13b_warm_lamp_listening_corner` | ✅ | Góc phòng ấm áp với hai tách trà nóng và ánh đèn vàng dịu, lắng nghe chân thành để kéo người thân khỏi sự cô lập. |
+| 5-157 | 5 | `5.06#13 – 5.06#14` | 2 | 19.8 | `t31_a5_14_open_window_fresh_morning` | ✅ | Cửa sổ mở rộng đón ánh nắng sớm mai trong lành, biểu tượng sự minh bạch và các mối quan hệ lành mạnh ngoài đời thực. |
+| 5-158 | 5 | `5.07#1 – 5.07#2` | 2 | 18.4 | `t31_a5_15_digital_hygiene_locked_shield` | ✅ | Chiếc ổ khóa đồng vững chắc đặt cạnh máy tính tắt màn hình, nhắc nhở không bấm link độc hại hay chia sẻ tin chưa kiểm chứng. |
+| 5-159 | 5 | `5.07#3 – 5.07#4` | 2 | 18.1 | `t31_a5_16_courthouse_dawn_justice_light` | ✅ | Mặt tiền tòa án nhân dân trong ánh bình minh trong trẻo, để sự thật lên tiếng qua bản án công minh của pháp luật. |
+| 5-160 | 5 | `5.08#1 – 5.08#2` | 2 | 18.4 | `t31_a5_17_night_city_skyline_connections` | ⏳ | Toàn cảnh thành phố về đêm nối liền những dãy núi xa, ánh đèn hổ phách lấp lánh giữa khoảng tối sâu. |
+| 5-161 | 5 | `5.08#3` | 1 | 11.3 | `t31_a5_18_fallen_mask_sunrise_floor` | ⏳ | Chiếc mặt nạ vỡ nằm yên trên bậc thềm đá khi ánh bình minh chiếu rọi, nhắc nhở sự tỉnh táo không bao giờ chờ đợi. |
+| 5-162 | 5 | `5.08#4` | 1 | 9.6 | `t31_a5_18b_empty_chair_sunrise_window` | ⏳ | Chiếc ghế trống bên ô cửa sổ đón nắng sớm dịu dàng, nhắc nhớ nỗi mất mát của những người ở lại không gì bù đắp được. |
+| 5-163 | 5 | `5.08#5 – 5.08#6` | 2 | 17.6 | `t31_a5_19_calm_path_amber_light` | ⏳ | Con đường rợp bóng cây đón nắng sớm ấm áp, giữ cái đầu tỉnh táo trước thế giới ảo và trái tim kết nối gia đình. |
+| 5-164 | 5 | `5.08#7 – 5.08#8` | 2 | 15.3 | `t31_a5_20_amber_eyes_study_closing` | ⏳ | Bàn làm việc Amber Eyes với cuốn hồ sơ khép lại và ánh đèn hổ phách ấm áp, lời cảm ơn khán giả. |
+| 5-165 | 5 | `5.08#9` | 1 | 3.5 | `t31_a5_21_end_card_amber_horizon` | ⏳ | Khung nền kết thúc tối giản với ánh sáng hổ phách dịu nhẹ trên nền xanh đen sâu, chuẩn bị cho thẻ kết. |

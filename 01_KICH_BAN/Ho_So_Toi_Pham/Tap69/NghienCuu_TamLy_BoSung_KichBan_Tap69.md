@@ -1,4 +1,4 @@
-# BẢN NGHIÊN CỨU TÂM LÝ CHUYÊN SÂU & ĐỀ XUẤT BỔ SUNG KỊCH BẢN TẬP 31
+# BẢN NGHIÊN CỨU TÂM LÝ CHUYÊN SÂU & ĐỀ XUẤT BỔ SUNG KỊCH BẢN TẬP 69
 ## HỒ SƠ CHRIS WATTS — "CHIẾC MẶT NẠ NGƯỜI CHỒNG MẪU MỰC & HỘI CHỨNG HỦY DIỆT GIA ĐÌNH"
 
 *Tài liệu nghiên cứu khoa học hành vi, giải mã biến chuyển tâm lý 5 chủ thể và khung kịch bản bổ sung.*  
@@ -35,7 +35,7 @@
 ## 1. TỔNG QUAN YÊU CẦU & BỐI CẢNH VỤ ÁN
 
 ### 1.1. Yêu cầu của người dùng
-- Nghiên cứu và viết bổ sung kịch bản cho **Tập 31 (Hồ sơ Chris Watts)** đầy đủ 3 ngôn ngữ: **Việt (VN), Anh (EN), Nhật (JA)**.
+- Nghiên cứu và viết bổ sung kịch bản cho **Tập 69 (Hồ sơ Chris Watts)** đầy đủ 3 ngôn ngữ: **Việt (VN), Anh (EN), Nhật (JA)**.
 - Phân tích sâu sắc hơn về biến chuyển tâm lý con người qua 5 chủ thể:
   1. **Tội phạm** (Chris Watts)
   2. **Đồng phạm / Nhân tình / Kẻ xúc tác** (Nichol Kessinger)
@@ -138,17 +138,17 @@
 ---
 
 ## 4. KHUNG KỊCH BẢN BỔ SUNG CHI TIẾT (CHUẨN ĐỊNH DẠNG A2/K10 — 240 CÂU THOẠI)
-*Được triển khai chi tiết từng dòng trong file kịch bản chính thức `kichban_tap31_19112026.md` theo cấu trúc 52 phần tử, 36 lượt thoại, 240 câu thoại chuẩn mực.*
+*Được triển khai chi tiết từng dòng trong file kịch bản chính thức `kichban_tap69_19112026.md` theo cấu trúc 52 phần tử, 36 lượt thoại, 240 câu thoại chuẩn mực.*
 
 ---
 
 ## 5. ĐỐI CHIẾU ĐỒNG BỘ 3 NGÔN NGỮ (VIỆT - ANH - NHẬT)
-- Bản Tiếng Việt: `01_KICH_BAN/Ho_So_Toi_Pham/Tap31/kichban_tap31_19112026.md` (240 câu, 317 dòng).
-- Bản Tiếng Anh: `01_KICH_BAN/Ho_So_Toi_Pham/Tap31_EN/kichban_tap31_EN.md` (240 câu, 317 dòng tương ứng 1:1).
-- Bản Tiếng Nhật: `01_KICH_BAN/Ho_So_Toi_Pham/Tap31_JA/kichban_tap31_JA.md` (240 câu, 317 dòng tương ứng 1:1).
+- Bản Tiếng Việt: `01_KICH_BAN/Ho_So_Toi_Pham/Tap69/kichban_tap69_19112026.md` (240 câu, 317 dòng).
+- Bản Tiếng Anh: `01_KICH_BAN/Ho_So_Toi_Pham/Tap69_EN/kichban_tap69_EN.md` (240 câu, 317 dòng tương ứng 1:1).
+- Bản Tiếng Nhật: `01_KICH_BAN/Ho_So_Toi_Pham/Tap69_JA/kichban_tap69_JA.md` (240 câu, 317 dòng tương ứng 1:1).
 
 ---
 
 ## 6. KẾT LUẬN & KIẾN NGHỊ SẢN XUẤT
 1. Bản nghiên cứu đã giải phẫu sâu sắc toàn bộ 5 chủ thể, giải mã cơ chế hối hận và thú tội của Chris Watts cũng như bản chất hợp tác của nhân tình Nichol Kessinger.
-2. Cung cấp nền tảng khoa học vững chắc để nâng cấp toàn diện kịch bản Tập 31 lên chuẩn 240 câu thoại đồng bộ 3 ngôn ngữ.
+2. Cung cấp nền tảng khoa học vững chắc để nâng cấp toàn diện kịch bản Tập 69 lên chuẩn 240 câu thoại đồng bộ 3 ngôn ngữ.

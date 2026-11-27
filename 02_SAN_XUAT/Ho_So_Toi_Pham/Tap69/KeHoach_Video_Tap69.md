@@ -1,14 +1,14 @@
-# HỒ SƠ SẢN XUẤT TẬP 31 · "CHRIS WATTS" (PHẦN B)
+# HỒ SƠ SẢN XUẤT TẬP 69 · "CHRIS WATTS" (PHẦN B)
 
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).
-**Kịch bản gốc:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap31/kichban_tap31_19112026.md`
-**Thành phẩm xuất bản:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap31/xuat_ban/`
+**Kịch bản gốc:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap69/kichban_tap69_19112026.md`
+**Thành phẩm xuất bản:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap69/xuat_ban/`
 
 ## B1. Thông tin tập
 
 | Mục | Giá trị |
 |---|---|
-| **Tên tập** | Tập 31: Hồ Sơ Chris Watts — Chiếc Mặt Nạ Người Chồng Mẫu Mực & Hội Chứng Hủy Diệt Gia Đình |
+| **Tên tập** | Tập 69: Hồ Sơ Chris Watts — Chiếc Mặt Nạ Người Chồng Mẫu Mực & Hội Chứng Hủy Diệt Gia Đình |
 | **Đề tài** | Vụ thảm án gia đình Watts tại Frederick, Colorado (Tháng 8/2018) |
 | **Trọng tâm tâm lý (K10)** | Hội chứng Kẻ hủy diệt gia đình (Self-Preserving Annihilator), Ái kỷ kín đáo, Phân ngăn tâm trí bệnh lý. |
 | **Thời lượng dự kiến** | 24:00 – 27:00 (~1.500 giây) |
@@ -25,10 +25,10 @@
 
 ## B3. Trạng thái các bước kỹ thuật (Checklist)
 
-- [x] Kịch bản Tiếng Việt (01_KICH_BAN/Ho_So_Toi_Pham/Tap31/)
-- [x] Kịch bản Tiếng Anh (01_KICH_BAN/Ho_So_Toi_Pham/Tap31_EN/)
-- [x] Kịch bản Tiếng Nhật (01_KICH_BAN/Ho_So_Toi_Pham/Tap31_JA/)
-- [x] Kịch bản Tiếng Hàn (01_KICH_BAN/Ho_So_Toi_Pham/Tap31_KO/)
+- [x] Kịch bản Tiếng Việt (01_KICH_BAN/Ho_So_Toi_Pham/Tap69/)
+- [x] Kịch bản Tiếng Anh (01_KICH_BAN/Ho_So_Toi_Pham/Tap69_EN/)
+- [x] Kịch bản Tiếng Nhật (01_KICH_BAN/Ho_So_Toi_Pham/Tap69_JA/)
+- [x] Kịch bản Tiếng Hàn (01_KICH_BAN/Ho_So_Toi_Pham/Tap69_KO/)
 - [ ] Tách câu (`parse_kichban.py`)
 - [ ] Diễn xuất & sinh audio TTS (`tts_sentences.py`)
 - [ ] QC âm thanh, nhịp nghỉ, LUFS (`qc_pause_gate.py`, `build_audio3.py`)

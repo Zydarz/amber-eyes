@@ -1,0 +1,33 @@
+fix(tiktok): dung lai clip EN TK2 Tap 04 tu master mp3 moi (11/11 cau) + A11 #200 / H30
+
+Nguyen nhan that cu "thieu 2 cau" (ba loi truoc do): ASR tren file master DAI
+(> 55 s) bi whisper bo duoi, khong phai audio thieu cau.
+  - ASR ca file mp3 moi (72,34 s) chi tra ve toi 57,72 s => 2 cau cuoi "NOI SUY".
+  - ASR rieng duoi (58,2-72,3 s) => nhan du ca 2 cau.
+  - ASR rieng duoi WAV CU (50,9-70,9 s) => cung du 11 cau => khong phien ban nao thieu cau.
+  - Giai ma s16le cat som hon f32le => loi o cach doc file dai.
+
+Sua:
+  - .work/_tk_asr_timeline_t04.py: ASR theo cua so 20,5 s (overlap 4 s, cua so cuoi
+    neo vao cuoi file) + khu trung theo (text, moc) < 0,6 s; giai ma f32le;
+    doc .mp3 (dung file renderer dung) + canh bao khi wav/mp3 lech > 0,05 s.
+  - timeline_tk2.json (EN): 11/11 cau, 0 NOI SUY, 0 MATCH YEU.
+  - Render lai Tap04_EN/TK2_video.mp4: 72,34 s, 1080x1920, h264+aac @30, 0 loi giai ma.
+
+Do lai 15 clip:
+  - Phu duoi: timeline_end cach speech_end <= 1,06 s tren ca 15 clip (15/15 OK).
+  - QC 14 cong T1-T14: 12/15 dat tron; 2 clip VN truot T13 (tu cam 'sat hai' - loi
+    kich ban, can duyet); EN TK2 truot T6 (11 khoang cam > 0,3 s).
+  - LOI AUDIO MOI tren master EN TK2 moi: KHONG co nhac nen (nen im lang -70,6 dB,
+    8,1% file im lang tuyet doi, 14 clip khac 0,00% / -16...-17 dB) => 11 khoang cam
+    > 0,3 s (dai nhat 0,843 s) + true peak +1,25 dBFS voi 312 mau > 0 dBFS.
+    => gui nguoi dung quyet dinh, khong tu sua audio (L4).
+
+Ghi chuan:
+  - A11 #200 (TIEU_CHUAN_DUNG_VIDEO.md): ASR cua so + nguon mp3 + cach kiem chung
+    "audio thieu cau" + phu duoi 15 clip.
+  - AGENTS.md H30: nguon master + ASR cua so + do nen im lang (T6/TP).
+  - Bao cao QC Tap04 cap nhat muc 5.1 (EN TK2 da dung lai, con loi T6 + TP).
+  - provenance.json + BangTheoDoi_TikTok.csv: doi ghi chu va do dai TK04_EN_2.
+
+Khong commit media (L10): mp4/timeline bi .gitignore loai.

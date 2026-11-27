@@ -23,14 +23,17 @@ Trong thần thoại học và văn hóa đại chúng, những kẻ sát nhân 
 Hình ảnh đó reo rắc nỗi khiếp sợ và tạo ra một ảo tưởng lệch lạc về quyền lực của cái ác.
 Tuy nhiên, dưới lăng kính khoa học thần kinh và tâm thần học tội phạm hiện đại, không có một con người nào có thể đứng ngoài các quy luật sinh học tự nhiên.
 Tâm trí con người không phải là một cỗ máy vĩnh cửu.
+Nó chịu sự chi phối nghiêm ngặt của các giới hạn sinh học và năng lượng thần kinh.
 Khi một kẻ thủ ác liên tục duy trì trạng thái kích thích bạo lực cực hạn kết hợp với nỗi sợ hãi bị săn đuổi suốt nhiều năm trời, hệ thần kinh của chúng sẽ phải đối mặt với một sự thật nghiệt ngã:
 Sự Suy Thoái Hành Vi — Behavioral Deterioration.
 Đó là giai đoạn cuối cùng trong chu kỳ phạm tội của một kẻ săn mồi hàng loạt.
 Chiếc mặt nạ quyến rũ, sự cẩn trọng tỉ mỉ và khả năng ngụy trang từng giúp chúng qua mặt xã hội bắt đầu rạn nứt và tan vỡ từng mảng.
 Không còn những toan tính lạnh lùng hay những kịch bản ngụy trang hoàn hảo.
+Mọi kỹ năng che giấu dấu vết từng được rèn giũa suốt nhiều năm bỗng chốc trở nên vô dụng.
 Thay vào đó là sự kiệt quệ thể xác, sự hoang tưởng mất kiểm soát, và những cơn cuồng bạo liều lĩnh đến điên rồ.
 Chúng không còn khả năng lập kế hoạch; chúng bắt đầu tấn công bừa bãi, để lại những hiện trường đẫm máu hỗn loạn và tự đẩy mình vào chiếc thòng lọng của công lý.
 Mỗi bước đi của chúng lúc này đều là một bước trượt dài hướng thẳng vào ngõ cụt.
+Không có bất kỳ sự tính toán nào có thể cứu vãn được một hệ thần kinh đang rệu rã từ bên trong.
 Tại sao những kẻ săn mồi xảo quyệt nhất cuối cùng đều phải trải qua giai đoạn suy thoái rệu rã này?
 Và cái giá sinh học mà bộ não phải trả cho tội ác là gì?
 
@@ -43,6 +46,7 @@ Họ hòa nhập vào xã hội một cách hoàn hảo khiến không ai có th
 Thế nhưng đến những ngày tháng cuối cùng trước khi bị bắt, nhìn họ chẳng khác nào những bóng ma tàn tạ:
 Răng rụng, mắt trũng sâu thâm quầng, cơ thể gầy gò hôi hám, và ánh mắt luôn lấm lét hoảng loạn như một con thú bị dồn vào chân tường.
 Họ mất đi toàn bộ vẻ tự tin ngạo mạn từng có.
+Sự tự tin ấy vốn chỉ là lớp vỏ bọc mỏng manh được duy trì bằng cảm giác kiểm soát giả tạo.
 Làm sao một con người từng tự hào về sự kiểm soát hoàn hảo lại có thể tự biến mình thành một đống đổ nát thảm hại đến mức độ như vậy?
 Có phải chính tội ác đã gặm nhấm và hủy hoại cơ thể họ từ bên trong?
 Liệu đó có phải là quả báo sinh học tất yếu của việc dung dưỡng cái ác?
@@ -51,6 +55,7 @@ Liệu đó có phải là quả báo sinh học tất yếu của việc dung d
 Tôi nhận thấy một quy luật rất rõ ràng: Ở những vụ án cuối cùng, phương thức gây án của chúng dường như hoàn toàn mất kiểm soát.
 Chúng không còn chọn lọc nạn nhân cẩn thận, không còn dọn dẹp dấu vết, thậm chí xông thẳng vào nhà người khác ngay giữa ban ngày hoặc tấn công giữa đám đông.
 Họ hành động như thể đang muốn bị bắt giữ ngay lập tức.
+Mọi nguyên tắc an toàn từng được tuân thủ nghiêm ngặt nay bị vứt bỏ không thương tiếc.
 Có cảm giác như bộ não của chúng đã hoàn toàn cháy rụi, không còn khả năng suy nghĩ về hậu quả nữa.
 Sự điên cuồng đó có phải là một nỗ lực tuyệt vọng để níu kéo cảm giác hưng phấn đang tàn lụi?
 Liệu đây có phải là kết cục tất yếu của mọi kẻ đi theo con đường bạo lực cực đoan?
@@ -76,6 +81,7 @@ Bộ não rơi vào trạng thái "Loạn thần kích động" (Agitated Psycho
 Kẻ thủ ác mất khả năng phân biệt giữa ảo tưởng toàn năng và thực tế nguy hiểm.
 Chúng bắt đầu hành động một cách mù quáng, điên cuồng, và tự hủy hoại chính hệ thống ngụy trang của mình.
 Sự suy sụp diễn ra đồng thời trên cả bình diện sinh học lẫn tâm lý học.
+Không một ý chí nào có thể chống lại được sự tàn phá vật lý của chính bộ não đang kiệt quệ.
 
 **ĐIỀU TRA VIÊN** *(Phân tích thực tiễn hiện trường hình sự, giọng đanh thép)*:
 Trong công tác điều tra án mạng hàng loạt, giai đoạn suy thoái hành vi của hung thủ chính là lúc ban chuyên án đẩy mạnh các chiến dịch bao vây tổng lực.
@@ -84,6 +90,7 @@ Hung thủ bỏ lại hung khí tại hiện trường, để lại dấu vân t
 Chúng không còn đủ sức lực hay sự tỉnh táo để giấu xác mà vứt bỏ thi thể ngay tại nơi gây án.
 Kẻ thủ ác bắt đầu di chuyển một cách hỗn loạn, lái xe cẩu thả trên đường phố, thu hút sự chú ý của cảnh sát tuần tra vì những lỗi vi phạm sơ đẳng.
 Nỗi hoảng loạn vì bị dồn vào đường cùng khiến chúng phạm phải những sai sót sơ đẳng nhất.
+Mỗi dấu vết bỏ lại hiện trường lúc này giống như một chiếc chìa khóa tự động mở cửa nhà giam cho chính kẻ thủ ác.
 Hai hồ sơ đại án kinh điển nhất minh chứng cho quy luật suy thoái hành vi không thể đảo ngược chính là: Ted Bundy — vụ cuồng sát tại ký túc xá nữ Chi Omega bang Florida năm 1978, và Richard Ramirez — "Kẻ Săn Đêm" (Night Stalker) bị người dân tóm gọn trên đường phố Los Angeles năm 1985.
 
 ---
@@ -110,8 +117,10 @@ Hai nạn nhân Lisa Levy và Margaret Bowman đã thiệt mạng ngay tại ch�
 Không còn chiếc xe hơi chuyên dụng, không còn kịch bản dụ dỗ thông minh, cũng không còn bất kỳ nỗ lực nào nhằm che giấu thi thể hay xóa dấu vết.
 Bundy hành động như một kẻ mất trí: Hắn cắn xé cơ thể nạn nhân trong cơn hưng cảm điên loạn, để lại những vết răng sâu hoắm trên thi thể Lisa Levy.
 Hắn vội vã tháo chạy khỏi hiện trường trong sự hoảng loạn, để lại chiếc gậy dính máu, sợi tóc, và dấu vết cắn định mệnh — thứ sau này sẽ trở thành bằng chứng pháp y nha khoa then chốt kết liễu cuộc đời hắn.
+Các chuyên gia nha khoa pháp y như Tiến sĩ Richard Souviron và Tiến sĩ Lowell Levine đã đối chiếu dấu vết hàm răng sứt mẻ đặc trưng của Bundy với vết cắn trên thi thể nạn nhân, đánh dấu một trong những lần đầu tiên trong lịch sử tư pháp Mỹ chứng cứ dấu răng được dùng để kết án tử hình.
 Chưa dừng lại ở đó, chỉ vài tuần sau, vào ngày 9 tháng 2 năm 1978 tại Lake City, Bundy đã liều lĩnh bắt cóc cô bé Kimberly Leach mười hai tuổi ngay giữa ban ngày tại sân trường trung học trước sự chứng kiến của nhiều nhân chứng.
 Đó là dấu chấm hết cho sự nghiệp của một kẻ từng tự hào về khả năng tàng hình của mình.
+Sự liều lĩnh mù quáng ấy cho thấy hắn đã hoàn toàn đánh mất khả năng kiểm soát hành vi.
 
 **CHUYÊN GIA TÂM LÝ** *(Bóc tách sự suy thoái tâm thần và thể xác của Bundy)*:
 Điều gì đã biến một Ted Bundy từng rất cẩn trọng và kiên nhẫn thành một kẻ cuồng sát mất hết lý trí tại Chi Omega?
@@ -121,10 +130,12 @@ Lòng tự tôn tự ái của hắn bị chà đạp tàn nhẫn.
 Hắn phải chịu đựng sự thiếu hụt dopamine kinh niên khi khoảng lặng nguội bị bóp nghẹt.
 Để bù đắp cho cảm giác bất lực và thất bại ê chề, hắn cần một liều lượng bạo lực cực lớn để khẳng định lại quyền lực thống trị của mình.
 Cơn nghiện bạo lực đã chiếm quyền kiểm soát hoàn toàn vỏ não trước trán.
-Hắn không còn khả năng lập kế hoạch bắt cóc từng người như trước; hắn muốn tấn công nhiều người cùng một lúc để thỏa mãn cơn khát máu dồn nén.
+Chúng không còn khả năng lập kế hoạch bắt cóc từng người như trước; hắn muốn tấn công nhiều người cùng một lúc để thỏa mãn cơn khát máu dồn nén.
+Sự vội vã ấy khiến hắn không còn quan tâm đến việc chọn lọc mục tiêu hay xóa dấu vết như trước đây.
 Hành vi cắn nạn nhân tại Chi Omega là biểu hiện thoái lui về bản năng nguyên thủy hoang dã nhất của một bộ não đã bị hủy hoại hoàn toàn chức năng nhận thức bậc cao.
 Đó là dấu hiệu cho thấy phần người đã hoàn toàn chết đi bên trong kẻ thủ ác.
 Cỗ máy săn mồi từng rất hoàn hảo giờ đây chỉ còn là một khối bạo lực mục ruỗng tự hủy hoại chính mình.
+Mỗi hành động tiếp theo của hắn chỉ càng đẩy nhanh quá trình tự vạch trần bản thân trước pháp luật.
 
 **ĐIỀU TRA VIÊN** *(Vụ bắt giữ định mệnh từ một chiếc xe ăn trộm)*:
 Sự suy thoái của Bundy kết thúc một cách thảm hại vào rạng sáng ngày 15 tháng 2 năm 1978 tại Pensacola, Florida.
@@ -133,6 +144,7 @@ Biển số xe báo hiệu đây là một chiếc xe bị đánh cắp.
 Khi Sĩ quan Lee yêu cầu dừng xe, Bundy đã không thể hiện được bất kỳ sự bình tĩnh hay quyến rũ nào như trước đây.
 Hắn hoảng loạn chống cự dữ dội, cố gắng vật lộn với viên cảnh sát nhưng nhanh chóng bị khống chế và còng tay.
 Khi bị đưa về đồn, người ta tìm thấy trong xe của hắn hàng chục thẻ tín dụng ăn cắp và giấy tờ tùy thân giả.
+Bundy thậm chí còn khai man tên giả với cảnh sát trong tình trạng tiều tụy, râu tóc xồm xoàm đến mức khó ai nhận ra gã sinh viên luật bảnh bao ngày nào.
 Chiếc mặt nạ hoàn hảo của Ted Bundy đã hoàn toàn rơi xuống, chỉ còn lại một kẻ phạm tội kiệt quệ, run rẩy và bất lực trước công lý.
 
 **HOST** *(Phán quyết công lý cho Ted Bundy)*:
@@ -182,20 +194,24 @@ Vào đúng buổi sáng ngày 31 tháng 8 năm 1985, Ramirez bắt chuyến xe 
 Hắn thản nhiên bước xuống trạm xe buýt trên đại lộ số 6, mặc chiếc áo phông in hình ban nhạc rock quen thuộc, đi bộ vào một cửa hàng tạp hóa để mua đồ ăn.
 Hắn không hề biết rằng toàn bộ thành phố đang sôi sục lùng sục mình từng mét vuông.
 Khi nhìn thấy hàng chục tờ báo xếp trên kệ đều in bức ảnh chụp thẳng mặt mình với dòng chữ "Night Stalker", Ramirez mới bàng hoàng nhận ra thế giới thực đã bao vây hắn.
+Ngay lúc đó, một người phụ nữ trong cửa hàng gần phố Indiana đã nhận ra gương mặt hắn và tri hô, khiến Ramirez hoảng loạn tháo chạy.
 Sự hoảng loạn bùng nổ, kéo theo sự sụp đổ hoàn toàn của ảo tưởng toàn năng.
 Con quái vật bóng đêm bỗng chốc nhận ra mình chỉ là một kẻ cùng đường trơ trọi giữa ban ngày.
+Tất cả những ảo tưởng về quyền năng hắc ám bỗng nhiên tan biến trước ánh mắt cảnh giác của những người dân bình thường.
 
 **ĐIỀU TRA VIÊN** *(Cuộc rượt đuổi định mệnh và sự trừng phạt của nhân dân)*:
 Những gì diễn ra tiếp theo trên đường phố Đông Los Angeles là một cảnh tượng chưa từng có:
 Ramirez hoảng hốt bỏ chạy khỏi cửa hàng, băng qua xa lộ Santa Ana và chạy thục mạng vào khu dân cư nghèo của người gốc Hispanic tại Hubbard Street.
-Trong cơn tuyệt vọng cùng cực, hắn cố gắng cướp một chiếc xe hơi của một phụ nữ đang đỗ trước cửa nhà để tẩu thoát.
+Trong cơn tuyệt vọng cùng cực, hắn định cướp một chiếc xe Mustang đậu gần đó nhưng bị chủ xe ngăn cản, rồi tiếp tục lao sang bên kia đường để cướp xe của một phụ nữ đang đỗ trước cửa nhà.
 Người chồng của người phụ nữ cùng những người hàng xóm nghe tiếng kêu cứu đã lập tức lao ra ứng cứu.
-Một người đàn ông dùng thanh xà beng đập trúng đầu Ramirez khiến hắn ngã gục xuống đường.
+Một người đàn ông dùng thanh sắt đập trúng đầu Ramirez khiến hắn ngã gục xuống đường.
 Hàng chục người dân địa phương — những người đã sống trong nỗi sợ hãi tột cùng suốt cả mùa hè — đồng loạt xông vào bao vây, khống chế và đánh đập kẻ thủ ác tơi bời.
 Họ trút toàn bộ cơn phẫn nộ dồn nén bấy lâu lên kẻ đã gieo rắc tang tóc cho các gia đình.
 Khi các sĩ quan cảnh sát đầu tiên có mặt tại hiện trường, họ đã phải can thiệp để bảo vệ tính mạng cho Richard Ramirez trước cơn thịnh nộ của đám đông quần chúng.
+Trớ trêu thay, một trong những cảnh sát trẻ có mặt sớm nhất để còng tay hắn lại mang cùng họ Ramirez với kẻ sát nhân.
 "Kẻ Săn Đêm" từng gieo rắc kinh hoàng cho hàng triệu người giờ đây nằm co quắp trên vũng máu bụi bặm, rên rỉ van xin cảnh sát cứu mạng.
 Sự kiêu ngạo ác quỷ đã hoàn toàn tan rã thành sự thảm hại nhục nhã.
+Hình ảnh kẻ săn đêm run rẩy cầu xin cảnh sát bảo vệ đã xóa tan hoàn toàn huyền thoại về một con quái vật bất khả chiến bại.
 
 **HOST** *(Phán quyết công lý và sự kết thúc của một con quái vật)*:
 Tháng 11 năm 1989, Tòa án Bang California đã tuyên phạt Richard Ramirez mười chín án tử hình cho mười ba vụ giết người, năm vụ mưu sát và hàng chục tội danh tấn công tình dục.
@@ -227,6 +243,7 @@ Hậu quả lâm sàng là: Kẻ thủ ác rơi vào trạng thái suy nhược 
 Chúng không còn khả năng tập trung, trí nhớ bị phân mảnh, khả năng định hướng không gian bị suy giảm, và giấc ngủ bị xé nát bởi những cơn ác mộng.
 Để gượng dậy khỏi trạng thái kiệt quệ đó, chúng buộc phải dùng đến các chất kích thích cực mạnh như rượu nặng hay ma túy đá — chính những thứ này lại đẩy nhanh tốc độ thoái hóa não bộ gấp nhiều lần.
 Cỗ máy sinh học của kẻ thủ ác tự phá hủy từ cấp độ tế bào trước khi bị pháp luật bắt giữ.
+Sự suy kiệt ấy chứng minh rằng cái ác không bao giờ có thể tồn tại bền vững bên trong cơ thể con người.
 
 **ĐIỀU TRA VIÊN** *(Bóc tách chiến thuật khai thác sự suy thoái trong tác chiến phá án)*:
 Trong tác chiến điều tra hình sự hiện đại, việc nhận diện được đối tượng đang bước vào giai đoạn suy thoái hành vi giúp ban chuyên án đưa ra các quyết định tấn công chuẩn xác:
@@ -239,10 +256,12 @@ Vụ bắt giữ Richard Ramirez bởi chính người dân Đông Los Angeles l
 Thật an ủi khi biết rằng cái ác luôn mang trong mình mầm mống tự hủy diệt.
 Dù chúng có tinh vi hay tàn bạo đến đâu, quy luật tự nhiên và giới hạn sinh học sẽ luôn kéo chúng xuống mặt đất để đối diện với công lý.
 Không có kẻ thủ ác nào là bất khả chiến bại.
+Dù chúng có ẩn nấp kỹ đến đâu, thời gian và sự suy thoái thần kinh sẽ luôn buộc chúng phải lộ diện.
 
 **CHUYÊN GIA TÂM LÝ** *(Khẳng định sức mạnh của trật tự đạo đức)*:
 Chính xác là như vậy. Bản chất của sự sống là sự hài hòa và hướng thiện.
 Bạo lực và tội ác là những dạng đột biến hành vi chống lại quy luật sinh tồn của giống loài, và do đó, nó sẽ luôn bị đào thải và tự tiêu diệt bởi chính những quy luật khắc nghiệt của tự nhiên.
+Sự sụp đổ của chúng là lời khẳng định đanh thép cho trật tự công bằng của tạo hóa.
 
 ---
 
@@ -255,6 +274,7 @@ Hồ sơ Tập 37 về Sự Suy Thoái Hành Vi (Behavioral Deterioration) đã 
 Chiếc mặt nạ của quỷ dữ dù có hoàn hảo đến đâu cũng không thể chống lại sự hao mòn của thời gian và sự kiệt quệ của hệ thần kinh.
 Vụ cuồng sát tại Chi Omega của Ted Bundy hay sự thất bại nhục nhã trên đường phố của Richard Ramirez là những minh chứng đanh thép:
 Cái ác luôn tự hủy hoại từ bên trong trước khi bị công lý đập tan từ bên ngoài.
+Đó là một quy luật tất yếu không phụ thuộc vào mức độ xảo quyệt hay tàn bạo của kẻ thủ ác.
 Hiểu được quy luật này giúp chúng ta không bao giờ mất niềm tin vào công lý và luôn giữ vững tinh thần cảnh giác để bảo vệ bình yên cho cộng đồng.
 
 **NGƯỜI BÌNH THƯỜNG** *(Giọng N1 - bài học về sự cảnh giác trước những kẻ kiệt quệ tâm thần)*:
@@ -263,6 +283,7 @@ Một kẻ đang rơi vào trạng thái bế tắc, nghiện ngập và hoang t
 Họ sẵn sàng phá vỡ mọi ranh giới đạo đức và pháp luật chỉ để thỏa mãn cơn cuồng loạn nhất thời.
 Sự chú ý quan sát và báo cáo kịp thời cho công an khu vực về những đối tượng khả nghi chính là cách tốt nhất để phòng ngừa hiểm họa cho chính gia đình mình.
 Đừng bao giờ im lặng hay xem thường những biểu hiện bất thường xung quanh môi trường sống.
+Sự chủ động của mỗi người dân chính là hàng rào bảo vệ đầu tiên và hiệu quả nhất cho cộng đồng.
 
 **NGƯỜI BÌNH THƯỜNG** *(Giọng N2 - tôn vinh sức mạnh của tinh thần đoàn kết cộng đồng)*:
 Tôi vô cùng xúc động và cảm phục tinh thần dũng cảm của những người dân tại Đông Los Angeles trong việc vây bắt Richard Ramirez.
@@ -270,6 +291,7 @@ Họ không chờ đợi, họ không sợ hãi lùi bước mà đã đồng l�
 Đó là minh chứng rõ ràng nhất cho thấy sự vô cảm của cộng đồng chính là mảnh đất màu mỡ cho tội ác sinh sôi, còn sự đoàn kết chính là pháo đài vững chắc nhất tiêu diệt nó.
 Sức mạnh đoàn kết của cộng đồng chính là chiếc lưới sắt vững chắc nhất mà không một tên tội phạm nào có thể xuyên thủng.
 Khi mọi người cùng nhau chung tay, cái thiện sẽ luôn luôn chiến thắng bóng tối.
+Không một thế lực tội ác nào có thể đứng vững trước sức mạnh đồng lòng của cả một cộng đồng tỉnh thức.
 
 **CHUYÊN GIA TÂM LÝ** *(Đưa ra 3 dấu hiệu nhận diện một đối tượng đang trong giai đoạn suy thoái hành vi nguy hiểm)*:
 Để nhận diện sớm một cá nhân đang bước vào giai đoạn suy thoái nhận thức và có nguy cơ bùng nổ bạo lực liều lĩnh, quý vị hãy lưu ý 3 dấu hiệu cảnh báo đỏ (Red Flags) sau:
@@ -277,6 +299,7 @@ Dấu hiệu thứ nhất: Sự tàn tạ thể xác đột ngột đi kèm tr�
 Dấu hiệu thứ hai: Sự phụ thuộc nặng nề vào các chất kích thích cực mạnh như ma túy tổng hợp hay rượu nặng để duy trì sự tỉnh táo sau những chuỗi ngày sống buông thả.
 Dấu hiệu thứ ba: Hành vi liều lĩnh, coi thường sự an toàn và pháp luật một cách công khai (Reckless Escalation). Lái xe bạt mạng, công khai mang theo hung khí nguy hiểm, gây gổ vô cớ với người lạ ngay giữa ban ngày mà không có lý do rõ ràng.
 Khi phát hiện những dấu hiệu này, hãy giữ khoảng cách an toàn và tìm kiếm sự hỗ trợ từ cơ quan an ninh ngay lập tức.
+Tuyệt đối không tự ý tiếp cận hoặc đối đầu trực diện với những đối tượng đang ở trong trạng thái loạn thần kích động.
 
 **ĐIỀU TRA VIÊN** *(Đưa ra 2 nguyên tắc vàng trong phòng ngừa và bảo vệ an toàn khu dân cư)*:
 Từ thực tiễn đấu tranh phòng chống tội phạm bạo lực, chúng tôi khuyến cáo quý vị ghi nhớ 2 nguyên tắc vàng sau đây:
@@ -287,9 +310,12 @@ Nguyên tắc 2: Xây dựng Mạng lưới An ninh Tự quản và Hỗ trợ T
 Bóng tối có thể hoành hành trong đêm đen, nhưng ánh sáng của công lý và lòng dũng cảm sẽ luôn là người chiến thắng sau cùng.
 Hãy luôn giữ vững niềm tin vào sự lương thiện và chung tay bảo vệ một môi trường sống an toàn cho các thế hệ tương lai.
 Mỗi sự cảnh giác của quý vị ngày hôm nay chính là một viên gạch xây nên pháo đài bình yên cho ngày mai.
+Hãy luôn giữ vững niềm tin vào công lý và sự gắn kết của cộng đồng xung quanh chúng ta.
 Cảm ơn quý vị và các bạn đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ chuyên đề ngày hôm nay.
 Nếu thấy những kiến thức này hữu ích, xin hãy ủng hộ chúng tôi bằng một nút Like, nhấn Đăng ký kênh và chia sẻ video đến cộng đồng.
 Hãy để lại ý kiến và cảm nhận của quý vị dưới phần bình luận, chúng tôi luôn trân trọng từng suy nghĩ của quý vị.
+Theo bạn, yếu tố nào là quan trọng nhất giúp một khu dân cư duy trì được sự an toàn trước những đối tượng có biểu hiện bất thường?
+Mỗi đóng góp của quý vị sẽ giúp lan tỏa kiến thức phòng ngừa tội phạm đến nhiều gia đình hơn nữa.
 Xin chào tạm biệt và hẹn gặp lại trong những tập tiếp theo của Amber Eyes.
 
 **[BGM]:** Nhạc hiệu kết thúc Amber Eyes vang lên trầm hùng, tiếng tích tắc đồng hồ chậm dần rồi dừng hẳn ở nốt nhạc thanh thoát.

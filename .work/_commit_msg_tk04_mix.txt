@@ -1,0 +1,33 @@
+fix(tiktok): tron lai master EN TK2 Tap 04 (BGM + ambience) - het loi T6 + true peak
+
+Nguyen do: master EN TK2 moi (27/11) co DU 11/11 cau nhung KHONG co nhac nen
+(nen im lang -70,6 dB, 8,1% file im lang tuyet doi) => 11 khoang cam > 0,3 s (TRUOT T6)
++ peak +1,25 dBFS voi 312 mau > 0 dBFS (VUOT TRAN A7). Nguoi dung cho phep tron lai.
+
+Tron lai (cong thuc giong Tap 03 - build_tiktok_master_audio_tk03.py):
+  voice + bgm_ambient_deep.mp3 (ducking -24 dB khi noi / -16 dB khi nghi, smooth 0,2 s)
+  + ambience phong kin -42 dB + fade cuoi 0,8 s + loudnorm 2 luot I=-16/TP=-1,5/LRA=11
+  => 72,34 s | 0 khoang cam > 0,3 s | 0 mau > 0 dBFS | I -16,0 LUFS | TP -4,48 dBFS
+
+HEADROOM BAT BUOC (sai so da gap): voice ha ve peak -6 dBFS, raw mix ve -3 dBFS truoc
+khi ghi WAV 16-bit. Khong lam vay => WAV clip cung => measured_TP sai => loudnorm cho
+ket qua sai (do duoc: peak +19,49 dBFS => TP -12,11 dBFS thay vi -4,5).
+
+BGM chon: SPEC yeu cau bgm_jazz_noir.mp3 - file KHONG con tren dia. Chon
+bgm_ambient_deep.mp3 (co tren dia + co dong provenance day du + la bed clip TK2 cua
+Tap 03 cung dung + ton noir hop Act 1) => EN TK2 la clip DUY NHAT co nguon nhac nen
+truy vet duoc; 14 clip con lai van dung bed da mat file nguon (T9/L7).
+
+Bai hoc moi (A11 #201 + AGENTS.md H31): ASR PHAI chay tren VOICE STEM, khong chay tren
+master da tron BGM - tren master da tron thi 9/11 dong loi (2 NOI SUY, 6 MATCH YEU,
+asr_end 68,48/72,34 s) du audio dung; tren voice stem thi 11/11 khop 100%.
+Builder timeline them --audio de tro ASR sang stem; script tron idempotent.
+
+Kiem tra:
+  - QC 14 cong T1-T14 tren 15 clip: EN TK2 DAT TRON (truoc FAIL T6); con 2 clip VN
+    truot T13 (tu cam 'sat hai' - loi co san trong kich ban, can nguoi dung duyet)
+  - Phu duoi 15/15 clip: timeline_end cach speech_end 0,10-1,06 s
+  - Master wav + mp3 dong bo 72,34 s; ban goc luu .work/_cu/entk2_master_premix_20261127_1517/
+
+Ghi chuan: A11 #201 + AGENTS.md H31 + cap nhat bao cao QC Tap04 muc 5.1/5.3,
+provenance.json, BangTheoDoi_TikTok.csv. Khong commit media (L10).

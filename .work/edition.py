@@ -1962,7 +1962,7 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("レインコートの", "殺人鬼") if JA else ("SÁT NHÂN", "ÁO MƯA"),
+        "thumb": ("RAINCOAT", "KILLER") if EN else ("レインコートの", "殺人鬼") if JA else ("SÁT NHÂN", "ÁO MƯA"),
         "thumb_bg": "t25_a1_25_yellow_raincoat_figure_approaching",
         "title": "Sát Nhân Áo Mưa & Cơn Cuồng Nộ Thù Hận Xã Hội — Vỏ Bọc Tự Ti & Tội Ác Đội Lốt Phán Xét (Hồ Sơ Yoo Young-chul)",
         "act_titles": {1: "Hồi 1 · Cơn ác mộng áo mưa vàng & Những bóng ma sau cánh cửa biệt thự Seoul", 2: "Hồi 2 · Cuộc đào tẩu chớp nhoáng & Sự trơ tráo sau chiếc mặt nạ phán xét",

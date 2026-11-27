@@ -1,6 +1,6 @@
-# BÁO CÁO DUYỆT KỊCH BẢN TẬP 31 (BẢN TÁI CẤU TRÚC — HỆ SINH THÁI 10 CHỈ DẤU & GIẢI MÃ BIẾN CHUYỂN TÂM LÝ)
+# BÁO CÁO DUYỆT KỊCH BẢN TẬP 69 (BẢN TÁI CẤU TRÚC — HỆ SINH THÁI 10 CHỈ DẤU & GIẢI MÃ BIẾN CHUYỂN TÂM LÝ)
 
-*Ngày lập: 21/11/2026. Đối tượng: `01_KICH_BAN/Ho_So_Toi_Pham/Tap31/kichban_tap31_19112026.md` (đồng bộ EN, JA).*  
+*Ngày lập: 21/11/2026. Đối tượng: `01_KICH_BAN/Ho_So_Toi_Pham/Tap69/kichban_tap69_19112026.md` (đồng bộ EN, JA).*  
 *Căn cứ quy chuẩn: `AGENTS.md` (Luật K1–K10, Bước 1) và `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Mục A2c).*
 
 ---
@@ -39,6 +39,6 @@
 ---
 
 ## 3. Kết luận Bước 1 (Cổng kiểm duyệt kịch bản)
-* Kịch bản Tập 31 đã hoàn thành xuất sắc việc tái cấu trúc và mở rộng từ 124 câu lên **240 câu thoại** chuẩn mực (>200 câu), đáp ứng 100% yêu cầu về giải phẫu tâm lý 5 chủ thể và cơ chế hối hận.
+* Kịch bản Tập 69 đã hoàn thành xuất sắc việc tái cấu trúc và mở rộng từ 124 câu lên **240 câu thoại** chuẩn mực (>200 câu), đáp ứng 100% yêu cầu về giải phẫu tâm lý 5 chủ thể và cơ chế hối hận.
 * Đạt độ tương thích và đồng bộ 100% dòng (317 dòng) trên cả 3 ngôn ngữ: Tiếng Việt, Tiếng Anh và Tiếng Nhật.
 * Tuân thủ tuyệt đối quy tắc V9 (0 lỗi bạo lực ghê rợn), G1 (0 lỗi dấu ba chấm ngắt nhịp), K1–K10.

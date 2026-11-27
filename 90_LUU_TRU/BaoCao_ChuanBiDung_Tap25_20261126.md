@@ -42,3 +42,22 @@ Dừng ở mốc **sau bước 8 (ảnh tĩnh)** chờ người dùng duyệt. C
 **Thumbnail (H11):** `edition.py` Tập 25 thiếu `thumb_bg` ⇒ khai `thumb_bg = t25_a1_25_yellow_raincoat_figure_approaching` và `thumb` JA (`レインコートの / 殺人鬼`); sao lưu `.work/_cu/edition_truoc_thumb_t25_20261126.py`. Thumbnail VI/JA đã sinh ở `xuat_ban/thumbnail.png`.
 
 **Cảnh báo chất lượng còn lại (chưa xử lý):** shot dài H10/H22 (VI 58 shot > 15 s, JA 64; > 30 s: VI 4, JA 18) · chữ AI trong ảnh nền (`shot_2-046` băng vàng, `shot_5-121` biển POLICE; chưa soi full-res `a1_28`, `a1_18`, `a2_08`) · ảnh gần đen (`a1_32`, `a1_22`, `a3_14`, `a2_16`) · stems giả lập nên A14 tầng 1 chưa kiểm được · timeline dựng từ SRT (ASR ±0,3 s) vì file TTS từng câu đã mất · chưa nghe duyệt cuối.
+
+---
+## 5. CẬP NHẬT 27/11/2026 — ĐÃ DỰNG EN (master mới do người dùng cung cấp)
+
+**Master EN mới** (`Tap25_EN_master.mp3/.wav`, ghi 26/11 20:03; zip `Tap25_EN_xuat_ban.zip` trùng file đã giải nén): 1982,81 s (bản cũ 2050,38 s mất giọng 60 s ⇒ lỗi A14 **đã hết**). Cổng quét mất giọng: 0 khoảng ≥ 4 s ngoài intro/outro (VI/EN/JA).
+
+| Việc | Kết quả |
+|---|---|
+| Timeline EN (`_timeline_from_srt_t25.py --lang en --write`; bản cũ → `.work/_cu/timeline_s_EN_t25_masterCu_20261126.json`) | 230 câu, total 1982,81 s = master (T20); ASR tại 1.02#5 / 3.06#4 / 3.07#1 / 5.05#10 khớp ±0,1 s |
+| Stems giả lập + H24 | ĐẠT cả 5 vai (chạm trần 1,7–3,1 %, lệch chuẩn 0,26–0,28, p95 0,90) |
+| Bảng shot (`map_shot_anh.py --shots 25 --lang en`; bản cũ → `.work/_cu/shots_EN_t25_masterCu_20261126.json`) + `--check 25` | 140 shot, ĐẠT; > 30 s: 0 (master mới ngắn hơn); > 15 s: 57 |
+| Vá thẻ kết EN: `_patch_endcard_t25.py _EN` (nay nhận tham số hậu tố, không vá lại VI/JA) | "CASE FILE 25 · CONCLUDED" + "AMBER EYES · True Crime Criminal Psychology Analysis" |
+| Ảnh tĩnh 140/140 | `.work/video3_EN_t25/stills` |
+| Dựng (4 worker; chậm lúc đầu do RAM trống 1,4 GB) | `picture.mp4` 1982,80 s |
+| Khung thẻ kết (1978 s) / sóng Host 3 khung | có chữ / đổi hình |
+| Mux `Tap25_EN_master.mp4` (limiter `0.63:…:latency=1`) | 1982,80 s · **−16,1 LUFS** · true peak **−4,2 dBFS** · giải mã 0 lỗi · 785 MB |
+| Thumbnail EN | `edition.py`: `thumb` = ("RAINCOAT","KILLER") nếu EN (sao lưu `.work/_cu/edition_truoc_thumbEN_t25_20261127.py`); `Tap25_EN/xuat_ban/thumbnail.png` |
+
+**Tồn đọng EN (như VI/JA):** 57 shot > 15 s (H10) · chữ AI/ảnh tối đã nêu ở mục 3 · stems giả lập nên A14 tầng 1 chưa kiểm · timeline từ SRT · chưa nghe duyệt · chưa chạy `package.py` (giữ `description.txt`, `.srt`).
