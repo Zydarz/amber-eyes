@@ -1,40 +1,37 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Dung timeline_tkN.json cho Tap04 (VN/EN/JA) tu master WAV bang ASR + forced alignment.
+"""ASR theo CUA SO (windowed) cho master audio Tap04 - cham duoi file >= 55 s.
 
-Pipeline:
-  master WAV -> faster-whisper small (word_timestamps) -> cache .work/_tk_asr_tk04_<clip>_<lang>.json
-  spec lines  -> token (word cho EN/VN, KY TU cho JA) -> DP Needleman-Wunsch vs ASR tokens
-  -> line start/end -> timeline_tkN.json (Tap04 / Tap04_EN / Tap04_JA)
+Phat hien 27/11/2026 (EN TK2): faster-whisper transcribe ca file 72.34 s chi nhan
+den 57.72 s (bo 14.64 s co loi o duoi). Transcribe tung cua so ngan 20.5 s (overlap
+1.5 s) thi nhan DUOC tat ca. => dung windowed de sinh word timestamps.
 
-Tieu chuan (L3):
-- Moi dong spec phai match it nhat MOT token ASR.
-- Moc thoi gian tang dan, khong chong nhau.
-- Doan dau bat dau gan 0s; doan cuoi gan cuoi file.
-- Bao cao coverage tung dong de biet dong nao khong chan.
-
-Dung:  py -3 .work/_tk_asr_timeline_t04.py [--lang VN|EN|JA] [--clip TK1 ...] [--write]
+Input : 02_SAN_XUAT/TIKTOK/<Tap04|Tap04_EN|Tap04_JA>/TK{n}_master_audio.mp3
+        (uu tien .mp3 vi renderer cung doc .mp3; .wav chi de doi chieu)
+Output: <dir>/timeline_tk{n}.json  +  .work/_tk_asr_tk04_<clip>_<lang>.json (cache)
 """
 import difflib
+import glob
 import json
 import pathlib
 import re
+import subprocess
 import sys
-import wave
 
 import numpy as np
-from scipy.signal import resample_poly
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+FF = glob.glob(str(ROOT / ".work" / "ffmpeg" / "*" / "bin" / "ffmpeg.exe"))[0]
 WORK = ROOT / ".work"
 LANGDIR = {"VN": "Tap04", "EN": "Tap04_EN", "JA": "Tap04_JA"}
 LANG_CODE = {"VN": "vi", "EN": "en", "JA": "ja"}
 MODE = {"VN": "word", "EN": "word", "JA": "char"}
 CLIPS = ["TK1", "TK2", "TK3", "TK4", "TK5"]
 MODEL = "small"
+WIN_S, OVERLAP_S = 20.5, 4.0
 PUNCT = re.compile(r"[^\w\s]", re.UNICODE)
-JAPUNCT = re.compile(r"[^\w]", re.UNICODE)  # bo ca dau cau, gach noi trong JA
+JAPUNCT = re.compile(r"[^\w]", re.UNICODE)
 
 
 def norm(t, mode="word"):
@@ -43,42 +40,74 @@ def norm(t, mode="word"):
     return [w for w in PUNCT.sub(" ", t.lower()).split() if w]
 
 
-def load16k(path):
-    w = wave.open(str(path), "rb")
-    n, sr, ch = w.getnframes(), w.getframerate(), w.getnchannels()
-    d = np.frombuffer(w.readframes(n), dtype=np.int16).astype(np.float32) / 32768.0
-    w.close()
-    if ch > 1:
-        d = d.reshape(-1, ch).mean(axis=1)
-    if sr != 16000:
-        d = resample_poly(d, 16000, sr).astype(np.float32)
-    return d
+def decode_mp3(path, sr=16000):
+    """Giai ma mp3 -> float32 mono 16 kHz. Dung f32le (s16le lam whisper bo duoi file)."""
+    raw = subprocess.run([FF, "-v", "error", "-i", str(path), "-ar", str(sr), "-ac", "1",
+                          "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    return np.frombuffer(raw, dtype=np.float32).copy()
 
 
-def run_asr(audio_path, cache_path, lang_code):
-    if cache_path.exists():
+def dur_of(path):
+    fp = FF.replace("ffmpeg.exe", "ffprobe.exe")
+    try:
+        return float(subprocess.check_output(
+            [fp, "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]
+        ).decode().strip())
+    except Exception:
+        return None
+
+
+def run_asr(audio, cache_path, lang_code, refresh=False):
+    if cache_path.exists() and not refresh:
         return json.loads(cache_path.read_text(encoding="utf-8"))
     from faster_whisper import WhisperModel
     m = WhisperModel(MODEL, device="cpu", compute_type="int8")
-    audio = load16k(audio_path)
-    segs, info = m.transcribe(audio, language=lang_code, beam_size=5, vad_filter=False,
-                              word_timestamps=True, condition_on_previous_text=False)
-    segs = list(segs)
-    words = []
-    for s in segs:
-        for w in (s.words or []):
-            if w.start is None:
-                continue
-            words.append({"w": w.word.strip(), "s": round(float(w.start), 3), "e": round(float(w.end), 3)})
-    data = {"duration": float(info.duration), "words": words,
-            "segments": [{"s": round(float(s.start), 3), "e": round(float(s.end), 3), "t": s.text.strip()}
-                         for s in segs]}
+    total = len(audio) / 16000.0
+    words, segments = [], []
+    step = WIN_S - OVERLAP_S
+    starts = [0.0]
+    while starts[-1] + step + WIN_S < total:
+        starts.append(starts[-1] + step)
+    # neo cua so cuoi vao cuoi file de bao dam phu duoi (whisper hay bo duoi khi doc file dai)
+    last = max(0.0, total - WIN_S)
+    if last - starts[-1] > 0.5:
+        starts.append(last)
+    for si, st in enumerate(starts):
+        a = audio[int(st * 16000): int(min(st + WIN_S, total) * 16000)]
+        if len(a) < 1600:
+            continue
+        segs, _ = m.transcribe(a, language=lang_code, beam_size=5, vad_filter=False,
+                               condition_on_previous_text=False, word_timestamps=True)
+        for s in segs:
+            s0, e0 = st + float(s.start), st + float(s.end)
+            segments.append({"s": round(s0, 3), "e": round(e0, 3), "t": s.text.strip()})
+            for w in (s.words or []):
+                if w.start is None:
+                    continue
+                words.append({"w": w.word.strip(),
+                              "s": round(st + float(w.start), 3),
+                              "e": round(st + float(w.end), 3)})
+    # khu trung vong overlap: giu mot ban cho moi (text, moc thoi gian) cach nhau < 0.6 s
+    words.sort(key=lambda x: x["s"])
+    kept = []
+    for w in words:
+        dup = False
+        for p in reversed(kept[-12:]):
+            if w["s"] - p["s"] > 0.6:
+                break
+            if p["w"] == w["w"]:
+                dup = True
+                break
+        if not dup:
+            kept.append(w)
+    words = kept
+    words.sort(key=lambda x: x["s"])
+    data = {"duration": total, "words": words, "segments": segments, "method": "windowed"}
     cache_path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     return data
 
 
 def expand_word(word_text, s, e, mode):
-    """ tach 1 tu ASR thanh nhieu token (word -> chuoi tu; char -> tung ky tu) va noi thoi gian."""
     toks = norm(word_text, mode)
     if not toks:
         return []
@@ -87,7 +116,6 @@ def expand_word(word_text, s, e, mode):
 
 
 def align(spec_tokens, asr_tokens, gap=-0.35, min_sim=0.45):
-    """Needleman-Wunsch: spec token (theo thu tu) vs ASR token. Tra mapping spec_idx -> asr_idx."""
     n, m = len(spec_tokens), len(asr_tokens)
     rat = {}
     for i, a in enumerate(spec_tokens):
@@ -136,13 +164,21 @@ def align(spec_tokens, asr_tokens, gap=-0.35, min_sim=0.45):
     return mapping
 
 
-def build_timeline(lang, cid, write=False):
+def build_timeline(lang, cid, write=False, refresh=False):
     mode = MODE[lang]
     d = ROOT / "02_SAN_XUAT" / "TIKTOK" / LANGDIR[lang]
     spec = json.loads((d / "SPEC_AUDIO_CLIP_TAP04.json").read_text(encoding="utf-8-sig"))
     lines = spec["clips"][cid]["lines"]
+    mp3 = d / f"{cid}_master_audio.mp3"
+    wav = d / f"{cid}_master_audio.wav"
+    dw, dm = dur_of(wav), dur_of(mp3)
+    warn = ""
+    if dw and dm and abs(dw - dm) > 0.05:
+        warn = (f"  [CANH BAO] wav ({dw:.2f}s) <> mp3 ({dm:.2f}s) LECH PHIEN BAN "
+                f"({dw - dm:+.2f}s) - dung mp3")
+    audio = decode_mp3(mp3)
     cache = WORK / f"_tk_asr_tk04_{cid}_{lang}.json"
-    asr = run_asr(d / f"{cid}_master_audio.wav", cache, LANG_CODE[lang])
+    asr = run_asr(audio, cache, LANG_CODE[lang], refresh=refresh)
     words = asr["words"]
     total = asr["duration"]
 
@@ -201,8 +237,10 @@ def build_timeline(lang, cid, write=False):
         r["end"] = round(max(r["end"], r["start"]), 3)
         prev_end = r["end"]
 
-    print(f"\n=== {lang} {cid}  mode={mode}  dur={total:.2f}s  lines={len(lines)}  "
-          f"asr_tokens={len(asr_tokens)}")
+    print(f"\n=== {lang} {cid}  mode={mode}  mp3={total:.2f}s  lines={len(lines)}  "
+          f"asr_tokens={len(asr_tokens)}  asr_words={len(words)}")
+    if warn:
+        print(warn)
     est_sum = sum(l["est_dur_s"] for l in lines)
     meas_sum = sum(r["end"] - r["start"] for r in rows)
     print(f"    measured speech={meas_sum:.2f}s   spec est={est_sum:.2f}s")
@@ -219,6 +257,7 @@ def build_timeline(lang, cid, write=False):
         print(f"    {l['clip_line_id']:<12} {r['start']:6.2f}-{r['end']:6.2f} "
               f"({r['end'] - r['start']:5.2f}s est={l['est_dur_s']:5.2f}s) "
               f"match={r['nmatch']}/{r['ntok']} bg={l['bg']}{flag}")
+    print(f"    audio tail check: asr_end={max((w['e'] for w in words), default=0):.2f} / audio {total:.2f}s")
     if write:
         tl = []
         for r in rows:
@@ -242,6 +281,7 @@ def main():
     if "--lang" in args:
         lang = args[args.index("--lang") + 1].upper()
     write = "--write" in args
+    refresh = "--refresh" in args
     clips = list(CLIPS)
     if "--clip" in args:
         i = args.index("--clip")
@@ -252,7 +292,7 @@ def main():
             clips.append(a.upper())
     total_bad = 0
     for cid in clips:
-        total_bad += build_timeline(lang, cid, write=write)
+        total_bad += build_timeline(lang, cid, write=write, refresh=refresh)
     print(f"\nTONG DONG CO VAN DE: {total_bad}")
 
 

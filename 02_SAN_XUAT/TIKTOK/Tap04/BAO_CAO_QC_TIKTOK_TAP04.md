@@ -1,8 +1,8 @@
 # BÁO CÁO DỰNG CLIP TIKTOK — TẬP 04 (VN · EN · JA)
 
-*Ngày: 27/11/2026 · 15 clip 9:16 (5 clip × 3 ngôn ngữ) · có logo kênh theo **H29***
+*Ngày: 27/11/2026 (cập nhật sau khi dựng lại EN TK2) · 15 clip 9:16 (5 clip × 3 ngôn ngữ) · có logo kênh theo **H29***
 *Kế hoạch: `Tap04/KE_HOACH_CLIP_TAP04.md` · `Tap04_EN/KE_HOACH_CLIP_TAP04_EN.md` · `Tap04_JA/KE_HOACH_CLIP_TAP04_JA.md`*
-*Quy trình chung: `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` mục 4 (Bước 4–7) · Luật logo: `AGENTS.md` H29 · A11 #198, #199*
+*Quy trình chung: `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` mục 4 (Bước 4–7) · Luật logo: `AGENTS.md` H29 · A11 #198, #199, **#200** (ASR cửa sổ + nguồn mp3)*
 
 ---
 
@@ -13,14 +13,14 @@
 | Số clip dựng | **15/15** (VN 5 · EN 5 · JA 5) — file `TKn_video.mp4` trong 3 thư mục ngôn ngữ |
 | Kết cấu | **1080×1920 · h264 + aac · 30,00 fps** — 15/15 đúng |
 | Thời lượng | **68,83 – 88,28 s** (mục tiêu 60–90 s · cổng QC 45–95 s) — 15/15 trong ngưỡng |
-| Âm lượng trên mp4 cuối | **−16,4 … −16,0 LUFS** (ngưỡng −16 ± 1) · true peak **−4,4 … −4,0 dBFS** (trần −1,5) — 15/15 đạt |
-| Khoảng câm > 0,3 s @ −60 dB | **0** trên cả 15 clip |
+| Âm lượng trên mp4 cuối | **−16,4 … −16,0 LUFS** (ngưỡng −16 ± 1) — 15/15 đạt · true peak **−4,4 … −1,8 dBFS** (trần −1,5) — **14/15 đạt, EN TK2 trượt** |
+| Khoảng câm > 0,3 s @ −60 dB | **0** trên 14 clip · **11 khoảng** trên EN TK2 (master mới không có nhạc nền — mục 5.1) |
 | Lệch hình/tiếng | **0,00 s** (video bắt đầu tại 0,000; sai khác ≤ 0,05 s) |
 | Giải mã | **0 lỗi** cả 15 file |
 | **Logo kênh (H29)** | **15/15 có mặt** — đo bằng cách dựng lại frame gốc và so pixel (mục 4) |
 | Chữ trên khung (H26) | **0** — ngoài vùng logo, **0,000–0,001 %** pixel lệch ⇒ không có chữ/overlay nào thêm vào |
 | Dung lượng | 21,6 – 31,7 MB/clip (trần 500 MB) |
-| **Lỗi còn lại** | **2 lỗi T13 (từ cấm) ở clip VN** · **1 lỗi audio nghiêm trọng ở EN TK2** (mục 5) |
+| **Lỗi còn lại** | **2 lỗi T13 (từ cấm) ở clip VN** · **1 lỗi T6 (khoảng câm) + true peak vượt trần ở EN TK2** (mục 5.1) · từ cấm + BGM (mục 5.2, 5.3) |
 
 **Tiền cảnh:** 23 nền dọc `assets/bg/tk04_*.png` (23/23 tồn tại, đúng 1080×1920, đủ 48/48 shot × 3 ngôn ngữ) — báo cáo nền: `BAO_CAO_ANH_NEN_DOC_TAP04.md`.
 
@@ -50,7 +50,7 @@
 | VN | TK4 | 72,24 s | 25,2 | −16,1 | −4,2 | 0 | ✓ | ĐẠT |
 | VN | TK5 | 79,27 s | 27,2 | −16,0 | −4,3 | 0 | ✓ | ĐẠT |
 | EN | TK1 | 70,68 s | 29,6 | −16,3 | −4,0 | 0 | ✓ | ĐẠT |
-| EN | TK2 | 70,90 s | 23,5 | −16,0 | −4,2 | 0 | ✓ | ĐẠT *(nhưng audio lỗi — mục 5)* |
+| EN | TK2 | 72,34 s | 25,6 | −16,3 | **−1,8** | **11** | ✓ | **TRƯỢT T6** (11 khoảng câm) — audio mới (mục 5.1) |
 | EN | TK3 | 75,13 s | 26,5 | −16,1 | −4,3 | 0 | ✓ | ĐẠT |
 | EN | TK4 | 73,60 s | 25,4 | −16,2 | −4,2 | 0 | ✓ | ĐẠT |
 | EN | TK5 | 68,83 s | 21,6 | −16,1 | −4,1 | 0 | ✓ | ĐẠT |
@@ -60,7 +60,7 @@
 | JA | TK4 | 83,48 s | 28,3 | −16,4 | −4,2 | 0 | ✓ | ĐẠT |
 | JA | TK5 | 80,90 s | 26,3 | −16,0 | −4,4 | 0 | ✓ | ĐẠT |
 
-**Tổng: 13/15 clip đạt trọn 14 cổng · 2 clip VN trượt cổng T13 (từ cấm) — lỗi kịch bản, không phải lỗi dựng.**
+**Tổng: 12/15 clip đạt trọn 14 cổng · 2 clip VN trượt cổng T13 (từ cấm) · 1 clip EN TK2 trượt cổng T6 (khoảng câm, do master audio mới) — lỗi kịch bản/audio, không phải lỗi dựng.**
 
 ### 3.1. Hai cổng N/A (có lý do, không phải bỏ qua)
 
@@ -92,24 +92,43 @@ Cách đo (script `.work/_qc_tk_tap04_clip.py`): với mỗi clip lấy **7 khun
 
 ## 5. VẤN ĐỀ AUDIO — 3 nhóm, đều gửi lại người dùng (không tự sửa)
 
-### 5.1. LỖI NGHIÊM TRỌNG — clip EN TK2 thiếu 2 câu, đuôi 14,76 s chỉ có nhạc nền
+### 5.1. EN TK2 — ĐÃ DỰNG LẠI (master mới 27/11) · còn 1 lỗi T6 + true peak vượt trần
 
-| Đo được | Số |
+**Bối cảnh:** bản cũ báo "thiếu 2 câu". Người dùng đã tạo lại `Tap04_EN/TK2_master_audio.mp3` (27/11/2026, 14:04) — **72,34 s** (bản cũ 70,90 s). Đo lại toàn bộ:
+
+| Đo được | Kết quả |
 |---|---|
 | Số câu trong `SPEC_AUDIO_CLIP_TAP04.json` | **11** |
-| Số câu thật sự có trong `Tap04_EN/TK2_master_audio.mp3` | **9** |
-| Lời dừng ở | **56,14 s** — đúng câu `TK2.01#9` ("…one of the most prolific serial killers in history.") |
-| Đuôi file | **70,90 s** ⇒ **14,76 s không có lời**, chỉ có bed nhạc nền (RMS −19,6 … −20,3 dBFS) |
-| Câu thiếu | `TK2.01#10` (vai C — *"Through the lens of criminal psychology, Charles Cullen exhibited classic hallmarks of psychological "Objectification" and severe dehumanization."*) · `TK2.01#11` (CTA vai H — *"Episode four of Amber Eyes. Watch the full documentary via the bio link."*) |
+| Số câu thật sự có trong master mới | **11/11** — ASR căn cửa sổ 20,5 s: `#1`–`#10` khớp **100 %**, `#11` khớp **12/13 (92,3 %)** |
+| Timeline dựng lại | `timeline_tk2.json` — **0 dòng NOI SUY, 0 dòng MATCH YEU**; `asr_end` 72,00 / audio 72,34 s |
+| Clip render lại | `Tap04_EN/TK2_video.mp4` — 72,34 s · 1080×1920 · h264+aac @30,00 · **0 lỗi giải mã** · 11 shot đúng nền · logo (684, 60) |
 
-**Đã loại trừ:** không phải lỗi render (video đúng 9 shot theo timeline) · không phải lỗi ASR (chạy ASR riêng trên đoạn 54–71 s: chỉ ra đúng câu #9 rồi im) · không phải lỗi splice (các clip EN khác đủ 9/11, 10/10, 9/9 câu).
+**Nguyên nhân thật của lỗi "thiếu 2 câu" (không phải audio thiếu):**
 
-**Không có bản WAV nào trên máy để vá:** `.work/audio_s_tk_t04_en/` đã bị xoá · WAV câu `2.11#1` của tập chính (`s2_11_01.wav`) không còn · `audio_master_EN_t04.wav` đã bị xoá trong đợt dọn media · output Higgs cũ chỉ còn log, không còn WAV.
+| Kiểm chứng | Kết quả |
+|---|---|
+| ASR **cả file** mp3 mới (72,34 s) | chỉ trả về tới **57,72 s** ⇒ 2 câu cuối bị ghi "NOI SUY" |
+| ASR **riêng đoạn đuôi** (58,2–72,3 s) | **nhận đủ cả 2 câu**, 100 % khớp |
+| ASR **riêng đuôi WAV cũ** (50,9–70,9 s) | **nhận đủ cả 2 câu**: *"Through the lens of criminal psychology…"* 56,90–62,32 s và *"Episode 4 of Amber Eyes…"* 65,88–70,06 s ⇒ **bản WAV cũ CŨNG ĐỦ 11 câu** |
+| Giải mã `s16le` vs `f32le` | `s16le` ⇒ whisper dừng ở **57,72 s**; `f32le` ⇒ tới 67,22 s (vẫn mất câu cuối) ⇒ lỗi ở **cách đọc file dài** |
+| Cửa sổ 20,5 s (overlap 4 s, cửa sổ cuối neo vào cuối file) | **11/11 câu, asr_end 72,00/72,34 s** ⇒ cách sửa |
 
-**Cách sửa duy nhất đúng chuẩn:** sinh lại 2 câu bằng **Higgs Audio v3** (đúng engine + đúng giọng vai C/H của bộ EN) rồi chèn vào master. Engine này của dự án **chạy trên Kaggle GPU** (hoặc Apple MLX — máy này không có). Tôi **đã dừng theo yêu cầu, không tự chạy tiếp**.
+⇒ **Không phiên bản nào thiếu câu nào.** Lỗi là ASR bỏ đuôi file dài + builder đọc `.wav` (24/11) trong khi renderer đọc `.mp3` (27/11). Đã ghi **A11 #200** và sửa builder: đọc `.mp3` (đúng file renderer dùng), ASR theo cửa sổ, giải mã `f32le`, in cảnh báo khi wav/mp3 lệch > 0,05 s.
 
-> **Lưu ý:** một kernel Kaggle đã được push **trước** khi có chỉ đạo dừng (`chiduong2026/amber-eyes-higgs-fix-en-tk02-t04-kaggle-gpu` + dataset `chiduong2026/amber-eyes-higgs-fix-en-tk02-t04`). Watcher đã tắt. **Cần hủy kernel đó trên Kaggle UI** nếu không dùng.
+**Phủ đuôi kiểm cho cả 15 clip** (`.work/_check_tail_coverage.py`): `timeline_end` cách `speech_end` (RMS > −45 dBFS) **0,10 – 1,06 s** ⇒ **15/15 phủ đủ đuôi**, không clip nào khác bị mất câu.
 
+**Lỗi CÒN LẠI trên master mới — cần người dùng quyết:**
+
+| # | Lỗi | Đo được | Cổng vi phạm |
+|---|---|---|---|
+| 1 | **11 khoảng câm > 0,3 s** | 0,316 – 0,843 s tại 1,93 · 4,30 · 6,12 · 9,66 · 20,30 · 28,58 · 36,57 · 42,58 · 48,54 · 58,30 · 67,41 s | **T6 trượt** (cổng này đạt ở 14 clip còn lại) |
+| 2 | **True peak vượt trần** | **+1,25 dBFS** (trần −1,5) · **312 mẫu > 0 dBFS** rải rác 29 đoạn · 380 mẫu > −0,1 dBFS | **A7 / trần TP** |
+| 3 | **Master mới KHÔNG có nhạc nền** | nền im lặng trung bình **−70,6 dB** (14 clip khác: −16,2…−17,2 dB) · **8,1 % file là im lặng tuyệt đối** (peak < −100 dBFS; 14 clip khác: **0,00 %**) | Gốc rễ của lỗi #1 |
+| 4 | **WAV cũ còn trên đĩa** | `TK2_master_audio.wav` = 70,90 s (24/11) — **lệch 1,44 s** với mp3 | Không ảnh hưởng dựng (builder đã đọc mp3) nhưng dễ nhầm |
+
+**Vì sao không tự sửa:** (a) thêm nhạc nền / hạ đỉnh = **sửa audio** ⇒ cần người dùng duyệt; (b) `bgm_ambient_tension.mp3` **không còn trên đĩa** (mục 5.3) ⇒ không có nguồn để trộn; (c) WAV là file của người dùng.
+
+**Cách khắc phục (đề xuất, chờ duyệt):** trộn lại nhạc nền có sẵn + `alimiter` (A11 #38: `limit=0.7943:attack=5:release=50:level=disabled:latency=1`) để peak ≤ −1,5 dBFS ⇒ xoá được cả 11 khoảng câm lẫn lỗi TP. Cần người dùng: **(1)** xác nhận nguồn nhạc nền được phép dùng, **(2)** cho phép trộn/ghi lại `TK2_master_audio.mp3`, **(3)** cho phép tạo lại `.wav` từ mp3 để hai bản đồng bộ.
 ### 5.2. LỖI NỘI DUNG — từ cấm A9.2 trong 2 clip VN
 
 Cổng T13 quét từng clip theo danh sách A9.2 (`máu` ngoại trừ "ung thư máu", `thi thể`, `sát hại`, `đòn`, `trói`, `bầm`, `đập`, `đầu độc`, `diệt cỏ`, `bỏ đói`, `móc áo`…):
@@ -125,14 +144,14 @@ Cổng T13 quét từng clip theo danh sách A9.2 (`máu` ngoại trừ "ung th�
 
 | # | Vấn đề | Đo được | Ảnh hưởng |
 |---|---|---|---|
-| 1 | **Nhạc nền không truy vết được** | `SPEC_AUDIO_CLIP_TAP04.json` ghi `bgm: "bgm_ambient_tension.mp3"` — nhưng file **không tồn tại** trong `assets/bgm/` lẫn `.work/` (đã bị xoá). Đối chiếu tương quan envelope với 11 BGM còn lại trong `assets/bgm/`: **không ứng viên nào khớp** (|corr| 0,24–0,44) ⇒ bed là BGM MiniMax đã mất file nguồn | **Vi phạm T9/L7** — không chứng minh được nguồn âm thanh của clip. Cần user xác nhận: bed này có phải BGM MiniMax (đã kiểm tra thương mại) không, và có cho phép đăng TikTok không |
-| 2 | **Khoảng nghỉ giữa câu dài hơn spec** | 8 vị trí trên 15 clip có gap 1,6–2,9 s (spec 0,5–0,7 s) | **KHÔNG vi phạm T6**: `silencedetect` cho 0 khoảng câm > 0,3 s @ −60 dB ⇒ các khoảng nghỉ này **có bed nhạc nền**, không phải im lặng. Vẫn ghi ra để user biết |
+| 1 | **Nhạc nền không truy vết được** | `SPEC_AUDIO_CLIP_TAP04.json` ghi `bgm: "bgm_ambient_tension.mp3"` — nhưng file **không tồn tại** trong `assets/bgm/` lẫn `.work/` (đã bị xoá). Đối chiếu tương quan envelope với 11 BGM còn lại trong `assets/bgm/`: **không ứng viên nào khớp** (\|corr\| 0,24–0,44) ⇒ bed là BGM MiniMax đã mất file nguồn. **Thêm 27/11:** master mới của EN TK2 **không có bed nhạc nền nào cả** (nền −70,6 dB, 8,1 % file im lặng tuyệt đối) ⇒ không phải "bed khác" mà là **thiếu bed** | **Vi phạm T9/L7** — không chứng minh được nguồn âm thanh của clip. Cần user xác nhận: bed này có phải BGM MiniMax (đã kiểm tra thương mại) không, và có cho phép đăng TikTok không |
+| 2 | **Khoảng nghỉ giữa câu dài hơn spec** | 8 vị trí trên 14 clip (không tính EN TK2) có gap 1,6–2,9 s (spec 0,5–0,7 s) | **KHÔNG vi phạm T6**: `silencedetect` cho 0 khoảng câm > 0,3 s @ −60 dB ⇒ các khoảng nghỉ này **có bed nhạc nền**, không phải im lặng. Vẫn ghi ra để user biết |
 
 ---
 
 ## 6. Việc còn lại (người dùng)
 
-1. **Quyết định về EN TK2** — 3 lựa chọn: (a) cho phép chạy Kaggle Higgs để sinh 2 câu rồi chèn lại + dựng lại clip; (b) dùng 9 câu hiện có (đuôi cắt bớt, mất 2 câu) — **vi phạm G6** (lời đọc phải khớp câu gốc); (c) giữ nguyên và để đuôi 14,76 s trống có nhạc nền — **không đạt chuẩn đăng**.
+1. **EN TK2 — đã dựng lại xong** (11/11 câu, 0 lỗi giải mã). Còn 2 lỗi audio trên master mới (mục 5.1): **11 khoảng câm > 0,3 s (T6)** + **true peak +1,25 dBFS (vượt trần)** — gốc rễ: master mới **không có nhạc nền**. Cần người dùng: xác nhận nguồn nhạc nền + cho phép trộn lại/hạ đỉnh master + cho phép tạo lại `.wav` từ mp3.
 2. **Quyết định về từ cấm `sát hại`** ở VN TK1/TK3 — có thay câu trong kịch bản (cần duyệt) hay chấp nhận ngoại lệ cho clip TikTok.
 3. **Xác nhận nguồn nhạc nền** (mục 5.3 #1).
 4. **Hủy kernel Kaggle** đã push (nếu không dùng): `chiduong2026/amber-eyes-higgs-fix-en-tk02-t04-kaggle-gpu`.
@@ -143,6 +162,6 @@ Cổng T13 quét từng clip theo danh sách A9.2 (`máu` ngoại trừ "ung th�
 
 ## 7. Script đã tạo (`.work/`)
 
-`_audit_tk04_assets.py` (kiểm ảnh nền) · `_tk_asr_timeline_t04.py` (dựng timeline) · `_build_tk_tap04_video_notext.py` (dựng clip + logo H29) · `_audit_audio_tk04.py` (quét audio 15 master) · `_qc_tk_tap04_clip.py` (14 cổng T1–T14 + H26 + H29) · `_qc_tk04_frames/` (khung hình QC)
+`_audit_tk04_assets.py` (kiểm ảnh nền) · `_tk_asr_timeline_t04.py` (dựng timeline — **đã đổi sang ASR cửa sổ + đọc mp3**, A11 #200) · `_build_tk_tap04_video_notext.py` (dựng clip + logo H29) · `_audit_audio_tk04.py` (quét audio 15 master) · `_qc_tk_tap04_clip.py` (14 cổng T1–T14 + H26 + H29) · `_check_tail_coverage.py` (kiểm phủ đuôi 15 clip) · `_clip_scan.py` (đếm mẫu clip) · `_silence_scan_mp3.py` (đếm khoảng câm) · `_qc_tk04_frames/` (khung hình QC)
 
 Báo cáo máy đọc: `.work/_qc_tk04_clip.json` · `.work/_audit_audio_tk04.json`
