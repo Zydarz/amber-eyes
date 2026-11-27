@@ -1,8 +1,8 @@
 # BÁO CÁO DỰNG CLIP TIKTOK — TẬP 04 (VN · EN · JA)
 
-*Ngày: 27/11/2026 (cập nhật lần 2 — sau khi **trộn lại master EN TK2**) · 15 clip 9:16 (5 clip × 3 ngôn ngữ) · có logo kênh theo **H29***
+*Ngày: 27/11/2026 (cập nhật lần 3 — sau khi **đóng gói Bước 8**: nhãn AIGC + `mo_ta.txt` + `checklist_dang.md`) · 15 clip 9:16 (5 clip × 3 ngôn ngữ) · có logo kênh theo **H29***
 *Kế hoạch: `Tap04/KE_HOACH_CLIP_TAP04.md` · `Tap04_EN/KE_HOACH_CLIP_TAP04_EN.md` · `Tap04_JA/KE_HOACH_CLIP_TAP04_JA.md`*
-*Quy trình chung: `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` mục 4 (Bước 4–7) · Luật logo: `AGENTS.md` H29 · A11 #198, #199, #200, **#201** · Luật audio: `AGENTS.md` **H30, H31***
+*Quy trình chung: `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` mục 4 (Bước 4–8) · Luật logo: `AGENTS.md` H29 · A11 #198, #199, #200, #201, #202, **#203** · Luật audio: `AGENTS.md` **H30, H31** · Luật đóng gói: `AGENTS.md` **H32***
 
 ---
 
@@ -20,7 +20,8 @@
 | **Logo kênh (H29)** | **15/15 có mặt** — đo bằng cách dựng lại frame gốc và so pixel (mục 4) |
 | Chữ trên khung (H26) | **0** — ngoài vùng logo, **0,000–0,001 %** pixel lệch ⇒ không có chữ/overlay nào thêm vào |
 | Dung lượng | 21,6 – 31,7 MB/clip (trần 500 MB) |
-| **Lỗi còn lại** | **2 lỗi T13 (từ cấm) ở clip VN** (lỗi kịch bản, cần duyệt) · **T9/L7: nguồn nhạc nền của 14 clip còn lại không truy vết được** (mục 5.3) — EN TK2 **đã hết lỗi audio** |
+| **Đóng gói Bước 8** | **21 file** — 15 `Caption_TK*.txt` (có dòng nhãn AIGC dòng 9 + khối “Ghi chú khi đăng”) + 3 `mo_ta.txt` + 3 `checklist_dang.md` (mục 7) — phần dán sạch từ cấm A9.2 **15/15** |
+| **Lỗi còn lại** | **2 lỗi T13 (từ cấm) ở clip VN** (lỗi kịch bản, cần duyệt) · **T9/L7: nguồn nhạc nền của 14 clip còn lại không truy vết được** (mục 5.3) — EN TK2 **đã hết lỗi audio** · **link YouTube Tập 04 chưa có** (placeholder ở caption + mo_ta + checklist) |
 
 **Tiền cảnh:** 23 nền dọc `assets/bg/tk04_*.png` (23/23 tồn tại, đúng 1080×1920, đủ 48/48 shot × 3 ngôn ngữ) — báo cáo nền: `BAO_CAO_ANH_NEN_DOC_TAP04.md`.
 
@@ -50,7 +51,7 @@
 | VN | TK4 | 72,24 s | 25,2 | −16,1 | −4,2 | 0 | ✓ | ĐẠT |
 | VN | TK5 | 79,27 s | 27,2 | −16,0 | −4,3 | 0 | ✓ | ĐẠT |
 | EN | TK1 | 70,68 s | 29,6 | −16,3 | −4,0 | 0 | ✓ | ĐẠT |
-| EN | TK2 | 72,34 s | 25,6 | −16,3 | −4,5 | 0 | ✓ | **ĐẠT** (đã trộn lại master 27/11 — mục 5.1) |
+| EN | TK2 | 72,34 s | 24,5 | −16,3 | −4,5 | 0 | ✓ | **ĐẠT** (đã trộn lại master 27/11 — mục 5.1) |
 | EN | TK3 | 75,13 s | 26,5 | −16,1 | −4,3 | 0 | ✓ | ĐẠT |
 | EN | TK4 | 73,60 s | 25,4 | −16,2 | −4,2 | 0 | ✓ | ĐẠT |
 | EN | TK5 | 68,83 s | 21,6 | −16,1 | −4,1 | 0 | ✓ | ĐẠT |
@@ -61,6 +62,8 @@
 | JA | TK5 | 80,90 s | 26,3 | −16,0 | −4,4 | 0 | ✓ | ĐẠT |
 
 **Tổng: 13/15 clip đạt trọn 14 cổng · 2 clip VN trượt cổng T13 (từ cấm `sát hại` — lỗi có sẵn trong kịch bản, cần người dùng duyệt) · EN TK2 đã hết lỗi audio sau khi trộn lại master.**
+
+> **Sửa số liệu (27/11, lượt đóng gói Bước 8):** ô dung lượng của **EN TK2** trước đây ghi **25,6 MB** — đó là số của file *cũ trước khi render lại*. Đo lại từ file thành phẩm hiện tại (`ffprobe`): **24,5 MiB** (25.718.456 byte) ⇒ đã sửa ô này. Thời lượng 72,34 s, LUFS −16,3, TP −4,5 dBFS **không đổi** (đo lại trực tiếp trên mp4: true peak −4,5 dBFS). Bài học: **bảng QC phải cập nhật lại mỗi khi render lại clip** — không giữ số của file cũ (A11 #203).
 
 ### 3.1. Hai cổng N/A (có lý do, không phải bỏ qua)
 
@@ -150,12 +153,33 @@ Cổng T13 quét từng clip theo danh sách A9.2 (`máu` ngoại trừ "ung th�
 2. **VN TK1 / TK3** — chờ người dùng duyệt kịch bản (xem 6.1 #1).
 3. **14 clip còn lại** — chờ người dùng xác nhận nguồn nhạc nền (xem 6.1 #2).
 4. **Kernel Kaggle** — giữ, không hủy (xem 6.1 #3). Dataset `chiduong2026/amber-eyes-higgs-fix-en-tk02-t04` cũng giữ.
-5. **Caption/mô tả**: 5 file caption mỗi ngôn ngữ vẫn là placeholder — chưa điền link YouTube Tập 04 (Bước 8 của kế hoạch).
+5. **Caption/mô tả — BƯỚC 8 ĐÃ ĐÓNG GÓI (27/11)**: 15 `Caption_TK*.txt` đã có **dòng nhãn AIGC** (dòng 9) + khối “Ghi chú khi đăng”; đã tạo **3 `mo_ta.txt`** + **3 `checklist_dang.md`** (mục 7). **Còn thiếu:** link YouTube Tập 04 (placeholder rõ ràng ở cả 3 nơi) — chờ người dùng cấp link.
 6. **Không commit media** (L10): 15 mp4 + 15 timeline + ảnh QC đều bị `.gitignore` loại — chỉ commit tài liệu + script.
 
 ---
-## 7. Script đã tạo (`.work/`)
+## 7. ĐÓNG GÓI BƯỚC 8 (27/11/2026) — 21 file tài liệu
 
-`_audit_tk04_assets.py` (kiểm ảnh nền) · `_tk_asr_timeline_t04.py` (dựng timeline — **ASR cửa sổ + đọc mp3 + `--audio` trỏ voice stem**, A11 #200/#201) · `_build_tk_tap04_video_notext.py` (dựng clip + logo H29) · `_remix_entk2.py` (**trộn lại master**: voice + BGM ducking + ambience + loudnorm 2 lượt) · `_audit_audio_tk04.py` (quét audio 15 master) · `_qc_tk_tap04_clip.py` (14 cổng T1–T14 + H26 + H29) · `_check_tail_coverage.py` (kiểm phủ đuôi 15 clip) · `_clip_scan.py` (đếm mẫu clip) · `_silence_scan_mp3.py` (đếm khoảng câm) · `_identify_bed.py` / `_match_bed_full.py` / `_match_bed_wave.py` (truy vết bed) · `_qc_tk04_frames/` (khung hình QC)
+**Trạng thái trước:** 15 `Caption_TK*.txt` đều **thiếu dòng nhãn AIGC** (TikTok bắt buộc) và **thiếu khối “Ghi chú khi đăng”**; thiếu cả `mo_ta.txt` lẫn `checklist_dang.md` ở cả 3 thư mục ngôn ngữ ⇒ người đăng tay phải tự thêm 15 lần, hoặc đăng thiếu nhãn. Tiền lệ không nhất quán: Tap 03 VN có đủ 2 phần, Tap 03 EN/JA thiếu ⇒ mẫu chuẩn lấy `Tap03/Caption_TK1.txt` + `Tap01/mo_ta.txt`.
+
+| # | Việc | Kết quả |
+|---|---|---|
+| 1 | 15 `Caption_TK*.txt` (5 clip × 3 ngôn ngữ) | Thêm **dòng nhãn AIGC ở dòng 9** (ngay trước hashtag) + khối **“Ghi chú khi đăng”** sau dấu `---` (toggle AIGC · link bio · độ dài caption · file + thời lượng + số câu · trạng thái QC · nguồn BGM · 2 bản mô tả) |
+| 2 | 3 `mo_ta.txt` (VN/EN/JA) | Phiếu đóng gói: **[A]** 5 caption dán của tập · **[A2]** link YouTube (placeholder) + cách đặt vào bio · **[B]** dòng AIGC bắt buộc · **[C]** lưu ý an toàn + hotline (111 ở VN, 189 ở JA) · **[D]** bảng số đo 5 clip |
+| 3 | 3 `checklist_dang.md` (VN/EN/JA) | Trạng thái từng clip (QC 14 cổng · caption · toggle AIGC · link bio · an toàn · trạng thái · ngày đăng) + **7 việc chung của tập** + 5 cảnh báo trước khi đăng |
+| 4 | Số đo trong ghi chú | **ĐO từ file mp4 thành phẩm** (`ffprobe`): 68,83–88,28 s · 21,6–31,7 MB · I −16,4…−16,0 LUFS · TP −4,5…−4,0 dBFS · 9–11 câu/clip · 15/15 `h264+aac` @30,00 fps · 0 lỗi giải mã |
+| 5 | Quét từ cấm A9.2 trong **phần caption dán** | **15/15 sạch** (0 từ cấm trong phần sẽ dán) |
+| 6 | Độ dài caption (kể cả dòng AIGC) | VN **594–624** · EN **638–664** · JA **301–317** ký tự — dưới trần 2.200 |
+| 7 | Clip đã biết lỗi | **VN TK1 / TK3 đánh dấu “CHẶN”** trong checklist + cảnh báo ngay trong caption (từ cấm `sát hại`, T13) — **không đăng** cho tới khi có câu thay thế được duyệt |
+| 8 | BGM | 14 clip ghi rõ “bed đã mất file nguồn — chờ xác nhận”; **EN TK2** ghi rõ `bgm_ambient_deep.mp3` (có provenance) |
+| 9 | Link YouTube Tập 04 | **CHƯA CÓ** ⇒ placeholder `[LINK_TẬP 04 — cần điền]` ở caption, `[LINK_TẬP 04 — CHƯA CÓ…]` ở `mo_ta.txt`, mục 1 ở `checklist_dang.md` |
+
+**Bài học (đã ghi A11 #203 + luật H32):** **cổng QC 14 cổng KHÔNG phủ được phần đóng gói** — video đạt trọn vẫn có thể thiếu nhãn AIGC, thiếu ghi chú, thiếu checklist. Và **bảng QC phải cập nhật lại khi render lại clip**: ô dung lượng EN TK2 ghi 25,6 MB (số file cũ) trong khi file hiện tại là **24,5 MiB** ⇒ đã sửa ở mục 3.
+
+**Còn thiếu cho tới khi người dùng quyết:** (1) link YouTube Tập 04; (2) câu thay thế cho 2 từ cấm `sát hại` (VN TK1/TK3); (3) xác nhận nguồn nhạc nền 14 clip.
+
+---
+## 8. Script đã tạo (`.work/`)
+
+`_audit_tk04_assets.py` (kiểm ảnh nền) · `_tk_asr_timeline_t04.py` (dựng timeline — **ASR cửa sổ + đọc mp3 + `--audio` trỏ voice stem**, A11 #200/#201) · `_build_tk_tap04_video_notext.py` (dựng clip + logo H29) · `_remix_entk2.py` (**trộn lại master**: voice + BGM ducking + ambience + loudnorm 2 lượt) · `_audit_audio_tk04.py` (quét audio 15 master) · `_qc_tk_tap04_clip.py` (14 cổng T1–T14 + H26 + H29) · `_check_tail_coverage.py` (kiểm phủ đuôi 15 clip) · `_clip_scan.py` (đếm mẫu clip) · `_silence_scan_mp3.py` (đếm khoảng câm) · `_identify_bed.py` / `_match_bed_full.py` / `_match_bed_wave.py` (truy vết bed) · **`_tk04_package_b8.py` (đóng gói Bước 8: nhãn AIGC + ghi chú + `mo_ta.txt` + `checklist_dang.md` — idempotent)** · **`_tk04_pkg_measure.py` (đo số liệu 15 clip bằng ffprobe)** · **`_tk04_prov_csv.py` (provenance + CSV)** · `_qc_tk04_frames/` (khung hình QC)
 
 Báo cáo máy đọc: `.work/_qc_tk04_clip.json` · `.work/_audit_audio_tk04.json`
